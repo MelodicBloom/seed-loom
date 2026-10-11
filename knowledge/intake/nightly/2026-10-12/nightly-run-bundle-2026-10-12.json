@@ -1,0 +1,1364 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly:2026-10-12",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-10-09T23:13:44Z",
+      "to": "2026-10-11T23:13:44Z"
+    },
+    "newObservations": [
+      "obs:nightly:2026-10-12:matter-machine-materials",
+      "obs:nightly:2026-10-12:decart-acquisition-talks",
+      "obs:nightly:2026-10-12:hypertension-prevention-model",
+      "obs:nightly:2026-10-12:anyps5-shader-coverage",
+      "obs:nightly:2026-10-12:nonprofit-impact-demo"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [
+      "Operational proof must distinguish recognition, correctness, and acceptance.",
+      "Research/funding announcements do not establish buyer demand or measured outcomes."
+    ],
+    "newRelationships": [
+      "rel:nightly:2026-10-12:matter-machine-materials:source",
+      "rel:nightly:2026-10-12:decart-acquisition-talks:source",
+      "rel:nightly:2026-10-12:hypertension-prevention-model:source",
+      "rel:nightly:2026-10-12:anyps5-shader-coverage:source",
+      "rel:nightly:2026-10-12:nonprofit-impact-demo:source"
+    ],
+    "contradictions": [
+      "Reported acquisition talks are not an executed transaction.",
+      "AHA modeled mortality reduction is not observed outcomes.",
+      "Shader decoder coverage does not imply rendering parity.",
+      "Event listings do not establish attendance or paid adoption."
+    ],
+    "opportunities": [
+      "Bounded creative shader-fidelity and evidence QA service",
+      "Materials research provenance/visualization advisory",
+      "Nonprofit data-to-impact readiness audit"
+    ],
+    "proposedExperiments": [
+      "On a disposable shader fixture, compare parser coverage with translation, image parity, and measured rendering stability.",
+      "Interview three nonprofit/research operations buyers about provenance, dashboard reliability, and procurement budget; do not contact anyone without approval."
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/wan-artistic-pipeline",
+        "paths": [
+          "src/batch_scheduler.py",
+          "src/motion_control_surface.py",
+          "tests/test_motion_control_surface.py"
+        ],
+        "proposal": "Investigate failing PR #4 motion_program metadata preservation; separate branch and draft PR only after approval."
+      },
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "qt314wink/seed-loom",
+        "paths": [
+          "scripts/knowledge/prove-nightly-ingest.mjs",
+          "knowledge/receipts/"
+        ],
+        "proposal": "Run Issue #24 two-isolated-run proof on clean baseline for this bundle; no production mutation or workflow modification."
+      }
+    ],
+    "noChangeReceipts": [
+      "Excluded previously reported Oct 8-11 Google agent, Haiku, DOE, Rubrik, Hermes, USDA, Flock, Copilot sandbox, CodeQL, PJM, ecological extraction, and Codex predictions.",
+      "AnyPS5 shader recognition milestone predates October 10 reporting; included solely as a newly published boundary/coverage analysis, not claimed new release.",
+      "Sampled watched default branches have no new commits in the last 48h except Seed Loom October 11 provenance collection."
+    ],
+    "collectionFailures": [
+      "No original source-response byte capture; contentHash=null and stage hashes cover ordered URLs only.",
+      "Matter Machine funding sourced to business reporting, not an independently fetched investor filing.",
+      "Amazon-Decart acquisition talks are secondhand and explicitly unverified by Reuters.",
+      "American Heart Association research is a non-peer-reviewed conference abstract.",
+      "SF Tech Week demo attendance and product adoption unverified; event listing only.",
+      "Some repository issues, private projects, dependency audits, and review-thread states were not exhaustively inspected.",
+      "Issue #24 proof and integrity/controls were not executed by this research process."
+    ]
+  },
+  "sources": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly:2026-10-12:matter-machine-materials",
+      "type": "Source",
+      "url": "https://bmmagazine.co.uk/ai/matter-machine-raises-4m-sanghera/",
+      "publisher": "Business Matters",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-11T23:13:44Z",
+      "sourceClass": "press",
+      "independenceKey": "bmmagazine.co.uk",
+      "contentHash": null,
+      "title": "Liverpool AI materials spin-out Matter Machine raises £4m",
+      "notes": "Event/publication date independently checked where available; exact original source byte hash not retained; evidence class and independence are conservative."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly:2026-10-12:decart-acquisition-talks",
+      "type": "Source",
+      "url": "https://www.reuters.com/business/retail-consumer/amazon-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-2026-10-11/",
+      "publisher": "Reuters citing Wall Street Journal",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-11T23:13:44Z",
+      "sourceClass": "secondary",
+      "independenceKey": "wsj.com",
+      "contentHash": null,
+      "title": "Amazon reportedly in talks to acquire Decart for approximately $7 billion",
+      "notes": "Event/publication date independently checked where available; exact original source byte hash not retained; evidence class and independence are conservative."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly:2026-10-12:hypertension-prevention-model",
+      "type": "Source",
+      "url": "https://www.eurekalert.org/news-releases/1146592",
+      "publisher": "American Heart Association via EurekAlert",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-11T23:13:44Z",
+      "sourceClass": "research",
+      "independenceKey": "heart.org",
+      "contentHash": null,
+      "title": "Modeling estimates potential mortality reductions from better hypertension management",
+      "notes": "Event/publication date independently checked where available; exact original source byte hash not retained; evidence class and independence are conservative."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly:2026-10-12:anyps5-shader-coverage",
+      "type": "Source",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "publisher": "AnyPS5 maintainers",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-11T23:13:44Z",
+      "sourceClass": "repository",
+      "independenceKey": "github.com/boykopovar/AnyPS5",
+      "contentHash": null,
+      "title": "AnyPS5 documents shader translation and limited verified compatibility",
+      "notes": "Event/publication date independently checked where available; exact original source byte hash not retained; evidence class and independence are conservative."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly:2026-10-12:nonprofit-impact-demo",
+      "type": "Source",
+      "url": "https://www.tech-week.com/calendar/sf/events/from-data-collection-to-real-time-impact-a-demo-of-metriproof-for-nonprofits-4a099b67-2c3c-4343-a04d-6a84caa6591c",
+      "publisher": "SF Tech Week event listing",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-11T23:13:44Z",
+      "sourceClass": "official",
+      "independenceKey": "tech-week.com",
+      "contentHash": null,
+      "title": "October 11 nonprofit real-time evidence demo listed at SF Tech Week",
+      "notes": "Event/publication date independently checked where available; exact original source byte hash not retained; evidence class and independence are conservative."
+    }
+  ],
+  "observations": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly:2026-10-12:matter-machine-materials",
+      "type": "Observation",
+      "capturedAt": "2026-10-11T23:13:44Z",
+      "claim": "On October 11, reporting described a £4 million funding round for University of Liverpool materials-AI spin-out Matter Machine.",
+      "verifiedFacts": [
+        "Business Matters reported on October 11 that Matter Machine raised £4m in a pre-Series A round led by IP Group with Northern Gritstone support.",
+        "The company appointed Gordon Sanghera CEO and is pursuing AI-assisted materials discovery based on Professor Matt Rosseinsky's research."
+      ],
+      "inference": [
+        "Materials-science ventures need traceable model-to-experiment evidence and partner-ready visual demonstrations.",
+        "Consultancy implication: Investigate bounded materials-discovery evidence mapping and visualization for research commercialization.",
+        "Project disposition implication: qt314wink/seed-loom CORE; qt314wink/omni-loom REFERENCE-ONLY unless a real fabrication contract is evidenced."
+      ],
+      "significance": "A funded scientific spin-out demonstrates investor action around AI-enabled materials workflows, without proving consulting demand.",
+      "confidence": 0.84,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "funding",
+      "sourceRefs": [
+        "source:nightly:2026-10-12:matter-machine-materials"
+      ],
+      "actorRefs": [
+        "actor:matter-machine:builder",
+        "actor:ip-group:funder"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "qt314wink/omni-loom"
+      ],
+      "assumptions": [
+        "Materials research teams will purchase independent evidence/visualization services."
+      ],
+      "knownLimitations": [
+        "Funding reported by business journalism; investor primary release not independently retrieved.",
+        "No contracts, experimental benchmark or purchasing budget verified."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly:2026-10-12:decart-acquisition-talks",
+      "type": "Observation",
+      "capturedAt": "2026-10-11T23:13:44Z",
+      "claim": "On October 11 Reuters relayed a report that Amazon was discussing a possible approximately $7 billion acquisition of AI-video and world-model developer Decart.",
+      "verifiedFacts": [
+        "Reuters published the report at 21:16 UTC on October 11 and attributed the acquisition talks to the Wall Street Journal.",
+        "Reuters said it could not independently verify the negotiations and that neither company immediately responded.",
+        "Decart develops real-time video editing and simulated-environment models, according to Reuters."
+      ],
+      "inference": [
+        "Creative video and world-model infrastructure may attract strategic buyers; a rumored transaction is not evidence of completion.",
+        "Consultancy implication: Productize reproducible creative QA and controlled variation rather than building a competing foundation model.",
+        "Project disposition implication: qt314wink/observation-ad-pipeline PRODUCTIZE candidate; shader-grammar CORE technical reference."
+      ],
+      "significance": "A reported strategic-interest signal connects live video generation to enterprise infrastructure, but remains unconfirmed.",
+      "confidence": 0.68,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "opportunity",
+      "sourceRefs": [
+        "source:nightly:2026-10-12:decart-acquisition-talks"
+      ],
+      "actorRefs": [
+        "actor:amazon:prospective-buyer",
+        "actor:decart:builder"
+      ],
+      "affectedRepositories": [
+        "qt314wink/observation-ad-pipeline",
+        "qt314wink/shader-grammar"
+      ],
+      "assumptions": [
+        "Strategic interest translates to demand for external production QA."
+      ],
+      "knownLimitations": [
+        "Negotiations are unconfirmed and may collapse.",
+        "No verified acquisition, buyer spending on QA, or model reproducibility benchmarks."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly:2026-10-12:hypertension-prevention-model",
+      "type": "Observation",
+      "capturedAt": "2026-10-11T23:13:44Z",
+      "claim": "On October 11 the American Heart Association presented preliminary modeling of preventable cardiovascular deaths across twenty countries.",
+      "verifiedFacts": [
+        "The AHA described a modeling analysis across 20 countries estimating 518,476 fewer annual cardiovascular deaths under substantially expanded blood-pressure control.",
+        "The finding was presented as a conference abstract at Hypertension Scientific Sessions 2026 and has not undergone full journal peer review."
+      ],
+      "inference": [
+        "Health evidence communication must distinguish modeled counterfactuals from observed outcomes.",
+        "Consultancy implication: A bounded evidence-visualization audit could help research organizations communicate uncertainty without clinical claims.",
+        "Project disposition implication: Seed Loom CORE for epistemic provenance; Project Constellation INCUBATE as a potential presentation layer only."
+      ],
+      "significance": "The preliminary modeling provides a high-stakes specimen for uncertainty-aware visualization and provenance.",
+      "confidence": 0.9,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "peer-reviewed-research",
+      "sourceRefs": [
+        "source:nightly:2026-10-12:hypertension-prevention-model"
+      ],
+      "actorRefs": [
+        "actor:aha:research-disseminator"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/project-constellation"
+      ],
+      "assumptions": [
+        "Health organizations have budgets for third-party evidence visualization."
+      ],
+      "knownLimitations": [
+        "Conference abstract is explicitly not peer reviewed; modeling is not observed mortality reduction.",
+        "No validated deployment, interventions, or buyer interviews."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly:2026-10-12:anyps5-shader-coverage",
+      "type": "Observation",
+      "capturedAt": "2026-10-11T23:13:44Z",
+      "claim": "An October 10 technical coverage report highlights AnyPS5's tracked shader decoder recognition, while its repository documents limited verified gameplay.",
+      "verifiedFacts": [
+        "The AnyPS5 repository README describes executable relinking, shader recompilation to SPIR-V, and a compatibility list.",
+        "The README identifies Dreaming Sarah as a verified playable 2D title and distinguishes shader progress from broader game compatibility.",
+        "An October 10 Tom's Hardware report describes all 1,166 tracked AMD shader instructions as recognized, not necessarily correctly translated or rendered."
+      ],
+      "inference": [
+        "Shader-grammar QA should explicitly separate parse/recognition coverage, semantic correctness, rendering parity and application compatibility.",
+        "Consultancy implication: Offer bounded shader fidelity audits with captured reference frames and negative fixtures.",
+        "Project disposition implication: qt314wink/shader-grammar CORE; AETHER/WebGL INCUBATE evidence specimen; AnyPS5 REFERENCE-ONLY."
+      ],
+      "significance": "A public interoperability example illustrates how impressive coverage metrics can conceal separate rendering and lifecycle proof obligations.",
+      "confidence": 0.88,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "default",
+      "sourceRefs": [
+        "source:nightly:2026-10-12:anyps5-shader-coverage"
+      ],
+      "actorRefs": [
+        "actor:anyps5:open-source-builders"
+      ],
+      "affectedRepositories": [
+        "qt314wink/shader-grammar",
+        "qt314wink/seed-loom"
+      ],
+      "assumptions": [
+        "The current tracker and October 10 report reflect the same fixed instruction inventory."
+      ],
+      "knownLimitations": [
+        "The technical milestone was discussed before October 10; today's signal is an updated coverage interpretation, not a newly invented milestone.",
+        "No independent end-to-end GPU rendering parity tests executed."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly:2026-10-12:nonprofit-impact-demo",
+      "type": "Observation",
+      "capturedAt": "2026-10-11T23:13:44Z",
+      "claim": "SF Tech Week listed an October 11 demonstration about helping nonprofits turn data collection into real-time impact evidence.",
+      "verifiedFacts": [
+        "The official SF Tech Week calendar lists a WizeTrak-hosted Metriproof nonprofit data-to-impact demo for October 11 at 10 a.m. Pacific.",
+        "The listing describes a practical approach to real-time data for nonprofits without large technology teams."
+      ],
+      "inference": [
+        "Nonprofits may be a more approachable discovery segment for an evidence-readiness consultancy than enterprise AI infrastructure buyers.",
+        "Consultancy implication: Test a small nonprofit data-to-decision audit offer with explicit outcome and governance boundaries.",
+        "Project disposition implication: Seed Loom CORE; Project Constellation INCUBATE as a presentation layer."
+      ],
+      "significance": "An event listing identifies an explicitly articulated nonprofit evidence workflow problem, not verified market adoption.",
+      "confidence": 0.79,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "opportunity",
+      "sourceRefs": [
+        "source:nightly:2026-10-12:nonprofit-impact-demo"
+      ],
+      "actorRefs": [
+        "actor:wizetrak:event-organizer"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/project-constellation"
+      ],
+      "assumptions": [
+        "The event took place as scheduled and attendees represent potential purchasers."
+      ],
+      "knownLimitations": [
+        "Only the event listing was verified; attendance, demonstrations and buyer commitments were not.",
+        "No nonprofit procurement, price tolerance or measured impact evidence."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-10-12:matter-machine-materials:source",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-10-12:matter-machine-materials",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly:2026-10-12:matter-machine-materials",
+      "confidence": 0.84,
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:matter-machine-materials"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-10-12:decart-acquisition-talks:source",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-10-12:decart-acquisition-talks",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly:2026-10-12:decart-acquisition-talks",
+      "confidence": 0.68,
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:decart-acquisition-talks"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-10-12:hypertension-prevention-model:source",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-10-12:hypertension-prevention-model",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly:2026-10-12:hypertension-prevention-model",
+      "confidence": 0.9,
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:hypertension-prevention-model"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-10-12:anyps5-shader-coverage:source",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-10-12:anyps5-shader-coverage",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly:2026-10-12:anyps5-shader-coverage",
+      "confidence": 0.88,
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:anyps5-shader-coverage"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-10-12:nonprofit-impact-demo:source",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-10-12:nonprofit-impact-demo",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly:2026-10-12:nonprofit-impact-demo",
+      "confidence": 0.79,
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:nonprofit-impact-demo"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-12:collect",
+      "runId": "run:nightly:2026-10-12",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-10-11T23:13:44Z",
+      "completedAt": "2026-10-11T23:13:44Z",
+      "inputs": [
+        "https://bmmagazine.co.uk/ai/matter-machine-raises-4m-sanghera/",
+        "https://www.reuters.com/business/retail-consumer/amazon-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-2026-10-11/",
+        "https://www.eurekalert.org/news-releases/1146592",
+        "https://github.com/boykopovar/AnyPS5",
+        "https://www.tech-week.com/calendar/sf/events/from-data-collection-to-real-time-impact-a-demo-of-metriproof-for-nonprofits-4a099b67-2c3c-4343-a04d-6a84caa6591c"
+      ],
+      "outputs": [
+        "candidate:collect"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only boundary and source reference review",
+          "result": "pass",
+          "detail": "No acceptance, Genesis advancement, publication or executed repository actions. Stage acknowledges bounded research reasoning, not CI execution."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate research only; no downstream promotion without source-byte and domain verification."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Source review, conservative inference and candidate-only normalization",
+        "inputHashes": [
+          "sha256:f93ec459b0cbe69609b98b44d7cd02b480a854b756c94ab0e7c9f951dba5f8b5"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-12:vet",
+      "runId": "run:nightly:2026-10-12",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-10-11T23:13:44Z",
+      "completedAt": "2026-10-11T23:13:44Z",
+      "inputs": [
+        "stage:collect"
+      ],
+      "outputs": [
+        "candidate:vet"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only boundary and source reference review",
+          "result": "pass",
+          "detail": "No acceptance, Genesis advancement, publication or executed repository actions. Stage acknowledges bounded research reasoning, not CI execution."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate research only; no downstream promotion without source-byte and domain verification."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Source review, conservative inference and candidate-only normalization",
+        "inputHashes": [
+          "sha256:f93ec459b0cbe69609b98b44d7cd02b480a854b756c94ab0e7c9f951dba5f8b5"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-12:normalize",
+      "runId": "run:nightly:2026-10-12",
+      "stage": "normalize",
+      "status": "passed",
+      "startedAt": "2026-10-11T23:13:44Z",
+      "completedAt": "2026-10-11T23:13:44Z",
+      "inputs": [
+        "stage:vet"
+      ],
+      "outputs": [
+        "candidate:normalize"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only boundary and source reference review",
+          "result": "pass",
+          "detail": "No acceptance, Genesis advancement, publication or executed repository actions. Stage acknowledges bounded research reasoning, not CI execution."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate research only; no downstream promotion without source-byte and domain verification."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Source review, conservative inference and candidate-only normalization",
+        "inputHashes": [
+          "sha256:f93ec459b0cbe69609b98b44d7cd02b480a854b756c94ab0e7c9f951dba5f8b5"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-12:observe",
+      "runId": "run:nightly:2026-10-12",
+      "stage": "observe",
+      "status": "passed",
+      "startedAt": "2026-10-11T23:13:44Z",
+      "completedAt": "2026-10-11T23:13:44Z",
+      "inputs": [
+        "stage:normalize"
+      ],
+      "outputs": [
+        "candidate:observe"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only boundary and source reference review",
+          "result": "pass",
+          "detail": "No acceptance, Genesis advancement, publication or executed repository actions. Stage acknowledges bounded research reasoning, not CI execution."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate research only; no downstream promotion without source-byte and domain verification."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Source review, conservative inference and candidate-only normalization",
+        "inputHashes": [
+          "sha256:f93ec459b0cbe69609b98b44d7cd02b480a854b756c94ab0e7c9f951dba5f8b5"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-12:inquire",
+      "runId": "run:nightly:2026-10-12",
+      "stage": "inquire",
+      "status": "passed",
+      "startedAt": "2026-10-11T23:13:44Z",
+      "completedAt": "2026-10-11T23:13:44Z",
+      "inputs": [
+        "stage:observe"
+      ],
+      "outputs": [
+        "candidate:inquire"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only boundary and source reference review",
+          "result": "pass",
+          "detail": "No acceptance, Genesis advancement, publication or executed repository actions. Stage acknowledges bounded research reasoning, not CI execution."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate research only; no downstream promotion without source-byte and domain verification."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Source review, conservative inference and candidate-only normalization",
+        "inputHashes": [
+          "sha256:f93ec459b0cbe69609b98b44d7cd02b480a854b756c94ab0e7c9f951dba5f8b5"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-12:interpret",
+      "runId": "run:nightly:2026-10-12",
+      "stage": "interpret",
+      "status": "passed",
+      "startedAt": "2026-10-11T23:13:44Z",
+      "completedAt": "2026-10-11T23:13:44Z",
+      "inputs": [
+        "stage:inquire"
+      ],
+      "outputs": [
+        "candidate:interpret"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only boundary and source reference review",
+          "result": "pass",
+          "detail": "No acceptance, Genesis advancement, publication or executed repository actions. Stage acknowledges bounded research reasoning, not CI execution."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate research only; no downstream promotion without source-byte and domain verification."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Source review, conservative inference and candidate-only normalization",
+        "inputHashes": [
+          "sha256:f93ec459b0cbe69609b98b44d7cd02b480a854b756c94ab0e7c9f951dba5f8b5"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-12:relate",
+      "runId": "run:nightly:2026-10-12",
+      "stage": "relate",
+      "status": "passed",
+      "startedAt": "2026-10-11T23:13:44Z",
+      "completedAt": "2026-10-11T23:13:44Z",
+      "inputs": [
+        "stage:interpret"
+      ],
+      "outputs": [
+        "candidate:relate"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only boundary and source reference review",
+          "result": "pass",
+          "detail": "No acceptance, Genesis advancement, publication or executed repository actions. Stage acknowledges bounded research reasoning, not CI execution."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate research only; no downstream promotion without source-byte and domain verification."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Source review, conservative inference and candidate-only normalization",
+        "inputHashes": [
+          "sha256:f93ec459b0cbe69609b98b44d7cd02b480a854b756c94ab0e7c9f951dba5f8b5"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-12:pattern",
+      "runId": "run:nightly:2026-10-12",
+      "stage": "pattern",
+      "status": "passed",
+      "startedAt": "2026-10-11T23:13:44Z",
+      "completedAt": "2026-10-11T23:13:44Z",
+      "inputs": [
+        "stage:relate"
+      ],
+      "outputs": [
+        "candidate:pattern"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only boundary and source reference review",
+          "result": "pass",
+          "detail": "No acceptance, Genesis advancement, publication or executed repository actions. Stage acknowledges bounded research reasoning, not CI execution."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate research only; no downstream promotion without source-byte and domain verification."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Source review, conservative inference and candidate-only normalization",
+        "inputHashes": [
+          "sha256:f93ec459b0cbe69609b98b44d7cd02b480a854b756c94ab0e7c9f951dba5f8b5"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-12:opportunity",
+      "runId": "run:nightly:2026-10-12",
+      "stage": "opportunity",
+      "status": "passed",
+      "startedAt": "2026-10-11T23:13:44Z",
+      "completedAt": "2026-10-11T23:13:44Z",
+      "inputs": [
+        "stage:pattern"
+      ],
+      "outputs": [
+        "candidate:opportunity"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only boundary and source reference review",
+          "result": "pass",
+          "detail": "No acceptance, Genesis advancement, publication or executed repository actions. Stage acknowledges bounded research reasoning, not CI execution."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate research only; no downstream promotion without source-byte and domain verification."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Source review, conservative inference and candidate-only normalization",
+        "inputHashes": [
+          "sha256:f93ec459b0cbe69609b98b44d7cd02b480a854b756c94ab0e7c9f951dba5f8b5"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-12:strategy",
+      "runId": "run:nightly:2026-10-12",
+      "stage": "strategy",
+      "status": "deferred",
+      "startedAt": "2026-10-11T23:13:44Z",
+      "completedAt": "2026-10-11T23:13:44Z",
+      "inputs": [
+        "stage:opportunity"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human authorization gate",
+          "result": "not-applicable",
+          "detail": "No autonomous transition or execution is authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Deferred; requires Jennipher approval; Genesis and publication prohibited."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Explicit governance deferral",
+        "inputHashes": [
+          "sha256:f93ec459b0cbe69609b98b44d7cd02b480a854b756c94ab0e7c9f951dba5f8b5"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-12:experiment",
+      "runId": "run:nightly:2026-10-12",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-10-11T23:13:44Z",
+      "completedAt": "2026-10-11T23:13:44Z",
+      "inputs": [
+        "stage:strategy"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human authorization gate",
+          "result": "not-applicable",
+          "detail": "No autonomous transition or execution is authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Deferred; requires Jennipher approval; Genesis and publication prohibited."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Explicit governance deferral",
+        "inputHashes": [
+          "sha256:f93ec459b0cbe69609b98b44d7cd02b480a854b756c94ab0e7c9f951dba5f8b5"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-12:genesis",
+      "runId": "run:nightly:2026-10-12",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-10-11T23:13:44Z",
+      "completedAt": "2026-10-11T23:13:44Z",
+      "inputs": [
+        "stage:experiment"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human authorization gate",
+          "result": "not-applicable",
+          "detail": "No autonomous transition or execution is authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Deferred; requires Jennipher approval; Genesis and publication prohibited."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Explicit governance deferral",
+        "inputHashes": [
+          "sha256:f93ec459b0cbe69609b98b44d7cd02b480a854b756c94ab0e7c9f951dba5f8b5"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-12:publish",
+      "runId": "run:nightly:2026-10-12",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-10-11T23:13:44Z",
+      "completedAt": "2026-10-11T23:13:44Z",
+      "inputs": [
+        "stage:genesis"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human authorization gate",
+          "result": "not-applicable",
+          "detail": "No autonomous transition or execution is authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Deferred; requires Jennipher approval; Genesis and publication prohibited."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Explicit governance deferral",
+        "inputHashes": [
+          "sha256:f93ec459b0cbe69609b98b44d7cd02b480a854b756c94ab0e7c9f951dba5f8b5"
+        ]
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:nightly:2026-10-12:matter-machine-materials",
+      "observationId": "obs:nightly:2026-10-12:matter-machine-materials",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "On October 11, reporting described a £4 million funding round for University of Liverpool materials-AI spin-out Matter Machine.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:matter-machine-materials"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "actor:matter-machine:builder;actor:ip-group:funder; inspectable behavior: funding and executive appointment",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:matter-machine-materials"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A funded scientific spin-out demonstrates investor action around AI-enabled materials workflows, without proving consulting demand.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:matter-machine-materials"
+          ]
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Possible research, operations or consultancy stakeholders; specific paying beneficiaries not established.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Internal domain specialists, established vendors, conventional workflows or manual research remain substitutes.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Materials-science ventures need traceable model-to-experiment evidence and partner-ready visual demonstrations.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:matter-machine-materials"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Funding equals a buyer for this consultancy.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Interviews and procurement searches show no budget or need for independent evidence workflows.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Investor announcement and cap table; Research benchmark and target customer interviews",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "The raise primarily funds internal proprietary R&D, not external services.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Funding equals a buyer for this consultancy.",
+      "falsifier": "Interviews and procurement searches show no budget or need for independent evidence workflows.",
+      "missingEvidence": [
+        "Investor announcement and cap table",
+        "Research benchmark and target customer interviews"
+      ],
+      "alternativeExplanation": "The raise primarily funds internal proprietary R&D, not external services.",
+      "disposition": "watch",
+      "confidence": 0.84
+    },
+    {
+      "assessmentId": "socratic:nightly:2026-10-12:decart-acquisition-talks",
+      "observationId": "obs:nightly:2026-10-12:decart-acquisition-talks",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "On October 11 Reuters relayed a report that Amazon was discussing a possible approximately $7 billion acquisition of AI-video and world-model developer Decart.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:decart-acquisition-talks"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "actor:amazon:prospective-buyer;actor:decart:builder; inspectable behavior: reported negotiations, not transaction",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:decart-acquisition-talks"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A reported strategic-interest signal connects live video generation to enterprise infrastructure, but remains unconfirmed.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:decart-acquisition-talks"
+          ]
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Possible research, operations or consultancy stakeholders; specific paying beneficiaries not established.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Internal domain specialists, established vendors, conventional workflows or manual research remain substitutes.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Creative video and world-model infrastructure may attract strategic buyers; a rumored transaction is not evidence of completion.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:decart-acquisition-talks"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "A reported acquisition implies a settled market price or demand for our product.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Talks end without deal or buyers prefer internal tooling.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Direct company confirmation; Paid buyer research and quality measurements",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Reported talks reflect a single buyer's infrastructure strategy rather than broad service demand.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "A reported acquisition implies a settled market price or demand for our product.",
+      "falsifier": "Talks end without deal or buyers prefer internal tooling.",
+      "missingEvidence": [
+        "Direct company confirmation",
+        "Paid buyer research and quality measurements"
+      ],
+      "alternativeExplanation": "Reported talks reflect a single buyer's infrastructure strategy rather than broad service demand.",
+      "disposition": "watch",
+      "confidence": 0.68
+    },
+    {
+      "assessmentId": "socratic:nightly:2026-10-12:hypertension-prevention-model",
+      "observationId": "obs:nightly:2026-10-12:hypertension-prevention-model",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "On October 11 the American Heart Association presented preliminary modeling of preventable cardiovascular deaths across twenty countries.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:hypertension-prevention-model"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "actor:aha:research-disseminator; inspectable behavior: conference presentation of modeled estimates",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:hypertension-prevention-model"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "The preliminary modeling provides a high-stakes specimen for uncertainty-aware visualization and provenance.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:hypertension-prevention-model"
+          ]
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Possible research, operations or consultancy stakeholders; specific paying beneficiaries not established.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Internal domain specialists, established vendors, conventional workflows or manual research remain substitutes.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Health evidence communication must distinguish modeled counterfactuals from observed outcomes.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:hypertension-prevention-model"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Modeled avoided deaths can be communicated as actual lives saved.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent sensitivity analyses produce substantially different estimates.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Full peer-reviewed manuscript; Model code and sensitivity analyses; Buyer demand",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "The result reiterates established prevention priorities rather than revealing a novel intervention.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Modeled avoided deaths can be communicated as actual lives saved.",
+      "falsifier": "Independent sensitivity analyses produce substantially different estimates.",
+      "missingEvidence": [
+        "Full peer-reviewed manuscript",
+        "Model code and sensitivity analyses",
+        "Buyer demand"
+      ],
+      "alternativeExplanation": "The result reiterates established prevention priorities rather than revealing a novel intervention.",
+      "disposition": "watch",
+      "confidence": 0.9
+    },
+    {
+      "assessmentId": "socratic:nightly:2026-10-12:anyps5-shader-coverage",
+      "observationId": "obs:nightly:2026-10-12:anyps5-shader-coverage",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "An October 10 technical coverage report highlights AnyPS5's tracked shader decoder recognition, while its repository documents limited verified gameplay.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:anyps5-shader-coverage"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "actor:anyps5:open-source-builders; inspectable behavior: repository documentation and October 10 third-party assessment",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:anyps5-shader-coverage"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A public interoperability example illustrates how impressive coverage metrics can conceal separate rendering and lifecycle proof obligations.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:anyps5-shader-coverage"
+          ]
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Possible research, operations or consultancy stakeholders; specific paying beneficiaries not established.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Internal domain specialists, established vendors, conventional workflows or manual research remain substitutes.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Shader-grammar QA should explicitly separate parse/recognition coverage, semantic correctness, rendering parity and application compatibility.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:anyps5-shader-coverage"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "100% decoder recognition equals 100% working graphics.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "A large representative shader corpus fails translation or visual parity.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Pinned instruction-set revision; Independent shader behavior corpus; Graphics compatibility receipts",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "The headline reflects a bookkeeping milestone rather than a major advance in rendering correctness.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "100% decoder recognition equals 100% working graphics.",
+      "falsifier": "A large representative shader corpus fails translation or visual parity.",
+      "missingEvidence": [
+        "Pinned instruction-set revision",
+        "Independent shader behavior corpus",
+        "Graphics compatibility receipts"
+      ],
+      "alternativeExplanation": "The headline reflects a bookkeeping milestone rather than a major advance in rendering correctness.",
+      "disposition": "experiment",
+      "confidence": 0.88
+    },
+    {
+      "assessmentId": "socratic:nightly:2026-10-12:nonprofit-impact-demo",
+      "observationId": "obs:nightly:2026-10-12:nonprofit-impact-demo",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "SF Tech Week listed an October 11 demonstration about helping nonprofits turn data collection into real-time impact evidence.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:nonprofit-impact-demo"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "actor:wizetrak:event-organizer; inspectable behavior: scheduled event, attendance unknown",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:nonprofit-impact-demo"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "An event listing identifies an explicitly articulated nonprofit evidence workflow problem, not verified market adoption.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:nonprofit-impact-demo"
+          ]
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Possible research, operations or consultancy stakeholders; specific paying beneficiaries not established.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Internal domain specialists, established vendors, conventional workflows or manual research remain substitutes.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Nonprofits may be a more approachable discovery segment for an evidence-readiness consultancy than enterprise AI infrastructure buyers.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly:2026-10-12:nonprofit-impact-demo"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "A demo-day listing proves a paying nonprofit market.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Buyer discovery finds no budget or actionable reporting pain.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Event outcome and participant list; Nonprofit budget and procurement records; Measured operational impact",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "The listing is primarily promotional positioning without validated demand.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "A demo-day listing proves a paying nonprofit market.",
+      "falsifier": "Buyer discovery finds no budget or actionable reporting pain.",
+      "missingEvidence": [
+        "Event outcome and participant list",
+        "Nonprofit budget and procurement records",
+        "Measured operational impact"
+      ],
+      "alternativeExplanation": "The listing is primarily promotional positioning without validated demand.",
+      "disposition": "watch",
+      "confidence": 0.79
+    }
+  ]
+}
