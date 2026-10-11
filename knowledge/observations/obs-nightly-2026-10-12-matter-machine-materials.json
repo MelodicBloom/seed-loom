@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly:2026-10-12:matter-machine-materials",
+  "type": "Observation",
+  "capturedAt": "2026-10-11T23:13:44Z",
+  "claim": "On October 11, reporting described a £4 million funding round for University of Liverpool materials-AI spin-out Matter Machine.",
+  "verifiedFacts": [
+    "Business Matters reported on October 11 that Matter Machine raised £4m in a pre-Series A round led by IP Group with Northern Gritstone support.",
+    "The company appointed Gordon Sanghera CEO and is pursuing AI-assisted materials discovery based on Professor Matt Rosseinsky's research."
+  ],
+  "inference": [
+    "Materials-science ventures need traceable model-to-experiment evidence and partner-ready visual demonstrations.",
+    "Consultancy implication: Investigate bounded materials-discovery evidence mapping and visualization for research commercialization.",
+    "Project disposition implication: qt314wink/seed-loom CORE; qt314wink/omni-loom REFERENCE-ONLY unless a real fabrication contract is evidenced."
+  ],
+  "significance": "A funded scientific spin-out demonstrates investor action around AI-enabled materials workflows, without proving consulting demand.",
+  "confidence": 0.84,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "funding",
+  "sourceRefs": [
+    "source:nightly:2026-10-12:matter-machine-materials"
+  ],
+  "actorRefs": [
+    "actor:matter-machine:builder",
+    "actor:ip-group:funder"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "qt314wink/omni-loom"
+  ],
+  "assumptions": [
+    "Materials research teams will purchase independent evidence/visualization services."
+  ],
+  "knownLimitations": [
+    "Funding reported by business journalism; investor primary release not independently retrieved.",
+    "No contracts, experimental benchmark or purchasing budget verified."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

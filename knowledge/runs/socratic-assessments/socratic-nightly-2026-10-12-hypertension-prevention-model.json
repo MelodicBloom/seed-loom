@@ -1,0 +1,96 @@
+{
+  "assessmentId": "socratic:nightly:2026-10-12:hypertension-prevention-model",
+  "observationId": "obs:nightly:2026-10-12:hypertension-prevention-model",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "On October 11 the American Heart Association presented preliminary modeling of preventable cardiovascular deaths across twenty countries.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:hypertension-prevention-model"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:aha:research-disseminator; inspectable behavior: conference presentation of modeled estimates",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:hypertension-prevention-model"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "The preliminary modeling provides a high-stakes specimen for uncertainty-aware visualization and provenance.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:hypertension-prevention-model"
+      ]
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Possible research, operations or consultancy stakeholders; specific paying beneficiaries not established.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Internal domain specialists, established vendors, conventional workflows or manual research remain substitutes.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Health evidence communication must distinguish modeled counterfactuals from observed outcomes.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:hypertension-prevention-model"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Modeled avoided deaths can be communicated as actual lives saved.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent sensitivity analyses produce substantially different estimates.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Full peer-reviewed manuscript; Model code and sensitivity analyses; Buyer demand",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "The result reiterates established prevention priorities rather than revealing a novel intervention.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Modeled avoided deaths can be communicated as actual lives saved.",
+  "falsifier": "Independent sensitivity analyses produce substantially different estimates.",
+  "missingEvidence": [
+    "Full peer-reviewed manuscript",
+    "Model code and sensitivity analyses",
+    "Buyer demand"
+  ],
+  "alternativeExplanation": "The result reiterates established prevention priorities rather than revealing a novel intervention.",
+  "disposition": "watch",
+  "confidence": 0.9
+}

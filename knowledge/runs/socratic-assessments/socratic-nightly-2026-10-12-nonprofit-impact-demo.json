@@ -1,0 +1,96 @@
+{
+  "assessmentId": "socratic:nightly:2026-10-12:nonprofit-impact-demo",
+  "observationId": "obs:nightly:2026-10-12:nonprofit-impact-demo",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "SF Tech Week listed an October 11 demonstration about helping nonprofits turn data collection into real-time impact evidence.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:nonprofit-impact-demo"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:wizetrak:event-organizer; inspectable behavior: scheduled event, attendance unknown",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:nonprofit-impact-demo"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "An event listing identifies an explicitly articulated nonprofit evidence workflow problem, not verified market adoption.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:nonprofit-impact-demo"
+      ]
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Possible research, operations or consultancy stakeholders; specific paying beneficiaries not established.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Internal domain specialists, established vendors, conventional workflows or manual research remain substitutes.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Nonprofits may be a more approachable discovery segment for an evidence-readiness consultancy than enterprise AI infrastructure buyers.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:nonprofit-impact-demo"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "A demo-day listing proves a paying nonprofit market.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Buyer discovery finds no budget or actionable reporting pain.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Event outcome and participant list; Nonprofit budget and procurement records; Measured operational impact",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "The listing is primarily promotional positioning without validated demand.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "A demo-day listing proves a paying nonprofit market.",
+  "falsifier": "Buyer discovery finds no budget or actionable reporting pain.",
+  "missingEvidence": [
+    "Event outcome and participant list",
+    "Nonprofit budget and procurement records",
+    "Measured operational impact"
+  ],
+  "alternativeExplanation": "The listing is primarily promotional positioning without validated demand.",
+  "disposition": "watch",
+  "confidence": 0.79
+}

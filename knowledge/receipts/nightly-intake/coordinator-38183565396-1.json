@@ -1,0 +1,59 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-10-11T23:15:12.255Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly:2026-10-12",
+      "bundlePath": "knowledge/intake/nightly/2026-10-12/nightly-run-bundle-2026-10-12.json",
+      "bundleSha256": "e0103cd51cb8319439500ba52ca49474817a3b2645434f7bfa709ae2721de02d",
+      "normalizedDigest": "84f1408208e38778bc7c2d1be1b4d45e59b30643a23dc94a8132d2df39f06e1b",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-nightly-2026-10-12-matter-machine-materials.json",
+        "knowledge/sources/source-nightly-2026-10-12-decart-acquisition-talks.json",
+        "knowledge/sources/source-nightly-2026-10-12-hypertension-prevention-model.json",
+        "knowledge/sources/source-nightly-2026-10-12-anyps5-shader-coverage.json",
+        "knowledge/sources/source-nightly-2026-10-12-nonprofit-impact-demo.json",
+        "knowledge/observations/obs-nightly-2026-10-12-matter-machine-materials.json",
+        "knowledge/observations/obs-nightly-2026-10-12-decart-acquisition-talks.json",
+        "knowledge/observations/obs-nightly-2026-10-12-hypertension-prevention-model.json",
+        "knowledge/observations/obs-nightly-2026-10-12-anyps5-shader-coverage.json",
+        "knowledge/observations/obs-nightly-2026-10-12-nonprofit-impact-demo.json",
+        "knowledge/relationships/rel-nightly-2026-10-12-matter-machine-materials-source.json",
+        "knowledge/relationships/rel-nightly-2026-10-12-decart-acquisition-talks-source.json",
+        "knowledge/relationships/rel-nightly-2026-10-12-hypertension-prevention-model-source.json",
+        "knowledge/relationships/rel-nightly-2026-10-12-anyps5-shader-coverage-source.json",
+        "knowledge/relationships/rel-nightly-2026-10-12-nonprofit-impact-demo-source.json",
+        "knowledge/runs/run-nightly-2026-10-12.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-12-collect.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-12-vet.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-12-normalize.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-12-observe.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-12-inquire.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-12-interpret.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-12-relate.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-12-pattern.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-12-opportunity.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-12-strategy.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-12-experiment.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-12-genesis.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-12-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-12-matter-machine-materials.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-12-decart-acquisition-talks.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-12-hypertension-prevention-model.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-12-anyps5-shader-coverage.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-12-nonprofit-impact-demo.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-10-12-ingest.json",
+      "generatedRecordCount": 34
+    }
+  ]
+}

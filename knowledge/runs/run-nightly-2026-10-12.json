@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly:2026-10-12",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-09T23:13:44Z",
+    "to": "2026-10-11T23:13:44Z"
+  },
+  "newObservations": [
+    "obs:nightly:2026-10-12:matter-machine-materials",
+    "obs:nightly:2026-10-12:decart-acquisition-talks",
+    "obs:nightly:2026-10-12:hypertension-prevention-model",
+    "obs:nightly:2026-10-12:anyps5-shader-coverage",
+    "obs:nightly:2026-10-12:nonprofit-impact-demo"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Operational proof must distinguish recognition, correctness, and acceptance.",
+    "Research/funding announcements do not establish buyer demand or measured outcomes."
+  ],
+  "newRelationships": [
+    "rel:nightly:2026-10-12:matter-machine-materials:source",
+    "rel:nightly:2026-10-12:decart-acquisition-talks:source",
+    "rel:nightly:2026-10-12:hypertension-prevention-model:source",
+    "rel:nightly:2026-10-12:anyps5-shader-coverage:source",
+    "rel:nightly:2026-10-12:nonprofit-impact-demo:source"
+  ],
+  "contradictions": [
+    "Reported acquisition talks are not an executed transaction.",
+    "AHA modeled mortality reduction is not observed outcomes.",
+    "Shader decoder coverage does not imply rendering parity.",
+    "Event listings do not establish attendance or paid adoption."
+  ],
+  "opportunities": [
+    "Bounded creative shader-fidelity and evidence QA service",
+    "Materials research provenance/visualization advisory",
+    "Nonprofit data-to-impact readiness audit"
+  ],
+  "proposedExperiments": [
+    "On a disposable shader fixture, compare parser coverage with translation, image parity, and measured rendering stability.",
+    "Interview three nonprofit/research operations buyers about provenance, dashboard reliability, and procurement budget; do not contact anyone without approval."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/wan-artistic-pipeline",
+      "paths": [
+        "src/batch_scheduler.py",
+        "src/motion_control_surface.py",
+        "tests/test_motion_control_surface.py"
+      ],
+      "proposal": "Investigate failing PR #4 motion_program metadata preservation; separate branch and draft PR only after approval."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/seed-loom",
+      "paths": [
+        "scripts/knowledge/prove-nightly-ingest.mjs",
+        "knowledge/receipts/"
+      ],
+      "proposal": "Run Issue #24 two-isolated-run proof on clean baseline for this bundle; no production mutation or workflow modification."
+    }
+  ],
+  "noChangeReceipts": [
+    "Excluded previously reported Oct 8-11 Google agent, Haiku, DOE, Rubrik, Hermes, USDA, Flock, Copilot sandbox, CodeQL, PJM, ecological extraction, and Codex predictions.",
+    "AnyPS5 shader recognition milestone predates October 10 reporting; included solely as a newly published boundary/coverage analysis, not claimed new release.",
+    "Sampled watched default branches have no new commits in the last 48h except Seed Loom October 11 provenance collection."
+  ],
+  "collectionFailures": [
+    "No original source-response byte capture; contentHash=null and stage hashes cover ordered URLs only.",
+    "Matter Machine funding sourced to business reporting, not an independently fetched investor filing.",
+    "Amazon-Decart acquisition talks are secondhand and explicitly unverified by Reuters.",
+    "American Heart Association research is a non-peer-reviewed conference abstract.",
+    "SF Tech Week demo attendance and product adoption unverified; event listing only.",
+    "Some repository issues, private projects, dependency audits, and review-thread states were not exhaustively inspected.",
+    "Issue #24 proof and integrity/controls were not executed by this research process."
+  ]
+}

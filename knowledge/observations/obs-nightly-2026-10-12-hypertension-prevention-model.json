@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly:2026-10-12:hypertension-prevention-model",
+  "type": "Observation",
+  "capturedAt": "2026-10-11T23:13:44Z",
+  "claim": "On October 11 the American Heart Association presented preliminary modeling of preventable cardiovascular deaths across twenty countries.",
+  "verifiedFacts": [
+    "The AHA described a modeling analysis across 20 countries estimating 518,476 fewer annual cardiovascular deaths under substantially expanded blood-pressure control.",
+    "The finding was presented as a conference abstract at Hypertension Scientific Sessions 2026 and has not undergone full journal peer review."
+  ],
+  "inference": [
+    "Health evidence communication must distinguish modeled counterfactuals from observed outcomes.",
+    "Consultancy implication: A bounded evidence-visualization audit could help research organizations communicate uncertainty without clinical claims.",
+    "Project disposition implication: Seed Loom CORE for epistemic provenance; Project Constellation INCUBATE as a potential presentation layer only."
+  ],
+  "significance": "The preliminary modeling provides a high-stakes specimen for uncertainty-aware visualization and provenance.",
+  "confidence": 0.9,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly:2026-10-12:hypertension-prevention-model"
+  ],
+  "actorRefs": [
+    "actor:aha:research-disseminator"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "Health organizations have budgets for third-party evidence visualization."
+  ],
+  "knownLimitations": [
+    "Conference abstract is explicitly not peer reviewed; modeling is not observed mortality reduction.",
+    "No validated deployment, interventions, or buyer interviews."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly:2026-10-12:genesis",
+  "runId": "run:nightly:2026-10-12",
+  "stage": "genesis",
+  "status": "deferred",
+  "startedAt": "2026-10-11T23:13:44Z",
+  "completedAt": "2026-10-11T23:13:44Z",
+  "inputs": [
+    "stage:experiment"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "human authorization gate",
+      "result": "not-applicable",
+      "detail": "No autonomous transition or execution is authorized."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "Deferred; requires Jennipher approval; Genesis and publication prohibited."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly sensing edge",
+    "method": "Explicit governance deferral",
+    "inputHashes": [
+      "sha256:f93ec459b0cbe69609b98b44d7cd02b480a854b756c94ab0e7c9f951dba5f8b5"
+    ]
+  }
+}

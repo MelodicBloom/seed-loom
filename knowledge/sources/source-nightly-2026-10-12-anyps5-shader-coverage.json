@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-12:anyps5-shader-coverage",
+  "type": "Source",
+  "url": "https://github.com/boykopovar/AnyPS5",
+  "publisher": "AnyPS5 maintainers",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-11T23:13:44Z",
+  "sourceClass": "repository",
+  "independenceKey": "github.com/boykopovar/AnyPS5",
+  "contentHash": null,
+  "title": "AnyPS5 documents shader translation and limited verified compatibility",
+  "notes": "Event/publication date independently checked where available; exact original source byte hash not retained; evidence class and independence are conservative."
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-12:hypertension-prevention-model",
+  "type": "Source",
+  "url": "https://www.eurekalert.org/news-releases/1146592",
+  "publisher": "American Heart Association via EurekAlert",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-11T23:13:44Z",
+  "sourceClass": "research",
+  "independenceKey": "heart.org",
+  "contentHash": null,
+  "title": "Modeling estimates potential mortality reductions from better hypertension management",
+  "notes": "Event/publication date independently checked where available; exact original source byte hash not retained; evidence class and independence are conservative."
+}

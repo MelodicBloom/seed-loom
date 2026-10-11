@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly:2026-10-12:nonprofit-impact-demo",
+  "type": "Observation",
+  "capturedAt": "2026-10-11T23:13:44Z",
+  "claim": "SF Tech Week listed an October 11 demonstration about helping nonprofits turn data collection into real-time impact evidence.",
+  "verifiedFacts": [
+    "The official SF Tech Week calendar lists a WizeTrak-hosted Metriproof nonprofit data-to-impact demo for October 11 at 10 a.m. Pacific.",
+    "The listing describes a practical approach to real-time data for nonprofits without large technology teams."
+  ],
+  "inference": [
+    "Nonprofits may be a more approachable discovery segment for an evidence-readiness consultancy than enterprise AI infrastructure buyers.",
+    "Consultancy implication: Test a small nonprofit data-to-decision audit offer with explicit outcome and governance boundaries.",
+    "Project disposition implication: Seed Loom CORE; Project Constellation INCUBATE as a presentation layer."
+  ],
+  "significance": "An event listing identifies an explicitly articulated nonprofit evidence workflow problem, not verified market adoption.",
+  "confidence": 0.79,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "opportunity",
+  "sourceRefs": [
+    "source:nightly:2026-10-12:nonprofit-impact-demo"
+  ],
+  "actorRefs": [
+    "actor:wizetrak:event-organizer"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "The event took place as scheduled and attendees represent potential purchasers."
+  ],
+  "knownLimitations": [
+    "Only the event listing was verified; attendance, demonstrations and buyer commitments were not.",
+    "No nonprofit procurement, price tolerance or measured impact evidence."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

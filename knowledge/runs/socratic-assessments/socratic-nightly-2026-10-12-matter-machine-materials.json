@@ -1,0 +1,95 @@
+{
+  "assessmentId": "socratic:nightly:2026-10-12:matter-machine-materials",
+  "observationId": "obs:nightly:2026-10-12:matter-machine-materials",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "On October 11, reporting described a £4 million funding round for University of Liverpool materials-AI spin-out Matter Machine.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:matter-machine-materials"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:matter-machine:builder;actor:ip-group:funder; inspectable behavior: funding and executive appointment",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:matter-machine-materials"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "A funded scientific spin-out demonstrates investor action around AI-enabled materials workflows, without proving consulting demand.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:matter-machine-materials"
+      ]
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Possible research, operations or consultancy stakeholders; specific paying beneficiaries not established.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Internal domain specialists, established vendors, conventional workflows or manual research remain substitutes.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Materials-science ventures need traceable model-to-experiment evidence and partner-ready visual demonstrations.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:matter-machine-materials"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Funding equals a buyer for this consultancy.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Interviews and procurement searches show no budget or need for independent evidence workflows.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Investor announcement and cap table; Research benchmark and target customer interviews",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "The raise primarily funds internal proprietary R&D, not external services.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Funding equals a buyer for this consultancy.",
+  "falsifier": "Interviews and procurement searches show no budget or need for independent evidence workflows.",
+  "missingEvidence": [
+    "Investor announcement and cap table",
+    "Research benchmark and target customer interviews"
+  ],
+  "alternativeExplanation": "The raise primarily funds internal proprietary R&D, not external services.",
+  "disposition": "watch",
+  "confidence": 0.84
+}

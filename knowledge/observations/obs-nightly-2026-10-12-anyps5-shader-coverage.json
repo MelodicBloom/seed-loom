@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly:2026-10-12:anyps5-shader-coverage",
+  "type": "Observation",
+  "capturedAt": "2026-10-11T23:13:44Z",
+  "claim": "An October 10 technical coverage report highlights AnyPS5's tracked shader decoder recognition, while its repository documents limited verified gameplay.",
+  "verifiedFacts": [
+    "The AnyPS5 repository README describes executable relinking, shader recompilation to SPIR-V, and a compatibility list.",
+    "The README identifies Dreaming Sarah as a verified playable 2D title and distinguishes shader progress from broader game compatibility.",
+    "An October 10 Tom's Hardware report describes all 1,166 tracked AMD shader instructions as recognized, not necessarily correctly translated or rendered."
+  ],
+  "inference": [
+    "Shader-grammar QA should explicitly separate parse/recognition coverage, semantic correctness, rendering parity and application compatibility.",
+    "Consultancy implication: Offer bounded shader fidelity audits with captured reference frames and negative fixtures.",
+    "Project disposition implication: qt314wink/shader-grammar CORE; AETHER/WebGL INCUBATE evidence specimen; AnyPS5 REFERENCE-ONLY."
+  ],
+  "significance": "A public interoperability example illustrates how impressive coverage metrics can conceal separate rendering and lifecycle proof obligations.",
+  "confidence": 0.88,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly:2026-10-12:anyps5-shader-coverage"
+  ],
+  "actorRefs": [
+    "actor:anyps5:open-source-builders"
+  ],
+  "affectedRepositories": [
+    "qt314wink/shader-grammar",
+    "qt314wink/seed-loom"
+  ],
+  "assumptions": [
+    "The current tracker and October 10 report reflect the same fixed instruction inventory."
+  ],
+  "knownLimitations": [
+    "The technical milestone was discussed before October 10; today's signal is an updated coverage interpretation, not a newly invented milestone.",
+    "No independent end-to-end GPU rendering parity tests executed."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

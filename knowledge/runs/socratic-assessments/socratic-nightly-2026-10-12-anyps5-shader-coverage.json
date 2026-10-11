@@ -1,0 +1,96 @@
+{
+  "assessmentId": "socratic:nightly:2026-10-12:anyps5-shader-coverage",
+  "observationId": "obs:nightly:2026-10-12:anyps5-shader-coverage",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "An October 10 technical coverage report highlights AnyPS5's tracked shader decoder recognition, while its repository documents limited verified gameplay.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:anyps5-shader-coverage"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:anyps5:open-source-builders; inspectable behavior: repository documentation and October 10 third-party assessment",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:anyps5-shader-coverage"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "A public interoperability example illustrates how impressive coverage metrics can conceal separate rendering and lifecycle proof obligations.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:anyps5-shader-coverage"
+      ]
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Possible research, operations or consultancy stakeholders; specific paying beneficiaries not established.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Internal domain specialists, established vendors, conventional workflows or manual research remain substitutes.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Shader-grammar QA should explicitly separate parse/recognition coverage, semantic correctness, rendering parity and application compatibility.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nightly:2026-10-12:anyps5-shader-coverage"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "100% decoder recognition equals 100% working graphics.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "A large representative shader corpus fails translation or visual parity.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Pinned instruction-set revision; Independent shader behavior corpus; Graphics compatibility receipts",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "The headline reflects a bookkeeping milestone rather than a major advance in rendering correctness.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "100% decoder recognition equals 100% working graphics.",
+  "falsifier": "A large representative shader corpus fails translation or visual parity.",
+  "missingEvidence": [
+    "Pinned instruction-set revision",
+    "Independent shader behavior corpus",
+    "Graphics compatibility receipts"
+  ],
+  "alternativeExplanation": "The headline reflects a bookkeeping milestone rather than a major advance in rendering correctness.",
+  "disposition": "experiment",
+  "confidence": 0.88
+}

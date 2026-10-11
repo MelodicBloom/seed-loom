@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-12:matter-machine-materials",
+  "type": "Source",
+  "url": "https://bmmagazine.co.uk/ai/matter-machine-raises-4m-sanghera/",
+  "publisher": "Business Matters",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-11T23:13:44Z",
+  "sourceClass": "press",
+  "independenceKey": "bmmagazine.co.uk",
+  "contentHash": null,
+  "title": "Liverpool AI materials spin-out Matter Machine raises £4m",
+  "notes": "Event/publication date independently checked where available; exact original source byte hash not retained; evidence class and independence are conservative."
+}

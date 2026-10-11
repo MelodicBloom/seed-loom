@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-12:decart-acquisition-talks",
+  "type": "Source",
+  "url": "https://www.reuters.com/business/retail-consumer/amazon-talks-buy-ai-startup-decart-around-7-billion-wsj-reports-2026-10-11/",
+  "publisher": "Reuters citing Wall Street Journal",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-11T23:13:44Z",
+  "sourceClass": "secondary",
+  "independenceKey": "wsj.com",
+  "contentHash": null,
+  "title": "Amazon reportedly in talks to acquire Decart for approximately $7 billion",
+  "notes": "Event/publication date independently checked where available; exact original source byte hash not retained; evidence class and independence are conservative."
+}

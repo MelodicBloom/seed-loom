@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-12:nonprofit-impact-demo",
+  "type": "Source",
+  "url": "https://www.tech-week.com/calendar/sf/events/from-data-collection-to-real-time-impact-a-demo-of-metriproof-for-nonprofits-4a099b67-2c3c-4343-a04d-6a84caa6591c",
+  "publisher": "SF Tech Week event listing",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-11T23:13:44Z",
+  "sourceClass": "official",
+  "independenceKey": "tech-week.com",
+  "contentHash": null,
+  "title": "October 11 nonprofit real-time evidence demo listed at SF Tech Week",
+  "notes": "Event/publication date independently checked where available; exact original source byte hash not retained; evidence class and independence are conservative."
+}

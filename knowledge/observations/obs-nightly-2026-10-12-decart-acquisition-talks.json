@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly:2026-10-12:decart-acquisition-talks",
+  "type": "Observation",
+  "capturedAt": "2026-10-11T23:13:44Z",
+  "claim": "On October 11 Reuters relayed a report that Amazon was discussing a possible approximately $7 billion acquisition of AI-video and world-model developer Decart.",
+  "verifiedFacts": [
+    "Reuters published the report at 21:16 UTC on October 11 and attributed the acquisition talks to the Wall Street Journal.",
+    "Reuters said it could not independently verify the negotiations and that neither company immediately responded.",
+    "Decart develops real-time video editing and simulated-environment models, according to Reuters."
+  ],
+  "inference": [
+    "Creative video and world-model infrastructure may attract strategic buyers; a rumored transaction is not evidence of completion.",
+    "Consultancy implication: Productize reproducible creative QA and controlled variation rather than building a competing foundation model.",
+    "Project disposition implication: qt314wink/observation-ad-pipeline PRODUCTIZE candidate; shader-grammar CORE technical reference."
+  ],
+  "significance": "A reported strategic-interest signal connects live video generation to enterprise infrastructure, but remains unconfirmed.",
+  "confidence": 0.68,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "opportunity",
+  "sourceRefs": [
+    "source:nightly:2026-10-12:decart-acquisition-talks"
+  ],
+  "actorRefs": [
+    "actor:amazon:prospective-buyer",
+    "actor:decart:builder"
+  ],
+  "affectedRepositories": [
+    "qt314wink/observation-ad-pipeline",
+    "qt314wink/shader-grammar"
+  ],
+  "assumptions": [
+    "Strategic interest translates to demand for external production QA."
+  ],
+  "knownLimitations": [
+    "Negotiations are unconfirmed and may collapse.",
+    "No verified acquisition, buyer spending on QA, or model reproducibility benchmarks."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}
