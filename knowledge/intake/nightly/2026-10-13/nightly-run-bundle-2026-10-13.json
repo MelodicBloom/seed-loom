@@ -1,0 +1,1408 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly:2026-10-13",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-10-10T23:23:10Z",
+      "to": "2026-10-12T23:23:10Z"
+    },
+    "newObservations": [
+      "obs:nightly:2026-10-13:github-push-attribution",
+      "obs:nightly:2026-10-13:tencent-bond-plan",
+      "obs:nightly:2026-10-13:climate-fingerprint-review",
+      "obs:nightly:2026-10-13:zbtb44-immune-brake",
+      "obs:nightly:2026-10-13:unimelb-workload-strike"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [
+      "Authenticated action identity, evidence-backed correctness and human authorization are distinct.",
+      "Research publication, reported financing and planned labor action do not establish paid consulting demand."
+    ],
+    "newRelationships": [
+      "rel:nightly:2026-10-13:github-push-attribution:source1",
+      "rel:nightly:2026-10-13:tencent-bond-plan:source1",
+      "rel:nightly:2026-10-13:climate-fingerprint-review:source1",
+      "rel:nightly:2026-10-13:zbtb44-immune-brake:source1",
+      "rel:nightly:2026-10-13:unimelb-workload-strike:source1",
+      "rel:nightly:2026-10-13:unimelb-workload-strike:source2"
+    ],
+    "contradictions": [
+      "Reported bond plan is not completed funding.",
+      "Preclinical mechanism is not a human therapy.",
+      "Scheduled strike is not independently confirmed attendance.",
+      "Authenticated pusher is not necessarily intentional author."
+    ],
+    "opportunities": [
+      "Bounded agent/repository identity and provenance audit",
+      "Measured shader-and-motion creative QA service",
+      "Ecological attribution and impact-evidence visualization"
+    ],
+    "proposedExperiments": [
+      "Disposable commit-identity threat model comparing signed metadata and authenticated push controls where preview access exists.",
+      "Creative QA specimen measuring frame parity, continuity, correction time and reproducible receipts, without external outreach."
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/wan-artistic-pipeline",
+        "paths": [
+          "src/batch_scheduler.py",
+          "src/motion_control_surface.py",
+          "tests/test_motion_control_surface.py"
+        ],
+        "proposal": "Reproduce PR #4 missing motion_program metadata and propose smallest branch-and-draft-PR repair after approval."
+      },
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "qt314wink/seed-loom",
+        "paths": [
+          "scripts/knowledge/prove-nightly-ingest.mjs",
+          "knowledge/receipts/"
+        ],
+        "proposal": "Execute Issue #24 proof in clean isolated checkout; do not alter production or generated records manually."
+      },
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/.github",
+        "paths": [
+          "docs/"
+        ],
+        "proposal": "Read draft authority PRs #14 and #15 and failed QA logs; do not promote or edit without approved paths."
+      }
+    ],
+    "noChangeReceipts": [
+      "Excluded previously reported October 8–12 Google agent, Haiku, nuclear clock, WWF, DOE, Rubrik, Hermes, USDA, Flock, Copilot sandbox, CodeQL, PJM, ecology text extraction, Codex predictions, Matter Machine, Decart, hypertension model, AnyPS5, MetriProof.",
+      "Seed Loom main commit 3bb1676b5bd1e1ead33298abab412f55d7bc16b8 on October 12 is provenance collection, not acceptance.",
+      "Sampled Shader Grammar, WAN Artistic Pipeline, Observation Ad Pipeline, Design Standards, Omni-Loom and Project Constellation show no new default-branch commits in this window.",
+      "WAN PR #4 Motion Control Surface workflow 37714789047 remains failed; Pipeline CI 37714788987 passed."
+    ],
+    "collectionFailures": [
+      "Source-body bytes were not retained: contentHash=null; stage hash covers ordered source URLs, not source bodies.",
+      "Tencent proposed debt issuance is anonymously sourced and unconfirmed.",
+      "Union October 12 strike occurrence and attendance unverified; vote and schedule documented.",
+      "GitHub pusher attribution is limited Enterprise preview; no eligibility established.",
+      "LithoMemphis and Kozo Dreams named repository endpoints returned 404; no inactivity inference.",
+      "Repository inventory is sampled; private/renamed repo, dependency and review-thread coverage incomplete.",
+      "Issue #24 two-run proof and branch-specific knowledge integrity/controls have not been executed during research collection."
+    ]
+  },
+  "sources": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly:2026-10-13:github-push-attribution",
+      "type": "Source",
+      "url": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview/",
+      "publisher": "GitHub",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-12T23:23:10Z",
+      "sourceClass": "primary",
+      "independenceKey": "github.blog",
+      "contentHash": null,
+      "title": "Authenticated push identity arrives in limited preview",
+      "notes": "Original source-body bytes not retained; date and event novelty checked; no source-body integrity claim."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly:2026-10-13:tencent-bond-plan",
+      "type": "Source",
+      "url": "https://www.reuters.com/world/asia-pacific/tencent-plans-dollar-offshore-yuan-bond-sale-under-note-programme-2026-10-12/",
+      "publisher": "Reuters",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-12T23:23:10Z",
+      "sourceClass": "press",
+      "independenceKey": "reuters.com",
+      "contentHash": null,
+      "title": "Tencent reportedly plans AI-related bond financing",
+      "notes": "Original source-body bytes not retained; date and event novelty checked; no source-body integrity claim."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly:2026-10-13:climate-fingerprint-review",
+      "type": "Source",
+      "url": "https://sciencesources.eurekalert.org/news-releases/1146967",
+      "publisher": "University of East Anglia via EurekAlert",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-12T23:23:10Z",
+      "sourceClass": "research",
+      "independenceKey": "sciencesources.eurekalert.org",
+      "contentHash": null,
+      "title": "New review consolidates human climate attribution evidence",
+      "notes": "Original source-body bytes not retained; date and event novelty checked; no source-body integrity claim."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly:2026-10-13:zbtb44-immune-brake",
+      "type": "Source",
+      "url": "https://www.utsouthwestern.edu/newsroom/articles/year-2026/oct-protein-intestinal-inflammation.html",
+      "publisher": "UT Southwestern Medical Center",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-12T23:23:10Z",
+      "sourceClass": "research",
+      "independenceKey": "utsouthwestern.edu",
+      "contentHash": null,
+      "title": "Preclinical study identifies ZBTB44 immune regulatory mechanism",
+      "notes": "Original source-body bytes not retained; date and event novelty checked; no source-body integrity claim."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly:2026-10-13:unimelb-workload-strike",
+      "type": "Source",
+      "url": "https://www.nteu.au/News_Articles/Local_News/VIC/UniMelb/unimelb_industrial_action_information_resources.aspx",
+      "publisher": "National Tertiary Education Union",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-12T23:23:10Z",
+      "sourceClass": "official",
+      "independenceKey": "nteu.au",
+      "contentHash": null,
+      "title": "Melbourne staff scheduled October 12 strike amid workload and AI concerns",
+      "notes": "Original source-body bytes not retained; date and event novelty checked; no source-body integrity claim."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly:2026-10-13:unimelb-student-report",
+      "type": "Source",
+      "url": "https://umsu.unimelb.edu.au/news/article/7797/University-of-Melbournes-NTEU-Branch-Set-to-Strike-Again/",
+      "publisher": "University of Melbourne Student Union",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-12T23:23:10Z",
+      "sourceClass": "press",
+      "independenceKey": "umsu.unimelb.edu.au",
+      "contentHash": null,
+      "title": "University of Melbourne's NTEU Branch Set to Strike Again",
+      "notes": "Published October 11, 2026; corroborates planned action, not its completion."
+    }
+  ],
+  "observations": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly:2026-10-13:github-push-attribution",
+      "type": "Observation",
+      "capturedAt": "2026-10-12T23:23:10Z",
+      "claim": "GitHub announced on October 12 durable authenticated pusher identity distinct from mutable author and committer strings.",
+      "verifiedFacts": [
+        "GitHub announced on October 12 durable authenticated pusher identity distinct from mutable author and committer strings.",
+        "A new ruleset condition can require the committer to match a verified email address of the pusher.",
+        "The feature is a limited public preview for GitHub Enterprise customers, not universal availability."
+      ],
+      "inference": [
+        "Distinguish transport authentication, code authorship, signing, and human approval.",
+        "Consultancy implication: Provider release reinforces repository provenance governance without proving account eligibility.",
+        "Project disposition implication: Authenticated server-side push attribution and a verified-committer matching rule."
+      ],
+      "significance": "Provider release reinforces repository provenance governance without proving account eligibility.",
+      "confidence": 0.96,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "default",
+      "sourceRefs": [
+        "source:nightly:2026-10-13:github-push-attribution"
+      ],
+      "actorRefs": [
+        "actor:github:provider"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/.github"
+      ],
+      "assumptions": [
+        "New pusher identity alone establishes human intent and end-to-end commit integrity."
+      ],
+      "knownLimitations": [
+        "Adversarial delegated-agent or compromised-account tests reveal gaps in intent attribution.",
+        "Missing evidence: Preview eligibility",
+        "Missing evidence: Independent spoofing tests",
+        "Missing evidence: Purchasing demand"
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly:2026-10-13:tencent-bond-plan",
+      "type": "Observation",
+      "capturedAt": "2026-10-12T23:23:10Z",
+      "claim": "Reuters reported on October 12 that Tencent planned to raise at least $4.5 billion in dollar and offshore-yuan bonds, citing a person with direct knowledge.",
+      "verifiedFacts": [
+        "Reuters reported on October 12 that Tencent planned to raise at least $4.5 billion in dollar and offshore-yuan bonds, citing a person with direct knowledge.",
+        "The proposed amount, maturities and issuance remain subject to market conditions; no completed bond sale is verified.",
+        "Reuters reported Tencent first-half 2026 capital expenditure of 96.3 billion yuan, more than double the prior-year period."
+      ],
+      "inference": [
+        "Large AI investments heighten the need to distinguish projected demand from actual utilization and profitability.",
+        "Consultancy implication: Reported financing intention supports a capital-efficiency thesis, not evidence of a consultancy buyer.",
+        "Project disposition implication: Potential multi-currency bond issuance; proposed rather than executed."
+      ],
+      "significance": "Reported financing intention supports a capital-efficiency thesis, not evidence of a consultancy buyer.",
+      "confidence": 0.79,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "default",
+      "sourceRefs": [
+        "source:nightly:2026-10-13:tencent-bond-plan"
+      ],
+      "actorRefs": [
+        "actor:tencent:builder",
+        "actor:reuters:media",
+        "actor:banks:potential-suppliers"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "qt314wink/observation-ad-pipeline"
+      ],
+      "assumptions": [
+        "Proposed AI debt financing proves near-term paid demand for independent creative QA."
+      ],
+      "knownLimitations": [
+        "Issuance does not occur or procurement is concentrated among established suppliers.",
+        "Missing evidence: Final debt issuance filing",
+        "Missing evidence: Buyer procurement and utilization records"
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly:2026-10-13:climate-fingerprint-review",
+      "type": "Observation",
+      "capturedAt": "2026-10-12T23:23:10Z",
+      "claim": "The University of East Anglia announced an October 12 review in the peer-reviewed journal Earth's Future.",
+      "verifiedFacts": [
+        "The University of East Anglia announced an October 12 review in the peer-reviewed journal Earth's Future.",
+        "The review synthesizes three decades of detection-and-attribution research across independently observed climate variables.",
+        "The authors dispute a July 2025 U.S. DOE report; the review is not a new site-specific restoration experiment."
+      ],
+      "inference": [
+        "Environmental evidence products must separate global causal attribution, competing claims and local intervention outcomes.",
+        "Consultancy implication: This is a current research-synthesis example for provenance-aware ecological visualization.",
+        "Project disposition implication: Climate fingerprints distinguish anthropogenic from natural influences across measured variables."
+      ],
+      "significance": "This is a current research-synthesis example for provenance-aware ecological visualization.",
+      "confidence": 0.93,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "peer-reviewed-research",
+      "sourceRefs": [
+        "source:nightly:2026-10-13:climate-fingerprint-review"
+      ],
+      "actorRefs": [
+        "actor:uea:researchers",
+        "actor:doe:regulator"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/project-constellation"
+      ],
+      "assumptions": [
+        "Global climate attribution identifies the optimal local ecological intervention."
+      ],
+      "knownLimitations": [
+        "Local baseline and monitoring show the selected intervention ineffective or harmful.",
+        "Missing evidence: Local baseline and impact measurements",
+        "Missing evidence: Environmental buyer budget"
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly:2026-10-13:zbtb44-immune-brake",
+      "type": "Observation",
+      "capturedAt": "2026-10-12T23:23:10Z",
+      "claim": "UT Southwestern announced October 12 a Nature Immunology study identifying ZBTB44 as a regulator of T-cell interferon-gamma production.",
+      "verifiedFacts": [
+        "UT Southwestern announced October 12 a Nature Immunology study identifying ZBTB44 as a regulator of T-cell interferon-gamma production.",
+        "Mice lacking ZBTB44 developed colon inflammation; eliminating interferon-gamma substantially reduced inflammation.",
+        "An observational human biopsy analysis involved 12 ulcerative colitis patients and nine controls; no human therapeutic benefit was established."
+      ],
+      "inference": [
+        "Biomedical evidence visualization should show animal mechanism, human association and clinical translation as separate claims.",
+        "Consultancy implication: The mechanism is a specimen for scientific explanation, not a clinical product opportunity.",
+        "Project disposition implication: ZBTB44 and T-bet regulation of IFN-gamma transcription."
+      ],
+      "significance": "The mechanism is a specimen for scientific explanation, not a clinical product opportunity.",
+      "confidence": 0.94,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "peer-reviewed-research",
+      "sourceRefs": [
+        "source:nightly:2026-10-13:zbtb44-immune-brake"
+      ],
+      "actorRefs": [
+        "actor:utsw:researchers"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/project-constellation"
+      ],
+      "assumptions": [
+        "Mouse mechanistic evidence demonstrates a safe effective treatment in humans."
+      ],
+      "knownLimitations": [
+        "Clinical studies fail to establish safe and effective modulation of the pathway.",
+        "Missing evidence: Independent replication",
+        "Missing evidence: Human safety and efficacy trials",
+        "Missing evidence: Research buyer"
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly:2026-10-13:unimelb-workload-strike",
+      "type": "Observation",
+      "capturedAt": "2026-10-12T23:23:10Z",
+      "claim": "The NTEU confirmed members voted September 29 to strike on October 12 and impose teaching bans October 13–16.",
+      "verifiedFacts": [
+        "The NTEU confirmed members voted September 29 to strike on October 12 and impose teaching bans October 13–16.",
+        "University of Melbourne student media reported on October 11 that pickets were planned and workload bargaining continued.",
+        "Union claims include AI safeguards, but neither completed strike attendance nor an AI-specific cause was independently verified."
+      ],
+      "inference": [
+        "An AI-workflow audit should measure net workload, review time, staff consent and human decision authority.",
+        "Consultancy implication: Documented collective action planning is a labor governance signal, not proof that AI caused the dispute.",
+        "Project disposition implication: Documented vote and scheduled industrial action in bargaining."
+      ],
+      "significance": "Documented collective action planning is a labor governance signal, not proof that AI caused the dispute.",
+      "confidence": 0.87,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "default",
+      "sourceRefs": [
+        "source:nightly:2026-10-13:unimelb-workload-strike",
+        "source:nightly:2026-10-13:unimelb-student-report"
+      ],
+      "actorRefs": [
+        "actor:nteu:participants",
+        "actor:unimelb:institution",
+        "actor:umsu:participants"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/design-standards-2026-2027"
+      ],
+      "assumptions": [
+        "AI deployment was the primary cause of the strike."
+      ],
+      "knownLimitations": [
+        "Bargaining evidence identifies pay and longstanding workload issues as dominant causes.",
+        "Missing evidence: Confirmed October 12 participation",
+        "Missing evidence: AI-specific workload measures",
+        "Missing evidence: Management response"
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-10-13:github-push-attribution:source1",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-10-13:github-push-attribution",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly:2026-10-13:github-push-attribution",
+      "confidence": 0.96,
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:github-push-attribution"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-10-13:tencent-bond-plan:source1",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-10-13:tencent-bond-plan",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly:2026-10-13:tencent-bond-plan",
+      "confidence": 0.79,
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:tencent-bond-plan"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-10-13:climate-fingerprint-review:source1",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-10-13:climate-fingerprint-review",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly:2026-10-13:climate-fingerprint-review",
+      "confidence": 0.93,
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:climate-fingerprint-review"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-10-13:zbtb44-immune-brake:source1",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-10-13:zbtb44-immune-brake",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly:2026-10-13:zbtb44-immune-brake",
+      "confidence": 0.94,
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:zbtb44-immune-brake"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-10-13:unimelb-workload-strike:source1",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-10-13:unimelb-workload-strike",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly:2026-10-13:unimelb-workload-strike",
+      "confidence": 0.87,
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:unimelb-workload-strike"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-10-13:unimelb-workload-strike:source2",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-10-13:unimelb-workload-strike",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly:2026-10-13:unimelb-student-report",
+      "confidence": 0.83,
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:unimelb-student-report"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-13:collect",
+      "runId": "run:nightly:2026-10-13",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-10-12T23:23:10Z",
+      "completedAt": "2026-10-12T23:23:10Z",
+      "inputs": [
+        "https://github.blog/changelog/2026-10-12-push-attribution-public-preview/",
+        "https://www.reuters.com/world/asia-pacific/tencent-plans-dollar-offshore-yuan-bond-sale-under-note-programme-2026-10-12/",
+        "https://sciencesources.eurekalert.org/news-releases/1146967",
+        "https://www.utsouthwestern.edu/newsroom/articles/year-2026/oct-protein-intestinal-inflammation.html",
+        "https://www.nteu.au/News_Articles/Local_News/VIC/UniMelb/unimelb_industrial_action_information_resources.aspx",
+        "https://umsu.unimelb.edu.au/news/article/7797/University-of-Melbournes-NTEU-Branch-Set-to-Strike-Again/"
+      ],
+      "outputs": [
+        "candidate:collect"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only research-stage structural review",
+          "result": "pass",
+          "detail": "Research-stage check, not executable CI or Issue #24 proof."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research; no acceptance, executed repository action, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Direct-source review; bounded Socratic inference; live-schema assembly",
+        "inputHashes": [
+          "sha256:b9ce90bf7056a8f1968e9b6ad5753ed88bb3792f885d131037d808745444738a"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-13:vet",
+      "runId": "run:nightly:2026-10-13",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-10-12T23:23:10Z",
+      "completedAt": "2026-10-12T23:23:10Z",
+      "inputs": [
+        "candidate:collect"
+      ],
+      "outputs": [
+        "candidate:vet"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only research-stage structural review",
+          "result": "pass",
+          "detail": "Research-stage check, not executable CI or Issue #24 proof."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research; no acceptance, executed repository action, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Direct-source review; bounded Socratic inference; live-schema assembly",
+        "inputHashes": [
+          "sha256:b9ce90bf7056a8f1968e9b6ad5753ed88bb3792f885d131037d808745444738a"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-13:normalize",
+      "runId": "run:nightly:2026-10-13",
+      "stage": "normalize",
+      "status": "passed",
+      "startedAt": "2026-10-12T23:23:10Z",
+      "completedAt": "2026-10-12T23:23:10Z",
+      "inputs": [
+        "candidate:vet"
+      ],
+      "outputs": [
+        "candidate:normalize"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only research-stage structural review",
+          "result": "pass",
+          "detail": "Research-stage check, not executable CI or Issue #24 proof."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research; no acceptance, executed repository action, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Direct-source review; bounded Socratic inference; live-schema assembly",
+        "inputHashes": [
+          "sha256:b9ce90bf7056a8f1968e9b6ad5753ed88bb3792f885d131037d808745444738a"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-13:observe",
+      "runId": "run:nightly:2026-10-13",
+      "stage": "observe",
+      "status": "passed",
+      "startedAt": "2026-10-12T23:23:10Z",
+      "completedAt": "2026-10-12T23:23:10Z",
+      "inputs": [
+        "candidate:normalize"
+      ],
+      "outputs": [
+        "candidate:observe"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only research-stage structural review",
+          "result": "pass",
+          "detail": "Research-stage check, not executable CI or Issue #24 proof."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research; no acceptance, executed repository action, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Direct-source review; bounded Socratic inference; live-schema assembly",
+        "inputHashes": [
+          "sha256:b9ce90bf7056a8f1968e9b6ad5753ed88bb3792f885d131037d808745444738a"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-13:inquire",
+      "runId": "run:nightly:2026-10-13",
+      "stage": "inquire",
+      "status": "passed",
+      "startedAt": "2026-10-12T23:23:10Z",
+      "completedAt": "2026-10-12T23:23:10Z",
+      "inputs": [
+        "candidate:observe"
+      ],
+      "outputs": [
+        "candidate:inquire"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only research-stage structural review",
+          "result": "pass",
+          "detail": "Research-stage check, not executable CI or Issue #24 proof."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research; no acceptance, executed repository action, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Direct-source review; bounded Socratic inference; live-schema assembly",
+        "inputHashes": [
+          "sha256:b9ce90bf7056a8f1968e9b6ad5753ed88bb3792f885d131037d808745444738a"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-13:interpret",
+      "runId": "run:nightly:2026-10-13",
+      "stage": "interpret",
+      "status": "passed",
+      "startedAt": "2026-10-12T23:23:10Z",
+      "completedAt": "2026-10-12T23:23:10Z",
+      "inputs": [
+        "candidate:inquire"
+      ],
+      "outputs": [
+        "candidate:interpret"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only research-stage structural review",
+          "result": "pass",
+          "detail": "Research-stage check, not executable CI or Issue #24 proof."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research; no acceptance, executed repository action, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Direct-source review; bounded Socratic inference; live-schema assembly",
+        "inputHashes": [
+          "sha256:b9ce90bf7056a8f1968e9b6ad5753ed88bb3792f885d131037d808745444738a"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-13:relate",
+      "runId": "run:nightly:2026-10-13",
+      "stage": "relate",
+      "status": "passed",
+      "startedAt": "2026-10-12T23:23:10Z",
+      "completedAt": "2026-10-12T23:23:10Z",
+      "inputs": [
+        "candidate:interpret"
+      ],
+      "outputs": [
+        "candidate:relate"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only research-stage structural review",
+          "result": "pass",
+          "detail": "Research-stage check, not executable CI or Issue #24 proof."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research; no acceptance, executed repository action, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Direct-source review; bounded Socratic inference; live-schema assembly",
+        "inputHashes": [
+          "sha256:b9ce90bf7056a8f1968e9b6ad5753ed88bb3792f885d131037d808745444738a"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-13:pattern",
+      "runId": "run:nightly:2026-10-13",
+      "stage": "pattern",
+      "status": "passed",
+      "startedAt": "2026-10-12T23:23:10Z",
+      "completedAt": "2026-10-12T23:23:10Z",
+      "inputs": [
+        "candidate:relate"
+      ],
+      "outputs": [
+        "candidate:pattern"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only research-stage structural review",
+          "result": "pass",
+          "detail": "Research-stage check, not executable CI or Issue #24 proof."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research; no acceptance, executed repository action, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Direct-source review; bounded Socratic inference; live-schema assembly",
+        "inputHashes": [
+          "sha256:b9ce90bf7056a8f1968e9b6ad5753ed88bb3792f885d131037d808745444738a"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-13:opportunity",
+      "runId": "run:nightly:2026-10-13",
+      "stage": "opportunity",
+      "status": "passed",
+      "startedAt": "2026-10-12T23:23:10Z",
+      "completedAt": "2026-10-12T23:23:10Z",
+      "inputs": [
+        "candidate:pattern"
+      ],
+      "outputs": [
+        "candidate:opportunity"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only research-stage structural review",
+          "result": "pass",
+          "detail": "Research-stage check, not executable CI or Issue #24 proof."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research; no acceptance, executed repository action, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Direct-source review; bounded Socratic inference; live-schema assembly",
+        "inputHashes": [
+          "sha256:b9ce90bf7056a8f1968e9b6ad5753ed88bb3792f885d131037d808745444738a"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-13:strategy",
+      "runId": "run:nightly:2026-10-13",
+      "stage": "strategy",
+      "status": "deferred",
+      "startedAt": "2026-10-12T23:23:10Z",
+      "completedAt": "2026-10-12T23:23:10Z",
+      "inputs": [
+        "candidate:opportunity"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human-approval boundary",
+          "result": "not-applicable",
+          "detail": "Not executed; human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only research; no acceptance, executed repository action, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Direct-source review; bounded Socratic inference; live-schema assembly",
+        "inputHashes": [
+          "sha256:b9ce90bf7056a8f1968e9b6ad5753ed88bb3792f885d131037d808745444738a"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-13:experiment",
+      "runId": "run:nightly:2026-10-13",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-10-12T23:23:10Z",
+      "completedAt": "2026-10-12T23:23:10Z",
+      "inputs": [
+        "candidate:strategy"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human-approval boundary",
+          "result": "not-applicable",
+          "detail": "Not executed; human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only research; no acceptance, executed repository action, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Direct-source review; bounded Socratic inference; live-schema assembly",
+        "inputHashes": [
+          "sha256:b9ce90bf7056a8f1968e9b6ad5753ed88bb3792f885d131037d808745444738a"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-13:genesis",
+      "runId": "run:nightly:2026-10-13",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-10-12T23:23:10Z",
+      "completedAt": "2026-10-12T23:23:10Z",
+      "inputs": [
+        "candidate:experiment"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human-approval boundary",
+          "result": "not-applicable",
+          "detail": "Not executed; human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only research; no acceptance, executed repository action, deployment or publication.",
+          "Genesis is explicitly deferred and cannot transition."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Direct-source review; bounded Socratic inference; live-schema assembly",
+        "inputHashes": [
+          "sha256:b9ce90bf7056a8f1968e9b6ad5753ed88bb3792f885d131037d808745444738a"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-10-13:publish",
+      "runId": "run:nightly:2026-10-13",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-10-12T23:23:10Z",
+      "completedAt": "2026-10-12T23:23:10Z",
+      "inputs": [
+        "candidate:genesis"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human-approval boundary",
+          "result": "not-applicable",
+          "detail": "Not executed; human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only research; no acceptance, executed repository action, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly sensing edge",
+        "method": "Direct-source review; bounded Socratic inference; live-schema assembly",
+        "inputHashes": [
+          "sha256:b9ce90bf7056a8f1968e9b6ad5753ed88bb3792f885d131037d808745444738a"
+        ]
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:nightly:2026-10-13:github-push-attribution",
+      "observationId": "obs:nightly:2026-10-13:github-push-attribution",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "GitHub announced on October 12 durable authenticated pusher identity distinct from mutable author and committer strings.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-13:github-push-attribution"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "actor:github:provider — source-documented announcement, report, publication, vote or plan; no unsupported completion claim.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-13:github-push-attribution"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Git author/committer metadata can be forged by clients.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Possible domain actors and service buyers, but no paying client has been identified.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Signed commits, rulesets and audit logs.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Signed commits, rulesets and audit logs.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly:2026-10-13:github-push-attribution"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "New pusher identity alone establishes human intent and end-to-end commit integrity.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Adversarial delegated-agent or compromised-account tests reveal gaps in intent attribution.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Preview eligibility; Independent spoofing tests; Purchasing demand",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "This is primarily an enterprise audit-log enhancement.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "New pusher identity alone establishes human intent and end-to-end commit integrity.",
+      "falsifier": "Adversarial delegated-agent or compromised-account tests reveal gaps in intent attribution.",
+      "missingEvidence": [
+        "Preview eligibility",
+        "Independent spoofing tests",
+        "Purchasing demand"
+      ],
+      "alternativeExplanation": "This is primarily an enterprise audit-log enhancement.",
+      "disposition": "watch",
+      "confidence": 0.96
+    },
+    {
+      "assessmentId": "socratic:nightly:2026-10-13:tencent-bond-plan",
+      "observationId": "obs:nightly:2026-10-13:tencent-bond-plan",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Reuters reported on October 12 that Tencent planned to raise at least $4.5 billion in dollar and offshore-yuan bonds, citing a person with direct knowledge.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-13:tencent-bond-plan"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "actor:tencent:builder; actor:reuters:media; actor:banks:potential-suppliers — source-documented announcement, report, publication, vote or plan; no unsupported completion claim.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-13:tencent-bond-plan"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Capital intensity of AI infrastructure requires financing.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Possible domain actors and service buyers, but no paying client has been identified.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Cash flows, equity or vendor financing.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Cash flows, equity or vendor financing.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly:2026-10-13:tencent-bond-plan"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Proposed AI debt financing proves near-term paid demand for independent creative QA.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Issuance does not occur or procurement is concentrated among established suppliers.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Final debt issuance filing; Buyer procurement and utilization records",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "The proposed sale may refinance existing capacity rather than create new service opportunities.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Proposed AI debt financing proves near-term paid demand for independent creative QA.",
+      "falsifier": "Issuance does not occur or procurement is concentrated among established suppliers.",
+      "missingEvidence": [
+        "Final debt issuance filing",
+        "Buyer procurement and utilization records"
+      ],
+      "alternativeExplanation": "The proposed sale may refinance existing capacity rather than create new service opportunities.",
+      "disposition": "watch",
+      "confidence": 0.79
+    },
+    {
+      "assessmentId": "socratic:nightly:2026-10-13:climate-fingerprint-review",
+      "observationId": "obs:nightly:2026-10-13:climate-fingerprint-review",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "The University of East Anglia announced an October 12 review in the peer-reviewed journal Earth's Future.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-13:climate-fingerprint-review"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "actor:uea:researchers; actor:doe:regulator — source-documented announcement, report, publication, vote or plan; no unsupported completion claim.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-13:climate-fingerprint-review"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Environmental actors must interpret attribution separately from policy and site outcomes.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Possible domain actors and service buyers, but no paying client has been identified.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "IPCC synthesis and environmental impact assessment.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "IPCC synthesis and environmental impact assessment.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly:2026-10-13:climate-fingerprint-review"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Global climate attribution identifies the optimal local ecological intervention.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Local baseline and monitoring show the selected intervention ineffective or harmful.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Local baseline and impact measurements; Environmental buyer budget",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Existing climate assessments and environmental consultants may already satisfy the need.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Global climate attribution identifies the optimal local ecological intervention.",
+      "falsifier": "Local baseline and monitoring show the selected intervention ineffective or harmful.",
+      "missingEvidence": [
+        "Local baseline and impact measurements",
+        "Environmental buyer budget"
+      ],
+      "alternativeExplanation": "Existing climate assessments and environmental consultants may already satisfy the need.",
+      "disposition": "watch",
+      "confidence": 0.93
+    },
+    {
+      "assessmentId": "socratic:nightly:2026-10-13:zbtb44-immune-brake",
+      "observationId": "obs:nightly:2026-10-13:zbtb44-immune-brake",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "UT Southwestern announced October 12 a Nature Immunology study identifying ZBTB44 as a regulator of T-cell interferon-gamma production.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-13:zbtb44-immune-brake"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "actor:utsw:researchers — source-documented announcement, report, publication, vote or plan; no unsupported completion claim.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-13:zbtb44-immune-brake"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Preclinical findings are easy to overstate as therapies.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Possible domain actors and service buyers, but no paying client has been identified.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Scientific diagrams and specialist medical visualization.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Scientific diagrams and specialist medical visualization.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly:2026-10-13:zbtb44-immune-brake"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Mouse mechanistic evidence demonstrates a safe effective treatment in humans.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Clinical studies fail to establish safe and effective modulation of the pathway.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent replication; Human safety and efficacy trials; Research buyer",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Existing medical illustrators and journal figures already explain the pathway.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Mouse mechanistic evidence demonstrates a safe effective treatment in humans.",
+      "falsifier": "Clinical studies fail to establish safe and effective modulation of the pathway.",
+      "missingEvidence": [
+        "Independent replication",
+        "Human safety and efficacy trials",
+        "Research buyer"
+      ],
+      "alternativeExplanation": "Existing medical illustrators and journal figures already explain the pathway.",
+      "disposition": "watch",
+      "confidence": 0.94
+    },
+    {
+      "assessmentId": "socratic:nightly:2026-10-13:unimelb-workload-strike",
+      "observationId": "obs:nightly:2026-10-13:unimelb-workload-strike",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "The NTEU confirmed members voted September 29 to strike on October 12 and impose teaching bans October 13–16.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-13:unimelb-workload-strike"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "actor:nteu:participants; actor:unimelb:institution; actor:umsu:participants — source-documented announcement, report, publication, vote or plan; no unsupported completion claim.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly:2026-10-13:unimelb-workload-strike"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Staff workload and technology governance are contested.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Possible domain actors and service buyers, but no paying client has been identified.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Traditional workload committees and collective bargaining.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Traditional workload committees and collective bargaining.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly:2026-10-13:unimelb-workload-strike"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "AI deployment was the primary cause of the strike.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Bargaining evidence identifies pay and longstanding workload issues as dominant causes.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Confirmed October 12 participation; AI-specific workload measures; Management response",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "A broader pay and staffing dispute may explain the action.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "AI deployment was the primary cause of the strike.",
+      "falsifier": "Bargaining evidence identifies pay and longstanding workload issues as dominant causes.",
+      "missingEvidence": [
+        "Confirmed October 12 participation",
+        "AI-specific workload measures",
+        "Management response"
+      ],
+      "alternativeExplanation": "A broader pay and staffing dispute may explain the action.",
+      "disposition": "watch",
+      "confidence": 0.87
+    }
+  ]
+}
