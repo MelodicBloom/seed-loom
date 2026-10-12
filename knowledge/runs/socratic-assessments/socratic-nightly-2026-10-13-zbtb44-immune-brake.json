@@ -1,0 +1,94 @@
+{
+  "assessmentId": "socratic:nightly:2026-10-13:zbtb44-immune-brake",
+  "observationId": "obs:nightly:2026-10-13:zbtb44-immune-brake",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "UT Southwestern announced October 12 a Nature Immunology study identifying ZBTB44 as a regulator of T-cell interferon-gamma production.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:zbtb44-immune-brake"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:utsw:researchers — source-documented announcement, report, publication, vote or plan; no unsupported completion claim.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:zbtb44-immune-brake"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Preclinical findings are easy to overstate as therapies.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Possible domain actors and service buyers, but no paying client has been identified.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Scientific diagrams and specialist medical visualization.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Scientific diagrams and specialist medical visualization.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:zbtb44-immune-brake"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Mouse mechanistic evidence demonstrates a safe effective treatment in humans.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Clinical studies fail to establish safe and effective modulation of the pathway.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent replication; Human safety and efficacy trials; Research buyer",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Existing medical illustrators and journal figures already explain the pathway.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Mouse mechanistic evidence demonstrates a safe effective treatment in humans.",
+  "falsifier": "Clinical studies fail to establish safe and effective modulation of the pathway.",
+  "missingEvidence": [
+    "Independent replication",
+    "Human safety and efficacy trials",
+    "Research buyer"
+  ],
+  "alternativeExplanation": "Existing medical illustrators and journal figures already explain the pathway.",
+  "disposition": "watch",
+  "confidence": 0.94
+}

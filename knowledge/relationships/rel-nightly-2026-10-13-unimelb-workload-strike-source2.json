@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly:2026-10-13:unimelb-workload-strike:source2",
+  "type": "Relationship",
+  "from": "obs:nightly:2026-10-13:unimelb-workload-strike",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly:2026-10-13:unimelb-student-report",
+  "confidence": 0.83,
+  "evidenceRefs": [
+    "source:nightly:2026-10-13:unimelb-student-report"
+  ]
+}

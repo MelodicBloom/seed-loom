@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:nightly:2026-10-13:tencent-bond-plan",
+  "observationId": "obs:nightly:2026-10-13:tencent-bond-plan",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Reuters reported on October 12 that Tencent planned to raise at least $4.5 billion in dollar and offshore-yuan bonds, citing a person with direct knowledge.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:tencent-bond-plan"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:tencent:builder; actor:reuters:media; actor:banks:potential-suppliers — source-documented announcement, report, publication, vote or plan; no unsupported completion claim.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:tencent-bond-plan"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Capital intensity of AI infrastructure requires financing.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Possible domain actors and service buyers, but no paying client has been identified.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Cash flows, equity or vendor financing.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Cash flows, equity or vendor financing.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:tencent-bond-plan"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Proposed AI debt financing proves near-term paid demand for independent creative QA.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Issuance does not occur or procurement is concentrated among established suppliers.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Final debt issuance filing; Buyer procurement and utilization records",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "The proposed sale may refinance existing capacity rather than create new service opportunities.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Proposed AI debt financing proves near-term paid demand for independent creative QA.",
+  "falsifier": "Issuance does not occur or procurement is concentrated among established suppliers.",
+  "missingEvidence": [
+    "Final debt issuance filing",
+    "Buyer procurement and utilization records"
+  ],
+  "alternativeExplanation": "The proposed sale may refinance existing capacity rather than create new service opportunities.",
+  "disposition": "watch",
+  "confidence": 0.79
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly:2026-10-13",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-10T23:23:10Z",
+    "to": "2026-10-12T23:23:10Z"
+  },
+  "newObservations": [
+    "obs:nightly:2026-10-13:github-push-attribution",
+    "obs:nightly:2026-10-13:tencent-bond-plan",
+    "obs:nightly:2026-10-13:climate-fingerprint-review",
+    "obs:nightly:2026-10-13:zbtb44-immune-brake",
+    "obs:nightly:2026-10-13:unimelb-workload-strike"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Authenticated action identity, evidence-backed correctness and human authorization are distinct.",
+    "Research publication, reported financing and planned labor action do not establish paid consulting demand."
+  ],
+  "newRelationships": [
+    "rel:nightly:2026-10-13:github-push-attribution:source1",
+    "rel:nightly:2026-10-13:tencent-bond-plan:source1",
+    "rel:nightly:2026-10-13:climate-fingerprint-review:source1",
+    "rel:nightly:2026-10-13:zbtb44-immune-brake:source1",
+    "rel:nightly:2026-10-13:unimelb-workload-strike:source1",
+    "rel:nightly:2026-10-13:unimelb-workload-strike:source2"
+  ],
+  "contradictions": [
+    "Reported bond plan is not completed funding.",
+    "Preclinical mechanism is not a human therapy.",
+    "Scheduled strike is not independently confirmed attendance.",
+    "Authenticated pusher is not necessarily intentional author."
+  ],
+  "opportunities": [
+    "Bounded agent/repository identity and provenance audit",
+    "Measured shader-and-motion creative QA service",
+    "Ecological attribution and impact-evidence visualization"
+  ],
+  "proposedExperiments": [
+    "Disposable commit-identity threat model comparing signed metadata and authenticated push controls where preview access exists.",
+    "Creative QA specimen measuring frame parity, continuity, correction time and reproducible receipts, without external outreach."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/wan-artistic-pipeline",
+      "paths": [
+        "src/batch_scheduler.py",
+        "src/motion_control_surface.py",
+        "tests/test_motion_control_surface.py"
+      ],
+      "proposal": "Reproduce PR #4 missing motion_program metadata and propose smallest branch-and-draft-PR repair after approval."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/seed-loom",
+      "paths": [
+        "scripts/knowledge/prove-nightly-ingest.mjs",
+        "knowledge/receipts/"
+      ],
+      "proposal": "Execute Issue #24 proof in clean isolated checkout; do not alter production or generated records manually."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/.github",
+      "paths": [
+        "docs/"
+      ],
+      "proposal": "Read draft authority PRs #14 and #15 and failed QA logs; do not promote or edit without approved paths."
+    }
+  ],
+  "noChangeReceipts": [
+    "Excluded previously reported October 8–12 Google agent, Haiku, nuclear clock, WWF, DOE, Rubrik, Hermes, USDA, Flock, Copilot sandbox, CodeQL, PJM, ecology text extraction, Codex predictions, Matter Machine, Decart, hypertension model, AnyPS5, MetriProof.",
+    "Seed Loom main commit 3bb1676b5bd1e1ead33298abab412f55d7bc16b8 on October 12 is provenance collection, not acceptance.",
+    "Sampled Shader Grammar, WAN Artistic Pipeline, Observation Ad Pipeline, Design Standards, Omni-Loom and Project Constellation show no new default-branch commits in this window.",
+    "WAN PR #4 Motion Control Surface workflow 37714789047 remains failed; Pipeline CI 37714788987 passed."
+  ],
+  "collectionFailures": [
+    "Source-body bytes were not retained: contentHash=null; stage hash covers ordered source URLs, not source bodies.",
+    "Tencent proposed debt issuance is anonymously sourced and unconfirmed.",
+    "Union October 12 strike occurrence and attendance unverified; vote and schedule documented.",
+    "GitHub pusher attribution is limited Enterprise preview; no eligibility established.",
+    "LithoMemphis and Kozo Dreams named repository endpoints returned 404; no inactivity inference.",
+    "Repository inventory is sampled; private/renamed repo, dependency and review-thread coverage incomplete.",
+    "Issue #24 two-run proof and branch-specific knowledge integrity/controls have not been executed during research collection."
+  ]
+}

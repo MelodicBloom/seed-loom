@@ -1,0 +1,61 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-10-12T23:25:40.228Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly:2026-10-13",
+      "bundlePath": "knowledge/intake/nightly/2026-10-13/nightly-run-bundle-2026-10-13.json",
+      "bundleSha256": "f2528d19bf8f0c6455bbf2fef3f030f2f4b7f5df5039331cc49a2e7c1e55a099",
+      "normalizedDigest": "82dd181f96a723bffe2a5b661eb847728700faa27bdb4cea17d4d0718c2e3414",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-nightly-2026-10-13-github-push-attribution.json",
+        "knowledge/sources/source-nightly-2026-10-13-tencent-bond-plan.json",
+        "knowledge/sources/source-nightly-2026-10-13-climate-fingerprint-review.json",
+        "knowledge/sources/source-nightly-2026-10-13-zbtb44-immune-brake.json",
+        "knowledge/sources/source-nightly-2026-10-13-unimelb-workload-strike.json",
+        "knowledge/sources/source-nightly-2026-10-13-unimelb-student-report.json",
+        "knowledge/observations/obs-nightly-2026-10-13-github-push-attribution.json",
+        "knowledge/observations/obs-nightly-2026-10-13-tencent-bond-plan.json",
+        "knowledge/observations/obs-nightly-2026-10-13-climate-fingerprint-review.json",
+        "knowledge/observations/obs-nightly-2026-10-13-zbtb44-immune-brake.json",
+        "knowledge/observations/obs-nightly-2026-10-13-unimelb-workload-strike.json",
+        "knowledge/relationships/rel-nightly-2026-10-13-github-push-attribution-source1.json",
+        "knowledge/relationships/rel-nightly-2026-10-13-tencent-bond-plan-source1.json",
+        "knowledge/relationships/rel-nightly-2026-10-13-climate-fingerprint-review-source1.json",
+        "knowledge/relationships/rel-nightly-2026-10-13-zbtb44-immune-brake-source1.json",
+        "knowledge/relationships/rel-nightly-2026-10-13-unimelb-workload-strike-source1.json",
+        "knowledge/relationships/rel-nightly-2026-10-13-unimelb-workload-strike-source2.json",
+        "knowledge/runs/run-nightly-2026-10-13.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-13-collect.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-13-vet.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-13-normalize.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-13-observe.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-13-inquire.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-13-interpret.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-13-relate.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-13-pattern.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-13-opportunity.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-13-strategy.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-13-experiment.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-13-genesis.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-13-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-13-github-push-attribution.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-13-tencent-bond-plan.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-13-climate-fingerprint-review.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-13-zbtb44-immune-brake.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-13-unimelb-workload-strike.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-10-13-ingest.json",
+      "generatedRecordCount": 36
+    }
+  ]
+}

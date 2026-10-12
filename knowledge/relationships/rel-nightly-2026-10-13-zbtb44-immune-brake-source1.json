@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly:2026-10-13:zbtb44-immune-brake:source1",
+  "type": "Relationship",
+  "from": "obs:nightly:2026-10-13:zbtb44-immune-brake",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly:2026-10-13:zbtb44-immune-brake",
+  "confidence": 0.94,
+  "evidenceRefs": [
+    "source:nightly:2026-10-13:zbtb44-immune-brake"
+  ]
+}

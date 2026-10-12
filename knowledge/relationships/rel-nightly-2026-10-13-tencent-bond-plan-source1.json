@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly:2026-10-13:tencent-bond-plan:source1",
+  "type": "Relationship",
+  "from": "obs:nightly:2026-10-13:tencent-bond-plan",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly:2026-10-13:tencent-bond-plan",
+  "confidence": 0.79,
+  "evidenceRefs": [
+    "source:nightly:2026-10-13:tencent-bond-plan"
+  ]
+}

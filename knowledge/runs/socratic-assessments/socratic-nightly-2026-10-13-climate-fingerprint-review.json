@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:nightly:2026-10-13:climate-fingerprint-review",
+  "observationId": "obs:nightly:2026-10-13:climate-fingerprint-review",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "The University of East Anglia announced an October 12 review in the peer-reviewed journal Earth's Future.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:climate-fingerprint-review"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:uea:researchers; actor:doe:regulator — source-documented announcement, report, publication, vote or plan; no unsupported completion claim.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:climate-fingerprint-review"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Environmental actors must interpret attribution separately from policy and site outcomes.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Possible domain actors and service buyers, but no paying client has been identified.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "IPCC synthesis and environmental impact assessment.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "IPCC synthesis and environmental impact assessment.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:climate-fingerprint-review"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Global climate attribution identifies the optimal local ecological intervention.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Local baseline and monitoring show the selected intervention ineffective or harmful.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Local baseline and impact measurements; Environmental buyer budget",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Existing climate assessments and environmental consultants may already satisfy the need.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Global climate attribution identifies the optimal local ecological intervention.",
+  "falsifier": "Local baseline and monitoring show the selected intervention ineffective or harmful.",
+  "missingEvidence": [
+    "Local baseline and impact measurements",
+    "Environmental buyer budget"
+  ],
+  "alternativeExplanation": "Existing climate assessments and environmental consultants may already satisfy the need.",
+  "disposition": "watch",
+  "confidence": 0.93
+}

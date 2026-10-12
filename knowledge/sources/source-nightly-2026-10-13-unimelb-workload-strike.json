@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-13:unimelb-workload-strike",
+  "type": "Source",
+  "url": "https://www.nteu.au/News_Articles/Local_News/VIC/UniMelb/unimelb_industrial_action_information_resources.aspx",
+  "publisher": "National Tertiary Education Union",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-12T23:23:10Z",
+  "sourceClass": "official",
+  "independenceKey": "nteu.au",
+  "contentHash": null,
+  "title": "Melbourne staff scheduled October 12 strike amid workload and AI concerns",
+  "notes": "Original source-body bytes not retained; date and event novelty checked; no source-body integrity claim."
+}

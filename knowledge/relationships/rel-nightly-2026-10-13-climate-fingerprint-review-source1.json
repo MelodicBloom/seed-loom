@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly:2026-10-13:climate-fingerprint-review:source1",
+  "type": "Relationship",
+  "from": "obs:nightly:2026-10-13:climate-fingerprint-review",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly:2026-10-13:climate-fingerprint-review",
+  "confidence": 0.93,
+  "evidenceRefs": [
+    "source:nightly:2026-10-13:climate-fingerprint-review"
+  ]
+}

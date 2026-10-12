@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly:2026-10-13:pattern",
+  "runId": "run:nightly:2026-10-13",
+  "stage": "pattern",
+  "status": "passed",
+  "startedAt": "2026-10-12T23:23:10Z",
+  "completedAt": "2026-10-12T23:23:10Z",
+  "inputs": [
+    "candidate:relate"
+  ],
+  "outputs": [
+    "candidate:pattern"
+  ],
+  "checks": [
+    {
+      "name": "candidate-only research-stage structural review",
+      "result": "pass",
+      "detail": "Research-stage check, not executable CI or Issue #24 proof."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only research; no acceptance, executed repository action, deployment or publication."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly sensing edge",
+    "method": "Direct-source review; bounded Socratic inference; live-schema assembly",
+    "inputHashes": [
+      "sha256:b9ce90bf7056a8f1968e9b6ad5753ed88bb3792f885d131037d808745444738a"
+    ]
+  }
+}

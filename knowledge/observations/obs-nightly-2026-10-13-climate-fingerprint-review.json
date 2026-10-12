@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly:2026-10-13:climate-fingerprint-review",
+  "type": "Observation",
+  "capturedAt": "2026-10-12T23:23:10Z",
+  "claim": "The University of East Anglia announced an October 12 review in the peer-reviewed journal Earth's Future.",
+  "verifiedFacts": [
+    "The University of East Anglia announced an October 12 review in the peer-reviewed journal Earth's Future.",
+    "The review synthesizes three decades of detection-and-attribution research across independently observed climate variables.",
+    "The authors dispute a July 2025 U.S. DOE report; the review is not a new site-specific restoration experiment."
+  ],
+  "inference": [
+    "Environmental evidence products must separate global causal attribution, competing claims and local intervention outcomes.",
+    "Consultancy implication: This is a current research-synthesis example for provenance-aware ecological visualization.",
+    "Project disposition implication: Climate fingerprints distinguish anthropogenic from natural influences across measured variables."
+  ],
+  "significance": "This is a current research-synthesis example for provenance-aware ecological visualization.",
+  "confidence": 0.93,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly:2026-10-13:climate-fingerprint-review"
+  ],
+  "actorRefs": [
+    "actor:uea:researchers",
+    "actor:doe:regulator"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "Global climate attribution identifies the optimal local ecological intervention."
+  ],
+  "knownLimitations": [
+    "Local baseline and monitoring show the selected intervention ineffective or harmful.",
+    "Missing evidence: Local baseline and impact measurements",
+    "Missing evidence: Environmental buyer budget"
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

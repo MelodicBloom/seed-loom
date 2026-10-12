@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-13:github-push-attribution",
+  "type": "Source",
+  "url": "https://github.blog/changelog/2026-10-12-push-attribution-public-preview/",
+  "publisher": "GitHub",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-12T23:23:10Z",
+  "sourceClass": "primary",
+  "independenceKey": "github.blog",
+  "contentHash": null,
+  "title": "Authenticated push identity arrives in limited preview",
+  "notes": "Original source-body bytes not retained; date and event novelty checked; no source-body integrity claim."
+}

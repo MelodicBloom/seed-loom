@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly:2026-10-13:unimelb-workload-strike",
+  "type": "Observation",
+  "capturedAt": "2026-10-12T23:23:10Z",
+  "claim": "The NTEU confirmed members voted September 29 to strike on October 12 and impose teaching bans October 13–16.",
+  "verifiedFacts": [
+    "The NTEU confirmed members voted September 29 to strike on October 12 and impose teaching bans October 13–16.",
+    "University of Melbourne student media reported on October 11 that pickets were planned and workload bargaining continued.",
+    "Union claims include AI safeguards, but neither completed strike attendance nor an AI-specific cause was independently verified."
+  ],
+  "inference": [
+    "An AI-workflow audit should measure net workload, review time, staff consent and human decision authority.",
+    "Consultancy implication: Documented collective action planning is a labor governance signal, not proof that AI caused the dispute.",
+    "Project disposition implication: Documented vote and scheduled industrial action in bargaining."
+  ],
+  "significance": "Documented collective action planning is a labor governance signal, not proof that AI caused the dispute.",
+  "confidence": 0.87,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly:2026-10-13:unimelb-workload-strike",
+    "source:nightly:2026-10-13:unimelb-student-report"
+  ],
+  "actorRefs": [
+    "actor:nteu:participants",
+    "actor:unimelb:institution",
+    "actor:umsu:participants"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/design-standards-2026-2027"
+  ],
+  "assumptions": [
+    "AI deployment was the primary cause of the strike."
+  ],
+  "knownLimitations": [
+    "Bargaining evidence identifies pay and longstanding workload issues as dominant causes.",
+    "Missing evidence: Confirmed October 12 participation",
+    "Missing evidence: AI-specific workload measures",
+    "Missing evidence: Management response"
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

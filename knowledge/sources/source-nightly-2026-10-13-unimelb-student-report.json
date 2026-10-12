@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-13:unimelb-student-report",
+  "type": "Source",
+  "url": "https://umsu.unimelb.edu.au/news/article/7797/University-of-Melbournes-NTEU-Branch-Set-to-Strike-Again/",
+  "publisher": "University of Melbourne Student Union",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-12T23:23:10Z",
+  "sourceClass": "press",
+  "independenceKey": "umsu.unimelb.edu.au",
+  "contentHash": null,
+  "title": "University of Melbourne's NTEU Branch Set to Strike Again",
+  "notes": "Published October 11, 2026; corroborates planned action, not its completion."
+}

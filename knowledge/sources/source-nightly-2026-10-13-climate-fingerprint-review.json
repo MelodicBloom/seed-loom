@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-13:climate-fingerprint-review",
+  "type": "Source",
+  "url": "https://sciencesources.eurekalert.org/news-releases/1146967",
+  "publisher": "University of East Anglia via EurekAlert",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-12T23:23:10Z",
+  "sourceClass": "research",
+  "independenceKey": "sciencesources.eurekalert.org",
+  "contentHash": null,
+  "title": "New review consolidates human climate attribution evidence",
+  "notes": "Original source-body bytes not retained; date and event novelty checked; no source-body integrity claim."
+}

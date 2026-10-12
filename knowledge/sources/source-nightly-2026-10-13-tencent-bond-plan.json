@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-13:tencent-bond-plan",
+  "type": "Source",
+  "url": "https://www.reuters.com/world/asia-pacific/tencent-plans-dollar-offshore-yuan-bond-sale-under-note-programme-2026-10-12/",
+  "publisher": "Reuters",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-12T23:23:10Z",
+  "sourceClass": "press",
+  "independenceKey": "reuters.com",
+  "contentHash": null,
+  "title": "Tencent reportedly plans AI-related bond financing",
+  "notes": "Original source-body bytes not retained; date and event novelty checked; no source-body integrity claim."
+}

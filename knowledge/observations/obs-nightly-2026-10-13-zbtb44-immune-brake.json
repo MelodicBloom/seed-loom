@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly:2026-10-13:zbtb44-immune-brake",
+  "type": "Observation",
+  "capturedAt": "2026-10-12T23:23:10Z",
+  "claim": "UT Southwestern announced October 12 a Nature Immunology study identifying ZBTB44 as a regulator of T-cell interferon-gamma production.",
+  "verifiedFacts": [
+    "UT Southwestern announced October 12 a Nature Immunology study identifying ZBTB44 as a regulator of T-cell interferon-gamma production.",
+    "Mice lacking ZBTB44 developed colon inflammation; eliminating interferon-gamma substantially reduced inflammation.",
+    "An observational human biopsy analysis involved 12 ulcerative colitis patients and nine controls; no human therapeutic benefit was established."
+  ],
+  "inference": [
+    "Biomedical evidence visualization should show animal mechanism, human association and clinical translation as separate claims.",
+    "Consultancy implication: The mechanism is a specimen for scientific explanation, not a clinical product opportunity.",
+    "Project disposition implication: ZBTB44 and T-bet regulation of IFN-gamma transcription."
+  ],
+  "significance": "The mechanism is a specimen for scientific explanation, not a clinical product opportunity.",
+  "confidence": 0.94,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly:2026-10-13:zbtb44-immune-brake"
+  ],
+  "actorRefs": [
+    "actor:utsw:researchers"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "Mouse mechanistic evidence demonstrates a safe effective treatment in humans."
+  ],
+  "knownLimitations": [
+    "Clinical studies fail to establish safe and effective modulation of the pathway.",
+    "Missing evidence: Independent replication",
+    "Missing evidence: Human safety and efficacy trials",
+    "Missing evidence: Research buyer"
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,94 @@
+{
+  "assessmentId": "socratic:nightly:2026-10-13:unimelb-workload-strike",
+  "observationId": "obs:nightly:2026-10-13:unimelb-workload-strike",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "The NTEU confirmed members voted September 29 to strike on October 12 and impose teaching bans October 13–16.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:unimelb-workload-strike"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:nteu:participants; actor:unimelb:institution; actor:umsu:participants — source-documented announcement, report, publication, vote or plan; no unsupported completion claim.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:unimelb-workload-strike"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Staff workload and technology governance are contested.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Possible domain actors and service buyers, but no paying client has been identified.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Traditional workload committees and collective bargaining.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Traditional workload committees and collective bargaining.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:unimelb-workload-strike"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "AI deployment was the primary cause of the strike.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Bargaining evidence identifies pay and longstanding workload issues as dominant causes.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Confirmed October 12 participation; AI-specific workload measures; Management response",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "A broader pay and staffing dispute may explain the action.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "AI deployment was the primary cause of the strike.",
+  "falsifier": "Bargaining evidence identifies pay and longstanding workload issues as dominant causes.",
+  "missingEvidence": [
+    "Confirmed October 12 participation",
+    "AI-specific workload measures",
+    "Management response"
+  ],
+  "alternativeExplanation": "A broader pay and staffing dispute may explain the action.",
+  "disposition": "watch",
+  "confidence": 0.87
+}

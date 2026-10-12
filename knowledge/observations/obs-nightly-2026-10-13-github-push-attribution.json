@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly:2026-10-13:github-push-attribution",
+  "type": "Observation",
+  "capturedAt": "2026-10-12T23:23:10Z",
+  "claim": "GitHub announced on October 12 durable authenticated pusher identity distinct from mutable author and committer strings.",
+  "verifiedFacts": [
+    "GitHub announced on October 12 durable authenticated pusher identity distinct from mutable author and committer strings.",
+    "A new ruleset condition can require the committer to match a verified email address of the pusher.",
+    "The feature is a limited public preview for GitHub Enterprise customers, not universal availability."
+  ],
+  "inference": [
+    "Distinguish transport authentication, code authorship, signing, and human approval.",
+    "Consultancy implication: Provider release reinforces repository provenance governance without proving account eligibility.",
+    "Project disposition implication: Authenticated server-side push attribution and a verified-committer matching rule."
+  ],
+  "significance": "Provider release reinforces repository provenance governance without proving account eligibility.",
+  "confidence": 0.96,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly:2026-10-13:github-push-attribution"
+  ],
+  "actorRefs": [
+    "actor:github:provider"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/.github"
+  ],
+  "assumptions": [
+    "New pusher identity alone establishes human intent and end-to-end commit integrity."
+  ],
+  "knownLimitations": [
+    "Adversarial delegated-agent or compromised-account tests reveal gaps in intent attribution.",
+    "Missing evidence: Preview eligibility",
+    "Missing evidence: Independent spoofing tests",
+    "Missing evidence: Purchasing demand"
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

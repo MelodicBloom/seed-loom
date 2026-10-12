@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly:2026-10-13:collect",
+  "runId": "run:nightly:2026-10-13",
+  "stage": "collect",
+  "status": "passed",
+  "startedAt": "2026-10-12T23:23:10Z",
+  "completedAt": "2026-10-12T23:23:10Z",
+  "inputs": [
+    "https://github.blog/changelog/2026-10-12-push-attribution-public-preview/",
+    "https://www.reuters.com/world/asia-pacific/tencent-plans-dollar-offshore-yuan-bond-sale-under-note-programme-2026-10-12/",
+    "https://sciencesources.eurekalert.org/news-releases/1146967",
+    "https://www.utsouthwestern.edu/newsroom/articles/year-2026/oct-protein-intestinal-inflammation.html",
+    "https://www.nteu.au/News_Articles/Local_News/VIC/UniMelb/unimelb_industrial_action_information_resources.aspx",
+    "https://umsu.unimelb.edu.au/news/article/7797/University-of-Melbournes-NTEU-Branch-Set-to-Strike-Again/"
+  ],
+  "outputs": [
+    "candidate:collect"
+  ],
+  "checks": [
+    {
+      "name": "candidate-only research-stage structural review",
+      "result": "pass",
+      "detail": "Research-stage check, not executable CI or Issue #24 proof."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only research; no acceptance, executed repository action, deployment or publication."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly sensing edge",
+    "method": "Direct-source review; bounded Socratic inference; live-schema assembly",
+    "inputHashes": [
+      "sha256:b9ce90bf7056a8f1968e9b6ad5753ed88bb3792f885d131037d808745444738a"
+    ]
+  }
+}

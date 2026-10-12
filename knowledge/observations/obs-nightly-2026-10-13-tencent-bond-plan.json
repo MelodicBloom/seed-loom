@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly:2026-10-13:tencent-bond-plan",
+  "type": "Observation",
+  "capturedAt": "2026-10-12T23:23:10Z",
+  "claim": "Reuters reported on October 12 that Tencent planned to raise at least $4.5 billion in dollar and offshore-yuan bonds, citing a person with direct knowledge.",
+  "verifiedFacts": [
+    "Reuters reported on October 12 that Tencent planned to raise at least $4.5 billion in dollar and offshore-yuan bonds, citing a person with direct knowledge.",
+    "The proposed amount, maturities and issuance remain subject to market conditions; no completed bond sale is verified.",
+    "Reuters reported Tencent first-half 2026 capital expenditure of 96.3 billion yuan, more than double the prior-year period."
+  ],
+  "inference": [
+    "Large AI investments heighten the need to distinguish projected demand from actual utilization and profitability.",
+    "Consultancy implication: Reported financing intention supports a capital-efficiency thesis, not evidence of a consultancy buyer.",
+    "Project disposition implication: Potential multi-currency bond issuance; proposed rather than executed."
+  ],
+  "significance": "Reported financing intention supports a capital-efficiency thesis, not evidence of a consultancy buyer.",
+  "confidence": 0.79,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly:2026-10-13:tencent-bond-plan"
+  ],
+  "actorRefs": [
+    "actor:tencent:builder",
+    "actor:reuters:media",
+    "actor:banks:potential-suppliers"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "qt314wink/observation-ad-pipeline"
+  ],
+  "assumptions": [
+    "Proposed AI debt financing proves near-term paid demand for independent creative QA."
+  ],
+  "knownLimitations": [
+    "Issuance does not occur or procurement is concentrated among established suppliers.",
+    "Missing evidence: Final debt issuance filing",
+    "Missing evidence: Buyer procurement and utilization records"
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

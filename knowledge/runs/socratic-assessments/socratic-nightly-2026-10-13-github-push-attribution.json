@@ -1,0 +1,94 @@
+{
+  "assessmentId": "socratic:nightly:2026-10-13:github-push-attribution",
+  "observationId": "obs:nightly:2026-10-13:github-push-attribution",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "GitHub announced on October 12 durable authenticated pusher identity distinct from mutable author and committer strings.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:github-push-attribution"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:github:provider — source-documented announcement, report, publication, vote or plan; no unsupported completion claim.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:github-push-attribution"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Git author/committer metadata can be forged by clients.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Possible domain actors and service buyers, but no paying client has been identified.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Signed commits, rulesets and audit logs.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Signed commits, rulesets and audit logs.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nightly:2026-10-13:github-push-attribution"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "New pusher identity alone establishes human intent and end-to-end commit integrity.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Adversarial delegated-agent or compromised-account tests reveal gaps in intent attribution.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Preview eligibility; Independent spoofing tests; Purchasing demand",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "This is primarily an enterprise audit-log enhancement.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "New pusher identity alone establishes human intent and end-to-end commit integrity.",
+  "falsifier": "Adversarial delegated-agent or compromised-account tests reveal gaps in intent attribution.",
+  "missingEvidence": [
+    "Preview eligibility",
+    "Independent spoofing tests",
+    "Purchasing demand"
+  ],
+  "alternativeExplanation": "This is primarily an enterprise audit-log enhancement.",
+  "disposition": "watch",
+  "confidence": 0.96
+}

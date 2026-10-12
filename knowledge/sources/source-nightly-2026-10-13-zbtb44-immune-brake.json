@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-13:zbtb44-immune-brake",
+  "type": "Source",
+  "url": "https://www.utsouthwestern.edu/newsroom/articles/year-2026/oct-protein-intestinal-inflammation.html",
+  "publisher": "UT Southwestern Medical Center",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-12T23:23:10Z",
+  "sourceClass": "research",
+  "independenceKey": "utsouthwestern.edu",
+  "contentHash": null,
+  "title": "Preclinical study identifies ZBTB44 immune regulatory mechanism",
+  "notes": "Original source-body bytes not retained; date and event novelty checked; no source-body integrity claim."
+}
