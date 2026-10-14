@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-14:stanford-coral-fusion",
+  "type": "Source",
+  "url": "https://sustainability.stanford.edu/news/stanford-scientists-discover-way-to-reverse-coral-bleaching-record-speed/",
+  "publisher": "Stanford Doerr School of Sustainability",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-14T23:07:39Z",
+  "sourceClass": "research",
+  "independenceKey": "stanford.edu",
+  "contentHash": null,
+  "title": "Healthy coral clone contact accelerates bleaching recovery in lab",
+  "notes": "Direct-source page reviewed; source-body bytes not archived. No source-body hash claimed."
+}

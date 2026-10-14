@@ -1,0 +1,94 @@
+{
+  "assessmentId": "socratic:nightly:2026-10-14:mechatronic-wave-coarsening",
+  "observationId": "obs:nightly:2026-10-14:mechatronic-wave-coarsening",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Researchers reported October 14 that locally coupled mechatronic units self-organize into robust collective oscillation through non-reciprocal interactions.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-14:mechatronic-wave-coarsening"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:birmingham:researcher performed an inspectable release, funding announcement or research publication; downstream buyer behavior unknown.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-14:mechatronic-wave-coarsening"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Coordinating distributed actuation without a central controller is difficult.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Active-matter researchers, robotics engineers and science educators could benefit.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Centralized control, classical coupled oscillators and hand-keyframed motion.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Non-reciprocal neighbor coupling drives progressive wave coarsening to collective oscillation.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-14:mechatronic-wave-coarsening"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "A WebGL animation can preserve causal fidelity of a non-reciprocal physical oscillator.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Controlled simulator cannot reproduce reported coarsening under published parameters.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Published implementation parameters; Independent replication; Reproduction of observed frequency evolution",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Demonstrated behavior may be a specialized engineered oscillator rather than a broadly reusable design principle.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "A WebGL animation can preserve causal fidelity of a non-reciprocal physical oscillator.",
+  "falsifier": "Controlled simulator cannot reproduce reported coarsening under published parameters.",
+  "missingEvidence": [
+    "Published implementation parameters",
+    "Independent replication",
+    "Reproduction of observed frequency evolution"
+  ],
+  "alternativeExplanation": "Demonstrated behavior may be a specialized engineered oscillator rather than a broadly reusable design principle.",
+  "disposition": "experiment",
+  "confidence": 0.96
+}

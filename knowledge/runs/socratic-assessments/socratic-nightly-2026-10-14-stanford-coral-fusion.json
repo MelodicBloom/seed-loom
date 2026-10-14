@@ -1,0 +1,94 @@
+{
+  "assessmentId": "socratic:nightly:2026-10-14:stanford-coral-fusion",
+  "observationId": "obs:nightly:2026-10-14:stanford-coral-fusion",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Stanford researchers reported October 14 that bleached coral fragments touching healthy genetic clones recovered in seven weeks in a small laboratory study.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-14:stanford-coral-fusion"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:stanford:researcher performed an inspectable release, funding announcement or research publication; downstream buyer behavior unknown.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-14:stanford-coral-fusion"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Bleached corals often lose symbionts and recover slowly or die.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Coral researchers and restoration programs may benefit if scalable delivery can be demonstrated.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Coral gardening, selective breeding, assisted evolution and thermal-stress mitigation.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Tissue contact between healthy and bleached clone fragments transfers symbionts and nutrients.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-14:stanford-coral-fusion"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "The laboratory rescue mechanism can be delivered at field scale without harming ecosystems.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Field trials fail to improve survival or introduce unacceptable ecological risks.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent replication; Field trials and long-term survival; Cost and scalability of symbiont delivery",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Recovery may depend on clone-specific compatibility and controlled conditions rather than general restoration readiness.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "The laboratory rescue mechanism can be delivered at field scale without harming ecosystems.",
+  "falsifier": "Field trials fail to improve survival or introduce unacceptable ecological risks.",
+  "missingEvidence": [
+    "Independent replication",
+    "Field trials and long-term survival",
+    "Cost and scalability of symbiont delivery"
+  ],
+  "alternativeExplanation": "Recovery may depend on clone-specific compatibility and controlled conditions rather than general restoration readiness.",
+  "disposition": "experiment",
+  "confidence": 0.95
+}

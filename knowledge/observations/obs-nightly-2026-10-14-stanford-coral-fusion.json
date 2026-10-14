@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly:2026-10-14:stanford-coral-fusion",
+  "type": "Observation",
+  "capturedAt": "2026-10-14T23:07:39Z",
+  "claim": "Stanford researchers reported October 14 that bleached coral fragments touching healthy genetic clones recovered in seven weeks in a small laboratory study.",
+  "verifiedFacts": [
+    "Stanford described an October 14 Science Advances study using ten healthy/bleached coral-fragment pairs.",
+    "Five touching pairs recovered within seven weeks while five separated by millimeters died, according to the institution's report.",
+    "The authors describe transfer of beneficial algae and nutrients through tissue contact and explicitly caution that requiring genetically identical healthy coral is not scalable."
+  ],
+  "inference": [
+    "Mechanism: tissue fusion permits transfer of symbiotic algae and nutrients; do not equate with scalable reef restoration.",
+    "Consultancy relevance: evidence-led restoration dashboard that separates mechanism, scale, intervention feasibility and ecosystem outcome; buyer problem: overclaiming early ecological results.",
+    "Disposition: Seed Loom CORE for causal/provenance semantics; Project Constellation INCUBATE for bounded explanatory visualization.",
+    "Thesis movement: refines restoration evidence gates."
+  ],
+  "significance": "A controlled lab result illustrates the distance between a successful biological mechanism and field-scale regenerative outcomes.",
+  "confidence": 0.95,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly:2026-10-14:stanford-coral-fusion"
+  ],
+  "actorRefs": [
+    "actor:stanford:researcher"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "The laboratory rescue mechanism can be delivered at field scale without harming ecosystems."
+  ],
+  "knownLimitations": [
+    "Small n=10 pairs and controlled lab conditions.",
+    "Requires genetically identical healthy coral, which authors say is impractical at reef scale.",
+    "Field effectiveness and ecological side effects untested."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

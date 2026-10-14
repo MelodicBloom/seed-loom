@@ -1,0 +1,94 @@
+{
+  "assessmentId": "socratic:nightly:2026-10-14:hesai-kosmo-launch",
+  "observationId": "obs:nightly:2026-10-14:hesai-kosmo-launch",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Hesai launched Kosmo One and Kosmo World on October 14 as an integrated spatial-capture and 3D reconstruction offering.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-14:hesai-kosmo-launch"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:hesai:provider-builder performed an inspectable release, funding announcement or research publication; downstream buyer behavior unknown.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-14:hesai-kosmo-launch"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Real-world 3D data capture can be costly and hard to reproduce.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Robotics builders, VFX teams and spatial-content operators could benefit; actual buyers remain unverified.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Photogrammetry, LiDAR scanners, hand-authored scenes and existing 3DGS pipelines.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Time-aligned LiDAR, RGB and IMU data reconstructed as reusable 3DGS assets.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-14:hesai-kosmo-launch"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Vendor-reported accuracy and cost improvements will transfer to local client workflows.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent benchmark finds comparable capture cost, editability or geometry error worse than substitutes.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent benchmark on challenging materials and lighting; Real licensing and asset-export terms; Paid pilot demand",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Primarily a hardware/cloud platform launch aimed at robotics rather than a new freelance market.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Vendor-reported accuracy and cost improvements will transfer to local client workflows.",
+  "falsifier": "Independent benchmark finds comparable capture cost, editability or geometry error worse than substitutes.",
+  "missingEvidence": [
+    "Independent benchmark on challenging materials and lighting",
+    "Real licensing and asset-export terms",
+    "Paid pilot demand"
+  ],
+  "alternativeExplanation": "Primarily a hardware/cloud platform launch aimed at robotics rather than a new freelance market.",
+  "disposition": "experiment",
+  "confidence": 0.94
+}

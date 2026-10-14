@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-14:mechatronic-wave-coarsening",
+  "type": "Source",
+  "url": "https://www.birmingham.ac.uk/news/2026/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm",
+  "publisher": "University of Birmingham",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-14T23:07:39Z",
+  "sourceClass": "research",
+  "independenceKey": "birmingham.ac.uk",
+  "contentHash": null,
+  "title": "Wave coarsening synchronizes mechatronic metamaterial",
+  "notes": "Direct-source page reviewed; source-body bytes not archived. No source-body hash claimed."
+}

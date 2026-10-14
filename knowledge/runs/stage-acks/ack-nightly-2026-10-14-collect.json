@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly:2026-10-14:collect",
+  "runId": "run:nightly:2026-10-14",
+  "stage": "collect",
+  "status": "passed",
+  "startedAt": "2026-10-14T23:07:39Z",
+  "completedAt": "2026-10-14T23:07:39Z",
+  "inputs": [
+    "https://www.hesaitech.com/9974-2/",
+    "https://modal.com/blog/1-billion-annualized-run-rate-series-d",
+    "https://www.birmingham.ac.uk/news/2026/chaos-to-coordination-vibrating-material-organises-itself-into-a-single-rhythm",
+    "https://sustainability.stanford.edu/news/stanford-scientists-discover-way-to-reverse-coral-bleaching-record-speed/",
+    "https://launcher.epicgames.com/",
+    "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux"
+  ],
+  "outputs": [
+    "candidate:collect"
+  ],
+  "checks": [
+    {
+      "name": "bounded source and record construction check",
+      "result": "pass",
+      "detail": "Research-stage assertion only, not GitHub CI or canonical ingestion proof."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "All observations remain candidates. No acceptance, execution, merge, Genesis or publication."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly consultancy sensing edge",
+    "method": "Live source review, deduplication against Oct 13/14 briefings, source-backed Socratic analysis and live-schema-shaped assembly",
+    "inputHashes": [
+      "sha256:d7be56017ef06985a7dd5513f6ee636991de0c2d680a43b5284a79228ca5f789"
+    ]
+  }
+}

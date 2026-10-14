@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-14:hesai-kosmo-launch",
+  "type": "Source",
+  "url": "https://www.hesaitech.com/9974-2/",
+  "publisher": "Hesai",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-14T23:07:39Z",
+  "sourceClass": "primary",
+  "independenceKey": "hesaitech.com",
+  "contentHash": null,
+  "title": "Hesai launches Kosmo 3D World Data Engine",
+  "notes": "Direct-source page reviewed; source-body bytes not archived. No source-body hash claimed."
+}

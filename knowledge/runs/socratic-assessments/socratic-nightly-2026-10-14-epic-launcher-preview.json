@@ -1,0 +1,94 @@
+{
+  "assessmentId": "socratic:nightly:2026-10-14:epic-launcher-preview",
+  "observationId": "obs:nightly:2026-10-14:epic-launcher-preview",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Epic Games opened a rebuilt launcher preview with native Linux support and published provisional performance comparisons on October 14.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-14:epic-launcher-preview"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:epic:provider-builder performed an inspectable release, funding announcement or research publication; downstream buyer behavior unknown.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-14:epic-launcher-preview"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "A slow, fragmented launcher can reduce product satisfaction.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Players and developers may benefit from faster navigation; adoption remains unknown.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Legacy Epic launcher, Steam and native platform launchers.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Rebuilt client and phased preview with explicit performance and feature-parity disclosures.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-14:epic-launcher-preview"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Vendor benchmarks generalize across devices and real-world libraries.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent cross-device testing finds no reliable speed or usability gains.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent latency benchmarks; Accessibility and parity audit; Production adoption and rollback outcomes",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "A conventional UI replatforming rather than proof that AI development improves software quality.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Vendor benchmarks generalize across devices and real-world libraries.",
+  "falsifier": "Independent cross-device testing finds no reliable speed or usability gains.",
+  "missingEvidence": [
+    "Independent latency benchmarks",
+    "Accessibility and parity audit",
+    "Production adoption and rollback outcomes"
+  ],
+  "alternativeExplanation": "A conventional UI replatforming rather than proof that AI development improves software quality.",
+  "disposition": "experiment",
+  "confidence": 0.94
+}

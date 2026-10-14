@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly:2026-10-14:epic-launcher-preview",
+  "type": "Observation",
+  "capturedAt": "2026-10-14T23:07:39Z",
+  "claim": "Epic Games opened a rebuilt launcher preview with native Linux support and published provisional performance comparisons on October 14.",
+  "verifiedFacts": [
+    "Epic's public launcher preview page offers Windows, macOS and native Linux installers.",
+    "Epic claims faster startup and navigation, but comparisons are vendor-measured.",
+    "Epic warns that feature parity is incomplete and trying the preview uninstalls the legacy launcher; competitive games are recommended on the legacy launcher."
+  ],
+  "inference": [
+    "Mechanism: a parallel product preview exposes performance and parity tradeoffs before broad rollout; AI-assisted development was reported by the press but not established by the official preview page.",
+    "Consultancy relevance: measurable redesign/replatforming case study; buyer problem: balancing UI modernization, cross-platform coverage, performance and regressions.",
+    "Disposition: Design Standards CORE for performance/UX proof, portfolio INCUBATE as benchmark reference; avoid duplicating a game launcher.",
+    "Thesis movement: reinforces measured UX and lifecycle proof."
+  ],
+  "significance": "A visible software preview offers an unusually explicit example of performance claims, missing-feature disclosure and rollout gates.",
+  "confidence": 0.94,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly:2026-10-14:epic-launcher-preview",
+    "source:nightly:2026-10-14:epic-ai-report"
+  ],
+  "actorRefs": [
+    "actor:epic:provider-builder"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/design-standards-2026-2027",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "Vendor benchmarks generalize across devices and real-world libraries."
+  ],
+  "knownLimitations": [
+    "Official preview does not independently substantiate AI-written-code attribution.",
+    "Incomplete parity, and preview replaces legacy installation.",
+    "No independent performance and accessibility test."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

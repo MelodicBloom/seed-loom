@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly:2026-10-14:genesis",
+  "runId": "run:nightly:2026-10-14",
+  "stage": "genesis",
+  "status": "deferred",
+  "startedAt": "2026-10-14T23:07:39Z",
+  "completedAt": "2026-10-14T23:07:39Z",
+  "inputs": [
+    "candidate:experiment"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "human-governed promotion blocked",
+      "result": "not-applicable",
+      "detail": "No downstream action executed; promotion requires Jennipher's approval."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "All observations remain candidates. No acceptance, execution, merge, Genesis or publication."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly consultancy sensing edge",
+    "method": "Live source review, deduplication against Oct 13/14 briefings, source-backed Socratic analysis and live-schema-shaped assembly",
+    "inputHashes": [
+      "sha256:d7be56017ef06985a7dd5513f6ee636991de0c2d680a43b5284a79228ca5f789"
+    ]
+  }
+}

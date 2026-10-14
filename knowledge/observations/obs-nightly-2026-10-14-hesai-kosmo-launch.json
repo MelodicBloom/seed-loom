@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly:2026-10-14:hesai-kosmo-launch",
+  "type": "Observation",
+  "capturedAt": "2026-10-14T23:07:39Z",
+  "claim": "Hesai launched Kosmo One and Kosmo World on October 14 as an integrated spatial-capture and 3D reconstruction offering.",
+  "verifiedFacts": [
+    "On October 14 Hesai formally launched Kosmo One spatial camera and Kosmo World processing platform.",
+    "Hesai described synchronized lidar, camera, and IMU data and a 3D Gaussian Splatting reconstruction workflow.",
+    "Hesai announced partnerships with Galbot and Dexmal and described RenderMan and Amap demonstration integrations; performance numbers are vendor-reported."
+  ],
+  "inference": [
+    "Mechanism: synchronized multimodal capture to editable spatial assets; the new launch is distinct from Kosmo previews in April and July.",
+    "Consultancy relevance: physical-space capture and immersive asset QA service; buyer problem: costly, inconsistent site reconstruction for immersive installations, visualization and training.",
+    "Disposition: Project Constellation INCUBATE as viewer, Shader Grammar CORE as optical operator authority, Omni-Loom REFERENCE-ONLY for fabrication; do not merge product identities.",
+    "Thesis movement: extends spatial-capture opportunity, not new canonical authority."
+  ],
+  "significance": "A real product launch bridges spatial data, 3DGS and creative content, but vendor speed and accuracy claims require independent verification.",
+  "confidence": 0.94,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "model-capability",
+  "sourceRefs": [
+    "source:nightly:2026-10-14:hesai-kosmo-launch"
+  ],
+  "actorRefs": [
+    "actor:hesai:provider-builder"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/project-constellation",
+    "qt314wink/shader-grammar",
+    "qt314wink/omni-loom"
+  ],
+  "assumptions": [
+    "Vendor-reported accuracy and cost improvements will transfer to local client workflows."
+  ],
+  "knownLimitations": [
+    "April/July previews preceded October launch; novelty is commercial launch and named integrations, not invention of Kosmo.",
+    "No independent accuracy benchmark, costed pilot or local buyer commitment.",
+    "Capture rights, privacy and spatial data retention are unresolved."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

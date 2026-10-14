@@ -1,0 +1,61 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-10-14T23:10:17.682Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly:2026-10-14",
+      "bundlePath": "knowledge/intake/nightly/2026-10-14/nightly-run-bundle-2026-10-14.json",
+      "bundleSha256": "aaa1888cc1b7db314fff6a155ffd0f6e395feb7c1aea78125db10fce64dba1f0",
+      "normalizedDigest": "92f61ce6e1c41ab7f8829c93cc653acf9f9cf4f7e884b45a25839be97846cc66",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-nightly-2026-10-14-hesai-kosmo-launch.json",
+        "knowledge/sources/source-nightly-2026-10-14-modal-series-d.json",
+        "knowledge/sources/source-nightly-2026-10-14-mechatronic-wave-coarsening.json",
+        "knowledge/sources/source-nightly-2026-10-14-stanford-coral-fusion.json",
+        "knowledge/sources/source-nightly-2026-10-14-epic-launcher-preview.json",
+        "knowledge/sources/source-nightly-2026-10-14-epic-ai-report.json",
+        "knowledge/observations/obs-nightly-2026-10-14-hesai-kosmo-launch.json",
+        "knowledge/observations/obs-nightly-2026-10-14-modal-series-d.json",
+        "knowledge/observations/obs-nightly-2026-10-14-mechatronic-wave-coarsening.json",
+        "knowledge/observations/obs-nightly-2026-10-14-stanford-coral-fusion.json",
+        "knowledge/observations/obs-nightly-2026-10-14-epic-launcher-preview.json",
+        "knowledge/relationships/rel-nightly-2026-10-14-hesai-kosmo-launch-source1.json",
+        "knowledge/relationships/rel-nightly-2026-10-14-modal-series-d-source1.json",
+        "knowledge/relationships/rel-nightly-2026-10-14-mechatronic-wave-coarsening-source1.json",
+        "knowledge/relationships/rel-nightly-2026-10-14-stanford-coral-fusion-source1.json",
+        "knowledge/relationships/rel-nightly-2026-10-14-epic-launcher-preview-source1.json",
+        "knowledge/relationships/rel-nightly-2026-10-14-epic-launcher-preview-source2.json",
+        "knowledge/runs/run-nightly-2026-10-14.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-14-collect.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-14-vet.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-14-normalize.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-14-observe.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-14-inquire.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-14-interpret.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-14-relate.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-14-pattern.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-14-opportunity.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-14-strategy.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-14-experiment.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-14-genesis.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-14-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-14-hesai-kosmo-launch.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-14-modal-series-d.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-14-mechatronic-wave-coarsening.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-14-stanford-coral-fusion.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-14-epic-launcher-preview.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-10-14-ingest.json",
+      "generatedRecordCount": 36
+    }
+  ]
+}

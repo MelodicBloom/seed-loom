@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly:2026-10-14:mechatronic-wave-coarsening",
+  "type": "Observation",
+  "capturedAt": "2026-10-14T23:07:39Z",
+  "claim": "Researchers reported October 14 that locally coupled mechatronic units self-organize into robust collective oscillation through non-reciprocal interactions.",
+  "verifiedFacts": [
+    "The team reported a Nature paper on wave coarsening in active mechatronic metamaterials.",
+    "They tested a 37-unit honeycomb and a 24-unit motorized ring; oscillations coarsened into synchronized collective motion.",
+    "Researchers report robustness to random disturbances in their experimental and modeled systems; 3D applications remain future work."
+  ],
+  "inference": [
+    "Mechanism: non-reciprocal local coupling and wave coarsening produce global rhythmic organization without central synchronization.",
+    "Consultancy relevance: scientifically grounded motion-system specimen and interactive explanatory visualization; buyer problem: teaching and designing emergent mechanical behavior.",
+    "Disposition: Shader Grammar REFERENCE-ONLY for wave analogy (not optical physics); motion-workflow-lab INCUBATE for demonstrative motion; Omni-Loom INCUBATE for future fabrication test, no new product commitment.",
+    "Thesis movement: extends evidence-backed generative motion research."
+  ],
+  "significance": "A measured physical mechanism offers a disciplined counterpoint to purely aesthetic claims about self-organization and cymatics.",
+  "confidence": 0.96,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly:2026-10-14:mechatronic-wave-coarsening"
+  ],
+  "actorRefs": [
+    "actor:birmingham:researcher"
+  ],
+  "affectedRepositories": [
+    "qt314wink/shader-grammar",
+    "qt314wink/omni-loom"
+  ],
+  "assumptions": [
+    "A WebGL animation can preserve causal fidelity of a non-reciprocal physical oscillator."
+  ],
+  "knownLimitations": [
+    "Research prototype, not deployable robot or commercial actuation platform.",
+    "Oscillatory synchronization is not evidence for consciousness or mind-body effects.",
+    "Independent replication and exact dynamics required for any physical simulation claim."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

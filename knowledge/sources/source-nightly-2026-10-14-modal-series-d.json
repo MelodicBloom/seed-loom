@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-14:modal-series-d",
+  "type": "Source",
+  "url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d",
+  "publisher": "Modal",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-14T23:07:39Z",
+  "sourceClass": "primary",
+  "independenceKey": "modal.com",
+  "contentHash": null,
+  "title": "Modal announces $750M Series D and $1B annualized run rate",
+  "notes": "Direct-source page reviewed; source-body bytes not archived. No source-body hash claimed."
+}

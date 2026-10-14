@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly:2026-10-14:mechatronic-wave-coarsening:source1",
+  "type": "Relationship",
+  "from": "obs:nightly:2026-10-14:mechatronic-wave-coarsening",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly:2026-10-14:mechatronic-wave-coarsening",
+  "confidence": 0.96,
+  "evidenceRefs": [
+    "source:nightly:2026-10-14:mechatronic-wave-coarsening"
+  ]
+}

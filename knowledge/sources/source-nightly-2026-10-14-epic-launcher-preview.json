@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-14:epic-launcher-preview",
+  "type": "Source",
+  "url": "https://launcher.epicgames.com/",
+  "publisher": "Epic Games",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-14T23:07:39Z",
+  "sourceClass": "primary",
+  "independenceKey": "epicgames.com",
+  "contentHash": null,
+  "title": "Epic Games Launcher opens rebuilt cross-platform preview",
+  "notes": "Direct-source page reviewed; source-body bytes not archived. No source-body hash claimed."
+}

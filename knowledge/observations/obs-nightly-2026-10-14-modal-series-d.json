@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly:2026-10-14:modal-series-d",
+  "type": "Observation",
+  "capturedAt": "2026-10-14T23:07:39Z",
+  "claim": "Modal announced on October 14 a $750 million Series D at a $15.75 billion post-money valuation and reported over $1 billion annualized run rate.",
+  "verifiedFacts": [
+    "Modal announced a $750 million Series D led by Accel at a $15.75 billion post-money valuation.",
+    "Modal reports it exceeded $1 billion annualized run rate and that usage tripled over five months.",
+    "The provider cites Runway among customers and says its sandbox product alone reached a $300 million run rate; these operational numbers are self-reported."
+  ],
+  "inference": [
+    "Mechanism: ephemeral sandboxes, elastic inference and distributed training as infrastructure for agent and creative workloads.",
+    "Consultancy relevance: benchmark burst inference and reproducible sandboxes as purchased utilities, not as a platform to recreate; buyer problem: unpredictable GPU costs and reproducibility.",
+    "Disposition: Observation Ad Pipeline PRODUCTIZE candidate; Seed Loom CORE for governed receipts, not compute execution.",
+    "Thesis movement: reinforces buy infrastructure, sell verified outcomes."
+  ],
+  "significance": "Capital deployment and reported usage support a market for managed AI workloads, without proving independent consultancy purchasing.",
+  "confidence": 0.95,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "funding",
+  "sourceRefs": [
+    "source:nightly:2026-10-14:modal-series-d"
+  ],
+  "actorRefs": [
+    "actor:modal:provider-funder-recipient"
+  ],
+  "affectedRepositories": [
+    "qt314wink/observation-ad-pipeline",
+    "qt314wink/seed-loom"
+  ],
+  "assumptions": [
+    "Cloud sandbox pricing will beat existing local/free GPU workflows for small production batches."
+  ],
+  "knownLimitations": [
+    "Annualized run rate is provider-reported and not audited revenue.",
+    "Investment in infrastructure is not direct evidence of consulting demand.",
+    "Cost and data-rights comparison against local tools missing."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

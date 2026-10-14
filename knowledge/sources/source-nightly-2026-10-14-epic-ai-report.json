@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly:2026-10-14:epic-ai-report",
+  "type": "Source",
+  "url": "https://www.theverge.com/games/1010751/epic-games-launcher-vibe-coded-ai-linux",
+  "publisher": "The Verge",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-14T23:07:39Z",
+  "sourceClass": "press",
+  "independenceKey": "theverge.com",
+  "contentHash": null,
+  "title": "Reporting on Epic's AI-assisted launcher development",
+  "notes": "Independent reporting for AI-assisted development claim only; not proof of performance or authorship."
+}

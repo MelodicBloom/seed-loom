@@ -1,0 +1,94 @@
+{
+  "assessmentId": "socratic:nightly:2026-10-14:modal-series-d",
+  "observationId": "obs:nightly:2026-10-14:modal-series-d",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Modal announced on October 14 a $750 million Series D at a $15.75 billion post-money valuation and reported over $1 billion annualized run rate.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-14:modal-series-d"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:modal:provider-funder-recipient performed an inspectable release, funding announcement or research publication; downstream buyer behavior unknown.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-14:modal-series-d"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Variable inference and agent workloads need isolated execution and scalable compute.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Compute-heavy creative and agent builders may benefit; consulting buyers not established.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Local inference, Hugging Face Spaces, managed GPU providers and other serverless sandboxes.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Elastic managed sandboxes and GPU execution for variable agent, inference and video workloads.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly:2026-10-14:modal-series-d"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Cloud sandbox pricing will beat existing local/free GPU workflows for small production batches.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Measured total cost or reproducibility is worse than local and alternate hosted paths.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent audited financial and usage figures; Representative workload costs; Creative client procurement evidence",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Funding reflects infrastructure market consolidation rather than new downstream client needs.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Cloud sandbox pricing will beat existing local/free GPU workflows for small production batches.",
+  "falsifier": "Measured total cost or reproducibility is worse than local and alternate hosted paths.",
+  "missingEvidence": [
+    "Independent audited financial and usage figures",
+    "Representative workload costs",
+    "Creative client procurement evidence"
+  ],
+  "alternativeExplanation": "Funding reflects infrastructure market consolidation rather than new downstream client needs.",
+  "disposition": "watch",
+  "confidence": 0.95
+}

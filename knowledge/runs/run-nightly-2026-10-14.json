@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly:2026-10-14",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-12T23:07:39Z",
+    "to": "2026-10-14T23:07:39Z"
+  },
+  "newObservations": [
+    "obs:nightly:2026-10-14:hesai-kosmo-launch",
+    "obs:nightly:2026-10-14:modal-series-d",
+    "obs:nightly:2026-10-14:mechatronic-wave-coarsening",
+    "obs:nightly:2026-10-14:stanford-coral-fusion",
+    "obs:nightly:2026-10-14:epic-launcher-preview"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "The commercial differentiator is repeatable verification across spatial capture, AI compute, product UX and science communication.",
+    "Research mechanisms and vendor announcements are not evidence of client purchasing or field-scale effectiveness."
+  ],
+  "newRelationships": [
+    "rel:nightly:2026-10-14:hesai-kosmo-launch:source1",
+    "rel:nightly:2026-10-14:modal-series-d:source1",
+    "rel:nightly:2026-10-14:mechatronic-wave-coarsening:source1",
+    "rel:nightly:2026-10-14:stanford-coral-fusion:source1",
+    "rel:nightly:2026-10-14:epic-launcher-preview:source1",
+    "rel:nightly:2026-10-14:epic-launcher-preview:source2"
+  ],
+  "contradictions": [
+    "Kosmo commercial launch is new; underlying product was previewed months earlier.",
+    "Modal's run-rate figures are vendor reported, not independently audited.",
+    "Coral rescue in a ten-pair laboratory experiment is not scalable reef restoration.",
+    "Epic's AI-development attribution is press reporting, not proof of independently verified code quality."
+  ],
+  "opportunities": [
+    "Bounded spatial capture and 3DGS fidelity QA offer",
+    "GPU/inference cost-and-reproducibility audit for creative studios",
+    "Mechanism-aware scientific and ecological visualization with evidence gates"
+  ],
+  "proposedExperiments": [
+    "Reconstruct one consented small indoor scene via two methods and measure geometric fidelity, texture/material error, editability and cost; do not purchase hardware without approval.",
+    "Produce a read-only WebGL explanatory specimen for wave coarsening or coral symbiont transfer with explicit physical-model versus illustrative-mode labeling."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/seed-loom",
+      "paths": [
+        "knowledge/intake/nightly/2026-10-14/nightly-run-bundle-2026-10-14.json"
+      ],
+      "proposal": "Only this nightly delivered bundle is authorized for staging and canonical candidate-only ingest; acceptance and merge deferred."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/wan-artistic-pipeline",
+      "paths": [
+        "src/batch_scheduler.py",
+        "src/motion_control_surface.py",
+        "tests/test_motion_control_surface.py"
+      ],
+      "proposal": "Separately approve a branch-and-draft-PR reproduction of motion_program metadata regression; verify tests before repair."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/shader-grammar",
+      "paths": [
+        "docs/",
+        "examples/"
+      ],
+      "proposal": "Review draft PRs #8/#9 and pin measured material semantics without adding material-named optical operators."
+    }
+  ],
+  "noChangeReceipts": [
+    "Excluded October 13 GitHub push attribution, Tencent debt proposal, climate fingerprint review, ZBTB44, Melbourne strike.",
+    "Excluded October 14 Gemini 4 Argon, LightSprint funding, Apple HomeView, elephant carcass ecology, GitHub AI Scan already covered in prior nightly briefing.",
+    "October 14 intake branch pre-existed at 55c2cc1be3b969ea8a715faa21b3e22f507a4468, and expected bundle file was absent; do not overwrite prior immutable content.",
+    "Seed Loom main advanced to 167e378cb759e444d9ba24e79ff93a3413a91a15 through scheduled provenance collection, not acceptance."
+  ],
+  "collectionFailures": [
+    "No source-body bytes retained; source contentHash=null and manifest SHA-256 covers ordered URLs only.",
+    "GitHub branch automation/nightly-intake-2026-10-14 predates this run and trails main by provenance commit; branch reused only after checking expected bundle path absent.",
+    "Prior 2026-10-14 local candidate bundle was not committed; this run selects distinct October 14 developments without treating that local artifact as canonical.",
+    "LithoMemphis, Kozo Dreams and complete private project activity not verified; do not infer inactivity.",
+    "Provider claims for Modal revenue, Hesai performance and Epic speed are not independently validated.",
+    "Issue #24 isolated two-run proof and full knowledge controls not executed at research-collection stage."
+  ]
+}
