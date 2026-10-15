@@ -1,0 +1,72 @@
+{
+  "runId": "run:nightly:2026-10-15",
+  "type": "ResearchRun",
+  "schemaVersion": "1.1.0",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-13T23:49:22Z",
+    "to": "2026-10-15T23:49:22Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-10-15-1",
+    "obs:nightly-2026-10-15-2",
+    "obs:nightly-2026-10-15-3",
+    "obs:nightly-2026-10-15-4",
+    "obs:nightly-2026-10-15-5"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Creative workflow acceleration increases demand for measured fidelity, editability and cost verification.",
+    "Scientific foundation models require provenance and benchmark separation between intent and validated output.",
+    "Agent and CI security tooling requires explicit approval and coverage boundaries."
+  ],
+  "newRelationships": [
+    "rel:nightly-2026-10-15-1",
+    "rel:nightly-2026-10-15-2",
+    "rel:nightly-2026-10-15-3",
+    "rel:nightly-2026-10-15-4",
+    "rel:nightly-2026-10-15-5"
+  ],
+  "contradictions": [
+    "Source-body integrity unavailable: URL manifest hash does not establish byte-level source reproducibility.",
+    "AI Scan findings are advisory, not blocking controls; dependency lockfiles pin code but do not establish safety."
+  ],
+  "opportunities": [
+    "Bounded creative QA and media pipeline performance benchmark.",
+    "CI dependency provenance audit with immutable workflow input review.",
+    "Agentic review-boundary and security coverage assessment."
+  ],
+  "proposedExperiments": [
+    "Propose matched-workload media pipeline benchmark; no execution.",
+    "Propose disposable CI action-lockfile drift and AI Scan coverage test; no execution."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/seed-loom",
+      "allowedPaths": [
+        ".github/workflows/actions.lock"
+      ],
+      "approvalGate": "Separate approval before workflow mutation; feature eligibility must be verified."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/observation-ad-pipeline",
+      "allowedPaths": [
+        "docs/qa/"
+      ],
+      "approvalGate": "Human approval for experiment and draft PR."
+    }
+  ],
+  "noChangeReceipts": [
+    "No new default-branch commits observed within the 48-hour window in Shader Grammar, Observation Ad Pipeline, WAN Artistic Pipeline, Design Standards, or Project Constellation based on bounded latest-commit search.",
+    "No canonical project identity merges or archive/kill decisions authorized."
+  ],
+  "collectionFailures": [
+    "Immutable source-body snapshots and hashes were not collected; source URL manifest is not a content hash.",
+    "No direct ByteDance primary announcement or exact job requisition was retrieved; Reuters report remains secondary evidence.",
+    "Private or inaccessible project surfaces including LithoMemphis and Kozo Dreams were not comprehensively audited."
+  ]
+}

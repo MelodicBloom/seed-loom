@@ -1,0 +1,41 @@
+{
+  "ackId": "ack:nightly-2026-10-15-observe",
+  "runId": "run:nightly:2026-10-15",
+  "schemaVersion": "1.1.0",
+  "stage": "observe",
+  "status": "passed",
+  "startedAt": "2026-10-15T23:49:22Z",
+  "completedAt": "2026-10-15T23:49:22Z",
+  "inputs": [
+    "run:nightly:2026-10-15",
+    "source:nightly-2026-10-15-1",
+    "source:nightly-2026-10-15-2",
+    "source:nightly-2026-10-15-3",
+    "source:nightly-2026-10-15-4",
+    "source:nightly-2026-10-15-5"
+  ],
+  "outputs": [
+    "run:nightly:2026-10-15:observe:candidate"
+  ],
+  "checks": [
+    {
+      "name": "bounded source-backed candidate review",
+      "result": "pass",
+      "detail": "Candidate-only research stage; canonical Ajv and ingest execution not claimed."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate stage only; source-body hashes absent; no promotion without review."
+    ]
+  },
+  "provenance": {
+    "producer": "nightly-consultancy-intelligence",
+    "method": "Live source review, bounded GitHub inspection and schema-shape normalization",
+    "inputHashes": [
+      "sha256:26f8db55728110a87275352474f5157fda1556e93400b6c6689ff0d5a2c8dc36"
+    ]
+  }
+}

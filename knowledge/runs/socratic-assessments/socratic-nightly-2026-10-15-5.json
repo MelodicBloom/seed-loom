@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-15-5",
+  "observationId": "obs:nightly-2026-10-15-5",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "On 2026-10-15 GitHub announced general availability of AI Scan for pull requests.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-15-5"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:github; On 2026-10-15 GitHub announced general availability of AI Scan for pull requests.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-15-5"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Potential client problem: CI passes while unscanned workflow scripts or configuration changes introduce risk.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Maintainers of mixed-language repositories with security-sensitive workflow code.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "CodeQL, linters, manual threat modeling and specialist scanners.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "AI-assisted security analysis of qualifying pull-request diffs, alongside CodeQL.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Treating an AI Scan green check or alert count as a security guarantee.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Controlled seeded-vulnerability tests demonstrate low detection accuracy or unacceptable review cost.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Actual eligibility and credits; False-positive rate on relevant code; Verified remediation outcomes",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Existing focused tests and human review may catch the important local risks at lower cost.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Treating an AI Scan green check or alert count as a security guarantee.",
+  "falsifier": "Controlled seeded-vulnerability tests demonstrate low detection accuracy or unacceptable review cost.",
+  "missingEvidence": [
+    "Actual eligibility and credits",
+    "False-positive rate on relevant code",
+    "Verified remediation outcomes"
+  ],
+  "alternativeExplanation": "Existing focused tests and human review may catch the important local risks at lower cost.",
+  "disposition": "experiment",
+  "confidence": 0.98
+}

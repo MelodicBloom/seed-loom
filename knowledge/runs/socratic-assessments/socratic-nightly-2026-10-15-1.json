@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-15-1",
+  "observationId": "obs:nightly-2026-10-15-1",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "On 2026-10-15 Adobe and NVIDIA announced expanded optimization across Photoshop, Premiere, Substance 3D, Frame.io and Brand Concierge.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-15-1"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:adobe;actor:nvidia; On 2026-10-15 Adobe and NVIDIA announced expanded optimization across Photoshop, Premiere, Substance 3D, Frame.io and Brand Concierge.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-15-1"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Potential client problem: slow multimodal asset ingestion, uncertain render throughput, fragmented review and provenance across creative tools.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Production studios and content operations with heavy mixed-media workloads.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing CPU/cloud transcoding and established manual editing workflows.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "GPU-accelerated video decode, preprocessing and embedding generation, plus local AI creative processing.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Assuming vendor speed claims prove lower end-to-end delivery cost.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Controlled matched-workload tests show no meaningful time, quality or cost improvement.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent task-level benchmarks; Buyer willingness to pay for verification; Actual client workflow timings",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Marketing performance improvements may primarily reflect vendor-specific benchmark selection.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Assuming vendor speed claims prove lower end-to-end delivery cost.",
+  "falsifier": "Controlled matched-workload tests show no meaningful time, quality or cost improvement.",
+  "missingEvidence": [
+    "Independent task-level benchmarks",
+    "Buyer willingness to pay for verification",
+    "Actual client workflow timings"
+  ],
+  "alternativeExplanation": "Marketing performance improvements may primarily reflect vendor-specific benchmark selection.",
+  "disposition": "experiment",
+  "confidence": 0.92
+}

@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-15-3",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview/",
+  "publisher": "GitHub",
+  "retrievedAt": "2026-10-15T23:49:22Z",
+  "publishedAt": null,
+  "sourceClass": "primary",
+  "independenceKey": "github",
+  "contentHash": null,
+  "title": "GitHub previews dependency lockfiles for Actions workflows",
+  "analystNote": "Source read via live search/extraction; no immutable source-body snapshot captured; dates verified by publisher/reporting."
+}

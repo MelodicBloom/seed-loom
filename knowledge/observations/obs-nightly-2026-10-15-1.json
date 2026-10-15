@@ -1,0 +1,46 @@
+{
+  "id": "obs:nightly-2026-10-15-1",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-15T23:49:22Z",
+  "claim": "Adobe and NVIDIA expand accelerated creative production.",
+  "verifiedFacts": [
+    "On 2026-10-15 Adobe and NVIDIA announced expanded optimization across Photoshop, Premiere, Substance 3D, Frame.io and Brand Concierge.",
+    "Adobe reports up to 2x faster selected RTX Spark creative workloads and approximately 5x faster Frame.io embedding generation in selected workloads.",
+    "NVIDIA has selected Adobe Brand Concierge for personalized interactions on its website; a Nemotron-based version is expected later in 2026."
+  ],
+  "inference": [
+    "Actor roles: Adobe and NVIDIA are providers, builders and partners; NVIDIA is also a buyer/user of Brand Concierge, per the provider announcement.",
+    "Potential client problem: slow multimodal asset ingestion, uncertain render throughput, fragmented review and provenance across creative tools.",
+    "Consultancy implication: benchmark real creative workloads, visual fidelity, editability and cost; do not replicate proprietary Adobe products.",
+    "Project disposition: Observation Ad Pipeline PRODUCTIZE candidate; Shader Grammar CORE; motion-workflow-lab INCUBATE."
+  ],
+  "significance": "A concrete provider partnership and vendor benchmark create a testable creative-production QA service hypothesis, not independently measured customer benefit.",
+  "confidence": 0.92,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "model-capability",
+  "sourceRefs": [
+    "source:nightly-2026-10-15-1"
+  ],
+  "actorRefs": [
+    "actor:adobe",
+    "actor:nvidia"
+  ],
+  "affectedRepositories": [
+    "qt314wink/observation-ad-pipeline",
+    "qt314wink/shader-grammar",
+    "qt314wink/motion-workflow-lab"
+  ],
+  "assumptions": [
+    "A representative client has large enough media volumes to benefit from GPU acceleration.",
+    "Vendor benchmarks translate to independently measured real workloads."
+  ],
+  "knownLimitations": [
+    "Performance claims are vendor-reported and workload-dependent.",
+    "Pricing, user retention and independent benchmark parity not verified."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate",
+  "validFrom": "2026-10-15T23:49:22Z",
+  "reviewBy": "2026-10-22T23:49:22Z"
+}

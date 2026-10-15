@@ -1,0 +1,44 @@
+{
+  "id": "obs:nightly-2026-10-15-4",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-15T23:49:22Z",
+  "claim": "ByteDance creates alignment and preparedness team with researcher hiring.",
+  "verifiedFacts": [
+    "On 2026-10-15 Reuters reported ByteDance formed an Alignment and Preparedness team within its Seed AI research unit.",
+    "Reuters reported a global recruitment plan for ten alignment researchers, with work spanning safety training, automated vulnerability testing and behavioral monitoring.",
+    "This run did not independently verify the official hiring listings or completed hires."
+  ],
+  "inference": [
+    "Actor roles: ByteDance is an AI developer and prospective employer; researchers are prospective employees, not confirmed hires.",
+    "Potential client problem: insufficient agent-risk tests and action-boundary monitoring before deployment.",
+    "Consultancy implication: bounded agent evaluation and human-approval mapping; do not claim frontier-model safety certification.",
+    "Project disposition: Seed Loom CORE for evidence and acceptance gates; Agent Runtime Control Center CONSOLIDATE candidate for runtime supervision."
+  ],
+  "significance": "A reported organizational and hiring action indicates investment in agent evaluation, without demonstrating demand for external assurance consulting.",
+  "confidence": 0.76,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "opportunity",
+  "sourceRefs": [
+    "source:nightly-2026-10-15-4"
+  ],
+  "actorRefs": [
+    "actor:bytedance"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "The reported team and planned hiring will proceed.",
+    "The technical methods will generalize to smaller client agent workflows."
+  ],
+  "knownLimitations": [
+    "Secondary report, no primary company statement captured.",
+    "Ten planned openings are not ten verified filled roles; specific requisitions unverified."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate",
+  "validFrom": "2026-10-15T23:49:22Z",
+  "reviewBy": "2026-10-22T23:49:22Z"
+}

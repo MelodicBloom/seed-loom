@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-15-1",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://news.adobe.com/news/2026/10/adobe-and-nvidia-expand-collaboration-to-speed-agentic-creation",
+  "publisher": "Adobe",
+  "retrievedAt": "2026-10-15T23:49:22Z",
+  "publishedAt": null,
+  "sourceClass": "primary",
+  "independenceKey": "adobe",
+  "contentHash": null,
+  "title": "Adobe and NVIDIA expand accelerated creative production",
+  "analystNote": "Source read via live search/extraction; no immutable source-body snapshot captured; dates verified by publisher/reporting."
+}

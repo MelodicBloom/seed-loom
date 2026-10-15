@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-15-2",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/",
+  "publisher": "CERN",
+  "retrievedAt": "2026-10-15T23:49:22Z",
+  "publishedAt": null,
+  "sourceClass": "primary",
+  "independenceKey": "cern",
+  "contentHash": null,
+  "title": "CERN and Mistral sign scientific foundation-model partnership",
+  "analystNote": "Source read via live search/extraction; no immutable source-body snapshot captured; dates verified by publisher/reporting."
+}

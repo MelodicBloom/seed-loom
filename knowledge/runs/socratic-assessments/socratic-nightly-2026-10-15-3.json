@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-15-3",
+  "observationId": "obs:nightly-2026-10-15-3",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "On 2026-10-14 GitHub announced public-preview GitHub Actions workflow dependency lockfiles.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-15-3"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "actor:github; On 2026-10-14 GitHub announced public-preview GitHub Actions workflow dependency lockfiles.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-15-3"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Potential client problem: mutable CI action references undermine reproducibility and software-supply-chain assurance.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams requiring auditable CI and repeatable build inputs.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Manual full-commit-SHA pinning and dependency review.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Resolution of direct and transitive workflow dependencies to immutable commits.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Confusing reproducibility of dependency resolution with security or deterministic outputs.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "A controlled workflow still resolves an unpinned transitive dependency or diverges after a moved tag.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Repository-level feature availability; Controlled negative test with moved tag; Maintenance burden estimates",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Existing SHA pinning may already provide adequate risk reduction for a small repo.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Confusing reproducibility of dependency resolution with security or deterministic outputs.",
+  "falsifier": "A controlled workflow still resolves an unpinned transitive dependency or diverges after a moved tag.",
+  "missingEvidence": [
+    "Repository-level feature availability",
+    "Controlled negative test with moved tag",
+    "Maintenance burden estimates"
+  ],
+  "alternativeExplanation": "Existing SHA pinning may already provide adequate risk reduction for a small repo.",
+  "disposition": "experiment",
+  "confidence": 0.98
+}

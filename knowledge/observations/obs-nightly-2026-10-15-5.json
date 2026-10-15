@@ -1,0 +1,45 @@
+{
+  "id": "obs:nightly-2026-10-15-5",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-15T23:49:22Z",
+  "claim": "GitHub makes AI Scan for pull requests generally available.",
+  "verifiedFacts": [
+    "On 2026-10-15 GitHub announced general availability of AI Scan for pull requests.",
+    "AI Scan adds advisory security findings for code changes in languages or frameworks outside CodeQL coverage, including Shell/Bash, Terraform and Dockerfiles.",
+    "Findings do not block merges, and scanning excludes fork-origin and Dependabot pull requests; usage consumes Code Security AI Credits."
+  ],
+  "inference": [
+    "Actor roles: GitHub is the security-tool provider; maintainers are potential users; this is not evidence of vulnerability elimination.",
+    "Potential client problem: CI passes while unscanned workflow scripts or configuration changes introduce risk.",
+    "Consultancy implication: assess language coverage, scan exclusions, false positives and verified remediation; avoid treating AI findings as gate-enforced proof.",
+    "Project disposition: Seed Loom CORE for controls; MelodicBloom/.github CONSOLIDATE candidate for cross-repository policy."
+  ],
+  "significance": "The release offers a concrete example of a security tool whose findings remain advisory and therefore require a human-controlled review contract.",
+  "confidence": 0.98,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "model-capability",
+  "sourceRefs": [
+    "source:nightly-2026-10-15-5"
+  ],
+  "actorRefs": [
+    "actor:github"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/.github",
+    "MelodicBloom/wan-artistic-pipeline"
+  ],
+  "assumptions": [
+    "The relevant repositories can enable and budget AI Scan.",
+    "The tool detects meaningful issues in the selected code paths."
+  ],
+  "knownLimitations": [
+    "AI Scan is advisory and not a merge gate.",
+    "Potential false positives; billing and repository settings need inspection."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate",
+  "validFrom": "2026-10-15T23:49:22Z",
+  "reviewBy": "2026-10-22T23:49:22Z"
+}

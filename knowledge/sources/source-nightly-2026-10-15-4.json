@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-15-4",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.reuters.com/business/media-telecom/chinas-bytedance-sets-up-ai-safety-team-launches-global-hiring-drive-2026-10-15/",
+  "publisher": "Reuters",
+  "retrievedAt": "2026-10-15T23:49:22Z",
+  "publishedAt": null,
+  "sourceClass": "press",
+  "independenceKey": "reuters",
+  "contentHash": null,
+  "title": "ByteDance creates alignment and preparedness team with researcher hiring",
+  "analystNote": "Source read via live search/extraction; no immutable source-body snapshot captured; dates verified by publisher/reporting."
+}

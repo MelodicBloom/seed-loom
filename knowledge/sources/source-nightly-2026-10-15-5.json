@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-15-5",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://github.blog/changelog/2026-10-15-ai-scan-for-pull-requests-generally-available/",
+  "publisher": "GitHub",
+  "retrievedAt": "2026-10-15T23:49:22Z",
+  "publishedAt": null,
+  "sourceClass": "primary",
+  "independenceKey": "github",
+  "contentHash": null,
+  "title": "GitHub makes AI Scan for pull requests generally available",
+  "analystNote": "Source read via live search/extraction; no immutable source-body snapshot captured; dates verified by publisher/reporting."
+}

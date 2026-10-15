@@ -1,0 +1,45 @@
+{
+  "id": "obs:nightly-2026-10-15-2",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-15T23:49:22Z",
+  "claim": "CERN and Mistral sign scientific foundation-model partnership.",
+  "verifiedFacts": [
+    "On 2026-10-15 CERN and Mistral announced a signed statement of intent for a long-term AI-for-science partnership.",
+    "The proposed Large Physics Model is intended to train on billions of simulated proton-proton collisions and support reconstruction, identification, anomaly signals and detector-design evaluation.",
+    "CERN reports around one exabyte of LHC experimental data stored; no delivery date or measured model results were announced."
+  ],
+  "inference": [
+    "Actor roles: CERN is a research institution and data steward; Mistral is a model builder and technology partner.",
+    "Potential client problem: multiple specialized scientific processing stages lose lineage and complicate uncertainty communication.",
+    "Consultancy implication: governed multimodal evidence mapping and scientific model evaluation, not building a competing physics foundation model.",
+    "Project disposition: Seed Loom CORE; Project Constellation INCUBATE as a visual evidence consumer."
+  ],
+  "significance": "A formal research partnership provides a high-rigor test case for preserving transformation lineage between sensor data, model output and scientific claims.",
+  "confidence": 0.96,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly-2026-10-15-2"
+  ],
+  "actorRefs": [
+    "actor:cern",
+    "actor:mistral"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "A multi-task model will outperform specialized algorithms on relevant physics metrics.",
+    "The resulting approach could be reusable in other scientific disciplines."
+  ],
+  "knownLimitations": [
+    "Partnership is a statement of intent, not a delivered model.",
+    "No comparative validation, model weights, budget or production deployment verified."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate",
+  "validFrom": "2026-10-15T23:49:22Z",
+  "reviewBy": "2026-10-22T23:49:22Z"
+}

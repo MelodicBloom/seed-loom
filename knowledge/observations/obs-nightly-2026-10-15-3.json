@@ -1,0 +1,44 @@
+{
+  "id": "obs:nightly-2026-10-15-3",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-15T23:49:22Z",
+  "claim": "GitHub previews dependency lockfiles for Actions workflows.",
+  "verifiedFacts": [
+    "On 2026-10-14 GitHub announced public-preview GitHub Actions workflow dependency lockfiles.",
+    "The gh actions-lock extension can generate .github/workflows/actions.lock pinning resolved action commits including transitive and reusable workflow dependencies.",
+    "GitHub states lockfiles hold execution to recorded commits even if tags move; locking alone does not establish a dependency is safe."
+  ],
+  "inference": [
+    "Actor roles: GitHub is the platform provider and release publisher; repository maintainers are potential users.",
+    "Potential client problem: mutable CI action references undermine reproducibility and software-supply-chain assurance.",
+    "Consultancy implication: a bounded workflow provenance audit with dependency review, SHA locking and negative tests; assess account eligibility before proposing rollout.",
+    "Project disposition: Seed Loom CORE; MelodicBloom/.github CONSOLIDATE candidate for policy routing."
+  ],
+  "significance": "A direct new supply-chain control aligns with Seed Loom's Issue #24 reproducibility and provenance boundaries.",
+  "confidence": 0.98,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "provider-terms",
+  "sourceRefs": [
+    "source:nightly-2026-10-15-3"
+  ],
+  "actorRefs": [
+    "actor:github"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/.github"
+  ],
+  "assumptions": [
+    "The relevant repository account can enable the preview.",
+    "Lockfile updates can be maintained without breaking CI."
+  ],
+  "knownLimitations": [
+    "Feature is a preview; account eligibility unverified.",
+    "Pinned code may still be malicious or vulnerable; review required."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate",
+  "validFrom": "2026-10-15T23:49:22Z",
+  "reviewBy": "2026-10-22T23:49:22Z"
+}
