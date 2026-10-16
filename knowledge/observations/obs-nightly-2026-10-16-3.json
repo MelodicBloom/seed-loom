@@ -1,0 +1,43 @@
+{
+  "id": "obs:nightly-2026-10-16-3",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-16T23:16:13Z",
+  "claim": "GitHub made enterprise open-source license compliance generally available with merge rules and policy APIs.",
+  "verifiedFacts": [
+    "GitHub's October 16 changelog announces general availability for GitHub Enterprise Cloud repositories with Code Security enabled.",
+    "The feature adds enterprise license rulesets, pull-request dependency annotations, policy audit events, and an API that can help coding agents avoid noncompliant packages."
+  ],
+  "inference": [
+    "Inference: license review should become a separate supply-chain evidence boundary alongside vulnerability scanning and workflow pinning.",
+    "Consultancy implication: provide dependency-policy readiness assessment; client problem is agent-added dependencies with unreviewed license obligations.",
+    "Disposition: Seed Loom CORE and MelodicBloom governance CONSOLIDATE candidate; feature eligibility on these repos not established.",
+    "Thesis: extends CI assurance to licensing, not a replacement for security tests or legal review."
+  ],
+  "significance": "A new enterprise enforcement surface creates a testable compliance workflow relevant to governed code generation and reproducible handoffs.",
+  "confidence": 0.98,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "provider-terms",
+  "sourceRefs": [
+    "source:nightly-2026-10-16-github-license"
+  ],
+  "actorRefs": [
+    "provider:GitHub",
+    "buyer:GitHub-Enterprise-Cloud-customers",
+    "regulator:none-identified"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/.github"
+  ],
+  "assumptions": [
+    "Relevant clients operate eligible GitHub Enterprise Cloud repositories.",
+    "License metadata and exception governance are sufficiently complete for policy enforcement."
+  ],
+  "knownLimitations": [
+    "Feature not verified as available on the user's repositories.",
+    "License compliance is not equivalent to vulnerability safety or legal advice."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

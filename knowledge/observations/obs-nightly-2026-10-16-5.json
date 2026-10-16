@@ -1,0 +1,47 @@
+{
+  "id": "obs:nightly-2026-10-16-5",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-16T23:16:13Z",
+  "claim": "NetApp selected five enterprise AI startups for a six-month accelerator with potential proof-of-concept grants.",
+  "verifiedFacts": [
+    "A NetApp-distributed October 15 announcement names LightSprint AI, Wald.ai, Lasso Security, Cogover, and QUIPU AI as Excellerator Cohort 15.",
+    "The program offers six months of mentorship and possible $15,000 PoC grants; prior program totals of 30 PoCs and six contracts are not Cohort 15 outcomes."
+  ],
+  "inference": [
+    "Inference: context engineering, agent security, workflow orchestration, and evaluation are recognized enterprise experimentation categories.",
+    "Consultancy implication: package a bounded PoC evaluation scorecard; client problem is distinguishing selected startup capability from measured pilot performance.",
+    "Disposition: Seed Loom CORE for evidence scoring; Observation Ad Pipeline PRODUCTIZE candidate for client-ready PoC proof; no new accelerator application.",
+    "Thesis: reinforces proof-before-productization; not evidence that any Cohort 15 startup has signed a commercial deal."
+  ],
+  "significance": "An enterprise supplier's selected cohort and historical conversion figures expose a concrete route from research idea to bounded pilot and possible commercial adoption.",
+  "confidence": 0.88,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "funding",
+  "sourceRefs": [
+    "source:nightly-2026-10-16-netapp-cohort"
+  ],
+  "actorRefs": [
+    "funder:NetApp",
+    "builder:LightSprint-AI",
+    "builder:Wald-ai",
+    "builder:Lasso-Security",
+    "builder:Cogover",
+    "builder:QUIPU-AI",
+    "buyer:enterprise-pilot-participants-unverified"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "qt314wink/observation-ad-pipeline"
+  ],
+  "assumptions": [
+    "Program selection reflects relevant enterprise problems rather than only accelerator marketing.",
+    "A scorecard can meaningfully compare heterogeneous pilot outcomes."
+  ],
+  "knownLimitations": [
+    "Press release syndicated by trade publisher, not independently corroborated through a direct NetApp investor release.",
+    "No individual grant disbursement, signed PoC, or current hiring was established."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

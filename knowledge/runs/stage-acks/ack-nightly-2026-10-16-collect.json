@@ -1,0 +1,37 @@
+{
+  "ackId": "ack:nightly-2026-10-16-collect",
+  "runId": "run:nightly:2026-10-16",
+  "stage": "collect",
+  "schemaVersion": "1.1.0",
+  "status": "passed",
+  "startedAt": "2026-10-16T23:16:13Z",
+  "completedAt": "2026-10-16T23:16:13Z",
+  "inputs": [
+    "source URLs and GitHub repository preflight"
+  ],
+  "outputs": [
+    "five bounded source records"
+  ],
+  "checks": [
+    {
+      "name": "bounded candidate-only assembly",
+      "result": "pass",
+      "detail": "Five candidate observations, source refs, and current schema fields assembled; canonical execution remains subject to repository CI."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only knowledge intake; no automatic acceptance or external disclosure.",
+      "Source-body snapshots unavailable; source URL manifest hash is not source content integrity."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly research automation",
+    "method": "primary/secondary source review and live-repository contract-guided candidate assembly",
+    "inputHashes": [
+      "sha256:e3a2675f570f0d330a7c6cdfef79cd215d4be943d7598bfc6dd57f62785c96ea"
+    ]
+  }
+}

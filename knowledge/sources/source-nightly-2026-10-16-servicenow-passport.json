@@ -1,0 +1,15 @@
+{
+  "id": "source:nightly-2026-10-16-servicenow-passport",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-advances-its-operational-harness-for-enterprise-AI-with-AI-Passport-and-expanded-governance-capabilities/default.aspx",
+  "publisher": "ServiceNow",
+  "retrievedAt": "2026-10-16T23:16:13Z",
+  "publishedAt": null,
+  "sourceClass": "official",
+  "independenceKey": "servicenow.com",
+  "contentHash": null,
+  "title": "ServiceNow announces AI Passport, a planned cryptographic scope-of-authority layer for agents and MCP servers.",
+  "lead": "ServiceNow announces AI Passport, a planned cryptographic scope-of-authority layer for agents and MCP servers.",
+  "analystNote": "Announcement/publication verified; original source-body bytes not archived; published day is October 15 or 16, exact timestamp not asserted."
+}

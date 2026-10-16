@@ -1,0 +1,15 @@
+{
+  "id": "source:nightly-2026-10-16-mikmaq-conservation",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.nrcs.usda.gov/state-offices/maine/news/nrcs-signs-first-of-its-kind-conservation-agreement-with-mikmaq-tribe-in",
+  "publisher": "USDA Natural Resources Conservation Service",
+  "retrievedAt": "2026-10-16T23:16:13Z",
+  "publishedAt": null,
+  "sourceClass": "regulatory",
+  "independenceKey": "nrcs.usda.gov",
+  "contentHash": null,
+  "title": "NRCS announces a $108,000 Alternative Funding Arrangement signed with Mi'kmaq Nation September 30 and reported October 16.",
+  "lead": "NRCS announces a $108,000 Alternative Funding Arrangement signed with Mi'kmaq Nation September 30 and reported October 16.",
+  "analystNote": "Announcement/publication verified; original source-body bytes not archived; published day is October 15 or 16, exact timestamp not asserted."
+}

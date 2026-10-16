@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-16-2",
+  "observationId": "obs:nightly-2026-10-16-2",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Reuters reported October 15 that Figma's CFO said AI spending could keep gross margins below previous levels above 90 percent, with current margins in the mid-80s.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-16-figma-economics"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "Reuters reports Figma has introduced usage-based AI credits and expanded AI-driven design and prototyping features; the remarks concern company strategy, not independently measured user value.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-16-figma-economics"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Consultancy implication: offer creative workflow unit-economics audits; client problem is AI iteration costs without quality-adjusted throughput evidence.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Potential operators and their clients, not yet verified purchasers.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Manual creative QA and fixed-fee design work.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Compute-intensive model calls changing creative production costs.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-16-figma-economics"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Cost pressure on a large SaaS platform translates into smaller studio decisions.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "A representative independent pilot fails to demonstrate the predicted benefit.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Secondary source; company financial filings and independent cohort usage data were not retrieved. No verified price quote or client purchase in this window.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Margin commentary may reflect investment cycle rather than new buyer needs.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Cost pressure on a large SaaS platform translates into smaller studio decisions.",
+  "falsifier": "Independent measured evidence or direct buyer/participant feedback contradicts the proposed benefit.",
+  "missingEvidence": [
+    "Secondary source; company financial filings and independent cohort usage data were not retrieved.",
+    "No verified price quote or client purchase in this window."
+  ],
+  "alternativeExplanation": "Margin commentary may reflect investment cycle rather than new buyer needs.",
+  "disposition": "experiment",
+  "confidence": 0.86
+}

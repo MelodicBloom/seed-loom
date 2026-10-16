@@ -1,0 +1,43 @@
+{
+  "id": "obs:nightly-2026-10-16-1",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-16T23:16:13Z",
+  "claim": "ServiceNow announced AI Passport for signed, runtime-scoped authority over AI agents and MCP servers.",
+  "verifiedFacts": [
+    "On October 15 ServiceNow announced AI Passport with cryptographically signed credentials and per-agent scope verification; it is described as a new solution, not independently verified as generally deployed.",
+    "ServiceNow named NVIDIA as a design and launch partner for enforcement via its agent safety platform; announced governance includes discovery, access mapping, revocation, and audit."
+  ],
+  "inference": [
+    "Inference: authorization at execution time could complement Seed Loom evidence acceptance, but Seed Loom should not become an enterprise identity product.",
+    "Consultancy implication: offer a bounded agent authorization/trace audit; client problem is agent access drifting beyond approved data, tools and tasks.",
+    "Disposition: Seed Loom CORE for knowledge boundaries; Agent Runtime Control Center CONSOLIDATE candidate for runtime controls, keeping identities separate.",
+    "Thesis: strengthens the governed execution thesis rather than proving external consulting demand."
+  ],
+  "significance": "A vendor and infrastructure partner are investing in runtime scope enforcement, a concrete external architecture to compare with human-controlled agent handoffs.",
+  "confidence": 0.95,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly-2026-10-16-servicenow-passport"
+  ],
+  "actorRefs": [
+    "provider:ServiceNow",
+    "supplier:NVIDIA",
+    "buyer:enterprise-clients-unverified"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Cryptographic authorization can be integrated with heterogeneous agent runtimes.",
+    "Vendor-stated controls function as described outside demos."
+  ],
+  "knownLimitations": [
+    "Product availability and independent enforcement test results are unverified.",
+    "No client procurement for consultancy has been observed."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "obs:nightly-2026-10-16-4",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-16T23:16:13Z",
+  "claim": "USDA reported a signed $108,000 Mi'kmaq Nation conservation agreement supporting maple production and food sovereignty.",
+  "verifiedFacts": [
+    "USDA NRCS reported October 16 that it and Mi'kmaq Nation signed a $108,000 Alternative Funding Arrangement on September 30 in Maine.",
+    "The five-year project targets energy-efficient maple sap boiling, maple-stand productivity, collection access, and water-quality concerns; NRCS calls it Maine's first Tribal AFA."
+  ],
+  "inference": [
+    "Inference: flexible contracting and locally defined outcome measures may be a more useful regenerative advisory model than generic sustainability dashboards.",
+    "Consultancy implication: consider participatory stewardship evidence maps only with partner invitation and consent; client problem is documenting outcomes without replacing community authority.",
+    "Disposition: Seed Loom CORE for provenance; Project Constellation INCUBATE for consented civic visualizations; no outreach authorized.",
+    "Thesis: reinforces accountable regenerative systems; the announcement date is new, not the September 30 signature."
+  ],
+  "significance": "An inspectable funding agreement and identified community partnership demonstrate an actual governance mechanism for conservation delivery.",
+  "confidence": 0.97,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "funding",
+  "sourceRefs": [
+    "source:nightly-2026-10-16-mikmaq-conservation"
+  ],
+  "actorRefs": [
+    "funder:USDA-NRCS",
+    "participant:Mikmaq-Nation",
+    "researcher:none-claimed"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "Participatory metrics could be useful if invited by the affected community.",
+    "Future conservation outcomes will be independently measurable."
+  ],
+  "knownLimitations": [
+    "Agreement is not proof of completed ecological improvements.",
+    "No consultancy procurement or partnership invitation exists."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

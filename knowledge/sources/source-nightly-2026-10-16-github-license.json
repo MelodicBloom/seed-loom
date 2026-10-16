@@ -1,0 +1,15 @@
+{
+  "id": "source:nightly-2026-10-16-github-license",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available/",
+  "publisher": "GitHub Changelog",
+  "retrievedAt": "2026-10-16T23:16:13Z",
+  "publishedAt": null,
+  "sourceClass": "official",
+  "independenceKey": "github.blog",
+  "contentHash": null,
+  "title": "GitHub announces general availability of enterprise open-source license compliance for qualifying GitHub Enterprise Cloud repositories.",
+  "lead": "GitHub announces general availability of enterprise open-source license compliance for qualifying GitHub Enterprise Cloud repositories.",
+  "analystNote": "Announcement/publication verified; original source-body bytes not archived; published day is October 15 or 16, exact timestamp not asserted."
+}

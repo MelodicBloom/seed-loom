@@ -1,0 +1,35 @@
+{
+  "ackId": "ack:nightly-2026-10-16-publish",
+  "runId": "run:nightly:2026-10-16",
+  "stage": "publish",
+  "schemaVersion": "1.1.0",
+  "status": "deferred",
+  "startedAt": "2026-10-16T23:16:13Z",
+  "completedAt": "2026-10-16T23:16:13Z",
+  "inputs": [
+    "candidate research only"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "human approval and accepted evidence required",
+      "result": "not-applicable",
+      "detail": "No acceptance, experiment execution, genesis or publication permitted."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "Candidate-only knowledge intake; no automatic acceptance or external disclosure.",
+      "Source-body snapshots unavailable; source URL manifest hash is not source content integrity."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly research automation",
+    "method": "deferred human-controlled transition",
+    "inputHashes": [
+      "sha256:e3a2675f570f0d330a7c6cdfef79cd215d4be943d7598bfc6dd57f62785c96ea"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "obs:nightly-2026-10-16-2",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-16T23:16:13Z",
+  "claim": "Figma's CFO described a measurable gross-margin tradeoff as the company invests in AI-assisted design.",
+  "verifiedFacts": [
+    "Reuters reported October 15 that Figma's CFO said AI spending could keep gross margins below previous levels above 90 percent, with current margins in the mid-80s.",
+    "Reuters reports Figma has introduced usage-based AI credits and expanded AI-driven design and prototyping features; the remarks concern company strategy, not independently measured user value."
+  ],
+  "inference": [
+    "Inference: AI-enabled creative work introduces variable compute costs and shifts pricing incentives, supporting cost-per-accepted-asset benchmarks.",
+    "Consultancy implication: offer creative workflow unit-economics audits; client problem is AI iteration costs without quality-adjusted throughput evidence.",
+    "Disposition: Observation Ad Pipeline PRODUCTIZE candidate; Shader Grammar CORE for material verification; no platform merge.",
+    "Thesis: reinforces Creative Systems Verification; does not establish demand for new design software."
+  ],
+  "significance": "A public design-platform executive describes AI compute as a margin and pricing decision, making creative workflow economics a concrete buyer-facing evaluation dimension.",
+  "confidence": 0.89,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly-2026-10-16-figma-economics"
+  ],
+  "actorRefs": [
+    "provider:Figma",
+    "analyst:Reuters",
+    "buyer:design-platform-customers-unverified"
+  ],
+  "affectedRepositories": [
+    "qt314wink/observation-ad-pipeline",
+    "qt314wink/shader-grammar"
+  ],
+  "assumptions": [
+    "Cost pressure on a large SaaS platform translates into smaller studio decisions.",
+    "AI credits are sufficiently observable to support meaningful unit-economics comparisons."
+  ],
+  "knownLimitations": [
+    "Secondary source; company financial filings and independent cohort usage data were not retrieved.",
+    "No verified price quote or client purchase in this window."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

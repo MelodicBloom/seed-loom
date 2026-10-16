@@ -1,0 +1,15 @@
+{
+  "id": "source:nightly-2026-10-16-figma-economics",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.reuters.com/business/figma-cfo-says-design-platform-willing-put-margins-line-boost-ai-demand-2026-10-15/",
+  "publisher": "Reuters",
+  "retrievedAt": "2026-10-16T23:16:13Z",
+  "publishedAt": null,
+  "sourceClass": "secondary",
+  "independenceKey": "reuters.com:figma-cfo",
+  "contentHash": null,
+  "title": "Reuters reports Figma CFO comments on AI-related gross margin tradeoffs and usage-based AI credit pricing.",
+  "lead": "Reuters reports Figma CFO comments on AI-related gross margin tradeoffs and usage-based AI credit pricing.",
+  "analystNote": "Announcement/publication verified; original source-body bytes not archived; published day is October 15 or 16, exact timestamp not asserted."
+}

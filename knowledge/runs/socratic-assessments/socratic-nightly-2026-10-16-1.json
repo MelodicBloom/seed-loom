@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-16-1",
+  "observationId": "obs:nightly-2026-10-16-1",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "On October 15 ServiceNow announced AI Passport with cryptographically signed credentials and per-agent scope verification; it is described as a new solution, not independently verified as generally deployed.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-16-servicenow-passport"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "ServiceNow named NVIDIA as a design and launch partner for enforcement via its agent safety platform; announced governance includes discovery, access mapping, revocation, and audit.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-16-servicenow-passport"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Consultancy implication: offer a bounded agent authorization/trace audit; client problem is agent access drifting beyond approved data, tools and tasks.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Potential operators and their clients, not yet verified purchasers.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing access-control and audit products.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Cryptographically attested delegated authority at runtime.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-16-servicenow-passport"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Cryptographic authorization can be integrated with heterogeneous agent runtimes.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "A representative independent pilot fails to demonstrate the predicted benefit.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Product availability and independent enforcement test results are unverified. No client procurement for consultancy has been observed.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Product announcement primarily differentiates vendor positioning.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Cryptographic authorization can be integrated with heterogeneous agent runtimes.",
+  "falsifier": "Independent measured evidence or direct buyer/participant feedback contradicts the proposed benefit.",
+  "missingEvidence": [
+    "Product availability and independent enforcement test results are unverified.",
+    "No client procurement for consultancy has been observed."
+  ],
+  "alternativeExplanation": "Product announcement primarily differentiates vendor positioning.",
+  "disposition": "experiment",
+  "confidence": 0.86
+}
