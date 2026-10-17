@@ -1,0 +1,1410 @@
+{
+  "run": {
+    "runId": "run:nightly:2026-10-17",
+    "type": "ResearchRun",
+    "schemaVersion": "1.1.0",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-10-15T23:41:53Z",
+      "to": "2026-10-17T23:41:53Z"
+    },
+    "newObservations": [
+      "obs:nightly-2026-10-17-1",
+      "obs:nightly-2026-10-17-2",
+      "obs:nightly-2026-10-17-3",
+      "obs:nightly-2026-10-17-4",
+      "obs:nightly-2026-10-17-5"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [
+      "Verified agent identity is not equivalent to continued behavioral compliance.",
+      "Materials design needs manufacturability, life-cycle and physical-response proof, not visual plausibility alone.",
+      "Federal funding intentions and selections are not awards, procurement or measured delivery."
+    ],
+    "newRelationships": [
+      "rel:nightly-2026-10-17-1",
+      "rel:nightly-2026-10-17-2",
+      "rel:nightly-2026-10-17-3",
+      "rel:nightly-2026-10-17-4",
+      "rel:nightly-2026-10-17-5"
+    ],
+    "contradictions": [
+      "DOE EPSCoR selection is explicitly not a funding commitment.",
+      "DOE grid estimate is not a measured transmission-capacity increase.",
+      "Nature Sustainability article is a Perspective, not an industrial demonstration.",
+      "Cloudflare trust bands are being evaluated internally, not yet broadly customer available."
+    ],
+    "opportunities": [
+      "Agent web-access behavior audit with site preference and rate-limit evidence.",
+      "Life-cycle-aware fabrication proof and physical response verification.",
+      "Scientific and civic infrastructure evidence visualization separating commitments from outcomes."
+    ],
+    "proposedExperiments": [
+      "Proposed: simulated robots.txt/HTTP 429 compliance and attribution fixture, no external crawling or deployment.",
+      "Proposed: one Omni-Loom material response specimen with simulated and physical verification gates; no fabrication authorized."
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "qt314wink/seed-loom",
+        "allowedPaths": [
+          "docs/strategy-genesis/",
+          "knowledge/intake/nightly/"
+        ],
+        "branchPolicy": "new bounded branch and draft PR, no schema edits",
+        "approvalGate": "Jennipher approval before any follow-up work"
+      },
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/omni-loom",
+        "allowedPaths": [
+          "docs/",
+          "tests/"
+        ],
+        "branchPolicy": "verify actual repository and paths, then bounded branch and draft PR",
+        "approvalGate": "Jennipher approves test specimen and fabrication scope"
+      }
+    ],
+    "noChangeReceipts": [
+      "October 15 Adobe/NVIDIA, CERN/Mistral, GitHub lockfiles, ByteDance alignment hiring and GitHub AI Scan excluded as prior signals.",
+      "October 16 ServiceNow AI Passport, Figma AI economics, GitHub license compliance, USDA Mi'kmaq agreement and NetApp accelerator excluded as prior signals.",
+      "Seed Loom main 750ad4c7bf24144fb2ccf76d3746e54d678fa404 is October 17 provenance collection; no strategy acceptance inferred.",
+      "No default-branch commits in 48 hours for Shader Grammar, Observation Ad Pipeline, MelodicBloom .github, Project Constellation and FLORÉ; latest FLORÉ main commit October 15 21:44Z.",
+      "Shader Grammar draft PRs #8/#9, Observation Ad Pipeline PRs #4/#8, and MelodicBloom governance PRs #14/#15 remain open.",
+      "No archive/kill disposition justified without asset extraction, opportunity-cost and revival evidence."
+    ],
+    "collectionFailures": [
+      "Original source-body snapshots and SHA-256 hashes unavailable; URL-manifest digest is not content integrity.",
+      "Private/unindexed LithoMemphis, Kozo Dreams, Omni-Loom, AETHER and WAN source/CI surfaces not comprehensively inspected.",
+      "No current consultancy paid pilots, signed contracts, open procurement or direct buyer interviews established.",
+      "Nature Sustainability full Perspective text not retrieved; abstract and publication metadata only.",
+      "DOE EPSCoR selected projects not yet awarded; grid funding intent and projected capacity not measured.",
+      "Issue #24 two-isolated-execution proof not yet performed for this bundle."
+    ]
+  },
+  "sources": [
+    {
+      "id": "source:nightly-2026-10-17-cloudflare-bot-accountability",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://blog.cloudflare.com/verified-bots-accountability/",
+      "publisher": "Cloudflare",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-17T23:41:53Z",
+      "sourceClass": "official",
+      "independenceKey": "blog.cloudflare.com",
+      "contentHash": null,
+      "title": "Continuous accountability for Verified bots",
+      "lead": "Cloudflare says it is already evaluating sustained bot behavior internally; its October 16 publication introduces explainable trust bands.",
+      "analystNote": "Original source-body bytes not archived; publication date verified as October 16, 2026; exact publication timestamp unknown."
+    },
+    {
+      "id": "source:nightly-2026-10-17-doe-epscor-36m",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://www.energy.gov/science/articles/energy-department-awards-36-million-strengthen-energy-research-across-21-states",
+      "publisher": "U.S. Department of Energy Office of Science",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-17T23:41:53Z",
+      "sourceClass": "official",
+      "independenceKey": "www.energy.gov",
+      "contentHash": null,
+      "title": "DOE selects 38 EPSCoR projects for potential $36 million",
+      "lead": "DOE announced October 16 that selected four-year projects cover materials, fusion, nuclear, battery and particle physics research.",
+      "analystNote": "Original source-body bytes not archived; publication date verified as October 16, 2026; exact publication timestamp unknown."
+    },
+    {
+      "id": "source:nightly-2026-10-17-nature-lifecycle-materials",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://www.nature.com/articles/s41893-026-01950-4",
+      "publisher": "Nature Sustainability",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-17T23:41:53Z",
+      "sourceClass": "research",
+      "independenceKey": "www.nature.com",
+      "contentHash": null,
+      "title": "Artificial intelligence for life-cycle-aware sustainable materials discovery",
+      "lead": "The Perspective argues that manufacturing scalability, environmental impacts, product use and end-of-life are often evaluated too late.",
+      "analystNote": "Original source-body bytes not archived; publication date verified as October 16, 2026; exact publication timestamp unknown."
+    },
+    {
+      "id": "source:nightly-2026-10-17-nature-porous-inverse-design",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://www.nature.com/articles/s41524-026-02367-5",
+      "publisher": "npj Computational Materials",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-17T23:41:53Z",
+      "sourceClass": "research",
+      "independenceKey": "www.nature.com",
+      "contentHash": null,
+      "title": "Response-function-conditioned inverse design enables disorder as a design dimension in porous materials",
+      "lead": "Researchers trained on 844 XCT-derived aluminium-foam subvolumes and report forward pointwise R²=0.9918.",
+      "analystNote": "Original source-body bytes not archived; publication date verified as October 16, 2026; exact publication timestamp unknown."
+    },
+    {
+      "id": "source:nightly-2026-10-17-doe-grid-50m",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://www.energy.gov/articles/energy-department-announces-virginia-and-west-virginia-transmission-project-receive",
+      "publisher": "U.S. Department of Energy",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-17T23:41:53Z",
+      "sourceClass": "official",
+      "independenceKey": "www.energy.gov",
+      "contentHash": null,
+      "title": "DOE proposes up to $50 million for grid-enhancing technologies",
+      "lead": "The proposed 48-month project uses reconductoring and dynamic line rating on existing corridors.",
+      "analystNote": "Original source-body bytes not archived; publication date verified as October 16, 2026; exact publication timestamp unknown."
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs:nightly-2026-10-17-1",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-10-17T23:41:53Z",
+      "claim": "Cloudflare announced and internally deployed ongoing Verified Bot behavior assessment, evaluating robots.txt compliance and response to HTTP 429 rate limits.",
+      "verifiedFacts": [
+        "Cloudflare says it is already evaluating sustained bot behavior internally; its October 16 publication introduces explainable trust bands.",
+        "Public scores and customer-configurable thresholds are future plans, not established generally available features."
+      ],
+      "inference": [
+        "Inference: Bot identity must not be confused with continued authorized behavior.",
+        "Consultancy implication and client problem: Agent compliance assessment: clients need proof automated traffic respects site policies.",
+        "Project disposition and thesis: CORE knowledge provenance; CONSOLIDATE runtime controls; reinforces agent governance.",
+        "Actor roles: Provider: Cloudflare; participants: verified bot operators; buyers: website owners unverified."
+      ],
+      "significance": "Cloudflare announced and internally deployed ongoing Verified Bot behavior assessment, evaluating robots.txt compliance and response to HTTP 429 rate limits.",
+      "confidence": "Existing WAF, robots.txt, rate limiting",
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "default",
+      "sourceRefs": [
+        "source:nightly-2026-10-17-cloudflare-bot-accountability"
+      ],
+      "actorRefs": [
+        "Provider: Cloudflare",
+        "participants: verified bot operators",
+        "buyers: website owners unverified."
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/agent-runtime-control-center"
+      ],
+      "assumptions": [
+        "Behavioral trust bands could misattribute traffic or punish compliant agents."
+      ],
+      "knownLimitations": [
+        "Independent attribution tests yield excessive false positives.",
+        "Source-body snapshot and independent commercial buyer evidence unavailable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-10-17-2",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-10-17T23:41:53Z",
+      "claim": "DOE selected 38 university–laboratory EPSCoR research projects in 21 states and Puerto Rico for $36 million subject to award negotiations.",
+      "verifiedFacts": [
+        "DOE announced October 16 that selected four-year projects cover materials, fusion, nuclear, battery and particle physics research.",
+        "DOE explicitly says selection is not an award commitment and negotiations can be rescinded."
+      ],
+      "inference": [
+        "Inference: University-lab partnerships may need traceable evidence and accessible scientific visualization.",
+        "Consultancy implication and client problem: Research evidence map: client need is cross-institution auditability, not another data silo.",
+        "Project disposition and thesis: CORE evidence spine; INCUBATE visualization; reinforces scientific evidence governance.",
+        "Actor roles: Funder: DOE; researchers: universities and national laboratories; buyers unverified."
+      ],
+      "significance": "DOE selected 38 university–laboratory EPSCoR research projects in 21 states and Puerto Rico for $36 million subject to award negotiations.",
+      "confidence": "Institutional research data systems",
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "funding",
+      "sourceRefs": [
+        "source:nightly-2026-10-17-doe-epscor-36m"
+      ],
+      "actorRefs": [
+        "Funder: DOE",
+        "researchers: universities and national laboratories",
+        "buyers unverified."
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/project-constellation"
+      ],
+      "assumptions": [
+        "Funding selections may be mistaken for open contracts or disbursed awards."
+      ],
+      "knownLimitations": [
+        "Award negotiations fail or procurement terms exclude external contractors.",
+        "Source-body snapshot and independent commercial buyer evidence unavailable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-10-17-3",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-10-17T23:41:53Z",
+      "claim": "A peer-reviewed October 16 Perspective proposes life-cycle-aware AI material discovery before material candidates are locked in.",
+      "verifiedFacts": [
+        "The Perspective argues that manufacturing scalability, environmental impacts, product use and end-of-life are often evaluated too late.",
+        "This is a conceptual Perspective, not an experimentally verified industrial sustainability improvement."
+      ],
+      "inference": [
+        "Inference: Fabrication optimization should include life-cycle uncertainty, not just physical or visual properties.",
+        "Consultancy implication and client problem: Life-cycle-aware material decision records: clients need early tradeoff visibility.",
+        "Project disposition and thesis: Shader Grammar CORE optical properties; Omni-Loom INCUBATE fabrication; extends sustainable material evaluation.",
+        "Actor roles: Researchers: Nature Sustainability authors; buyers: fabrication clients unverified."
+      ],
+      "significance": "A peer-reviewed October 16 Perspective proposes life-cycle-aware AI material discovery before material candidates are locked in.",
+      "confidence": "Conventional post-selection LCA",
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "peer-reviewed-research",
+      "sourceRefs": [
+        "source:nightly-2026-10-17-nature-lifecycle-materials"
+      ],
+      "actorRefs": [
+        "Researchers: Nature Sustainability authors",
+        "buyers: fabrication clients unverified."
+      ],
+      "affectedRepositories": [
+        "qt314wink/shader-grammar",
+        "MelodicBloom/omni-loom"
+      ],
+      "assumptions": [
+        "Environmental claims may be made without trustworthy life-cycle inventories."
+      ],
+      "knownLimitations": [
+        "Realistic cradle-to-grave LCA reverses the preferred material ranking.",
+        "Source-body snapshot and independent commercial buyer evidence unavailable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-10-17-4",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-10-17T23:41:53Z",
+      "claim": "A peer-reviewed October 16 paper reports inverse-designed disordered porous structures targeting full stress–strain response with physical tests.",
+      "verifiedFacts": [
+        "Researchers trained on 844 XCT-derived aluminium-foam subvolumes and report forward pointwise R²=0.9918.",
+        "Authors report finite-element checks and compression tests on additively manufactured structures across three aluminium-alloy systems."
+      ],
+      "inference": [
+        "Inference: Response-conditioned fabrication offers a measurable proof ladder from desired behavior to manufactured specimen.",
+        "Consultancy implication and client problem: Physical-design verification: clients need evidence a generated form achieves target behavior.",
+        "Project disposition and thesis: Omni-Loom INCUBATE deterministic fabrication; Shader Grammar REFERENCE-ONLY for physical validation; reinforces measured inverse design.",
+        "Actor roles: Researchers: Zhao et al.; participants: additive manufacturing labs; buyers unverified."
+      ],
+      "significance": "A peer-reviewed October 16 paper reports inverse-designed disordered porous structures targeting full stress–strain response with physical tests.",
+      "confidence": "Unit-cell lattices and conventional topology optimization",
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "peer-reviewed-research",
+      "sourceRefs": [
+        "source:nightly-2026-10-17-nature-porous-inverse-design"
+      ],
+      "actorRefs": [
+        "Researchers: Zhao et al.",
+        "participants: additive manufacturing labs",
+        "buyers unverified."
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/omni-loom",
+        "qt314wink/shader-grammar"
+      ],
+      "assumptions": [
+        "Study-specific foam datasets may not generalize to new materials or fabrication scales."
+      ],
+      "knownLimitations": [
+        "Held-out material test fails to reproduce target mechanical response.",
+        "Source-body snapshot and independent commercial buyer evidence unavailable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-10-17-5",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-10-17T23:41:53Z",
+      "claim": "DOE announced October 16 its intent to provide up to $50 million in DPA funding for a Virginia and West Virginia transmission upgrade.",
+      "verifiedFacts": [
+        "The proposed 48-month project uses reconductoring and dynamic line rating on existing corridors.",
+        "DOE estimates about 290 MW additional capacity and one-to-four-year acceleration; neither outcome is independently measured."
+      ],
+      "inference": [
+        "Inference: Civic intelligence must separate proposed investment, implementation and measured grid benefits.",
+        "Consultancy implication and client problem: Infrastructure evidence dashboard: clients need clear links between promises, sensors and outcomes.",
+        "Project disposition and thesis: Seed Loom CORE provenance; Project Constellation INCUBATE public evidence display; reinforces civic infrastructure governance.",
+        "Actor roles: Funder: DOE; builder: Virginia Energy; participants: Appalachian Power and Potomac Edison."
+      ],
+      "significance": "DOE announced October 16 its intent to provide up to $50 million in DPA funding for a Virginia and West Virginia transmission upgrade.",
+      "confidence": "SCADA and regulatory reporting",
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "funding",
+      "sourceRefs": [
+        "source:nightly-2026-10-17-doe-grid-50m"
+      ],
+      "actorRefs": [
+        "Funder: DOE",
+        "builder: Virginia Energy",
+        "participants: Appalachian Power and Potomac Edison."
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/project-constellation"
+      ],
+      "assumptions": [
+        "An announced funding intention and modeled 290 MW may be mistaken for delivered results."
+      ],
+      "knownLimitations": [
+        "Final award or monitored capacity falls far short of the stated projections.",
+        "Source-body snapshot and independent commercial buyer evidence unavailable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel:nightly-2026-10-17-1",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-10-17-1",
+      "predicate": "MAY_ENABLE",
+      "to": "qt314wink/seed-loom",
+      "confidence": null,
+      "evidenceRefs": [
+        "source:nightly-2026-10-17-cloudflare-bot-accountability"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-10-17-2",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-10-17-2",
+      "predicate": "MAY_ENABLE",
+      "to": "qt314wink/seed-loom",
+      "confidence": null,
+      "evidenceRefs": [
+        "source:nightly-2026-10-17-doe-epscor-36m"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-10-17-3",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-10-17-3",
+      "predicate": "REFINES",
+      "to": "qt314wink/shader-grammar",
+      "confidence": null,
+      "evidenceRefs": [
+        "source:nightly-2026-10-17-nature-lifecycle-materials"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-10-17-4",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-10-17-4",
+      "predicate": "MAY_ENABLE",
+      "to": "MelodicBloom/omni-loom",
+      "confidence": null,
+      "evidenceRefs": [
+        "source:nightly-2026-10-17-nature-porous-inverse-design"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-10-17-5",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-10-17-5",
+      "predicate": "MAY_ENABLE",
+      "to": "qt314wink/seed-loom",
+      "confidence": null,
+      "evidenceRefs": [
+        "source:nightly-2026-10-17-doe-grid-50m"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "ackId": "ack:nightly-2026-10-17-collect",
+      "runId": "run:nightly:2026-10-17",
+      "stage": "collect",
+      "schemaVersion": "1.1.0",
+      "status": "passed",
+      "startedAt": "2026-10-17T23:41:53Z",
+      "completedAt": "2026-10-17T23:41:53Z",
+      "inputs": [
+        "five primary sources",
+        "live repository SHA 750ad4c7bf24144fb2ccf76d3746e54d678fa404"
+      ],
+      "outputs": [
+        "five source records"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only source and schema preflight",
+          "result": "pass",
+          "detail": "Live schemas and ingestion workflow read; five primary-source candidates; execution validation delegated to canonical CI."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, Genesis, experiment execution or publication.",
+          "Source URL hash is not a source-body hash.",
+          "All repository follow-up actions remain proposals."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly research automation",
+        "method": "Primary-source review, direct GitHub preflight and live-schema-guided assembly",
+        "inputHashes": [
+          "sha256:2f7054663951a68f474ee10613bf66b51cd055f6d6dc65ac9dd9d49b2e9d8768",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+          "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b"
+        ]
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-10-17-vet",
+      "runId": "run:nightly:2026-10-17",
+      "stage": "vet",
+      "schemaVersion": "1.1.0",
+      "status": "passed",
+      "startedAt": "2026-10-17T23:41:53Z",
+      "completedAt": "2026-10-17T23:41:53Z",
+      "inputs": [
+        "five sources",
+        "prior two nightly observation sets"
+      ],
+      "outputs": [
+        "five deduplicated source-backed signals"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only source and schema preflight",
+          "result": "pass",
+          "detail": "Live schemas and ingestion workflow read; five primary-source candidates; execution validation delegated to canonical CI."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, Genesis, experiment execution or publication.",
+          "Source URL hash is not a source-body hash.",
+          "All repository follow-up actions remain proposals."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly research automation",
+        "method": "Primary-source review, direct GitHub preflight and live-schema-guided assembly",
+        "inputHashes": [
+          "sha256:2f7054663951a68f474ee10613bf66b51cd055f6d6dc65ac9dd9d49b2e9d8768",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+          "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b"
+        ]
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-10-17-normalize",
+      "runId": "run:nightly:2026-10-17",
+      "stage": "normalize",
+      "schemaVersion": "1.1.0",
+      "status": "passed",
+      "startedAt": "2026-10-17T23:41:53Z",
+      "completedAt": "2026-10-17T23:41:53Z",
+      "inputs": [
+        "live schema 1.1.0 and canonical normalizer"
+      ],
+      "outputs": [
+        "five schema-shaped observations"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only source and schema preflight",
+          "result": "pass",
+          "detail": "Live schemas and ingestion workflow read; five primary-source candidates; execution validation delegated to canonical CI."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, Genesis, experiment execution or publication.",
+          "Source URL hash is not a source-body hash.",
+          "All repository follow-up actions remain proposals."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly research automation",
+        "method": "Primary-source review, direct GitHub preflight and live-schema-guided assembly",
+        "inputHashes": [
+          "sha256:2f7054663951a68f474ee10613bf66b51cd055f6d6dc65ac9dd9d49b2e9d8768",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+          "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b"
+        ]
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-10-17-observe",
+      "runId": "run:nightly:2026-10-17",
+      "stage": "observe",
+      "schemaVersion": "1.1.0",
+      "status": "passed",
+      "startedAt": "2026-10-17T23:41:53Z",
+      "completedAt": "2026-10-17T23:41:53Z",
+      "inputs": [
+        "five source-backed claims"
+      ],
+      "outputs": [
+        "five candidate observations"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only source and schema preflight",
+          "result": "pass",
+          "detail": "Live schemas and ingestion workflow read; five primary-source candidates; execution validation delegated to canonical CI."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, Genesis, experiment execution or publication.",
+          "Source URL hash is not a source-body hash.",
+          "All repository follow-up actions remain proposals."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly research automation",
+        "method": "Primary-source review, direct GitHub preflight and live-schema-guided assembly",
+        "inputHashes": [
+          "sha256:2f7054663951a68f474ee10613bf66b51cd055f6d6dc65ac9dd9d49b2e9d8768",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+          "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b"
+        ]
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-10-17-inquire",
+      "runId": "run:nightly:2026-10-17",
+      "stage": "inquire",
+      "schemaVersion": "1.1.0",
+      "status": "passed",
+      "startedAt": "2026-10-17T23:41:53Z",
+      "completedAt": "2026-10-17T23:41:53Z",
+      "inputs": [
+        "five bounded Socratic assessments"
+      ],
+      "outputs": [
+        "five Socratic assessments"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only source and schema preflight",
+          "result": "pass",
+          "detail": "Live schemas and ingestion workflow read; five primary-source candidates; execution validation delegated to canonical CI."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, Genesis, experiment execution or publication.",
+          "Source URL hash is not a source-body hash.",
+          "All repository follow-up actions remain proposals."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly research automation",
+        "method": "Primary-source review, direct GitHub preflight and live-schema-guided assembly",
+        "inputHashes": [
+          "sha256:2f7054663951a68f474ee10613bf66b51cd055f6d6dc65ac9dd9d49b2e9d8768",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+          "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b"
+        ]
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-10-17-interpret",
+      "runId": "run:nightly:2026-10-17",
+      "stage": "interpret",
+      "schemaVersion": "1.1.0",
+      "status": "passed",
+      "startedAt": "2026-10-17T23:41:53Z",
+      "completedAt": "2026-10-17T23:41:53Z",
+      "inputs": [
+        "five candidate interpretations"
+      ],
+      "outputs": [
+        "bounded inferences and limitations"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only source and schema preflight",
+          "result": "pass",
+          "detail": "Live schemas and ingestion workflow read; five primary-source candidates; execution validation delegated to canonical CI."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, Genesis, experiment execution or publication.",
+          "Source URL hash is not a source-body hash.",
+          "All repository follow-up actions remain proposals."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly research automation",
+        "method": "Primary-source review, direct GitHub preflight and live-schema-guided assembly",
+        "inputHashes": [
+          "sha256:2f7054663951a68f474ee10613bf66b51cd055f6d6dc65ac9dd9d49b2e9d8768",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+          "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b"
+        ]
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-10-17-relate",
+      "runId": "run:nightly:2026-10-17",
+      "stage": "relate",
+      "schemaVersion": "1.1.0",
+      "status": "passed",
+      "startedAt": "2026-10-17T23:41:53Z",
+      "completedAt": "2026-10-17T23:41:53Z",
+      "inputs": [
+        "five relationship candidates"
+      ],
+      "outputs": [
+        "five relationships"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only source and schema preflight",
+          "result": "pass",
+          "detail": "Live schemas and ingestion workflow read; five primary-source candidates; execution validation delegated to canonical CI."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, Genesis, experiment execution or publication.",
+          "Source URL hash is not a source-body hash.",
+          "All repository follow-up actions remain proposals."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly research automation",
+        "method": "Primary-source review, direct GitHub preflight and live-schema-guided assembly",
+        "inputHashes": [
+          "sha256:2f7054663951a68f474ee10613bf66b51cd055f6d6dc65ac9dd9d49b2e9d8768",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+          "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b"
+        ]
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-10-17-pattern",
+      "runId": "run:nightly:2026-10-17",
+      "stage": "pattern",
+      "schemaVersion": "1.1.0",
+      "status": "passed",
+      "startedAt": "2026-10-17T23:41:53Z",
+      "completedAt": "2026-10-17T23:41:53Z",
+      "inputs": [
+        "cross-domain pattern comparisons"
+      ],
+      "outputs": [
+        "three candidate patterns"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only source and schema preflight",
+          "result": "pass",
+          "detail": "Live schemas and ingestion workflow read; five primary-source candidates; execution validation delegated to canonical CI."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, Genesis, experiment execution or publication.",
+          "Source URL hash is not a source-body hash.",
+          "All repository follow-up actions remain proposals."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly research automation",
+        "method": "Primary-source review, direct GitHub preflight and live-schema-guided assembly",
+        "inputHashes": [
+          "sha256:2f7054663951a68f474ee10613bf66b51cd055f6d6dc65ac9dd9d49b2e9d8768",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+          "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b"
+        ]
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-10-17-opportunity",
+      "runId": "run:nightly:2026-10-17",
+      "stage": "opportunity",
+      "schemaVersion": "1.1.0",
+      "status": "passed",
+      "startedAt": "2026-10-17T23:41:53Z",
+      "completedAt": "2026-10-17T23:41:53Z",
+      "inputs": [
+        "three opportunity candidates"
+      ],
+      "outputs": [
+        "three candidate opportunities"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only source and schema preflight",
+          "result": "pass",
+          "detail": "Live schemas and ingestion workflow read; five primary-source candidates; execution validation delegated to canonical CI."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, Genesis, experiment execution or publication.",
+          "Source URL hash is not a source-body hash.",
+          "All repository follow-up actions remain proposals."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly research automation",
+        "method": "Primary-source review, direct GitHub preflight and live-schema-guided assembly",
+        "inputHashes": [
+          "sha256:2f7054663951a68f474ee10613bf66b51cd055f6d6dc65ac9dd9d49b2e9d8768",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+          "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b"
+        ]
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-10-17-strategy",
+      "runId": "run:nightly:2026-10-17",
+      "stage": "strategy",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-10-17T23:41:53Z",
+      "completedAt": "2026-10-17T23:41:53Z",
+      "inputs": [
+        "candidate-only knowledge records; human approval required"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human approval gate",
+          "result": "not-applicable",
+          "detail": "Deferred; no promotion or execution."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, Genesis, experiment execution or publication.",
+          "Source URL hash is not a source-body hash.",
+          "All repository follow-up actions remain proposals."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly research automation",
+        "method": "Primary-source review, direct GitHub preflight and live-schema-guided assembly",
+        "inputHashes": [
+          "sha256:2f7054663951a68f474ee10613bf66b51cd055f6d6dc65ac9dd9d49b2e9d8768",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+          "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b"
+        ]
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-10-17-experiment",
+      "runId": "run:nightly:2026-10-17",
+      "stage": "experiment",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-10-17T23:41:53Z",
+      "completedAt": "2026-10-17T23:41:53Z",
+      "inputs": [
+        "candidate-only knowledge records; human approval required"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human approval gate",
+          "result": "not-applicable",
+          "detail": "Deferred; no promotion or execution."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, Genesis, experiment execution or publication.",
+          "Source URL hash is not a source-body hash.",
+          "All repository follow-up actions remain proposals."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly research automation",
+        "method": "Primary-source review, direct GitHub preflight and live-schema-guided assembly",
+        "inputHashes": [
+          "sha256:2f7054663951a68f474ee10613bf66b51cd055f6d6dc65ac9dd9d49b2e9d8768",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+          "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b"
+        ]
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-10-17-genesis",
+      "runId": "run:nightly:2026-10-17",
+      "stage": "genesis",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-10-17T23:41:53Z",
+      "completedAt": "2026-10-17T23:41:53Z",
+      "inputs": [
+        "candidate-only knowledge records; human approval required"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human approval gate",
+          "result": "not-applicable",
+          "detail": "Deferred; no promotion or execution."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, Genesis, experiment execution or publication.",
+          "Source URL hash is not a source-body hash.",
+          "All repository follow-up actions remain proposals."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly research automation",
+        "method": "Primary-source review, direct GitHub preflight and live-schema-guided assembly",
+        "inputHashes": [
+          "sha256:2f7054663951a68f474ee10613bf66b51cd055f6d6dc65ac9dd9d49b2e9d8768",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+          "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b"
+        ]
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-10-17-publish",
+      "runId": "run:nightly:2026-10-17",
+      "stage": "publish",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-10-17T23:41:53Z",
+      "completedAt": "2026-10-17T23:41:53Z",
+      "inputs": [
+        "candidate-only knowledge records; human approval required"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human approval gate",
+          "result": "not-applicable",
+          "detail": "Deferred; no promotion or execution."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, Genesis, experiment execution or publication.",
+          "Source URL hash is not a source-body hash.",
+          "All repository follow-up actions remain proposals."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly research automation",
+        "method": "Primary-source review, direct GitHub preflight and live-schema-guided assembly",
+        "inputHashes": [
+          "sha256:2f7054663951a68f474ee10613bf66b51cd055f6d6dc65ac9dd9d49b2e9d8768",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+          "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b"
+        ]
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:nightly-2026-10-17-1",
+      "observationId": "obs:nightly-2026-10-17-1",
+      "questions": [
+        "What changed?",
+        "Whose inspectable behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Cloudflare says it is already evaluating sustained bot behavior internally; its October 16 publication introduces explainable trust bands.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-10-17-cloudflare-bot-accountability"
+          ]
+        },
+        {
+          "question": "Whose inspectable behavior changed?",
+          "answer": "Public scores and customer-configurable thresholds are future plans, not established generally available features.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-10-17-cloudflare-bot-accountability"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Agent compliance assessment: clients need proof automated traffic respects site policies.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Existing WAF/rate limiting may solve most customer needs.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Bot operators and website owners",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Longitudinal observation of robots.txt and HTTP 429",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Behavioral trust bands could misattribute traffic or punish compliant agents.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent attribution tests yield excessive false positives.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "No independent buyer or deployment outcome and no source-body snapshot.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Vendor product differentiation without broad buyer adoption",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Behavioral trust bands could misattribute traffic or punish compliant agents.",
+      "falsifier": "Independent attribution tests yield excessive false positives.",
+      "missingEvidence": [
+        "Independent implementation and procurement evidence",
+        "Source-body content hash and full archival snapshot"
+      ],
+      "alternativeExplanation": "Vendor product differentiation without broad buyer adoption",
+      "disposition": "Continuous behavior observation and explainable trust bands",
+      "confidence": null
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-17-2",
+      "observationId": "obs:nightly-2026-10-17-2",
+      "questions": [
+        "What changed?",
+        "Whose inspectable behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "DOE announced October 16 that selected four-year projects cover materials, fusion, nuclear, battery and particle physics research.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-10-17-doe-epscor-36m"
+          ]
+        },
+        {
+          "question": "Whose inspectable behavior changed?",
+          "answer": "DOE explicitly says selection is not an award commitment and negotiations can be rescinded.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-10-17-doe-epscor-36m"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Research evidence map: client need is cross-institution auditability, not another data silo.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Universities may use existing internal data systems.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Researchers and institutions",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Competitive project selection and lab partnerships",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Funding selections may be mistaken for open contracts or disbursed awards.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Award negotiations fail or procurement terms exclude external contractors.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "No independent buyer or deployment outcome and no source-body snapshot.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Institutions use existing scientific infrastructure",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Funding selections may be mistaken for open contracts or disbursed awards.",
+      "falsifier": "Award negotiations fail or procurement terms exclude external contractors.",
+      "missingEvidence": [
+        "Independent implementation and procurement evidence",
+        "Source-body content hash and full archival snapshot"
+      ],
+      "alternativeExplanation": "Institutions use existing scientific infrastructure",
+      "disposition": "Competitive research selection and laboratory partnership",
+      "confidence": null
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-17-3",
+      "observationId": "obs:nightly-2026-10-17-3",
+      "questions": [
+        "What changed?",
+        "Whose inspectable behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "The Perspective argues that manufacturing scalability, environmental impacts, product use and end-of-life are often evaluated too late.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-10-17-nature-lifecycle-materials"
+          ]
+        },
+        {
+          "question": "Whose inspectable behavior changed?",
+          "answer": "This is a conceptual Perspective, not an experimentally verified industrial sustainability improvement.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-10-17-nature-lifecycle-materials"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Life-cycle-aware material decision records: clients need early tradeoff visibility.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Existing LCA frameworks already address many of these questions.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Material designers and fabricators",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Early life-cycle constraints and multi-objective screening",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Environmental claims may be made without trustworthy life-cycle inventories.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Realistic cradle-to-grave LCA reverses the preferred material ranking.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "No independent buyer or deployment outcome and no source-body snapshot.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Established LCA practice restated as AI roadmap",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Environmental claims may be made without trustworthy life-cycle inventories.",
+      "falsifier": "Realistic cradle-to-grave LCA reverses the preferred material ranking.",
+      "missingEvidence": [
+        "Independent implementation and procurement evidence",
+        "Source-body content hash and full archival snapshot"
+      ],
+      "alternativeExplanation": "Established LCA practice restated as AI roadmap",
+      "disposition": "Early multi-objective life-cycle-aware screening",
+      "confidence": null
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-17-4",
+      "observationId": "obs:nightly-2026-10-17-4",
+      "questions": [
+        "What changed?",
+        "Whose inspectable behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Researchers trained on 844 XCT-derived aluminium-foam subvolumes and report forward pointwise R²=0.9918.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-10-17-nature-porous-inverse-design"
+          ]
+        },
+        {
+          "question": "Whose inspectable behavior changed?",
+          "answer": "Authors report finite-element checks and compression tests on additively manufactured structures across three aluminium-alloy systems.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-10-17-nature-porous-inverse-design"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Physical-design verification: clients need evidence a generated form achieves target behavior.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Strong results may reflect narrow dataset distribution.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Materials engineers and fabricators",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Response-conditioned surrogate generation and physical testing",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Study-specific foam datasets may not generalize to new materials or fabrication scales.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Held-out material test fails to reproduce target mechanical response.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "No independent buyer or deployment outcome and no source-body snapshot.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Narrow foam data distribution explains reported results",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Study-specific foam datasets may not generalize to new materials or fabrication scales.",
+      "falsifier": "Held-out material test fails to reproduce target mechanical response.",
+      "missingEvidence": [
+        "Independent implementation and procurement evidence",
+        "Source-body content hash and full archival snapshot"
+      ],
+      "alternativeExplanation": "Narrow foam data distribution explains reported results",
+      "disposition": "Point-cloud encoder, conditional generation, surrogate and physical compression testing",
+      "confidence": null
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-17-5",
+      "observationId": "obs:nightly-2026-10-17-5",
+      "questions": [
+        "What changed?",
+        "Whose inspectable behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "The proposed 48-month project uses reconductoring and dynamic line rating on existing corridors.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-10-17-doe-grid-50m"
+          ]
+        },
+        {
+          "question": "Whose inspectable behavior changed?",
+          "answer": "DOE estimates about 290 MW additional capacity and one-to-four-year acceleration; neither outcome is independently measured.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-10-17-doe-grid-50m"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Infrastructure evidence dashboard: clients need clear links between promises, sensors and outcomes.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Utilities may already possess sufficient telemetry and reporting.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Grid planners and ratepayers",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Dynamic line rating and reconductoring",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "An announced funding intention and modeled 290 MW may be mistaken for delivered results.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Final award or monitored capacity falls far short of the stated projections.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "No independent buyer or deployment outcome and no source-body snapshot.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Existing utility monitoring already serves the reporting need",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "An announced funding intention and modeled 290 MW may be mistaken for delivered results.",
+      "falsifier": "Final award or monitored capacity falls far short of the stated projections.",
+      "missingEvidence": [
+        "Independent implementation and procurement evidence",
+        "Source-body content hash and full archival snapshot"
+      ],
+      "alternativeExplanation": "Existing utility monitoring already serves the reporting need",
+      "disposition": "Dynamic line rating and reconductoring on existing lines",
+      "confidence": null
+    }
+  ]
+}
