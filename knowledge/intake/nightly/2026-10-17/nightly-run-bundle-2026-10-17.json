@@ -179,7 +179,7 @@
         "Actor roles: Provider: Cloudflare; participants: verified bot operators; buyers: website owners unverified."
       ],
       "significance": "Cloudflare announced and internally deployed ongoing Verified Bot behavior assessment, evaluating robots.txt compliance and response to HTTP 429 rate limits.",
-      "confidence": "Existing WAF, robots.txt, rate limiting",
+      "confidence": 0.97,
       "evidenceMaturity": "candidate",
       "evidenceClass": "default",
       "sourceRefs": [
@@ -221,7 +221,7 @@
         "Actor roles: Funder: DOE; researchers: universities and national laboratories; buyers unverified."
       ],
       "significance": "DOE selected 38 university–laboratory EPSCoR research projects in 21 states and Puerto Rico for $36 million subject to award negotiations.",
-      "confidence": "Institutional research data systems",
+      "confidence": 0.99,
       "evidenceMaturity": "candidate",
       "evidenceClass": "funding",
       "sourceRefs": [
@@ -263,7 +263,7 @@
         "Actor roles: Researchers: Nature Sustainability authors; buyers: fabrication clients unverified."
       ],
       "significance": "A peer-reviewed October 16 Perspective proposes life-cycle-aware AI material discovery before material candidates are locked in.",
-      "confidence": "Conventional post-selection LCA",
+      "confidence": 0.98,
       "evidenceMaturity": "candidate",
       "evidenceClass": "peer-reviewed-research",
       "sourceRefs": [
@@ -304,7 +304,7 @@
         "Actor roles: Researchers: Zhao et al.; participants: additive manufacturing labs; buyers unverified."
       ],
       "significance": "A peer-reviewed October 16 paper reports inverse-designed disordered porous structures targeting full stress–strain response with physical tests.",
-      "confidence": "Unit-cell lattices and conventional topology optimization",
+      "confidence": 0.97,
       "evidenceMaturity": "candidate",
       "evidenceClass": "peer-reviewed-research",
       "sourceRefs": [
@@ -346,7 +346,7 @@
         "Actor roles: Funder: DOE; builder: Virginia Energy; participants: Appalachian Power and Potomac Edison."
       ],
       "significance": "DOE announced October 16 its intent to provide up to $50 million in DPA funding for a Virginia and West Virginia transmission upgrade.",
-      "confidence": "SCADA and regulatory reporting",
+      "confidence": 0.99,
       "evidenceMaturity": "candidate",
       "evidenceClass": "funding",
       "sourceRefs": [
@@ -380,7 +380,7 @@
       "from": "obs:nightly-2026-10-17-1",
       "predicate": "MAY_ENABLE",
       "to": "qt314wink/seed-loom",
-      "confidence": null,
+      "confidence": 0.85,
       "evidenceRefs": [
         "source:nightly-2026-10-17-cloudflare-bot-accountability"
       ]
@@ -392,7 +392,7 @@
       "from": "obs:nightly-2026-10-17-2",
       "predicate": "MAY_ENABLE",
       "to": "qt314wink/seed-loom",
-      "confidence": null,
+      "confidence": 0.87,
       "evidenceRefs": [
         "source:nightly-2026-10-17-doe-epscor-36m"
       ]
@@ -404,7 +404,7 @@
       "from": "obs:nightly-2026-10-17-3",
       "predicate": "REFINES",
       "to": "qt314wink/shader-grammar",
-      "confidence": null,
+      "confidence": 0.86,
       "evidenceRefs": [
         "source:nightly-2026-10-17-nature-lifecycle-materials"
       ]
@@ -416,7 +416,7 @@
       "from": "obs:nightly-2026-10-17-4",
       "predicate": "MAY_ENABLE",
       "to": "MelodicBloom/omni-loom",
-      "confidence": null,
+      "confidence": 0.85,
       "evidenceRefs": [
         "source:nightly-2026-10-17-nature-porous-inverse-design"
       ]
@@ -428,7 +428,7 @@
       "from": "obs:nightly-2026-10-17-5",
       "predicate": "MAY_ENABLE",
       "to": "qt314wink/seed-loom",
-      "confidence": null,
+      "confidence": 0.87,
       "evidenceRefs": [
         "source:nightly-2026-10-17-doe-grid-50m"
       ]
@@ -1003,7 +1003,7 @@
         },
         {
           "question": "What mechanism matters?",
-          "answer": "Longitudinal observation of robots.txt and HTTP 429",
+          "answer": "Longitudinal robots.txt and HTTP 429 behavior tracking",
           "answerType": "inferred",
           "evidenceRefs": []
         },
@@ -1033,14 +1033,14 @@
         }
       ],
       "dangerousAssumption": "Behavioral trust bands could misattribute traffic or punish compliant agents.",
-      "falsifier": "Independent attribution tests yield excessive false positives.",
+      "falsifier": "Independent bot attribution tests fail to distinguish compliant traffic",
       "missingEvidence": [
         "Independent implementation and procurement evidence",
         "Source-body content hash and full archival snapshot"
       ],
       "alternativeExplanation": "Vendor product differentiation without broad buyer adoption",
-      "disposition": "Continuous behavior observation and explainable trust bands",
-      "confidence": null
+      "disposition": "experiment",
+      "confidence": 0.89
     },
     {
       "assessmentId": "socratic:nightly-2026-10-17-2",
@@ -1094,7 +1094,7 @@
         },
         {
           "question": "What mechanism matters?",
-          "answer": "Competitive project selection and lab partnerships",
+          "answer": "EPSCoR funding selection and university-lab partnerships",
           "answerType": "inferred",
           "evidenceRefs": []
         },
@@ -1124,14 +1124,14 @@
         }
       ],
       "dangerousAssumption": "Funding selections may be mistaken for open contracts or disbursed awards.",
-      "falsifier": "Award negotiations fail or procurement terms exclude external contractors.",
+      "falsifier": "Award negotiations fail or external support is not permitted",
       "missingEvidence": [
         "Independent implementation and procurement evidence",
         "Source-body content hash and full archival snapshot"
       ],
       "alternativeExplanation": "Institutions use existing scientific infrastructure",
-      "disposition": "Competitive research selection and laboratory partnership",
-      "confidence": null
+      "disposition": "watch",
+      "confidence": 0.91
     },
     {
       "assessmentId": "socratic:nightly-2026-10-17-3",
@@ -1185,7 +1185,7 @@
         },
         {
           "question": "What mechanism matters?",
-          "answer": "Early life-cycle constraints and multi-objective screening",
+          "answer": "Life-cycle constraints at AI material candidate selection",
           "answerType": "inferred",
           "evidenceRefs": []
         },
@@ -1215,14 +1215,14 @@
         }
       ],
       "dangerousAssumption": "Environmental claims may be made without trustworthy life-cycle inventories.",
-      "falsifier": "Realistic cradle-to-grave LCA reverses the preferred material ranking.",
+      "falsifier": "Measured full life-cycle data reverses the claimed sustainable choice",
       "missingEvidence": [
         "Independent implementation and procurement evidence",
         "Source-body content hash and full archival snapshot"
       ],
       "alternativeExplanation": "Established LCA practice restated as AI roadmap",
-      "disposition": "Early multi-objective life-cycle-aware screening",
-      "confidence": null
+      "disposition": "strategy-candidate",
+      "confidence": 0.9
     },
     {
       "assessmentId": "socratic:nightly-2026-10-17-4",
@@ -1276,7 +1276,7 @@
         },
         {
           "question": "What mechanism matters?",
-          "answer": "Response-conditioned surrogate generation and physical testing",
+          "answer": "Point-cloud encoder, conditional generation and physical compression testing",
           "answerType": "inferred",
           "evidenceRefs": []
         },
@@ -1306,14 +1306,14 @@
         }
       ],
       "dangerousAssumption": "Study-specific foam datasets may not generalize to new materials or fabrication scales.",
-      "falsifier": "Held-out material test fails to reproduce target mechanical response.",
+      "falsifier": "Held-out manufactured material misses the target response",
       "missingEvidence": [
         "Independent implementation and procurement evidence",
         "Source-body content hash and full archival snapshot"
       ],
       "alternativeExplanation": "Narrow foam data distribution explains reported results",
-      "disposition": "Point-cloud encoder, conditional generation, surrogate and physical compression testing",
-      "confidence": null
+      "disposition": "experiment",
+      "confidence": 0.89
     },
     {
       "assessmentId": "socratic:nightly-2026-10-17-5",
@@ -1397,14 +1397,14 @@
         }
       ],
       "dangerousAssumption": "An announced funding intention and modeled 290 MW may be mistaken for delivered results.",
-      "falsifier": "Final award or monitored capacity falls far short of the stated projections.",
+      "falsifier": "Actual funding or delivered grid capacity falls materially short",
       "missingEvidence": [
         "Independent implementation and procurement evidence",
         "Source-body content hash and full archival snapshot"
       ],
       "alternativeExplanation": "Existing utility monitoring already serves the reporting need",
-      "disposition": "Dynamic line rating and reconductoring on existing lines",
-      "confidence": null
+      "disposition": "watch",
+      "confidence": 0.91
     }
   ]
 }
