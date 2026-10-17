@@ -1,0 +1,42 @@
+{
+  "id": "obs:nightly-2026-10-17-4",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-17T23:41:53Z",
+  "claim": "A peer-reviewed October 16 paper reports inverse-designed disordered porous structures targeting full stress–strain response with physical tests.",
+  "verifiedFacts": [
+    "Researchers trained on 844 XCT-derived aluminium-foam subvolumes and report forward pointwise R²=0.9918.",
+    "Authors report finite-element checks and compression tests on additively manufactured structures across three aluminium-alloy systems."
+  ],
+  "inference": [
+    "Inference: Response-conditioned fabrication offers a measurable proof ladder from desired behavior to manufactured specimen.",
+    "Consultancy implication and client problem: Physical-design verification: clients need evidence a generated form achieves target behavior.",
+    "Project disposition and thesis: Omni-Loom INCUBATE deterministic fabrication; Shader Grammar REFERENCE-ONLY for physical validation; reinforces measured inverse design.",
+    "Actor roles: Researchers: Zhao et al.; participants: additive manufacturing labs; buyers unverified."
+  ],
+  "significance": "A peer-reviewed October 16 paper reports inverse-designed disordered porous structures targeting full stress–strain response with physical tests.",
+  "confidence": 0.97,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly-2026-10-17-nature-porous-inverse-design"
+  ],
+  "actorRefs": [
+    "Researchers: Zhao et al.",
+    "participants: additive manufacturing labs",
+    "buyers unverified."
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/omni-loom",
+    "qt314wink/shader-grammar"
+  ],
+  "assumptions": [
+    "Study-specific foam datasets may not generalize to new materials or fabrication scales."
+  ],
+  "knownLimitations": [
+    "Held-out material test fails to reproduce target mechanical response.",
+    "Source-body snapshot and independent commercial buyer evidence unavailable."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

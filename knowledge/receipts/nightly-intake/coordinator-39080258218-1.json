@@ -1,0 +1,59 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-10-17T23:46:08.151Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly:2026-10-17",
+      "bundlePath": "knowledge/intake/nightly/2026-10-17/nightly-run-bundle-2026-10-17.json",
+      "bundleSha256": "fce771d8abb6534acbd7ba4317a03e306c2240aa43cddfd6adc0c9ebe1a70ed3",
+      "normalizedDigest": "ee76ccd8bf37f250757c05295256d814077e4141a763750f871f4da6f001e7ad",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-nightly-2026-10-17-cloudflare-bot-accountability.json",
+        "knowledge/sources/source-nightly-2026-10-17-doe-epscor-36m.json",
+        "knowledge/sources/source-nightly-2026-10-17-nature-lifecycle-materials.json",
+        "knowledge/sources/source-nightly-2026-10-17-nature-porous-inverse-design.json",
+        "knowledge/sources/source-nightly-2026-10-17-doe-grid-50m.json",
+        "knowledge/observations/obs-nightly-2026-10-17-1.json",
+        "knowledge/observations/obs-nightly-2026-10-17-2.json",
+        "knowledge/observations/obs-nightly-2026-10-17-3.json",
+        "knowledge/observations/obs-nightly-2026-10-17-4.json",
+        "knowledge/observations/obs-nightly-2026-10-17-5.json",
+        "knowledge/relationships/rel-nightly-2026-10-17-1.json",
+        "knowledge/relationships/rel-nightly-2026-10-17-2.json",
+        "knowledge/relationships/rel-nightly-2026-10-17-3.json",
+        "knowledge/relationships/rel-nightly-2026-10-17-4.json",
+        "knowledge/relationships/rel-nightly-2026-10-17-5.json",
+        "knowledge/runs/run-nightly-2026-10-17.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-17-collect.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-17-vet.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-17-normalize.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-17-observe.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-17-inquire.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-17-interpret.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-17-relate.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-17-pattern.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-17-opportunity.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-17-strategy.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-17-experiment.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-17-genesis.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-17-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-17-1.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-17-2.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-17-3.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-17-4.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-17-5.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-10-17-ingest.json",
+      "generatedRecordCount": 34
+    }
+  ]
+}

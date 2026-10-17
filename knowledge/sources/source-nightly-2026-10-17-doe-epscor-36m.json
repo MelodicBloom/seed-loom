@@ -1,0 +1,15 @@
+{
+  "id": "source:nightly-2026-10-17-doe-epscor-36m",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.energy.gov/science/articles/energy-department-awards-36-million-strengthen-energy-research-across-21-states",
+  "publisher": "U.S. Department of Energy Office of Science",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-17T23:41:53Z",
+  "sourceClass": "official",
+  "independenceKey": "www.energy.gov",
+  "contentHash": null,
+  "title": "DOE selects 38 EPSCoR projects for potential $36 million",
+  "lead": "DOE announced October 16 that selected four-year projects cover materials, fusion, nuclear, battery and particle physics research.",
+  "analystNote": "Original source-body bytes not archived; publication date verified as October 16, 2026; exact publication timestamp unknown."
+}

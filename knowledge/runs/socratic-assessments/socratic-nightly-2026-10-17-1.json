@@ -1,0 +1,91 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-17-1",
+  "observationId": "obs:nightly-2026-10-17-1",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Cloudflare says it is already evaluating sustained bot behavior internally; its October 16 publication introduces explainable trust bands.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-17-cloudflare-bot-accountability"
+      ]
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "Public scores and customer-configurable thresholds are future plans, not established generally available features.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-17-cloudflare-bot-accountability"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Agent compliance assessment: clients need proof automated traffic respects site policies.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Existing WAF/rate limiting may solve most customer needs.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Bot operators and website owners",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Longitudinal robots.txt and HTTP 429 behavior tracking",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Behavioral trust bands could misattribute traffic or punish compliant agents.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent attribution tests yield excessive false positives.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "No independent buyer or deployment outcome and no source-body snapshot.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Vendor product differentiation without broad buyer adoption",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Behavioral trust bands could misattribute traffic or punish compliant agents.",
+  "falsifier": "Independent bot attribution tests fail to distinguish compliant traffic",
+  "missingEvidence": [
+    "Independent implementation and procurement evidence",
+    "Source-body content hash and full archival snapshot"
+  ],
+  "alternativeExplanation": "Vendor product differentiation without broad buyer adoption",
+  "disposition": "experiment",
+  "confidence": 0.89
+}

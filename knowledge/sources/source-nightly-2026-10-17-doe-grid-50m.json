@@ -1,0 +1,15 @@
+{
+  "id": "source:nightly-2026-10-17-doe-grid-50m",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.energy.gov/articles/energy-department-announces-virginia-and-west-virginia-transmission-project-receive",
+  "publisher": "U.S. Department of Energy",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-17T23:41:53Z",
+  "sourceClass": "official",
+  "independenceKey": "www.energy.gov",
+  "contentHash": null,
+  "title": "DOE proposes up to $50 million for grid-enhancing technologies",
+  "lead": "The proposed 48-month project uses reconductoring and dynamic line rating on existing corridors.",
+  "analystNote": "Original source-body bytes not archived; publication date verified as October 16, 2026; exact publication timestamp unknown."
+}

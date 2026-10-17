@@ -1,0 +1,41 @@
+{
+  "id": "obs:nightly-2026-10-17-3",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-17T23:41:53Z",
+  "claim": "A peer-reviewed October 16 Perspective proposes life-cycle-aware AI material discovery before material candidates are locked in.",
+  "verifiedFacts": [
+    "The Perspective argues that manufacturing scalability, environmental impacts, product use and end-of-life are often evaluated too late.",
+    "This is a conceptual Perspective, not an experimentally verified industrial sustainability improvement."
+  ],
+  "inference": [
+    "Inference: Fabrication optimization should include life-cycle uncertainty, not just physical or visual properties.",
+    "Consultancy implication and client problem: Life-cycle-aware material decision records: clients need early tradeoff visibility.",
+    "Project disposition and thesis: Shader Grammar CORE optical properties; Omni-Loom INCUBATE fabrication; extends sustainable material evaluation.",
+    "Actor roles: Researchers: Nature Sustainability authors; buyers: fabrication clients unverified."
+  ],
+  "significance": "A peer-reviewed October 16 Perspective proposes life-cycle-aware AI material discovery before material candidates are locked in.",
+  "confidence": 0.98,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly-2026-10-17-nature-lifecycle-materials"
+  ],
+  "actorRefs": [
+    "Researchers: Nature Sustainability authors",
+    "buyers: fabrication clients unverified."
+  ],
+  "affectedRepositories": [
+    "qt314wink/shader-grammar",
+    "MelodicBloom/omni-loom"
+  ],
+  "assumptions": [
+    "Environmental claims may be made without trustworthy life-cycle inventories."
+  ],
+  "knownLimitations": [
+    "Realistic cradle-to-grave LCA reverses the preferred material ranking.",
+    "Source-body snapshot and independent commercial buyer evidence unavailable."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

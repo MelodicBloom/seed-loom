@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-10-17-3",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-10-17-3",
+  "predicate": "REFINES",
+  "to": "qt314wink/shader-grammar",
+  "confidence": 0.86,
+  "evidenceRefs": [
+    "source:nightly-2026-10-17-nature-lifecycle-materials"
+  ]
+}

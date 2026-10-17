@@ -1,0 +1,15 @@
+{
+  "id": "source:nightly-2026-10-17-nature-lifecycle-materials",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.nature.com/articles/s41893-026-01950-4",
+  "publisher": "Nature Sustainability",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-17T23:41:53Z",
+  "sourceClass": "research",
+  "independenceKey": "www.nature.com",
+  "contentHash": null,
+  "title": "Artificial intelligence for life-cycle-aware sustainable materials discovery",
+  "lead": "The Perspective argues that manufacturing scalability, environmental impacts, product use and end-of-life are often evaluated too late.",
+  "analystNote": "Original source-body bytes not archived; publication date verified as October 16, 2026; exact publication timestamp unknown."
+}

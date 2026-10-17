@@ -1,0 +1,42 @@
+{
+  "id": "obs:nightly-2026-10-17-2",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-17T23:41:53Z",
+  "claim": "DOE selected 38 university–laboratory EPSCoR research projects in 21 states and Puerto Rico for $36 million subject to award negotiations.",
+  "verifiedFacts": [
+    "DOE announced October 16 that selected four-year projects cover materials, fusion, nuclear, battery and particle physics research.",
+    "DOE explicitly says selection is not an award commitment and negotiations can be rescinded."
+  ],
+  "inference": [
+    "Inference: University-lab partnerships may need traceable evidence and accessible scientific visualization.",
+    "Consultancy implication and client problem: Research evidence map: client need is cross-institution auditability, not another data silo.",
+    "Project disposition and thesis: CORE evidence spine; INCUBATE visualization; reinforces scientific evidence governance.",
+    "Actor roles: Funder: DOE; researchers: universities and national laboratories; buyers unverified."
+  ],
+  "significance": "DOE selected 38 university–laboratory EPSCoR research projects in 21 states and Puerto Rico for $36 million subject to award negotiations.",
+  "confidence": 0.99,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "funding",
+  "sourceRefs": [
+    "source:nightly-2026-10-17-doe-epscor-36m"
+  ],
+  "actorRefs": [
+    "Funder: DOE",
+    "researchers: universities and national laboratories",
+    "buyers unverified."
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "Funding selections may be mistaken for open contracts or disbursed awards."
+  ],
+  "knownLimitations": [
+    "Award negotiations fail or procurement terms exclude external contractors.",
+    "Source-body snapshot and independent commercial buyer evidence unavailable."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,91 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-17-3",
+  "observationId": "obs:nightly-2026-10-17-3",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "The Perspective argues that manufacturing scalability, environmental impacts, product use and end-of-life are often evaluated too late.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-17-nature-lifecycle-materials"
+      ]
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "This is a conceptual Perspective, not an experimentally verified industrial sustainability improvement.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-17-nature-lifecycle-materials"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Life-cycle-aware material decision records: clients need early tradeoff visibility.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Existing LCA frameworks already address many of these questions.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Material designers and fabricators",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Life-cycle constraints at AI material candidate selection",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Environmental claims may be made without trustworthy life-cycle inventories.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Realistic cradle-to-grave LCA reverses the preferred material ranking.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "No independent buyer or deployment outcome and no source-body snapshot.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Established LCA practice restated as AI roadmap",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Environmental claims may be made without trustworthy life-cycle inventories.",
+  "falsifier": "Measured full life-cycle data reverses the claimed sustainable choice",
+  "missingEvidence": [
+    "Independent implementation and procurement evidence",
+    "Source-body content hash and full archival snapshot"
+  ],
+  "alternativeExplanation": "Established LCA practice restated as AI roadmap",
+  "disposition": "strategy-candidate",
+  "confidence": 0.9
+}

@@ -1,0 +1,42 @@
+{
+  "id": "obs:nightly-2026-10-17-1",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-17T23:41:53Z",
+  "claim": "Cloudflare announced and internally deployed ongoing Verified Bot behavior assessment, evaluating robots.txt compliance and response to HTTP 429 rate limits.",
+  "verifiedFacts": [
+    "Cloudflare says it is already evaluating sustained bot behavior internally; its October 16 publication introduces explainable trust bands.",
+    "Public scores and customer-configurable thresholds are future plans, not established generally available features."
+  ],
+  "inference": [
+    "Inference: Bot identity must not be confused with continued authorized behavior.",
+    "Consultancy implication and client problem: Agent compliance assessment: clients need proof automated traffic respects site policies.",
+    "Project disposition and thesis: CORE knowledge provenance; CONSOLIDATE runtime controls; reinforces agent governance.",
+    "Actor roles: Provider: Cloudflare; participants: verified bot operators; buyers: website owners unverified."
+  ],
+  "significance": "Cloudflare announced and internally deployed ongoing Verified Bot behavior assessment, evaluating robots.txt compliance and response to HTTP 429 rate limits.",
+  "confidence": 0.97,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly-2026-10-17-cloudflare-bot-accountability"
+  ],
+  "actorRefs": [
+    "Provider: Cloudflare",
+    "participants: verified bot operators",
+    "buyers: website owners unverified."
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Behavioral trust bands could misattribute traffic or punish compliant agents."
+  ],
+  "knownLimitations": [
+    "Independent attribution tests yield excessive false positives.",
+    "Source-body snapshot and independent commercial buyer evidence unavailable."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

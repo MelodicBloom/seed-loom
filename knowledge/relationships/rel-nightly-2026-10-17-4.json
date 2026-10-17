@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-10-17-4",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-10-17-4",
+  "predicate": "MAY_ENABLE",
+  "to": "MelodicBloom/omni-loom",
+  "confidence": 0.85,
+  "evidenceRefs": [
+    "source:nightly-2026-10-17-nature-porous-inverse-design"
+  ]
+}

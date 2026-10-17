@@ -1,0 +1,42 @@
+{
+  "id": "obs:nightly-2026-10-17-5",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-17T23:41:53Z",
+  "claim": "DOE announced October 16 its intent to provide up to $50 million in DPA funding for a Virginia and West Virginia transmission upgrade.",
+  "verifiedFacts": [
+    "The proposed 48-month project uses reconductoring and dynamic line rating on existing corridors.",
+    "DOE estimates about 290 MW additional capacity and one-to-four-year acceleration; neither outcome is independently measured."
+  ],
+  "inference": [
+    "Inference: Civic intelligence must separate proposed investment, implementation and measured grid benefits.",
+    "Consultancy implication and client problem: Infrastructure evidence dashboard: clients need clear links between promises, sensors and outcomes.",
+    "Project disposition and thesis: Seed Loom CORE provenance; Project Constellation INCUBATE public evidence display; reinforces civic infrastructure governance.",
+    "Actor roles: Funder: DOE; builder: Virginia Energy; participants: Appalachian Power and Potomac Edison."
+  ],
+  "significance": "DOE announced October 16 its intent to provide up to $50 million in DPA funding for a Virginia and West Virginia transmission upgrade.",
+  "confidence": 0.99,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "funding",
+  "sourceRefs": [
+    "source:nightly-2026-10-17-doe-grid-50m"
+  ],
+  "actorRefs": [
+    "Funder: DOE",
+    "builder: Virginia Energy",
+    "participants: Appalachian Power and Potomac Edison."
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "An announced funding intention and modeled 290 MW may be mistaken for delivered results."
+  ],
+  "knownLimitations": [
+    "Final award or monitored capacity falls far short of the stated projections.",
+    "Source-body snapshot and independent commercial buyer evidence unavailable."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,40 @@
+{
+  "ackId": "ack:nightly-2026-10-17-normalize",
+  "runId": "run:nightly:2026-10-17",
+  "stage": "normalize",
+  "schemaVersion": "1.1.0",
+  "status": "passed",
+  "startedAt": "2026-10-17T23:41:53Z",
+  "completedAt": "2026-10-17T23:41:53Z",
+  "inputs": [
+    "live schema 1.1.0 and canonical normalizer"
+  ],
+  "outputs": [
+    "five schema-shaped observations"
+  ],
+  "checks": [
+    {
+      "name": "candidate-only source and schema preflight",
+      "result": "pass",
+      "detail": "Live schemas and ingestion workflow read; five primary-source candidates; execution validation delegated to canonical CI."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only; no acceptance, Genesis, experiment execution or publication.",
+      "Source URL hash is not a source-body hash.",
+      "All repository follow-up actions remain proposals."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly research automation",
+    "method": "Primary-source review, direct GitHub preflight and live-schema-guided assembly",
+    "inputHashes": [
+      "sha256:2f7054663951a68f474ee10613bf66b51cd055f6d6dc65ac9dd9d49b2e9d8768",
+      "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+      "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b"
+    ]
+  }
+}

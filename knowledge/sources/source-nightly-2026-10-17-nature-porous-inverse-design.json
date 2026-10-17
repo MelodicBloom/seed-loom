@@ -1,0 +1,15 @@
+{
+  "id": "source:nightly-2026-10-17-nature-porous-inverse-design",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.nature.com/articles/s41524-026-02367-5",
+  "publisher": "npj Computational Materials",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-17T23:41:53Z",
+  "sourceClass": "research",
+  "independenceKey": "www.nature.com",
+  "contentHash": null,
+  "title": "Response-function-conditioned inverse design enables disorder as a design dimension in porous materials",
+  "lead": "Researchers trained on 844 XCT-derived aluminium-foam subvolumes and report forward pointwise R²=0.9918.",
+  "analystNote": "Original source-body bytes not archived; publication date verified as October 16, 2026; exact publication timestamp unknown."
+}

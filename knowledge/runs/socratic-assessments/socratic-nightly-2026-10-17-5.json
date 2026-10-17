@@ -1,0 +1,91 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-17-5",
+  "observationId": "obs:nightly-2026-10-17-5",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "The proposed 48-month project uses reconductoring and dynamic line rating on existing corridors.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-17-doe-grid-50m"
+      ]
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "DOE estimates about 290 MW additional capacity and one-to-four-year acceleration; neither outcome is independently measured.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-17-doe-grid-50m"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Infrastructure evidence dashboard: clients need clear links between promises, sensors and outcomes.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Utilities may already possess sufficient telemetry and reporting.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Grid planners and ratepayers",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Dynamic line rating and reconductoring",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "An announced funding intention and modeled 290 MW may be mistaken for delivered results.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Final award or monitored capacity falls far short of the stated projections.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "No independent buyer or deployment outcome and no source-body snapshot.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Existing utility monitoring already serves the reporting need",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "An announced funding intention and modeled 290 MW may be mistaken for delivered results.",
+  "falsifier": "Actual funding or delivered grid capacity falls materially short",
+  "missingEvidence": [
+    "Independent implementation and procurement evidence",
+    "Source-body content hash and full archival snapshot"
+  ],
+  "alternativeExplanation": "Existing utility monitoring already serves the reporting need",
+  "disposition": "watch",
+  "confidence": 0.91
+}

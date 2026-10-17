@@ -1,0 +1,91 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-17-2",
+  "observationId": "obs:nightly-2026-10-17-2",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "DOE announced October 16 that selected four-year projects cover materials, fusion, nuclear, battery and particle physics research.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-17-doe-epscor-36m"
+      ]
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "DOE explicitly says selection is not an award commitment and negotiations can be rescinded.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-17-doe-epscor-36m"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Research evidence map: client need is cross-institution auditability, not another data silo.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Universities may use existing internal data systems.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Researchers and institutions",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "EPSCoR funding selection and university-lab partnerships",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Funding selections may be mistaken for open contracts or disbursed awards.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Award negotiations fail or procurement terms exclude external contractors.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "No independent buyer or deployment outcome and no source-body snapshot.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Institutions use existing scientific infrastructure",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Funding selections may be mistaken for open contracts or disbursed awards.",
+  "falsifier": "Award negotiations fail or external support is not permitted",
+  "missingEvidence": [
+    "Independent implementation and procurement evidence",
+    "Source-body content hash and full archival snapshot"
+  ],
+  "alternativeExplanation": "Institutions use existing scientific infrastructure",
+  "disposition": "watch",
+  "confidence": 0.91
+}

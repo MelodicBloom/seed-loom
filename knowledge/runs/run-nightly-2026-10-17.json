@@ -1,0 +1,85 @@
+{
+  "runId": "run:nightly:2026-10-17",
+  "type": "ResearchRun",
+  "schemaVersion": "1.1.0",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-15T23:41:53Z",
+    "to": "2026-10-17T23:41:53Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-10-17-1",
+    "obs:nightly-2026-10-17-2",
+    "obs:nightly-2026-10-17-3",
+    "obs:nightly-2026-10-17-4",
+    "obs:nightly-2026-10-17-5"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Verified agent identity is not equivalent to continued behavioral compliance.",
+    "Materials design needs manufacturability, life-cycle and physical-response proof, not visual plausibility alone.",
+    "Federal funding intentions and selections are not awards, procurement or measured delivery."
+  ],
+  "newRelationships": [
+    "rel:nightly-2026-10-17-1",
+    "rel:nightly-2026-10-17-2",
+    "rel:nightly-2026-10-17-3",
+    "rel:nightly-2026-10-17-4",
+    "rel:nightly-2026-10-17-5"
+  ],
+  "contradictions": [
+    "DOE EPSCoR selection is explicitly not a funding commitment.",
+    "DOE grid estimate is not a measured transmission-capacity increase.",
+    "Nature Sustainability article is a Perspective, not an industrial demonstration.",
+    "Cloudflare trust bands are being evaluated internally, not yet broadly customer available."
+  ],
+  "opportunities": [
+    "Agent web-access behavior audit with site preference and rate-limit evidence.",
+    "Life-cycle-aware fabrication proof and physical response verification.",
+    "Scientific and civic infrastructure evidence visualization separating commitments from outcomes."
+  ],
+  "proposedExperiments": [
+    "Proposed: simulated robots.txt/HTTP 429 compliance and attribution fixture, no external crawling or deployment.",
+    "Proposed: one Omni-Loom material response specimen with simulated and physical verification gates; no fabrication authorized."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/seed-loom",
+      "allowedPaths": [
+        "docs/strategy-genesis/",
+        "knowledge/intake/nightly/"
+      ],
+      "branchPolicy": "new bounded branch and draft PR, no schema edits",
+      "approvalGate": "Jennipher approval before any follow-up work"
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/omni-loom",
+      "allowedPaths": [
+        "docs/",
+        "tests/"
+      ],
+      "branchPolicy": "verify actual repository and paths, then bounded branch and draft PR",
+      "approvalGate": "Jennipher approves test specimen and fabrication scope"
+    }
+  ],
+  "noChangeReceipts": [
+    "October 15 Adobe/NVIDIA, CERN/Mistral, GitHub lockfiles, ByteDance alignment hiring and GitHub AI Scan excluded as prior signals.",
+    "October 16 ServiceNow AI Passport, Figma AI economics, GitHub license compliance, USDA Mi'kmaq agreement and NetApp accelerator excluded as prior signals.",
+    "Seed Loom main 750ad4c7bf24144fb2ccf76d3746e54d678fa404 is October 17 provenance collection; no strategy acceptance inferred.",
+    "No default-branch commits in 48 hours for Shader Grammar, Observation Ad Pipeline, MelodicBloom .github, Project Constellation and FLORÉ; latest FLORÉ main commit October 15 21:44Z.",
+    "Shader Grammar draft PRs #8/#9, Observation Ad Pipeline PRs #4/#8, and MelodicBloom governance PRs #14/#15 remain open.",
+    "No archive/kill disposition justified without asset extraction, opportunity-cost and revival evidence."
+  ],
+  "collectionFailures": [
+    "Original source-body snapshots and SHA-256 hashes unavailable; URL-manifest digest is not content integrity.",
+    "Private/unindexed LithoMemphis, Kozo Dreams, Omni-Loom, AETHER and WAN source/CI surfaces not comprehensively inspected.",
+    "No current consultancy paid pilots, signed contracts, open procurement or direct buyer interviews established.",
+    "Nature Sustainability full Perspective text not retrieved; abstract and publication metadata only.",
+    "DOE EPSCoR selected projects not yet awarded; grid funding intent and projected capacity not measured.",
+    "Issue #24 two-isolated-execution proof not yet performed for this bundle."
+  ]
+}

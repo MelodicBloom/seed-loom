@@ -1,0 +1,91 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-17-4",
+  "observationId": "obs:nightly-2026-10-17-4",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Researchers trained on 844 XCT-derived aluminium-foam subvolumes and report forward pointwise R²=0.9918.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-17-nature-porous-inverse-design"
+      ]
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "Authors report finite-element checks and compression tests on additively manufactured structures across three aluminium-alloy systems.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-17-nature-porous-inverse-design"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Physical-design verification: clients need evidence a generated form achieves target behavior.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Strong results may reflect narrow dataset distribution.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Materials engineers and fabricators",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Point-cloud encoder, conditional generation and physical compression testing",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Study-specific foam datasets may not generalize to new materials or fabrication scales.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Held-out material test fails to reproduce target mechanical response.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "No independent buyer or deployment outcome and no source-body snapshot.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Narrow foam data distribution explains reported results",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Study-specific foam datasets may not generalize to new materials or fabrication scales.",
+  "falsifier": "Held-out manufactured material misses the target response",
+  "missingEvidence": [
+    "Independent implementation and procurement evidence",
+    "Source-body content hash and full archival snapshot"
+  ],
+  "alternativeExplanation": "Narrow foam data distribution explains reported results",
+  "disposition": "experiment",
+  "confidence": 0.89
+}
