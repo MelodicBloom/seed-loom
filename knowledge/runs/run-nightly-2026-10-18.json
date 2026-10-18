@@ -1,0 +1,87 @@
+{
+  "runId": "run:nightly:2026-10-18",
+  "type": "ResearchRun",
+  "schemaVersion": "1.1.0",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-16T23:42:58Z",
+    "to": "2026-10-18T23:42:58Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-10-18-1",
+    "obs:nightly-2026-10-18-2",
+    "obs:nightly-2026-10-18-3",
+    "obs:nightly-2026-10-18-4",
+    "obs:nightly-2026-10-18-5"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Agent bargaining and public-benefit fund governance both demand explicit authority and verifiable commitments, but are distinct systems.",
+    "Provisional archaeology, clinical prototypes and lexical emotion proxies demonstrate the cost of promoting appealing claims before independent validation.",
+    "Consultancy should price evidence-backed bounded verification, not unmeasured generalized platforms."
+  ],
+  "newRelationships": [
+    "rel:nightly-2026-10-18-1",
+    "rel:nightly-2026-10-18-2",
+    "rel:nightly-2026-10-18-3",
+    "rel:nightly-2026-10-18-4",
+    "rel:nightly-2026-10-18-5"
+  ],
+  "contradictions": [
+    "Anthropic fund share commitment is subject to stockholder approval; no recipient payment established.",
+    "Kekova wreck chronology is provisional and not peer reviewed.",
+    "Clinical microfluidic research was published September 9; October 17 report is not a new experiment.",
+    "Michigan State lyrics findings were presented earlier in 2026; no observed artist behavior change this weekend."
+  ],
+  "opportunities": [
+    "Agent Negotiation Authority Audit",
+    "Public-benefit commitment-to-outcome evidence map",
+    "Creative semantic-to-perception validation and fabrication proof"
+  ],
+  "proposedExperiments": [
+    "PROPOSED ONLY: offline agent bargaining fixture with user-signed limits, forbidden concessions, refusal and immutable receipts.",
+    "PROPOSED ONLY: multimodal lyric/audio/perception comparison using licensed or synthetic clips; no execution."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/seed-loom",
+      "allowedPaths": [
+        "docs/strategy-genesis/",
+        "knowledge/intake/nightly/"
+      ],
+      "branchPolicy": "bounded branch and draft PR after read-only preflight",
+      "approvalGate": "Jennipher approval before any implementation"
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/observation-ad-pipeline",
+      "allowedPaths": [
+        "docs/",
+        "tests/"
+      ],
+      "branchPolicy": "verify existing paths, bounded branch and draft PR",
+      "approvalGate": "Jennipher approval before any implementation"
+    }
+  ],
+  "noChangeReceipts": [
+    "October 15 Adobe/NVIDIA, CERN/Mistral, GitHub lockfiles, ByteDance alignment, AI Scan excluded as previously observed.",
+    "October 16 ServiceNow AI Passport, Figma costs, GitHub license compliance, USDA Mi'kmaq funding, NetApp accelerator excluded.",
+    "October 17 Cloudflare bot accountability, DOE EPSCoR, life-cycle materials, porous inverse design, DOE grid funding excluded.",
+    "Seed Loom main 01f4fefdf607c938cd1158a0c251c567fdb7e405 is October 18 provenance collection, not accepted Strategy.",
+    "Observation Ad Pipeline PR #9 audio-reactive control lab remains open; no default-branch update since September 11.",
+    "Shader Grammar PRs #8/#9 and MelodicBloom governance PRs #14/#15 remain open; no archival decision supported."
+  ],
+  "collectionFailures": [
+    "Original source-body snapshots and SHA-256 unavailable; URL-manifest hash does not establish content integrity.",
+    "Financial Times agent-negotiation primary protocols, buyer records and independent tests unavailable.",
+    "Kekova archaeological peer-reviewed paper and independent absolute dating unavailable.",
+    "National Taiwan University diagnostic study originally published September 9; October 17 coverage must not be treated as research novelty.",
+    "Michigan State lyric findings appeared in an earlier 2026 conference abstract; October 17 coverage is not new study publication.",
+    "WAN repository connector search error; private LithoMemphis, Kozo Dreams and AETHER not comprehensively inspected.",
+    "No signed consultancy buyer contracts or independently measured client outcomes found.",
+    "Issue #24 isolated two-run proof not executed for this specific bundle."
+  ]
+}

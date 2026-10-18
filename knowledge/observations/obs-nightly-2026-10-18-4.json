@@ -1,0 +1,46 @@
+{
+  "id": "obs:nightly-2026-10-18-4",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-18T23:42:58Z",
+  "claim": "October 17 institutional reporting describes an electricity-free blood typing and hematocrit chip from research first published September 9.",
+  "verifiedFacts": [
+    "National Taiwan University reporting describes a hand-powered centrifuge and micro-slit chip for blood grouping and hematocrit.",
+    "The underlying Biosensors and Bioelectronics study was published September 9, 2026 and reports using 3 microliters of whole blood in total; October 17 was media coverage."
+  ],
+  "inference": [
+    "Inference: A bounded fabrication proof can link physical geometry, operating protocol, readout and measured reference agreement.",
+    "Consultancy/client problem: Field diagnostics depend on electricity, specialized equipment and trained operators.",
+    "Disposition: INCUBATE Omni-Loom; CORE Seed Loom",
+    "Thesis: reinforces design-to-physical-verification proof",
+    "Actor roles: researchers: National Taiwan University; publisher: Biosensors and Bioelectronics; potential users: field clinicians; buyer: unverified"
+  ],
+  "significance": "A bounded fabrication proof can link physical geometry, operating protocol, readout and measured reference agreement.",
+  "confidence": 0.87,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly-2026-10-18-hand-cranked-diagnostic",
+    "source:nightly-2026-10-18-diagnostic-paper"
+  ],
+  "actorRefs": [
+    "researchers: National Taiwan University",
+    "publisher: Biosensors and Bioelectronics",
+    "potential users: field clinicians",
+    "buyer: unverified"
+  ],
+  "affectedRepositories": [
+    "qt314wink/omni-loom",
+    "qt314wink/seed-loom"
+  ],
+  "assumptions": [
+    "Prototype accuracy and usability generalize to clinical settings."
+  ],
+  "knownLimitations": [
+    "Clinical validation, manufacturing tolerance, regulatory status",
+    "Counterargument: Promising prototype without viable field deployment",
+    "Original source-body bytes were not archived; dates are publication-day approximations, not precise timestamps."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

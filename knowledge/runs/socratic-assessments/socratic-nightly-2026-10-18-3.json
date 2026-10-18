@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-18-3",
+  "observationId": "obs:nightly-2026-10-18-3",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Archaeologist Karin Sowada's October 17 first-person account describes a wreck found in 2024 off Kekova and a provisional cargo-ceramic date of 2700–2400 BCE.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-18-kekova-wreck"
+      ]
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "Ship timbers are not visible; chemical residue work and a peer-reviewed paper are pending, so oldest-shipwreck status is provisional.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-18-kekova-wreck"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Museums must convey exciting but contested archaeological dates without asserting certainty.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Archaeologists, museums and audiences",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Conventional catalog and exhibit annotation",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Ceramic typology and contextual chronology",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Cargo ceramics date the wreck rather than mixed later deposition.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent dating or stratigraphy places it after the Dokos wreck.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Peer-reviewed methods, independent dating, residue analyses",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Preliminary typology may be revised",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Cargo ceramics date the wreck rather than mixed later deposition.",
+  "falsifier": "Independent dating or stratigraphy places it after the Dokos wreck.",
+  "missingEvidence": [
+    "Peer-reviewed methods, independent dating, residue analyses"
+  ],
+  "alternativeExplanation": "Preliminary typology may be revised",
+  "disposition": "watch",
+  "confidence": 0.78
+}

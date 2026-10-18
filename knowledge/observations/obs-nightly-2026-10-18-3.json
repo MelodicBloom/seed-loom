@@ -1,0 +1,44 @@
+{
+  "id": "obs:nightly-2026-10-18-3",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-18T23:42:58Z",
+  "claim": "A researcher-authored October 17 account provisionally dates the Kekova shipwreck to 2700–2400 BCE, with no peer-reviewed dating yet.",
+  "verifiedFacts": [
+    "Archaeologist Karin Sowada's October 17 first-person account describes a wreck found in 2024 off Kekova and a provisional cargo-ceramic date of 2700–2400 BCE.",
+    "Ship timbers are not visible; chemical residue work and a peer-reviewed paper are pending, so oldest-shipwreck status is provisional."
+  ],
+  "inference": [
+    "Inference: A public-history uncertainty visualization could show how evidence maturity constrains historical claims.",
+    "Consultancy/client problem: Museums must convey exciting but contested archaeological dates without asserting certainty.",
+    "Disposition: CORE Seed Loom; INCUBATE Constellation",
+    "Thesis: reinforces evidence maturity and uncertainty",
+    "Actor roles: researchers: Karin Sowada and Hakan Öniz; participants: local seafarers; buyer: unverified"
+  ],
+  "significance": "A public-history uncertainty visualization could show how evidence maturity constrains historical claims.",
+  "confidence": 0.78,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "historical",
+  "sourceRefs": [
+    "source:nightly-2026-10-18-kekova-wreck"
+  ],
+  "actorRefs": [
+    "researchers: Karin Sowada and Hakan Öniz",
+    "participants: local seafarers",
+    "buyer: unverified"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "Cargo ceramics date the wreck rather than mixed later deposition."
+  ],
+  "knownLimitations": [
+    "Peer-reviewed methods, independent dating, residue analyses",
+    "Counterargument: Preliminary typology may be revised",
+    "Original source-body bytes were not archived; dates are publication-day approximations, not precise timestamps."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

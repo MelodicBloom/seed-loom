@@ -1,0 +1,44 @@
+{
+  "id": "obs:nightly-2026-10-18-1",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-18T23:42:58Z",
+  "claim": "Anthropic announced a conditional 5% equity commitment to a new public-benefit fund, not a completed grant disbursement.",
+  "verifiedFacts": [
+    "Anthropic announced its Public Benefit Fund on October 18 with an initial 5% equity commitment subject to stockholder approval.",
+    "Anthropic says an additional 2% may be added at board discretion for each 50% valuation increase above a baseline; recipients and disbursements are not identified."
+  ],
+  "inference": [
+    "Inference: Commitment-to-outcome evidence mapping may become useful to public-benefit funders; this is not an open grant.",
+    "Consultancy/client problem: Funders and communities need traceable pledges, approvals, transfers and delivered outcomes.",
+    "Disposition: CORE Seed Loom; INCUBATE Constellation",
+    "Thesis: extends civic funding evidence boundaries",
+    "Actor roles: provider/funder: Anthropic; potential beneficiaries: nonprofits and communities; buyer: unverified"
+  ],
+  "significance": "Commitment-to-outcome evidence mapping may become useful to public-benefit funders; this is not an open grant.",
+  "confidence": 0.97,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "funding",
+  "sourceRefs": [
+    "source:nightly-2026-10-18-anthropic-fund"
+  ],
+  "actorRefs": [
+    "provider/funder: Anthropic",
+    "potential beneficiaries: nonprofits and communities",
+    "buyer: unverified"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "The announced shares may not transfer or yield meaningful distributions."
+  ],
+  "knownLimitations": [
+    "Shareholder vote, governance charter, disbursement ledger",
+    "Counterargument: IPO-era public-benefit positioning without new consultancy procurement",
+    "Original source-body bytes were not archived; dates are publication-day approximations, not precise timestamps."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

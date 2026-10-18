@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-18-anthropic-fund",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.anthropic.com/news/public-benefit-fund",
+  "publisher": "Anthropic",
+  "publishedAt": "2026-10-18T00:00:00Z",
+  "retrievedAt": "2026-10-18T23:42:58Z",
+  "sourceClass": "official",
+  "independenceKey": "www.anthropic.com",
+  "contentHash": null,
+  "title": "Investing in the public benefit",
+  "analystNote": "5% commitment subject to stockholder approval; no disbursement verified."
+}

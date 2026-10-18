@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-18-2",
+  "observationId": "obs:nightly-2026-10-18-2",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "The Financial Times reported on October 18 that Anthropic is working with legal experts on autonomous-agent negotiation.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-18-agent-negotiation"
+      ]
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "The report describes experiments involving real goods and possible user-signed authorization, but no production product, independent protocol or verified adoption.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-18-agent-negotiation"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "An agent may reach a technically advantageous deal beyond its principal's actual authority.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Users and counterparties",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Human-managed negotiation and fixed purchasing approvals",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "User-signed bargaining constraints and logged delegated offers",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Experimental agent behavior generalizes to live legally binding negotiations.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Adversarial trials demonstrate unauthorized offers despite signed constraints.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Primary protocols, signed mandates, independent adversarial tests",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Exploratory legal research rather than a product or buyer shift",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Experimental agent behavior generalizes to live legally binding negotiations.",
+  "falsifier": "Adversarial trials demonstrate unauthorized offers despite signed constraints.",
+  "missingEvidence": [
+    "Primary protocols, signed mandates, independent adversarial tests"
+  ],
+  "alternativeExplanation": "Exploratory legal research rather than a product or buyer shift",
+  "disposition": "experiment",
+  "confidence": 0.77
+}

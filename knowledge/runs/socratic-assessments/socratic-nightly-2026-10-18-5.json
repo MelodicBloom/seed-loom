@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-18-5",
+  "observationId": "obs:nightly-2026-10-18-5",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Michigan State University reports analyzing 38,467 songs by 230 artists spanning 1947–2024.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-18-lyrics-corpus"
+      ]
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "The report finds declines in selected positive-emotion and social-reference word categories; related findings had appeared in an earlier 2026 conference presentation.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-18-lyrics-corpus"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Creative tools may overstate how accurately language alone predicts audiovisual experience.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Creative studios, music researchers and audiences",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Human annotation and multimodal acoustic analysis",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Longitudinal lyric lexicon analysis",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Word-category frequency is a stable proxy for emotion across genres and decades.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Genre-controlled human-perception studies disagree with lexical trends.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Open corpus, genre-adjusted comparisons, listener ratings",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Changing language conventions rather than changing felt emotion",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Word-category frequency is a stable proxy for emotion across genres and decades.",
+  "falsifier": "Genre-controlled human-perception studies disagree with lexical trends.",
+  "missingEvidence": [
+    "Open corpus, genre-adjusted comparisons, listener ratings"
+  ],
+  "alternativeExplanation": "Changing language conventions rather than changing felt emotion",
+  "disposition": "experiment",
+  "confidence": 0.83
+}

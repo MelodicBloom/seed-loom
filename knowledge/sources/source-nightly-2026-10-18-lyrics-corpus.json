@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-18-lyrics-corpus",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://phys.org/news/2026-10/popular-song-lyrics-emotion-analysis.html",
+  "publisher": "Michigan State University via Phys.org",
+  "publishedAt": "2026-10-17T00:00:00Z",
+  "retrievedAt": "2026-10-18T23:42:58Z",
+  "sourceClass": "press",
+  "independenceKey": "phys.org",
+  "contentHash": null,
+  "title": "Popular song lyrics express less emotion over time",
+  "analystNote": "October 17 reporting; similar findings appeared in an earlier 2026 conference abstract."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-18-diagnostic-paper",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42748638/",
+  "publisher": "Biosensors and Bioelectronics / PubMed",
+  "publishedAt": "2026-09-09T00:00:00Z",
+  "retrievedAt": "2026-10-18T23:42:58Z",
+  "sourceClass": "research",
+  "independenceKey": "pubmed.ncbi.nlm.nih.gov",
+  "contentHash": null,
+  "title": "Hand-powered micro-slit-gated microfluidics for blood typing and hematocrit",
+  "analystNote": "Upstream study published September 9; not a fresh October 18 study."
+}

@@ -1,0 +1,45 @@
+{
+  "id": "obs:nightly-2026-10-18-2",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-18T23:42:58Z",
+  "claim": "Financial Times reported that Anthropic is exploring legal rules and experiments for AI agents negotiating deals for users.",
+  "verifiedFacts": [
+    "The Financial Times reported on October 18 that Anthropic is working with legal experts on autonomous-agent negotiation.",
+    "The report describes experiments involving real goods and possible user-signed authorization, but no production product, independent protocol or verified adoption."
+  ],
+  "inference": [
+    "Inference: Delegated bargaining requires consent, hard concession limits, stop conditions and accountable offers.",
+    "Consultancy/client problem: An agent may reach a technically advantageous deal beyond its principal's actual authority.",
+    "Disposition: CORE Seed Loom; CONSOLIDATE agent controls",
+    "Thesis: extends governed agents into representation and bargaining",
+    "Actor roles: researcher/builder: Anthropic; advisers: legal experts; potential users: consumers; buyer: unverified"
+  ],
+  "significance": "Delegated bargaining requires consent, hard concession limits, stop conditions and accountable offers.",
+  "confidence": 0.77,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly-2026-10-18-agent-negotiation"
+  ],
+  "actorRefs": [
+    "researcher/builder: Anthropic",
+    "advisers: legal experts",
+    "potential users: consumers",
+    "buyer: unverified"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/.github"
+  ],
+  "assumptions": [
+    "Experimental agent behavior generalizes to live legally binding negotiations."
+  ],
+  "knownLimitations": [
+    "Primary protocols, signed mandates, independent adversarial tests",
+    "Counterargument: Exploratory legal research rather than a product or buyer shift",
+    "Original source-body bytes were not archived; dates are publication-day approximations, not precise timestamps."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

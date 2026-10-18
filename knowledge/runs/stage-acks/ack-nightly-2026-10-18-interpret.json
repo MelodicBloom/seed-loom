@@ -1,0 +1,41 @@
+{
+  "ackId": "ack:nightly-2026-10-18-interpret",
+  "runId": "run:nightly:2026-10-18",
+  "stage": "interpret",
+  "schemaVersion": "1.1.0",
+  "status": "passed",
+  "startedAt": "2026-10-18T23:42:58Z",
+  "completedAt": "2026-10-18T23:42:58Z",
+  "inputs": [
+    "stage:inquire"
+  ],
+  "outputs": [
+    "candidate-only interpret records"
+  ],
+  "checks": [
+    {
+      "name": "candidate preflight",
+      "result": "pass",
+      "detail": "Source/claim boundaries checked; live schema inspected; canonical validation delegated to repository workflow."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only; no merge, accepted Strategy, experiment execution, Genesis or publication.",
+      "URL-manifest hash is not source-body hash; provenance gaps block downstream promotion.",
+      "Repository actions remain unexecuted proposals."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly consultancy intelligence",
+    "method": "Fresh web research, connected GitHub authority preflight, live-schema assembly, canonical workflow ingest bridge",
+    "inputHashes": [
+      "sha256:bd1b72fa8d34ac333fe7e7bb2fd5883825765546dac81a0394be0e3ae31aadab",
+      "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+      "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b",
+      "git-commit-sha1:01f4fefdf607c938cd1158a0c251c567fdb7e405"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-18-1",
+  "observationId": "obs:nightly-2026-10-18-1",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Anthropic announced its Public Benefit Fund on October 18 with an initial 5% equity commitment subject to stockholder approval.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-18-anthropic-fund"
+      ]
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "Anthropic says an additional 2% may be added at board discretion for each 50% valuation increase above a baseline; recipients and disbursements are not identified.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-18-anthropic-fund"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Funders and communities need traceable pledges, approvals, transfers and delivered outcomes.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Nonprofits and affected communities",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Conventional philanthropic reporting",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Conditional equity allocation and separate fund governance",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "The announced shares may not transfer or yield meaningful distributions.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Shareholder approval fails or no independently verifiable transfers occur.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Shareholder vote, governance charter, disbursement ledger",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "IPO-era public-benefit positioning without new consultancy procurement",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "The announced shares may not transfer or yield meaningful distributions.",
+  "falsifier": "Shareholder approval fails or no independently verifiable transfers occur.",
+  "missingEvidence": [
+    "Shareholder vote, governance charter, disbursement ledger"
+  ],
+  "alternativeExplanation": "IPO-era public-benefit positioning without new consultancy procurement",
+  "disposition": "watch",
+  "confidence": 0.97
+}

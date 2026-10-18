@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-18-hand-cranked-diagnostic",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://phys.org/news/2026-10/cranked-device-blood-red-cell.html",
+  "publisher": "National Taiwan University via Phys.org",
+  "publishedAt": "2026-10-17T00:00:00Z",
+  "retrievedAt": "2026-10-18T23:42:58Z",
+  "sourceClass": "press",
+  "independenceKey": "phys.org",
+  "contentHash": null,
+  "title": "Hand-cranked device tells blood type and red cell levels in 1 minute",
+  "analystNote": "October 17 media coverage of September 9 study."
+}

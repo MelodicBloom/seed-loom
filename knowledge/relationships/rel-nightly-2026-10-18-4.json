@@ -1,0 +1,13 @@
+{
+  "id": "rel:nightly-2026-10-18-4",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-10-18-4",
+  "predicate": "MAY_ENABLE",
+  "to": "qt314wink/omni-loom",
+  "confidence": 0.72,
+  "evidenceRefs": [
+    "source:nightly-2026-10-18-hand-cranked-diagnostic",
+    "source:nightly-2026-10-18-diagnostic-paper"
+  ]
+}

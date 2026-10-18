@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-18-4",
+  "observationId": "obs:nightly-2026-10-18-4",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "National Taiwan University reporting describes a hand-powered centrifuge and micro-slit chip for blood grouping and hematocrit.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-18-hand-cranked-diagnostic",
+        "source:nightly-2026-10-18-diagnostic-paper"
+      ]
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "The underlying Biosensors and Bioelectronics study was published September 9, 2026 and reports using 3 microliters of whole blood in total; October 17 was media coverage.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-18-hand-cranked-diagnostic",
+        "source:nightly-2026-10-18-diagnostic-paper"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Field diagnostics depend on electricity, specialized equipment and trained operators.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Resource-limited clinics and designers",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Standard lab centrifuges and established point-of-care devices",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Hand centrifugation and micro-slit agglutination readout",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Prototype accuracy and usability generalize to clinical settings.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Blinded clinical comparisons reveal unacceptable blood-type or hematocrit error.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Clinical validation, manufacturing tolerance, regulatory status",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Promising prototype without viable field deployment",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Prototype accuracy and usability generalize to clinical settings.",
+  "falsifier": "Blinded clinical comparisons reveal unacceptable blood-type or hematocrit error.",
+  "missingEvidence": [
+    "Clinical validation, manufacturing tolerance, regulatory status"
+  ],
+  "alternativeExplanation": "Promising prototype without viable field deployment",
+  "disposition": "watch",
+  "confidence": 0.87
+}

@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-18-kekova-wreck",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://phys.org/news/2026-10/world-oldest-shipwreck-coast-turkey.html",
+  "publisher": "Karin Sowada via The Conversation / Phys.org",
+  "publishedAt": "2026-10-17T00:00:00Z",
+  "retrievedAt": "2026-10-18T23:42:58Z",
+  "sourceClass": "press",
+  "independenceKey": "phys.org",
+  "contentHash": null,
+  "title": "World's oldest shipwreck discovered off coast of Turkey",
+  "analystNote": "Wreck located in 2024; provisional dating; not peer reviewed."
+}

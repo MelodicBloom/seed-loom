@@ -1,0 +1,44 @@
+{
+  "id": "obs:nightly-2026-10-18-5",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-18T23:42:58Z",
+  "claim": "Michigan State researchers reported October 17 that lexical emotional and social references declined across a 38,467-song corpus.",
+  "verifiedFacts": [
+    "Michigan State University reports analyzing 38,467 songs by 230 artists spanning 1947–2024.",
+    "The report finds declines in selected positive-emotion and social-reference word categories; related findings had appeared in an earlier 2026 conference presentation."
+  ],
+  "inference": [
+    "Inference: Lexical proxies cannot establish felt musical emotion; semantic-to-audiovisual compilers need human listening and acoustic evaluation.",
+    "Consultancy/client problem: Creative tools may overstate how accurately language alone predicts audiovisual experience.",
+    "Disposition: PRODUCTIZE Observation Ad Pipeline; CORE Seed Loom",
+    "Thesis: refines semantic creative-control evaluation",
+    "Actor roles: researchers: Michigan State University; analyzed subjects: 230 sampled artists; buyer: unverified"
+  ],
+  "significance": "Lexical proxies cannot establish felt musical emotion; semantic-to-audiovisual compilers need human listening and acoustic evaluation.",
+  "confidence": 0.83,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly-2026-10-18-lyrics-corpus"
+  ],
+  "actorRefs": [
+    "researchers: Michigan State University",
+    "analyzed subjects: 230 sampled artists",
+    "buyer: unverified"
+  ],
+  "affectedRepositories": [
+    "qt314wink/observation-ad-pipeline",
+    "qt314wink/seed-loom"
+  ],
+  "assumptions": [
+    "Word-category frequency is a stable proxy for emotion across genres and decades."
+  ],
+  "knownLimitations": [
+    "Open corpus, genre-adjusted comparisons, listener ratings",
+    "Counterargument: Changing language conventions rather than changing felt emotion",
+    "Original source-body bytes were not archived; dates are publication-day approximations, not precise timestamps."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}
