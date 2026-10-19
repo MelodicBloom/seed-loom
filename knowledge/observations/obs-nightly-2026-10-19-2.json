@@ -1,0 +1,44 @@
+{
+  "id": "obs:nightly-2026-10-19-2",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-19T23:52:01Z",
+  "claim": "MIT reports 3D crystal structure and language alignment for materials discovery.",
+  "verifiedFacts": [
+    "MIT reported October 18 a Nature Communications study aligning 3D atomic crystal structures with synthetic narrative descriptions.",
+    "Researchers reported better material retrieval than a text-only baseline, including candidate solid-state battery electrolytes."
+  ],
+  "inference": [
+    "Inference: A structure-aware natural-language material control layer may improve validation, but crystal results do not prove textile or optical fabrication.",
+    "Consultancy: Structure-Grounded Material Evidence Specimen; possible client problem: A structure-aware natural-language material control layer may improve validation, but crystal results do not prove textile or optical fabrication.",
+    "Actor behavior/roles: MIT researchers; material scientists prospective users; paying buyer unverified",
+    "Disposition: CORE Shader Grammar; INCUBATE Omni-Loom",
+    "Thesis: Extends semantic-to-physical parameter grounding."
+  ],
+  "significance": "Geometric material structure supplies constraints missing from text-only creative material selection.",
+  "confidence": 0.96,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly-2026-10-19-crystal-3d-language"
+  ],
+  "actorRefs": [
+    "MIT researchers",
+    "material scientists prospective users",
+    "paying buyer unverified"
+  ],
+  "affectedRepositories": [
+    "qt314wink/shader-grammar",
+    "qt314wink/omni-loom"
+  ],
+  "assumptions": [
+    "Crystal structure-language alignment transfers to specific fabricated or optical material domains."
+  ],
+  "knownLimitations": [
+    "No industrial deployment or cross-domain physical validation established.",
+    "Counterevidence: Structure-only models and expert material databases are established alternatives.",
+    "Original source-body bytes unavailable; URL citation is not an archived content digest."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

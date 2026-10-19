@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-19-5",
+  "observationId": "obs:nightly-2026-10-19-5",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Reuters reported October 19 that Modal plans to incorporate NVIDIA Vera CPUs alongside existing Intel and AMD processors for long-running AI agent workloads.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-19-modal-vera"
+      ]
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "Modal's early tests reportedly found roughly doubled task performance, while its CEO said Modal would retain a mixed-hardware strategy.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-19-modal-vera"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "A verified-outcome agent cost benchmark could expose hidden latency and reliability tradeoffs for infrastructure buyers.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Agent infrastructure teams",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing x86 fleets and runtime optimization",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "CPU-side sandbox execution, orchestration and concurrent tool scheduling",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Early hardware benchmarks generalize to production agent workloads.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Matched production tasks show no lower cost per accepted agent outcome.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Purchase volumes, benchmark harness, power costs and failure rates",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Selective hardware pilot rather than a broad infrastructure shift",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Early hardware benchmarks generalize to production agent workloads.",
+  "falsifier": "Matched production tasks show no lower cost per accepted agent outcome.",
+  "missingEvidence": [
+    "Purchase volumes, benchmark harness, power costs and failure rates"
+  ],
+  "alternativeExplanation": "Selective hardware pilot rather than a broad infrastructure shift",
+  "disposition": "experiment",
+  "confidence": 0.85
+}

@@ -1,0 +1,59 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-10-19T23:55:59.047Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly:2026-10-19",
+      "bundlePath": "knowledge/intake/nightly/2026-10-19/nightly-run-bundle-2026-10-19.json",
+      "bundleSha256": "015d7e43a766458c33e7567db7cf5909cf25967c0b873d38c731a90e05e3819e",
+      "normalizedDigest": "61d0b75b4f7d74587f001cd9769b9f37596c79ef5c38f7394bde772111915089",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-nightly-2026-10-19-media-agent-security.json",
+        "knowledge/sources/source-nightly-2026-10-19-crystal-3d-language.json",
+        "knowledge/sources/source-nightly-2026-10-19-fetal-mri-symmetry.json",
+        "knowledge/sources/source-nightly-2026-10-19-cornell-regenerative-studio.json",
+        "knowledge/sources/source-nightly-2026-10-19-modal-vera.json",
+        "knowledge/observations/obs-nightly-2026-10-19-1.json",
+        "knowledge/observations/obs-nightly-2026-10-19-2.json",
+        "knowledge/observations/obs-nightly-2026-10-19-3.json",
+        "knowledge/observations/obs-nightly-2026-10-19-4.json",
+        "knowledge/observations/obs-nightly-2026-10-19-5.json",
+        "knowledge/relationships/rel-nightly-2026-10-19-1.json",
+        "knowledge/relationships/rel-nightly-2026-10-19-2.json",
+        "knowledge/relationships/rel-nightly-2026-10-19-3.json",
+        "knowledge/relationships/rel-nightly-2026-10-19-4.json",
+        "knowledge/relationships/rel-nightly-2026-10-19-5.json",
+        "knowledge/runs/run-nightly-2026-10-19.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-19-collect.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-19-vet.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-19-normalize.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-19-observe.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-19-inquire.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-19-interpret.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-19-relate.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-19-pattern.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-19-opportunity.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-19-strategy.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-19-experiment.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-19-genesis.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-19-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-19-1.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-19-2.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-19-3.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-19-4.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-19-5.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-10-19-ingest.json",
+      "generatedRecordCount": 34
+    }
+  ]
+}

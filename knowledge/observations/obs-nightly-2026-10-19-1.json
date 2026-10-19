@@ -1,0 +1,46 @@
+{
+  "id": "obs:nightly-2026-10-19-1",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-19T23:52:01Z",
+  "claim": "NVIDIA EBU and Adobe extend sovereign media agents and video semantic search.",
+  "verifiedFacts": [
+    "NVIDIA announced on October 19 an expanded European Broadcasting Union sovereign standards collaboration involving cloud, open models and integration partners.",
+    "NVIDIA described Adobe Frame.io GPU-accelerated video search with UFA production use case; performance improvements of up to 5x are vendor reported."
+  ],
+  "inference": [
+    "Inference: Potential creative-production clients need searchable, authorized, provenance-rich footage and verifiable time-to-approved-shot.",
+    "Consultancy: Rights-aware Creative Retrieval Audit; possible client problem: Potential creative-production clients need searchable, authorized, provenance-rich footage and verifiable time-to-approved-shot.",
+    "Actor behavior/roles: supplier NVIDIA; standards collaborator EBU; builder Adobe; production participant UFA; buyer unverified",
+    "Disposition: PRODUCTIZE Observation Ad Pipeline; CORE Seed Loom",
+    "Thesis: Extends governed creative production; does not create a new media platform."
+  ],
+  "significance": "Rights-aware semantic media search may reduce editorial retrieval costs if permission status and approved outputs are measured.",
+  "confidence": 0.94,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "model-capability",
+  "sourceRefs": [
+    "source:nightly-2026-10-19-media-agent-security"
+  ],
+  "actorRefs": [
+    "supplier NVIDIA",
+    "standards collaborator EBU",
+    "builder Adobe",
+    "production participant UFA",
+    "buyer unverified"
+  ],
+  "affectedRepositories": [
+    "qt314wink/observation-ad-pipeline",
+    "qt314wink/seed-loom"
+  ],
+  "assumptions": [
+    "Reported throughput gains translate into real accepted edit savings."
+  ],
+  "knownLimitations": [
+    "No independent editorial benchmark, contract, rights audit or accepted edit outcomes.",
+    "Counterevidence: Traditional asset management and manual metadata logging may suffice.",
+    "Original source-body bytes unavailable; URL citation is not an archived content digest."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "obs:nightly-2026-10-19-5",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-19T23:52:01Z",
+  "claim": "Reuters reports Modal plans NVIDIA Vera CPU integration for agent workloads.",
+  "verifiedFacts": [
+    "Reuters reported October 19 that Modal plans to incorporate NVIDIA Vera CPUs alongside existing Intel and AMD processors for long-running AI agent workloads.",
+    "Modal's early tests reportedly found roughly doubled task performance, while its CEO said Modal would retain a mixed-hardware strategy."
+  ],
+  "inference": [
+    "Inference: A verified-outcome agent cost benchmark could expose hidden latency and reliability tradeoffs for infrastructure buyers.",
+    "Consultancy: Agent Cost-per-Verified-Task Audit; possible client problem: A verified-outcome agent cost benchmark could expose hidden latency and reliability tradeoffs for infrastructure buyers.",
+    "Actor behavior/roles: Modal builder/buyer; NVIDIA supplier; Intel and AMD incumbent suppliers; Reuters reporter",
+    "Disposition: CORE Seed Loom; INCUBATE agent cost benchmark",
+    "Thesis: Refines cost-per-verified-outcome thesis."
+  ],
+  "significance": "Agent economics include CPU-bound orchestration, tool execution and sandbox work, not merely inference tokens.",
+  "confidence": 0.85,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly-2026-10-19-modal-vera"
+  ],
+  "actorRefs": [
+    "Modal builder/buyer",
+    "NVIDIA supplier",
+    "Intel and AMD incumbent suppliers",
+    "Reuters reporter"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "qt314wink/observation-ad-pipeline"
+  ],
+  "assumptions": [
+    "Early hardware benchmarks generalize to production agent workloads."
+  ],
+  "knownLimitations": [
+    "Primary purchase order, deployment volume and independently reproduced benchmarks unavailable.",
+    "Counterevidence: Mixed hardware and scheduling optimizations may outperform any single CPU.",
+    "Original source-body bytes unavailable; URL citation is not an archived content digest."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-19-modal-vera",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.reuters.com/business/nvidia-wins-fast-growing-ai-startup-modal-new-central-processors-2026-10-19/",
+  "publisher": "Reuters",
+  "publishedAt": "2026-10-19T00:00:00Z",
+  "retrievedAt": "2026-10-19T23:52:01Z",
+  "sourceClass": "secondary",
+  "independenceKey": "www.reuters.com",
+  "contentHash": null,
+  "title": "Reuters reports Modal plans NVIDIA Vera CPU integration for agent workloads",
+  "analystNote": "Publication date is day-precision; full source body not archived, content hash unavailable."
+}

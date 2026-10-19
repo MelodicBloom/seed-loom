@@ -1,0 +1,45 @@
+{
+  "id": "obs:nightly-2026-10-19-4",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-19T23:52:01Z",
+  "claim": "Cornell begins Regenerative Studio fall events linking ecological gardens and art materials.",
+  "verifiedFacts": [
+    "Cornell lists Regenerative Studio fall programming starting October 18, supported by a Cornell Council for the Arts grant.",
+    "The initiative plans perennial gardens for natural dyes, papermaking fibers and craft materials with compost feedback; spring planting is future work."
+  ],
+  "inference": [
+    "Inference: A traceable fiber-to-art-to-compost ledger could make material and ecological claims reviewable; no paid engagement is established.",
+    "Consultancy: Regenerative Fiber Provenance Demonstration; possible client problem: A traceable fiber-to-art-to-compost ledger could make material and ecological claims reviewable; no paid engagement is established.",
+    "Actor behavior/roles: Cornell organizer; Cornell Council for the Arts funder; artists and students participants; buyer unverified",
+    "Disposition: INCUBATE Kozo Dreams; CORE Seed Loom",
+    "Thesis: Reinforces regenerative craft without merging creative identities."
+  ],
+  "significance": "Regenerative material sourcing and circular feedback can become a measurable creative practice.",
+  "confidence": 0.9,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "opportunity",
+  "sourceRefs": [
+    "source:nightly-2026-10-19-cornell-regenerative-studio"
+  ],
+  "actorRefs": [
+    "Cornell organizer",
+    "Cornell Council for the Arts funder",
+    "artists and students participants",
+    "buyer unverified"
+  ],
+  "affectedRepositories": [
+    "qt314wink/kozo-dreams",
+    "qt314wink/seed-loom"
+  ],
+  "assumptions": [
+    "Material flow and ecological outcomes can be measured over time."
+  ],
+  "knownLimitations": [
+    "Program/grant existed before this window; event participation is not procurement or environmental impact proof.",
+    "Counterevidence: Other community art gardens use comparable circular practices.",
+    "Original source-body bytes unavailable; URL citation is not an archived content digest."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

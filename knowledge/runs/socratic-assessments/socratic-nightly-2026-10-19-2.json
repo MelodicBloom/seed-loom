@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-19-2",
+  "observationId": "obs:nightly-2026-10-19-2",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "MIT reported October 18 a Nature Communications study aligning 3D atomic crystal structures with synthetic narrative descriptions.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-19-crystal-3d-language"
+      ]
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "Researchers reported better material retrieval than a text-only baseline, including candidate solid-state battery electrolytes.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-19-crystal-3d-language"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "A structure-aware natural-language material control layer may improve validation, but crystal results do not prove textile or optical fabrication.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Material researchers and fabrication engineers",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Graph-based materials prediction and curated databases",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Contrastive alignment of 3D crystal structures and synthetic descriptions",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Crystal structure-language alignment transfers to specific fabricated or optical material domains.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Held-out physical predictions do not outperform structure-only baselines.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent replication, leakage tests and fabricated material outcomes",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Improved retrieval without a reliable fabrication compiler",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Crystal structure-language alignment transfers to specific fabricated or optical material domains.",
+  "falsifier": "Held-out physical predictions do not outperform structure-only baselines.",
+  "missingEvidence": [
+    "Independent replication, leakage tests and fabricated material outcomes"
+  ],
+  "alternativeExplanation": "Improved retrieval without a reliable fabrication compiler",
+  "disposition": "experiment",
+  "confidence": 0.96
+}

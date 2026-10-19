@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-10-19-4",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-10-19-4",
+  "predicate": "MAY_ENABLE",
+  "to": "qt314wink/kozo-dreams",
+  "confidence": 0.78,
+  "evidenceRefs": [
+    "source:nightly-2026-10-19-cornell-regenerative-studio"
+  ]
+}

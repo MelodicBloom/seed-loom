@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-10-19-2",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-10-19-2",
+  "predicate": "MAY_ENABLE",
+  "to": "qt314wink/shader-grammar",
+  "confidence": 0.84,
+  "evidenceRefs": [
+    "source:nightly-2026-10-19-crystal-3d-language"
+  ]
+}

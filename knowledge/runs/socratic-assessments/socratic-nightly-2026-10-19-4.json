@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-19-4",
+  "observationId": "obs:nightly-2026-10-19-4",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Cornell lists Regenerative Studio fall programming starting October 18, supported by a Cornell Council for the Arts grant.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-19-cornell-regenerative-studio"
+      ]
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "The initiative plans perennial gardens for natural dyes, papermaking fibers and craft materials with compost feedback; spring planting is future work.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-19-cornell-regenerative-studio"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "A traceable fiber-to-art-to-compost ledger could make material and ecological claims reviewable; no paid engagement is established.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Artists, students and ecological stewards",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing campus gardens and conventional fiber procurement",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Perennial plant sourcing, natural dye/fiber production and compost feedback",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Material flow and ecological outcomes can be measured over time.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Measured waste, biodiversity or material provenance fails to improve.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Ecological baseline, mass balance and procurement terms",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Pedagogical community initiative without a scalable buyer",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Material flow and ecological outcomes can be measured over time.",
+  "falsifier": "Measured waste, biodiversity or material provenance fails to improve.",
+  "missingEvidence": [
+    "Ecological baseline, mass balance and procurement terms"
+  ],
+  "alternativeExplanation": "Pedagogical community initiative without a scalable buyer",
+  "disposition": "watch",
+  "confidence": 0.9
+}

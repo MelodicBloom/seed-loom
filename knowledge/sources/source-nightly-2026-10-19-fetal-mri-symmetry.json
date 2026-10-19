@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-19-fetal-mri-symmetry",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
+  "publisher": "MIT News",
+  "publishedAt": "2026-10-19T00:00:00Z",
+  "retrievedAt": "2026-10-19T23:52:01Z",
+  "sourceClass": "research",
+  "independenceKey": "news.mit.edu",
+  "contentHash": null,
+  "title": "MIT reports symmetry-aware E(3)-Pose for fetal MRI movement tracking",
+  "analystNote": "Publication date is day-precision; full source body not archived, content hash unavailable."
+}

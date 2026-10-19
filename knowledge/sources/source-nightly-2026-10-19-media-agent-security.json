@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-19-media-agent-security",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/",
+  "publisher": "NVIDIA",
+  "publishedAt": "2026-10-19T00:00:00Z",
+  "retrievedAt": "2026-10-19T23:52:01Z",
+  "sourceClass": "official",
+  "independenceKey": "blogs.nvidia.com",
+  "contentHash": null,
+  "title": "NVIDIA EBU and Adobe extend sovereign media agents and video semantic search",
+  "analystNote": "Publication date is day-precision; full source body not archived, content hash unavailable."
+}

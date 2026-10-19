@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-19-3",
+  "observationId": "obs:nightly-2026-10-19-3",
+  "questions": [
+    "What changed?",
+    "Whose inspectable behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "MIT, Boston Children's Hospital and Inria researchers reported E(3)-Pose on October 19; the work was presented at ECCV 2026.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-19-fetal-mri-symmetry"
+      ]
+    },
+    {
+      "question": "Whose inspectable behavior changed?",
+      "answer": "The method embeds geometric symmetry in fetal head pose estimation across MRI slices and was primarily trained on third-trimester scans.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-19-fetal-mri-symmetry"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Symmetry-aware pose constraints offer an engineering reference for motion tooling, not a clinical service claim.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Radiologists and expectant families",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Manual fetal MRI registration and existing reconstruction",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "E(3) equivariance and symmetry-aware head pose estimation",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "The geometric mechanism transfers to nonmedical motion without losing reliability.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Prospective study shows no image quality or workflow benefit.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent clinical outcomes and regulatory review",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Narrow imaging research result rather than deployable clinical system",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "The geometric mechanism transfers to nonmedical motion without losing reliability.",
+  "falsifier": "Prospective study shows no image quality or workflow benefit.",
+  "missingEvidence": [
+    "Independent clinical outcomes and regulatory review"
+  ],
+  "alternativeExplanation": "Narrow imaging research result rather than deployable clinical system",
+  "disposition": "watch",
+  "confidence": 0.94
+}

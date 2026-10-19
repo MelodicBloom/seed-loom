@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-19-cornell-regenerative-studio",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://events.cornell.edu/event/regenerative-studio-fall-2026-events",
+  "publisher": "Cornell University",
+  "publishedAt": "2026-10-18T00:00:00Z",
+  "retrievedAt": "2026-10-19T23:52:01Z",
+  "sourceClass": "official",
+  "independenceKey": "events.cornell.edu",
+  "contentHash": null,
+  "title": "Cornell begins Regenerative Studio fall events linking ecological gardens and art materials",
+  "analystNote": "Publication date is day-precision; full source body not archived, content hash unavailable."
+}

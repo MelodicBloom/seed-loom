@@ -1,0 +1,49 @@
+{
+  "ackId": "ack:nightly-2026-10-19-relate",
+  "runId": "run:nightly:2026-10-19",
+  "stage": "relate",
+  "schemaVersion": "1.1.0",
+  "status": "passed",
+  "startedAt": "2026-10-19T23:52:01Z",
+  "completedAt": "2026-10-19T23:52:01Z",
+  "inputs": [
+    "stage:interpret"
+  ],
+  "outputs": [
+    "rel:nightly-2026-10-19-1",
+    "rel:nightly-2026-10-19-2",
+    "rel:nightly-2026-10-19-3",
+    "rel:nightly-2026-10-19-4",
+    "rel:nightly-2026-10-19-5"
+  ],
+  "checks": [
+    {
+      "name": "candidate evidence boundary",
+      "result": "pass",
+      "detail": "Candidate evidence and source/actor boundaries recorded."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only; no acceptance, merge, deploy, spend, outreach or publication.",
+      "Missing archived source bodies block downstream promotion.",
+      "All repository actions are unexecuted proposals."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly consultancy intelligence",
+    "method": "Fresh web primary-source research; connected GitHub authority preflight; live-schema bundle; canonical Actions ingest bridge",
+    "inputHashes": [
+      "git-commit-sha1:3826a777ea0fefe8f60fe293a1ed8b352c767505",
+      "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+      "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b",
+      "source:nightly-2026-10-19-media-agent-security",
+      "source:nightly-2026-10-19-crystal-3d-language",
+      "source:nightly-2026-10-19-fetal-mri-symmetry",
+      "source:nightly-2026-10-19-cornell-regenerative-studio",
+      "source:nightly-2026-10-19-modal-vera"
+    ]
+  }
+}

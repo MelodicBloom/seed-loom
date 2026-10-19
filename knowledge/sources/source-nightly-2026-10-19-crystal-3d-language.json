@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-19-crystal-3d-language",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://news.mit.edu/index.php/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+  "publisher": "MIT News",
+  "publishedAt": "2026-10-18T00:00:00Z",
+  "retrievedAt": "2026-10-19T23:52:01Z",
+  "sourceClass": "research",
+  "independenceKey": "news.mit.edu",
+  "contentHash": null,
+  "title": "MIT reports 3D crystal structure and language alignment for materials discovery",
+  "analystNote": "Publication date is day-precision; full source body not archived, content hash unavailable."
+}

@@ -1,0 +1,44 @@
+{
+  "id": "obs:nightly-2026-10-19-3",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-19T23:52:01Z",
+  "claim": "MIT reports symmetry-aware E(3)-Pose for fetal MRI movement tracking.",
+  "verifiedFacts": [
+    "MIT, Boston Children's Hospital and Inria researchers reported E(3)-Pose on October 19; the work was presented at ECCV 2026.",
+    "The method embeds geometric symmetry in fetal head pose estimation across MRI slices and was primarily trained on third-trimester scans."
+  ],
+  "inference": [
+    "Inference: Symmetry-aware pose constraints offer an engineering reference for motion tooling, not a clinical service claim.",
+    "Consultancy: Symmetry-Preserving Motion QA Reference; possible client problem: Symmetry-aware pose constraints offer an engineering reference for motion tooling, not a clinical service claim.",
+    "Actor behavior/roles: MIT/Boston Children's/Inria researchers; recruited participants; clinical buyers unverified",
+    "Disposition: REFERENCE-ONLY medical model; CORE geometric validation",
+    "Thesis: Reinforces symmetry and deterministic temporal consistency."
+  ],
+  "significance": "Geometric invariants can stabilize motion reconstruction where unconstrained generation is unreliable.",
+  "confidence": 0.94,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly-2026-10-19-fetal-mri-symmetry"
+  ],
+  "actorRefs": [
+    "MIT/Boston Children's/Inria researchers",
+    "recruited participants",
+    "clinical buyers unverified"
+  ],
+  "affectedRepositories": [
+    "qt314wink/shader-grammar",
+    "qt314wink/observation-ad-pipeline"
+  ],
+  "assumptions": [
+    "The geometric mechanism transfers to nonmedical motion without losing reliability."
+  ],
+  "knownLimitations": [
+    "Prospective clinical validation, clearance and younger-fetus generalization unverified.",
+    "Counterevidence: Classical motion registration and manual reconstruction may already be adequate.",
+    "Original source-body bytes unavailable; URL citation is not an archived content digest."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}
