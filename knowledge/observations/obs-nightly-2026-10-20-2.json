@@ -1,0 +1,42 @@
+{
+  "id": "obs:nightly-2026-10-20-2",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-20T23:19:06Z",
+  "claim": "GitHub released a public-preview npm package firewall that intermediates CI and coding-agent downloads, exposing a concrete supply-chain control boundary.",
+  "verifiedFacts": [
+    "GitHub announced October 20 public preview of a package firewall for GitHub Enterprise Cloud customers.",
+    "The firewall intermediates package metadata and downloads, with cooldown, advisory checks and attestation-downgrade checks.",
+    "GitHub states the preview currently supports npm only and will be metered after the free preview."
+  ],
+  "inference": [
+    "Inference: controlled npm install is an actionable safeguard for autonomous build handoffs; no claim Seed Loom already uses this paid feature.",
+    "Actors: GitHub provider/builder; enterprise organizations eligible users; GitHub Actions runners and coding agents are protected endpoints.",
+    "Consultancy: Dependency Boundary Review for AI-built web systems; client problem is dependency-install risk in CI.",
+    "Disposition: qt314wink/seed-loom CORE; MelodicBloom/flore-orthography-memphis-ui PRODUCTIZE; reinforces dependency-provenance thesis."
+  ],
+  "significance": "New first-party supply-chain control gives a concrete benchmark for code-generation and npm build safety.",
+  "confidence": 0.97,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "provider-terms",
+  "sourceRefs": [
+    "source:nightly-2026-10-20-2"
+  ],
+  "actorRefs": [
+    "actor:github:provider",
+    "actor:enterprise-developers:eligible-participants"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/flore-orthography-memphis-ui"
+  ],
+  "assumptions": [
+    "Small teams can obtain comparable controls without Enterprise Cloud."
+  ],
+  "knownLimitations": [
+    "Enterprise Cloud entitlement required; preview supports npm only.",
+    "Preview effectiveness, false-positive rates and future pricing unknown."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

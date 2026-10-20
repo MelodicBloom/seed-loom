@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-20-2",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview/",
+  "publisher": "GitHub Changelog",
+  "publishedAt": "2026-10-20T00:00:00Z",
+  "retrievedAt": "2026-10-20T23:19:06Z",
+  "sourceClass": "official",
+  "independenceKey": "github.blog",
+  "contentHash": null,
+  "title": "GitHub launches npm package firewall public preview for Enterprise Cloud",
+  "analystNote": "Publication time day-precision; source text read online but raw archived body and content SHA-256 unavailable; source is not evidence of customer purchase."
+}

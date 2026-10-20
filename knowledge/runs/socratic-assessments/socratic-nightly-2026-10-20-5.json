@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-20-5",
+  "observationId": "obs:nightly-2026-10-20-5",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "MIT published October 20 profile of SanaHeal's biologically compatible adhesive that adheres to wet, irregular tissue.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-20-5"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "MIT publication and reported existing partner activity, not newly verified funding",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-20-5"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Attaching and sealing wet tissue is difficult and invasive",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Surgical teams and device manufacturers if validated",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Sutures, staples, conventional surgical adhesives",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Hydrogel-based adhesion to wet tissue, material testing, regulated partnering",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Medical technology success translates directly to creative fabrication",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent clinical data fails to support safety or efficacy of new indications",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Regulatory clearance documents, trials and partner contract terms",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Institutional profile highlights an established startup rather than a new commercial inflection",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Medical technology success translates directly to creative fabrication",
+  "falsifier": "Independent clinical data fails to support safety or efficacy of new indications",
+  "missingEvidence": [
+    "Regulatory clearance documents, trials and partner contract terms"
+  ],
+  "alternativeExplanation": "Institutional profile highlights an established startup rather than a new commercial inflection",
+  "disposition": "watch",
+  "confidence": 0.92
+}

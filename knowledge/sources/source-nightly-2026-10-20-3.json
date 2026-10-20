@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-20-3",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.ftc.gov/news-events/news/press-releases/2026/10/ftc-order-preserves-competition-digital-advertising-ecosystem-part-publiciss-acquisition-liveramp",
+  "publisher": "US Federal Trade Commission",
+  "publishedAt": "2026-10-19T00:00:00Z",
+  "retrievedAt": "2026-10-20T23:19:06Z",
+  "sourceClass": "regulatory",
+  "independenceKey": "ftc.gov",
+  "contentHash": null,
+  "title": "FTC proposes data-access firewalls and neutral access in Publicis–LiveRamp deal",
+  "analystNote": "Publication time day-precision; source text read online but raw archived body and content SHA-256 unavailable; source is not evidence of customer purchase."
+}

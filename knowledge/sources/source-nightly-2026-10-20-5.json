@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-20-5",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://news.mit.edu/2026/sanaheal-makes-surgical-stitching-more-like-applying-sticky-note-1020",
+  "publisher": "MIT News",
+  "publishedAt": "2026-10-20T00:00:00Z",
+  "retrievedAt": "2026-10-20T23:19:06Z",
+  "sourceClass": "research",
+  "independenceKey": "news.mit.edu",
+  "contentHash": null,
+  "title": "MIT profiles SanaHeal wet-tissue bioadhesive commercialization and device partnerships",
+  "analystNote": "Publication time day-precision; source text read online but raw archived body and content SHA-256 unavailable; source is not evidence of customer purchase."
+}

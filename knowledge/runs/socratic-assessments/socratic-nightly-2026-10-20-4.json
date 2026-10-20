@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-20-4",
+  "observationId": "obs:nightly-2026-10-20-4",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "NASA Earth Observatory published October 20 analysis of GRACE and GRACE-FO measurements from April 2002 to November 2025.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-20-4"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "NASA published research visualization; no documented new local adoption",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-20-4"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Stewards lack accessible interpretable evidence of human and climatic water impacts",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Researchers, planners and ecological stewards",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Groundwater monitoring networks and standard monthly GRACE products",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Satellite gravity changes infer water mass, spatial refinement and statistical attribution",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Correlation proves a specific land-management practice caused a change",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Ground validation shows inadequate local resolution for intended decisions",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Local calibration and prospective stewardship outcomes",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Climate variability and management changes may be confounded",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Correlation proves a specific land-management practice caused a change",
+  "falsifier": "Ground validation shows inadequate local resolution for intended decisions",
+  "missingEvidence": [
+    "Local calibration and prospective stewardship outcomes"
+  ],
+  "alternativeExplanation": "Climate variability and management changes may be confounded",
+  "disposition": "experiment",
+  "confidence": 0.95
+}

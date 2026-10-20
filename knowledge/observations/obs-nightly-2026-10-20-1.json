@@ -1,0 +1,42 @@
+{
+  "id": "obs:nightly-2026-10-20-1",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-20T23:19:06Z",
+  "claim": "Microsoft introduced dynamic risk-responsive agent controls and expanded agent identity discovery, strengthening the case for external enforcement around nondeterministic agents.",
+  "verifiedFacts": [
+    "Microsoft Security published October 19 expansion of Project Perception, Dynamic Permissions, Dynamic Agent Risk and Dynamic Conditional Access.",
+    "Microsoft says discovery covers 60 local-agent types, including Codex, Claude Code and GitHub Copilot; scope is vendor-described.",
+    "Microsoft describes agent-specific identities, time-bound least privilege, independent containment and graduated read/write restrictions."
+  ],
+  "inference": [
+    "Inference: Seed Loom's human-controlled stages and independent policy boundaries fit an emerging enterprise control requirement, but no integration with Microsoft is implied.",
+    "Actors: Microsoft is provider/builder; enterprise security teams are prospective buyers, not verified new purchasers; agents are controlled participants.",
+    "Consultancy: bounded Agent Authority and Evidence Audit; client problem is proving which agent could read, write, or approve at each moment.",
+    "Disposition: qt314wink/seed-loom CORE; MelodicBloom/.github CONSOLIDATE governance contracts; this reinforces, rather than replaces, existing governed-builder thesis."
+  ],
+  "significance": "First-party provider action makes identity-scoped, continuously reassessed authority a concrete competitive reference for governed agents.",
+  "confidence": 0.95,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "provider-terms",
+  "sourceRefs": [
+    "source:nightly-2026-10-20-1"
+  ],
+  "actorRefs": [
+    "actor:microsoft:provider",
+    "actor:enterprise-security:prospective-buyer"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/.github"
+  ],
+  "assumptions": [
+    "Enterprise buyers value verifiable independent control over informal prompt-only guardrails."
+  ],
+  "knownLimitations": [
+    "Feature announcement is vendor description, not an independent control efficacy study.",
+    "No customer procurement or incident-reduction measurements confirmed."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-20-2",
+  "observationId": "obs:nightly-2026-10-20-2",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "GitHub announced October 20 public preview of a package firewall for GitHub Enterprise Cloud customers.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-20-2"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "GitHub product public-preview release; no customer adoption verified",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-20-2"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Untrusted install-time package code can compromise build agents",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Enterprises with CI and agentic build workloads",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Lockfiles, npm audit, registry pinning, attestation and existing security proxies",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Policy-enforcing proxy between package registries and endpoints",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "A firewall makes all dependency execution safe",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "False positives or latency overwhelm blocked-malware benefit in controlled installation tests",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent detection and overhead benchmarks",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Existing lockfile and package-review practices may be sufficient for small repos",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "A firewall makes all dependency execution safe",
+  "falsifier": "False positives or latency overwhelm blocked-malware benefit in controlled installation tests",
+  "missingEvidence": [
+    "Independent detection and overhead benchmarks"
+  ],
+  "alternativeExplanation": "Existing lockfile and package-review practices may be sufficient for small repos",
+  "disposition": "watch",
+  "confidence": 0.97
+}

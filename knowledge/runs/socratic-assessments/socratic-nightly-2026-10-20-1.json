@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-20-1",
+  "observationId": "obs:nightly-2026-10-20-1",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Microsoft Security published October 19 expansion of Project Perception, Dynamic Permissions, Dynamic Agent Risk and Dynamic Conditional Access.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-20-1"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Provider publication and product expansion; no verified new buyer action",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-20-1"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Agents with broad inherited privileges can act beyond approved task scope",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Security teams and organizations deploying autonomous agents",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Static IAM, sandboxing and conventional policy gateways",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "First-class agent identity, least privilege, telemetry-driven risk scoring and external enforcement",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Announcement equals demonstrated effective protection",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent tests show no lower unsafe-action rate or accepted-task cost advantage over static controls",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent risk-control benchmarks and buyer willingness to pay",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "The release may chiefly expand existing enterprise security product packaging",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Announcement equals demonstrated effective protection",
+  "falsifier": "Independent tests show no lower unsafe-action rate or accepted-task cost advantage over static controls",
+  "missingEvidence": [
+    "Independent risk-control benchmarks and buyer willingness to pay"
+  ],
+  "alternativeExplanation": "The release may chiefly expand existing enterprise security product packaging",
+  "disposition": "strategy-candidate",
+  "confidence": 0.95
+}

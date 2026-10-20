@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-20-1",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+  "publisher": "Microsoft Security",
+  "publishedAt": "2026-10-19T00:00:00Z",
+  "retrievedAt": "2026-10-20T23:19:06Z",
+  "sourceClass": "official",
+  "independenceKey": "microsoft.com",
+  "contentHash": null,
+  "title": "Microsoft extends Project Perception to dynamic agent risk, permissions and conditional access",
+  "analystNote": "Publication time day-precision; source text read online but raw archived body and content SHA-256 unavailable; source is not evidence of customer purchase."
+}

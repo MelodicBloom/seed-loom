@@ -1,0 +1,44 @@
+{
+  "ackId": "ack:nightly-2026-10-20-publish",
+  "runId": "run:nightly:2026-10-20",
+  "stage": "publish",
+  "status": "deferred",
+  "startedAt": "2026-10-20T23:19:06Z",
+  "completedAt": "2026-10-20T23:19:06Z",
+  "inputs": [
+    "genesis candidate outputs"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "candidate-boundary",
+      "result": "pass",
+      "detail": "No accepted Strategy, Experiment execution, Genesis, publication, or unrelated repository mutation."
+    },
+    {
+      "name": "source-evidence-review",
+      "result": "not-applicable",
+      "detail": "Canonical workflow will validate schema after committed delivery; promotion prohibited."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "Candidate intake only; acceptance, strategy, execution, genesis and publication remain human-controlled.",
+      "Source content hashes unavailable; no downstream promotion permitted.",
+      "Repository actions are unexecuted proposals."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly consultancy sensing",
+    "method": "Deferred pending governed approval or canonical validation",
+    "inputHashes": [
+      "github-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+      "github-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b",
+      "github-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+      "github-blob-sha1:4a651b42c7c2a3d927e812e552ec413424287252"
+    ]
+  },
+  "schemaVersion": "1.1.0"
+}

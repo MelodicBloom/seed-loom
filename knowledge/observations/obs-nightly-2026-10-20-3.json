@@ -1,0 +1,43 @@
+{
+  "id": "obs:nightly-2026-10-20-3",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-20T23:19:06Z",
+  "claim": "The FTC issued a proposed consent framework for a $2.2 billion advertising-data acquisition, requiring neutral platform access, client-data firewalls and independent auditing.",
+  "verifiedFacts": [
+    "On October 19 the FTC announced a proposed consent order concerning Publicis's $2.2 billion acquisition of LiveRamp.",
+    "The proposal requires nondiscriminatory access to LiveRamp services, client-data firewalls and independent compliance audits.",
+    "FTC states the Commission voted 2–0 to accept the agreement for public comment; this is not a final order."
+  ],
+  "inference": [
+    "Inference: data lineage, tenant isolation and verifiable consent are commercially relevant for creative ad-automation systems.",
+    "Actors: FTC regulator; Publicis acquirer/buyer; LiveRamp supplier; rival agencies customers/participants; independent auditor proposed.",
+    "Consultancy: Rights-and-Data Boundary Audit for ad creative workflows; possible client problem is safe cross-client data reuse.",
+    "Disposition: qt314wink/observation-ad-pipeline PRODUCTIZE; qt314wink/seed-loom CORE evidence spine; extends rights-aware creative retrieval thesis."
+  ],
+  "significance": "Specific proposed regulatory controls establish inspectable constraints for cross-client data infrastructure.",
+  "confidence": 0.98,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "law-or-policy",
+  "sourceRefs": [
+    "source:nightly-2026-10-20-3"
+  ],
+  "actorRefs": [
+    "actor:ftc:regulator",
+    "actor:publicis:acquirer",
+    "actor:liveramp:data-supplier"
+  ],
+  "affectedRepositories": [
+    "qt314wink/observation-ad-pipeline",
+    "qt314wink/seed-loom"
+  ],
+  "assumptions": [
+    "Small agencies face analogous client-data separation concerns despite different regulatory duties."
+  ],
+  "knownLimitations": [
+    "Proposed consent is open for public comment, not yet final.",
+    "Order applies to named transaction; not a general mandate for all creative platforms."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

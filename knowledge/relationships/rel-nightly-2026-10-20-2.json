@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-10-20-2",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-10-20-2",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly-2026-10-20-2",
+  "confidence": 0.97,
+  "evidenceRefs": [
+    "source:nightly-2026-10-20-2"
+  ]
+}

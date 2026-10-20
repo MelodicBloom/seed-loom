@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-20-3",
+  "observationId": "obs:nightly-2026-10-20-3",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "On October 19 the FTC announced a proposed consent order concerning Publicis's $2.2 billion acquisition of LiveRamp.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-20-3"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Regulator voted to accept proposed consent for public comment; no final adjudication",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-20-3"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Data suppliers and acquirers can access rivals' confidential client information",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Competing agencies and advertisers needing neutral data connectivity",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Contractual separation, access control, independent data clean rooms",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Nondiscriminatory access, confidential-information firewalls, independent audits",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Treating proposed settlement as universally binding final policy",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Buyer interviews show no material client isolation concern in targeted consultancy segment",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Client data-handling contracts, technical control audits and procurement demand",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Transaction-specific antitrust remedy rather than broad market standard",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Treating proposed settlement as universally binding final policy",
+  "falsifier": "Buyer interviews show no material client isolation concern in targeted consultancy segment",
+  "missingEvidence": [
+    "Client data-handling contracts, technical control audits and procurement demand"
+  ],
+  "alternativeExplanation": "Transaction-specific antitrust remedy rather than broad market standard",
+  "disposition": "strategy-candidate",
+  "confidence": 0.98
+}

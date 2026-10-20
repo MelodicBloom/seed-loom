@@ -1,0 +1,43 @@
+{
+  "id": "obs:nightly-2026-10-20-4",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-20T23:19:06Z",
+  "claim": "NASA highlighted a satellite-gravimetry study identifying 40 regions where terrestrial water-storage trends were significantly associated with human activities.",
+  "verifiedFacts": [
+    "NASA Earth Observatory published October 20 analysis of GRACE and GRACE-FO measurements from April 2002 to November 2025.",
+    "Researchers identified 40 regions with strong associations between water-storage trends and activities including irrigation, reservoirs and land-use change.",
+    "NASA reports five- to tenfold greater spatial detail than earlier analyses at the cost of temporal resolution."
+  ],
+  "inference": [
+    "Inference: provenance-rich civic and ecological visualizations could expose uncertainty, spatial resolution and competing causal explanations instead of selling unqualified regenerative outcomes.",
+    "Actors: NASA researchers/data providers; water planners and land stewards are prospective users, not verified buyers.",
+    "Consultancy: Water Stewardship Evidence Map as a demonstration; client problem is interpreting regional changes without conflating association with causation.",
+    "Disposition: qt314wink/seed-loom CORE; MelodicBloom/project-constellation INCUBATE for visualization; Kozo Dreams REFERENCE-ONLY for ecological context; extends regenerative intelligence thesis."
+  ],
+  "significance": "A new high-resolution observational layer supports bounded civic/regenerative data visualization and measurement literacy.",
+  "confidence": 0.95,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly-2026-10-20-4"
+  ],
+  "actorRefs": [
+    "actor:nasa:researcher",
+    "actor:water-stewards:prospective-participant"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/project-constellation",
+    "qt314wink/kozo-dreams"
+  ],
+  "assumptions": [
+    "Open data can be appropriately downscaled to relevant client geography."
+  ],
+  "knownLimitations": [
+    "Associations are not direct causal proof.",
+    "Resolution gain sacrifices temporal detail; no client procurement evidence."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

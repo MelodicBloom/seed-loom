@@ -1,0 +1,101 @@
+{
+  "runId": "run:nightly:2026-10-20",
+  "type": "ResearchRun",
+  "schemaVersion": "1.1.0",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-18T23:19:06Z",
+    "to": "2026-10-20T23:19:06Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-10-20-1",
+    "obs:nightly-2026-10-20-2",
+    "obs:nightly-2026-10-20-3",
+    "obs:nightly-2026-10-20-4",
+    "obs:nightly-2026-10-20-5"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Independent agent authority, dependency isolation and advertising data firewalls are distinct forms of externalized trust boundaries.",
+    "Ecological measurement and biomedical commercialization both demand validation at the relevant physical and regulatory scale; do not merge project identities.",
+    "Commercial opportunity favors bounded audit/proof services before generalized platforms."
+  ],
+  "newRelationships": [
+    "rel:nightly-2026-10-20-1",
+    "rel:nightly-2026-10-20-2",
+    "rel:nightly-2026-10-20-3",
+    "rel:nightly-2026-10-20-4",
+    "rel:nightly-2026-10-20-5"
+  ],
+  "contradictions": [
+    "Microsoft feature announcements are not proof of control efficacy or customer adoption.",
+    "GitHub package firewall is Enterprise Cloud preview and npm-only, not available to all repositories.",
+    "FTC consent is proposed rather than a final rule.",
+    "NASA human-activity association is not causation.",
+    "SanaHeal clinical scope and commercial partner economics lack independent verification."
+  ],
+  "opportunities": [
+    "Agent Authority and Evidence Audit",
+    "AI Build Dependency Boundary Review",
+    "Creative Advertising Data Isolation Audit",
+    "Water Stewardship Evidence Map (research demonstration)",
+    "Material-to-Product Evidence Protocol (reference only)"
+  ],
+  "proposedExperiments": [
+    "PROPOSED ONLY: Seed Loom/agent-control threat-model fixture with least-privilege agent identity, time-bound write access, audit receipt and fail-closed untrusted-source tests; no execution.",
+    "PROPOSED ONLY: Observation Ad Pipeline cross-client data isolation fixture with synthetic clients, retrieval rights tags, audit log and denial-of-cross-tenant access; no execution."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/seed-loom",
+      "allowedPaths": [
+        "docs/strategy-genesis/",
+        "tests/"
+      ],
+      "branchPolicy": "inspect exact live paths; separate bounded branch and draft PR only after human approval",
+      "approvalGate": "Jennipher approval before implementation"
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/observation-ad-pipeline",
+      "allowedPaths": [
+        "docs/",
+        "tests/",
+        "integrations/audio-reactive/"
+      ],
+      "branchPolicy": "verify paths; bounded branch and draft PR, never main",
+      "approvalGate": "Jennipher approval before implementation"
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/.github",
+      "allowedPaths": [
+        "docs/",
+        "README.md"
+      ],
+      "branchPolicy": "reconcile existing draft #14/#15; avoid duplication; approval before changes",
+      "approvalGate": "Jennipher approval before implementation"
+    }
+  ],
+  "noChangeReceipts": [
+    "Excluded October 19 NVIDIA/Adobe media retrieval, MIT 3D crystal-language, MIT fetal MRI, Cornell Regenerative Studio and Modal Vera because already in 2026-10-19 candidate intake.",
+    "Seed Loom October 20 default HEAD is provenance[bot] collection commit 72e6228; not an accepted Strategy or Genesis advancement.",
+    "Observation Ad Pipeline PR #9 remains draft; Shader Grammar PRs #8/#9 and MelodicBloom governance #14/#15 remain draft.",
+    "Omni-Loom and Kozo Dreams require proof inventory before any archive or kill disposition.",
+    "USDA ARC $175m letters-of-interest window opened October 19, but only eligible rural electric cooperatives can apply; excluded as low-fit direct consultancy lead."
+  ],
+  "collectionFailures": [
+    "No raw immutable source-body snapshots or source-content SHA-256 hashes; canonical source.contentHash=null.",
+    "No direct client purchasing contracts or paid pilot evidence for proposed consultancy offers.",
+    "LithoMemphis canonical repo lookup qt314wink/lithomemphis returned 404; identity or privacy not inferred.",
+    "Private AETHER successor surfaces and all remote workflow failure logs not exhaustively inspected.",
+    "Microsoft dynamic control efficacy and GitHub firewall false-positive/latency benchmarks unverified.",
+    "FTC proposed consent order not yet final; SanaHeal primary regulatory clearance documentation uninspected.",
+    "NASA satellite data not locally calibrated to specific stewardship geography.",
+    "Issue #24 two-clean-execution proof not yet run for this bundle; requires separate workflow/proof invocation."
+  ]
+}

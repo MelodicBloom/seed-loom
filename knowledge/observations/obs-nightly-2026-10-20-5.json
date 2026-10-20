@@ -1,0 +1,43 @@
+{
+  "id": "obs:nightly-2026-10-20-5",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-20T23:19:06Z",
+  "claim": "MIT reported SanaHeal's wet-tissue bioadhesive development and partnership-led commercialization, offering a concrete materials-to-regulated-product pathway.",
+  "verifiedFacts": [
+    "MIT published October 20 profile of SanaHeal's biologically compatible adhesive that adheres to wet, irregular tissue.",
+    "MIT reports regulatory approval for trauma bleeding and planned 2027 human trials for additional surgical uses; jurisdictions and indications require separate verification.",
+    "MIT describes SanaHeal partnering with larger device companies for commercialization; company formed in 2021, so this is not a new founding or funding round."
+  ],
+  "inference": [
+    "Inference: wet adhesion, reversible process assumptions and multi-scale material proof are a useful methodological reference, not an invitation to make medical claims in creative product materials.",
+    "Actors: MIT research origin; SanaHeal builder/supplier; larger medical device firms development partners; surgeons potential users.",
+    "Consultancy: Materials Evidence and Translation Protocol reference, not a near-term biomedical service offer.",
+    "Disposition: qt314wink/omni-loom INCUBATE; qt314wink/shader-grammar REFERENCE-ONLY biomedical inspiration; reinforces research-to-manufacture evidence discipline."
+  ],
+  "significance": "The startup's bounded partnering strategy illustrates commercialization through domain-specific validation rather than premature broad-platform promises.",
+  "confidence": 0.92,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly-2026-10-20-5"
+  ],
+  "actorRefs": [
+    "actor:mit:researcher",
+    "actor:sanaheal:builder",
+    "actor:device-partners:participants"
+  ],
+  "affectedRepositories": [
+    "qt314wink/omni-loom",
+    "qt314wink/shader-grammar"
+  ],
+  "assumptions": [
+    "Transferable commercialization discipline is relevant despite biomedical domain mismatch."
+  ],
+  "knownLimitations": [
+    "No primary regulatory record inspected to confirm exact cleared indication.",
+    "Partnership identities, contract economics and trial results unavailable."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

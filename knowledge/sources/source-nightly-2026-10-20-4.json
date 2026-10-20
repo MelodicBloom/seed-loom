@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-10-20-4",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/",
+  "publisher": "NASA Earth Observatory",
+  "publishedAt": "2026-10-20T00:00:00Z",
+  "retrievedAt": "2026-10-20T23:19:06Z",
+  "sourceClass": "research",
+  "independenceKey": "science.nasa.gov",
+  "contentHash": null,
+  "title": "NASA maps human-linked changes in global water storage from GRACE satellites",
+  "analystNote": "Publication time day-precision; source text read online but raw archived body and content SHA-256 unavailable; source is not evidence of customer purchase."
+}
