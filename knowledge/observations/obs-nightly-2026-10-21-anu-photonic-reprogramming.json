@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-21-anu-photonic-reprogramming",
+  "type": "Observation",
+  "capturedAt": "2026-10-21T23:19:22Z",
+  "claim": "ANU reported laser-driven liquid-crystal reorientation to tune a photonic device after fabrication.",
+  "verifiedFacts": [
+    "ANU published its October 21 research story referring to work published in Science Advances.",
+    "The researchers describe laser-induced liquid-crystal rotation that changes photonic component behavior after fabrication."
+  ],
+  "inference": [
+    "A mechanism-based optical explainer could be valuable; a WebGL approximation must not claim physical equivalence.",
+    "Consultancy implication: Mechanism-to-Interactive Explainer; project disposition INCUBATE for qt314wink/shader-gallery."
+  ],
+  "significance": "Candidate client problem: Complex tunable photonics are difficult to communicate.",
+  "confidence": 0.89,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly-2026-10-21-anu-photonic-reprogramming"
+  ],
+  "actorRefs": [
+    "actor:anu"
+  ],
+  "affectedRepositories": [
+    "qt314wink/shader-gallery"
+  ],
+  "assumptions": [
+    "Visual interaction can faithfully communicate the causal mechanism."
+  ],
+  "knownLimitations": [
+    "Laboratory-scale result; commercial scalability and transfer curves not verified here."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

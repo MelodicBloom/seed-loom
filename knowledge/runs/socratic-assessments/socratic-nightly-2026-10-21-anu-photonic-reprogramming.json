@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-21-anu-photonic-reprogramming",
+  "observationId": "obs:nightly-2026-10-21-anu-photonic-reprogramming",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "ANU published its October 21 research story referring to work published in Science Advances.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-anu-photonic-reprogramming"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "The source actor Australian National University published a funding, deployment, or research announcement; independent downstream buyer behavior is unverified.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-anu-photonic-reprogramming"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Complex tunable photonics are difficult to communicate",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Potential clients purchasing Mechanism-to-Interactive Explainer and the team maintaining qt314wink/shader-gallery.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Static optics diagrams and research videos",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Laser-induced liquid-crystal orientation tunes an optical response",
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-anu-photonic-reprogramming"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Visual interaction can faithfully communicate the causal mechanism.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent physics review finds visual parameters contradict measured optical response.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Quantitative optical transfer curves, full methods, independent review.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Interesting physics may have no near-term paying client.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Visual interaction can faithfully communicate the causal mechanism.",
+  "falsifier": "Independent physics review finds visual parameters contradict measured optical response.",
+  "missingEvidence": [
+    "Quantitative optical transfer curves, full methods, independent review."
+  ],
+  "alternativeExplanation": "Interesting physics may have no near-term paying client.",
+  "disposition": "watch",
+  "confidence": 0.85
+}

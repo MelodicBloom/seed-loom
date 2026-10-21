@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-21-cloudflare-php2shell",
+  "type": "Observation",
+  "capturedAt": "2026-10-21T23:19:22Z",
+  "claim": "Cloudflare reported php2shell PHP vulnerability mitigations and a request-plus-response WAF detection capability.",
+  "verifiedFacts": [
+    "On October 21 Cloudflare described CVE-2026-109618 and CVE-2026-109619 in vulnerable PHP server scenarios.",
+    "Cloudflare says it deployed WAF protections and full-transaction detection combining request and response signals."
+  ],
+  "inference": [
+    "Response-aware runtime security is a transferable control principle; no evidence Seed Loom or FLORÉ is exposed to PHP.",
+    "Consultancy implication: Web Runtime Boundary Audit; project disposition CORE for qt314wink/seed-loom."
+  ],
+  "significance": "Candidate client problem: Request-only security checks can miss exploit effects.",
+  "confidence": 0.95,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly-2026-10-21-cloudflare-php2shell"
+  ],
+  "actorRefs": [
+    "actor:cloudflare"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom"
+  ],
+  "assumptions": [
+    "Client systems have relevant vulnerable PHP or response-inspection gaps."
+  ],
+  "knownLimitations": [
+    "No PHP dependency inventory for watched repositories; vendor efficacy not independently reproduced."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

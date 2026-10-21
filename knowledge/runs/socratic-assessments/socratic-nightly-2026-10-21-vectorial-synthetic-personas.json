@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-21-vectorial-synthetic-personas",
+  "observationId": "obs:nightly-2026-10-21-vectorial-synthetic-personas",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Vectorial announced $3M funding on October 20 with investors including Smilegate and SenseAI Ventures.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-vectorial-synthetic-personas"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "The source actor Vectorial via GlobeNewswire published a funding, deployment, or research announcement; independent downstream buyer behavior is unverified.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-vectorial-synthetic-personas"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Rapid creative testing without losing validity",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Potential clients purchasing Creative Variant Evidence Sprint and the team maintaining qt314wink/observation-ad-pipeline.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Human interviews, usability testing and A/B experiments",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Simulate modeled audience responses to digital experiences",
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-vectorial-synthetic-personas"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Synthetic rankings predict real customer responses.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Blind holdout user tests show no predictive agreement.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent demographic bias, holdout methodology, price and retention.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Funding may reflect hype rather than predictive performance.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Synthetic rankings predict real customer responses.",
+  "falsifier": "Blind holdout user tests show no predictive agreement.",
+  "missingEvidence": [
+    "Independent demographic bias, holdout methodology, price and retention."
+  ],
+  "alternativeExplanation": "Funding may reflect hype rather than predictive performance.",
+  "disposition": "watch",
+  "confidence": 0.85
+}

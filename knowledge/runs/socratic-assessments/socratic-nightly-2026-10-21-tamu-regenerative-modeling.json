@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-21-tamu-regenerative-modeling",
+  "observationId": "obs:nightly-2026-10-21-tamu-regenerative-modeling",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Texas A&M published the feature October 20 and identifies DNDC and APEX as complementary field and watershed models.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-tamu-regenerative-modeling"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "The source actor Texas A&M Texas Water Resources Institute published a funding, deployment, or research announcement; independent downstream buyer behavior is unverified.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-tamu-regenerative-modeling"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Clients lack transparent comparison of regenerative scenarios and measurements",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Potential clients purchasing Regenerative Scenario Evidence Map and the team maintaining qt314wink/seed-loom.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Agronomy advisors and existing DNDC/APEX workflows",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Field-calibrated biogeochemical and watershed models simulate long-term effects",
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-tamu-regenerative-modeling"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Clients have local calibration data and a decision requiring model comparison.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Out-of-sample field data materially disagree with model rankings.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Local field calibration, uncertainty intervals, farm demand and budget.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "A new institutional explainer summarizes existing models, not a new tool release.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Clients have local calibration data and a decision requiring model comparison.",
+  "falsifier": "Out-of-sample field data materially disagree with model rankings.",
+  "missingEvidence": [
+    "Local field calibration, uncertainty intervals, farm demand and budget."
+  ],
+  "alternativeExplanation": "A new institutional explainer summarizes existing models, not a new tool release.",
+  "disposition": "watch",
+  "confidence": 0.85
+}

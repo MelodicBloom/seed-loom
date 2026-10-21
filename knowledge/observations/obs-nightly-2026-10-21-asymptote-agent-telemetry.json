@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-21-asymptote-agent-telemetry",
+  "type": "Observation",
+  "capturedAt": "2026-10-21T23:19:22Z",
+  "claim": "Asymptote Labs announced a $5.5M seed round for its agent runtime infrastructure and open-source Beacon telemetry.",
+  "verifiedFacts": [
+    "Asymptote announced an oversubscribed $5.5M seed round led by Tower Research Ventures on October 20.",
+    "Beacon is described as an MIT-licensed telemetry layer normalizing more than 20 agent harnesses with OpenTelemetry-derived structure."
+  ],
+  "inference": [
+    "Cross-harness telemetry is an adjacent integration or competition surface for Seed Loom; telemetry alone does not validate evidence acceptance.",
+    "Consultancy implication: Agent Trace and Governance Readiness Audit; project disposition CORE for qt314wink/seed-loom."
+  ],
+  "significance": "Candidate client problem: Fragmented agent sessions and unobservable tool execution.",
+  "confidence": 0.87,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "funding",
+  "sourceRefs": [
+    "source:nightly-2026-10-21-asymptote-agent-telemetry"
+  ],
+  "actorRefs": [
+    "actor:asymptote"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom"
+  ],
+  "assumptions": [
+    "Clients will pay for cross-harness governance and reproducibility."
+  ],
+  "knownLimitations": [
+    "Company claims of adoption and usage are not independently verified."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

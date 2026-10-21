@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-21-collect",
+  "runId": "run:nightly:2026-10-21",
+  "stage": "collect",
+  "status": "passed",
+  "startedAt": "2026-10-21T23:19:22Z",
+  "completedAt": "2026-10-21T23:19:22Z",
+  "inputs": [
+    "source:nightly-2026-10-21-asymptote-agent-telemetry",
+    "source:nightly-2026-10-21-vectorial-synthetic-personas",
+    "source:nightly-2026-10-21-cloudflare-php2shell",
+    "source:nightly-2026-10-21-anu-photonic-reprogramming",
+    "source:nightly-2026-10-21-tamu-regenerative-modeling"
+  ],
+  "outputs": [
+    "collect-candidate-output"
+  ],
+  "checks": [
+    {
+      "name": "candidate-source-boundary",
+      "result": "pass",
+      "detail": "Live schemas inspected; source dates checked; canonical executable validation reserved for verified GitHub Actions bridge."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only; no acceptance.",
+      "Input hashes identify source URLs, not retrieved source bytes."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly consultancy intelligence",
+    "method": "source inspection, manual live-schema normalization and candidate interpretation",
+    "inputHashes": [
+      "url-sha256:67fc2a0ccf318864207adb8c94fcbb4f01e9d1545bee210bb4bf7eb74b65ceec",
+      "url-sha256:da98f6f479bf6c84ad606ea23a45a33be00e0bd028658b9f9c0feaac83ac4ce2",
+      "url-sha256:e3761e36fe6bed99e78dc4f77a605368c2158bab8fcaf10ebad0e3595e32d009",
+      "url-sha256:3895b64960322db24c486810369b09e4036572dbeb7760028979c839a898e1de",
+      "url-sha256:73c53e42837a7db16bdaa04628b8dbe8682e70566185bec5e468ac0d8c8df201"
+    ]
+  }
+}

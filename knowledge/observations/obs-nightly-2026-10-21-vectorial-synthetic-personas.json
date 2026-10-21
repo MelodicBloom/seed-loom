@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-21-vectorial-synthetic-personas",
+  "type": "Observation",
+  "capturedAt": "2026-10-21T23:19:22Z",
+  "claim": "Vectorial announced $3M seed funding for modeled-audience simulations of user journeys, campaigns and AI personas.",
+  "verifiedFacts": [
+    "Vectorial announced $3M funding on October 20 with investors including Smilegate and SenseAI Ventures.",
+    "Vectorial describes SAPIENS audience simulations for product, design, marketing and AI-agent evaluation."
+  ],
+  "inference": [
+    "Synthetic audience scores could triage creative variants, but must be calibrated against real people before any performance claim.",
+    "Consultancy implication: Creative Variant Evidence Sprint; project disposition PRODUCTIZE for qt314wink/observation-ad-pipeline."
+  ],
+  "significance": "Candidate client problem: Rapid creative testing without losing validity.",
+  "confidence": 0.87,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "funding",
+  "sourceRefs": [
+    "source:nightly-2026-10-21-vectorial-synthetic-personas"
+  ],
+  "actorRefs": [
+    "actor:vectorial"
+  ],
+  "affectedRepositories": [
+    "qt314wink/observation-ad-pipeline"
+  ],
+  "assumptions": [
+    "Synthetic rankings predict real customer responses."
+  ],
+  "knownLimitations": [
+    "The vendor's claimed accuracy and modeled-population counts are not independently audited."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

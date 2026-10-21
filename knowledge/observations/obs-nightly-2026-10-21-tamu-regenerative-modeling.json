@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-21-tamu-regenerative-modeling",
+  "type": "Observation",
+  "capturedAt": "2026-10-21T23:19:22Z",
+  "claim": "Texas A&M described DNDC/APEX field-calibrated regenerative agriculture modeling and site-specific simulated soil benefits.",
+  "verifiedFacts": [
+    "Texas A&M published the feature October 20 and identifies DNDC and APEX as complementary field and watershed models.",
+    "The report cites a 2025 simulation showing 40-59% modeled soil carbon increases under cover crops in a Texas setting, not a new field trial."
+  ],
+  "inference": [
+    "This supports evidence-linked ecological scenario advisory with explicit model-versus-observation boundaries.",
+    "Consultancy implication: Regenerative Scenario Evidence Map; project disposition CORE for qt314wink/seed-loom."
+  ],
+  "significance": "Candidate client problem: Clients lack transparent comparison of regenerative scenarios and measurements.",
+  "confidence": 0.89,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly-2026-10-21-tamu-regenerative-modeling"
+  ],
+  "actorRefs": [
+    "actor:tamu"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom"
+  ],
+  "assumptions": [
+    "Clients have local calibration data and a decision requiring model comparison."
+  ],
+  "knownLimitations": [
+    "Reported benefits are site-specific model outputs from prior work, not new measured universal outcomes."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

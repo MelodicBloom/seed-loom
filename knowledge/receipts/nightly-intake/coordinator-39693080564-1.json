@@ -1,0 +1,59 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-10-21T23:23:30.401Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly:2026-10-21",
+      "bundlePath": "knowledge/intake/nightly/2026-10-21/nightly-run-bundle-2026-10-21.json",
+      "bundleSha256": "40c44d75e303dda6a3d0b181951711ea0a8da07967c70e29b5ccfb7e7532d699",
+      "normalizedDigest": "a6b33b15204047eee36422f4411417a016e848b914c6796da73fb6ac54e0a739",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-nightly-2026-10-21-asymptote-agent-telemetry.json",
+        "knowledge/sources/source-nightly-2026-10-21-vectorial-synthetic-personas.json",
+        "knowledge/sources/source-nightly-2026-10-21-cloudflare-php2shell.json",
+        "knowledge/sources/source-nightly-2026-10-21-anu-photonic-reprogramming.json",
+        "knowledge/sources/source-nightly-2026-10-21-tamu-regenerative-modeling.json",
+        "knowledge/observations/obs-nightly-2026-10-21-asymptote-agent-telemetry.json",
+        "knowledge/observations/obs-nightly-2026-10-21-vectorial-synthetic-personas.json",
+        "knowledge/observations/obs-nightly-2026-10-21-cloudflare-php2shell.json",
+        "knowledge/observations/obs-nightly-2026-10-21-anu-photonic-reprogramming.json",
+        "knowledge/observations/obs-nightly-2026-10-21-tamu-regenerative-modeling.json",
+        "knowledge/relationships/rel-nightly-2026-10-21-asymptote-agent-telemetry-supported.json",
+        "knowledge/relationships/rel-nightly-2026-10-21-vectorial-synthetic-personas-supported.json",
+        "knowledge/relationships/rel-nightly-2026-10-21-cloudflare-php2shell-supported.json",
+        "knowledge/relationships/rel-nightly-2026-10-21-anu-photonic-reprogramming-supported.json",
+        "knowledge/relationships/rel-nightly-2026-10-21-tamu-regenerative-modeling-supported.json",
+        "knowledge/runs/run-nightly-2026-10-21.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-21-collect.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-21-vet.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-21-normalize.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-21-observe.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-21-inquire.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-21-interpret.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-21-relate.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-21-pattern.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-21-opportunity.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-21-strategy.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-21-experiment.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-21-genesis.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-21-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-21-asymptote-agent-telemetry.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-21-vectorial-synthetic-personas.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-21-cloudflare-php2shell.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-21-anu-photonic-reprogramming.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-21-tamu-regenerative-modeling.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-10-21-ingest.json",
+      "generatedRecordCount": 34
+    }
+  ]
+}

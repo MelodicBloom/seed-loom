@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-21-genesis",
+  "runId": "run:nightly:2026-10-21",
+  "stage": "genesis",
+  "status": "deferred",
+  "startedAt": "2026-10-21T23:19:22Z",
+  "completedAt": "2026-10-21T23:19:22Z",
+  "inputs": [
+    "experiment-candidate-output"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "approval-gate",
+      "result": "not-applicable",
+      "detail": "Human approval and further evidence required; no promotion."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "No accepted strategy, experiment execution, Genesis or publication.",
+      "Input hashes identify source URLs, not retrieved source bytes."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly consultancy intelligence",
+    "method": "deferred human-governed stage",
+    "inputHashes": [
+      "url-sha256:67fc2a0ccf318864207adb8c94fcbb4f01e9d1545bee210bb4bf7eb74b65ceec",
+      "url-sha256:da98f6f479bf6c84ad606ea23a45a33be00e0bd028658b9f9c0feaac83ac4ce2",
+      "url-sha256:e3761e36fe6bed99e78dc4f77a605368c2158bab8fcaf10ebad0e3595e32d009",
+      "url-sha256:3895b64960322db24c486810369b09e4036572dbeb7760028979c839a898e1de",
+      "url-sha256:73c53e42837a7db16bdaa04628b8dbe8682e70566185bec5e468ac0d8c8df201"
+    ]
+  }
+}

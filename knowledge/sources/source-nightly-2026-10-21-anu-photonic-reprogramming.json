@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-21-anu-photonic-reprogramming",
+  "type": "Source",
+  "url": "https://science.anu.edu.au/news-events/news/researchers-use-light-reprogram-photonic-device",
+  "publisher": "Australian National University",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-21T23:19:22Z",
+  "sourceClass": "research",
+  "independenceKey": "science.anu.edu.au",
+  "contentHash": null,
+  "title": "ANU reported laser-driven liquid-crystal reorientation to tune a photonic device after fabrication.",
+  "notes": "Publisher date 2026-10-21; timestamp not verified. Raw content hash unavailable; locator SHA-256 only."
+}

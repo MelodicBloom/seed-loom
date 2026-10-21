@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-21-cloudflare-php2shell",
+  "type": "Source",
+  "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection",
+  "publisher": "Cloudflare",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-21T23:19:22Z",
+  "sourceClass": "official",
+  "independenceKey": "blog.cloudflare.com",
+  "contentHash": null,
+  "title": "Cloudflare reported php2shell PHP vulnerability mitigations and a request-plus-response WAF detection capability.",
+  "notes": "Publisher date 2026-10-21; timestamp not verified. Raw content hash unavailable; locator SHA-256 only."
+}

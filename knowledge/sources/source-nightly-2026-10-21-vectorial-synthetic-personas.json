@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-21-vectorial-synthetic-personas",
+  "type": "Source",
+  "url": "https://www.globenewswire.com/news-release/2026/10/20/3384464/0/en/human-behavior-simulation-platform-vectorial-raises-3m-to-help-companies-launch-successful-products-the-first-time.html",
+  "publisher": "Vectorial via GlobeNewswire",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-21T23:19:22Z",
+  "sourceClass": "primary",
+  "independenceKey": "www.globenewswire.com",
+  "contentHash": null,
+  "title": "Vectorial announced $3M seed funding for modeled-audience simulations of user journeys, campaigns and AI personas.",
+  "notes": "Publisher date 2026-10-20; timestamp not verified. Raw content hash unavailable; locator SHA-256 only."
+}

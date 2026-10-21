@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-21-asymptote-agent-telemetry",
+  "type": "Source",
+  "url": "https://www.asymptotelabs.ai/blog/asymptote-labs-raises-5-5m-seed-round",
+  "publisher": "Asymptote Labs",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-21T23:19:22Z",
+  "sourceClass": "primary",
+  "independenceKey": "www.asymptotelabs.ai",
+  "contentHash": null,
+  "title": "Asymptote Labs announced a $5.5M seed round for its agent runtime infrastructure and open-source Beacon telemetry.",
+  "notes": "Publisher date 2026-10-20; timestamp not verified. Raw content hash unavailable; locator SHA-256 only."
+}

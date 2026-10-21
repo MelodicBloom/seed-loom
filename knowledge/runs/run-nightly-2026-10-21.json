@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly:2026-10-21",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-19T23:19:22Z",
+    "to": "2026-10-21T23:19:22Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-10-21-asymptote-agent-telemetry",
+    "obs:nightly-2026-10-21-vectorial-synthetic-personas",
+    "obs:nightly-2026-10-21-cloudflare-php2shell",
+    "obs:nightly-2026-10-21-anu-photonic-reprogramming",
+    "obs:nightly-2026-10-21-tamu-regenerative-modeling"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Measure before action: agent telemetry, synthetic personas and response-aware security all need observable outcomes.",
+    "Scientific simulation must be distinguished from empirical evidence in photonic and regenerative systems."
+  ],
+  "newRelationships": [
+    "rel:nightly-2026-10-21-asymptote-agent-telemetry-supported",
+    "rel:nightly-2026-10-21-vectorial-synthetic-personas-supported",
+    "rel:nightly-2026-10-21-cloudflare-php2shell-supported",
+    "rel:nightly-2026-10-21-anu-photonic-reprogramming-supported",
+    "rel:nightly-2026-10-21-tamu-regenerative-modeling-supported"
+  ],
+  "contradictions": [
+    "Synthetic persona accuracy is company-reported, not independent holdout validation.",
+    "Regenerative modeled gains do not establish universal field results."
+  ],
+  "opportunities": [
+    "Candidate: Agent Trace and Governance Readiness Audit",
+    "Candidate: Creative Variant Evidence Sprint",
+    "Candidate: Regenerative Scenario Evidence Map"
+  ],
+  "proposedExperiments": [
+    "Proposal only: cross-harness trace replay fixture.",
+    "Proposal only: synthetic-versus-human creative holdout."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/seed-loom",
+      "branch": "proposal/agent-telemetry-evaluation",
+      "allowedPaths": [
+        "docs/experiments/agent-telemetry-eval-2026-10-21.md",
+        "tests/knowledge/agent-trace-fixtures/**"
+      ],
+      "action": "Design trace replay and permission-boundary fixture; draft PR only after approval.",
+      "qa": "Two independent replays, source attribution, redaction, no Genesis promotion."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/observation-ad-pipeline",
+      "branch": "proposal/synthetic-persona-holdout",
+      "allowedPaths": [
+        "docs/experiments/synthetic-persona-holdout-2026-10-21.md"
+      ],
+      "action": "Specify blinded synthetic versus real-user creative ranking test.",
+      "qa": "Consent, sampling and agreement thresholds documented."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/shader-gallery",
+      "branch": "proposal/liquid-crystal-optics",
+      "allowedPaths": [
+        "docs/experiments/liquid-crystal-optics-2026-10-21.md"
+      ],
+      "action": "Specify physically bounded optical explainer, no shader physics equivalence claim.",
+      "qa": "WebGL2 lifecycle, accessibility and physical mechanism review."
+    }
+  ],
+  "noChangeReceipts": [
+    "GitHub package firewall was already observed in the October 20 nightly bundle; excluded.",
+    "October 19 observations were checked and not repeated.",
+    "Seed Loom main latest provenance collection commit is not a Genesis acceptance."
+  ],
+  "collectionFailures": [
+    "qt314wink/lithomemphis GitHub lookup returned 404; repository status unverified.",
+    "Historical dedup beyond the October 19 and 20 delivered bundles not exhaustive.",
+    "Raw source-page bytes and content hashes unavailable; contentHash is null.",
+    "Connected GitHub cannot execute Node directly; canonical dry-run and ingest depend on verified nightly-knowledge-ingest GitHub Actions bridge."
+  ]
+}

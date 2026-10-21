@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-21-tamu-regenerative-modeling",
+  "type": "Source",
+  "url": "https://twri.tamu.edu/blog/using-the-power-of-modeling-to-build-a-sustainable-future/",
+  "publisher": "Texas A&M Texas Water Resources Institute",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-21T23:19:22Z",
+  "sourceClass": "research",
+  "independenceKey": "twri.tamu.edu",
+  "contentHash": null,
+  "title": "Texas A&M described DNDC/APEX field-calibrated regenerative agriculture modeling and site-specific simulated soil benefits.",
+  "notes": "Publisher date 2026-10-20; timestamp not verified. Raw content hash unavailable; locator SHA-256 only."
+}

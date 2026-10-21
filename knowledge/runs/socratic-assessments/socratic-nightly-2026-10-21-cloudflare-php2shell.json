@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-21-cloudflare-php2shell",
+  "observationId": "obs:nightly-2026-10-21-cloudflare-php2shell",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "On October 21 Cloudflare described CVE-2026-109618 and CVE-2026-109619 in vulnerable PHP server scenarios.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-cloudflare-php2shell"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "The source actor Cloudflare published a funding, deployment, or research announcement; independent downstream buyer behavior is unverified.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-cloudflare-php2shell"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Request-only security checks can miss exploit effects",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Potential clients purchasing Web Runtime Boundary Audit and the team maintaining qt314wink/seed-loom.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Origin patches and existing WAF rules",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Correlate request and response evidence before output release",
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-cloudflare-php2shell"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Client systems have relevant vulnerable PHP or response-inspection gaps.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Inventory finds no PHP surface and no analogous response-side control issue.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Repository PHP inventory, patches, false-positive and exploit coverage.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "A specific PHP security incident need not imply a broader agent-control opportunity.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Client systems have relevant vulnerable PHP or response-inspection gaps.",
+  "falsifier": "Inventory finds no PHP surface and no analogous response-side control issue.",
+  "missingEvidence": [
+    "Repository PHP inventory, patches, false-positive and exploit coverage."
+  ],
+  "alternativeExplanation": "A specific PHP security incident need not imply a broader agent-control opportunity.",
+  "disposition": "watch",
+  "confidence": 0.85
+}
