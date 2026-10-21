@@ -1,0 +1,1511 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly:2026-10-21",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-10-19T23:19:22Z",
+      "to": "2026-10-21T23:19:22Z"
+    },
+    "newObservations": [
+      "obs:nightly-2026-10-21-asymptote-agent-telemetry",
+      "obs:nightly-2026-10-21-vectorial-synthetic-personas",
+      "obs:nightly-2026-10-21-cloudflare-php2shell",
+      "obs:nightly-2026-10-21-anu-photonic-reprogramming",
+      "obs:nightly-2026-10-21-tamu-regenerative-modeling"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [
+      "Measure before action: agent telemetry, synthetic personas and response-aware security all need observable outcomes.",
+      "Scientific simulation must be distinguished from empirical evidence in photonic and regenerative systems."
+    ],
+    "newRelationships": [
+      "rel:nightly-2026-10-21-asymptote-agent-telemetry-supported",
+      "rel:nightly-2026-10-21-vectorial-synthetic-personas-supported",
+      "rel:nightly-2026-10-21-cloudflare-php2shell-supported",
+      "rel:nightly-2026-10-21-anu-photonic-reprogramming-supported",
+      "rel:nightly-2026-10-21-tamu-regenerative-modeling-supported"
+    ],
+    "contradictions": [
+      "Synthetic persona accuracy is company-reported, not independent holdout validation.",
+      "Regenerative modeled gains do not establish universal field results."
+    ],
+    "opportunities": [
+      "Candidate: Agent Trace and Governance Readiness Audit",
+      "Candidate: Creative Variant Evidence Sprint",
+      "Candidate: Regenerative Scenario Evidence Map"
+    ],
+    "proposedExperiments": [
+      "Proposal only: cross-harness trace replay fixture.",
+      "Proposal only: synthetic-versus-human creative holdout."
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "qt314wink/seed-loom",
+        "branch": "proposal/agent-telemetry-evaluation",
+        "allowedPaths": [
+          "docs/experiments/agent-telemetry-eval-2026-10-21.md",
+          "tests/knowledge/agent-trace-fixtures/**"
+        ],
+        "action": "Design trace replay and permission-boundary fixture; draft PR only after approval.",
+        "qa": "Two independent replays, source attribution, redaction, no Genesis promotion."
+      },
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "qt314wink/observation-ad-pipeline",
+        "branch": "proposal/synthetic-persona-holdout",
+        "allowedPaths": [
+          "docs/experiments/synthetic-persona-holdout-2026-10-21.md"
+        ],
+        "action": "Specify blinded synthetic versus real-user creative ranking test.",
+        "qa": "Consent, sampling and agreement thresholds documented."
+      },
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "qt314wink/shader-gallery",
+        "branch": "proposal/liquid-crystal-optics",
+        "allowedPaths": [
+          "docs/experiments/liquid-crystal-optics-2026-10-21.md"
+        ],
+        "action": "Specify physically bounded optical explainer, no shader physics equivalence claim.",
+        "qa": "WebGL2 lifecycle, accessibility and physical mechanism review."
+      }
+    ],
+    "noChangeReceipts": [
+      "GitHub package firewall was already observed in the October 20 nightly bundle; excluded.",
+      "October 19 observations were checked and not repeated.",
+      "Seed Loom main latest provenance collection commit is not a Genesis acceptance."
+    ],
+    "collectionFailures": [
+      "qt314wink/lithomemphis GitHub lookup returned 404; repository status unverified.",
+      "Historical dedup beyond the October 19 and 20 delivered bundles not exhaustive.",
+      "Raw source-page bytes and content hashes unavailable; contentHash is null.",
+      "Connected GitHub cannot execute Node directly; canonical dry-run and ingest depend on verified nightly-knowledge-ingest GitHub Actions bridge."
+    ]
+  },
+  "sources": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-21-asymptote-agent-telemetry",
+      "type": "Source",
+      "url": "https://www.asymptotelabs.ai/blog/asymptote-labs-raises-5-5m-seed-round",
+      "publisher": "Asymptote Labs",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-21T23:19:22Z",
+      "sourceClass": "primary",
+      "independenceKey": "www.asymptotelabs.ai",
+      "contentHash": null,
+      "title": "Asymptote Labs announced a $5.5M seed round for its agent runtime infrastructure and open-source Beacon telemetry.",
+      "notes": "Publisher date 2026-10-20; timestamp not verified. Raw content hash unavailable; locator SHA-256 only."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-21-vectorial-synthetic-personas",
+      "type": "Source",
+      "url": "https://www.globenewswire.com/news-release/2026/10/20/3384464/0/en/human-behavior-simulation-platform-vectorial-raises-3m-to-help-companies-launch-successful-products-the-first-time.html",
+      "publisher": "Vectorial via GlobeNewswire",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-21T23:19:22Z",
+      "sourceClass": "primary",
+      "independenceKey": "www.globenewswire.com",
+      "contentHash": null,
+      "title": "Vectorial announced $3M seed funding for modeled-audience simulations of user journeys, campaigns and AI personas.",
+      "notes": "Publisher date 2026-10-20; timestamp not verified. Raw content hash unavailable; locator SHA-256 only."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-21-cloudflare-php2shell",
+      "type": "Source",
+      "url": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection",
+      "publisher": "Cloudflare",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-21T23:19:22Z",
+      "sourceClass": "official",
+      "independenceKey": "blog.cloudflare.com",
+      "contentHash": null,
+      "title": "Cloudflare reported php2shell PHP vulnerability mitigations and a request-plus-response WAF detection capability.",
+      "notes": "Publisher date 2026-10-21; timestamp not verified. Raw content hash unavailable; locator SHA-256 only."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-21-anu-photonic-reprogramming",
+      "type": "Source",
+      "url": "https://science.anu.edu.au/news-events/news/researchers-use-light-reprogram-photonic-device",
+      "publisher": "Australian National University",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-21T23:19:22Z",
+      "sourceClass": "research",
+      "independenceKey": "science.anu.edu.au",
+      "contentHash": null,
+      "title": "ANU reported laser-driven liquid-crystal reorientation to tune a photonic device after fabrication.",
+      "notes": "Publisher date 2026-10-21; timestamp not verified. Raw content hash unavailable; locator SHA-256 only."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-21-tamu-regenerative-modeling",
+      "type": "Source",
+      "url": "https://twri.tamu.edu/blog/using-the-power-of-modeling-to-build-a-sustainable-future/",
+      "publisher": "Texas A&M Texas Water Resources Institute",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-21T23:19:22Z",
+      "sourceClass": "research",
+      "independenceKey": "twri.tamu.edu",
+      "contentHash": null,
+      "title": "Texas A&M described DNDC/APEX field-calibrated regenerative agriculture modeling and site-specific simulated soil benefits.",
+      "notes": "Publisher date 2026-10-20; timestamp not verified. Raw content hash unavailable; locator SHA-256 only."
+    }
+  ],
+  "observations": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-21-asymptote-agent-telemetry",
+      "type": "Observation",
+      "capturedAt": "2026-10-21T23:19:22Z",
+      "claim": "Asymptote Labs announced a $5.5M seed round for its agent runtime infrastructure and open-source Beacon telemetry.",
+      "verifiedFacts": [
+        "Asymptote announced an oversubscribed $5.5M seed round led by Tower Research Ventures on October 20.",
+        "Beacon is described as an MIT-licensed telemetry layer normalizing more than 20 agent harnesses with OpenTelemetry-derived structure."
+      ],
+      "inference": [
+        "Cross-harness telemetry is an adjacent integration or competition surface for Seed Loom; telemetry alone does not validate evidence acceptance.",
+        "Consultancy implication: Agent Trace and Governance Readiness Audit; project disposition CORE for qt314wink/seed-loom."
+      ],
+      "significance": "Candidate client problem: Fragmented agent sessions and unobservable tool execution.",
+      "confidence": 0.87,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "funding",
+      "sourceRefs": [
+        "source:nightly-2026-10-21-asymptote-agent-telemetry"
+      ],
+      "actorRefs": [
+        "actor:asymptote"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom"
+      ],
+      "assumptions": [
+        "Clients will pay for cross-harness governance and reproducibility."
+      ],
+      "knownLimitations": [
+        "Company claims of adoption and usage are not independently verified."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-21-vectorial-synthetic-personas",
+      "type": "Observation",
+      "capturedAt": "2026-10-21T23:19:22Z",
+      "claim": "Vectorial announced $3M seed funding for modeled-audience simulations of user journeys, campaigns and AI personas.",
+      "verifiedFacts": [
+        "Vectorial announced $3M funding on October 20 with investors including Smilegate and SenseAI Ventures.",
+        "Vectorial describes SAPIENS audience simulations for product, design, marketing and AI-agent evaluation."
+      ],
+      "inference": [
+        "Synthetic audience scores could triage creative variants, but must be calibrated against real people before any performance claim.",
+        "Consultancy implication: Creative Variant Evidence Sprint; project disposition PRODUCTIZE for qt314wink/observation-ad-pipeline."
+      ],
+      "significance": "Candidate client problem: Rapid creative testing without losing validity.",
+      "confidence": 0.87,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "funding",
+      "sourceRefs": [
+        "source:nightly-2026-10-21-vectorial-synthetic-personas"
+      ],
+      "actorRefs": [
+        "actor:vectorial"
+      ],
+      "affectedRepositories": [
+        "qt314wink/observation-ad-pipeline"
+      ],
+      "assumptions": [
+        "Synthetic rankings predict real customer responses."
+      ],
+      "knownLimitations": [
+        "The vendor's claimed accuracy and modeled-population counts are not independently audited."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-21-cloudflare-php2shell",
+      "type": "Observation",
+      "capturedAt": "2026-10-21T23:19:22Z",
+      "claim": "Cloudflare reported php2shell PHP vulnerability mitigations and a request-plus-response WAF detection capability.",
+      "verifiedFacts": [
+        "On October 21 Cloudflare described CVE-2026-109618 and CVE-2026-109619 in vulnerable PHP server scenarios.",
+        "Cloudflare says it deployed WAF protections and full-transaction detection combining request and response signals."
+      ],
+      "inference": [
+        "Response-aware runtime security is a transferable control principle; no evidence Seed Loom or FLORÉ is exposed to PHP.",
+        "Consultancy implication: Web Runtime Boundary Audit; project disposition CORE for qt314wink/seed-loom."
+      ],
+      "significance": "Candidate client problem: Request-only security checks can miss exploit effects.",
+      "confidence": 0.95,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "default",
+      "sourceRefs": [
+        "source:nightly-2026-10-21-cloudflare-php2shell"
+      ],
+      "actorRefs": [
+        "actor:cloudflare"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom"
+      ],
+      "assumptions": [
+        "Client systems have relevant vulnerable PHP or response-inspection gaps."
+      ],
+      "knownLimitations": [
+        "No PHP dependency inventory for watched repositories; vendor efficacy not independently reproduced."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-21-anu-photonic-reprogramming",
+      "type": "Observation",
+      "capturedAt": "2026-10-21T23:19:22Z",
+      "claim": "ANU reported laser-driven liquid-crystal reorientation to tune a photonic device after fabrication.",
+      "verifiedFacts": [
+        "ANU published its October 21 research story referring to work published in Science Advances.",
+        "The researchers describe laser-induced liquid-crystal rotation that changes photonic component behavior after fabrication."
+      ],
+      "inference": [
+        "A mechanism-based optical explainer could be valuable; a WebGL approximation must not claim physical equivalence.",
+        "Consultancy implication: Mechanism-to-Interactive Explainer; project disposition INCUBATE for qt314wink/shader-gallery."
+      ],
+      "significance": "Candidate client problem: Complex tunable photonics are difficult to communicate.",
+      "confidence": 0.89,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "peer-reviewed-research",
+      "sourceRefs": [
+        "source:nightly-2026-10-21-anu-photonic-reprogramming"
+      ],
+      "actorRefs": [
+        "actor:anu"
+      ],
+      "affectedRepositories": [
+        "qt314wink/shader-gallery"
+      ],
+      "assumptions": [
+        "Visual interaction can faithfully communicate the causal mechanism."
+      ],
+      "knownLimitations": [
+        "Laboratory-scale result; commercial scalability and transfer curves not verified here."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-21-tamu-regenerative-modeling",
+      "type": "Observation",
+      "capturedAt": "2026-10-21T23:19:22Z",
+      "claim": "Texas A&M described DNDC/APEX field-calibrated regenerative agriculture modeling and site-specific simulated soil benefits.",
+      "verifiedFacts": [
+        "Texas A&M published the feature October 20 and identifies DNDC and APEX as complementary field and watershed models.",
+        "The report cites a 2025 simulation showing 40-59% modeled soil carbon increases under cover crops in a Texas setting, not a new field trial."
+      ],
+      "inference": [
+        "This supports evidence-linked ecological scenario advisory with explicit model-versus-observation boundaries.",
+        "Consultancy implication: Regenerative Scenario Evidence Map; project disposition CORE for qt314wink/seed-loom."
+      ],
+      "significance": "Candidate client problem: Clients lack transparent comparison of regenerative scenarios and measurements.",
+      "confidence": 0.89,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "peer-reviewed-research",
+      "sourceRefs": [
+        "source:nightly-2026-10-21-tamu-regenerative-modeling"
+      ],
+      "actorRefs": [
+        "actor:tamu"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom"
+      ],
+      "assumptions": [
+        "Clients have local calibration data and a decision requiring model comparison."
+      ],
+      "knownLimitations": [
+        "Reported benefits are site-specific model outputs from prior work, not new measured universal outcomes."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-21-asymptote-agent-telemetry-supported",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-21-asymptote-agent-telemetry",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-21-asymptote-agent-telemetry",
+      "confidence": 0.9,
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-asymptote-agent-telemetry"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-21-vectorial-synthetic-personas-supported",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-21-vectorial-synthetic-personas",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-21-vectorial-synthetic-personas",
+      "confidence": 0.9,
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-vectorial-synthetic-personas"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-21-cloudflare-php2shell-supported",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-21-cloudflare-php2shell",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-21-cloudflare-php2shell",
+      "confidence": 0.9,
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-cloudflare-php2shell"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-21-anu-photonic-reprogramming-supported",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-21-anu-photonic-reprogramming",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-21-anu-photonic-reprogramming",
+      "confidence": 0.9,
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-anu-photonic-reprogramming"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-21-tamu-regenerative-modeling-supported",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-21-tamu-regenerative-modeling",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-21-tamu-regenerative-modeling",
+      "confidence": 0.9,
+      "evidenceRefs": [
+        "source:nightly-2026-10-21-tamu-regenerative-modeling"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-21-collect",
+      "runId": "run:nightly:2026-10-21",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-10-21T23:19:22Z",
+      "completedAt": "2026-10-21T23:19:22Z",
+      "inputs": [
+        "source:nightly-2026-10-21-asymptote-agent-telemetry",
+        "source:nightly-2026-10-21-vectorial-synthetic-personas",
+        "source:nightly-2026-10-21-cloudflare-php2shell",
+        "source:nightly-2026-10-21-anu-photonic-reprogramming",
+        "source:nightly-2026-10-21-tamu-regenerative-modeling"
+      ],
+      "outputs": [
+        "collect-candidate-output"
+      ],
+      "checks": [
+        {
+          "name": "candidate-source-boundary",
+          "result": "pass",
+          "detail": "Live schemas inspected; source dates checked; canonical executable validation reserved for verified GitHub Actions bridge."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance.",
+          "Input hashes identify source URLs, not retrieved source bytes."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "source inspection, manual live-schema normalization and candidate interpretation",
+        "inputHashes": [
+          "url-sha256:67fc2a0ccf318864207adb8c94fcbb4f01e9d1545bee210bb4bf7eb74b65ceec",
+          "url-sha256:da98f6f479bf6c84ad606ea23a45a33be00e0bd028658b9f9c0feaac83ac4ce2",
+          "url-sha256:e3761e36fe6bed99e78dc4f77a605368c2158bab8fcaf10ebad0e3595e32d009",
+          "url-sha256:3895b64960322db24c486810369b09e4036572dbeb7760028979c839a898e1de",
+          "url-sha256:73c53e42837a7db16bdaa04628b8dbe8682e70566185bec5e468ac0d8c8df201"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-21-vet",
+      "runId": "run:nightly:2026-10-21",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-10-21T23:19:22Z",
+      "completedAt": "2026-10-21T23:19:22Z",
+      "inputs": [
+        "collect-candidate-output"
+      ],
+      "outputs": [
+        "vet-candidate-output"
+      ],
+      "checks": [
+        {
+          "name": "candidate-source-boundary",
+          "result": "pass",
+          "detail": "Live schemas inspected; source dates checked; canonical executable validation reserved for verified GitHub Actions bridge."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance.",
+          "Input hashes identify source URLs, not retrieved source bytes."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "source inspection, manual live-schema normalization and candidate interpretation",
+        "inputHashes": [
+          "url-sha256:67fc2a0ccf318864207adb8c94fcbb4f01e9d1545bee210bb4bf7eb74b65ceec",
+          "url-sha256:da98f6f479bf6c84ad606ea23a45a33be00e0bd028658b9f9c0feaac83ac4ce2",
+          "url-sha256:e3761e36fe6bed99e78dc4f77a605368c2158bab8fcaf10ebad0e3595e32d009",
+          "url-sha256:3895b64960322db24c486810369b09e4036572dbeb7760028979c839a898e1de",
+          "url-sha256:73c53e42837a7db16bdaa04628b8dbe8682e70566185bec5e468ac0d8c8df201"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-21-normalize",
+      "runId": "run:nightly:2026-10-21",
+      "stage": "normalize",
+      "status": "passed",
+      "startedAt": "2026-10-21T23:19:22Z",
+      "completedAt": "2026-10-21T23:19:22Z",
+      "inputs": [
+        "vet-candidate-output"
+      ],
+      "outputs": [
+        "normalize-candidate-output"
+      ],
+      "checks": [
+        {
+          "name": "candidate-source-boundary",
+          "result": "pass",
+          "detail": "Live schemas inspected; source dates checked; canonical executable validation reserved for verified GitHub Actions bridge."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance.",
+          "Input hashes identify source URLs, not retrieved source bytes."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "source inspection, manual live-schema normalization and candidate interpretation",
+        "inputHashes": [
+          "url-sha256:67fc2a0ccf318864207adb8c94fcbb4f01e9d1545bee210bb4bf7eb74b65ceec",
+          "url-sha256:da98f6f479bf6c84ad606ea23a45a33be00e0bd028658b9f9c0feaac83ac4ce2",
+          "url-sha256:e3761e36fe6bed99e78dc4f77a605368c2158bab8fcaf10ebad0e3595e32d009",
+          "url-sha256:3895b64960322db24c486810369b09e4036572dbeb7760028979c839a898e1de",
+          "url-sha256:73c53e42837a7db16bdaa04628b8dbe8682e70566185bec5e468ac0d8c8df201"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-21-observe",
+      "runId": "run:nightly:2026-10-21",
+      "stage": "observe",
+      "status": "passed",
+      "startedAt": "2026-10-21T23:19:22Z",
+      "completedAt": "2026-10-21T23:19:22Z",
+      "inputs": [
+        "normalize-candidate-output"
+      ],
+      "outputs": [
+        "observe-candidate-output"
+      ],
+      "checks": [
+        {
+          "name": "candidate-source-boundary",
+          "result": "pass",
+          "detail": "Live schemas inspected; source dates checked; canonical executable validation reserved for verified GitHub Actions bridge."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance.",
+          "Input hashes identify source URLs, not retrieved source bytes."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "source inspection, manual live-schema normalization and candidate interpretation",
+        "inputHashes": [
+          "url-sha256:67fc2a0ccf318864207adb8c94fcbb4f01e9d1545bee210bb4bf7eb74b65ceec",
+          "url-sha256:da98f6f479bf6c84ad606ea23a45a33be00e0bd028658b9f9c0feaac83ac4ce2",
+          "url-sha256:e3761e36fe6bed99e78dc4f77a605368c2158bab8fcaf10ebad0e3595e32d009",
+          "url-sha256:3895b64960322db24c486810369b09e4036572dbeb7760028979c839a898e1de",
+          "url-sha256:73c53e42837a7db16bdaa04628b8dbe8682e70566185bec5e468ac0d8c8df201"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-21-inquire",
+      "runId": "run:nightly:2026-10-21",
+      "stage": "inquire",
+      "status": "passed",
+      "startedAt": "2026-10-21T23:19:22Z",
+      "completedAt": "2026-10-21T23:19:22Z",
+      "inputs": [
+        "observe-candidate-output"
+      ],
+      "outputs": [
+        "inquire-candidate-output"
+      ],
+      "checks": [
+        {
+          "name": "candidate-source-boundary",
+          "result": "pass",
+          "detail": "Live schemas inspected; source dates checked; canonical executable validation reserved for verified GitHub Actions bridge."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance.",
+          "Input hashes identify source URLs, not retrieved source bytes."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "source inspection, manual live-schema normalization and candidate interpretation",
+        "inputHashes": [
+          "url-sha256:67fc2a0ccf318864207adb8c94fcbb4f01e9d1545bee210bb4bf7eb74b65ceec",
+          "url-sha256:da98f6f479bf6c84ad606ea23a45a33be00e0bd028658b9f9c0feaac83ac4ce2",
+          "url-sha256:e3761e36fe6bed99e78dc4f77a605368c2158bab8fcaf10ebad0e3595e32d009",
+          "url-sha256:3895b64960322db24c486810369b09e4036572dbeb7760028979c839a898e1de",
+          "url-sha256:73c53e42837a7db16bdaa04628b8dbe8682e70566185bec5e468ac0d8c8df201"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-21-interpret",
+      "runId": "run:nightly:2026-10-21",
+      "stage": "interpret",
+      "status": "passed",
+      "startedAt": "2026-10-21T23:19:22Z",
+      "completedAt": "2026-10-21T23:19:22Z",
+      "inputs": [
+        "inquire-candidate-output"
+      ],
+      "outputs": [
+        "interpret-candidate-output"
+      ],
+      "checks": [
+        {
+          "name": "candidate-source-boundary",
+          "result": "pass",
+          "detail": "Live schemas inspected; source dates checked; canonical executable validation reserved for verified GitHub Actions bridge."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance.",
+          "Input hashes identify source URLs, not retrieved source bytes."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "source inspection, manual live-schema normalization and candidate interpretation",
+        "inputHashes": [
+          "url-sha256:67fc2a0ccf318864207adb8c94fcbb4f01e9d1545bee210bb4bf7eb74b65ceec",
+          "url-sha256:da98f6f479bf6c84ad606ea23a45a33be00e0bd028658b9f9c0feaac83ac4ce2",
+          "url-sha256:e3761e36fe6bed99e78dc4f77a605368c2158bab8fcaf10ebad0e3595e32d009",
+          "url-sha256:3895b64960322db24c486810369b09e4036572dbeb7760028979c839a898e1de",
+          "url-sha256:73c53e42837a7db16bdaa04628b8dbe8682e70566185bec5e468ac0d8c8df201"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-21-relate",
+      "runId": "run:nightly:2026-10-21",
+      "stage": "relate",
+      "status": "passed",
+      "startedAt": "2026-10-21T23:19:22Z",
+      "completedAt": "2026-10-21T23:19:22Z",
+      "inputs": [
+        "interpret-candidate-output"
+      ],
+      "outputs": [
+        "relate-candidate-output"
+      ],
+      "checks": [
+        {
+          "name": "candidate-source-boundary",
+          "result": "pass",
+          "detail": "Live schemas inspected; source dates checked; canonical executable validation reserved for verified GitHub Actions bridge."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance.",
+          "Input hashes identify source URLs, not retrieved source bytes."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "source inspection, manual live-schema normalization and candidate interpretation",
+        "inputHashes": [
+          "url-sha256:67fc2a0ccf318864207adb8c94fcbb4f01e9d1545bee210bb4bf7eb74b65ceec",
+          "url-sha256:da98f6f479bf6c84ad606ea23a45a33be00e0bd028658b9f9c0feaac83ac4ce2",
+          "url-sha256:e3761e36fe6bed99e78dc4f77a605368c2158bab8fcaf10ebad0e3595e32d009",
+          "url-sha256:3895b64960322db24c486810369b09e4036572dbeb7760028979c839a898e1de",
+          "url-sha256:73c53e42837a7db16bdaa04628b8dbe8682e70566185bec5e468ac0d8c8df201"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-21-pattern",
+      "runId": "run:nightly:2026-10-21",
+      "stage": "pattern",
+      "status": "passed",
+      "startedAt": "2026-10-21T23:19:22Z",
+      "completedAt": "2026-10-21T23:19:22Z",
+      "inputs": [
+        "relate-candidate-output"
+      ],
+      "outputs": [
+        "pattern-candidate-output"
+      ],
+      "checks": [
+        {
+          "name": "candidate-source-boundary",
+          "result": "pass",
+          "detail": "Live schemas inspected; source dates checked; canonical executable validation reserved for verified GitHub Actions bridge."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance.",
+          "Input hashes identify source URLs, not retrieved source bytes."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "source inspection, manual live-schema normalization and candidate interpretation",
+        "inputHashes": [
+          "url-sha256:67fc2a0ccf318864207adb8c94fcbb4f01e9d1545bee210bb4bf7eb74b65ceec",
+          "url-sha256:da98f6f479bf6c84ad606ea23a45a33be00e0bd028658b9f9c0feaac83ac4ce2",
+          "url-sha256:e3761e36fe6bed99e78dc4f77a605368c2158bab8fcaf10ebad0e3595e32d009",
+          "url-sha256:3895b64960322db24c486810369b09e4036572dbeb7760028979c839a898e1de",
+          "url-sha256:73c53e42837a7db16bdaa04628b8dbe8682e70566185bec5e468ac0d8c8df201"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-21-opportunity",
+      "runId": "run:nightly:2026-10-21",
+      "stage": "opportunity",
+      "status": "passed",
+      "startedAt": "2026-10-21T23:19:22Z",
+      "completedAt": "2026-10-21T23:19:22Z",
+      "inputs": [
+        "pattern-candidate-output"
+      ],
+      "outputs": [
+        "opportunity-candidate-output"
+      ],
+      "checks": [
+        {
+          "name": "candidate-source-boundary",
+          "result": "pass",
+          "detail": "Live schemas inspected; source dates checked; canonical executable validation reserved for verified GitHub Actions bridge."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance.",
+          "Input hashes identify source URLs, not retrieved source bytes."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "source inspection, manual live-schema normalization and candidate interpretation",
+        "inputHashes": [
+          "url-sha256:67fc2a0ccf318864207adb8c94fcbb4f01e9d1545bee210bb4bf7eb74b65ceec",
+          "url-sha256:da98f6f479bf6c84ad606ea23a45a33be00e0bd028658b9f9c0feaac83ac4ce2",
+          "url-sha256:e3761e36fe6bed99e78dc4f77a605368c2158bab8fcaf10ebad0e3595e32d009",
+          "url-sha256:3895b64960322db24c486810369b09e4036572dbeb7760028979c839a898e1de",
+          "url-sha256:73c53e42837a7db16bdaa04628b8dbe8682e70566185bec5e468ac0d8c8df201"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-21-strategy",
+      "runId": "run:nightly:2026-10-21",
+      "stage": "strategy",
+      "status": "deferred",
+      "startedAt": "2026-10-21T23:19:22Z",
+      "completedAt": "2026-10-21T23:19:22Z",
+      "inputs": [
+        "opportunity-candidate-output"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "approval-gate",
+          "result": "not-applicable",
+          "detail": "Human approval and further evidence required; no promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No accepted strategy, experiment execution, Genesis or publication.",
+          "Input hashes identify source URLs, not retrieved source bytes."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "deferred human-governed stage",
+        "inputHashes": [
+          "url-sha256:67fc2a0ccf318864207adb8c94fcbb4f01e9d1545bee210bb4bf7eb74b65ceec",
+          "url-sha256:da98f6f479bf6c84ad606ea23a45a33be00e0bd028658b9f9c0feaac83ac4ce2",
+          "url-sha256:e3761e36fe6bed99e78dc4f77a605368c2158bab8fcaf10ebad0e3595e32d009",
+          "url-sha256:3895b64960322db24c486810369b09e4036572dbeb7760028979c839a898e1de",
+          "url-sha256:73c53e42837a7db16bdaa04628b8dbe8682e70566185bec5e468ac0d8c8df201"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-21-experiment",
+      "runId": "run:nightly:2026-10-21",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-10-21T23:19:22Z",
+      "completedAt": "2026-10-21T23:19:22Z",
+      "inputs": [
+        "strategy-candidate-output"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "approval-gate",
+          "result": "not-applicable",
+          "detail": "Human approval and further evidence required; no promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No accepted strategy, experiment execution, Genesis or publication.",
+          "Input hashes identify source URLs, not retrieved source bytes."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "deferred human-governed stage",
+        "inputHashes": [
+          "url-sha256:67fc2a0ccf318864207adb8c94fcbb4f01e9d1545bee210bb4bf7eb74b65ceec",
+          "url-sha256:da98f6f479bf6c84ad606ea23a45a33be00e0bd028658b9f9c0feaac83ac4ce2",
+          "url-sha256:e3761e36fe6bed99e78dc4f77a605368c2158bab8fcaf10ebad0e3595e32d009",
+          "url-sha256:3895b64960322db24c486810369b09e4036572dbeb7760028979c839a898e1de",
+          "url-sha256:73c53e42837a7db16bdaa04628b8dbe8682e70566185bec5e468ac0d8c8df201"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-21-genesis",
+      "runId": "run:nightly:2026-10-21",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-10-21T23:19:22Z",
+      "completedAt": "2026-10-21T23:19:22Z",
+      "inputs": [
+        "experiment-candidate-output"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "approval-gate",
+          "result": "not-applicable",
+          "detail": "Human approval and further evidence required; no promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No accepted strategy, experiment execution, Genesis or publication.",
+          "Input hashes identify source URLs, not retrieved source bytes."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "deferred human-governed stage",
+        "inputHashes": [
+          "url-sha256:67fc2a0ccf318864207adb8c94fcbb4f01e9d1545bee210bb4bf7eb74b65ceec",
+          "url-sha256:da98f6f479bf6c84ad606ea23a45a33be00e0bd028658b9f9c0feaac83ac4ce2",
+          "url-sha256:e3761e36fe6bed99e78dc4f77a605368c2158bab8fcaf10ebad0e3595e32d009",
+          "url-sha256:3895b64960322db24c486810369b09e4036572dbeb7760028979c839a898e1de",
+          "url-sha256:73c53e42837a7db16bdaa04628b8dbe8682e70566185bec5e468ac0d8c8df201"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-21-publish",
+      "runId": "run:nightly:2026-10-21",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-10-21T23:19:22Z",
+      "completedAt": "2026-10-21T23:19:22Z",
+      "inputs": [
+        "genesis-candidate-output"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "approval-gate",
+          "result": "not-applicable",
+          "detail": "Human approval and further evidence required; no promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No accepted strategy, experiment execution, Genesis or publication.",
+          "Input hashes identify source URLs, not retrieved source bytes."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "deferred human-governed stage",
+        "inputHashes": [
+          "url-sha256:67fc2a0ccf318864207adb8c94fcbb4f01e9d1545bee210bb4bf7eb74b65ceec",
+          "url-sha256:da98f6f479bf6c84ad606ea23a45a33be00e0bd028658b9f9c0feaac83ac4ce2",
+          "url-sha256:e3761e36fe6bed99e78dc4f77a605368c2158bab8fcaf10ebad0e3595e32d009",
+          "url-sha256:3895b64960322db24c486810369b09e4036572dbeb7760028979c839a898e1de",
+          "url-sha256:73c53e42837a7db16bdaa04628b8dbe8682e70566185bec5e468ac0d8c8df201"
+        ]
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:nightly-2026-10-21-asymptote-agent-telemetry",
+      "observationId": "obs:nightly-2026-10-21-asymptote-agent-telemetry",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Asymptote announced an oversubscribed $5.5M seed round led by Tower Research Ventures on October 20.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-21-asymptote-agent-telemetry"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "The source actor Asymptote Labs published a funding, deployment, or research announcement; independent downstream buyer behavior is unverified.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-21-asymptote-agent-telemetry"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Fragmented agent sessions and unobservable tool execution",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential clients purchasing Agent Trace and Governance Readiness Audit and the team maintaining qt314wink/seed-loom.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "OpenTelemetry collectors and existing observability products",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Normalize agent events across harnesses into a common runtime model",
+          "evidenceRefs": [
+            "source:nightly-2026-10-21-asymptote-agent-telemetry"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Clients will pay for cross-harness governance and reproducibility.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Existing agent telemetry already supplies sufficient trace evidence for client decisions.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent trace benchmarks, security tests and customer retention.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Capital interest in AI security may precede proven demand.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Clients will pay for cross-harness governance and reproducibility.",
+      "falsifier": "Existing agent telemetry already supplies sufficient trace evidence for client decisions.",
+      "missingEvidence": [
+        "Independent trace benchmarks, security tests and customer retention."
+      ],
+      "alternativeExplanation": "Capital interest in AI security may precede proven demand.",
+      "disposition": "watch",
+      "confidence": 0.85
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-21-vectorial-synthetic-personas",
+      "observationId": "obs:nightly-2026-10-21-vectorial-synthetic-personas",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Vectorial announced $3M funding on October 20 with investors including Smilegate and SenseAI Ventures.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-21-vectorial-synthetic-personas"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "The source actor Vectorial via GlobeNewswire published a funding, deployment, or research announcement; independent downstream buyer behavior is unverified.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-21-vectorial-synthetic-personas"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Rapid creative testing without losing validity",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential clients purchasing Creative Variant Evidence Sprint and the team maintaining qt314wink/observation-ad-pipeline.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Human interviews, usability testing and A/B experiments",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Simulate modeled audience responses to digital experiences",
+          "evidenceRefs": [
+            "source:nightly-2026-10-21-vectorial-synthetic-personas"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Synthetic rankings predict real customer responses.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Blind holdout user tests show no predictive agreement.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent demographic bias, holdout methodology, price and retention.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Funding may reflect hype rather than predictive performance.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Synthetic rankings predict real customer responses.",
+      "falsifier": "Blind holdout user tests show no predictive agreement.",
+      "missingEvidence": [
+        "Independent demographic bias, holdout methodology, price and retention."
+      ],
+      "alternativeExplanation": "Funding may reflect hype rather than predictive performance.",
+      "disposition": "watch",
+      "confidence": 0.85
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-21-cloudflare-php2shell",
+      "observationId": "obs:nightly-2026-10-21-cloudflare-php2shell",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "On October 21 Cloudflare described CVE-2026-109618 and CVE-2026-109619 in vulnerable PHP server scenarios.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-21-cloudflare-php2shell"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "The source actor Cloudflare published a funding, deployment, or research announcement; independent downstream buyer behavior is unverified.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-21-cloudflare-php2shell"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Request-only security checks can miss exploit effects",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential clients purchasing Web Runtime Boundary Audit and the team maintaining qt314wink/seed-loom.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Origin patches and existing WAF rules",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Correlate request and response evidence before output release",
+          "evidenceRefs": [
+            "source:nightly-2026-10-21-cloudflare-php2shell"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Client systems have relevant vulnerable PHP or response-inspection gaps.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Inventory finds no PHP surface and no analogous response-side control issue.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Repository PHP inventory, patches, false-positive and exploit coverage.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "A specific PHP security incident need not imply a broader agent-control opportunity.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Client systems have relevant vulnerable PHP or response-inspection gaps.",
+      "falsifier": "Inventory finds no PHP surface and no analogous response-side control issue.",
+      "missingEvidence": [
+        "Repository PHP inventory, patches, false-positive and exploit coverage."
+      ],
+      "alternativeExplanation": "A specific PHP security incident need not imply a broader agent-control opportunity.",
+      "disposition": "watch",
+      "confidence": 0.85
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-21-anu-photonic-reprogramming",
+      "observationId": "obs:nightly-2026-10-21-anu-photonic-reprogramming",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "ANU published its October 21 research story referring to work published in Science Advances.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-21-anu-photonic-reprogramming"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "The source actor Australian National University published a funding, deployment, or research announcement; independent downstream buyer behavior is unverified.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-21-anu-photonic-reprogramming"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Complex tunable photonics are difficult to communicate",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential clients purchasing Mechanism-to-Interactive Explainer and the team maintaining qt314wink/shader-gallery.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Static optics diagrams and research videos",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Laser-induced liquid-crystal orientation tunes an optical response",
+          "evidenceRefs": [
+            "source:nightly-2026-10-21-anu-photonic-reprogramming"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Visual interaction can faithfully communicate the causal mechanism.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent physics review finds visual parameters contradict measured optical response.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Quantitative optical transfer curves, full methods, independent review.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Interesting physics may have no near-term paying client.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Visual interaction can faithfully communicate the causal mechanism.",
+      "falsifier": "Independent physics review finds visual parameters contradict measured optical response.",
+      "missingEvidence": [
+        "Quantitative optical transfer curves, full methods, independent review."
+      ],
+      "alternativeExplanation": "Interesting physics may have no near-term paying client.",
+      "disposition": "watch",
+      "confidence": 0.85
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-21-tamu-regenerative-modeling",
+      "observationId": "obs:nightly-2026-10-21-tamu-regenerative-modeling",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Texas A&M published the feature October 20 and identifies DNDC and APEX as complementary field and watershed models.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-21-tamu-regenerative-modeling"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "The source actor Texas A&M Texas Water Resources Institute published a funding, deployment, or research announcement; independent downstream buyer behavior is unverified.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-21-tamu-regenerative-modeling"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Clients lack transparent comparison of regenerative scenarios and measurements",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential clients purchasing Regenerative Scenario Evidence Map and the team maintaining qt314wink/seed-loom.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Agronomy advisors and existing DNDC/APEX workflows",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Field-calibrated biogeochemical and watershed models simulate long-term effects",
+          "evidenceRefs": [
+            "source:nightly-2026-10-21-tamu-regenerative-modeling"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Clients have local calibration data and a decision requiring model comparison.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Out-of-sample field data materially disagree with model rankings.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Local field calibration, uncertainty intervals, farm demand and budget.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "A new institutional explainer summarizes existing models, not a new tool release.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Clients have local calibration data and a decision requiring model comparison.",
+      "falsifier": "Out-of-sample field data materially disagree with model rankings.",
+      "missingEvidence": [
+        "Local field calibration, uncertainty intervals, farm demand and budget."
+      ],
+      "alternativeExplanation": "A new institutional explainer summarizes existing models, not a new tool release.",
+      "disposition": "watch",
+      "confidence": 0.85
+    }
+  ],
+  "advisory": {
+    "signals": {
+      "obs:nightly-2026-10-21-asymptote-agent-telemetry": {
+        "consultancyImplications": {
+          "serviceOffer": "Agent Trace and Governance Readiness Audit",
+          "clientProblem": "Fragmented agent sessions and unobservable tool execution",
+          "sourceClass": "primary",
+          "thesisEffect": "reinforces-with-new-evidence",
+          "actorBehavior": "Publisher released funding, security controls or research; buyer behavior unverified.",
+          "knownCounterevidence": "Existing agent telemetry already supplies sufficient trace evidence for client decisions."
+        },
+        "projectDispositionImplications": {
+          "classification": "CORE",
+          "affectedRepositories": [
+            "qt314wink/seed-loom"
+          ],
+          "approvalRequired": true,
+          "repositoryActions": "proposals only"
+        }
+      },
+      "obs:nightly-2026-10-21-vectorial-synthetic-personas": {
+        "consultancyImplications": {
+          "serviceOffer": "Creative Variant Evidence Sprint",
+          "clientProblem": "Rapid creative testing without losing validity",
+          "sourceClass": "primary",
+          "thesisEffect": "reinforces-with-new-evidence",
+          "actorBehavior": "Publisher released funding, security controls or research; buyer behavior unverified.",
+          "knownCounterevidence": "Blind holdout user tests show no predictive agreement."
+        },
+        "projectDispositionImplications": {
+          "classification": "PRODUCTIZE",
+          "affectedRepositories": [
+            "qt314wink/observation-ad-pipeline"
+          ],
+          "approvalRequired": true,
+          "repositoryActions": "proposals only"
+        }
+      },
+      "obs:nightly-2026-10-21-cloudflare-php2shell": {
+        "consultancyImplications": {
+          "serviceOffer": "Web Runtime Boundary Audit",
+          "clientProblem": "Request-only security checks can miss exploit effects",
+          "sourceClass": "official",
+          "thesisEffect": "reinforces-with-new-evidence",
+          "actorBehavior": "Publisher released funding, security controls or research; buyer behavior unverified.",
+          "knownCounterevidence": "Inventory finds no PHP surface and no analogous response-side control issue."
+        },
+        "projectDispositionImplications": {
+          "classification": "CORE",
+          "affectedRepositories": [
+            "qt314wink/seed-loom"
+          ],
+          "approvalRequired": true,
+          "repositoryActions": "proposals only"
+        }
+      },
+      "obs:nightly-2026-10-21-anu-photonic-reprogramming": {
+        "consultancyImplications": {
+          "serviceOffer": "Mechanism-to-Interactive Explainer",
+          "clientProblem": "Complex tunable photonics are difficult to communicate",
+          "sourceClass": "research",
+          "thesisEffect": "reinforces-with-new-evidence",
+          "actorBehavior": "Publisher released funding, security controls or research; buyer behavior unverified.",
+          "knownCounterevidence": "Independent physics review finds visual parameters contradict measured optical response."
+        },
+        "projectDispositionImplications": {
+          "classification": "INCUBATE",
+          "affectedRepositories": [
+            "qt314wink/shader-gallery"
+          ],
+          "approvalRequired": true,
+          "repositoryActions": "proposals only"
+        }
+      },
+      "obs:nightly-2026-10-21-tamu-regenerative-modeling": {
+        "consultancyImplications": {
+          "serviceOffer": "Regenerative Scenario Evidence Map",
+          "clientProblem": "Clients lack transparent comparison of regenerative scenarios and measurements",
+          "sourceClass": "research",
+          "thesisEffect": "reinforces-with-new-evidence",
+          "actorBehavior": "Publisher released funding, security controls or research; buyer behavior unverified.",
+          "knownCounterevidence": "Out-of-sample field data materially disagree with model rankings."
+        },
+        "projectDispositionImplications": {
+          "classification": "CORE",
+          "affectedRepositories": [
+            "qt314wink/seed-loom"
+          ],
+          "approvalRequired": true,
+          "repositoryActions": "proposals only"
+        }
+      }
+    },
+    "repositoryWatch": {
+      "seedLoom": "CORE; main provenance bot 2026-10-21; open PRs 71 and 64, intake PRs 70/69/68/67; Issue 24 proof not run for this bundle.",
+      "observationAdPipeline": "PRODUCTIZE; open PR 9 audio-reactive lab, PR 8 campaign proof.",
+      "flore": "CONSOLIDATE; Oct 21 PostCSS dependency commit and successful CI.",
+      "omniLoom": "INCUBATE; deterministic fabrication specimen main Aug 4.",
+      "kozoDreams": "PRODUCTIZE pending evidence; last main Aug 1.",
+      "projectConstellation": "REFERENCE-ONLY/INCUBATE; last main Aug 14.",
+      "aether": "REFERENCE-ONLY; archived July 7; revival only after verified WebGL lifecycle need.",
+      "lithoMemphis": "UNVERIFIED; lookup 404."
+    },
+    "preflight": {
+      "defaultBranch": "main",
+      "startingSha": "416834b484646e76b89e5e9959f1ff38207cdbd1",
+      "authorityRead": true,
+      "executionBridge": ".github/workflows/nightly-knowledge-ingest.yml",
+      "proofWorkflow": ".github/workflows/nightly-intake-proof.yml"
+    }
+  }
+}
