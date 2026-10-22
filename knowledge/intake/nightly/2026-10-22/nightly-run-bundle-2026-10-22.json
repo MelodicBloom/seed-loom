@@ -1,0 +1,1087 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly-2026-10-22",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-10-20T23:11:44Z",
+      "to": "2026-10-22T23:11:44Z"
+    },
+    "newObservations": [
+      "obs:nightly-2026-10-22-duet",
+      "obs:nightly-2026-10-22-context-engine",
+      "obs:nightly-2026-10-22-cosmos",
+      "obs:nightly-2026-10-22-rural-housing",
+      "obs:nightly-2026-10-22-vesuvius"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [
+      "Governed agent context",
+      "Evidence-driven visual systems"
+    ],
+    "newRelationships": [
+      "rel:nightly-2026-10-22-duet",
+      "rel:nightly-2026-10-22-context-engine",
+      "rel:nightly-2026-10-22-cosmos",
+      "rel:nightly-2026-10-22-rural-housing",
+      "rel:nightly-2026-10-22-vesuvius"
+    ],
+    "contradictions": [
+      "Neo4j Oct 20 publication time not verified within 48h"
+    ],
+    "opportunities": [
+      "Agent governance audit",
+      "Controlled world-model demo",
+      "Grant outcome reporting"
+    ],
+    "proposedExperiments": [
+      "Agent approval-ledger paper test",
+      "Visual simulation repeatability benchmark"
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "qt314wink/seed-loom",
+        "paths": [
+          "knowledge/intake/nightly/2026-10-22/nightly-run-bundle-2026-10-22.json"
+        ]
+      }
+    ],
+    "noChangeReceipts": [
+      "No independently verified new paid client demand.",
+      "No verified project archive evidence."
+    ],
+    "collectionFailures": [
+      "Neo4j publication time unknown relative to exact 48-hour window.",
+      "Source full-text hashes not captured.",
+      "Independent buyer and pilot outcomes unavailable."
+    ]
+  },
+  "sources": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-22-duet",
+      "type": "Source",
+      "url": "https://claude.com/resources/articles/claude-duet",
+      "publisher": "Anthropic",
+      "retrievedAt": "2026-10-22T23:11:44Z",
+      "sourceClass": "primary",
+      "independenceKey": "anthropic",
+      "contentHash": null,
+      "title": "duet"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-22-context-engine",
+      "type": "Source",
+      "url": "https://neo4j.com/press-releases/neo4j-context-engine/",
+      "publisher": "Neo4j",
+      "retrievedAt": "2026-10-22T23:11:44Z",
+      "sourceClass": "primary",
+      "independenceKey": "neo4j",
+      "contentHash": null,
+      "title": "context-engine"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-22-cosmos",
+      "type": "Source",
+      "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "publisher": "NVIDIA",
+      "retrievedAt": "2026-10-22T23:11:44Z",
+      "sourceClass": "primary",
+      "independenceKey": "nvidia",
+      "contentHash": null,
+      "title": "cosmos"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-22-rural-housing",
+      "type": "Source",
+      "url": "https://www.rd.usda.gov/newsroom/news-release/usda-rural-development-announces-nearly-8m-housing-preservation-grant-funds-106-grantees-across-32",
+      "publisher": "USDA Rural Development",
+      "retrievedAt": "2026-10-22T23:11:44Z",
+      "sourceClass": "regulatory",
+      "independenceKey": "usda-rural-development",
+      "contentHash": null,
+      "title": "rural-housing"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-22-vesuvius",
+      "type": "Source",
+      "url": "https://www.nsf.gov/geo/updates/2000-year-old-historical-figure-guides-new-insights-dating",
+      "publisher": "US National Science Foundation",
+      "retrievedAt": "2026-10-22T23:11:44Z",
+      "sourceClass": "research",
+      "independenceKey": "us-national-science-foundation",
+      "contentHash": null,
+      "title": "vesuvius"
+    }
+  ],
+  "observations": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-22-duet",
+      "type": "Observation",
+      "capturedAt": "2026-10-22T23:11:44Z",
+      "claim": "Anthropic opened a US waitlist for Claude Duet proactive agent on October 21, with approvals for sensitive actions.",
+      "verifiedFacts": [
+        "Provider opened a research preview; not a general-availability deployment."
+      ],
+      "inference": [
+        "Governed approval receipts could be a consultancy service, but buyer demand is unproven.",
+        "Consultancy implication: Governed approval receipts could be a consultancy service, but buyer demand is unproven.",
+        "Project disposition: CORE for qt314wink/seed-loom"
+      ],
+      "significance": "Candidate for governed consultancy sensing and research synthesis.",
+      "confidence": 0.94,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-22-duet"
+      ],
+      "actorRefs": [
+        "provider:anthropic"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom"
+      ],
+      "assumptions": [
+        "Buyer behavior and adoption not inferred from announcement."
+      ],
+      "knownLimitations": [
+        "Independent impact or adoption not yet verified."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-22-context-engine",
+      "type": "Observation",
+      "capturedAt": "2026-10-22T23:11:44Z",
+      "claim": "Neo4j announced a private-preview shared Context Engine for enterprise agents on October 20.",
+      "verifiedFacts": [
+        "Vendor launched a private preview and invited design partners; adoption is unverified."
+      ],
+      "inference": [
+        "Shared context reinforces Seed Loom knowledge-spine direction; independent governance differentiation remains hypothetical.",
+        "Consultancy implication: Shared context reinforces Seed Loom knowledge-spine direction; independent governance differentiation remains hypothetical.",
+        "Project disposition: CORE for qt314wink/seed-loom"
+      ],
+      "significance": "Candidate for governed consultancy sensing and research synthesis.",
+      "confidence": 0.87,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-22-context-engine"
+      ],
+      "actorRefs": [
+        "provider:neo4j"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom"
+      ],
+      "assumptions": [
+        "Buyer behavior and adoption not inferred from announcement."
+      ],
+      "knownLimitations": [
+        "Exact publication hour relative to 48-hour cutoff unknown."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-22-cosmos",
+      "type": "Observation",
+      "capturedAt": "2026-10-22T23:11:44Z",
+      "claim": "NVIDIA announced Cosmos world-model training tools, simulation checkpoints and Data Factory blueprints October 21.",
+      "verifiedFacts": [
+        "Supplier published tool and evaluation updates; local performance not tested."
+      ],
+      "inference": [
+        "Bounded simulation QA could strengthen visual proof but hardware and license fit are unverified.",
+        "Consultancy implication: Bounded simulation QA could strengthen visual proof but hardware and license fit are unverified.",
+        "Project disposition: INCUBATE for MelodicBloom/shader-gallery"
+      ],
+      "significance": "Candidate for governed consultancy sensing and research synthesis.",
+      "confidence": 0.92,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-22-cosmos"
+      ],
+      "actorRefs": [
+        "provider:nvidia"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/shader-gallery"
+      ],
+      "assumptions": [
+        "Buyer behavior and adoption not inferred from announcement."
+      ],
+      "knownLimitations": [
+        "Independent impact or adoption not yet verified."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-22-rural-housing",
+      "type": "Observation",
+      "capturedAt": "2026-10-22T23:11:44Z",
+      "claim": "USDA announced $7,989,285 obligated across 106 rural housing grants in 32 states October 21.",
+      "verifiedFacts": [
+        "Funder reports 1,228 homes targeted and $7,552,804 partner funding leveraged."
+      ],
+      "inference": [
+        "Grant recipients may need accessible outcome reporting; this is not an open consultancy grant.",
+        "Consultancy implication: Grant recipients may need accessible outcome reporting; this is not an open consultancy grant.",
+        "Project disposition: INCUBATE for MelodicBloom/project-constellation"
+      ],
+      "significance": "Candidate for governed consultancy sensing and research synthesis.",
+      "confidence": 0.96,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-22-rural-housing"
+      ],
+      "actorRefs": [
+        "funder:usda-rural-development"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/project-constellation"
+      ],
+      "assumptions": [
+        "Buyer behavior and adoption not inferred from announcement."
+      ],
+      "knownLimitations": [
+        "Independent impact or adoption not yet verified."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-22-vesuvius",
+      "type": "Observation",
+      "capturedAt": "2026-10-22T23:11:44Z",
+      "claim": "NSF reported a Vesuvius calibration study improving argon-argon dating precision October 21.",
+      "verifiedFacts": [
+        "Research update describes eight mineral samples and historical-date comparison."
+      ],
+      "inference": [
+        "Useful methodological analogy for independent evidence calibration, not a direct product opportunity.",
+        "Consultancy implication: Useful methodological analogy for independent evidence calibration, not a direct product opportunity.",
+        "Project disposition: REFERENCE-ONLY for qt314wink/seed-loom"
+      ],
+      "significance": "Candidate for governed consultancy sensing and research synthesis.",
+      "confidence": 0.91,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-22-vesuvius"
+      ],
+      "actorRefs": [
+        "researcher:us-national-science-foundation"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom"
+      ],
+      "assumptions": [
+        "Buyer behavior and adoption not inferred from announcement."
+      ],
+      "knownLimitations": [
+        "Independent impact or adoption not yet verified."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-22-duet",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-22-duet",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-22-duet",
+      "confidence": 0.94,
+      "evidenceRefs": [
+        "source:nightly-2026-10-22-duet"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-22-context-engine",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-22-context-engine",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-22-context-engine",
+      "confidence": 0.87,
+      "evidenceRefs": [
+        "source:nightly-2026-10-22-context-engine"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-22-cosmos",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-22-cosmos",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-22-cosmos",
+      "confidence": 0.92,
+      "evidenceRefs": [
+        "source:nightly-2026-10-22-cosmos"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-22-rural-housing",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-22-rural-housing",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-22-rural-housing",
+      "confidence": 0.96,
+      "evidenceRefs": [
+        "source:nightly-2026-10-22-rural-housing"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-22-vesuvius",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-22-vesuvius",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-22-vesuvius",
+      "confidence": 0.91,
+      "evidenceRefs": [
+        "source:nightly-2026-10-22-vesuvius"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-22-collect",
+      "runId": "run:nightly-2026-10-22",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-10-22T23:11:44Z",
+      "completedAt": "2026-10-22T23:11:44Z",
+      "inputs": [
+        "source:nightly-2026-10-22-duet",
+        "source:nightly-2026-10-22-context-engine",
+        "source:nightly-2026-10-22-cosmos",
+        "source:nightly-2026-10-22-rural-housing",
+        "source:nightly-2026-10-22-vesuvius"
+      ],
+      "outputs": [
+        "five-attributed-sources"
+      ],
+      "checks": [
+        {
+          "name": "live-canonical-ingest",
+          "result": "pass",
+          "detail": "Primary publisher and date checked."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate only; no Genesis, acceptance, merge, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Source inspection and bounded inference; canonical validation deferred to workflow",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-22-vet",
+      "runId": "run:nightly-2026-10-22",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-10-22T23:11:44Z",
+      "completedAt": "2026-10-22T23:11:44Z",
+      "inputs": [
+        "source:nightly-2026-10-22-duet",
+        "source:nightly-2026-10-22-context-engine",
+        "source:nightly-2026-10-22-cosmos",
+        "source:nightly-2026-10-22-rural-housing",
+        "source:nightly-2026-10-22-vesuvius"
+      ],
+      "outputs": [
+        "five-attributed-sources"
+      ],
+      "checks": [
+        {
+          "name": "live-canonical-ingest",
+          "result": "pass",
+          "detail": "Primary publisher and date checked."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate only; no Genesis, acceptance, merge, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Source inspection and bounded inference; canonical validation deferred to workflow",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-22-normalize",
+      "runId": "run:nightly-2026-10-22",
+      "stage": "normalize",
+      "status": "deferred",
+      "startedAt": "2026-10-22T23:11:44Z",
+      "completedAt": "2026-10-22T23:11:44Z",
+      "inputs": [
+        "obs:nightly-2026-10-22-duet",
+        "obs:nightly-2026-10-22-context-engine",
+        "obs:nightly-2026-10-22-cosmos",
+        "obs:nightly-2026-10-22-rural-housing",
+        "obs:nightly-2026-10-22-vesuvius"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "live-canonical-ingest",
+          "result": "not-applicable",
+          "detail": "Execution and receipt pending GitHub Actions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate only; no Genesis, acceptance, merge, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Source inspection and bounded inference; canonical validation deferred to workflow",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-22-observe",
+      "runId": "run:nightly-2026-10-22",
+      "stage": "observe",
+      "status": "deferred",
+      "startedAt": "2026-10-22T23:11:44Z",
+      "completedAt": "2026-10-22T23:11:44Z",
+      "inputs": [
+        "obs:nightly-2026-10-22-duet",
+        "obs:nightly-2026-10-22-context-engine",
+        "obs:nightly-2026-10-22-cosmos",
+        "obs:nightly-2026-10-22-rural-housing",
+        "obs:nightly-2026-10-22-vesuvius"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "live-canonical-ingest",
+          "result": "not-applicable",
+          "detail": "Execution and receipt pending GitHub Actions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate only; no Genesis, acceptance, merge, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Source inspection and bounded inference; canonical validation deferred to workflow",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-22-inquire",
+      "runId": "run:nightly-2026-10-22",
+      "stage": "inquire",
+      "status": "deferred",
+      "startedAt": "2026-10-22T23:11:44Z",
+      "completedAt": "2026-10-22T23:11:44Z",
+      "inputs": [
+        "obs:nightly-2026-10-22-duet",
+        "obs:nightly-2026-10-22-context-engine",
+        "obs:nightly-2026-10-22-cosmos",
+        "obs:nightly-2026-10-22-rural-housing",
+        "obs:nightly-2026-10-22-vesuvius"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "live-canonical-ingest",
+          "result": "not-applicable",
+          "detail": "Execution and receipt pending GitHub Actions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate only; no Genesis, acceptance, merge, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Source inspection and bounded inference; canonical validation deferred to workflow",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-22-interpret",
+      "runId": "run:nightly-2026-10-22",
+      "stage": "interpret",
+      "status": "deferred",
+      "startedAt": "2026-10-22T23:11:44Z",
+      "completedAt": "2026-10-22T23:11:44Z",
+      "inputs": [
+        "obs:nightly-2026-10-22-duet",
+        "obs:nightly-2026-10-22-context-engine",
+        "obs:nightly-2026-10-22-cosmos",
+        "obs:nightly-2026-10-22-rural-housing",
+        "obs:nightly-2026-10-22-vesuvius"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "live-canonical-ingest",
+          "result": "not-applicable",
+          "detail": "Execution and receipt pending GitHub Actions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate only; no Genesis, acceptance, merge, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Source inspection and bounded inference; canonical validation deferred to workflow",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-22-relate",
+      "runId": "run:nightly-2026-10-22",
+      "stage": "relate",
+      "status": "deferred",
+      "startedAt": "2026-10-22T23:11:44Z",
+      "completedAt": "2026-10-22T23:11:44Z",
+      "inputs": [
+        "obs:nightly-2026-10-22-duet",
+        "obs:nightly-2026-10-22-context-engine",
+        "obs:nightly-2026-10-22-cosmos",
+        "obs:nightly-2026-10-22-rural-housing",
+        "obs:nightly-2026-10-22-vesuvius"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "live-canonical-ingest",
+          "result": "not-applicable",
+          "detail": "Execution and receipt pending GitHub Actions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate only; no Genesis, acceptance, merge, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Source inspection and bounded inference; canonical validation deferred to workflow",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-22-pattern",
+      "runId": "run:nightly-2026-10-22",
+      "stage": "pattern",
+      "status": "deferred",
+      "startedAt": "2026-10-22T23:11:44Z",
+      "completedAt": "2026-10-22T23:11:44Z",
+      "inputs": [
+        "obs:nightly-2026-10-22-duet",
+        "obs:nightly-2026-10-22-context-engine",
+        "obs:nightly-2026-10-22-cosmos",
+        "obs:nightly-2026-10-22-rural-housing",
+        "obs:nightly-2026-10-22-vesuvius"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "live-canonical-ingest",
+          "result": "not-applicable",
+          "detail": "Execution and receipt pending GitHub Actions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate only; no Genesis, acceptance, merge, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Source inspection and bounded inference; canonical validation deferred to workflow",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-22-opportunity",
+      "runId": "run:nightly-2026-10-22",
+      "stage": "opportunity",
+      "status": "deferred",
+      "startedAt": "2026-10-22T23:11:44Z",
+      "completedAt": "2026-10-22T23:11:44Z",
+      "inputs": [
+        "obs:nightly-2026-10-22-duet",
+        "obs:nightly-2026-10-22-context-engine",
+        "obs:nightly-2026-10-22-cosmos",
+        "obs:nightly-2026-10-22-rural-housing",
+        "obs:nightly-2026-10-22-vesuvius"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "live-canonical-ingest",
+          "result": "not-applicable",
+          "detail": "Execution and receipt pending GitHub Actions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate only; no Genesis, acceptance, merge, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Source inspection and bounded inference; canonical validation deferred to workflow",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-22-strategy",
+      "runId": "run:nightly-2026-10-22",
+      "stage": "strategy",
+      "status": "deferred",
+      "startedAt": "2026-10-22T23:11:44Z",
+      "completedAt": "2026-10-22T23:11:44Z",
+      "inputs": [
+        "obs:nightly-2026-10-22-duet",
+        "obs:nightly-2026-10-22-context-engine",
+        "obs:nightly-2026-10-22-cosmos",
+        "obs:nightly-2026-10-22-rural-housing",
+        "obs:nightly-2026-10-22-vesuvius"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "live-canonical-ingest",
+          "result": "not-applicable",
+          "detail": "Execution and receipt pending GitHub Actions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate only; no Genesis, acceptance, merge, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Source inspection and bounded inference; canonical validation deferred to workflow",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-22-experiment",
+      "runId": "run:nightly-2026-10-22",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-10-22T23:11:44Z",
+      "completedAt": "2026-10-22T23:11:44Z",
+      "inputs": [
+        "obs:nightly-2026-10-22-duet",
+        "obs:nightly-2026-10-22-context-engine",
+        "obs:nightly-2026-10-22-cosmos",
+        "obs:nightly-2026-10-22-rural-housing",
+        "obs:nightly-2026-10-22-vesuvius"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "live-canonical-ingest",
+          "result": "not-applicable",
+          "detail": "Execution and receipt pending GitHub Actions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate only; no Genesis, acceptance, merge, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Source inspection and bounded inference; canonical validation deferred to workflow",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-22-genesis",
+      "runId": "run:nightly-2026-10-22",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-10-22T23:11:44Z",
+      "completedAt": "2026-10-22T23:11:44Z",
+      "inputs": [
+        "obs:nightly-2026-10-22-duet",
+        "obs:nightly-2026-10-22-context-engine",
+        "obs:nightly-2026-10-22-cosmos",
+        "obs:nightly-2026-10-22-rural-housing",
+        "obs:nightly-2026-10-22-vesuvius"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "live-canonical-ingest",
+          "result": "not-applicable",
+          "detail": "Execution and receipt pending GitHub Actions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate only; no Genesis, acceptance, merge, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Source inspection and bounded inference; canonical validation deferred to workflow",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-22-publish",
+      "runId": "run:nightly-2026-10-22",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-10-22T23:11:44Z",
+      "completedAt": "2026-10-22T23:11:44Z",
+      "inputs": [
+        "obs:nightly-2026-10-22-duet",
+        "obs:nightly-2026-10-22-context-engine",
+        "obs:nightly-2026-10-22-cosmos",
+        "obs:nightly-2026-10-22-rural-housing",
+        "obs:nightly-2026-10-22-vesuvius"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "live-canonical-ingest",
+          "result": "not-applicable",
+          "detail": "Execution and receipt pending GitHub Actions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate only; no Genesis, acceptance, merge, deployment or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Source inspection and bounded inference; canonical validation deferred to workflow",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23"
+        ]
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:nightly-2026-10-22-duet",
+      "observationId": "obs:nightly-2026-10-22-duet",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What dangerous assumption?",
+        "What would falsify this?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Anthropic opened a US waitlist for Claude Duet proactive agent on October 21, with approvals for sensitive actions.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-22-duet"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Anthropic announced a preview.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-22-duet"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Governed approval receipts could be a consultancy service, but buyer demand is unproven.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Teams managing many information sources.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing human processes and vendor-native tooling.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Shared context plus guarded actions.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What dangerous assumption?",
+          "answer": "That buyers need an external consultancy.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify this?",
+          "answer": "Low adoption or fully adequate built-in governance.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent usage, retention, procurement and error metrics.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "A vendor positioning announcement.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "A paid governance market follows from a vendor announcement.",
+      "falsifier": "Buyer interviews show no incremental willingness to pay.",
+      "missingEvidence": [
+        "Independent adoption and buyer payment evidence"
+      ],
+      "alternativeExplanation": "Competitive product packaging without a new service market.",
+      "disposition": "watch",
+      "confidence": 0.94
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-22-context-engine",
+      "observationId": "obs:nightly-2026-10-22-context-engine",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What dangerous assumption?",
+        "What would falsify this?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Neo4j announced a private-preview shared Context Engine for enterprise agents on October 20.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-22-context-engine"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Neo4j announced a preview.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-22-context-engine"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Shared context reinforces Seed Loom knowledge-spine direction; independent governance differentiation remains hypothetical.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Teams managing many information sources.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing human processes and vendor-native tooling.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Shared context plus guarded actions.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What dangerous assumption?",
+          "answer": "That buyers need an external consultancy.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify this?",
+          "answer": "Low adoption or fully adequate built-in governance.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent usage, retention, procurement and error metrics.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "A vendor positioning announcement.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "A paid governance market follows from a vendor announcement.",
+      "falsifier": "Buyer interviews show no incremental willingness to pay.",
+      "missingEvidence": [
+        "Independent adoption and buyer payment evidence"
+      ],
+      "alternativeExplanation": "Competitive product packaging without a new service market.",
+      "disposition": "watch",
+      "confidence": 0.87
+    }
+  ],
+  "advisory": {
+    "obs:nightly-2026-10-22-duet": {
+      "consultancyImplications": "Governed approval receipts could be a consultancy service, but buyer demand is unproven.",
+      "projectDispositionImplications": {
+        "classification": "CORE",
+        "repository": "qt314wink/seed-loom"
+      },
+      "actorBehavior": "Provider opened a research preview; not a general-availability deployment."
+    },
+    "obs:nightly-2026-10-22-context-engine": {
+      "consultancyImplications": "Shared context reinforces Seed Loom knowledge-spine direction; independent governance differentiation remains hypothetical.",
+      "projectDispositionImplications": {
+        "classification": "CORE",
+        "repository": "qt314wink/seed-loom"
+      },
+      "actorBehavior": "Vendor launched a private preview and invited design partners; adoption is unverified."
+    },
+    "obs:nightly-2026-10-22-cosmos": {
+      "consultancyImplications": "Bounded simulation QA could strengthen visual proof but hardware and license fit are unverified.",
+      "projectDispositionImplications": {
+        "classification": "INCUBATE",
+        "repository": "MelodicBloom/shader-gallery"
+      },
+      "actorBehavior": "Supplier published tool and evaluation updates; local performance not tested."
+    },
+    "obs:nightly-2026-10-22-rural-housing": {
+      "consultancyImplications": "Grant recipients may need accessible outcome reporting; this is not an open consultancy grant.",
+      "projectDispositionImplications": {
+        "classification": "INCUBATE",
+        "repository": "MelodicBloom/project-constellation"
+      },
+      "actorBehavior": "Funder reports 1,228 homes targeted and $7,552,804 partner funding leveraged."
+    },
+    "obs:nightly-2026-10-22-vesuvius": {
+      "consultancyImplications": "Useful methodological analogy for independent evidence calibration, not a direct product opportunity.",
+      "projectDispositionImplications": {
+        "classification": "REFERENCE-ONLY",
+        "repository": "qt314wink/seed-loom"
+      },
+      "actorBehavior": "Research update describes eight mineral samples and historical-date comparison."
+    }
+  }
+}
