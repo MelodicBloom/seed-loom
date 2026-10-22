@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-10-22",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-20T23:11:44Z",
+    "to": "2026-10-22T23:11:44Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-10-22-duet",
+    "obs:nightly-2026-10-22-context-engine",
+    "obs:nightly-2026-10-22-cosmos",
+    "obs:nightly-2026-10-22-rural-housing",
+    "obs:nightly-2026-10-22-vesuvius"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Governed agent context",
+    "Evidence-driven visual systems"
+  ],
+  "newRelationships": [
+    "rel:nightly-2026-10-22-duet",
+    "rel:nightly-2026-10-22-context-engine",
+    "rel:nightly-2026-10-22-cosmos",
+    "rel:nightly-2026-10-22-rural-housing",
+    "rel:nightly-2026-10-22-vesuvius"
+  ],
+  "contradictions": [
+    "Neo4j Oct 20 publication time not verified within 48h"
+  ],
+  "opportunities": [
+    "Agent governance audit",
+    "Controlled world-model demo",
+    "Grant outcome reporting"
+  ],
+  "proposedExperiments": [
+    "Agent approval-ledger paper test",
+    "Visual simulation repeatability benchmark"
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/seed-loom",
+      "paths": [
+        "knowledge/intake/nightly/2026-10-22/nightly-run-bundle-2026-10-22.json"
+      ]
+    }
+  ],
+  "noChangeReceipts": [
+    "No independently verified new paid client demand.",
+    "No verified project archive evidence."
+  ],
+  "collectionFailures": [
+    "Neo4j publication time unknown relative to exact 48-hour window.",
+    "Source full-text hashes not captured.",
+    "Independent buyer and pilot outcomes unavailable."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-22-rural-housing",
+  "type": "Observation",
+  "capturedAt": "2026-10-22T23:11:44Z",
+  "claim": "USDA announced $7,989,285 obligated across 106 rural housing grants in 32 states October 21.",
+  "verifiedFacts": [
+    "Funder reports 1,228 homes targeted and $7,552,804 partner funding leveraged."
+  ],
+  "inference": [
+    "Grant recipients may need accessible outcome reporting; this is not an open consultancy grant.",
+    "Consultancy implication: Grant recipients may need accessible outcome reporting; this is not an open consultancy grant.",
+    "Project disposition: INCUBATE for MelodicBloom/project-constellation"
+  ],
+  "significance": "Candidate for governed consultancy sensing and research synthesis.",
+  "confidence": 0.96,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-22-rural-housing"
+  ],
+  "actorRefs": [
+    "funder:usda-rural-development"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "Buyer behavior and adoption not inferred from announcement."
+  ],
+  "knownLimitations": [
+    "Independent impact or adoption not yet verified."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

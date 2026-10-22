@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-22-cosmos",
+  "type": "Source",
+  "url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+  "publisher": "NVIDIA",
+  "retrievedAt": "2026-10-22T23:11:44Z",
+  "sourceClass": "primary",
+  "independenceKey": "nvidia",
+  "contentHash": null,
+  "title": "cosmos"
+}

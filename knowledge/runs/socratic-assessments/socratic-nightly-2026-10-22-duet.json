@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-22-duet",
+  "observationId": "obs:nightly-2026-10-22-duet",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What dangerous assumption?",
+    "What would falsify this?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Anthropic opened a US waitlist for Claude Duet proactive agent on October 21, with approvals for sensitive actions.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-22-duet"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Anthropic announced a preview.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-22-duet"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Governed approval receipts could be a consultancy service, but buyer demand is unproven.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams managing many information sources.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing human processes and vendor-native tooling.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Shared context plus guarded actions.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What dangerous assumption?",
+      "answer": "That buyers need an external consultancy.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify this?",
+      "answer": "Low adoption or fully adequate built-in governance.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent usage, retention, procurement and error metrics.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "A vendor positioning announcement.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "A paid governance market follows from a vendor announcement.",
+  "falsifier": "Buyer interviews show no incremental willingness to pay.",
+  "missingEvidence": [
+    "Independent adoption and buyer payment evidence"
+  ],
+  "alternativeExplanation": "Competitive product packaging without a new service market.",
+  "disposition": "watch",
+  "confidence": 0.94
+}

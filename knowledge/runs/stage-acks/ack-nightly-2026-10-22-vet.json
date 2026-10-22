@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-22-vet",
+  "runId": "run:nightly-2026-10-22",
+  "stage": "vet",
+  "status": "passed",
+  "startedAt": "2026-10-22T23:11:44Z",
+  "completedAt": "2026-10-22T23:11:44Z",
+  "inputs": [
+    "source:nightly-2026-10-22-duet",
+    "source:nightly-2026-10-22-context-engine",
+    "source:nightly-2026-10-22-cosmos",
+    "source:nightly-2026-10-22-rural-housing",
+    "source:nightly-2026-10-22-vesuvius"
+  ],
+  "outputs": [
+    "five-attributed-sources"
+  ],
+  "checks": [
+    {
+      "name": "live-canonical-ingest",
+      "result": "pass",
+      "detail": "Primary publisher and date checked."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate only; no Genesis, acceptance, merge, deployment or publication."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly consultancy intelligence automation",
+    "method": "Source inspection and bounded inference; canonical validation deferred to workflow",
+    "inputHashes": [
+      "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23"
+    ]
+  }
+}

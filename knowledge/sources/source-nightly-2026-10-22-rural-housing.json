@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-22-rural-housing",
+  "type": "Source",
+  "url": "https://www.rd.usda.gov/newsroom/news-release/usda-rural-development-announces-nearly-8m-housing-preservation-grant-funds-106-grantees-across-32",
+  "publisher": "USDA Rural Development",
+  "retrievedAt": "2026-10-22T23:11:44Z",
+  "sourceClass": "regulatory",
+  "independenceKey": "usda-rural-development",
+  "contentHash": null,
+  "title": "rural-housing"
+}

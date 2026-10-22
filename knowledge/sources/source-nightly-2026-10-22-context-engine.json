@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-22-context-engine",
+  "type": "Source",
+  "url": "https://neo4j.com/press-releases/neo4j-context-engine/",
+  "publisher": "Neo4j",
+  "retrievedAt": "2026-10-22T23:11:44Z",
+  "sourceClass": "primary",
+  "independenceKey": "neo4j",
+  "contentHash": null,
+  "title": "context-engine"
+}

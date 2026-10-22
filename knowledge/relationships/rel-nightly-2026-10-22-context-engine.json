@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-10-22-context-engine",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-10-22-context-engine",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly-2026-10-22-context-engine",
+  "confidence": 0.87,
+  "evidenceRefs": [
+    "source:nightly-2026-10-22-context-engine"
+  ]
+}

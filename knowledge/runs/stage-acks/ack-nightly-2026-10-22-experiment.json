@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-22-experiment",
+  "runId": "run:nightly-2026-10-22",
+  "stage": "experiment",
+  "status": "deferred",
+  "startedAt": "2026-10-22T23:11:44Z",
+  "completedAt": "2026-10-22T23:11:44Z",
+  "inputs": [
+    "obs:nightly-2026-10-22-duet",
+    "obs:nightly-2026-10-22-context-engine",
+    "obs:nightly-2026-10-22-cosmos",
+    "obs:nightly-2026-10-22-rural-housing",
+    "obs:nightly-2026-10-22-vesuvius"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "live-canonical-ingest",
+      "result": "not-applicable",
+      "detail": "Execution and receipt pending GitHub Actions."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "Candidate only; no Genesis, acceptance, merge, deployment or publication."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly consultancy intelligence automation",
+    "method": "Source inspection and bounded inference; canonical validation deferred to workflow",
+    "inputHashes": [
+      "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-22-vesuvius",
+  "type": "Observation",
+  "capturedAt": "2026-10-22T23:11:44Z",
+  "claim": "NSF reported a Vesuvius calibration study improving argon-argon dating precision October 21.",
+  "verifiedFacts": [
+    "Research update describes eight mineral samples and historical-date comparison."
+  ],
+  "inference": [
+    "Useful methodological analogy for independent evidence calibration, not a direct product opportunity.",
+    "Consultancy implication: Useful methodological analogy for independent evidence calibration, not a direct product opportunity.",
+    "Project disposition: REFERENCE-ONLY for qt314wink/seed-loom"
+  ],
+  "significance": "Candidate for governed consultancy sensing and research synthesis.",
+  "confidence": 0.91,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-22-vesuvius"
+  ],
+  "actorRefs": [
+    "researcher:us-national-science-foundation"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom"
+  ],
+  "assumptions": [
+    "Buyer behavior and adoption not inferred from announcement."
+  ],
+  "knownLimitations": [
+    "Independent impact or adoption not yet verified."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

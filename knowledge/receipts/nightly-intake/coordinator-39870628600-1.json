@@ -1,0 +1,56 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-10-22T23:16:04.889Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly-2026-10-22",
+      "bundlePath": "knowledge/intake/nightly/2026-10-22/nightly-run-bundle-2026-10-22.json",
+      "bundleSha256": "10c3b14b4f6a83cb06974aac827c365bf4be805365bd5644738eea0fb77feb14",
+      "normalizedDigest": "0a4fb6262a7000056bdc387911892a4183728e64d7bf16f9119ef0042887f3c2",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-nightly-2026-10-22-duet.json",
+        "knowledge/sources/source-nightly-2026-10-22-context-engine.json",
+        "knowledge/sources/source-nightly-2026-10-22-cosmos.json",
+        "knowledge/sources/source-nightly-2026-10-22-rural-housing.json",
+        "knowledge/sources/source-nightly-2026-10-22-vesuvius.json",
+        "knowledge/observations/obs-nightly-2026-10-22-duet.json",
+        "knowledge/observations/obs-nightly-2026-10-22-context-engine.json",
+        "knowledge/observations/obs-nightly-2026-10-22-cosmos.json",
+        "knowledge/observations/obs-nightly-2026-10-22-rural-housing.json",
+        "knowledge/observations/obs-nightly-2026-10-22-vesuvius.json",
+        "knowledge/relationships/rel-nightly-2026-10-22-duet.json",
+        "knowledge/relationships/rel-nightly-2026-10-22-context-engine.json",
+        "knowledge/relationships/rel-nightly-2026-10-22-cosmos.json",
+        "knowledge/relationships/rel-nightly-2026-10-22-rural-housing.json",
+        "knowledge/relationships/rel-nightly-2026-10-22-vesuvius.json",
+        "knowledge/runs/run-nightly-2026-10-22.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-22-collect.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-22-vet.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-22-normalize.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-22-observe.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-22-inquire.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-22-interpret.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-22-relate.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-22-pattern.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-22-opportunity.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-22-strategy.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-22-experiment.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-22-genesis.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-22-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-22-duet.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-22-context-engine.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-10-22-ingest.json",
+      "generatedRecordCount": 31
+    }
+  ]
+}

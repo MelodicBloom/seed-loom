@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-22-context-engine",
+  "observationId": "obs:nightly-2026-10-22-context-engine",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What dangerous assumption?",
+    "What would falsify this?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Neo4j announced a private-preview shared Context Engine for enterprise agents on October 20.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-22-context-engine"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Neo4j announced a preview.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-22-context-engine"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Shared context reinforces Seed Loom knowledge-spine direction; independent governance differentiation remains hypothetical.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams managing many information sources.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing human processes and vendor-native tooling.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Shared context plus guarded actions.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What dangerous assumption?",
+      "answer": "That buyers need an external consultancy.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify this?",
+      "answer": "Low adoption or fully adequate built-in governance.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent usage, retention, procurement and error metrics.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "A vendor positioning announcement.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "A paid governance market follows from a vendor announcement.",
+  "falsifier": "Buyer interviews show no incremental willingness to pay.",
+  "missingEvidence": [
+    "Independent adoption and buyer payment evidence"
+  ],
+  "alternativeExplanation": "Competitive product packaging without a new service market.",
+  "disposition": "watch",
+  "confidence": 0.87
+}

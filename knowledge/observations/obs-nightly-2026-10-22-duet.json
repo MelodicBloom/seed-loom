@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-22-duet",
+  "type": "Observation",
+  "capturedAt": "2026-10-22T23:11:44Z",
+  "claim": "Anthropic opened a US waitlist for Claude Duet proactive agent on October 21, with approvals for sensitive actions.",
+  "verifiedFacts": [
+    "Provider opened a research preview; not a general-availability deployment."
+  ],
+  "inference": [
+    "Governed approval receipts could be a consultancy service, but buyer demand is unproven.",
+    "Consultancy implication: Governed approval receipts could be a consultancy service, but buyer demand is unproven.",
+    "Project disposition: CORE for qt314wink/seed-loom"
+  ],
+  "significance": "Candidate for governed consultancy sensing and research synthesis.",
+  "confidence": 0.94,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-22-duet"
+  ],
+  "actorRefs": [
+    "provider:anthropic"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom"
+  ],
+  "assumptions": [
+    "Buyer behavior and adoption not inferred from announcement."
+  ],
+  "knownLimitations": [
+    "Independent impact or adoption not yet verified."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

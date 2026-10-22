@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-22-duet",
+  "type": "Source",
+  "url": "https://claude.com/resources/articles/claude-duet",
+  "publisher": "Anthropic",
+  "retrievedAt": "2026-10-22T23:11:44Z",
+  "sourceClass": "primary",
+  "independenceKey": "anthropic",
+  "contentHash": null,
+  "title": "duet"
+}

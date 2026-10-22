@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-10-22-rural-housing",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-10-22-rural-housing",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly-2026-10-22-rural-housing",
+  "confidence": 0.96,
+  "evidenceRefs": [
+    "source:nightly-2026-10-22-rural-housing"
+  ]
+}

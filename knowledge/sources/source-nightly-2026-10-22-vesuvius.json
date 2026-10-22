@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-22-vesuvius",
+  "type": "Source",
+  "url": "https://www.nsf.gov/geo/updates/2000-year-old-historical-figure-guides-new-insights-dating",
+  "publisher": "US National Science Foundation",
+  "retrievedAt": "2026-10-22T23:11:44Z",
+  "sourceClass": "research",
+  "independenceKey": "us-national-science-foundation",
+  "contentHash": null,
+  "title": "vesuvius"
+}

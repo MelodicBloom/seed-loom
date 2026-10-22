@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-22-context-engine",
+  "type": "Observation",
+  "capturedAt": "2026-10-22T23:11:44Z",
+  "claim": "Neo4j announced a private-preview shared Context Engine for enterprise agents on October 20.",
+  "verifiedFacts": [
+    "Vendor launched a private preview and invited design partners; adoption is unverified."
+  ],
+  "inference": [
+    "Shared context reinforces Seed Loom knowledge-spine direction; independent governance differentiation remains hypothetical.",
+    "Consultancy implication: Shared context reinforces Seed Loom knowledge-spine direction; independent governance differentiation remains hypothetical.",
+    "Project disposition: CORE for qt314wink/seed-loom"
+  ],
+  "significance": "Candidate for governed consultancy sensing and research synthesis.",
+  "confidence": 0.87,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-22-context-engine"
+  ],
+  "actorRefs": [
+    "provider:neo4j"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom"
+  ],
+  "assumptions": [
+    "Buyer behavior and adoption not inferred from announcement."
+  ],
+  "knownLimitations": [
+    "Exact publication hour relative to 48-hour cutoff unknown."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

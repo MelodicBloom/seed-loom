@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-22-cosmos",
+  "type": "Observation",
+  "capturedAt": "2026-10-22T23:11:44Z",
+  "claim": "NVIDIA announced Cosmos world-model training tools, simulation checkpoints and Data Factory blueprints October 21.",
+  "verifiedFacts": [
+    "Supplier published tool and evaluation updates; local performance not tested."
+  ],
+  "inference": [
+    "Bounded simulation QA could strengthen visual proof but hardware and license fit are unverified.",
+    "Consultancy implication: Bounded simulation QA could strengthen visual proof but hardware and license fit are unverified.",
+    "Project disposition: INCUBATE for MelodicBloom/shader-gallery"
+  ],
+  "significance": "Candidate for governed consultancy sensing and research synthesis.",
+  "confidence": 0.92,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-22-cosmos"
+  ],
+  "actorRefs": [
+    "provider:nvidia"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-gallery"
+  ],
+  "assumptions": [
+    "Buyer behavior and adoption not inferred from announcement."
+  ],
+  "knownLimitations": [
+    "Independent impact or adoption not yet verified."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}
