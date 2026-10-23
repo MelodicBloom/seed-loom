@@ -10,10 +10,17 @@ adapter contracts.
 ```sh
 npm run capability:notch:verify
 npm run capability:notch:test
+npm run capability:notch:query -- --scene scene:radial-field-bloom --adapter adapter:shader-gallery
+npm run capability:notch:handoff
 ```
 
 The verifier emits a deterministic receipt to stdout. Its digest identifies the
 exact semantic pack and source manifest a target implementation used.
+
+The query command resolves a scene, its portable families, its permitted
+adapter contracts, and the authoritative source records into a machine-readable
+pull response. The handoff command resolves the vetted Shader Gallery request
+into an executable JSON work order without writing to another repository.
 
 ## What can be pulled from the store
 
@@ -45,6 +52,28 @@ contract—never a false claim that syntax or pixels will transfer untouched.
 capability facts. It intentionally does not copy manual prose, screenshots,
 example code, model weights, or proprietary block binaries. Add a leaf-page
 fact only after reading that page; mark locator-only sources as such until then.
+
+`user-supplied-locator-ledger.json` preserves all 128 unique official Manual
+URLs from the supplied node-link set (129 supplied occurrences, including the
+repeated 3D category link). URLs are stored as a pinned base plus canonical
+relative path so they remain lossless, inspectable, and executable as links
+without mirroring the Manual. The supplied Google video-search URL is retained
+only as excluded discovery provenance, never as an authority.
+
+## Pull contracts
+
+- `capability-request.schema.json` is the portable, typed request contract.
+- `capability-handoff.schema.json` is the deterministic resolved work-order
+  contract.
+- `handoffs/shader-gallery-radial-field-bloom.request.json` is the first
+  concrete request, bound to `MelodicBloom/shader-gallery` `main` at
+  `93a0bd01aaefbed7094f803cfdf1134087302196` as observed on 2026-10-23.
+
+The request intentionally chooses a stateless GLSL approximation for its first
+Shader Gallery proof. It preserves fixed-seed and reduced-motion behavior while
+declaring that persistent field feedback would require a separately reviewed
+multi-pass runtime change. The clever part is modest: it treats a missing
+runtime feature as evidence to name, rather than a feature to smuggle in.
 
 ## Promotion
 

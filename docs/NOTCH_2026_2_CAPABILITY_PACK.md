@@ -102,6 +102,43 @@ versions. Model weights and third-party input media stay outside this pack.
 6. Return the receipt. Only then may a reviewer mark the relevant adapter or
    family `reviewed`.
 
+## Operational pull layer
+
+The store is now executable as a narrow pull protocol rather than merely a
+catalogue. `user-supplied-locator-ledger.json` retains all 128 unique official
+Manual locators from the supplied node set (129 occurrences because the 3D
+category was supplied twice); it stores URLs as the pinned 2026.2 nodes base
+plus canonical relative paths and keeps no copied Manual content.
+
+```mermaid
+flowchart TD
+  L["Locator ledger"] --> V["Verifier + digest"]
+  V --> Q["Scene query"]
+  Q --> R["Typed pull request"]
+  R --> H["Resolved work order"]
+  H --> T["Target-local receipt"]
+  T --> D["Human promotion decision"]
+```
+
+The commands are deterministic and do not write outside Seed Loom:
+
+```sh
+npm run capability:notch:verify
+npm run capability:notch:query -- --scene scene:radial-field-bloom --adapter adapter:shader-gallery
+npm run capability:notch:handoff
+npm run capability:notch:test
+```
+
+The first work order is
+`handoffs/shader-gallery-radial-field-bloom.request.json`. Its evidence-bound
+target snapshot is `MelodicBloom/shader-gallery` `main` at
+`93a0bd01aaefbed7094f803cfdf1134087302196`, observed on 2026-10-23, after the
+Optical Studies repair had merged. It authorizes an original WebGL2 shader
+specimen only after the receiver re-confirms that base. It deliberately maps
+the Notch feedback concept to a stateless recurrence approximation: a
+multi-pass temporal feedback runtime is an explicit non-goal, not a silent
+degradation.
+
 ## First recommended proofs
 
 | Priority | Bounded proof | Why it is first | Minimum evidence |

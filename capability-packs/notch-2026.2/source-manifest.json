@@ -3,7 +3,8 @@
   "id": "source-manifest:notch:2026.2:creative-systems",
   "title": "Notch Manual 2026.2 — Creative Systems Locator Manifest",
   "rightsBoundary": "This manifest stores URLs, source metadata, and short original capability statements only. It does not mirror manual text, images, binaries, example code, or bundled assets.",
-  "userSuppliedCoverage": "The supplied set included category landing pages plus selected leaf pages across generators, fields, emitters, affectors, materials, renderers, deformers, topology, weights, and vertex transformations. The family records in notch-capability-pack.json are grounded only in the source references named for them; unparsed leaf links remain locators for a future bounded extraction.",
+  "userSuppliedCoverage": "Every supplied official 2026.2 Manual node locator is preserved losslessly in user-supplied-locator-ledger.json. The family records in notch-capability-pack.json are grounded only in the source references named for them; unparsed leaf links remain locators for a future bounded extraction and are not implementation evidence.",
+  "locatorLedger": "./user-supplied-locator-ledger.json",
   "sources": [
     {
       "id": "source:notch:manual:2026.2:nodes",
@@ -157,7 +158,7 @@
     }
   ],
   "userSuppliedLocatorFamilies": {
-    "core": ["2d", "3d", "cameras", "cloning", "colour", "deformers", "fields", "generators", "interactive", "layers", "lighting", "logic", "materials", "mocap", "modifiers", "nodes", "particles", "physics", "post-fx", "rendering", "scripting", "shading", "sound", "text-fx", "video", "exposed-nodes"],
+    "core": ["2d", "3d", "cameras", "cloning", "colour", "deformers", "fields", "generators", "interactive", "layers", "lighting", "logic", "materials", "mocap", "modifiers", "nodes", "particles", "physics", "post-fx", "procedurals", "rendering", "scripting", "shading", "sound", "text-fx", "video", "exposed-nodes"],
     "generators": ["voronoi", "truchet", "sound-texture", "radial-vortex", "hilbert-curve", "midi-to-texture", "fractal-noise"],
     "fieldAffectors": ["fluid-2d", "primitive", "turbulence", "velocity", "vortex", "curl-noise", "derivative-feedback", "points", "image", "field-feedback", "field-procedural"],
     "fieldCollisions": ["mesh", "primitive", "procedural"],

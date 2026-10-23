@@ -62,10 +62,13 @@ renderer or code dialect. Validate the current Notch intake with:
 ```bash
 npm run capability:notch:verify
 npm run capability:notch:test
+npm run capability:notch:query -- --scene scene:radial-field-bloom --adapter adapter:shader-gallery
+npm run capability:notch:handoff
 ```
 
 See `docs/NOTCH_2026_2_CAPABILITY_PACK.md` for the adapter boundary and the
-first bounded target proofs.
+first bounded target proofs. `capability:notch:handoff` produces the first
+bounded Shader Gallery work order; it does not alter the target repository.
 
 ## Status
 

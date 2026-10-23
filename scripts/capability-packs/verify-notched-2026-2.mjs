@@ -33,6 +33,7 @@ const requireNonEmptyStrings = (value, label) => {
 
 const pack = readJson('notch-capability-pack.json');
 const manifest = readJson('source-manifest.json');
+const locatorLedger = readJson('user-supplied-locator-ledger.json');
 
 if (pack.schemaVersion !== 'seed-loom.notch-capability-pack.v0.1') failure('unexpected pack schema version');
 if (pack.id !== 'capability-pack:notch:2026.2:creative-systems') failure('unexpected pack id');
@@ -43,6 +44,7 @@ requireNonEmptyStrings(pack.canonicalBoundary.notCanonical, 'canonicalBoundary.n
 requireNonEmptyStrings(pack.canonicalBoundary.generatedOutputs, 'canonicalBoundary.generatedOutputs');
 
 if (manifest.schemaVersion !== 'seed-loom.source-manifest.v0.1') failure('unexpected source manifest schema version');
+if (manifest.locatorLedger !== './user-supplied-locator-ledger.json') failure('source manifest must reference the user-supplied locator ledger');
 const sourceIds = stableIdSet(manifest.sources, 'source');
 const urls = new Set();
 for (const source of manifest.sources) {
@@ -52,6 +54,45 @@ for (const source of manifest.sources) {
   if (source.publisher !== 'Notch / 10Bit' || source.sourceClass !== 'official') failure(`source ${source.id} has invalid authority metadata`);
   if (source.version !== '2026.2' || !Number.isFinite(Date.parse(source.retrievedAt))) failure(`source ${source.id} lacks reproducible version or retrieval metadata`);
   if (!source.coverage || !source.status) failure(`source ${source.id} lacks coverage or extraction status`);
+}
+
+if (locatorLedger.schemaVersion !== 'seed-loom.user-supplied-locator-ledger.v0.1') failure('unexpected locator ledger schema version');
+if (locatorLedger.id !== 'source-locator-ledger:notch:2026.2:user-supplied') failure('unexpected locator ledger id');
+const manualBaseUrl = 'https://manual.notch.one/2026.2/en/docs/reference/nodes/';
+if (locatorLedger.manualNodesBaseUrl !== manualBaseUrl) failure('locator ledger is not pinned to the official 2026.2 nodes base URL');
+if (!Array.isArray(locatorLedger.locatorGroups) || locatorLedger.locatorGroups.length === 0) failure('locator ledger must contain groups');
+const locatorGroupIds = stableIdSet(locatorLedger.locatorGroups, 'locator group');
+const relativePaths = new Set();
+const fullManualUrls = new Set();
+for (const group of locatorLedger.locatorGroups) {
+  requireNonEmptyStrings(group.relativePaths, `${group.id}.relativePaths`);
+  if (!group.description) failure(`${group.id} lacks a description`);
+  for (const relativePath of group.relativePaths) {
+    if (!relativePath.endsWith('/') || relativePath.startsWith('/') || relativePath.includes('..')) {
+      failure(`${group.id} contains an unsafe or non-canonical relative path ${relativePath}`);
+    }
+    if (relativePaths.has(relativePath)) failure(`duplicate user-supplied locator path ${relativePath}`);
+    relativePaths.add(relativePath);
+    const fullUrl = `${locatorLedger.manualNodesBaseUrl}${relativePath}`;
+    if (!fullUrl.startsWith(manualBaseUrl) || fullManualUrls.has(fullUrl)) failure(`duplicate or invalid full locator URL ${fullUrl}`);
+    fullManualUrls.add(fullUrl);
+  }
+}
+if (!locatorGroupIds.has('group:core-node-categories') || !relativePaths.has('procedurals/')) {
+  failure('locator ledger must preserve the supplied core categories, including procedurals');
+}
+if (!Array.isArray(locatorLedger.duplicateOccurrences)) failure('locator ledger must record duplicate occurrences');
+let suppliedManualUrlOccurrenceCount = relativePaths.size;
+for (const duplicate of locatorLedger.duplicateOccurrences) {
+  if (!relativePaths.has(duplicate.relativePath) || !Number.isInteger(duplicate.occurrences) || duplicate.occurrences < 2 || !duplicate.reason) {
+    failure('locator ledger contains an invalid duplicate-occurrence record');
+  }
+  suppliedManualUrlOccurrenceCount += duplicate.occurrences - 1;
+}
+if (fullManualUrls.size !== locatorLedger.expectedUniqueManualUrlCount) failure(`locator ledger expected ${locatorLedger.expectedUniqueManualUrlCount} unique URLs but has ${fullManualUrls.size}`);
+if (suppliedManualUrlOccurrenceCount !== locatorLedger.expectedSuppliedManualUrlOccurrenceCount) failure(`locator ledger expected ${locatorLedger.expectedSuppliedManualUrlOccurrenceCount} supplied occurrences but has ${suppliedManualUrlOccurrenceCount}`);
+if (!Array.isArray(locatorLedger.excludedDiscoveryUrls) || locatorLedger.excludedDiscoveryUrls.some((entry) => !entry?.url?.startsWith('https://www.google.com/search?') || !entry.reason)) {
+  failure('discovery-only URLs must be explicitly excluded from the authoritative source set');
 }
 
 const familyIds = stableIdSet(pack.capabilityFamilies, 'capability family');
@@ -93,7 +134,8 @@ if (!pack.governance.rightsBoundary.includes('Do not mirror')) failure('rights b
 
 const canonicalInputs = {
   pack: JSON.parse(canonicalize(pack)),
-  sourceManifest: JSON.parse(canonicalize(manifest))
+  sourceManifest: JSON.parse(canonicalize(manifest)),
+  userSuppliedLocatorLedger: JSON.parse(canonicalize(locatorLedger))
 };
 const digest = crypto.createHash('sha256').update(canonicalize(canonicalInputs)).digest('hex');
 const receipt = {
@@ -105,9 +147,12 @@ const receipt = {
   sceneRecipeCount: pack.sceneRecipes.length,
   adapterContractCount: pack.adapterContracts.length,
   sourceCount: manifest.sources.length,
+  userSuppliedManualLocatorCount: fullManualUrls.size,
+  userSuppliedManualLocatorOccurrenceCount: suppliedManualUrlOccurrenceCount,
   digest,
   validation: [
     'official 2026.2 source URLs are unique and pinned',
+    'all 128 unique user-supplied official Manual locators are preserved without copying source content',
     'all family source references resolve',
     'all scene family and adapter references resolve',
     'candidate pack makes no non-Seed-Loom implementation claim',

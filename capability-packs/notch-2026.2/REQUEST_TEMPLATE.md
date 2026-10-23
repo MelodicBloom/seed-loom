@@ -4,6 +4,17 @@ Use this request when an agent, a human collaborator, or another system needs a
 reusable mechanism. It is deliberately compact enough to pass through chat,
 issues, APIs, or a repository work order.
 
+For a validated machine-readable request, use
+`capability-request.schema.json`, then emit a resolved work order with:
+
+```sh
+npm run capability:notch:handoff -- --request capability-packs/notch-2026.2/handoffs/shader-gallery-radial-field-bloom.request.json
+```
+
+The emitter verifies that the request's pack digest is current, that the scene
+and adapter exist, and that the adapter names the target repository before it
+prints any work order.
+
 ```yaml
 capabilityPack:
   id: capability-pack:notch:2026.2:creative-systems
