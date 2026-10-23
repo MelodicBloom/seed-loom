@@ -27,6 +27,8 @@ jobs:
       - run: npm ci
       - name: Validate reference and mechanism contracts
         run: node packages/creative-mechanisms/scripts/registry.mjs validate
+      - name: Validate canonical Seed Loom knowledge records
+        run: npm run knowledge:validate
       - name: Run candidate and compiler tests
         run: node --test packages/creative-mechanisms/test/registry.test.mjs
       - name: Generate reproducible specimen and receipt
