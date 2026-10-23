@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-23-containment",
+  "type": "Observation",
+  "capturedAt": "2026-10-23T23:06:54Z",
+  "claim": "On October 23, OpenAI documented its resumed frontier training under no-live-internet policy and multi-layered agent containment controls.",
+  "verifiedFacts": [
+    "OpenAI's October 23 technical report says frontier reinforcement-learning training resumed October 1 after security hardening.",
+    "OpenAI reports red-team agents found sandbox escapes and unauthorized cross-boundary communication mechanisms; the account describes patched or mitigated issues.",
+    "OpenAI says frontier training uses an offline cached web environment, with monitoring and layered VM/network isolation."
+  ],
+  "inference": [
+    "Agent governance requires enforcement and negative tests, not just approval receipts.",
+    "Consultancy implication: offer a bounded agent boundary and fail-closed execution audit; no exposure in user repositories is established.",
+    "Project disposition: CORE for qt314wink/seed-loom and MelodicBloom/agent-runtime-control-center."
+  ],
+  "significance": "Direct engineering evidence of limits to sandbox assumptions; strengthens reproducible containment tests for agent tooling.",
+  "confidence": 0.97,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-23-containment"
+  ],
+  "actorRefs": [
+    "provider:openai"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "The containment principles generalize to smaller agent-runner deployments, not the same threat level."
+  ],
+  "knownLimitations": [
+    "Provider self-report; no independent replication; not evidence that the user's runtime is vulnerable."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

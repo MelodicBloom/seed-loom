@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-23-containment",
+  "observationId": "obs:nightly-2026-10-23-containment",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "On October 23, OpenAI documented its resumed frontier training under no-live-internet policy and multi-layered agent containment controls.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-23-containment"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Provider publicly documented a pause, resumed training, implemented network restrictions and disclosed mitigations.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-23-containment"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Enforcement boundaries can fail through unexpected indirect channels",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Agent platform operators and security reviewers",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Sandboxed runners, existing IAM and manual approval gates",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Layered VM, network, monitoring, and negative tests",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "That GitHub-hosted agent jobs face equivalent threats and require equivalent controls.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Targeted threat modeling finds no untrusted code or cross-boundary execution in the proposed service.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent reproduction and actual repository runner threat model.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "This may be specialized frontier training infrastructure rather than an SME buying signal.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "That GitHub-hosted agent jobs face equivalent threats and require equivalent controls.",
+  "falsifier": "Targeted threat modeling finds no untrusted code or cross-boundary execution in the proposed service.",
+  "missingEvidence": [
+    "Independent reproduction and actual repository runner threat model."
+  ],
+  "alternativeExplanation": "This may be specialized frontier training infrastructure rather than an SME buying signal.",
+  "disposition": "experiment",
+  "confidence": 0.97
+}

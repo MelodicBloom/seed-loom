@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-23-arc-sunset",
+  "observationId": "obs:nightly-2026-10-23-arc-sunset",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "The Browser Company announced Arc's December 22 sunset and stopped new Arc registrations on October 22, shifting engineering focus to Dia.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-23-arc-sunset"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Browser builder announced a sunset and disabled new registrations.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-23-arc-sunset"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Platform dependency and data portability risk",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams whose workflow depends on Arc",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Chrome, Firefox, Edge, Dia",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Account deactivation and product discontinuation",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Arc discontinuation directly breaks existing portfolio experiences.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Cross-browser test matrix shows no Arc-specific assumptions or failures.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Real browser usage and dependency inventory.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Vendor consolidation may not affect ordinary standards-compliant websites.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Arc discontinuation directly breaks existing portfolio experiences.",
+  "falsifier": "Cross-browser test matrix shows no Arc-specific assumptions or failures.",
+  "missingEvidence": [
+    "Real browser usage and dependency inventory."
+  ],
+  "alternativeExplanation": "Vendor consolidation may not affect ordinary standards-compliant websites.",
+  "disposition": "watch",
+  "confidence": 0.98
+}

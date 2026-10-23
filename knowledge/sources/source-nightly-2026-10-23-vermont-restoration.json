@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-23-vermont-restoration",
+  "type": "Source",
+  "url": "https://www.fsa.usda.gov/news-events/news/10-23-2026/usda-announces-expanded-disaster-assistance-farmers-timber-producers",
+  "publisher": "USDA Farm Service Agency",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-23T23:06:54Z",
+  "sourceClass": "official",
+  "independenceKey": "usda-farm-service-agency",
+  "contentHash": null,
+  "title": "USDA expands Vermont farm and timber disaster assistance",
+  "analystNote": "Official date verified as 2026-10-22 or 2026-10-23; publication hour not available. Raw page content hash not captured."
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-23-vermont-restoration",
+  "type": "Observation",
+  "capturedAt": "2026-10-23T23:06:54Z",
+  "claim": "On October 23 USDA announced up to $31.7 million in Vermont farm and timber disaster recovery assistance with an October 26–December 31 application window.",
+  "verifiedFacts": [
+    "USDA FSA's October 23 notice says Vermont producers can apply for up to $31.7 million under a state-administered block grant.",
+    "The program addresses qualifying weather-related agricultural, timber, and on-farm infrastructure losses from 2023 and 2024.",
+    "Applications for the state program and reopened Emergency Forest Restoration Program run October 26 through December 31, 2026."
+  ],
+  "inference": [
+    "A bounded ecosystem-recovery evidence map could clarify program eligibility, evidence requirements, and restoration outcomes.",
+    "Consultancy implication: partner-facing impact-reporting design, not a claim that the grant pays consultants.",
+    "Project disposition: INCUBATE regenerative civic dashboard concept in MelodicBloom/project-constellation; Seed Loom retains provenance authority."
+  ],
+  "significance": "A dated, geographically specific public funding action supplies concrete restoration and reporting needs.",
+  "confidence": 0.92,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-23-vermont-restoration"
+  ],
+  "actorRefs": [
+    "funder:usda-fsa"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/project-constellation",
+    "qt314wink/seed-loom"
+  ],
+  "assumptions": [
+    "Potential grantees have budget or permission for outside data visualization; not established."
+  ],
+  "knownLimitations": [
+    "USDA page full open returned a disabled error; the direct official search excerpt supplied the facts.",
+    "Eligibility is Vermont-specific; user is not presumed eligible."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-23-pa30-filaments",
+  "observationId": "obs:nightly-2026-10-23-pa30-filaments",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "On October 23 NSF reported Gemini North observations showing Pa 30's apparent smooth supernova filaments are clumpy and knotted.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-23-pa30-filaments"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Researchers published observations; NSF released an institutional research update.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-23-pa30-filaments"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Simplified visuals obscure measurement uncertainty",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Astronomy educators and scientific communicators",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Telescope imagery and conventional explanatory animations",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Instrument resolution and morphology inference",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "A visually compelling filament shader can claim to explain the astrophysical cause.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Measured morphology cannot be represented without misleading viewers.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Raw imaging data, paper methods and calibrated volumetric reconstructions.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Improved resolution reveals preexisting complexity rather than a new physical process.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "A visually compelling filament shader can claim to explain the astrophysical cause.",
+  "falsifier": "Measured morphology cannot be represented without misleading viewers.",
+  "missingEvidence": [
+    "Raw imaging data, paper methods and calibrated volumetric reconstructions."
+  ],
+  "alternativeExplanation": "Improved resolution reveals preexisting complexity rather than a new physical process.",
+  "disposition": "watch",
+  "confidence": 0.96
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-23-clinical-contracts",
+  "type": "Source",
+  "url": "https://investors.tempus.com/node/10841/html",
+  "publisher": "Tempus AI / SEC Form 8-K",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-23T23:06:54Z",
+  "sourceClass": "regulatory",
+  "independenceKey": "tempus-ai-sec-form-8-k",
+  "contentHash": null,
+  "title": "Tempus 8-K October 23 oncology and neurology contracts",
+  "analystNote": "Official date verified as 2026-10-22 or 2026-10-23; publication hour not available. Raw page content hash not captured."
+}

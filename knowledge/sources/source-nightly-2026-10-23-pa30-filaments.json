@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-23-pa30-filaments",
+  "type": "Source",
+  "url": "https://www.nsf.gov/mps/updates/clumps-knots-gas-found-remains-supernova-explosion",
+  "publisher": "US National Science Foundation",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-23T23:06:54Z",
+  "sourceClass": "research",
+  "independenceKey": "us-national-science-foundation",
+  "contentHash": null,
+  "title": "Clumps and knots of gas in supernova remnant Pa 30",
+  "analystNote": "Official date verified as 2026-10-22 or 2026-10-23; publication hour not available. Raw page content hash not captured."
+}

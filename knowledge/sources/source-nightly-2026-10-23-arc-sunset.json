@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-23-arc-sunset",
+  "type": "Source",
+  "url": "https://arc.net/",
+  "publisher": "The Browser Company",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-23T23:06:54Z",
+  "sourceClass": "primary",
+  "independenceKey": "the-browser-company",
+  "contentHash": null,
+  "title": "A farewell to Arc",
+  "analystNote": "Official date verified as 2026-10-22 or 2026-10-23; publication hour not available. Raw page content hash not captured."
+}

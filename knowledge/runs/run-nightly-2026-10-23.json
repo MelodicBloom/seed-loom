@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-10-23",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-21T23:06:54Z",
+    "to": "2026-10-23T23:06:54Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-10-23-containment",
+    "obs:nightly-2026-10-23-arc-sunset",
+    "obs:nightly-2026-10-23-clinical-contracts",
+    "obs:nightly-2026-10-23-vermont-restoration",
+    "obs:nightly-2026-10-23-pa30-filaments"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Containment is a testable boundary, not a prompt promise",
+    "Enterprise data licensing validates buyer behavior but not transferable clinical expertise",
+    "Higher-resolution evidence can invalidate appealing design simplifications"
+  ],
+  "newRelationships": [
+    "rel:nightly-2026-10-23-containment",
+    "rel:nightly-2026-10-23-arc-sunset",
+    "rel:nightly-2026-10-23-clinical-contracts",
+    "rel:nightly-2026-10-23-vermont-restoration",
+    "rel:nightly-2026-10-23-pa30-filaments"
+  ],
+  "contradictions": [
+    "No demonstrated local Arc dependency or security exposure.",
+    "Pathos financing is distinct from contracted Tempus payments and is not a consultancy sale."
+  ],
+  "opportunities": [
+    "Agent Boundary & Receipt Audit",
+    "Browser Continuity & Portability Check",
+    "Scientific Evidence Lineage Mapping",
+    "Regenerative Recovery Evidence Map",
+    "Science Mechanism Explainer"
+  ],
+  "proposedExperiments": [
+    "Run a read-only negative-test matrix on agent authorization and receipt boundaries.",
+    "Produce one clearly labeled measured-versus-inferred morphology explainer with no physical accuracy claims."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/seed-loom",
+      "branch": "proposal/notch-2026-2-authority-reconcile",
+      "allowedPaths": [
+        "docs/",
+        "knowledge/"
+      ],
+      "description": "Compare draft PR #73 and #74 for overlapping Notch mechanism authority; propose no merge until schema and canonical-source boundaries reconciled."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/shader-gallery",
+      "branch": "proposal/visual-proof-regression-audit",
+      "allowedPaths": [
+        "docs/",
+        "tests/",
+        "packages/shader-library-v1/"
+      ],
+      "description": "Review merged PR #26 and draft PR #27 against manifest/archive/keyboard/WebGL lifecycle checks."
+    }
+  ],
+  "noChangeReceipts": [
+    "Prior Oct 21-22 signals (Duet, Neo4j, Cosmos, rural housing, Vesuvius, Asymptote, Vectorial) excluded as already observed.",
+    "No verified new purchase for user's consultancy; no merge/closure/archive recommendation.",
+    "Omni-Loom and Kozo Dreams have no verified new default-branch proof in the inspected window."
+  ],
+  "collectionFailures": [
+    "USDA FSA official result surfaced in web search but direct open returned DisabledError; preserve source-access limitation.",
+    "Raw source-body SHA-256 not available from research retrieval; contentHash is null.",
+    "Publication hour unavailable for several date-stamped sources; calendar date within window but exact hour not independently verified.",
+    "No exhaustive historical knowledge graph dedup beyond prior two briefing bundles.",
+    "Issue #24 two-isolated-run proof not yet executed for this candidate bundle."
+  ]
+}

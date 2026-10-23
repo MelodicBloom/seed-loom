@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-23-pathos-announcement",
+  "type": "Source",
+  "url": "https://www.pathos.com/pathos-ai-secures-237-million-in-series-e-financing-to-scale-agentic-ai-drug-development-platform-and-advance-oncology-pipeline",
+  "publisher": "Pathos AI",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-23T23:06:54Z",
+  "sourceClass": "primary",
+  "independenceKey": "pathos-ai",
+  "contentHash": null,
+  "title": "Pathos AI secures $237 million Series E",
+  "analystNote": "Issuer announcement corroborates financing; SEC 8-K is independent regulatory evidence for the Tempus contracts, not independent clinical efficacy."
+}

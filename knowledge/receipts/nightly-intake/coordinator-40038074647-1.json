@@ -1,0 +1,60 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-10-23T23:10:07.314Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly-2026-10-23",
+      "bundlePath": "knowledge/intake/nightly/2026-10-23/nightly-run-bundle-2026-10-23.json",
+      "bundleSha256": "6d10c8ab322380071b5f264779881d72845640146d4894df622e00e253ffb3fe",
+      "normalizedDigest": "954b56e97b885977a6108765cf5d08a183a4c5bf5cc0acf2a87b1e565f13155c",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-nightly-2026-10-23-containment.json",
+        "knowledge/sources/source-nightly-2026-10-23-arc-sunset.json",
+        "knowledge/sources/source-nightly-2026-10-23-clinical-contracts.json",
+        "knowledge/sources/source-nightly-2026-10-23-vermont-restoration.json",
+        "knowledge/sources/source-nightly-2026-10-23-pa30-filaments.json",
+        "knowledge/sources/source-nightly-2026-10-23-pathos-announcement.json",
+        "knowledge/observations/obs-nightly-2026-10-23-containment.json",
+        "knowledge/observations/obs-nightly-2026-10-23-arc-sunset.json",
+        "knowledge/observations/obs-nightly-2026-10-23-clinical-contracts.json",
+        "knowledge/observations/obs-nightly-2026-10-23-vermont-restoration.json",
+        "knowledge/observations/obs-nightly-2026-10-23-pa30-filaments.json",
+        "knowledge/relationships/rel-nightly-2026-10-23-containment.json",
+        "knowledge/relationships/rel-nightly-2026-10-23-arc-sunset.json",
+        "knowledge/relationships/rel-nightly-2026-10-23-clinical-contracts.json",
+        "knowledge/relationships/rel-nightly-2026-10-23-vermont-restoration.json",
+        "knowledge/relationships/rel-nightly-2026-10-23-pa30-filaments.json",
+        "knowledge/runs/run-nightly-2026-10-23.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-23-collect.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-23-vet.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-23-normalize.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-23-observe.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-23-inquire.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-23-interpret.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-23-relate.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-23-pattern.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-23-opportunity.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-23-strategy.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-23-experiment.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-23-genesis.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-23-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-23-containment.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-23-arc-sunset.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-23-clinical-contracts.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-23-vermont-restoration.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-23-pa30-filaments.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-10-23-ingest.json",
+      "generatedRecordCount": 35
+    }
+  ]
+}

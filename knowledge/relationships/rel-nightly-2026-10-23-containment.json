@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-10-23-containment",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-10-23-containment",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly-2026-10-23-containment",
+  "confidence": 0.97,
+  "evidenceRefs": [
+    "source:nightly-2026-10-23-containment"
+  ]
+}

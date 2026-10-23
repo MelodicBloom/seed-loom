@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-23-publish",
+  "runId": "run:nightly-2026-10-23",
+  "stage": "publish",
+  "status": "deferred",
+  "startedAt": "2026-10-23T23:06:54Z",
+  "completedAt": "2026-10-23T23:06:54Z",
+  "inputs": [
+    "run:nightly-2026-10-23"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "canonical-ingest-and-human-gate",
+      "result": "not-applicable",
+      "detail": "Stage is not promoted by this daily delivery; canonical executable and approval gates control transitions."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "Candidate intake only; no accepted Strategy, executed Experiment, Genesis advancement, merge, publication, or external disclosure.",
+      "Canonical validation and source-content provenance required before downstream promotion."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly Consultancy Intelligence & Graph Intake",
+    "method": "Candidate construction; canonical stage transition deferred to Seed Loom ingest and human review",
+    "inputHashes": [
+      "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+      "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+    ]
+  }
+}

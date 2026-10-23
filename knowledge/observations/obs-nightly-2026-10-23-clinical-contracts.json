@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-23-clinical-contracts",
+  "type": "Observation",
+  "capturedAt": "2026-10-23T23:06:54Z",
+  "claim": "Tempus's October 23 SEC filing reports $192.5 million in aggregate contractual cash payments for oncology and neurology data and agentic tools involving BMS and Pathos.",
+  "verifiedFacts": [
+    "Tempus's Form 8-K filed October 23 describes $137.5 million in aggregate fixed payments from BMS under an oncology statement of work.",
+    "An October 22 neurology order provides up to $55 million in payments from Pathos, contingent in part on delivery of up to 500,000 de-identified patient records.",
+    "The filing documents licenses to multimodal datasets, analysis software, and an agentic analysis tool; Pathos separately announced a $237 million Series E."
+  ],
+  "inference": [
+    "This is stronger buyer-behavior evidence than a generic AI launch, but it is a highly regulated specialist market.",
+    "Consultancy implication: provenance and decision-lineage patterns may be reusable for scientific evidence dashboards, not a claim of clinical competence.",
+    "Project disposition: INCUBATE domain-specific evidence mapping atop qt314wink/seed-loom; preserve biomedical regulatory boundaries."
+  ],
+  "significance": "Contractual payment terms provide rare direct evidence of enterprise buying for governed multimodal data and analysis.",
+  "confidence": 0.99,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-23-clinical-contracts",
+    "source:nightly-2026-10-23-pathos-announcement"
+  ],
+  "actorRefs": [
+    "buyer:bristol-myers-squibb"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "The disclosed contracts will be performed as planned; fees tied to delivery are not yet recognized cash receipts."
+  ],
+  "knownLimitations": [
+    "No independently demonstrated patient outcomes or model efficacy.",
+    "The consultancy is not a medical-device or clinical-trial vendor."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

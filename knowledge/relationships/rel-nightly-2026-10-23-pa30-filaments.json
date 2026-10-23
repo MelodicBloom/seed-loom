@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-10-23-pa30-filaments",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-10-23-pa30-filaments",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly-2026-10-23-pa30-filaments",
+  "confidence": 0.96,
+  "evidenceRefs": [
+    "source:nightly-2026-10-23-pa30-filaments"
+  ]
+}

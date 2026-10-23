@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-23-vet",
+  "runId": "run:nightly-2026-10-23",
+  "stage": "vet",
+  "status": "passed",
+  "startedAt": "2026-10-23T23:06:54Z",
+  "completedAt": "2026-10-23T23:06:54Z",
+  "inputs": [
+    "source:nightly-2026-10-23-containment",
+    "source:nightly-2026-10-23-arc-sunset",
+    "source:nightly-2026-10-23-clinical-contracts",
+    "source:nightly-2026-10-23-vermont-restoration",
+    "source:nightly-2026-10-23-pa30-filaments",
+    "source:nightly-2026-10-23-pathos-announcement"
+  ],
+  "outputs": [
+    "five-candidate-source-vetting"
+  ],
+  "checks": [
+    {
+      "name": "source-date-and-actor-class",
+      "result": "pass",
+      "detail": "Publisher, dated source, actor action and evidence class inspected; raw content hashes unavailable."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate intake only; no accepted Strategy, executed Experiment, Genesis advancement, merge, publication, or external disclosure."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly Consultancy Intelligence & Graph Intake",
+    "method": "Live official/research/regulatory source inspection and classification",
+    "inputHashes": [
+      "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+      "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+    ]
+  }
+}

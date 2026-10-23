@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-23-clinical-contracts",
+  "observationId": "obs:nightly-2026-10-23-clinical-contracts",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Tempus's October 23 SEC filing reports $192.5 million in aggregate contractual cash payments for oncology and neurology data and agentic tools involving BMS and Pathos.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-23-clinical-contracts"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Buyer and suppliers executed contractual data and tool licenses; investor led financing.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-23-clinical-contracts"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Fragmented clinical evidence and trial-design uncertainty",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Drug developers and researchers",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Internal clinical data teams and licensed RWD platforms",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Longitudinal multimodal data plus agentic analysis licensing",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Enterprise biomedical procurement validates general-purpose consultancy pricing.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Buyer research shows such deals depend on proprietary datasets and regulatory assets not transferable to a general consultancy.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Actual delivery, outcomes, independent efficacy, procurement terms in adjacent sectors.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "The purchase is primarily access to scarce datasets and industry relationships.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Enterprise biomedical procurement validates general-purpose consultancy pricing.",
+  "falsifier": "Buyer research shows such deals depend on proprietary datasets and regulatory assets not transferable to a general consultancy.",
+  "missingEvidence": [
+    "Actual delivery, outcomes, independent efficacy, procurement terms in adjacent sectors."
+  ],
+  "alternativeExplanation": "The purchase is primarily access to scarce datasets and industry relationships.",
+  "disposition": "watch",
+  "confidence": 0.99
+}

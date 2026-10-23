@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-23-vermont-restoration",
+  "observationId": "obs:nightly-2026-10-23-vermont-restoration",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "On October 23 USDA announced up to $31.7 million in Vermont farm and timber disaster recovery assistance with an October 26–December 31 application window.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-23-vermont-restoration"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Federal agency announced state block-grant and restoration application periods.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-23-vermont-restoration"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Complex recovery evidence and restoration accountability",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Eligible Vermont farms and timber producers",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "State grant portals, extension agents and existing GIS",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "State-administered disaster assistance and forest restoration cost share",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "A funding announcement implies a purchasable consultancy contract.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Eligibility and procurement rules prohibit relevant outside services or no organizations request them.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Awardee identities, RFPs, local buyer interviews and project reporting contracts.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "The funding is directed to immediate loss compensation, not data tooling.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "A funding announcement implies a purchasable consultancy contract.",
+  "falsifier": "Eligibility and procurement rules prohibit relevant outside services or no organizations request them.",
+  "missingEvidence": [
+    "Awardee identities, RFPs, local buyer interviews and project reporting contracts."
+  ],
+  "alternativeExplanation": "The funding is directed to immediate loss compensation, not data tooling.",
+  "disposition": "watch",
+  "confidence": 0.92
+}

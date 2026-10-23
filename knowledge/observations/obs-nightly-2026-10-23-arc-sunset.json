@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-23-arc-sunset",
+  "type": "Observation",
+  "capturedAt": "2026-10-23T23:06:54Z",
+  "claim": "The Browser Company announced Arc's December 22 sunset and stopped new Arc registrations on October 22, shifting engineering focus to Dia.",
+  "verifiedFacts": [
+    "Arc's official transition page says new accounts stopped October 22 and desktop Arc will stop working December 22, 2026.",
+    "The company directs existing users to export or migrate tabs, passwords, profiles and bookmarks to Dia.",
+    "The company attributes the decision partly to ongoing browser security maintenance demands."
+  ],
+  "inference": [
+    "Creative product interfaces need lifecycle/export contracts and resilient browser QA.",
+    "Consultancy implication: browser lifecycle and portability audit for client-facing interactive web experiences.",
+    "Project disposition: PRODUCTIZE for MelodicBloom/shader-gallery browser compatibility proof, not a reason to rebuild Arc."
+  ],
+  "significance": "A notable browser discontinuation creates a concrete migration deadline and demonstrates product lifecycle risk.",
+  "confidence": 0.98,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-23-arc-sunset"
+  ],
+  "actorRefs": [
+    "builder:the-browser-company"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-gallery",
+    "qt314wink/melodyfire"
+  ],
+  "assumptions": [
+    "Some client workflows rely on Arc-specific features; none verified for the user's repositories."
+  ],
+  "knownLimitations": [
+    "No verified local Arc dependency or migration requirement.",
+    "No independent comparative Dia security audit."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

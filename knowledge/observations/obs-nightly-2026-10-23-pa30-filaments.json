@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-23-pa30-filaments",
+  "type": "Observation",
+  "capturedAt": "2026-10-23T23:06:54Z",
+  "claim": "On October 23 NSF reported Gemini North observations showing Pa 30's apparent smooth supernova filaments are clumpy and knotted.",
+  "verifiedFacts": [
+    "NSF's October 23 research update reports Gemini North observations of Pa 30, likely associated with a supernova witnessed in 1181.",
+    "The observations resolve radial filaments into clumps and knots; researchers suggest environmental temperature or density variations may contribute.",
+    "NSF identifies an October Astrophysical Journal publication, but the causal mechanism remains unresolved."
+  ],
+  "inference": [
+    "This is an excellent example of higher-resolution evidence overturning an attractive smooth visual simplification.",
+    "Consultancy implication: build a science communication specimen distinguishing observed structure from hypothesized physics.",
+    "Project disposition: REFERENCE-ONLY for shader-gallery until calibrated mechanism data is obtained."
+  ],
+  "significance": "A surprise scientific result links historical records, instrument resolution and uncertainty-aware scientific visualization.",
+  "confidence": 0.96,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-23-pa30-filaments"
+  ],
+  "actorRefs": [
+    "researcher:gemini-north-team"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-gallery",
+    "qt314wink/shader-grammar"
+  ],
+  "assumptions": [
+    "A visual demo can communicate morphology without implying physically accurate simulation."
+  ],
+  "knownLimitations": [
+    "Institutional summary rather than independent paper replication; mechanism is unknown."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}
