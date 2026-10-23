@@ -1,0 +1,1487 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly-2026-10-23",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-10-21T23:06:54Z",
+      "to": "2026-10-23T23:06:54Z"
+    },
+    "newObservations": [
+      "obs:nightly-2026-10-23-containment",
+      "obs:nightly-2026-10-23-arc-sunset",
+      "obs:nightly-2026-10-23-clinical-contracts",
+      "obs:nightly-2026-10-23-vermont-restoration",
+      "obs:nightly-2026-10-23-pa30-filaments"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [
+      "Containment is a testable boundary, not a prompt promise",
+      "Enterprise data licensing validates buyer behavior but not transferable clinical expertise",
+      "Higher-resolution evidence can invalidate appealing design simplifications"
+    ],
+    "newRelationships": [
+      "rel:nightly-2026-10-23-containment",
+      "rel:nightly-2026-10-23-arc-sunset",
+      "rel:nightly-2026-10-23-clinical-contracts",
+      "rel:nightly-2026-10-23-vermont-restoration",
+      "rel:nightly-2026-10-23-pa30-filaments"
+    ],
+    "contradictions": [
+      "No demonstrated local Arc dependency or security exposure.",
+      "Pathos financing is distinct from contracted Tempus payments and is not a consultancy sale."
+    ],
+    "opportunities": [
+      "Agent Boundary & Receipt Audit",
+      "Browser Continuity & Portability Check",
+      "Scientific Evidence Lineage Mapping",
+      "Regenerative Recovery Evidence Map",
+      "Science Mechanism Explainer"
+    ],
+    "proposedExperiments": [
+      "Run a read-only negative-test matrix on agent authorization and receipt boundaries.",
+      "Produce one clearly labeled measured-versus-inferred morphology explainer with no physical accuracy claims."
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "qt314wink/seed-loom",
+        "branch": "proposal/notch-2026-2-authority-reconcile",
+        "allowedPaths": [
+          "docs/",
+          "knowledge/"
+        ],
+        "description": "Compare draft PR #73 and #74 for overlapping Notch mechanism authority; propose no merge until schema and canonical-source boundaries reconciled."
+      },
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/shader-gallery",
+        "branch": "proposal/visual-proof-regression-audit",
+        "allowedPaths": [
+          "docs/",
+          "tests/",
+          "packages/shader-library-v1/"
+        ],
+        "description": "Review merged PR #26 and draft PR #27 against manifest/archive/keyboard/WebGL lifecycle checks."
+      }
+    ],
+    "noChangeReceipts": [
+      "Prior Oct 21-22 signals (Duet, Neo4j, Cosmos, rural housing, Vesuvius, Asymptote, Vectorial) excluded as already observed.",
+      "No verified new purchase for user's consultancy; no merge/closure/archive recommendation.",
+      "Omni-Loom and Kozo Dreams have no verified new default-branch proof in the inspected window."
+    ],
+    "collectionFailures": [
+      "USDA FSA official result surfaced in web search but direct open returned DisabledError; preserve source-access limitation.",
+      "Raw source-body SHA-256 not available from research retrieval; contentHash is null.",
+      "Publication hour unavailable for several date-stamped sources; calendar date within window but exact hour not independently verified.",
+      "No exhaustive historical knowledge graph dedup beyond prior two briefing bundles.",
+      "Issue #24 two-isolated-run proof not yet executed for this candidate bundle."
+    ]
+  },
+  "sources": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-23-containment",
+      "type": "Source",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "publisher": "OpenAI",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-23T23:06:54Z",
+      "sourceClass": "primary",
+      "independenceKey": "openai",
+      "contentHash": null,
+      "title": "Securing our frontier model training environment",
+      "analystNote": "Official date verified as 2026-10-22 or 2026-10-23; publication hour not available. Raw page content hash not captured."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-23-arc-sunset",
+      "type": "Source",
+      "url": "https://arc.net/",
+      "publisher": "The Browser Company",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-23T23:06:54Z",
+      "sourceClass": "primary",
+      "independenceKey": "the-browser-company",
+      "contentHash": null,
+      "title": "A farewell to Arc",
+      "analystNote": "Official date verified as 2026-10-22 or 2026-10-23; publication hour not available. Raw page content hash not captured."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-23-clinical-contracts",
+      "type": "Source",
+      "url": "https://investors.tempus.com/node/10841/html",
+      "publisher": "Tempus AI / SEC Form 8-K",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-23T23:06:54Z",
+      "sourceClass": "regulatory",
+      "independenceKey": "tempus-ai-sec-form-8-k",
+      "contentHash": null,
+      "title": "Tempus 8-K October 23 oncology and neurology contracts",
+      "analystNote": "Official date verified as 2026-10-22 or 2026-10-23; publication hour not available. Raw page content hash not captured."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-23-vermont-restoration",
+      "type": "Source",
+      "url": "https://www.fsa.usda.gov/news-events/news/10-23-2026/usda-announces-expanded-disaster-assistance-farmers-timber-producers",
+      "publisher": "USDA Farm Service Agency",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-23T23:06:54Z",
+      "sourceClass": "official",
+      "independenceKey": "usda-farm-service-agency",
+      "contentHash": null,
+      "title": "USDA expands Vermont farm and timber disaster assistance",
+      "analystNote": "Official date verified as 2026-10-22 or 2026-10-23; publication hour not available. Raw page content hash not captured."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-23-pa30-filaments",
+      "type": "Source",
+      "url": "https://www.nsf.gov/mps/updates/clumps-knots-gas-found-remains-supernova-explosion",
+      "publisher": "US National Science Foundation",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-23T23:06:54Z",
+      "sourceClass": "research",
+      "independenceKey": "us-national-science-foundation",
+      "contentHash": null,
+      "title": "Clumps and knots of gas in supernova remnant Pa 30",
+      "analystNote": "Official date verified as 2026-10-22 or 2026-10-23; publication hour not available. Raw page content hash not captured."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-23-pathos-announcement",
+      "type": "Source",
+      "url": "https://www.pathos.com/pathos-ai-secures-237-million-in-series-e-financing-to-scale-agentic-ai-drug-development-platform-and-advance-oncology-pipeline",
+      "publisher": "Pathos AI",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-23T23:06:54Z",
+      "sourceClass": "primary",
+      "independenceKey": "pathos-ai",
+      "contentHash": null,
+      "title": "Pathos AI secures $237 million Series E",
+      "analystNote": "Issuer announcement corroborates financing; SEC 8-K is independent regulatory evidence for the Tempus contracts, not independent clinical efficacy."
+    }
+  ],
+  "observations": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-23-containment",
+      "type": "Observation",
+      "capturedAt": "2026-10-23T23:06:54Z",
+      "claim": "On October 23, OpenAI documented its resumed frontier training under no-live-internet policy and multi-layered agent containment controls.",
+      "verifiedFacts": [
+        "OpenAI's October 23 technical report says frontier reinforcement-learning training resumed October 1 after security hardening.",
+        "OpenAI reports red-team agents found sandbox escapes and unauthorized cross-boundary communication mechanisms; the account describes patched or mitigated issues.",
+        "OpenAI says frontier training uses an offline cached web environment, with monitoring and layered VM/network isolation."
+      ],
+      "inference": [
+        "Agent governance requires enforcement and negative tests, not just approval receipts.",
+        "Consultancy implication: offer a bounded agent boundary and fail-closed execution audit; no exposure in user repositories is established.",
+        "Project disposition: CORE for qt314wink/seed-loom and MelodicBloom/agent-runtime-control-center."
+      ],
+      "significance": "Direct engineering evidence of limits to sandbox assumptions; strengthens reproducible containment tests for agent tooling.",
+      "confidence": 0.97,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-23-containment"
+      ],
+      "actorRefs": [
+        "provider:openai"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/agent-runtime-control-center"
+      ],
+      "assumptions": [
+        "The containment principles generalize to smaller agent-runner deployments, not the same threat level."
+      ],
+      "knownLimitations": [
+        "Provider self-report; no independent replication; not evidence that the user's runtime is vulnerable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-23-arc-sunset",
+      "type": "Observation",
+      "capturedAt": "2026-10-23T23:06:54Z",
+      "claim": "The Browser Company announced Arc's December 22 sunset and stopped new Arc registrations on October 22, shifting engineering focus to Dia.",
+      "verifiedFacts": [
+        "Arc's official transition page says new accounts stopped October 22 and desktop Arc will stop working December 22, 2026.",
+        "The company directs existing users to export or migrate tabs, passwords, profiles and bookmarks to Dia.",
+        "The company attributes the decision partly to ongoing browser security maintenance demands."
+      ],
+      "inference": [
+        "Creative product interfaces need lifecycle/export contracts and resilient browser QA.",
+        "Consultancy implication: browser lifecycle and portability audit for client-facing interactive web experiences.",
+        "Project disposition: PRODUCTIZE for MelodicBloom/shader-gallery browser compatibility proof, not a reason to rebuild Arc."
+      ],
+      "significance": "A notable browser discontinuation creates a concrete migration deadline and demonstrates product lifecycle risk.",
+      "confidence": 0.98,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-23-arc-sunset"
+      ],
+      "actorRefs": [
+        "builder:the-browser-company"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/shader-gallery",
+        "qt314wink/melodyfire"
+      ],
+      "assumptions": [
+        "Some client workflows rely on Arc-specific features; none verified for the user's repositories."
+      ],
+      "knownLimitations": [
+        "No verified local Arc dependency or migration requirement.",
+        "No independent comparative Dia security audit."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-23-clinical-contracts",
+      "type": "Observation",
+      "capturedAt": "2026-10-23T23:06:54Z",
+      "claim": "Tempus's October 23 SEC filing reports $192.5 million in aggregate contractual cash payments for oncology and neurology data and agentic tools involving BMS and Pathos.",
+      "verifiedFacts": [
+        "Tempus's Form 8-K filed October 23 describes $137.5 million in aggregate fixed payments from BMS under an oncology statement of work.",
+        "An October 22 neurology order provides up to $55 million in payments from Pathos, contingent in part on delivery of up to 500,000 de-identified patient records.",
+        "The filing documents licenses to multimodal datasets, analysis software, and an agentic analysis tool; Pathos separately announced a $237 million Series E."
+      ],
+      "inference": [
+        "This is stronger buyer-behavior evidence than a generic AI launch, but it is a highly regulated specialist market.",
+        "Consultancy implication: provenance and decision-lineage patterns may be reusable for scientific evidence dashboards, not a claim of clinical competence.",
+        "Project disposition: INCUBATE domain-specific evidence mapping atop qt314wink/seed-loom; preserve biomedical regulatory boundaries."
+      ],
+      "significance": "Contractual payment terms provide rare direct evidence of enterprise buying for governed multimodal data and analysis.",
+      "confidence": 0.99,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-23-clinical-contracts",
+        "source:nightly-2026-10-23-pathos-announcement"
+      ],
+      "actorRefs": [
+        "buyer:bristol-myers-squibb"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/project-constellation"
+      ],
+      "assumptions": [
+        "The disclosed contracts will be performed as planned; fees tied to delivery are not yet recognized cash receipts."
+      ],
+      "knownLimitations": [
+        "No independently demonstrated patient outcomes or model efficacy.",
+        "The consultancy is not a medical-device or clinical-trial vendor."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-23-vermont-restoration",
+      "type": "Observation",
+      "capturedAt": "2026-10-23T23:06:54Z",
+      "claim": "On October 23 USDA announced up to $31.7 million in Vermont farm and timber disaster recovery assistance with an October 26–December 31 application window.",
+      "verifiedFacts": [
+        "USDA FSA's October 23 notice says Vermont producers can apply for up to $31.7 million under a state-administered block grant.",
+        "The program addresses qualifying weather-related agricultural, timber, and on-farm infrastructure losses from 2023 and 2024.",
+        "Applications for the state program and reopened Emergency Forest Restoration Program run October 26 through December 31, 2026."
+      ],
+      "inference": [
+        "A bounded ecosystem-recovery evidence map could clarify program eligibility, evidence requirements, and restoration outcomes.",
+        "Consultancy implication: partner-facing impact-reporting design, not a claim that the grant pays consultants.",
+        "Project disposition: INCUBATE regenerative civic dashboard concept in MelodicBloom/project-constellation; Seed Loom retains provenance authority."
+      ],
+      "significance": "A dated, geographically specific public funding action supplies concrete restoration and reporting needs.",
+      "confidence": 0.92,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-23-vermont-restoration"
+      ],
+      "actorRefs": [
+        "funder:usda-fsa"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/project-constellation",
+        "qt314wink/seed-loom"
+      ],
+      "assumptions": [
+        "Potential grantees have budget or permission for outside data visualization; not established."
+      ],
+      "knownLimitations": [
+        "USDA page full open returned a disabled error; the direct official search excerpt supplied the facts.",
+        "Eligibility is Vermont-specific; user is not presumed eligible."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-23-pa30-filaments",
+      "type": "Observation",
+      "capturedAt": "2026-10-23T23:06:54Z",
+      "claim": "On October 23 NSF reported Gemini North observations showing Pa 30's apparent smooth supernova filaments are clumpy and knotted.",
+      "verifiedFacts": [
+        "NSF's October 23 research update reports Gemini North observations of Pa 30, likely associated with a supernova witnessed in 1181.",
+        "The observations resolve radial filaments into clumps and knots; researchers suggest environmental temperature or density variations may contribute.",
+        "NSF identifies an October Astrophysical Journal publication, but the causal mechanism remains unresolved."
+      ],
+      "inference": [
+        "This is an excellent example of higher-resolution evidence overturning an attractive smooth visual simplification.",
+        "Consultancy implication: build a science communication specimen distinguishing observed structure from hypothesized physics.",
+        "Project disposition: REFERENCE-ONLY for shader-gallery until calibrated mechanism data is obtained."
+      ],
+      "significance": "A surprise scientific result links historical records, instrument resolution and uncertainty-aware scientific visualization.",
+      "confidence": 0.96,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-23-pa30-filaments"
+      ],
+      "actorRefs": [
+        "researcher:gemini-north-team"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/shader-gallery",
+        "qt314wink/shader-grammar"
+      ],
+      "assumptions": [
+        "A visual demo can communicate morphology without implying physically accurate simulation."
+      ],
+      "knownLimitations": [
+        "Institutional summary rather than independent paper replication; mechanism is unknown."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-23-containment",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-23-containment",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-23-containment",
+      "confidence": 0.97,
+      "evidenceRefs": [
+        "source:nightly-2026-10-23-containment"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-23-arc-sunset",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-23-arc-sunset",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-23-arc-sunset",
+      "confidence": 0.98,
+      "evidenceRefs": [
+        "source:nightly-2026-10-23-arc-sunset"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-23-clinical-contracts",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-23-clinical-contracts",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-23-clinical-contracts",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:nightly-2026-10-23-clinical-contracts"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-23-vermont-restoration",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-23-vermont-restoration",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-23-vermont-restoration",
+      "confidence": 0.92,
+      "evidenceRefs": [
+        "source:nightly-2026-10-23-vermont-restoration"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-23-pa30-filaments",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-23-pa30-filaments",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-23-pa30-filaments",
+      "confidence": 0.96,
+      "evidenceRefs": [
+        "source:nightly-2026-10-23-pa30-filaments"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-23-collect",
+      "runId": "run:nightly-2026-10-23",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-10-23T23:06:54Z",
+      "completedAt": "2026-10-23T23:06:54Z",
+      "inputs": [
+        "source:nightly-2026-10-23-containment",
+        "source:nightly-2026-10-23-arc-sunset",
+        "source:nightly-2026-10-23-clinical-contracts",
+        "source:nightly-2026-10-23-vermont-restoration",
+        "source:nightly-2026-10-23-pa30-filaments",
+        "source:nightly-2026-10-23-pathos-announcement"
+      ],
+      "outputs": [
+        "six-source-locator-capture"
+      ],
+      "checks": [
+        {
+          "name": "source-date-and-actor-class",
+          "result": "pass",
+          "detail": "Publisher, dated source, actor action and evidence class inspected; raw content hashes unavailable."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate intake only; no accepted Strategy, executed Experiment, Genesis advancement, merge, publication, or external disclosure."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence & Graph Intake",
+        "method": "Live official/research/regulatory source inspection and classification",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-23-vet",
+      "runId": "run:nightly-2026-10-23",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-10-23T23:06:54Z",
+      "completedAt": "2026-10-23T23:06:54Z",
+      "inputs": [
+        "source:nightly-2026-10-23-containment",
+        "source:nightly-2026-10-23-arc-sunset",
+        "source:nightly-2026-10-23-clinical-contracts",
+        "source:nightly-2026-10-23-vermont-restoration",
+        "source:nightly-2026-10-23-pa30-filaments",
+        "source:nightly-2026-10-23-pathos-announcement"
+      ],
+      "outputs": [
+        "five-candidate-source-vetting"
+      ],
+      "checks": [
+        {
+          "name": "source-date-and-actor-class",
+          "result": "pass",
+          "detail": "Publisher, dated source, actor action and evidence class inspected; raw content hashes unavailable."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate intake only; no accepted Strategy, executed Experiment, Genesis advancement, merge, publication, or external disclosure."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence & Graph Intake",
+        "method": "Live official/research/regulatory source inspection and classification",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-23-normalize",
+      "runId": "run:nightly-2026-10-23",
+      "stage": "normalize",
+      "status": "deferred",
+      "startedAt": "2026-10-23T23:06:54Z",
+      "completedAt": "2026-10-23T23:06:54Z",
+      "inputs": [
+        "run:nightly-2026-10-23"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-ingest-and-human-gate",
+          "result": "not-applicable",
+          "detail": "Stage is not promoted by this daily delivery; canonical executable and approval gates control transitions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate intake only; no accepted Strategy, executed Experiment, Genesis advancement, merge, publication, or external disclosure.",
+          "Canonical validation and source-content provenance required before downstream promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence & Graph Intake",
+        "method": "Candidate construction; canonical stage transition deferred to Seed Loom ingest and human review",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-23-observe",
+      "runId": "run:nightly-2026-10-23",
+      "stage": "observe",
+      "status": "deferred",
+      "startedAt": "2026-10-23T23:06:54Z",
+      "completedAt": "2026-10-23T23:06:54Z",
+      "inputs": [
+        "run:nightly-2026-10-23"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-ingest-and-human-gate",
+          "result": "not-applicable",
+          "detail": "Stage is not promoted by this daily delivery; canonical executable and approval gates control transitions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate intake only; no accepted Strategy, executed Experiment, Genesis advancement, merge, publication, or external disclosure.",
+          "Canonical validation and source-content provenance required before downstream promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence & Graph Intake",
+        "method": "Candidate construction; canonical stage transition deferred to Seed Loom ingest and human review",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-23-inquire",
+      "runId": "run:nightly-2026-10-23",
+      "stage": "inquire",
+      "status": "deferred",
+      "startedAt": "2026-10-23T23:06:54Z",
+      "completedAt": "2026-10-23T23:06:54Z",
+      "inputs": [
+        "run:nightly-2026-10-23"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-ingest-and-human-gate",
+          "result": "not-applicable",
+          "detail": "Stage is not promoted by this daily delivery; canonical executable and approval gates control transitions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate intake only; no accepted Strategy, executed Experiment, Genesis advancement, merge, publication, or external disclosure.",
+          "Canonical validation and source-content provenance required before downstream promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence & Graph Intake",
+        "method": "Candidate construction; canonical stage transition deferred to Seed Loom ingest and human review",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-23-interpret",
+      "runId": "run:nightly-2026-10-23",
+      "stage": "interpret",
+      "status": "deferred",
+      "startedAt": "2026-10-23T23:06:54Z",
+      "completedAt": "2026-10-23T23:06:54Z",
+      "inputs": [
+        "run:nightly-2026-10-23"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-ingest-and-human-gate",
+          "result": "not-applicable",
+          "detail": "Stage is not promoted by this daily delivery; canonical executable and approval gates control transitions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate intake only; no accepted Strategy, executed Experiment, Genesis advancement, merge, publication, or external disclosure.",
+          "Canonical validation and source-content provenance required before downstream promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence & Graph Intake",
+        "method": "Candidate construction; canonical stage transition deferred to Seed Loom ingest and human review",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-23-relate",
+      "runId": "run:nightly-2026-10-23",
+      "stage": "relate",
+      "status": "deferred",
+      "startedAt": "2026-10-23T23:06:54Z",
+      "completedAt": "2026-10-23T23:06:54Z",
+      "inputs": [
+        "run:nightly-2026-10-23"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-ingest-and-human-gate",
+          "result": "not-applicable",
+          "detail": "Stage is not promoted by this daily delivery; canonical executable and approval gates control transitions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate intake only; no accepted Strategy, executed Experiment, Genesis advancement, merge, publication, or external disclosure.",
+          "Canonical validation and source-content provenance required before downstream promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence & Graph Intake",
+        "method": "Candidate construction; canonical stage transition deferred to Seed Loom ingest and human review",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-23-pattern",
+      "runId": "run:nightly-2026-10-23",
+      "stage": "pattern",
+      "status": "deferred",
+      "startedAt": "2026-10-23T23:06:54Z",
+      "completedAt": "2026-10-23T23:06:54Z",
+      "inputs": [
+        "run:nightly-2026-10-23"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-ingest-and-human-gate",
+          "result": "not-applicable",
+          "detail": "Stage is not promoted by this daily delivery; canonical executable and approval gates control transitions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate intake only; no accepted Strategy, executed Experiment, Genesis advancement, merge, publication, or external disclosure.",
+          "Canonical validation and source-content provenance required before downstream promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence & Graph Intake",
+        "method": "Candidate construction; canonical stage transition deferred to Seed Loom ingest and human review",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-23-opportunity",
+      "runId": "run:nightly-2026-10-23",
+      "stage": "opportunity",
+      "status": "deferred",
+      "startedAt": "2026-10-23T23:06:54Z",
+      "completedAt": "2026-10-23T23:06:54Z",
+      "inputs": [
+        "run:nightly-2026-10-23"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-ingest-and-human-gate",
+          "result": "not-applicable",
+          "detail": "Stage is not promoted by this daily delivery; canonical executable and approval gates control transitions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate intake only; no accepted Strategy, executed Experiment, Genesis advancement, merge, publication, or external disclosure.",
+          "Canonical validation and source-content provenance required before downstream promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence & Graph Intake",
+        "method": "Candidate construction; canonical stage transition deferred to Seed Loom ingest and human review",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-23-strategy",
+      "runId": "run:nightly-2026-10-23",
+      "stage": "strategy",
+      "status": "deferred",
+      "startedAt": "2026-10-23T23:06:54Z",
+      "completedAt": "2026-10-23T23:06:54Z",
+      "inputs": [
+        "run:nightly-2026-10-23"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-ingest-and-human-gate",
+          "result": "not-applicable",
+          "detail": "Stage is not promoted by this daily delivery; canonical executable and approval gates control transitions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate intake only; no accepted Strategy, executed Experiment, Genesis advancement, merge, publication, or external disclosure.",
+          "Canonical validation and source-content provenance required before downstream promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence & Graph Intake",
+        "method": "Candidate construction; canonical stage transition deferred to Seed Loom ingest and human review",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-23-experiment",
+      "runId": "run:nightly-2026-10-23",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-10-23T23:06:54Z",
+      "completedAt": "2026-10-23T23:06:54Z",
+      "inputs": [
+        "run:nightly-2026-10-23"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-ingest-and-human-gate",
+          "result": "not-applicable",
+          "detail": "Stage is not promoted by this daily delivery; canonical executable and approval gates control transitions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate intake only; no accepted Strategy, executed Experiment, Genesis advancement, merge, publication, or external disclosure.",
+          "Canonical validation and source-content provenance required before downstream promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence & Graph Intake",
+        "method": "Candidate construction; canonical stage transition deferred to Seed Loom ingest and human review",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-23-genesis",
+      "runId": "run:nightly-2026-10-23",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-10-23T23:06:54Z",
+      "completedAt": "2026-10-23T23:06:54Z",
+      "inputs": [
+        "run:nightly-2026-10-23"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-ingest-and-human-gate",
+          "result": "not-applicable",
+          "detail": "Stage is not promoted by this daily delivery; canonical executable and approval gates control transitions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate intake only; no accepted Strategy, executed Experiment, Genesis advancement, merge, publication, or external disclosure.",
+          "Canonical validation and source-content provenance required before downstream promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence & Graph Intake",
+        "method": "Candidate construction; canonical stage transition deferred to Seed Loom ingest and human review",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-23-publish",
+      "runId": "run:nightly-2026-10-23",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-10-23T23:06:54Z",
+      "completedAt": "2026-10-23T23:06:54Z",
+      "inputs": [
+        "run:nightly-2026-10-23"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-ingest-and-human-gate",
+          "result": "not-applicable",
+          "detail": "Stage is not promoted by this daily delivery; canonical executable and approval gates control transitions."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate intake only; no accepted Strategy, executed Experiment, Genesis advancement, merge, publication, or external disclosure.",
+          "Canonical validation and source-content provenance required before downstream promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence & Graph Intake",
+        "method": "Candidate construction; canonical stage transition deferred to Seed Loom ingest and human review",
+        "inputHashes": [
+          "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:nightly-2026-10-23-containment",
+      "observationId": "obs:nightly-2026-10-23-containment",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "On October 23, OpenAI documented its resumed frontier training under no-live-internet policy and multi-layered agent containment controls.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-23-containment"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Provider publicly documented a pause, resumed training, implemented network restrictions and disclosed mitigations.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-23-containment"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Enforcement boundaries can fail through unexpected indirect channels",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Agent platform operators and security reviewers",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Sandboxed runners, existing IAM and manual approval gates",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Layered VM, network, monitoring, and negative tests",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "That GitHub-hosted agent jobs face equivalent threats and require equivalent controls.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Targeted threat modeling finds no untrusted code or cross-boundary execution in the proposed service.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent reproduction and actual repository runner threat model.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "This may be specialized frontier training infrastructure rather than an SME buying signal.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "That GitHub-hosted agent jobs face equivalent threats and require equivalent controls.",
+      "falsifier": "Targeted threat modeling finds no untrusted code or cross-boundary execution in the proposed service.",
+      "missingEvidence": [
+        "Independent reproduction and actual repository runner threat model."
+      ],
+      "alternativeExplanation": "This may be specialized frontier training infrastructure rather than an SME buying signal.",
+      "disposition": "experiment",
+      "confidence": 0.97
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-23-arc-sunset",
+      "observationId": "obs:nightly-2026-10-23-arc-sunset",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "The Browser Company announced Arc's December 22 sunset and stopped new Arc registrations on October 22, shifting engineering focus to Dia.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-23-arc-sunset"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Browser builder announced a sunset and disabled new registrations.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-23-arc-sunset"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Platform dependency and data portability risk",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Teams whose workflow depends on Arc",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Chrome, Firefox, Edge, Dia",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Account deactivation and product discontinuation",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Arc discontinuation directly breaks existing portfolio experiences.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Cross-browser test matrix shows no Arc-specific assumptions or failures.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Real browser usage and dependency inventory.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Vendor consolidation may not affect ordinary standards-compliant websites.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Arc discontinuation directly breaks existing portfolio experiences.",
+      "falsifier": "Cross-browser test matrix shows no Arc-specific assumptions or failures.",
+      "missingEvidence": [
+        "Real browser usage and dependency inventory."
+      ],
+      "alternativeExplanation": "Vendor consolidation may not affect ordinary standards-compliant websites.",
+      "disposition": "watch",
+      "confidence": 0.98
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-23-clinical-contracts",
+      "observationId": "obs:nightly-2026-10-23-clinical-contracts",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Tempus's October 23 SEC filing reports $192.5 million in aggregate contractual cash payments for oncology and neurology data and agentic tools involving BMS and Pathos.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-23-clinical-contracts"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Buyer and suppliers executed contractual data and tool licenses; investor led financing.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-23-clinical-contracts"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Fragmented clinical evidence and trial-design uncertainty",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Drug developers and researchers",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Internal clinical data teams and licensed RWD platforms",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Longitudinal multimodal data plus agentic analysis licensing",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Enterprise biomedical procurement validates general-purpose consultancy pricing.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Buyer research shows such deals depend on proprietary datasets and regulatory assets not transferable to a general consultancy.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Actual delivery, outcomes, independent efficacy, procurement terms in adjacent sectors.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "The purchase is primarily access to scarce datasets and industry relationships.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Enterprise biomedical procurement validates general-purpose consultancy pricing.",
+      "falsifier": "Buyer research shows such deals depend on proprietary datasets and regulatory assets not transferable to a general consultancy.",
+      "missingEvidence": [
+        "Actual delivery, outcomes, independent efficacy, procurement terms in adjacent sectors."
+      ],
+      "alternativeExplanation": "The purchase is primarily access to scarce datasets and industry relationships.",
+      "disposition": "watch",
+      "confidence": 0.99
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-23-vermont-restoration",
+      "observationId": "obs:nightly-2026-10-23-vermont-restoration",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "On October 23 USDA announced up to $31.7 million in Vermont farm and timber disaster recovery assistance with an October 26–December 31 application window.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-23-vermont-restoration"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Federal agency announced state block-grant and restoration application periods.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-23-vermont-restoration"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Complex recovery evidence and restoration accountability",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Eligible Vermont farms and timber producers",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "State grant portals, extension agents and existing GIS",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "State-administered disaster assistance and forest restoration cost share",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "A funding announcement implies a purchasable consultancy contract.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Eligibility and procurement rules prohibit relevant outside services or no organizations request them.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Awardee identities, RFPs, local buyer interviews and project reporting contracts.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "The funding is directed to immediate loss compensation, not data tooling.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "A funding announcement implies a purchasable consultancy contract.",
+      "falsifier": "Eligibility and procurement rules prohibit relevant outside services or no organizations request them.",
+      "missingEvidence": [
+        "Awardee identities, RFPs, local buyer interviews and project reporting contracts."
+      ],
+      "alternativeExplanation": "The funding is directed to immediate loss compensation, not data tooling.",
+      "disposition": "watch",
+      "confidence": 0.92
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-23-pa30-filaments",
+      "observationId": "obs:nightly-2026-10-23-pa30-filaments",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "On October 23 NSF reported Gemini North observations showing Pa 30's apparent smooth supernova filaments are clumpy and knotted.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-23-pa30-filaments"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Researchers published observations; NSF released an institutional research update.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-23-pa30-filaments"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Simplified visuals obscure measurement uncertainty",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Astronomy educators and scientific communicators",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Telescope imagery and conventional explanatory animations",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Instrument resolution and morphology inference",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "A visually compelling filament shader can claim to explain the astrophysical cause.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Measured morphology cannot be represented without misleading viewers.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Raw imaging data, paper methods and calibrated volumetric reconstructions.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Improved resolution reveals preexisting complexity rather than a new physical process.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "A visually compelling filament shader can claim to explain the astrophysical cause.",
+      "falsifier": "Measured morphology cannot be represented without misleading viewers.",
+      "missingEvidence": [
+        "Raw imaging data, paper methods and calibrated volumetric reconstructions."
+      ],
+      "alternativeExplanation": "Improved resolution reveals preexisting complexity rather than a new physical process.",
+      "disposition": "watch",
+      "confidence": 0.96
+    }
+  ],
+  "advisory": {
+    "obs:nightly-2026-10-23-containment": {
+      "consultancyImplications": "Agent Boundary & Receipt Audit. Consultancy implication: offer a bounded agent boundary and fail-closed execution audit; no exposure in user repositories is established.",
+      "projectDispositionImplications": {
+        "classification": "CORE",
+        "repositories": [
+          "qt314wink/seed-loom",
+          "MelodicBloom/agent-runtime-control-center"
+        ]
+      },
+      "actorBehavior": "Provider publicly documented a pause, resumed training, implemented network restrictions and disclosed mitigations.",
+      "sourceClass": "primary",
+      "thesisEffect": "refines",
+      "clientProblem": "Enforcement boundaries can fail through unexpected indirect channels",
+      "assumptions": [
+        "The containment principles generalize to smaller agent-runner deployments, not the same threat level."
+      ],
+      "knownLimitations": [
+        "Provider self-report; no independent replication; not evidence that the user's runtime is vulnerable."
+      ],
+      "counterevidence": "This may be specialized frontier training infrastructure rather than an SME buying signal.",
+      "confidence": 0.97,
+      "approvalState": "candidate",
+      "socraticAssessmentId": "socratic:nightly-2026-10-23-containment"
+    },
+    "obs:nightly-2026-10-23-arc-sunset": {
+      "consultancyImplications": "Browser Continuity & Portability Check. Consultancy implication: browser lifecycle and portability audit for client-facing interactive web experiences.",
+      "projectDispositionImplications": {
+        "classification": "PRODUCTIZE",
+        "repositories": [
+          "MelodicBloom/shader-gallery",
+          "qt314wink/melodyfire"
+        ]
+      },
+      "actorBehavior": "Browser builder announced a sunset and disabled new registrations.",
+      "sourceClass": "primary",
+      "thesisEffect": "refines",
+      "clientProblem": "Platform dependency and data portability risk",
+      "assumptions": [
+        "Some client workflows rely on Arc-specific features; none verified for the user's repositories."
+      ],
+      "knownLimitations": [
+        "No verified local Arc dependency or migration requirement.",
+        "No independent comparative Dia security audit."
+      ],
+      "counterevidence": "Vendor consolidation may not affect ordinary standards-compliant websites.",
+      "confidence": 0.98,
+      "approvalState": "candidate",
+      "socraticAssessmentId": "socratic:nightly-2026-10-23-arc-sunset"
+    },
+    "obs:nightly-2026-10-23-clinical-contracts": {
+      "consultancyImplications": "Scientific Evidence Lineage Mapping. Consultancy implication: provenance and decision-lineage patterns may be reusable for scientific evidence dashboards, not a claim of clinical competence.",
+      "projectDispositionImplications": {
+        "classification": "INCUBATE",
+        "repositories": [
+          "qt314wink/seed-loom",
+          "MelodicBloom/project-constellation"
+        ]
+      },
+      "actorBehavior": "Buyer and suppliers executed contractual data and tool licenses; investor led financing.",
+      "sourceClass": "regulatory",
+      "thesisEffect": "refines",
+      "clientProblem": "Fragmented clinical evidence and trial-design uncertainty",
+      "assumptions": [
+        "The disclosed contracts will be performed as planned; fees tied to delivery are not yet recognized cash receipts."
+      ],
+      "knownLimitations": [
+        "No independently demonstrated patient outcomes or model efficacy.",
+        "The consultancy is not a medical-device or clinical-trial vendor."
+      ],
+      "counterevidence": "The purchase is primarily access to scarce datasets and industry relationships.",
+      "confidence": 0.99,
+      "approvalState": "candidate",
+      "socraticAssessmentId": "socratic:nightly-2026-10-23-clinical-contracts"
+    },
+    "obs:nightly-2026-10-23-vermont-restoration": {
+      "consultancyImplications": "Regenerative Recovery Evidence Map. Consultancy implication: partner-facing impact-reporting design, not a claim that the grant pays consultants.",
+      "projectDispositionImplications": {
+        "classification": "INCUBATE",
+        "repositories": [
+          "MelodicBloom/project-constellation",
+          "qt314wink/seed-loom"
+        ]
+      },
+      "actorBehavior": "Federal agency announced state block-grant and restoration application periods.",
+      "sourceClass": "official",
+      "thesisEffect": "reinforces",
+      "clientProblem": "Complex recovery evidence and restoration accountability",
+      "assumptions": [
+        "Potential grantees have budget or permission for outside data visualization; not established."
+      ],
+      "knownLimitations": [
+        "USDA page full open returned a disabled error; the direct official search excerpt supplied the facts.",
+        "Eligibility is Vermont-specific; user is not presumed eligible."
+      ],
+      "counterevidence": "The funding is directed to immediate loss compensation, not data tooling.",
+      "confidence": 0.92,
+      "approvalState": "candidate",
+      "socraticAssessmentId": "socratic:nightly-2026-10-23-vermont-restoration"
+    },
+    "obs:nightly-2026-10-23-pa30-filaments": {
+      "consultancyImplications": "Scientific Mechanism Explainer (research specimen). Consultancy implication: build a science communication specimen distinguishing observed structure from hypothesized physics.",
+      "projectDispositionImplications": {
+        "classification": "REFERENCE-ONLY",
+        "repositories": [
+          "MelodicBloom/shader-gallery",
+          "qt314wink/shader-grammar"
+        ]
+      },
+      "actorBehavior": "Researchers published observations; NSF released an institutional research update.",
+      "sourceClass": "research",
+      "thesisEffect": "reinforces",
+      "clientProblem": "Simplified visuals obscure measurement uncertainty",
+      "assumptions": [
+        "A visual demo can communicate morphology without implying physically accurate simulation."
+      ],
+      "knownLimitations": [
+        "Institutional summary rather than independent paper replication; mechanism is unknown."
+      ],
+      "counterevidence": "Improved resolution reveals preexisting complexity rather than a new physical process.",
+      "confidence": 0.96,
+      "approvalState": "candidate",
+      "socraticAssessmentId": "socratic:nightly-2026-10-23-pa30-filaments"
+    }
+  }
+}
