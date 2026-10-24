@@ -1,0 +1,1439 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly-2026-10-24",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-10-22T23:04:45Z",
+      "to": "2026-10-24T23:04:45Z"
+    },
+    "newObservations": [
+      "obs:nightly-2026-10-24-zoom-onyx",
+      "obs:nightly-2026-10-24-copilot-client-metrics",
+      "obs:nightly-2026-10-24-mos2-strain",
+      "obs:nightly-2026-10-24-helium-critical",
+      "obs:nightly-2026-10-24-creative-randomness"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [
+      "Enterprise context infrastructure is being acquired while usage measurement becomes cross-harness.",
+      "Mechanism claims require measured validation and explicit source age.",
+      "Creative divergence and governed acceptance are different operating modes."
+    ],
+    "newRelationships": [
+      "rel:nightly-2026-10-24-zoom-onyx",
+      "rel:nightly-2026-10-24-copilot-client-metrics",
+      "rel:nightly-2026-10-24-mos2-strain",
+      "rel:nightly-2026-10-24-helium-critical",
+      "rel:nightly-2026-10-24-creative-randomness"
+    ],
+    "contradictions": [
+      "University at Buffalo October 23 explainer describes an August study, not an October study publication.",
+      "Vendor adoption numbers for Onyx are not independently verified.",
+      "Copilot client IDs are best-effort and not verified agent identities."
+    ],
+    "opportunities": [
+      "Agent context provenance and source-entitlement audit",
+      "Cross-harness usage and provenance gap audit",
+      "Mechanism-to-measurement visual explainer",
+      "Critical-materials dependency and evidence map",
+      "Bounded generative divergence plus evidence review sprint"
+    ],
+    "proposedExperiments": [
+      "Run a read-only agent source-entitlement/trace comparison against existing fixtures with ten tasks and stop on any unauthorized access.",
+      "Compare two creative ideation protocols using blinded human evaluation of five variants; no client data."
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "qt314wink/seed-loom",
+        "branch": "proposal/issue-24-bundle-specific-proof",
+        "allowedPaths": [
+          ".github/workflows/nightly-intake-proof.yml"
+        ],
+        "description": "Only after separate approval, parameterize proof workflow to select an explicit reviewed bundle path; do not modify schemas."
+      },
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/shader-gallery",
+        "branch": "proposal/radial-bloom-evidence-audit",
+        "allowedPaths": [
+          "docs/",
+          "tests/",
+          "packages/shader-library-v1/"
+        ],
+        "description": "Read-only archive/manifest/WebGL lifecycle regression review of merged radial bloom specimen before any fix."
+      }
+    ],
+    "noChangeReceipts": [
+      "No overlap with Oct 20-23 nightly observations about Anthropic Duet, Neo4j Context Engine, Cosmos, OpenAI containment, Arc sunset, Tempus contracts, Vermont recovery or Pa 30.",
+      "No direct consultancy purchase or outreach verified.",
+      "Omni-Loom, Kozo Dreams and Observation Ad Pipeline have no verified new default-branch delivery in the inspected period."
+    ],
+    "collectionFailures": [
+      "Exact publication hour unavailable for date-stamped sources; all five carry October 23 publisher date.",
+      "Raw source-body SHA-256 unavailable; contentHash null, GitHub authority blob SHAs available.",
+      "Historical knowledge graph deduplication beyond accessible previous nightly bundles is incomplete.",
+      "No local GitHub clone due DNS resolution failure; canonical ingest must use verified GitHub Actions bridge.",
+      "Issue #24 two-isolated-execution proof not executed; workflow defaults to October 1 unless input path supplied.",
+      "University at Buffalo article describes August ACS Nano study; original paper not fully inspected.",
+      "Live repository PR/CI review coverage partial; commit metadata and issue summaries verified, not every check."
+    ]
+  },
+  "sources": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-24-zoom-onyx",
+      "type": "Source",
+      "url": "https://news.zoom.com/zoom-acquires-onyx-adding-open-source-enterprise-knowledge-search-to-zoom-ai-services/",
+      "publisher": "Zoom",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-24T23:04:45Z",
+      "sourceClass": "primary",
+      "independenceKey": "zoom",
+      "contentHash": null,
+      "title": "Zoom acquires Onyx",
+      "analystNote": "Published on October 23, 2026 according to publisher; exact hour and raw page-body SHA-256 unavailable. Original study date may predate briefing."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-24-copilot-client-metrics",
+      "type": "Source",
+      "url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/",
+      "publisher": "GitHub",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-24T23:04:45Z",
+      "sourceClass": "primary",
+      "independenceKey": "github",
+      "contentHash": null,
+      "title": "Copilot usage metrics API adds totals_by_client",
+      "analystNote": "Published on October 23, 2026 according to publisher; exact hour and raw page-body SHA-256 unavailable. Original study date may predate briefing."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-24-mos2-strain",
+      "type": "Source",
+      "url": "https://www.buffalo.edu/provost/admin-units.host.html/content/shared/engineering/home/articles/news-articles/2026/new-study-identifies-challenge-and-opportunity-in-2d-semiconductors.detail.html",
+      "publisher": "University at Buffalo",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-24T23:04:45Z",
+      "sourceClass": "research",
+      "independenceKey": "university-at-buffalo",
+      "contentHash": null,
+      "title": "Strain-driven anisotropy in MoS2 devices",
+      "analystNote": "Published on October 23, 2026 according to publisher; exact hour and raw page-body SHA-256 unavailable. Original study date may predate briefing."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-24-helium-critical",
+      "type": "Source",
+      "url": "https://www.energy.gov/articles/energy-department-designates-helium-critical-material-strengthen-american-manufacturing",
+      "publisher": "US Department of Energy",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-24T23:04:45Z",
+      "sourceClass": "official",
+      "independenceKey": "us-department-of-energy",
+      "contentHash": null,
+      "title": "DOE designates helium a critical material",
+      "analystNote": "Published on October 23, 2026 according to publisher; exact hour and raw page-body SHA-256 unavailable. Original study date may predate briefing."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-24-creative-randomness",
+      "type": "Source",
+      "url": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
+      "publisher": "MIT News",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-24T23:04:45Z",
+      "sourceClass": "research",
+      "independenceKey": "mit-news",
+      "contentHash": null,
+      "title": "History of randomness and creative AI",
+      "analystNote": "Published on October 23, 2026 according to publisher; exact hour and raw page-body SHA-256 unavailable. Original study date may predate briefing."
+    }
+  ],
+  "observations": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-24-zoom-onyx",
+      "type": "Observation",
+      "capturedAt": "2026-10-24T23:04:45Z",
+      "claim": "On October 23 Zoom announced its acquisition of Onyx, an open-source enterprise knowledge search provider.",
+      "verifiedFacts": [
+        "Zoom announced acquisition of Onyx on October 23, 2026.",
+        "Zoom says Onyx connects to more than 50 enterprise applications and remains open-source, model-agnostic, and self-hostable.",
+        "Zoom says Onyx has more than 30,000 developers and processes over one million queries weekly; these figures are vendor-reported."
+      ],
+      "inference": [
+        "Enterprise buyers are acquiring context infrastructure rather than building every integration internally.",
+        "Consultancy: offer source-entitlement and evidence-lineage assessment, not another search platform.",
+        "Project disposition: CORE Seed Loom; CONSOLIDATE adapter boundaries with Agent Runtime Control Center."
+      ],
+      "significance": "Documented acquisition is stronger buyer behavior than a product announcement, although price and independent retention are unknown.",
+      "confidence": 0.94,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-24-zoom-onyx"
+      ],
+      "actorRefs": [
+        "buyer:zoom"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/agent-runtime-control-center"
+      ],
+      "assumptions": [
+        "Onyx adoption claims are representative and integrations are durable."
+      ],
+      "knownLimitations": [
+        "Purchase consideration undisclosed; usage metrics self-reported; no independent integration QA."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-24-copilot-client-metrics",
+      "type": "Observation",
+      "capturedAt": "2026-10-24T23:04:45Z",
+      "claim": "On October 23 GitHub added cross-client Copilot usage breakdowns including Codex and Claude Code to its metrics API.",
+      "verifiedFacts": [
+        "GitHub introduced totals_by_client for 1-day and 28-day organization and enterprise reports.",
+        "The API reports client, request count, session count, tokens, and model selection mode.",
+        "GitHub cautions that request counts are model calls, not prompts, and client identifiers are best-effort rather than verified identities."
+      ],
+      "inference": [
+        "Multi-harness cost and usage reconciliation is increasingly possible without duplicating telemetry authority.",
+        "Consultancy: provide cost/trace coverage audit with explicit identity confidence.",
+        "Project disposition: CORE Seed Loom observability; REFERENCE-ONLY external Copilot metrics as evidence input."
+      ],
+      "significance": "An official API change can reduce observability gaps but does not replace provenance or action receipts.",
+      "confidence": 0.98,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-24-copilot-client-metrics"
+      ],
+      "actorRefs": [
+        "provider:github"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/agent-runtime-control-center"
+      ],
+      "assumptions": [
+        "The user's plans and roles grant access to these metrics; not verified."
+      ],
+      "knownLimitations": [
+        "Enterprise/organization permissions required; not equivalent to full agent action trace.",
+        "Client identity is not authenticated by the metric field."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-24-mos2-strain",
+      "type": "Observation",
+      "capturedAt": "2026-10-24T23:04:45Z",
+      "claim": "On October 23 University at Buffalo explained previously published MoS2 research showing fabrication strain can alter directional electron transport.",
+      "verifiedFacts": [
+        "University at Buffalo published its explanation on October 23, 2026; the underlying ACS Nano study appeared in August.",
+        "The university describes differential cooling contraction between MoS2 and silicon dioxide as a source of residual strain.",
+        "Researchers report that strain can break expected symmetry and affect device orientation-dependent electrical behavior."
+      ],
+      "inference": [
+        "A mechanism-first interactive explainer could distinguish nominal symmetry from fabrication-induced anisotropy.",
+        "Consultancy: measured-versus-modeled scientific visualization for materials teams.",
+        "Project disposition: CORE Shader Grammar; INCUBATE gallery specimen; REFERENCE-ONLY Omni-Loom until fabrication constraints align."
+      ],
+      "significance": "New institutional explanation of an older peer-reviewed study is a relevant mechanism signal, not a newly published October discovery.",
+      "confidence": 0.89,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-24-mos2-strain"
+      ],
+      "actorRefs": [
+        "researcher:university-at-buffalo"
+      ],
+      "affectedRepositories": [
+        "qt314wink/shader-grammar",
+        "MelodicBloom/shader-gallery",
+        "qt314wink/omni-loom"
+      ],
+      "assumptions": [
+        "Accessible quantitative measurements exist for an honest interactive reproduction."
+      ],
+      "knownLimitations": [
+        "Primary ACS Nano paper not fully inspected; study was published in August, not in this 48-hour window."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-24-helium-critical",
+      "type": "Observation",
+      "capturedAt": "2026-10-24T23:04:45Z",
+      "claim": "On October 23 the US Department of Energy designated helium a critical material under the Energy Act of 2020.",
+      "verifiedFacts": [
+        "DOE announced the helium critical-material designation October 23, 2026.",
+        "DOE cites helium's importance to semiconductor manufacturing and exposure to supply risks.",
+        "DOE points to domestic resources but limited refining capacity and lengthy permitting timelines."
+      ],
+      "inference": [
+        "Supply-chain provenance and policy change monitoring can support technical client briefings without speculative procurement claims.",
+        "Consultancy: critical-input dependency mapping for hardware and scientific production.",
+        "Project disposition: CORE Seed Loom policy lineage; INCUBATE Project Constellation visualization only."
+      ],
+      "significance": "A formal policy designation changes the classification of a material; it does not itself fund a project or prove shortage severity.",
+      "confidence": 0.97,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-24-helium-critical"
+      ],
+      "actorRefs": [
+        "regulator:us-doe"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/project-constellation"
+      ],
+      "assumptions": [
+        "Relevant client processes depend materially on helium availability."
+      ],
+      "knownLimitations": [
+        "No quantified client exposure or contract impact verified.",
+        "Designation is not an open grant or award."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-24-creative-randomness",
+      "type": "Observation",
+      "capturedAt": "2026-10-24T23:04:45Z",
+      "claim": "On October 23 MIT published a historical research interview examining tradeoffs between creative randomness and predictability in AI.",
+      "verifiedFacts": [
+        "MIT published an interview with historian Benjamin Lindquist on October 23, 2026.",
+        "The discussion summarizes a paper in Past and Present about historical engineering choices to inject randomness into AI.",
+        "The author argues creativity and predictability may involve tradeoffs; this is a scholarly interpretation, not a measured law."
+      ],
+      "inference": [
+        "Creative agent systems should separate exploratory divergence from evidence-governed selection and publication.",
+        "Consultancy: reproducible divergent-ideation and evaluation protocol for creative teams.",
+        "Project disposition: CORE Seed Loom approval boundary; PRODUCTIZE Observation Ad Pipeline's bounded variation testing."
+      ],
+      "significance": "The historical analysis challenges treating stochastic novelty and factual reliability as a single optimization target.",
+      "confidence": 0.88,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-24-creative-randomness"
+      ],
+      "actorRefs": [
+        "researcher:mit"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "qt314wink/shader-grammar",
+        "qt314wink/observation-ad-pipeline"
+      ],
+      "assumptions": [
+        "A two-mode creative workflow improves client outcomes compared with a single mixed mode."
+      ],
+      "knownLimitations": [
+        "Interpretive historical scholarship, not an empirical evaluation of current model creativity.",
+        "No quantified client benefit."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-24-zoom-onyx",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-24-zoom-onyx",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-24-zoom-onyx",
+      "confidence": 0.94,
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-zoom-onyx"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-24-copilot-client-metrics",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-24-copilot-client-metrics",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-24-copilot-client-metrics",
+      "confidence": 0.98,
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-copilot-client-metrics"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-24-mos2-strain",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-24-mos2-strain",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-24-mos2-strain",
+      "confidence": 0.89,
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-mos2-strain"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-24-helium-critical",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-24-helium-critical",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-24-helium-critical",
+      "confidence": 0.97,
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-helium-critical"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-24-creative-randomness",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-24-creative-randomness",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-24-creative-randomness",
+      "confidence": 0.88,
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-creative-randomness"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-24-collect",
+      "runId": "run:nightly-2026-10-24",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-10-24T23:04:45Z",
+      "completedAt": "2026-10-24T23:04:45Z",
+      "inputs": [
+        "https://news.zoom.com/zoom-acquires-onyx-adding-open-source-enterprise-knowledge-search-to-zoom-ai-services/",
+        "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/",
+        "https://www.buffalo.edu/provost/admin-units.host.html/content/shared/engineering/home/articles/news-articles/2026/new-study-identifies-challenge-and-opportunity-in-2d-semiconductors.detail.html",
+        "https://www.energy.gov/articles/energy-department-designates-helium-critical-material-strengthen-american-manufacturing",
+        "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023"
+      ],
+      "outputs": [
+        "source:nightly-2026-10-24-zoom-onyx",
+        "source:nightly-2026-10-24-copilot-client-metrics",
+        "source:nightly-2026-10-24-mos2-strain",
+        "source:nightly-2026-10-24-helium-critical",
+        "source:nightly-2026-10-24-creative-randomness"
+      ],
+      "checks": [
+        {
+          "name": "primary-source-review",
+          "result": "pass",
+          "detail": "Source dates and actor actions checked; source-body hashes unavailable."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research boundary",
+          "Do not promote source-backed candidate records without independent verification."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly consultancy intelligence edge",
+        "method": "official-source inspection and candidate synthesis",
+        "inputHashes": [
+          "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-24-vet",
+      "runId": "run:nightly-2026-10-24",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-10-24T23:04:45Z",
+      "completedAt": "2026-10-24T23:04:45Z",
+      "inputs": [
+        "source:nightly-2026-10-24-zoom-onyx",
+        "source:nightly-2026-10-24-copilot-client-metrics",
+        "source:nightly-2026-10-24-mos2-strain",
+        "source:nightly-2026-10-24-helium-critical",
+        "source:nightly-2026-10-24-creative-randomness"
+      ],
+      "outputs": [
+        "obs:nightly-2026-10-24-zoom-onyx",
+        "obs:nightly-2026-10-24-copilot-client-metrics",
+        "obs:nightly-2026-10-24-mos2-strain",
+        "obs:nightly-2026-10-24-helium-critical",
+        "obs:nightly-2026-10-24-creative-randomness"
+      ],
+      "checks": [
+        {
+          "name": "primary-source-review",
+          "result": "pass",
+          "detail": "Source dates and actor actions checked; source-body hashes unavailable."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research boundary",
+          "Do not promote source-backed candidate records without independent verification."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly consultancy intelligence edge",
+        "method": "official-source inspection and candidate synthesis",
+        "inputHashes": [
+          "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-24-normalize",
+      "runId": "run:nightly-2026-10-24",
+      "stage": "normalize",
+      "status": "deferred",
+      "startedAt": "2026-10-24T23:04:45Z",
+      "completedAt": "2026-10-24T23:04:45Z",
+      "inputs": [
+        "run:nightly-2026-10-24"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-or-human-gate",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical validation and explicit approval; no transition."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research boundary",
+          "Do not promote source-backed candidate records without independent verification."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly consultancy intelligence edge",
+        "method": "deferred transition; canonical script not yet executed at capture",
+        "inputHashes": [
+          "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "github-blob-sha:4a651b42c7c2a3d927e812e552ec413424287252",
+          "github-blob-sha:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-24-observe",
+      "runId": "run:nightly-2026-10-24",
+      "stage": "observe",
+      "status": "deferred",
+      "startedAt": "2026-10-24T23:04:45Z",
+      "completedAt": "2026-10-24T23:04:45Z",
+      "inputs": [
+        "run:nightly-2026-10-24"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-or-human-gate",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical validation and explicit approval; no transition."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research boundary",
+          "Do not promote source-backed candidate records without independent verification."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly consultancy intelligence edge",
+        "method": "deferred transition; canonical script not yet executed at capture",
+        "inputHashes": [
+          "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "github-blob-sha:4a651b42c7c2a3d927e812e552ec413424287252",
+          "github-blob-sha:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-24-inquire",
+      "runId": "run:nightly-2026-10-24",
+      "stage": "inquire",
+      "status": "deferred",
+      "startedAt": "2026-10-24T23:04:45Z",
+      "completedAt": "2026-10-24T23:04:45Z",
+      "inputs": [
+        "run:nightly-2026-10-24"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-or-human-gate",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical validation and explicit approval; no transition."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research boundary",
+          "Do not promote source-backed candidate records without independent verification."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly consultancy intelligence edge",
+        "method": "deferred transition; canonical script not yet executed at capture",
+        "inputHashes": [
+          "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "github-blob-sha:4a651b42c7c2a3d927e812e552ec413424287252",
+          "github-blob-sha:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-24-interpret",
+      "runId": "run:nightly-2026-10-24",
+      "stage": "interpret",
+      "status": "deferred",
+      "startedAt": "2026-10-24T23:04:45Z",
+      "completedAt": "2026-10-24T23:04:45Z",
+      "inputs": [
+        "run:nightly-2026-10-24"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-or-human-gate",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical validation and explicit approval; no transition."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research boundary",
+          "Do not promote source-backed candidate records without independent verification."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly consultancy intelligence edge",
+        "method": "deferred transition; canonical script not yet executed at capture",
+        "inputHashes": [
+          "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "github-blob-sha:4a651b42c7c2a3d927e812e552ec413424287252",
+          "github-blob-sha:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-24-relate",
+      "runId": "run:nightly-2026-10-24",
+      "stage": "relate",
+      "status": "deferred",
+      "startedAt": "2026-10-24T23:04:45Z",
+      "completedAt": "2026-10-24T23:04:45Z",
+      "inputs": [
+        "run:nightly-2026-10-24"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-or-human-gate",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical validation and explicit approval; no transition."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research boundary",
+          "Do not promote source-backed candidate records without independent verification."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly consultancy intelligence edge",
+        "method": "deferred transition; canonical script not yet executed at capture",
+        "inputHashes": [
+          "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "github-blob-sha:4a651b42c7c2a3d927e812e552ec413424287252",
+          "github-blob-sha:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-24-pattern",
+      "runId": "run:nightly-2026-10-24",
+      "stage": "pattern",
+      "status": "deferred",
+      "startedAt": "2026-10-24T23:04:45Z",
+      "completedAt": "2026-10-24T23:04:45Z",
+      "inputs": [
+        "run:nightly-2026-10-24"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-or-human-gate",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical validation and explicit approval; no transition."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research boundary",
+          "Do not promote source-backed candidate records without independent verification."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly consultancy intelligence edge",
+        "method": "deferred transition; canonical script not yet executed at capture",
+        "inputHashes": [
+          "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "github-blob-sha:4a651b42c7c2a3d927e812e552ec413424287252",
+          "github-blob-sha:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-24-opportunity",
+      "runId": "run:nightly-2026-10-24",
+      "stage": "opportunity",
+      "status": "deferred",
+      "startedAt": "2026-10-24T23:04:45Z",
+      "completedAt": "2026-10-24T23:04:45Z",
+      "inputs": [
+        "run:nightly-2026-10-24"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-or-human-gate",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical validation and explicit approval; no transition."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only research boundary",
+          "Do not promote source-backed candidate records without independent verification."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly consultancy intelligence edge",
+        "method": "deferred transition; canonical script not yet executed at capture",
+        "inputHashes": [
+          "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "github-blob-sha:4a651b42c7c2a3d927e812e552ec413424287252",
+          "github-blob-sha:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-24-strategy",
+      "runId": "run:nightly-2026-10-24",
+      "stage": "strategy",
+      "status": "deferred",
+      "startedAt": "2026-10-24T23:04:45Z",
+      "completedAt": "2026-10-24T23:04:45Z",
+      "inputs": [
+        "run:nightly-2026-10-24"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-or-human-gate",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical validation and explicit approval; no transition."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Human approval required; no accepted strategy, executed experiment or publication",
+          "Do not promote source-backed candidate records without independent verification."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly consultancy intelligence edge",
+        "method": "deferred transition; canonical script not yet executed at capture",
+        "inputHashes": [
+          "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "github-blob-sha:4a651b42c7c2a3d927e812e552ec413424287252",
+          "github-blob-sha:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-24-experiment",
+      "runId": "run:nightly-2026-10-24",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-10-24T23:04:45Z",
+      "completedAt": "2026-10-24T23:04:45Z",
+      "inputs": [
+        "run:nightly-2026-10-24"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-or-human-gate",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical validation and explicit approval; no transition."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Human approval required; no accepted strategy, executed experiment or publication",
+          "Do not promote source-backed candidate records without independent verification."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly consultancy intelligence edge",
+        "method": "deferred transition; canonical script not yet executed at capture",
+        "inputHashes": [
+          "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "github-blob-sha:4a651b42c7c2a3d927e812e552ec413424287252",
+          "github-blob-sha:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-24-genesis",
+      "runId": "run:nightly-2026-10-24",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-10-24T23:04:45Z",
+      "completedAt": "2026-10-24T23:04:45Z",
+      "inputs": [
+        "run:nightly-2026-10-24"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-or-human-gate",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical validation and explicit approval; no transition."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Genesis advancement prohibited in daily intake",
+          "Do not promote source-backed candidate records without independent verification."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly consultancy intelligence edge",
+        "method": "deferred transition; canonical script not yet executed at capture",
+        "inputHashes": [
+          "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "github-blob-sha:4a651b42c7c2a3d927e812e552ec413424287252",
+          "github-blob-sha:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-24-publish",
+      "runId": "run:nightly-2026-10-24",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-10-24T23:04:45Z",
+      "completedAt": "2026-10-24T23:04:45Z",
+      "inputs": [
+        "run:nightly-2026-10-24"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-or-human-gate",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical validation and explicit approval; no transition."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Human approval required; no accepted strategy, executed experiment or publication",
+          "Do not promote source-backed candidate records without independent verification."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly consultancy intelligence edge",
+        "method": "deferred transition; canonical script not yet executed at capture",
+        "inputHashes": [
+          "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "github-blob-sha:4a651b42c7c2a3d927e812e552ec413424287252",
+          "github-blob-sha:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+        ]
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:nightly-2026-10-24-zoom-onyx",
+      "observationId": "obs:nightly-2026-10-24-zoom-onyx",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Zoom announced acquisition of Onyx on October 23, 2026.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-24-zoom-onyx"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "buyer:zoom acted through publication, product change, purchase or designation.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-24-zoom-onyx"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Documented acquisition is stronger buyer behavior than a product announcement, although price and independent retention are unknown.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Teams requiring trustworthy context, scientific evidence or bounded delivery may benefit.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing search, billing dashboards, academic explainers, supply-chain reports or manual creative reviews.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Zoom says Onyx connects to more than 50 enterprise applications and remains open-source, model-agnostic, and self-hostable.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-24-zoom-onyx"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Acquisition proves demand for Seed Loom governance specifically.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Customer interviews show search relevance and connectors, not provenance or approval controls, drove the purchase.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Acquisition terms; independent usage and churn; buyer-specific governance requirements",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Zoom bought distribution and connector breadth rather than an independent governance layer.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Acquisition proves demand for Seed Loom governance specifically.",
+      "falsifier": "Customer interviews show search relevance and connectors, not provenance or approval controls, drove the purchase.",
+      "missingEvidence": [
+        "Acquisition terms",
+        "independent usage and churn",
+        "buyer-specific governance requirements"
+      ],
+      "alternativeExplanation": "Zoom bought distribution and connector breadth rather than an independent governance layer.",
+      "disposition": "experiment",
+      "confidence": 0.94
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-24-copilot-client-metrics",
+      "observationId": "obs:nightly-2026-10-24-copilot-client-metrics",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "GitHub introduced totals_by_client for 1-day and 28-day organization and enterprise reports.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-24-copilot-client-metrics"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "provider:github acted through publication, product change, purchase or designation.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-24-copilot-client-metrics"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "An official API change can reduce observability gaps but does not replace provenance or action receipts.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Teams requiring trustworthy context, scientific evidence or bounded delivery may benefit.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing search, billing dashboards, academic explainers, supply-chain reports or manual creative reviews.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "The API reports client, request count, session count, tokens, and model selection mode.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-24-copilot-client-metrics"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Model-call totals can be treated as verified agent action counts.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Cross-check against trace IDs reveals incompatible units or missing clients.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Account access; sample anonymized API payload; cross-harness reconciliation test",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "This is primarily a billing/reporting improvement, not agent governance.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Model-call totals can be treated as verified agent action counts.",
+      "falsifier": "Cross-check against trace IDs reveals incompatible units or missing clients.",
+      "missingEvidence": [
+        "Account access",
+        "sample anonymized API payload",
+        "cross-harness reconciliation test"
+      ],
+      "alternativeExplanation": "This is primarily a billing/reporting improvement, not agent governance.",
+      "disposition": "experiment",
+      "confidence": 0.98
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-24-mos2-strain",
+      "observationId": "obs:nightly-2026-10-24-mos2-strain",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "University at Buffalo published its explanation on October 23, 2026; the underlying ACS Nano study appeared in August.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-24-mos2-strain"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "researcher:university-at-buffalo acted through publication, product change, purchase or designation.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-24-mos2-strain"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "New institutional explanation of an older peer-reviewed study is a relevant mechanism signal, not a newly published October discovery.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Teams requiring trustworthy context, scientific evidence or bounded delivery may benefit.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing search, billing dashboards, academic explainers, supply-chain reports or manual creative reviews.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "The university describes differential cooling contraction between MoS2 and silicon dioxide as a source of residual strain.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-24-mos2-strain"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "A WebGL representation of anisotropy is treated as validated semiconductor physics.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Simulated direction-response curves diverge from measured data or depend on undocumented approximations.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Original study measurement curves; material parameter uncertainty; device-level reproducibility",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Observed performance variation is a manufacturing defect rather than a controllable design feature.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "A WebGL representation of anisotropy is treated as validated semiconductor physics.",
+      "falsifier": "Simulated direction-response curves diverge from measured data or depend on undocumented approximations.",
+      "missingEvidence": [
+        "Original study measurement curves",
+        "material parameter uncertainty",
+        "device-level reproducibility"
+      ],
+      "alternativeExplanation": "Observed performance variation is a manufacturing defect rather than a controllable design feature.",
+      "disposition": "watch",
+      "confidence": 0.89
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-24-helium-critical",
+      "observationId": "obs:nightly-2026-10-24-helium-critical",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "DOE announced the helium critical-material designation October 23, 2026.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-24-helium-critical"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "regulator:us-doe acted through publication, product change, purchase or designation.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-24-helium-critical"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A formal policy designation changes the classification of a material; it does not itself fund a project or prove shortage severity.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Teams requiring trustworthy context, scientific evidence or bounded delivery may benefit.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing search, billing dashboards, academic explainers, supply-chain reports or manual creative reviews.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "DOE cites helium's importance to semiconductor manufacturing and exposure to supply risks.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-24-helium-critical"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "A federal designation proves immediate local supply disruption or a paid consultancy lead.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Client bill-of-materials and supplier contracts show negligible helium dependency.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Industry-specific helium consumption; regional suppliers and price histories; client procurement requirements",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Designation is precautionary policy rather than evidence of an imminent supply crisis.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "A federal designation proves immediate local supply disruption or a paid consultancy lead.",
+      "falsifier": "Client bill-of-materials and supplier contracts show negligible helium dependency.",
+      "missingEvidence": [
+        "Industry-specific helium consumption",
+        "regional suppliers and price histories",
+        "client procurement requirements"
+      ],
+      "alternativeExplanation": "Designation is precautionary policy rather than evidence of an imminent supply crisis.",
+      "disposition": "watch",
+      "confidence": 0.97
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-24-creative-randomness",
+      "observationId": "obs:nightly-2026-10-24-creative-randomness",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "MIT published an interview with historian Benjamin Lindquist on October 23, 2026.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-24-creative-randomness"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "researcher:mit acted through publication, product change, purchase or designation.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-24-creative-randomness"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "The historical analysis challenges treating stochastic novelty and factual reliability as a single optimization target.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Teams requiring trustworthy context, scientific evidence or bounded delivery may benefit.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing search, billing dashboards, academic explainers, supply-chain reports or manual creative reviews.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "The discussion summarizes a paper in Past and Present about historical engineering choices to inject randomness into AI.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-24-creative-randomness"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Randomness itself reliably increases useful originality.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Controlled creative evaluation finds no quality or diversity improvement after governance costs.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Blinded human originality ratings; reproducibility controls; client value thresholds",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Quality gains come from clearer briefs and evaluation rubrics, not additional randomness.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Randomness itself reliably increases useful originality.",
+      "falsifier": "Controlled creative evaluation finds no quality or diversity improvement after governance costs.",
+      "missingEvidence": [
+        "Blinded human originality ratings",
+        "reproducibility controls",
+        "client value thresholds"
+      ],
+      "alternativeExplanation": "Quality gains come from clearer briefs and evaluation rubrics, not additional randomness.",
+      "disposition": "experiment",
+      "confidence": 0.88
+    }
+  ],
+  "advisory": {
+    "observationImplications": [
+      {
+        "observationId": "obs:nightly-2026-10-24-zoom-onyx",
+        "consultancyImplications": [
+          "Agent context provenance and source-entitlement audit"
+        ],
+        "projectDispositionImplications": [
+          "CORE Seed Loom; CONSOLIDATE overlapping agent adapters"
+        ]
+      },
+      {
+        "observationId": "obs:nightly-2026-10-24-copilot-client-metrics",
+        "consultancyImplications": [
+          "Cross-harness usage and provenance gap audit"
+        ],
+        "projectDispositionImplications": [
+          "CORE Seed Loom; REFERENCE-ONLY external usage telemetry"
+        ]
+      },
+      {
+        "observationId": "obs:nightly-2026-10-24-mos2-strain",
+        "consultancyImplications": [
+          "Mechanism-to-measurement visual explainer"
+        ],
+        "projectDispositionImplications": [
+          "CORE Shader Grammar; INCUBATE Shader Gallery"
+        ]
+      },
+      {
+        "observationId": "obs:nightly-2026-10-24-helium-critical",
+        "consultancyImplications": [
+          "Critical-materials dependency and evidence map"
+        ],
+        "projectDispositionImplications": [
+          "CORE Seed Loom; INCUBATE Project Constellation"
+        ]
+      },
+      {
+        "observationId": "obs:nightly-2026-10-24-creative-randomness",
+        "consultancyImplications": [
+          "Bounded generative divergence plus evidence review sprint"
+        ],
+        "projectDispositionImplications": [
+          "CORE Seed Loom; PRODUCTIZE Observation Ad Pipeline"
+        ]
+      }
+    ],
+    "dispositionPolicy": "Recommendations only; no archive, kill, merge, publication or deployment authorized.",
+    "sourceHashPolicy": "Source body hashes unavailable; do not infer content integrity from URL or GitHub schema blob SHA."
+  }
+}
