@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-24-creative-randomness",
+  "type": "Observation",
+  "capturedAt": "2026-10-24T23:04:45Z",
+  "claim": "On October 23 MIT published a historical research interview examining tradeoffs between creative randomness and predictability in AI.",
+  "verifiedFacts": [
+    "MIT published an interview with historian Benjamin Lindquist on October 23, 2026.",
+    "The discussion summarizes a paper in Past and Present about historical engineering choices to inject randomness into AI.",
+    "The author argues creativity and predictability may involve tradeoffs; this is a scholarly interpretation, not a measured law."
+  ],
+  "inference": [
+    "Creative agent systems should separate exploratory divergence from evidence-governed selection and publication.",
+    "Consultancy: reproducible divergent-ideation and evaluation protocol for creative teams.",
+    "Project disposition: CORE Seed Loom approval boundary; PRODUCTIZE Observation Ad Pipeline's bounded variation testing."
+  ],
+  "significance": "The historical analysis challenges treating stochastic novelty and factual reliability as a single optimization target.",
+  "confidence": 0.88,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-24-creative-randomness"
+  ],
+  "actorRefs": [
+    "researcher:mit"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "qt314wink/shader-grammar",
+    "qt314wink/observation-ad-pipeline"
+  ],
+  "assumptions": [
+    "A two-mode creative workflow improves client outcomes compared with a single mixed mode."
+  ],
+  "knownLimitations": [
+    "Interpretive historical scholarship, not an empirical evaluation of current model creativity.",
+    "No quantified client benefit."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

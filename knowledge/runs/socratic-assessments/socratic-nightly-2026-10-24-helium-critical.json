@@ -1,0 +1,94 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-24-helium-critical",
+  "observationId": "obs:nightly-2026-10-24-helium-critical",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "DOE announced the helium critical-material designation October 23, 2026.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-helium-critical"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "regulator:us-doe acted through publication, product change, purchase or designation.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-helium-critical"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "A formal policy designation changes the classification of a material; it does not itself fund a project or prove shortage severity.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams requiring trustworthy context, scientific evidence or bounded delivery may benefit.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing search, billing dashboards, academic explainers, supply-chain reports or manual creative reviews.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "DOE cites helium's importance to semiconductor manufacturing and exposure to supply risks.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-helium-critical"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "A federal designation proves immediate local supply disruption or a paid consultancy lead.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Client bill-of-materials and supplier contracts show negligible helium dependency.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Industry-specific helium consumption; regional suppliers and price histories; client procurement requirements",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Designation is precautionary policy rather than evidence of an imminent supply crisis.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "A federal designation proves immediate local supply disruption or a paid consultancy lead.",
+  "falsifier": "Client bill-of-materials and supplier contracts show negligible helium dependency.",
+  "missingEvidence": [
+    "Industry-specific helium consumption",
+    "regional suppliers and price histories",
+    "client procurement requirements"
+  ],
+  "alternativeExplanation": "Designation is precautionary policy rather than evidence of an imminent supply crisis.",
+  "disposition": "watch",
+  "confidence": 0.97
+}

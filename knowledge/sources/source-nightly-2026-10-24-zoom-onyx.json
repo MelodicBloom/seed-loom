@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-24-zoom-onyx",
+  "type": "Source",
+  "url": "https://news.zoom.com/zoom-acquires-onyx-adding-open-source-enterprise-knowledge-search-to-zoom-ai-services/",
+  "publisher": "Zoom",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-24T23:04:45Z",
+  "sourceClass": "primary",
+  "independenceKey": "zoom",
+  "contentHash": null,
+  "title": "Zoom acquires Onyx",
+  "analystNote": "Published on October 23, 2026 according to publisher; exact hour and raw page-body SHA-256 unavailable. Original study date may predate briefing."
+}

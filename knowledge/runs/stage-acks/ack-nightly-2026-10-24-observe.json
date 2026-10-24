@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-24-observe",
+  "runId": "run:nightly-2026-10-24",
+  "stage": "observe",
+  "status": "deferred",
+  "startedAt": "2026-10-24T23:04:45Z",
+  "completedAt": "2026-10-24T23:04:45Z",
+  "inputs": [
+    "run:nightly-2026-10-24"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "canonical-or-human-gate",
+      "result": "not-applicable",
+      "detail": "Deferred until canonical validation and explicit approval; no transition."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only research boundary",
+      "Do not promote source-backed candidate records without independent verification."
+    ]
+  },
+  "provenance": {
+    "producer": "nightly consultancy intelligence edge",
+    "method": "deferred transition; canonical script not yet executed at capture",
+    "inputHashes": [
+      "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23",
+      "github-blob-sha:4a651b42c7c2a3d927e812e552ec413424287252",
+      "github-blob-sha:aa57bc785339d88b00288271ad035d6c2fd3eb4f"
+    ]
+  }
+}

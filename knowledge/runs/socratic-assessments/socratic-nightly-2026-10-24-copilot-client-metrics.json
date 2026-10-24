@@ -1,0 +1,94 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-24-copilot-client-metrics",
+  "observationId": "obs:nightly-2026-10-24-copilot-client-metrics",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "GitHub introduced totals_by_client for 1-day and 28-day organization and enterprise reports.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-copilot-client-metrics"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "provider:github acted through publication, product change, purchase or designation.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-copilot-client-metrics"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "An official API change can reduce observability gaps but does not replace provenance or action receipts.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams requiring trustworthy context, scientific evidence or bounded delivery may benefit.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing search, billing dashboards, academic explainers, supply-chain reports or manual creative reviews.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "The API reports client, request count, session count, tokens, and model selection mode.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-copilot-client-metrics"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Model-call totals can be treated as verified agent action counts.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Cross-check against trace IDs reveals incompatible units or missing clients.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Account access; sample anonymized API payload; cross-harness reconciliation test",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "This is primarily a billing/reporting improvement, not agent governance.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Model-call totals can be treated as verified agent action counts.",
+  "falsifier": "Cross-check against trace IDs reveals incompatible units or missing clients.",
+  "missingEvidence": [
+    "Account access",
+    "sample anonymized API payload",
+    "cross-harness reconciliation test"
+  ],
+  "alternativeExplanation": "This is primarily a billing/reporting improvement, not agent governance.",
+  "disposition": "experiment",
+  "confidence": 0.98
+}

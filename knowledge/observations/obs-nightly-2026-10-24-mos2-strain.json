@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-24-mos2-strain",
+  "type": "Observation",
+  "capturedAt": "2026-10-24T23:04:45Z",
+  "claim": "On October 23 University at Buffalo explained previously published MoS2 research showing fabrication strain can alter directional electron transport.",
+  "verifiedFacts": [
+    "University at Buffalo published its explanation on October 23, 2026; the underlying ACS Nano study appeared in August.",
+    "The university describes differential cooling contraction between MoS2 and silicon dioxide as a source of residual strain.",
+    "Researchers report that strain can break expected symmetry and affect device orientation-dependent electrical behavior."
+  ],
+  "inference": [
+    "A mechanism-first interactive explainer could distinguish nominal symmetry from fabrication-induced anisotropy.",
+    "Consultancy: measured-versus-modeled scientific visualization for materials teams.",
+    "Project disposition: CORE Shader Grammar; INCUBATE gallery specimen; REFERENCE-ONLY Omni-Loom until fabrication constraints align."
+  ],
+  "significance": "New institutional explanation of an older peer-reviewed study is a relevant mechanism signal, not a newly published October discovery.",
+  "confidence": 0.89,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-24-mos2-strain"
+  ],
+  "actorRefs": [
+    "researcher:university-at-buffalo"
+  ],
+  "affectedRepositories": [
+    "qt314wink/shader-grammar",
+    "MelodicBloom/shader-gallery",
+    "qt314wink/omni-loom"
+  ],
+  "assumptions": [
+    "Accessible quantitative measurements exist for an honest interactive reproduction."
+  ],
+  "knownLimitations": [
+    "Primary ACS Nano paper not fully inspected; study was published in August, not in this 48-hour window."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

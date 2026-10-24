@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-24-collect",
+  "runId": "run:nightly-2026-10-24",
+  "stage": "collect",
+  "status": "passed",
+  "startedAt": "2026-10-24T23:04:45Z",
+  "completedAt": "2026-10-24T23:04:45Z",
+  "inputs": [
+    "https://news.zoom.com/zoom-acquires-onyx-adding-open-source-enterprise-knowledge-search-to-zoom-ai-services/",
+    "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/",
+    "https://www.buffalo.edu/provost/admin-units.host.html/content/shared/engineering/home/articles/news-articles/2026/new-study-identifies-challenge-and-opportunity-in-2d-semiconductors.detail.html",
+    "https://www.energy.gov/articles/energy-department-designates-helium-critical-material-strengthen-american-manufacturing",
+    "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023"
+  ],
+  "outputs": [
+    "source:nightly-2026-10-24-zoom-onyx",
+    "source:nightly-2026-10-24-copilot-client-metrics",
+    "source:nightly-2026-10-24-mos2-strain",
+    "source:nightly-2026-10-24-helium-critical",
+    "source:nightly-2026-10-24-creative-randomness"
+  ],
+  "checks": [
+    {
+      "name": "primary-source-review",
+      "result": "pass",
+      "detail": "Source dates and actor actions checked; source-body hashes unavailable."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only research boundary",
+      "Do not promote source-backed candidate records without independent verification."
+    ]
+  },
+  "provenance": {
+    "producer": "nightly consultancy intelligence edge",
+    "method": "official-source inspection and candidate synthesis",
+    "inputHashes": [
+      "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-24-mos2-strain",
+  "observationId": "obs:nightly-2026-10-24-mos2-strain",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "University at Buffalo published its explanation on October 23, 2026; the underlying ACS Nano study appeared in August.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-mos2-strain"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "researcher:university-at-buffalo acted through publication, product change, purchase or designation.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-mos2-strain"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "New institutional explanation of an older peer-reviewed study is a relevant mechanism signal, not a newly published October discovery.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams requiring trustworthy context, scientific evidence or bounded delivery may benefit.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing search, billing dashboards, academic explainers, supply-chain reports or manual creative reviews.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "The university describes differential cooling contraction between MoS2 and silicon dioxide as a source of residual strain.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-mos2-strain"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "A WebGL representation of anisotropy is treated as validated semiconductor physics.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Simulated direction-response curves diverge from measured data or depend on undocumented approximations.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Original study measurement curves; material parameter uncertainty; device-level reproducibility",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Observed performance variation is a manufacturing defect rather than a controllable design feature.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "A WebGL representation of anisotropy is treated as validated semiconductor physics.",
+  "falsifier": "Simulated direction-response curves diverge from measured data or depend on undocumented approximations.",
+  "missingEvidence": [
+    "Original study measurement curves",
+    "material parameter uncertainty",
+    "device-level reproducibility"
+  ],
+  "alternativeExplanation": "Observed performance variation is a manufacturing defect rather than a controllable design feature.",
+  "disposition": "watch",
+  "confidence": 0.89
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-24-zoom-onyx",
+  "type": "Observation",
+  "capturedAt": "2026-10-24T23:04:45Z",
+  "claim": "On October 23 Zoom announced its acquisition of Onyx, an open-source enterprise knowledge search provider.",
+  "verifiedFacts": [
+    "Zoom announced acquisition of Onyx on October 23, 2026.",
+    "Zoom says Onyx connects to more than 50 enterprise applications and remains open-source, model-agnostic, and self-hostable.",
+    "Zoom says Onyx has more than 30,000 developers and processes over one million queries weekly; these figures are vendor-reported."
+  ],
+  "inference": [
+    "Enterprise buyers are acquiring context infrastructure rather than building every integration internally.",
+    "Consultancy: offer source-entitlement and evidence-lineage assessment, not another search platform.",
+    "Project disposition: CORE Seed Loom; CONSOLIDATE adapter boundaries with Agent Runtime Control Center."
+  ],
+  "significance": "Documented acquisition is stronger buyer behavior than a product announcement, although price and independent retention are unknown.",
+  "confidence": 0.94,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-24-zoom-onyx"
+  ],
+  "actorRefs": [
+    "buyer:zoom"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Onyx adoption claims are representative and integrations are durable."
+  ],
+  "knownLimitations": [
+    "Purchase consideration undisclosed; usage metrics self-reported; no independent integration QA."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

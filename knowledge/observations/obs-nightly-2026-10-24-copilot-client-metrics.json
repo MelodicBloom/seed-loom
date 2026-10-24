@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-24-copilot-client-metrics",
+  "type": "Observation",
+  "capturedAt": "2026-10-24T23:04:45Z",
+  "claim": "On October 23 GitHub added cross-client Copilot usage breakdowns including Codex and Claude Code to its metrics API.",
+  "verifiedFacts": [
+    "GitHub introduced totals_by_client for 1-day and 28-day organization and enterprise reports.",
+    "The API reports client, request count, session count, tokens, and model selection mode.",
+    "GitHub cautions that request counts are model calls, not prompts, and client identifiers are best-effort rather than verified identities."
+  ],
+  "inference": [
+    "Multi-harness cost and usage reconciliation is increasingly possible without duplicating telemetry authority.",
+    "Consultancy: provide cost/trace coverage audit with explicit identity confidence.",
+    "Project disposition: CORE Seed Loom observability; REFERENCE-ONLY external Copilot metrics as evidence input."
+  ],
+  "significance": "An official API change can reduce observability gaps but does not replace provenance or action receipts.",
+  "confidence": 0.98,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-24-copilot-client-metrics"
+  ],
+  "actorRefs": [
+    "provider:github"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "The user's plans and roles grant access to these metrics; not verified."
+  ],
+  "knownLimitations": [
+    "Enterprise/organization permissions required; not equivalent to full agent action trace.",
+    "Client identity is not authenticated by the metric field."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

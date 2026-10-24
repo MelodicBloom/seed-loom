@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-10-24",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-22T23:04:45Z",
+    "to": "2026-10-24T23:04:45Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-10-24-zoom-onyx",
+    "obs:nightly-2026-10-24-copilot-client-metrics",
+    "obs:nightly-2026-10-24-mos2-strain",
+    "obs:nightly-2026-10-24-helium-critical",
+    "obs:nightly-2026-10-24-creative-randomness"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Enterprise context infrastructure is being acquired while usage measurement becomes cross-harness.",
+    "Mechanism claims require measured validation and explicit source age.",
+    "Creative divergence and governed acceptance are different operating modes."
+  ],
+  "newRelationships": [
+    "rel:nightly-2026-10-24-zoom-onyx",
+    "rel:nightly-2026-10-24-copilot-client-metrics",
+    "rel:nightly-2026-10-24-mos2-strain",
+    "rel:nightly-2026-10-24-helium-critical",
+    "rel:nightly-2026-10-24-creative-randomness"
+  ],
+  "contradictions": [
+    "University at Buffalo October 23 explainer describes an August study, not an October study publication.",
+    "Vendor adoption numbers for Onyx are not independently verified.",
+    "Copilot client IDs are best-effort and not verified agent identities."
+  ],
+  "opportunities": [
+    "Agent context provenance and source-entitlement audit",
+    "Cross-harness usage and provenance gap audit",
+    "Mechanism-to-measurement visual explainer",
+    "Critical-materials dependency and evidence map",
+    "Bounded generative divergence plus evidence review sprint"
+  ],
+  "proposedExperiments": [
+    "Run a read-only agent source-entitlement/trace comparison against existing fixtures with ten tasks and stop on any unauthorized access.",
+    "Compare two creative ideation protocols using blinded human evaluation of five variants; no client data."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/seed-loom",
+      "branch": "proposal/issue-24-bundle-specific-proof",
+      "allowedPaths": [
+        ".github/workflows/nightly-intake-proof.yml"
+      ],
+      "description": "Only after separate approval, parameterize proof workflow to select an explicit reviewed bundle path; do not modify schemas."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/shader-gallery",
+      "branch": "proposal/radial-bloom-evidence-audit",
+      "allowedPaths": [
+        "docs/",
+        "tests/",
+        "packages/shader-library-v1/"
+      ],
+      "description": "Read-only archive/manifest/WebGL lifecycle regression review of merged radial bloom specimen before any fix."
+    }
+  ],
+  "noChangeReceipts": [
+    "No overlap with Oct 20-23 nightly observations about Anthropic Duet, Neo4j Context Engine, Cosmos, OpenAI containment, Arc sunset, Tempus contracts, Vermont recovery or Pa 30.",
+    "No direct consultancy purchase or outreach verified.",
+    "Omni-Loom, Kozo Dreams and Observation Ad Pipeline have no verified new default-branch delivery in the inspected period."
+  ],
+  "collectionFailures": [
+    "Exact publication hour unavailable for date-stamped sources; all five carry October 23 publisher date.",
+    "Raw source-body SHA-256 unavailable; contentHash null, GitHub authority blob SHAs available.",
+    "Historical knowledge graph deduplication beyond accessible previous nightly bundles is incomplete.",
+    "No local GitHub clone due DNS resolution failure; canonical ingest must use verified GitHub Actions bridge.",
+    "Issue #24 two-isolated-execution proof not executed; workflow defaults to October 1 unless input path supplied.",
+    "University at Buffalo article describes August ACS Nano study; original paper not fully inspected.",
+    "Live repository PR/CI review coverage partial; commit metadata and issue summaries verified, not every check."
+  ]
+}

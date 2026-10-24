@@ -1,0 +1,94 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-24-zoom-onyx",
+  "observationId": "obs:nightly-2026-10-24-zoom-onyx",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Zoom announced acquisition of Onyx on October 23, 2026.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-zoom-onyx"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "buyer:zoom acted through publication, product change, purchase or designation.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-zoom-onyx"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Documented acquisition is stronger buyer behavior than a product announcement, although price and independent retention are unknown.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams requiring trustworthy context, scientific evidence or bounded delivery may benefit.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing search, billing dashboards, academic explainers, supply-chain reports or manual creative reviews.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Zoom says Onyx connects to more than 50 enterprise applications and remains open-source, model-agnostic, and self-hostable.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-24-zoom-onyx"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Acquisition proves demand for Seed Loom governance specifically.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Customer interviews show search relevance and connectors, not provenance or approval controls, drove the purchase.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Acquisition terms; independent usage and churn; buyer-specific governance requirements",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Zoom bought distribution and connector breadth rather than an independent governance layer.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Acquisition proves demand for Seed Loom governance specifically.",
+  "falsifier": "Customer interviews show search relevance and connectors, not provenance or approval controls, drove the purchase.",
+  "missingEvidence": [
+    "Acquisition terms",
+    "independent usage and churn",
+    "buyer-specific governance requirements"
+  ],
+  "alternativeExplanation": "Zoom bought distribution and connector breadth rather than an independent governance layer.",
+  "disposition": "experiment",
+  "confidence": 0.94
+}

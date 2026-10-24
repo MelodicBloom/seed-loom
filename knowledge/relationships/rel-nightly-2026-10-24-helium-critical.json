@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-10-24-helium-critical",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-10-24-helium-critical",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly-2026-10-24-helium-critical",
+  "confidence": 0.97,
+  "evidenceRefs": [
+    "source:nightly-2026-10-24-helium-critical"
+  ]
+}

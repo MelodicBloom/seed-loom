@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-24-helium-critical",
+  "type": "Source",
+  "url": "https://www.energy.gov/articles/energy-department-designates-helium-critical-material-strengthen-american-manufacturing",
+  "publisher": "US Department of Energy",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-24T23:04:45Z",
+  "sourceClass": "official",
+  "independenceKey": "us-department-of-energy",
+  "contentHash": null,
+  "title": "DOE designates helium a critical material",
+  "analystNote": "Published on October 23, 2026 according to publisher; exact hour and raw page-body SHA-256 unavailable. Original study date may predate briefing."
+}

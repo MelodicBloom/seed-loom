@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-10-24-mos2-strain",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-10-24-mos2-strain",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly-2026-10-24-mos2-strain",
+  "confidence": 0.89,
+  "evidenceRefs": [
+    "source:nightly-2026-10-24-mos2-strain"
+  ]
+}

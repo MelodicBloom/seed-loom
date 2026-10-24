@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-24-mos2-strain",
+  "type": "Source",
+  "url": "https://www.buffalo.edu/provost/admin-units.host.html/content/shared/engineering/home/articles/news-articles/2026/new-study-identifies-challenge-and-opportunity-in-2d-semiconductors.detail.html",
+  "publisher": "University at Buffalo",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-24T23:04:45Z",
+  "sourceClass": "research",
+  "independenceKey": "university-at-buffalo",
+  "contentHash": null,
+  "title": "Strain-driven anisotropy in MoS2 devices",
+  "analystNote": "Published on October 23, 2026 according to publisher; exact hour and raw page-body SHA-256 unavailable. Original study date may predate briefing."
+}

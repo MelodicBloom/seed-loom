@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-24-helium-critical",
+  "type": "Observation",
+  "capturedAt": "2026-10-24T23:04:45Z",
+  "claim": "On October 23 the US Department of Energy designated helium a critical material under the Energy Act of 2020.",
+  "verifiedFacts": [
+    "DOE announced the helium critical-material designation October 23, 2026.",
+    "DOE cites helium's importance to semiconductor manufacturing and exposure to supply risks.",
+    "DOE points to domestic resources but limited refining capacity and lengthy permitting timelines."
+  ],
+  "inference": [
+    "Supply-chain provenance and policy change monitoring can support technical client briefings without speculative procurement claims.",
+    "Consultancy: critical-input dependency mapping for hardware and scientific production.",
+    "Project disposition: CORE Seed Loom policy lineage; INCUBATE Project Constellation visualization only."
+  ],
+  "significance": "A formal policy designation changes the classification of a material; it does not itself fund a project or prove shortage severity.",
+  "confidence": 0.97,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-24-helium-critical"
+  ],
+  "actorRefs": [
+    "regulator:us-doe"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "Relevant client processes depend materially on helium availability."
+  ],
+  "knownLimitations": [
+    "No quantified client exposure or contract impact verified.",
+    "Designation is not an open grant or award."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

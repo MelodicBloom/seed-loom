@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-24-vet",
+  "runId": "run:nightly-2026-10-24",
+  "stage": "vet",
+  "status": "passed",
+  "startedAt": "2026-10-24T23:04:45Z",
+  "completedAt": "2026-10-24T23:04:45Z",
+  "inputs": [
+    "source:nightly-2026-10-24-zoom-onyx",
+    "source:nightly-2026-10-24-copilot-client-metrics",
+    "source:nightly-2026-10-24-mos2-strain",
+    "source:nightly-2026-10-24-helium-critical",
+    "source:nightly-2026-10-24-creative-randomness"
+  ],
+  "outputs": [
+    "obs:nightly-2026-10-24-zoom-onyx",
+    "obs:nightly-2026-10-24-copilot-client-metrics",
+    "obs:nightly-2026-10-24-mos2-strain",
+    "obs:nightly-2026-10-24-helium-critical",
+    "obs:nightly-2026-10-24-creative-randomness"
+  ],
+  "checks": [
+    {
+      "name": "primary-source-review",
+      "result": "pass",
+      "detail": "Source dates and actor actions checked; source-body hashes unavailable."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only research boundary",
+      "Do not promote source-backed candidate records without independent verification."
+    ]
+  },
+  "provenance": {
+    "producer": "nightly consultancy intelligence edge",
+    "method": "official-source inspection and candidate synthesis",
+    "inputHashes": [
+      "github-blob-sha:984dae274d7fca05812874e5a1c338e3972c1c23"
+    ]
+  }
+}
