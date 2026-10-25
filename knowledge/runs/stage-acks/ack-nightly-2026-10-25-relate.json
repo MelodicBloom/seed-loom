@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-25-relate",
+  "runId": "run:nightly-2026-10-25",
+  "stage": "relate",
+  "status": "deferred",
+  "startedAt": "2026-10-25T23:44:50Z",
+  "completedAt": "2026-10-25T23:44:50Z",
+  "inputs": [
+    "obs:nightly-2026-10-25-litellm-signing-key",
+    "obs:nightly-2026-10-25-openclaw-replay-recovery",
+    "obs:nightly-2026-10-25-material-validation-lab-merged",
+    "obs:nightly-2026-10-25-rice-designing-futures",
+    "obs:nightly-2026-10-25-spacex-gpu-debt"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "governed-transition-not-executed",
+      "result": "not-applicable",
+      "detail": "Await canonical ingest execution or explicit human approval; not claimed passed."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only intake; no canonical acceptance; source bodies not hashed."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly Consultancy Intelligence research edge",
+    "method": "Candidate-only interpretation; deferred pending canonical execution or human decision",
+    "inputHashes": []
+  }
+}

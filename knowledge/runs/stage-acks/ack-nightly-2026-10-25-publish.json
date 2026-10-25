@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-25-publish",
+  "runId": "run:nightly-2026-10-25",
+  "stage": "publish",
+  "status": "deferred",
+  "startedAt": "2026-10-25T23:44:50Z",
+  "completedAt": "2026-10-25T23:44:50Z",
+  "inputs": [],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "governed-transition-not-executed",
+      "result": "not-applicable",
+      "detail": "Await canonical ingest execution or explicit human approval; not claimed passed."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "No strategy acceptance, experiment execution, Genesis, publication or external action authorized."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly Consultancy Intelligence research edge",
+    "method": "Candidate-only interpretation; deferred pending canonical execution or human decision",
+    "inputHashes": []
+  }
+}

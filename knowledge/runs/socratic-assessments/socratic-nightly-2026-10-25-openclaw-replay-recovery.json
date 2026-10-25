@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-25-openclaw-replay-recovery",
+  "observationId": "obs:nightly-2026-10-25-openclaw-replay-recovery",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "The official v2026.10.7 release was published October 24.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-25-openclaw-replay-recovery"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "builder:openclaw performed the documented action.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-25-openclaw-replay-recovery"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Concrete shipped recovery fixes provide a benchmark for durable agent-execution receipts.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Consultancy: agent interruption/replay evidence audit.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing vendors, conventional manual review, or no new service; substitution not measured.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Release notes describe retention of unfinished tool outcomes during interrupted-session recovery.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-25-openclaw-replay-recovery"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Successful recovery is equivalent to deterministic knowledge ingestion.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Interrupted-run fixtures produce missing or duplicated tool outcomes, or stable recovery has no bearing on the governed ingest contract.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Cross-harness interrupted-session trace comparison",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "A maintenance release fixing product-specific bugs without broader architectural implications.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Successful recovery is equivalent to deterministic knowledge ingestion.",
+  "falsifier": "Interrupted-run fixtures produce missing or duplicated tool outcomes, or stable recovery has no bearing on the governed ingest contract.",
+  "missingEvidence": [
+    "Cross-harness interrupted-session trace comparison"
+  ],
+  "alternativeExplanation": "A maintenance release fixing product-specific bugs without broader architectural implications.",
+  "disposition": "experiment",
+  "confidence": 0.96
+}

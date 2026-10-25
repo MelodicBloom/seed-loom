@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-25-material-validation-lab-merged",
+  "type": "Observation",
+  "capturedAt": "2026-10-25T23:44:50Z",
+  "claim": "On October 24 shader-gallery merged Material Validation Lab v0 with material records, a source registry, validators and trial documentation.",
+  "verifiedFacts": [
+    "PR #18 merged October 24 at 23:23:51 UTC.",
+    "The merged commit f9bebc950864d83e6748f97cd4b2319f0a965c98 adds material-validation-lab documentation, source registry and material record JSON files.",
+    "The changed files include validation scripts and a shader-library source archive."
+  ],
+  "inference": [
+    "This is an actual portfolio proof boundary advancing from scattered optical specimens to governed material records.",
+    "Consultancy: reproducible optical-material demonstration and validation service.",
+    "Disposition: PRODUCTIZE Shader Gallery; CORE Shader Grammar as semantic authority, not duplicated runtime."
+  ],
+  "significance": "A merged, reviewable material-validation surface is a stronger portfolio artifact than an uncommitted visual study.",
+  "confidence": 0.99,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-25-material-validation-lab-merged"
+  ],
+  "actorRefs": [
+    "builder:melodicbloom"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-gallery",
+    "qt314wink/shader-grammar"
+  ],
+  "assumptions": [
+    "The merged validator and source archive are internally consistent."
+  ],
+  "knownLimitations": [
+    "Native Three.js parity, visual correctness and performance have not been independently proven.",
+    "Follow-up PR #30 remains draft and open."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-25-litellm-signing-key",
+  "type": "Observation",
+  "capturedAt": "2026-10-25T23:44:50Z",
+  "claim": "On October 24 LiteLLM released v1.106.3 with a new image-signing key and removal of a distrusted certificate root.",
+  "verifiedFacts": [
+    "The official October 24 release notes require consumers to use a new pinned cosign public key; old-key verification fails.",
+    "The release removed the eMudhra root CA from trusted bundles.",
+    "The new public-key SHA-256 is e3fe3e08c44b16407fe0b37c43b4f8b603b3a0f4ee74c29e647bc022d762c2c0."
+  ],
+  "inference": [
+    "Agent supply-chain attestations must record key rotations and distinguish signed artifact identity from package version.",
+    "Consultancy: bounded agent dependency provenance and signature-rotation audit.",
+    "Disposition: CORE Seed Loom provenance policy; REFERENCE-ONLY LiteLLM unless an actual dependency is found."
+  ],
+  "significance": "Verified release changes affect deployment verification and illustrate the limits of static signing-key pins.",
+  "confidence": 0.98,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-25-litellm-signing-key"
+  ],
+  "actorRefs": [
+    "builder:berriai-litellm"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Client stacks use signed LiteLLM images or equivalent verification controls."
+  ],
+  "knownLimitations": [
+    "No LiteLLM dependency was found or ruled out in all relevant repositories.",
+    "No signature verification command was executed locally."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-25-openclaw-replay-recovery",
+  "type": "Source",
+  "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.7",
+  "publisher": "OpenClaw maintainers",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-25T23:44:50Z",
+  "sourceClass": "repository",
+  "independenceKey": "openclaw",
+  "contentHash": null,
+  "title": "OpenClaw 2026.10.7 replay-safe recovery",
+  "analystNote": "Publisher date verified as October 24 or 25; precise original-source content hash unavailable. Publication time not uniformly verified."
+}

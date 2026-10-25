@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-25-spacex-gpu-debt",
+  "type": "Source",
+  "url": "https://www.reuters.com/business/media-telecom/musk-says-spacex-raised-40-billion-debt-gpus-2026-10-25/",
+  "publisher": "Reuters",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-25T23:44:50Z",
+  "sourceClass": "press",
+  "independenceKey": "reuters",
+  "contentHash": null,
+  "title": "SpaceX claims $40B GPU financing",
+  "analystNote": "Publisher date verified as October 24 or 25; precise original-source content hash unavailable. Publication time not uniformly verified."
+}

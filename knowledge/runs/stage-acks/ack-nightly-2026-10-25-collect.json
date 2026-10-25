@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-25-collect",
+  "runId": "run:nightly-2026-10-25",
+  "stage": "collect",
+  "status": "passed",
+  "startedAt": "2026-10-25T23:44:50Z",
+  "completedAt": "2026-10-25T23:44:50Z",
+  "inputs": [
+    "https://github.com/BerriAI/litellm/releases/tag/v1.106.3",
+    "https://github.com/openclaw/openclaw/releases/tag/v2026.10.7",
+    "https://github.com/MelodicBloom/shader-gallery/pull/18",
+    "https://news.rice.edu/news/2026/uh-uhd-rice-students-reimagine-houston-through-art-design-and-data",
+    "https://www.reuters.com/business/media-telecom/musk-says-spacex-raised-40-billion-debt-gpus-2026-10-25/"
+  ],
+  "outputs": [
+    "source:nightly-2026-10-25-litellm-signing-key",
+    "source:nightly-2026-10-25-openclaw-replay-recovery",
+    "source:nightly-2026-10-25-material-validation-lab-merged",
+    "source:nightly-2026-10-25-rice-designing-futures",
+    "source:nightly-2026-10-25-spacex-gpu-debt"
+  ],
+  "checks": [
+    {
+      "name": "five-distinct-source-locators",
+      "result": "pass",
+      "detail": "Five distinct primary/repository/official/press evidence records; historical duplication checked against October 21–24 intake."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only intake; no canonical acceptance; source bodies not hashed."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly Consultancy Intelligence research edge",
+    "method": "Direct-source and repository-API inspection",
+    "inputHashes": []
+  }
+}

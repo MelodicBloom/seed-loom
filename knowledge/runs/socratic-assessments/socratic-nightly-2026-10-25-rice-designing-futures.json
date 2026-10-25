@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-25-rice-designing-futures",
+  "observationId": "obs:nightly-2026-10-25-rice-designing-futures",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Rice University's October 24 announcement documents the Designing Possible Futures exhibition running October 24–November 4.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-25-rice-designing-futures"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "participant:rice-uh-uhd-social-design performed the documented action.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-25-rice-designing-futures"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Documented cross-institutional participation is a relevant practice model, not a verified paid procurement signal.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Consultancy: participatory scenario and evidence-map sprint.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing vendors, conventional manual review, or no new service; substitution not measured.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Students and faculty from Rice, University of Houston and University of Houston-Downtown are involved.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-25-rice-designing-futures"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "A public exhibition proves demand for commercial civic dashboards.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Local nonprofits and agencies reject the deliverable or cannot fund it.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Buyer interviews, accessibility outcomes, public-participation evidence",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "A university arts-and-community engagement activity without repeatable procurement demand.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "A public exhibition proves demand for commercial civic dashboards.",
+  "falsifier": "Local nonprofits and agencies reject the deliverable or cannot fund it.",
+  "missingEvidence": [
+    "Buyer interviews, accessibility outcomes, public-participation evidence"
+  ],
+  "alternativeExplanation": "A university arts-and-community engagement activity without repeatable procurement demand.",
+  "disposition": "watch",
+  "confidence": 0.95
+}

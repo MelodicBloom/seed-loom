@@ -1,0 +1,59 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-10-25T23:48:37.722Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly-2026-10-25",
+      "bundlePath": "knowledge/intake/nightly/2026-10-25/nightly-run-bundle-2026-10-25.json",
+      "bundleSha256": "eda3b4fdf6c9c03849afa17d3986c0a3d01db595399799bbcde1b31aac832112",
+      "normalizedDigest": "375f4dbafafbb6f4be7da9265a0217a850395690fe0041e6ceaf56f4a7363124",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-nightly-2026-10-25-litellm-signing-key.json",
+        "knowledge/sources/source-nightly-2026-10-25-openclaw-replay-recovery.json",
+        "knowledge/sources/source-nightly-2026-10-25-material-validation-lab-merged.json",
+        "knowledge/sources/source-nightly-2026-10-25-rice-designing-futures.json",
+        "knowledge/sources/source-nightly-2026-10-25-spacex-gpu-debt.json",
+        "knowledge/observations/obs-nightly-2026-10-25-litellm-signing-key.json",
+        "knowledge/observations/obs-nightly-2026-10-25-openclaw-replay-recovery.json",
+        "knowledge/observations/obs-nightly-2026-10-25-material-validation-lab-merged.json",
+        "knowledge/observations/obs-nightly-2026-10-25-rice-designing-futures.json",
+        "knowledge/observations/obs-nightly-2026-10-25-spacex-gpu-debt.json",
+        "knowledge/relationships/rel-nightly-2026-10-25-litellm-signing-key.json",
+        "knowledge/relationships/rel-nightly-2026-10-25-openclaw-replay-recovery.json",
+        "knowledge/relationships/rel-nightly-2026-10-25-material-validation-lab-merged.json",
+        "knowledge/relationships/rel-nightly-2026-10-25-rice-designing-futures.json",
+        "knowledge/relationships/rel-nightly-2026-10-25-spacex-gpu-debt.json",
+        "knowledge/runs/run-nightly-2026-10-25.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-25-collect.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-25-vet.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-25-normalize.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-25-observe.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-25-inquire.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-25-interpret.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-25-relate.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-25-pattern.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-25-opportunity.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-25-strategy.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-25-experiment.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-25-genesis.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-25-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-25-litellm-signing-key.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-25-openclaw-replay-recovery.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-25-material-validation-lab-merged.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-25-rice-designing-futures.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-25-spacex-gpu-debt.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-10-25-ingest.json",
+      "generatedRecordCount": 34
+    }
+  ]
+}

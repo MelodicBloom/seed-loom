@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-25-openclaw-replay-recovery",
+  "type": "Observation",
+  "capturedAt": "2026-10-25T23:44:50Z",
+  "claim": "On October 24 OpenClaw released v2026.10.7 documenting replay-safe session recovery and preserved tool-outcome provenance.",
+  "verifiedFacts": [
+    "The official v2026.10.7 release was published October 24.",
+    "Release notes describe retention of unfinished tool outcomes during interrupted-session recovery.",
+    "Release notes also describe fixes for stale recovery residue and context-refresh reply blocking."
+  ],
+  "inference": [
+    "Recovery provenance should be tested as an explicit agent-control contract rather than inferred from successful uninterrupted runs.",
+    "Consultancy: agent interruption/replay evidence audit.",
+    "Disposition: CORE Seed Loom proof protocol; INCUBATE Agent Runtime Control Center recovery adapter only after fixture parity."
+  ],
+  "significance": "Concrete shipped recovery fixes provide a benchmark for durable agent-execution receipts.",
+  "confidence": 0.96,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-25-openclaw-replay-recovery"
+  ],
+  "actorRefs": [
+    "builder:openclaw"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Published fixes perform as described in supported environments."
+  ],
+  "knownLimitations": [
+    "Release notes are maintainer claims; no independent runtime reproduction.",
+    "OpenClaw is not established as a current project dependency."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

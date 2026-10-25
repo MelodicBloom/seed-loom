@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-25-rice-designing-futures",
+  "type": "Observation",
+  "capturedAt": "2026-10-25T23:44:50Z",
+  "claim": "On October 24 Rice University reported the opening of a multi-university civic design exhibition using art, maps and data visualization.",
+  "verifiedFacts": [
+    "Rice University's October 24 announcement documents the Designing Possible Futures exhibition running October 24–November 4.",
+    "Students and faculty from Rice, University of Houston and University of Houston-Downtown are involved.",
+    "The program includes visualizations and community-oriented discussion of social, economic and environmental challenges."
+  ],
+  "inference": [
+    "A bounded civic-data storytelling offer can connect environmental evidence, visual narratives and community deliberation.",
+    "Consultancy: participatory scenario and evidence-map sprint.",
+    "Disposition: INCUBATE Project Constellation as presentation layer; CORE Seed Loom for source governance."
+  ],
+  "significance": "Documented cross-institutional participation is a relevant practice model, not a verified paid procurement signal.",
+  "confidence": 0.95,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-25-rice-designing-futures"
+  ],
+  "actorRefs": [
+    "participant:rice-uh-uhd-social-design"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/project-constellation",
+    "qt314wink/seed-loom"
+  ],
+  "assumptions": [
+    "Comparable local organizations would benefit from accessible scenario visualization."
+  ],
+  "knownLimitations": [
+    "No client contract, measurable impact or paid procurement identified.",
+    "Exhibition is in Houston and not an immediate local service request."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

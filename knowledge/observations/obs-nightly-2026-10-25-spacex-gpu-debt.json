@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-25-spacex-gpu-debt",
+  "type": "Observation",
+  "capturedAt": "2026-10-25T23:44:50Z",
+  "claim": "On October 25 Reuters reported Elon Musk's statement that SpaceX closed $40 billion in GPU-related debt financing.",
+  "verifiedFacts": [
+    "Reuters reported on October 25 that Musk said SpaceX had closed a $40 billion debt deal for GPUs.",
+    "Musk said purchases would arrive in the first two quarters of 2027.",
+    "The reported terms and completion were not independently verified in an underlying financing filing reviewed here."
+  ],
+  "inference": [
+    "Large-scale AI infrastructure financing favors organizations with substantial collateral or non-AI cash flows.",
+    "Consultancy: compute-cost and infrastructure-dependency scenario audit for smaller AI builders.",
+    "Disposition: CORE Seed Loom evidence/financial-claim lineage; REFERENCE-ONLY external infrastructure providers."
+  ],
+  "significance": "A reported financing statement illustrates capital intensity but should not be treated as an independently audited debt close.",
+  "confidence": 0.78,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-10-25-spacex-gpu-debt"
+  ],
+  "actorRefs": [
+    "buyer:spacex"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "Musk's statement accurately reflects a completed binding financing arrangement."
+  ],
+  "knownLimitations": [
+    "No debt agreement, lender confirmation or independent audit examined.",
+    "Large-scale GPU financing does not demonstrate small-consultancy customer demand."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

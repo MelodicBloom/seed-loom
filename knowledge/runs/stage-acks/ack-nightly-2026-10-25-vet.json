@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-25-vet",
+  "runId": "run:nightly-2026-10-25",
+  "stage": "vet",
+  "status": "passed",
+  "startedAt": "2026-10-25T23:44:50Z",
+  "completedAt": "2026-10-25T23:44:50Z",
+  "inputs": [
+    "obs:nightly-2026-10-25-litellm-signing-key",
+    "obs:nightly-2026-10-25-openclaw-replay-recovery",
+    "obs:nightly-2026-10-25-material-validation-lab-merged",
+    "obs:nightly-2026-10-25-rice-designing-futures",
+    "obs:nightly-2026-10-25-spacex-gpu-debt"
+  ],
+  "outputs": [
+    "obs:nightly-2026-10-25-litellm-signing-key",
+    "obs:nightly-2026-10-25-openclaw-replay-recovery",
+    "obs:nightly-2026-10-25-material-validation-lab-merged",
+    "obs:nightly-2026-10-25-rice-designing-futures",
+    "obs:nightly-2026-10-25-spacex-gpu-debt"
+  ],
+  "checks": [
+    {
+      "name": "source-class-and-date-review",
+      "result": "pass",
+      "detail": "Five distinct primary/repository/official/press evidence records; historical duplication checked against October 21–24 intake."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only intake; no canonical acceptance; source bodies not hashed."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly Consultancy Intelligence research edge",
+    "method": "Direct-source and repository-API inspection",
+    "inputHashes": [
+      "git-commit:f9bebc950864d83e6748f97cd4b2319f0a965c98"
+    ]
+  }
+}

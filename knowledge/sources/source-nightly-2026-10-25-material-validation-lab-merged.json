@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-25-material-validation-lab-merged",
+  "type": "Source",
+  "url": "https://github.com/MelodicBloom/shader-gallery/pull/18",
+  "publisher": "MelodicBloom/shader-gallery",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-25T23:44:50Z",
+  "sourceClass": "repository",
+  "independenceKey": "melodicbloom-shader-gallery",
+  "contentHash": null,
+  "title": "Material Validation Lab v0 merged",
+  "analystNote": "Publisher date verified as October 24 or 25; precise original-source content hash unavailable. Publication time not uniformly verified."
+}

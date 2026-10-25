@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-10-25",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-23T23:44:50Z",
+    "to": "2026-10-25T23:44:50Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-10-25-litellm-signing-key",
+    "obs:nightly-2026-10-25-openclaw-replay-recovery",
+    "obs:nightly-2026-10-25-material-validation-lab-merged",
+    "obs:nightly-2026-10-25-rice-designing-futures",
+    "obs:nightly-2026-10-25-spacex-gpu-debt"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Release and recovery provenance is a separate control surface from semantic evidence governance.",
+    "Material Validation Lab has moved from planned proof to merged candidate source/validation contracts.",
+    "Civic visualization has verified participation but no demonstrated procurement.",
+    "Compute financing claims need separation of executive statement from audited cash flow."
+  ],
+  "newRelationships": [
+    "rel:nightly-2026-10-25-litellm-signing-key",
+    "rel:nightly-2026-10-25-openclaw-replay-recovery",
+    "rel:nightly-2026-10-25-material-validation-lab-merged",
+    "rel:nightly-2026-10-25-rice-designing-futures",
+    "rel:nightly-2026-10-25-spacex-gpu-debt"
+  ],
+  "contradictions": [
+    "Public release notes and reported financing claims are not independent deployment or audited financial proofs."
+  ],
+  "opportunities": [
+    "Agent dependency and signing-key rotation audit",
+    "Interrupted-agent replay receipt comparison",
+    "Mechanism-first material validation proof",
+    "Participatory civic evidence-map sprint",
+    "Compute-cost and dependency scenario advisory"
+  ],
+  "proposedExperiments": [
+    "Read-only signature and replay fixture matrix with 10 cases, no live client secrets.",
+    "Independent optical-reference-lane parity trial for VMA-001, with explicit stop conditions."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/seed-loom",
+      "branch": "proposal/issue-24-explicit-bundle-proof",
+      "allowedPaths": [
+        ".github/workflows/nightly-intake-proof.yml"
+      ],
+      "description": "After separate authorization only, select exact reviewed bundle for Issue #24 two-run proof."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/shader-gallery",
+      "branch": "proposal/vma-001-g1-reference-trial",
+      "allowedPaths": [
+        "material-validation-lab/",
+        "packages/shader-library-v1/source/material-validation-lab/"
+      ],
+      "description": "Read-only G1 measured reference trial; no unproven optical or performance claims."
+    }
+  ],
+  "noChangeReceipts": [
+    "No repeat of October 21–24 nightly observations on Zoom/Onyx, GitHub Copilot usage, helium, MoS2, MIT creativity, OpenAI sandbox containment, Arc sunset, or Tempus contracts.",
+    "No verified new default-branch delivery for Omni-Loom, Kozo Dreams, AETHER or Observation Ad Pipeline in the 48-hour window.",
+    "No client payment, adoption or signed consultancy engagement established."
+  ],
+  "collectionFailures": [
+    "Original publisher page body SHA-256 unavailable; source.contentHash remains null.",
+    "Reuters reports an executive financing statement; loan agreements and lender confirmation not inspected.",
+    "Precise original-source publication hours unavailable for several records.",
+    "Historical cross-branch candidate deduplication incomplete beyond October 21–24 sampled nightly bundles.",
+    "Issue #24 two-isolated-execution proof not run for this bundle; workflow defaults to an older fixture without explicit input.",
+    "Full manual browser, native shader, performance and all-PR review checks not executed.",
+    "Repository clone unavailable from this runtime due DNS failure; verified GitHub Actions bridge must execute canonical ingest."
+  ]
+}
