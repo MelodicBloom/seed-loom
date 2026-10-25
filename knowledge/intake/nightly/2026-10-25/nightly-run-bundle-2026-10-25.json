@@ -1,0 +1,1384 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly-2026-10-25",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-10-23T23:44:50Z",
+      "to": "2026-10-25T23:44:50Z"
+    },
+    "newObservations": [
+      "obs:nightly-2026-10-25-litellm-signing-key",
+      "obs:nightly-2026-10-25-openclaw-replay-recovery",
+      "obs:nightly-2026-10-25-material-validation-lab-merged",
+      "obs:nightly-2026-10-25-rice-designing-futures",
+      "obs:nightly-2026-10-25-spacex-gpu-debt"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [
+      "Release and recovery provenance is a separate control surface from semantic evidence governance.",
+      "Material Validation Lab has moved from planned proof to merged candidate source/validation contracts.",
+      "Civic visualization has verified participation but no demonstrated procurement.",
+      "Compute financing claims need separation of executive statement from audited cash flow."
+    ],
+    "newRelationships": [
+      "rel:nightly-2026-10-25-litellm-signing-key",
+      "rel:nightly-2026-10-25-openclaw-replay-recovery",
+      "rel:nightly-2026-10-25-material-validation-lab-merged",
+      "rel:nightly-2026-10-25-rice-designing-futures",
+      "rel:nightly-2026-10-25-spacex-gpu-debt"
+    ],
+    "contradictions": [
+      "Public release notes and reported financing claims are not independent deployment or audited financial proofs."
+    ],
+    "opportunities": [
+      "Agent dependency and signing-key rotation audit",
+      "Interrupted-agent replay receipt comparison",
+      "Mechanism-first material validation proof",
+      "Participatory civic evidence-map sprint",
+      "Compute-cost and dependency scenario advisory"
+    ],
+    "proposedExperiments": [
+      "Read-only signature and replay fixture matrix with 10 cases, no live client secrets.",
+      "Independent optical-reference-lane parity trial for VMA-001, with explicit stop conditions."
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "qt314wink/seed-loom",
+        "branch": "proposal/issue-24-explicit-bundle-proof",
+        "allowedPaths": [
+          ".github/workflows/nightly-intake-proof.yml"
+        ],
+        "description": "After separate authorization only, select exact reviewed bundle for Issue #24 two-run proof."
+      },
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/shader-gallery",
+        "branch": "proposal/vma-001-g1-reference-trial",
+        "allowedPaths": [
+          "material-validation-lab/",
+          "packages/shader-library-v1/source/material-validation-lab/"
+        ],
+        "description": "Read-only G1 measured reference trial; no unproven optical or performance claims."
+      }
+    ],
+    "noChangeReceipts": [
+      "No repeat of October 21–24 nightly observations on Zoom/Onyx, GitHub Copilot usage, helium, MoS2, MIT creativity, OpenAI sandbox containment, Arc sunset, or Tempus contracts.",
+      "No verified new default-branch delivery for Omni-Loom, Kozo Dreams, AETHER or Observation Ad Pipeline in the 48-hour window.",
+      "No client payment, adoption or signed consultancy engagement established."
+    ],
+    "collectionFailures": [
+      "Original publisher page body SHA-256 unavailable; source.contentHash remains null.",
+      "Reuters reports an executive financing statement; loan agreements and lender confirmation not inspected.",
+      "Precise original-source publication hours unavailable for several records.",
+      "Historical cross-branch candidate deduplication incomplete beyond October 21–24 sampled nightly bundles.",
+      "Issue #24 two-isolated-execution proof not run for this bundle; workflow defaults to an older fixture without explicit input.",
+      "Full manual browser, native shader, performance and all-PR review checks not executed.",
+      "Repository clone unavailable from this runtime due DNS failure; verified GitHub Actions bridge must execute canonical ingest."
+    ]
+  },
+  "sources": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-25-litellm-signing-key",
+      "type": "Source",
+      "url": "https://github.com/BerriAI/litellm/releases/tag/v1.106.3",
+      "publisher": "LiteLLM maintainers",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-25T23:44:50Z",
+      "sourceClass": "repository",
+      "independenceKey": "berriai-litellm",
+      "contentHash": null,
+      "title": "LiteLLM v1.106.3 signing-key rotation",
+      "analystNote": "Publisher date verified as October 24 or 25; precise original-source content hash unavailable. Publication time not uniformly verified."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-25-openclaw-replay-recovery",
+      "type": "Source",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.10.7",
+      "publisher": "OpenClaw maintainers",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-25T23:44:50Z",
+      "sourceClass": "repository",
+      "independenceKey": "openclaw",
+      "contentHash": null,
+      "title": "OpenClaw 2026.10.7 replay-safe recovery",
+      "analystNote": "Publisher date verified as October 24 or 25; precise original-source content hash unavailable. Publication time not uniformly verified."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-25-material-validation-lab-merged",
+      "type": "Source",
+      "url": "https://github.com/MelodicBloom/shader-gallery/pull/18",
+      "publisher": "MelodicBloom/shader-gallery",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-25T23:44:50Z",
+      "sourceClass": "repository",
+      "independenceKey": "melodicbloom-shader-gallery",
+      "contentHash": null,
+      "title": "Material Validation Lab v0 merged",
+      "analystNote": "Publisher date verified as October 24 or 25; precise original-source content hash unavailable. Publication time not uniformly verified."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-25-rice-designing-futures",
+      "type": "Source",
+      "url": "https://news.rice.edu/news/2026/uh-uhd-rice-students-reimagine-houston-through-art-design-and-data",
+      "publisher": "Rice University",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-25T23:44:50Z",
+      "sourceClass": "official",
+      "independenceKey": "rice-university",
+      "contentHash": null,
+      "title": "Designing Possible Futures civic exhibition",
+      "analystNote": "Publisher date verified as October 24 or 25; precise original-source content hash unavailable. Publication time not uniformly verified."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-25-spacex-gpu-debt",
+      "type": "Source",
+      "url": "https://www.reuters.com/business/media-telecom/musk-says-spacex-raised-40-billion-debt-gpus-2026-10-25/",
+      "publisher": "Reuters",
+      "publishedAt": null,
+      "retrievedAt": "2026-10-25T23:44:50Z",
+      "sourceClass": "press",
+      "independenceKey": "reuters",
+      "contentHash": null,
+      "title": "SpaceX claims $40B GPU financing",
+      "analystNote": "Publisher date verified as October 24 or 25; precise original-source content hash unavailable. Publication time not uniformly verified."
+    }
+  ],
+  "observations": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-25-litellm-signing-key",
+      "type": "Observation",
+      "capturedAt": "2026-10-25T23:44:50Z",
+      "claim": "On October 24 LiteLLM released v1.106.3 with a new image-signing key and removal of a distrusted certificate root.",
+      "verifiedFacts": [
+        "The official October 24 release notes require consumers to use a new pinned cosign public key; old-key verification fails.",
+        "The release removed the eMudhra root CA from trusted bundles.",
+        "The new public-key SHA-256 is e3fe3e08c44b16407fe0b37c43b4f8b603b3a0f4ee74c29e647bc022d762c2c0."
+      ],
+      "inference": [
+        "Agent supply-chain attestations must record key rotations and distinguish signed artifact identity from package version.",
+        "Consultancy: bounded agent dependency provenance and signature-rotation audit.",
+        "Disposition: CORE Seed Loom provenance policy; REFERENCE-ONLY LiteLLM unless an actual dependency is found."
+      ],
+      "significance": "Verified release changes affect deployment verification and illustrate the limits of static signing-key pins.",
+      "confidence": 0.98,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-25-litellm-signing-key"
+      ],
+      "actorRefs": [
+        "builder:berriai-litellm"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/agent-runtime-control-center"
+      ],
+      "assumptions": [
+        "Client stacks use signed LiteLLM images or equivalent verification controls."
+      ],
+      "knownLimitations": [
+        "No LiteLLM dependency was found or ruled out in all relevant repositories.",
+        "No signature verification command was executed locally."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-25-openclaw-replay-recovery",
+      "type": "Observation",
+      "capturedAt": "2026-10-25T23:44:50Z",
+      "claim": "On October 24 OpenClaw released v2026.10.7 documenting replay-safe session recovery and preserved tool-outcome provenance.",
+      "verifiedFacts": [
+        "The official v2026.10.7 release was published October 24.",
+        "Release notes describe retention of unfinished tool outcomes during interrupted-session recovery.",
+        "Release notes also describe fixes for stale recovery residue and context-refresh reply blocking."
+      ],
+      "inference": [
+        "Recovery provenance should be tested as an explicit agent-control contract rather than inferred from successful uninterrupted runs.",
+        "Consultancy: agent interruption/replay evidence audit.",
+        "Disposition: CORE Seed Loom proof protocol; INCUBATE Agent Runtime Control Center recovery adapter only after fixture parity."
+      ],
+      "significance": "Concrete shipped recovery fixes provide a benchmark for durable agent-execution receipts.",
+      "confidence": 0.96,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-25-openclaw-replay-recovery"
+      ],
+      "actorRefs": [
+        "builder:openclaw"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/agent-runtime-control-center"
+      ],
+      "assumptions": [
+        "Published fixes perform as described in supported environments."
+      ],
+      "knownLimitations": [
+        "Release notes are maintainer claims; no independent runtime reproduction.",
+        "OpenClaw is not established as a current project dependency."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-25-material-validation-lab-merged",
+      "type": "Observation",
+      "capturedAt": "2026-10-25T23:44:50Z",
+      "claim": "On October 24 shader-gallery merged Material Validation Lab v0 with material records, a source registry, validators and trial documentation.",
+      "verifiedFacts": [
+        "PR #18 merged October 24 at 23:23:51 UTC.",
+        "The merged commit f9bebc950864d83e6748f97cd4b2319f0a965c98 adds material-validation-lab documentation, source registry and material record JSON files.",
+        "The changed files include validation scripts and a shader-library source archive."
+      ],
+      "inference": [
+        "This is an actual portfolio proof boundary advancing from scattered optical specimens to governed material records.",
+        "Consultancy: reproducible optical-material demonstration and validation service.",
+        "Disposition: PRODUCTIZE Shader Gallery; CORE Shader Grammar as semantic authority, not duplicated runtime."
+      ],
+      "significance": "A merged, reviewable material-validation surface is a stronger portfolio artifact than an uncommitted visual study.",
+      "confidence": 0.99,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-25-material-validation-lab-merged"
+      ],
+      "actorRefs": [
+        "builder:melodicbloom"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/shader-gallery",
+        "qt314wink/shader-grammar"
+      ],
+      "assumptions": [
+        "The merged validator and source archive are internally consistent."
+      ],
+      "knownLimitations": [
+        "Native Three.js parity, visual correctness and performance have not been independently proven.",
+        "Follow-up PR #30 remains draft and open."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-25-rice-designing-futures",
+      "type": "Observation",
+      "capturedAt": "2026-10-25T23:44:50Z",
+      "claim": "On October 24 Rice University reported the opening of a multi-university civic design exhibition using art, maps and data visualization.",
+      "verifiedFacts": [
+        "Rice University's October 24 announcement documents the Designing Possible Futures exhibition running October 24–November 4.",
+        "Students and faculty from Rice, University of Houston and University of Houston-Downtown are involved.",
+        "The program includes visualizations and community-oriented discussion of social, economic and environmental challenges."
+      ],
+      "inference": [
+        "A bounded civic-data storytelling offer can connect environmental evidence, visual narratives and community deliberation.",
+        "Consultancy: participatory scenario and evidence-map sprint.",
+        "Disposition: INCUBATE Project Constellation as presentation layer; CORE Seed Loom for source governance."
+      ],
+      "significance": "Documented cross-institutional participation is a relevant practice model, not a verified paid procurement signal.",
+      "confidence": 0.95,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-25-rice-designing-futures"
+      ],
+      "actorRefs": [
+        "participant:rice-uh-uhd-social-design"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/project-constellation",
+        "qt314wink/seed-loom"
+      ],
+      "assumptions": [
+        "Comparable local organizations would benefit from accessible scenario visualization."
+      ],
+      "knownLimitations": [
+        "No client contract, measurable impact or paid procurement identified.",
+        "Exhibition is in Houston and not an immediate local service request."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-25-spacex-gpu-debt",
+      "type": "Observation",
+      "capturedAt": "2026-10-25T23:44:50Z",
+      "claim": "On October 25 Reuters reported Elon Musk's statement that SpaceX closed $40 billion in GPU-related debt financing.",
+      "verifiedFacts": [
+        "Reuters reported on October 25 that Musk said SpaceX had closed a $40 billion debt deal for GPUs.",
+        "Musk said purchases would arrive in the first two quarters of 2027.",
+        "The reported terms and completion were not independently verified in an underlying financing filing reviewed here."
+      ],
+      "inference": [
+        "Large-scale AI infrastructure financing favors organizations with substantial collateral or non-AI cash flows.",
+        "Consultancy: compute-cost and infrastructure-dependency scenario audit for smaller AI builders.",
+        "Disposition: CORE Seed Loom evidence/financial-claim lineage; REFERENCE-ONLY external infrastructure providers."
+      ],
+      "significance": "A reported financing statement illustrates capital intensity but should not be treated as an independently audited debt close.",
+      "confidence": 0.78,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-10-25-spacex-gpu-debt"
+      ],
+      "actorRefs": [
+        "buyer:spacex"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "MelodicBloom/project-constellation"
+      ],
+      "assumptions": [
+        "Musk's statement accurately reflects a completed binding financing arrangement."
+      ],
+      "knownLimitations": [
+        "No debt agreement, lender confirmation or independent audit examined.",
+        "Large-scale GPU financing does not demonstrate small-consultancy customer demand."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-25-litellm-signing-key",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-25-litellm-signing-key",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-25-litellm-signing-key",
+      "confidence": 0.98,
+      "evidenceRefs": [
+        "source:nightly-2026-10-25-litellm-signing-key"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-25-openclaw-replay-recovery",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-25-openclaw-replay-recovery",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-25-openclaw-replay-recovery",
+      "confidence": 0.96,
+      "evidenceRefs": [
+        "source:nightly-2026-10-25-openclaw-replay-recovery"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-25-material-validation-lab-merged",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-25-material-validation-lab-merged",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-25-material-validation-lab-merged",
+      "confidence": 0.99,
+      "evidenceRefs": [
+        "source:nightly-2026-10-25-material-validation-lab-merged"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-25-rice-designing-futures",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-25-rice-designing-futures",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-25-rice-designing-futures",
+      "confidence": 0.95,
+      "evidenceRefs": [
+        "source:nightly-2026-10-25-rice-designing-futures"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-25-spacex-gpu-debt",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-25-spacex-gpu-debt",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-10-25-spacex-gpu-debt",
+      "confidence": 0.78,
+      "evidenceRefs": [
+        "source:nightly-2026-10-25-spacex-gpu-debt"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-25-collect",
+      "runId": "run:nightly-2026-10-25",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-10-25T23:44:50Z",
+      "completedAt": "2026-10-25T23:44:50Z",
+      "inputs": [
+        "https://github.com/BerriAI/litellm/releases/tag/v1.106.3",
+        "https://github.com/openclaw/openclaw/releases/tag/v2026.10.7",
+        "https://github.com/MelodicBloom/shader-gallery/pull/18",
+        "https://news.rice.edu/news/2026/uh-uhd-rice-students-reimagine-houston-through-art-design-and-data",
+        "https://www.reuters.com/business/media-telecom/musk-says-spacex-raised-40-billion-debt-gpus-2026-10-25/"
+      ],
+      "outputs": [
+        "source:nightly-2026-10-25-litellm-signing-key",
+        "source:nightly-2026-10-25-openclaw-replay-recovery",
+        "source:nightly-2026-10-25-material-validation-lab-merged",
+        "source:nightly-2026-10-25-rice-designing-futures",
+        "source:nightly-2026-10-25-spacex-gpu-debt"
+      ],
+      "checks": [
+        {
+          "name": "five-distinct-source-locators",
+          "result": "pass",
+          "detail": "Five distinct primary/repository/official/press evidence records; historical duplication checked against October 21–24 intake."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only intake; no canonical acceptance; source bodies not hashed."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence research edge",
+        "method": "Direct-source and repository-API inspection",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-25-vet",
+      "runId": "run:nightly-2026-10-25",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-10-25T23:44:50Z",
+      "completedAt": "2026-10-25T23:44:50Z",
+      "inputs": [
+        "obs:nightly-2026-10-25-litellm-signing-key",
+        "obs:nightly-2026-10-25-openclaw-replay-recovery",
+        "obs:nightly-2026-10-25-material-validation-lab-merged",
+        "obs:nightly-2026-10-25-rice-designing-futures",
+        "obs:nightly-2026-10-25-spacex-gpu-debt"
+      ],
+      "outputs": [
+        "obs:nightly-2026-10-25-litellm-signing-key",
+        "obs:nightly-2026-10-25-openclaw-replay-recovery",
+        "obs:nightly-2026-10-25-material-validation-lab-merged",
+        "obs:nightly-2026-10-25-rice-designing-futures",
+        "obs:nightly-2026-10-25-spacex-gpu-debt"
+      ],
+      "checks": [
+        {
+          "name": "source-class-and-date-review",
+          "result": "pass",
+          "detail": "Five distinct primary/repository/official/press evidence records; historical duplication checked against October 21–24 intake."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only intake; no canonical acceptance; source bodies not hashed."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence research edge",
+        "method": "Direct-source and repository-API inspection",
+        "inputHashes": [
+          "git-commit:f9bebc950864d83e6748f97cd4b2319f0a965c98"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-25-normalize",
+      "runId": "run:nightly-2026-10-25",
+      "stage": "normalize",
+      "status": "deferred",
+      "startedAt": "2026-10-25T23:44:50Z",
+      "completedAt": "2026-10-25T23:44:50Z",
+      "inputs": [
+        "obs:nightly-2026-10-25-litellm-signing-key",
+        "obs:nightly-2026-10-25-openclaw-replay-recovery",
+        "obs:nightly-2026-10-25-material-validation-lab-merged",
+        "obs:nightly-2026-10-25-rice-designing-futures",
+        "obs:nightly-2026-10-25-spacex-gpu-debt"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "governed-transition-not-executed",
+          "result": "not-applicable",
+          "detail": "Await canonical ingest execution or explicit human approval; not claimed passed."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only intake; no canonical acceptance; source bodies not hashed."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence research edge",
+        "method": "Candidate-only interpretation; deferred pending canonical execution or human decision",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-25-observe",
+      "runId": "run:nightly-2026-10-25",
+      "stage": "observe",
+      "status": "deferred",
+      "startedAt": "2026-10-25T23:44:50Z",
+      "completedAt": "2026-10-25T23:44:50Z",
+      "inputs": [
+        "obs:nightly-2026-10-25-litellm-signing-key",
+        "obs:nightly-2026-10-25-openclaw-replay-recovery",
+        "obs:nightly-2026-10-25-material-validation-lab-merged",
+        "obs:nightly-2026-10-25-rice-designing-futures",
+        "obs:nightly-2026-10-25-spacex-gpu-debt"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "governed-transition-not-executed",
+          "result": "not-applicable",
+          "detail": "Await canonical ingest execution or explicit human approval; not claimed passed."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only intake; no canonical acceptance; source bodies not hashed."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence research edge",
+        "method": "Candidate-only interpretation; deferred pending canonical execution or human decision",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-25-inquire",
+      "runId": "run:nightly-2026-10-25",
+      "stage": "inquire",
+      "status": "deferred",
+      "startedAt": "2026-10-25T23:44:50Z",
+      "completedAt": "2026-10-25T23:44:50Z",
+      "inputs": [
+        "obs:nightly-2026-10-25-litellm-signing-key",
+        "obs:nightly-2026-10-25-openclaw-replay-recovery",
+        "obs:nightly-2026-10-25-material-validation-lab-merged",
+        "obs:nightly-2026-10-25-rice-designing-futures",
+        "obs:nightly-2026-10-25-spacex-gpu-debt"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "governed-transition-not-executed",
+          "result": "not-applicable",
+          "detail": "Await canonical ingest execution or explicit human approval; not claimed passed."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only intake; no canonical acceptance; source bodies not hashed."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence research edge",
+        "method": "Candidate-only interpretation; deferred pending canonical execution or human decision",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-25-interpret",
+      "runId": "run:nightly-2026-10-25",
+      "stage": "interpret",
+      "status": "deferred",
+      "startedAt": "2026-10-25T23:44:50Z",
+      "completedAt": "2026-10-25T23:44:50Z",
+      "inputs": [
+        "obs:nightly-2026-10-25-litellm-signing-key",
+        "obs:nightly-2026-10-25-openclaw-replay-recovery",
+        "obs:nightly-2026-10-25-material-validation-lab-merged",
+        "obs:nightly-2026-10-25-rice-designing-futures",
+        "obs:nightly-2026-10-25-spacex-gpu-debt"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "governed-transition-not-executed",
+          "result": "not-applicable",
+          "detail": "Await canonical ingest execution or explicit human approval; not claimed passed."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only intake; no canonical acceptance; source bodies not hashed."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence research edge",
+        "method": "Candidate-only interpretation; deferred pending canonical execution or human decision",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-25-relate",
+      "runId": "run:nightly-2026-10-25",
+      "stage": "relate",
+      "status": "deferred",
+      "startedAt": "2026-10-25T23:44:50Z",
+      "completedAt": "2026-10-25T23:44:50Z",
+      "inputs": [
+        "obs:nightly-2026-10-25-litellm-signing-key",
+        "obs:nightly-2026-10-25-openclaw-replay-recovery",
+        "obs:nightly-2026-10-25-material-validation-lab-merged",
+        "obs:nightly-2026-10-25-rice-designing-futures",
+        "obs:nightly-2026-10-25-spacex-gpu-debt"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "governed-transition-not-executed",
+          "result": "not-applicable",
+          "detail": "Await canonical ingest execution or explicit human approval; not claimed passed."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only intake; no canonical acceptance; source bodies not hashed."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence research edge",
+        "method": "Candidate-only interpretation; deferred pending canonical execution or human decision",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-25-pattern",
+      "runId": "run:nightly-2026-10-25",
+      "stage": "pattern",
+      "status": "deferred",
+      "startedAt": "2026-10-25T23:44:50Z",
+      "completedAt": "2026-10-25T23:44:50Z",
+      "inputs": [
+        "obs:nightly-2026-10-25-litellm-signing-key",
+        "obs:nightly-2026-10-25-openclaw-replay-recovery",
+        "obs:nightly-2026-10-25-material-validation-lab-merged",
+        "obs:nightly-2026-10-25-rice-designing-futures",
+        "obs:nightly-2026-10-25-spacex-gpu-debt"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "governed-transition-not-executed",
+          "result": "not-applicable",
+          "detail": "Await canonical ingest execution or explicit human approval; not claimed passed."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only intake; no canonical acceptance; source bodies not hashed."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence research edge",
+        "method": "Candidate-only interpretation; deferred pending canonical execution or human decision",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-25-opportunity",
+      "runId": "run:nightly-2026-10-25",
+      "stage": "opportunity",
+      "status": "deferred",
+      "startedAt": "2026-10-25T23:44:50Z",
+      "completedAt": "2026-10-25T23:44:50Z",
+      "inputs": [
+        "obs:nightly-2026-10-25-litellm-signing-key",
+        "obs:nightly-2026-10-25-openclaw-replay-recovery",
+        "obs:nightly-2026-10-25-material-validation-lab-merged",
+        "obs:nightly-2026-10-25-rice-designing-futures",
+        "obs:nightly-2026-10-25-spacex-gpu-debt"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "governed-transition-not-executed",
+          "result": "not-applicable",
+          "detail": "Await canonical ingest execution or explicit human approval; not claimed passed."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only intake; no canonical acceptance; source bodies not hashed."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence research edge",
+        "method": "Candidate-only interpretation; deferred pending canonical execution or human decision",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-25-strategy",
+      "runId": "run:nightly-2026-10-25",
+      "stage": "strategy",
+      "status": "deferred",
+      "startedAt": "2026-10-25T23:44:50Z",
+      "completedAt": "2026-10-25T23:44:50Z",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "governed-transition-not-executed",
+          "result": "not-applicable",
+          "detail": "Await canonical ingest execution or explicit human approval; not claimed passed."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No strategy acceptance, experiment execution, Genesis, publication or external action authorized."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence research edge",
+        "method": "Candidate-only interpretation; deferred pending canonical execution or human decision",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-25-experiment",
+      "runId": "run:nightly-2026-10-25",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-10-25T23:44:50Z",
+      "completedAt": "2026-10-25T23:44:50Z",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "governed-transition-not-executed",
+          "result": "not-applicable",
+          "detail": "Await canonical ingest execution or explicit human approval; not claimed passed."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No strategy acceptance, experiment execution, Genesis, publication or external action authorized."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence research edge",
+        "method": "Candidate-only interpretation; deferred pending canonical execution or human decision",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-25-genesis",
+      "runId": "run:nightly-2026-10-25",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-10-25T23:44:50Z",
+      "completedAt": "2026-10-25T23:44:50Z",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "governed-transition-not-executed",
+          "result": "not-applicable",
+          "detail": "Await canonical ingest execution or explicit human approval; not claimed passed."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No strategy acceptance, experiment execution, Genesis, publication or external action authorized."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence research edge",
+        "method": "Candidate-only interpretation; deferred pending canonical execution or human decision",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-25-publish",
+      "runId": "run:nightly-2026-10-25",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-10-25T23:44:50Z",
+      "completedAt": "2026-10-25T23:44:50Z",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "governed-transition-not-executed",
+          "result": "not-applicable",
+          "detail": "Await canonical ingest execution or explicit human approval; not claimed passed."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No strategy acceptance, experiment execution, Genesis, publication or external action authorized."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence research edge",
+        "method": "Candidate-only interpretation; deferred pending canonical execution or human decision",
+        "inputHashes": []
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:nightly-2026-10-25-litellm-signing-key",
+      "observationId": "obs:nightly-2026-10-25-litellm-signing-key",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "The official October 24 release notes require consumers to use a new pinned cosign public key; old-key verification fails.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-25-litellm-signing-key"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "builder:berriai-litellm performed the documented action.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-25-litellm-signing-key"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Verified release changes affect deployment verification and illustrate the limits of static signing-key pins.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Consultancy: bounded agent dependency provenance and signature-rotation audit.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing vendors, conventional manual review, or no new service; substitution not measured.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "The release removed the eMudhra root CA from trusted bundles.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-25-litellm-signing-key"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "A rotated signing key by itself proves an artifact is safe.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "An audited dependency inventory shows no affected consumers or controls, or a verified signature fails to establish intended provenance.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Live dependency SBOM and signature-verification results",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Routine key rotation and certificate housekeeping rather than evidence of new adoption.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "A rotated signing key by itself proves an artifact is safe.",
+      "falsifier": "An audited dependency inventory shows no affected consumers or controls, or a verified signature fails to establish intended provenance.",
+      "missingEvidence": [
+        "Live dependency SBOM and signature-verification results"
+      ],
+      "alternativeExplanation": "Routine key rotation and certificate housekeeping rather than evidence of new adoption.",
+      "disposition": "experiment",
+      "confidence": 0.98
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-25-openclaw-replay-recovery",
+      "observationId": "obs:nightly-2026-10-25-openclaw-replay-recovery",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "The official v2026.10.7 release was published October 24.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-25-openclaw-replay-recovery"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "builder:openclaw performed the documented action.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-25-openclaw-replay-recovery"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Concrete shipped recovery fixes provide a benchmark for durable agent-execution receipts.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Consultancy: agent interruption/replay evidence audit.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing vendors, conventional manual review, or no new service; substitution not measured.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Release notes describe retention of unfinished tool outcomes during interrupted-session recovery.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-25-openclaw-replay-recovery"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Successful recovery is equivalent to deterministic knowledge ingestion.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Interrupted-run fixtures produce missing or duplicated tool outcomes, or stable recovery has no bearing on the governed ingest contract.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Cross-harness interrupted-session trace comparison",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "A maintenance release fixing product-specific bugs without broader architectural implications.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Successful recovery is equivalent to deterministic knowledge ingestion.",
+      "falsifier": "Interrupted-run fixtures produce missing or duplicated tool outcomes, or stable recovery has no bearing on the governed ingest contract.",
+      "missingEvidence": [
+        "Cross-harness interrupted-session trace comparison"
+      ],
+      "alternativeExplanation": "A maintenance release fixing product-specific bugs without broader architectural implications.",
+      "disposition": "experiment",
+      "confidence": 0.96
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-25-material-validation-lab-merged",
+      "observationId": "obs:nightly-2026-10-25-material-validation-lab-merged",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "PR #18 merged October 24 at 23:23:51 UTC.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-25-material-validation-lab-merged"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "builder:melodicbloom performed the documented action.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-25-material-validation-lab-merged"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A merged, reviewable material-validation surface is a stronger portfolio artifact than an uncommitted visual study.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Consultancy: reproducible optical-material demonstration and validation service.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing vendors, conventional manual review, or no new service; substitution not measured.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "The merged commit f9bebc950864d83e6748f97cd4b2319f0a965c98 adds material-validation-lab documentation, source registry and material record JSON files.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-25-material-validation-lab-merged"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Merged records establish physically accurate optical behavior.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "A measured reference-lane comparison or source-archive validation fails.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent reference renderer and measured material datasets",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Documentation and fixture governance progress rather than new optical mechanism capability.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Merged records establish physically accurate optical behavior.",
+      "falsifier": "A measured reference-lane comparison or source-archive validation fails.",
+      "missingEvidence": [
+        "Independent reference renderer and measured material datasets"
+      ],
+      "alternativeExplanation": "Documentation and fixture governance progress rather than new optical mechanism capability.",
+      "disposition": "strategy-candidate",
+      "confidence": 0.99
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-25-rice-designing-futures",
+      "observationId": "obs:nightly-2026-10-25-rice-designing-futures",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Rice University's October 24 announcement documents the Designing Possible Futures exhibition running October 24–November 4.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-25-rice-designing-futures"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "participant:rice-uh-uhd-social-design performed the documented action.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-25-rice-designing-futures"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Documented cross-institutional participation is a relevant practice model, not a verified paid procurement signal.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Consultancy: participatory scenario and evidence-map sprint.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing vendors, conventional manual review, or no new service; substitution not measured.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Students and faculty from Rice, University of Houston and University of Houston-Downtown are involved.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-25-rice-designing-futures"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "A public exhibition proves demand for commercial civic dashboards.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Local nonprofits and agencies reject the deliverable or cannot fund it.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Buyer interviews, accessibility outcomes, public-participation evidence",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "A university arts-and-community engagement activity without repeatable procurement demand.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "A public exhibition proves demand for commercial civic dashboards.",
+      "falsifier": "Local nonprofits and agencies reject the deliverable or cannot fund it.",
+      "missingEvidence": [
+        "Buyer interviews, accessibility outcomes, public-participation evidence"
+      ],
+      "alternativeExplanation": "A university arts-and-community engagement activity without repeatable procurement demand.",
+      "disposition": "watch",
+      "confidence": 0.95
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-25-spacex-gpu-debt",
+      "observationId": "obs:nightly-2026-10-25-spacex-gpu-debt",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Reuters reported on October 25 that Musk said SpaceX had closed a $40 billion debt deal for GPUs.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-25-spacex-gpu-debt"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "buyer:spacex performed the documented action.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-25-spacex-gpu-debt"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A reported financing statement illustrates capital intensity but should not be treated as an independently audited debt close.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Consultancy: compute-cost and infrastructure-dependency scenario audit for smaller AI builders.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing vendors, conventional manual review, or no new service; substitution not measured.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Musk said purchases would arrive in the first two quarters of 2027.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-25-spacex-gpu-debt"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Headline financing size proves sustainable returns on AI compute.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Loan documentation contradicts the announced close or economic returns fail to cover capital costs.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Financing documents, interest terms, lender confirmations and utilization economics",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "A financing announcement primarily intended to signal credit access and scale.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Headline financing size proves sustainable returns on AI compute.",
+      "falsifier": "Loan documentation contradicts the announced close or economic returns fail to cover capital costs.",
+      "missingEvidence": [
+        "Financing documents, interest terms, lender confirmations and utilization economics"
+      ],
+      "alternativeExplanation": "A financing announcement primarily intended to signal credit access and scale.",
+      "disposition": "watch",
+      "confidence": 0.78
+    }
+  ],
+  "advisory": {
+    "consultancyImplications": [
+      {
+        "observationId": "obs:nightly-2026-10-25-litellm-signing-key",
+        "summary": "Consultancy: bounded agent dependency provenance and signature-rotation audit."
+      },
+      {
+        "observationId": "obs:nightly-2026-10-25-openclaw-replay-recovery",
+        "summary": "Consultancy: agent interruption/replay evidence audit."
+      },
+      {
+        "observationId": "obs:nightly-2026-10-25-material-validation-lab-merged",
+        "summary": "Consultancy: reproducible optical-material demonstration and validation service."
+      },
+      {
+        "observationId": "obs:nightly-2026-10-25-rice-designing-futures",
+        "summary": "Consultancy: participatory scenario and evidence-map sprint."
+      },
+      {
+        "observationId": "obs:nightly-2026-10-25-spacex-gpu-debt",
+        "summary": "Consultancy: compute-cost and infrastructure-dependency scenario audit for smaller AI builders."
+      }
+    ],
+    "projectDispositionImplications": [
+      {
+        "observationId": "obs:nightly-2026-10-25-litellm-signing-key",
+        "summary": "Disposition: CORE Seed Loom provenance policy; REFERENCE-ONLY LiteLLM unless an actual dependency is found."
+      },
+      {
+        "observationId": "obs:nightly-2026-10-25-openclaw-replay-recovery",
+        "summary": "Disposition: CORE Seed Loom proof protocol; INCUBATE Agent Runtime Control Center recovery adapter only after fixture parity."
+      },
+      {
+        "observationId": "obs:nightly-2026-10-25-material-validation-lab-merged",
+        "summary": "Disposition: PRODUCTIZE Shader Gallery; CORE Shader Grammar as semantic authority, not duplicated runtime."
+      },
+      {
+        "observationId": "obs:nightly-2026-10-25-rice-designing-futures",
+        "summary": "Disposition: INCUBATE Project Constellation as presentation layer; CORE Seed Loom for source governance."
+      },
+      {
+        "observationId": "obs:nightly-2026-10-25-spacex-gpu-debt",
+        "summary": "Disposition: CORE Seed Loom evidence/financial-claim lineage; REFERENCE-ONLY external infrastructure providers."
+      }
+    ],
+    "note": "Noncanonical advisory metadata intentionally excluded by normalizeNightlyBundle; canonical observation inference retains its substance."
+  }
+}
