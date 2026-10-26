@@ -1,0 +1,55 @@
+{
+  "runId": "run:nightly-2026-10-26",
+  "type": "ResearchRun",
+  "schemaVersion": "1.1.0",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-24T23:55:19Z",
+    "to": "2026-10-26T23:55:19Z"
+  },
+  "newObservations": [
+    "obs:2026-10-26-ipo",
+    "obs:2026-10-26-maestro",
+    "obs:2026-10-26-agriculture",
+    "obs:2026-10-26-ultrasound",
+    "obs:2026-10-26-acquisition"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Verifier-grounded engineering and ecological evidence provenance."
+  ],
+  "newRelationships": [
+    "rel:2026-10-26-ipo",
+    "rel:2026-10-26-maestro",
+    "rel:2026-10-26-agriculture",
+    "rel:2026-10-26-ultrasound",
+    "rel:2026-10-26-acquisition"
+  ],
+  "contradictions": [
+    "Vendor performance targets are not verified measurements."
+  ],
+  "opportunities": [
+    "Governed agent audit",
+    "Mechanism visualization"
+  ],
+  "proposedExperiments": [
+    "Read-only agent receipt test",
+    "One reference-calibrated mechanism study"
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/seed-loom",
+      "action": "Issue #24 proof; separate approval required."
+    }
+  ],
+  "noChangeReceipts": [
+    "No previous nightly stories repeated."
+  ],
+  "collectionFailures": [
+    "Source-body hashes unavailable.",
+    "Historical semantic deduplication incomplete.",
+    "Issue #24 two-run proof not executed."
+  ]
+}

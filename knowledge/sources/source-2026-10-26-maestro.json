@@ -1,0 +1,13 @@
+{
+  "id": "source:2026-10-26-maestro",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.cadence.com/zh_TW/home/company/newsroom/press-releases/pr/2026/cadence-introduces-maestro-a-domain-specialized-ai-model.html",
+  "publisher": "Cadence",
+  "retrievedAt": "2026-10-26T23:55:19Z",
+  "publishedAt": null,
+  "sourceClass": "primary",
+  "independenceKey": "cadence",
+  "contentHash": null,
+  "title": "Cadence Maestro"
+}

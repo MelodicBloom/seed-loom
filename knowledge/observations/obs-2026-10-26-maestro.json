@@ -1,0 +1,34 @@
+{
+  "id": "obs:2026-10-26-maestro",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-26T23:55:19Z",
+  "claim": "Cadence launched Maestro specialized engineering AI with deterministic solver feedback and early access in Q4.",
+  "verifiedFacts": [
+    "Cadence announced Maestro October 26 and reports up to 30% better quality and 5x token efficiency in its own tests."
+  ],
+  "inference": [
+    "Objective evaluators could improve governed shader and fabrication agent workflows.",
+    "Consultancy: evidence audit for a client needing measured results; proposed disposition INCUBATE."
+  ],
+  "significance": "Objective evaluators could improve governed shader and fabrication agent workflows.",
+  "confidence": 0.9,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:2026-10-26-maestro"
+  ],
+  "actorRefs": [
+    "Cadence"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-gallery"
+  ],
+  "assumptions": [
+    "Client demand and transferability are not verified."
+  ],
+  "knownLimitations": [
+    "Raw source hash unavailable; vendor claims not independently tested."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "obs:2026-10-26-ultrasound",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-26T23:55:19Z",
+  "claim": "MIT reported ultrasound-assisted drug infusion spreading molecules further in tissue models and mice.",
+  "verifiedFacts": [
+    "MIT published LUCID October 26, describing 24 transducers and preclinical tissue/mouse experiments."
+  ],
+  "inference": [
+    "Measured acoustic transport offers a bounded biomedical mechanism-visualization study.",
+    "Consultancy: evidence audit for a client needing measured results; proposed disposition REFERENCE-ONLY."
+  ],
+  "significance": "Measured acoustic transport offers a bounded biomedical mechanism-visualization study.",
+  "confidence": 0.9,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:2026-10-26-ultrasound"
+  ],
+  "actorRefs": [
+    "MIT News"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-grammar"
+  ],
+  "assumptions": [
+    "Client demand and transferability are not verified."
+  ],
+  "knownLimitations": [
+    "Raw source hash unavailable; vendor claims not independently tested."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

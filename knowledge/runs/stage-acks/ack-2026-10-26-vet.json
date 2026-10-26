@@ -1,0 +1,38 @@
+{
+  "ackId": "ack:2026-10-26-vet",
+  "runId": "run:nightly-2026-10-26",
+  "schemaVersion": "1.1.0",
+  "stage": "vet",
+  "status": "passed",
+  "startedAt": "2026-10-26T23:55:19Z",
+  "completedAt": "2026-10-26T23:55:19Z",
+  "inputs": [
+    "run:nightly-2026-10-26"
+  ],
+  "outputs": [
+    "obs:2026-10-26-ipo",
+    "obs:2026-10-26-maestro",
+    "obs:2026-10-26-agriculture",
+    "obs:2026-10-26-ultrasound",
+    "obs:2026-10-26-acquisition"
+  ],
+  "checks": [
+    {
+      "name": "candidate-boundary",
+      "result": "pass",
+      "detail": "Source-backed candidates only; no downstream promotion."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "No acceptance, execution, Genesis or publication."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly consultancy research",
+    "method": "direct-source review",
+    "inputHashes": []
+  }
+}

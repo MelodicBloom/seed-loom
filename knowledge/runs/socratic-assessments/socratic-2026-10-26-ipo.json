@@ -1,0 +1,91 @@
+{
+  "assessmentId": "socratic:2026-10-26-ipo",
+  "observationId": "obs:2026-10-26-ipo",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the dangerous assumption?",
+    "What falsifies this?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Anthropic filed an S-1 October 26; the proposed offering is not yet effective.",
+      "evidenceRefs": [
+        "source:2026-10-26-ipo"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Anthropic published the announcement.",
+      "evidenceRefs": [
+        "source:2026-10-26-ipo"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Provider financial disclosures can inform client vendor-dependency audits.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Potential users of the proposed audit.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing domain experts may suffice.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Provider financial disclosures can inform client vendor-dependency audits.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What is the dangerous assumption?",
+      "answer": "Buyer willingness to pay is assumed.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What falsifies this?",
+      "answer": "A controlled trial finds no value.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent tests and buyer purchases.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Routine company or research activity.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "The source creates a paid consultancy need.",
+  "falsifier": "A scoped trial finds no measurable benefit.",
+  "missingEvidence": [
+    "Independent outcomes",
+    "Buyer purchases"
+  ],
+  "alternativeExplanation": "Routine corporate or research activity.",
+  "disposition": "watch",
+  "confidence": 0.9
+}

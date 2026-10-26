@@ -1,0 +1,91 @@
+{
+  "assessmentId": "socratic:2026-10-26-agriculture",
+  "observationId": "obs:2026-10-26-agriculture",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the dangerous assumption?",
+    "What falsifies this?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "NASA announced the agreement October 26 and says it was signed October 24.",
+      "evidenceRefs": [
+        "source:2026-10-26-agriculture"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "NASA published the announcement.",
+      "evidenceRefs": [
+        "source:2026-10-26-agriculture"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Interagency data coordination supports a provenance-focused agricultural map demo.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Potential users of the proposed audit.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing domain experts may suffice.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Interagency data coordination supports a provenance-focused agricultural map demo.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What is the dangerous assumption?",
+      "answer": "Buyer willingness to pay is assumed.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What falsifies this?",
+      "answer": "A controlled trial finds no value.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent tests and buyer purchases.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Routine company or research activity.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "The source creates a paid consultancy need.",
+  "falsifier": "A scoped trial finds no measurable benefit.",
+  "missingEvidence": [
+    "Independent outcomes",
+    "Buyer purchases"
+  ],
+  "alternativeExplanation": "Routine corporate or research activity.",
+  "disposition": "watch",
+  "confidence": 0.9
+}

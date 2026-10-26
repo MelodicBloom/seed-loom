@@ -1,0 +1,34 @@
+{
+  "id": "obs:2026-10-26-ipo",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-26T23:55:19Z",
+  "claim": "Anthropic filed an S-1 for a proposed Nasdaq ANT listing October 26; price and share count remain undetermined.",
+  "verifiedFacts": [
+    "Anthropic filed an S-1 October 26; the proposed offering is not yet effective."
+  ],
+  "inference": [
+    "Provider financial disclosures can inform client vendor-dependency audits.",
+    "Consultancy: evidence audit for a client needing measured results; proposed disposition CORE."
+  ],
+  "significance": "Provider financial disclosures can inform client vendor-dependency audits.",
+  "confidence": 0.9,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:2026-10-26-ipo"
+  ],
+  "actorRefs": [
+    "Anthropic"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom"
+  ],
+  "assumptions": [
+    "Client demand and transferability are not verified."
+  ],
+  "knownLimitations": [
+    "Raw source hash unavailable; vendor claims not independently tested."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

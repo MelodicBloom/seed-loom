@@ -1,0 +1,13 @@
+{
+  "id": "source:2026-10-26-agriculture",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/",
+  "publisher": "NASA",
+  "retrievedAt": "2026-10-26T23:55:19Z",
+  "publishedAt": null,
+  "sourceClass": "official",
+  "independenceKey": "nasa",
+  "contentHash": null,
+  "title": "NASA-USDA MOU"
+}

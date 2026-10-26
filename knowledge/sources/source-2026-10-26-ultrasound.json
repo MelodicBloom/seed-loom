@@ -1,0 +1,13 @@
+{
+  "id": "source:2026-10-26-ultrasound",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://news.mit.edu/2026/implantable-device-uses-ultrasound-improve-drug-delivery-brain-1026",
+  "publisher": "MIT News",
+  "retrievedAt": "2026-10-26T23:55:19Z",
+  "publishedAt": null,
+  "sourceClass": "research",
+  "independenceKey": "mit-news",
+  "contentHash": null,
+  "title": "MIT LUCID ultrasound"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "source:2026-10-26-ipo",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.anthropic.com/news/s1-sec",
+  "publisher": "Anthropic",
+  "retrievedAt": "2026-10-26T23:55:19Z",
+  "publishedAt": null,
+  "sourceClass": "primary",
+  "independenceKey": "anthropic",
+  "contentHash": null,
+  "title": "Anthropic S-1"
+}

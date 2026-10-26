@@ -1,0 +1,12 @@
+{
+  "id": "rel:2026-10-26-acquisition",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:2026-10-26-acquisition",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:2026-10-26-acquisition",
+  "confidence": 0.9,
+  "evidenceRefs": [
+    "source:2026-10-26-acquisition"
+  ]
+}

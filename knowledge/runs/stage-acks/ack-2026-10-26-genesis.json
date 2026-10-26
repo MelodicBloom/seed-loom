@@ -1,0 +1,32 @@
+{
+  "ackId": "ack:2026-10-26-genesis",
+  "runId": "run:nightly-2026-10-26",
+  "schemaVersion": "1.1.0",
+  "stage": "genesis",
+  "status": "deferred",
+  "startedAt": "2026-10-26T23:55:19Z",
+  "completedAt": "2026-10-26T23:55:19Z",
+  "inputs": [
+    "run:nightly-2026-10-26"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "candidate-boundary",
+      "result": "not-applicable",
+      "detail": "Source-backed candidates only; no downstream promotion."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "No acceptance, execution, Genesis or publication."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly consultancy research",
+    "method": "deferred",
+    "inputHashes": []
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "obs:2026-10-26-agriculture",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-26T23:55:19Z",
+  "claim": "NASA and USDA signed an MOU expanding remote sensing and geospatial agricultural data collaboration.",
+  "verifiedFacts": [
+    "NASA announced the agreement October 26 and says it was signed October 24."
+  ],
+  "inference": [
+    "Interagency data coordination supports a provenance-focused agricultural map demo.",
+    "Consultancy: evidence audit for a client needing measured results; proposed disposition INCUBATE."
+  ],
+  "significance": "Interagency data coordination supports a provenance-focused agricultural map demo.",
+  "confidence": 0.9,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:2026-10-26-agriculture"
+  ],
+  "actorRefs": [
+    "NASA"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "Client demand and transferability are not verified."
+  ],
+  "knownLimitations": [
+    "Raw source hash unavailable; vendor claims not independently tested."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

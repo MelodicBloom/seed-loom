@@ -1,0 +1,12 @@
+{
+  "id": "rel:2026-10-26-agriculture",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:2026-10-26-agriculture",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:2026-10-26-agriculture",
+  "confidence": 0.9,
+  "evidenceRefs": [
+    "source:2026-10-26-agriculture"
+  ]
+}

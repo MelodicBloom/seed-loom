@@ -1,0 +1,34 @@
+{
+  "id": "obs:2026-10-26-acquisition",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-10-26T23:55:19Z",
+  "claim": "Unconventional AI signed a definitive agreement to acquire NeuReality; its 1000x efficiency goal is unproven.",
+  "verifiedFacts": [
+    "Both boards approved the October 26 agreement; closing is expected in Q4 subject to conditions."
+  ],
+  "inference": [
+    "A signed acquisition demonstrates systems-engineering investment, not measured energy savings.",
+    "Consultancy: evidence audit for a client needing measured results; proposed disposition REFERENCE-ONLY."
+  ],
+  "significance": "A signed acquisition demonstrates systems-engineering investment, not measured energy savings.",
+  "confidence": 0.9,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:2026-10-26-acquisition"
+  ],
+  "actorRefs": [
+    "Unconventional AI"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/omni-loom"
+  ],
+  "assumptions": [
+    "Client demand and transferability are not verified."
+  ],
+  "knownLimitations": [
+    "Raw source hash unavailable; vendor claims not independently tested."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,59 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-10-26T23:58:15.174Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly-2026-10-26",
+      "bundlePath": "knowledge/intake/nightly/2026-10-26/nightly-run-bundle-2026-10-26.json",
+      "bundleSha256": "1f4651e92c861130563e8f77946672d73864fa4c3db81ea8136ab5406479220e",
+      "normalizedDigest": "6bc5589b88b8b9da37741e438d73fc8b783ca6cd007874b5f2a643b48f35a809",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-2026-10-26-ipo.json",
+        "knowledge/sources/source-2026-10-26-maestro.json",
+        "knowledge/sources/source-2026-10-26-agriculture.json",
+        "knowledge/sources/source-2026-10-26-ultrasound.json",
+        "knowledge/sources/source-2026-10-26-acquisition.json",
+        "knowledge/observations/obs-2026-10-26-ipo.json",
+        "knowledge/observations/obs-2026-10-26-maestro.json",
+        "knowledge/observations/obs-2026-10-26-agriculture.json",
+        "knowledge/observations/obs-2026-10-26-ultrasound.json",
+        "knowledge/observations/obs-2026-10-26-acquisition.json",
+        "knowledge/relationships/rel-2026-10-26-ipo.json",
+        "knowledge/relationships/rel-2026-10-26-maestro.json",
+        "knowledge/relationships/rel-2026-10-26-agriculture.json",
+        "knowledge/relationships/rel-2026-10-26-ultrasound.json",
+        "knowledge/relationships/rel-2026-10-26-acquisition.json",
+        "knowledge/runs/run-nightly-2026-10-26.json",
+        "knowledge/runs/stage-acks/ack-2026-10-26-collect.json",
+        "knowledge/runs/stage-acks/ack-2026-10-26-vet.json",
+        "knowledge/runs/stage-acks/ack-2026-10-26-normalize.json",
+        "knowledge/runs/stage-acks/ack-2026-10-26-observe.json",
+        "knowledge/runs/stage-acks/ack-2026-10-26-inquire.json",
+        "knowledge/runs/stage-acks/ack-2026-10-26-interpret.json",
+        "knowledge/runs/stage-acks/ack-2026-10-26-relate.json",
+        "knowledge/runs/stage-acks/ack-2026-10-26-pattern.json",
+        "knowledge/runs/stage-acks/ack-2026-10-26-opportunity.json",
+        "knowledge/runs/stage-acks/ack-2026-10-26-strategy.json",
+        "knowledge/runs/stage-acks/ack-2026-10-26-experiment.json",
+        "knowledge/runs/stage-acks/ack-2026-10-26-genesis.json",
+        "knowledge/runs/stage-acks/ack-2026-10-26-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-10-26-ipo.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-10-26-maestro.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-10-26-agriculture.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-10-26-ultrasound.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-10-26-acquisition.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-10-26-ingest.json",
+      "generatedRecordCount": 34
+    }
+  ]
+}
