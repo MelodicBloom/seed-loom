@@ -1,0 +1,1291 @@
+{
+  "run": {
+    "runId": "run:nightly-2026-10-26",
+    "type": "ResearchRun",
+    "schemaVersion": "1.1.0",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-10-24T23:55:19Z",
+      "to": "2026-10-26T23:55:19Z"
+    },
+    "newObservations": [
+      "obs:2026-10-26-ipo",
+      "obs:2026-10-26-maestro",
+      "obs:2026-10-26-agriculture",
+      "obs:2026-10-26-ultrasound",
+      "obs:2026-10-26-acquisition"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [
+      "Verifier-grounded engineering and ecological evidence provenance."
+    ],
+    "newRelationships": [
+      "rel:2026-10-26-ipo",
+      "rel:2026-10-26-maestro",
+      "rel:2026-10-26-agriculture",
+      "rel:2026-10-26-ultrasound",
+      "rel:2026-10-26-acquisition"
+    ],
+    "contradictions": [
+      "Vendor performance targets are not verified measurements."
+    ],
+    "opportunities": [
+      "Governed agent audit",
+      "Mechanism visualization"
+    ],
+    "proposedExperiments": [
+      "Read-only agent receipt test",
+      "One reference-calibrated mechanism study"
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/seed-loom",
+        "action": "Issue #24 proof; separate approval required."
+      }
+    ],
+    "noChangeReceipts": [
+      "No previous nightly stories repeated."
+    ],
+    "collectionFailures": [
+      "Source-body hashes unavailable.",
+      "Historical semantic deduplication incomplete.",
+      "Issue #24 two-run proof not executed."
+    ]
+  },
+  "sources": [
+    {
+      "id": "source:2026-10-26-ipo",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "publisher": "Anthropic",
+      "retrievedAt": "2026-10-26T23:55:19Z",
+      "publishedAt": null,
+      "sourceClass": "primary",
+      "independenceKey": "anthropic",
+      "contentHash": null,
+      "title": "Anthropic S-1"
+    },
+    {
+      "id": "source:2026-10-26-maestro",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://www.cadence.com/zh_TW/home/company/newsroom/press-releases/pr/2026/cadence-introduces-maestro-a-domain-specialized-ai-model.html",
+      "publisher": "Cadence",
+      "retrievedAt": "2026-10-26T23:55:19Z",
+      "publishedAt": null,
+      "sourceClass": "primary",
+      "independenceKey": "cadence",
+      "contentHash": null,
+      "title": "Cadence Maestro"
+    },
+    {
+      "id": "source:2026-10-26-agriculture",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://www.nasa.gov/news-release/nasa-usda-sign-agreement-advancing-earth-science-agriculture/",
+      "publisher": "NASA",
+      "retrievedAt": "2026-10-26T23:55:19Z",
+      "publishedAt": null,
+      "sourceClass": "official",
+      "independenceKey": "nasa",
+      "contentHash": null,
+      "title": "NASA-USDA MOU"
+    },
+    {
+      "id": "source:2026-10-26-ultrasound",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://news.mit.edu/2026/implantable-device-uses-ultrasound-improve-drug-delivery-brain-1026",
+      "publisher": "MIT News",
+      "retrievedAt": "2026-10-26T23:55:19Z",
+      "publishedAt": null,
+      "sourceClass": "research",
+      "independenceKey": "mit-news",
+      "contentHash": null,
+      "title": "MIT LUCID ultrasound"
+    },
+    {
+      "id": "source:2026-10-26-acquisition",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://unconv.ai/blog/unconventional-ai-to-acquire-neureality/",
+      "publisher": "Unconventional AI",
+      "retrievedAt": "2026-10-26T23:55:19Z",
+      "publishedAt": null,
+      "sourceClass": "primary",
+      "independenceKey": "unconventional-ai",
+      "contentHash": null,
+      "title": "Unconventional NeuReality deal"
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs:2026-10-26-ipo",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-10-26T23:55:19Z",
+      "claim": "Anthropic filed an S-1 for a proposed Nasdaq ANT listing October 26; price and share count remain undetermined.",
+      "verifiedFacts": [
+        "Anthropic filed an S-1 October 26; the proposed offering is not yet effective."
+      ],
+      "inference": [
+        "Provider financial disclosures can inform client vendor-dependency audits.",
+        "Consultancy: evidence audit for a client needing measured results; proposed disposition CORE."
+      ],
+      "significance": "Provider financial disclosures can inform client vendor-dependency audits.",
+      "confidence": 0.9,
+      "evidenceMaturity": "source-backed",
+      "sourceRefs": [
+        "source:2026-10-26-ipo"
+      ],
+      "actorRefs": [
+        "Anthropic"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom"
+      ],
+      "assumptions": [
+        "Client demand and transferability are not verified."
+      ],
+      "knownLimitations": [
+        "Raw source hash unavailable; vendor claims not independently tested."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:2026-10-26-maestro",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-10-26T23:55:19Z",
+      "claim": "Cadence launched Maestro specialized engineering AI with deterministic solver feedback and early access in Q4.",
+      "verifiedFacts": [
+        "Cadence announced Maestro October 26 and reports up to 30% better quality and 5x token efficiency in its own tests."
+      ],
+      "inference": [
+        "Objective evaluators could improve governed shader and fabrication agent workflows.",
+        "Consultancy: evidence audit for a client needing measured results; proposed disposition INCUBATE."
+      ],
+      "significance": "Objective evaluators could improve governed shader and fabrication agent workflows.",
+      "confidence": 0.9,
+      "evidenceMaturity": "source-backed",
+      "sourceRefs": [
+        "source:2026-10-26-maestro"
+      ],
+      "actorRefs": [
+        "Cadence"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/shader-gallery"
+      ],
+      "assumptions": [
+        "Client demand and transferability are not verified."
+      ],
+      "knownLimitations": [
+        "Raw source hash unavailable; vendor claims not independently tested."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:2026-10-26-agriculture",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-10-26T23:55:19Z",
+      "claim": "NASA and USDA signed an MOU expanding remote sensing and geospatial agricultural data collaboration.",
+      "verifiedFacts": [
+        "NASA announced the agreement October 26 and says it was signed October 24."
+      ],
+      "inference": [
+        "Interagency data coordination supports a provenance-focused agricultural map demo.",
+        "Consultancy: evidence audit for a client needing measured results; proposed disposition INCUBATE."
+      ],
+      "significance": "Interagency data coordination supports a provenance-focused agricultural map demo.",
+      "confidence": 0.9,
+      "evidenceMaturity": "source-backed",
+      "sourceRefs": [
+        "source:2026-10-26-agriculture"
+      ],
+      "actorRefs": [
+        "NASA"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/project-constellation"
+      ],
+      "assumptions": [
+        "Client demand and transferability are not verified."
+      ],
+      "knownLimitations": [
+        "Raw source hash unavailable; vendor claims not independently tested."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:2026-10-26-ultrasound",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-10-26T23:55:19Z",
+      "claim": "MIT reported ultrasound-assisted drug infusion spreading molecules further in tissue models and mice.",
+      "verifiedFacts": [
+        "MIT published LUCID October 26, describing 24 transducers and preclinical tissue/mouse experiments."
+      ],
+      "inference": [
+        "Measured acoustic transport offers a bounded biomedical mechanism-visualization study.",
+        "Consultancy: evidence audit for a client needing measured results; proposed disposition REFERENCE-ONLY."
+      ],
+      "significance": "Measured acoustic transport offers a bounded biomedical mechanism-visualization study.",
+      "confidence": 0.9,
+      "evidenceMaturity": "source-backed",
+      "sourceRefs": [
+        "source:2026-10-26-ultrasound"
+      ],
+      "actorRefs": [
+        "MIT News"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/shader-grammar"
+      ],
+      "assumptions": [
+        "Client demand and transferability are not verified."
+      ],
+      "knownLimitations": [
+        "Raw source hash unavailable; vendor claims not independently tested."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:2026-10-26-acquisition",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-10-26T23:55:19Z",
+      "claim": "Unconventional AI signed a definitive agreement to acquire NeuReality; its 1000x efficiency goal is unproven.",
+      "verifiedFacts": [
+        "Both boards approved the October 26 agreement; closing is expected in Q4 subject to conditions."
+      ],
+      "inference": [
+        "A signed acquisition demonstrates systems-engineering investment, not measured energy savings.",
+        "Consultancy: evidence audit for a client needing measured results; proposed disposition REFERENCE-ONLY."
+      ],
+      "significance": "A signed acquisition demonstrates systems-engineering investment, not measured energy savings.",
+      "confidence": 0.9,
+      "evidenceMaturity": "source-backed",
+      "sourceRefs": [
+        "source:2026-10-26-acquisition"
+      ],
+      "actorRefs": [
+        "Unconventional AI"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/omni-loom"
+      ],
+      "assumptions": [
+        "Client demand and transferability are not verified."
+      ],
+      "knownLimitations": [
+        "Raw source hash unavailable; vendor claims not independently tested."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel:2026-10-26-ipo",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:2026-10-26-ipo",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-10-26-ipo",
+      "confidence": 0.9,
+      "evidenceRefs": [
+        "source:2026-10-26-ipo"
+      ]
+    },
+    {
+      "id": "rel:2026-10-26-maestro",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:2026-10-26-maestro",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-10-26-maestro",
+      "confidence": 0.9,
+      "evidenceRefs": [
+        "source:2026-10-26-maestro"
+      ]
+    },
+    {
+      "id": "rel:2026-10-26-agriculture",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:2026-10-26-agriculture",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-10-26-agriculture",
+      "confidence": 0.9,
+      "evidenceRefs": [
+        "source:2026-10-26-agriculture"
+      ]
+    },
+    {
+      "id": "rel:2026-10-26-ultrasound",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:2026-10-26-ultrasound",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-10-26-ultrasound",
+      "confidence": 0.9,
+      "evidenceRefs": [
+        "source:2026-10-26-ultrasound"
+      ]
+    },
+    {
+      "id": "rel:2026-10-26-acquisition",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:2026-10-26-acquisition",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-10-26-acquisition",
+      "confidence": 0.9,
+      "evidenceRefs": [
+        "source:2026-10-26-acquisition"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "ackId": "ack:2026-10-26-collect",
+      "runId": "run:nightly-2026-10-26",
+      "schemaVersion": "1.1.0",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-10-26T23:55:19Z",
+      "completedAt": "2026-10-26T23:55:19Z",
+      "inputs": [
+        "run:nightly-2026-10-26"
+      ],
+      "outputs": [
+        "obs:2026-10-26-ipo",
+        "obs:2026-10-26-maestro",
+        "obs:2026-10-26-agriculture",
+        "obs:2026-10-26-ultrasound",
+        "obs:2026-10-26-acquisition"
+      ],
+      "checks": [
+        {
+          "name": "candidate-boundary",
+          "result": "pass",
+          "detail": "Source-backed candidates only; no downstream promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy research",
+        "method": "direct-source review",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:2026-10-26-vet",
+      "runId": "run:nightly-2026-10-26",
+      "schemaVersion": "1.1.0",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-10-26T23:55:19Z",
+      "completedAt": "2026-10-26T23:55:19Z",
+      "inputs": [
+        "run:nightly-2026-10-26"
+      ],
+      "outputs": [
+        "obs:2026-10-26-ipo",
+        "obs:2026-10-26-maestro",
+        "obs:2026-10-26-agriculture",
+        "obs:2026-10-26-ultrasound",
+        "obs:2026-10-26-acquisition"
+      ],
+      "checks": [
+        {
+          "name": "candidate-boundary",
+          "result": "pass",
+          "detail": "Source-backed candidates only; no downstream promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy research",
+        "method": "direct-source review",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:2026-10-26-normalize",
+      "runId": "run:nightly-2026-10-26",
+      "schemaVersion": "1.1.0",
+      "stage": "normalize",
+      "status": "deferred",
+      "startedAt": "2026-10-26T23:55:19Z",
+      "completedAt": "2026-10-26T23:55:19Z",
+      "inputs": [
+        "run:nightly-2026-10-26"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-boundary",
+          "result": "not-applicable",
+          "detail": "Source-backed candidates only; no downstream promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy research",
+        "method": "deferred",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:2026-10-26-observe",
+      "runId": "run:nightly-2026-10-26",
+      "schemaVersion": "1.1.0",
+      "stage": "observe",
+      "status": "deferred",
+      "startedAt": "2026-10-26T23:55:19Z",
+      "completedAt": "2026-10-26T23:55:19Z",
+      "inputs": [
+        "run:nightly-2026-10-26"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-boundary",
+          "result": "not-applicable",
+          "detail": "Source-backed candidates only; no downstream promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy research",
+        "method": "deferred",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:2026-10-26-inquire",
+      "runId": "run:nightly-2026-10-26",
+      "schemaVersion": "1.1.0",
+      "stage": "inquire",
+      "status": "deferred",
+      "startedAt": "2026-10-26T23:55:19Z",
+      "completedAt": "2026-10-26T23:55:19Z",
+      "inputs": [
+        "run:nightly-2026-10-26"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-boundary",
+          "result": "not-applicable",
+          "detail": "Source-backed candidates only; no downstream promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy research",
+        "method": "deferred",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:2026-10-26-interpret",
+      "runId": "run:nightly-2026-10-26",
+      "schemaVersion": "1.1.0",
+      "stage": "interpret",
+      "status": "deferred",
+      "startedAt": "2026-10-26T23:55:19Z",
+      "completedAt": "2026-10-26T23:55:19Z",
+      "inputs": [
+        "run:nightly-2026-10-26"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-boundary",
+          "result": "not-applicable",
+          "detail": "Source-backed candidates only; no downstream promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy research",
+        "method": "deferred",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:2026-10-26-relate",
+      "runId": "run:nightly-2026-10-26",
+      "schemaVersion": "1.1.0",
+      "stage": "relate",
+      "status": "deferred",
+      "startedAt": "2026-10-26T23:55:19Z",
+      "completedAt": "2026-10-26T23:55:19Z",
+      "inputs": [
+        "run:nightly-2026-10-26"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-boundary",
+          "result": "not-applicable",
+          "detail": "Source-backed candidates only; no downstream promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy research",
+        "method": "deferred",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:2026-10-26-pattern",
+      "runId": "run:nightly-2026-10-26",
+      "schemaVersion": "1.1.0",
+      "stage": "pattern",
+      "status": "deferred",
+      "startedAt": "2026-10-26T23:55:19Z",
+      "completedAt": "2026-10-26T23:55:19Z",
+      "inputs": [
+        "run:nightly-2026-10-26"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-boundary",
+          "result": "not-applicable",
+          "detail": "Source-backed candidates only; no downstream promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy research",
+        "method": "deferred",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:2026-10-26-opportunity",
+      "runId": "run:nightly-2026-10-26",
+      "schemaVersion": "1.1.0",
+      "stage": "opportunity",
+      "status": "deferred",
+      "startedAt": "2026-10-26T23:55:19Z",
+      "completedAt": "2026-10-26T23:55:19Z",
+      "inputs": [
+        "run:nightly-2026-10-26"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-boundary",
+          "result": "not-applicable",
+          "detail": "Source-backed candidates only; no downstream promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy research",
+        "method": "deferred",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:2026-10-26-strategy",
+      "runId": "run:nightly-2026-10-26",
+      "schemaVersion": "1.1.0",
+      "stage": "strategy",
+      "status": "deferred",
+      "startedAt": "2026-10-26T23:55:19Z",
+      "completedAt": "2026-10-26T23:55:19Z",
+      "inputs": [
+        "run:nightly-2026-10-26"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-boundary",
+          "result": "not-applicable",
+          "detail": "Source-backed candidates only; no downstream promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy research",
+        "method": "deferred",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:2026-10-26-experiment",
+      "runId": "run:nightly-2026-10-26",
+      "schemaVersion": "1.1.0",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-10-26T23:55:19Z",
+      "completedAt": "2026-10-26T23:55:19Z",
+      "inputs": [
+        "run:nightly-2026-10-26"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-boundary",
+          "result": "not-applicable",
+          "detail": "Source-backed candidates only; no downstream promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy research",
+        "method": "deferred",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:2026-10-26-genesis",
+      "runId": "run:nightly-2026-10-26",
+      "schemaVersion": "1.1.0",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-10-26T23:55:19Z",
+      "completedAt": "2026-10-26T23:55:19Z",
+      "inputs": [
+        "run:nightly-2026-10-26"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-boundary",
+          "result": "not-applicable",
+          "detail": "Source-backed candidates only; no downstream promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy research",
+        "method": "deferred",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:2026-10-26-publish",
+      "runId": "run:nightly-2026-10-26",
+      "schemaVersion": "1.1.0",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-10-26T23:55:19Z",
+      "completedAt": "2026-10-26T23:55:19Z",
+      "inputs": [
+        "run:nightly-2026-10-26"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-boundary",
+          "result": "not-applicable",
+          "detail": "Source-backed candidates only; no downstream promotion."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy research",
+        "method": "deferred",
+        "inputHashes": []
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:2026-10-26-ipo",
+      "observationId": "obs:2026-10-26-ipo",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the dangerous assumption?",
+        "What falsifies this?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Anthropic filed an S-1 October 26; the proposed offering is not yet effective.",
+          "evidenceRefs": [
+            "source:2026-10-26-ipo"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Anthropic published the announcement.",
+          "evidenceRefs": [
+            "source:2026-10-26-ipo"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Provider financial disclosures can inform client vendor-dependency audits.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential users of the proposed audit.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing domain experts may suffice.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Provider financial disclosures can inform client vendor-dependency audits.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the dangerous assumption?",
+          "answer": "Buyer willingness to pay is assumed.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What falsifies this?",
+          "answer": "A controlled trial finds no value.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent tests and buyer purchases.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Routine company or research activity.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "The source creates a paid consultancy need.",
+      "falsifier": "A scoped trial finds no measurable benefit.",
+      "missingEvidence": [
+        "Independent outcomes",
+        "Buyer purchases"
+      ],
+      "alternativeExplanation": "Routine corporate or research activity.",
+      "disposition": "watch",
+      "confidence": 0.9
+    },
+    {
+      "assessmentId": "socratic:2026-10-26-maestro",
+      "observationId": "obs:2026-10-26-maestro",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the dangerous assumption?",
+        "What falsifies this?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Cadence announced Maestro October 26 and reports up to 30% better quality and 5x token efficiency in its own tests.",
+          "evidenceRefs": [
+            "source:2026-10-26-maestro"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Cadence published the announcement.",
+          "evidenceRefs": [
+            "source:2026-10-26-maestro"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Objective evaluators could improve governed shader and fabrication agent workflows.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential users of the proposed audit.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing domain experts may suffice.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Objective evaluators could improve governed shader and fabrication agent workflows.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the dangerous assumption?",
+          "answer": "Buyer willingness to pay is assumed.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What falsifies this?",
+          "answer": "A controlled trial finds no value.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent tests and buyer purchases.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Routine company or research activity.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "The source creates a paid consultancy need.",
+      "falsifier": "A scoped trial finds no measurable benefit.",
+      "missingEvidence": [
+        "Independent outcomes",
+        "Buyer purchases"
+      ],
+      "alternativeExplanation": "Routine corporate or research activity.",
+      "disposition": "watch",
+      "confidence": 0.9
+    },
+    {
+      "assessmentId": "socratic:2026-10-26-agriculture",
+      "observationId": "obs:2026-10-26-agriculture",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the dangerous assumption?",
+        "What falsifies this?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "NASA announced the agreement October 26 and says it was signed October 24.",
+          "evidenceRefs": [
+            "source:2026-10-26-agriculture"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "NASA published the announcement.",
+          "evidenceRefs": [
+            "source:2026-10-26-agriculture"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Interagency data coordination supports a provenance-focused agricultural map demo.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential users of the proposed audit.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing domain experts may suffice.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Interagency data coordination supports a provenance-focused agricultural map demo.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the dangerous assumption?",
+          "answer": "Buyer willingness to pay is assumed.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What falsifies this?",
+          "answer": "A controlled trial finds no value.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent tests and buyer purchases.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Routine company or research activity.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "The source creates a paid consultancy need.",
+      "falsifier": "A scoped trial finds no measurable benefit.",
+      "missingEvidence": [
+        "Independent outcomes",
+        "Buyer purchases"
+      ],
+      "alternativeExplanation": "Routine corporate or research activity.",
+      "disposition": "watch",
+      "confidence": 0.9
+    },
+    {
+      "assessmentId": "socratic:2026-10-26-ultrasound",
+      "observationId": "obs:2026-10-26-ultrasound",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the dangerous assumption?",
+        "What falsifies this?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "MIT published LUCID October 26, describing 24 transducers and preclinical tissue/mouse experiments.",
+          "evidenceRefs": [
+            "source:2026-10-26-ultrasound"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "MIT News published the announcement.",
+          "evidenceRefs": [
+            "source:2026-10-26-ultrasound"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Measured acoustic transport offers a bounded biomedical mechanism-visualization study.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential users of the proposed audit.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing domain experts may suffice.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Measured acoustic transport offers a bounded biomedical mechanism-visualization study.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the dangerous assumption?",
+          "answer": "Buyer willingness to pay is assumed.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What falsifies this?",
+          "answer": "A controlled trial finds no value.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent tests and buyer purchases.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Routine company or research activity.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "The source creates a paid consultancy need.",
+      "falsifier": "A scoped trial finds no measurable benefit.",
+      "missingEvidence": [
+        "Independent outcomes",
+        "Buyer purchases"
+      ],
+      "alternativeExplanation": "Routine corporate or research activity.",
+      "disposition": "watch",
+      "confidence": 0.9
+    },
+    {
+      "assessmentId": "socratic:2026-10-26-acquisition",
+      "observationId": "obs:2026-10-26-acquisition",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the dangerous assumption?",
+        "What falsifies this?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Both boards approved the October 26 agreement; closing is expected in Q4 subject to conditions.",
+          "evidenceRefs": [
+            "source:2026-10-26-acquisition"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Unconventional AI published the announcement.",
+          "evidenceRefs": [
+            "source:2026-10-26-acquisition"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A signed acquisition demonstrates systems-engineering investment, not measured energy savings.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential users of the proposed audit.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing domain experts may suffice.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "A signed acquisition demonstrates systems-engineering investment, not measured energy savings.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the dangerous assumption?",
+          "answer": "Buyer willingness to pay is assumed.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What falsifies this?",
+          "answer": "A controlled trial finds no value.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent tests and buyer purchases.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Routine company or research activity.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "The source creates a paid consultancy need.",
+      "falsifier": "A scoped trial finds no measurable benefit.",
+      "missingEvidence": [
+        "Independent outcomes",
+        "Buyer purchases"
+      ],
+      "alternativeExplanation": "Routine corporate or research activity.",
+      "disposition": "watch",
+      "confidence": 0.9
+    }
+  ],
+  "advisory": {
+    "consultancyImplications": [
+      {
+        "observationId": "obs:2026-10-26-ipo",
+        "problem": "Provider financial disclosures can inform client vendor-dependency audits."
+      },
+      {
+        "observationId": "obs:2026-10-26-maestro",
+        "problem": "Objective evaluators could improve governed shader and fabrication agent workflows."
+      },
+      {
+        "observationId": "obs:2026-10-26-agriculture",
+        "problem": "Interagency data coordination supports a provenance-focused agricultural map demo."
+      },
+      {
+        "observationId": "obs:2026-10-26-ultrasound",
+        "problem": "Measured acoustic transport offers a bounded biomedical mechanism-visualization study."
+      },
+      {
+        "observationId": "obs:2026-10-26-acquisition",
+        "problem": "A signed acquisition demonstrates systems-engineering investment, not measured energy savings."
+      }
+    ],
+    "projectDispositionImplications": [
+      {
+        "observationId": "obs:2026-10-26-ipo",
+        "classification": "CORE"
+      },
+      {
+        "observationId": "obs:2026-10-26-maestro",
+        "classification": "INCUBATE"
+      },
+      {
+        "observationId": "obs:2026-10-26-agriculture",
+        "classification": "INCUBATE"
+      },
+      {
+        "observationId": "obs:2026-10-26-ultrasound",
+        "classification": "REFERENCE-ONLY"
+      },
+      {
+        "observationId": "obs:2026-10-26-acquisition",
+        "classification": "REFERENCE-ONLY"
+      }
+    ]
+  }
+}
