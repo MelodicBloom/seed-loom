@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_aed3efaf8e0bba66",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-10-26T11:52:12.726824Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "glitch-core",
+    "commit_sha": "2026-05-29T03:36:01Z",
+    "ref": "master"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1433871934,
+    "github_node_id": "R_kgDOVXcmPg",
+    "language": null,
+    "archived": false,
+    "private": false,
+    "fork": true,
+    "description": "19 production-grade GLSL shaders for real-time glitch art & image effects \u2014 WebGL, GLES, Metal ready. Used by GlitchForge.",
+    "pushed_at": "2026-05-29T03:36:01Z",
+    "created_at": "2026-10-26T03:48:16Z",
+    "open_issues_count": 0
+  }
+}

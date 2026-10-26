@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_5bf59c1ef12ffac9",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-10-26T11:52:12.728113Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "three.js",
+    "commit_sha": "2026-10-25T22:44:37Z",
+    "ref": "dev"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1433874922,
+    "github_node_id": "R_kgDOVXcx6g",
+    "language": null,
+    "archived": false,
+    "private": false,
+    "fork": true,
+    "description": "JavaScript 3D Library.",
+    "pushed_at": "2026-10-25T22:44:37Z",
+    "created_at": "2026-10-26T03:52:00Z",
+    "open_issues_count": 0
+  }
+}
