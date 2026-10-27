@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-10-27",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-25T23:07:17Z",
+    "to": "2026-10-27T23:07:17Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-10-27-1",
+    "obs:nightly-2026-10-27-2",
+    "obs:nightly-2026-10-27-3",
+    "obs:nightly-2026-10-27-4",
+    "obs:nightly-2026-10-27-5"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Verification is moving closer to generative engineering and scene simulation; preserve explicit proof scopes.",
+    "Temporal provenance and accessible decision interfaces may be reusable consultancy capabilities."
+  ],
+  "newRelationships": [
+    "rel:nightly-2026-10-27-1",
+    "rel:nightly-2026-10-27-2",
+    "rel:nightly-2026-10-27-3",
+    "rel:nightly-2026-10-27-4",
+    "rel:nightly-2026-10-27-5"
+  ],
+  "contradictions": [
+    "Generative world-model physical realism claims are not equivalent to measured physics.",
+    "Program funding does not establish direct consultancy demand."
+  ],
+  "opportunities": [
+    "Controlled generated-scene continuity and fallback audit",
+    "Mechanism-grounded materials explanation",
+    "School facilities energy evidence interface",
+    "Environmental temporal-provenance visualization"
+  ],
+  "proposedExperiments": [
+    "Proposal only: one optical/material reference comparison with fixed captures and non-claims.",
+    "Proposal only: one dated NASA environmental timeline with image acquisition/publication separation."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/shader-gallery",
+      "allowedPaths": [
+        "docs/research/**",
+        "docs/evidence/**"
+      ],
+      "branch": "experiment/genie4-contrast-20261027",
+      "draftPR": true,
+      "approvalGate": "independent browser and material-reference QA"
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/.github",
+      "allowedPaths": [
+        "tests/**",
+        "scripts/**"
+      ],
+      "branch": "fix/registry-schema-verification",
+      "draftPR": true,
+      "approvalGate": "PR #17 tests, review, CI and user merge approval"
+    }
+  ],
+  "noChangeReceipts": [
+    "No acceptance, promotion, merge, deployment, outreach or external disclosure performed.",
+    "No direct customer purchase or procurement of proposed services verified."
+  ],
+  "collectionFailures": [
+    "Raw full-text source body SHA-256 unavailable; contentHash=null for five source records.",
+    "Harmonic primary announcement not independently retrieved; Reuters October 27 reporting used.",
+    "GitHub search returned 422 for qt314wink/shader-grammar and qt314wink/kozo-dreams; repository canonical owner not independently reconciled.",
+    "GitHub source review did not independently execute all repository builds, accessibility checks or runtime QA."
+  ]
+}

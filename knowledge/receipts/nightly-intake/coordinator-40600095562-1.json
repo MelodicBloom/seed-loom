@@ -1,0 +1,59 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-10-27T23:09:21.803Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly-2026-10-27",
+      "bundlePath": "knowledge/intake/nightly/2026-10-27/nightly-run-bundle-2026-10-27.json",
+      "bundleSha256": "d7a91351a15fc7ac7e4646dba17ad5ab26eaa9869bf227061a710362c607fa8d",
+      "normalizedDigest": "d18118ca241b1eb2024530d18b214aa919655c4e054592bf5fea45ecb2769d8e",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-nightly-2026-10-27-1.json",
+        "knowledge/sources/source-nightly-2026-10-27-2.json",
+        "knowledge/sources/source-nightly-2026-10-27-3.json",
+        "knowledge/sources/source-nightly-2026-10-27-4.json",
+        "knowledge/sources/source-nightly-2026-10-27-5.json",
+        "knowledge/observations/obs-nightly-2026-10-27-1.json",
+        "knowledge/observations/obs-nightly-2026-10-27-2.json",
+        "knowledge/observations/obs-nightly-2026-10-27-3.json",
+        "knowledge/observations/obs-nightly-2026-10-27-4.json",
+        "knowledge/observations/obs-nightly-2026-10-27-5.json",
+        "knowledge/relationships/rel-nightly-2026-10-27-1.json",
+        "knowledge/relationships/rel-nightly-2026-10-27-2.json",
+        "knowledge/relationships/rel-nightly-2026-10-27-3.json",
+        "knowledge/relationships/rel-nightly-2026-10-27-4.json",
+        "knowledge/relationships/rel-nightly-2026-10-27-5.json",
+        "knowledge/runs/run-nightly-2026-10-27.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-27-collect.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-27-vet.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-27-normalize.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-27-observe.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-27-inquire.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-27-interpret.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-27-relate.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-27-pattern.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-27-opportunity.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-27-strategy.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-27-experiment.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-27-genesis.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-10-27-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-27-1.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-27-2.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-27-3.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-27-4.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-10-27-5.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-10-27-ingest.json",
+      "generatedRecordCount": 34
+    }
+  ]
+}

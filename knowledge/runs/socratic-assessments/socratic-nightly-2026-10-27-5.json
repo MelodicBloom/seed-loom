@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-27-5",
+  "observationId": "obs:nightly-2026-10-27-5",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "NASA Earth Observatory published an October 27 image-of-the-day report about iceberg A-81 near South Georgia.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-27-5"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "NASA Earth Observatory:research publisher; NASA Terra:observation provider; scientists:analysts undertook the documented action.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-27-5"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "This is a strong low-cost demonstrator for distinguishing observation time, publication time, interpretation and uncertainty.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams seeking better evidence-backed decisions in the affected domain.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Conventional specialist workflows, manual review, or existing deterministic tools.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "The article reports that the iceberg slowed near South Georgia's underwater shelf; the account cites scientific observers and prior imagery.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-27-5"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Animating inferred motion as if it were measured telemetry.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Additional observations contradict the inferred trajectory or temporal story.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Time-series imagery with capture metadata; Licensing/attribution and observational uncertainty",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "This may remain a useful teaching case rather than a viable paid service.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Animating inferred motion as if it were measured telemetry.",
+  "falsifier": "Additional observations contradict the inferred trajectory or temporal story.",
+  "missingEvidence": [
+    "Time-series imagery with capture metadata",
+    "Licensing/attribution and observational uncertainty"
+  ],
+  "alternativeExplanation": "This may remain a useful teaching case rather than a viable paid service.",
+  "disposition": "watch",
+  "confidence": 0.87
+}

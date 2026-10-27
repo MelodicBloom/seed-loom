@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-27-3",
+  "type": "Observation",
+  "capturedAt": "2026-10-27T23:07:17Z",
+  "claim": "Diamond Light Source reported nanoscale self-organization in lead-free piezoelectric ceramics with improved high-temperature behavior.",
+  "verifiedFacts": [
+    "Diamond Light Source published its October 26 research highlight on engineered lead-free piezoelectric ceramic heterostructures.",
+    "Researchers used electron microscopy and high-energy X-ray diffraction to examine composition, structure and electric-field response.",
+    "The report describes a Curie temperature of 824 degrees Celsius for a studied configuration; the cited research DOI is 10.1126/sciadv.aef9861."
+  ],
+  "inference": [
+    "The material is a strong mechanism-study candidate for coupled structure, electric field, strain and optical explanation.",
+    "Potential client problem: advanced-material visualizations omit measurable field/structure constraints; consultancy concept: evidence-linked material mechanism explainer."
+  ],
+  "significance": "A documented microstructure-to-property relationship offers a better research specimen than an aesthetic-only material imitation.",
+  "confidence": 0.91,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly-2026-10-27-3"
+  ],
+  "actorRefs": [
+    "Diamond Light Source and research authors:researchers,facility supplier"
+  ],
+  "affectedRepositories": [
+    "qt314wink/shader-grammar",
+    "MelodicBloom/shader-gallery",
+    "MelodicBloom/omni-loom"
+  ],
+  "assumptions": [
+    "The published experimental result can be translated into a bounded visual teaching specimen."
+  ],
+  "knownLimitations": [
+    "Not a demonstration of commercial actuator reliability or independent reproduction.",
+    "Shader visuals cannot themselves validate piezoelectric response."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

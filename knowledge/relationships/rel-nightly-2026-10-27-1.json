@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-10-27-1",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-10-27-1",
+  "predicate": "APPLIES_TO",
+  "to": "MelodicBloom/shader-gallery",
+  "confidence": 0.8400000000000001,
+  "evidenceRefs": [
+    "source:nightly-2026-10-27-1"
+  ]
+}

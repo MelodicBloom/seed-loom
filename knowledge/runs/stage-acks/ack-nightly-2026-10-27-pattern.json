@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-27-pattern",
+  "runId": "run:nightly-2026-10-27",
+  "stage": "pattern",
+  "status": "deferred",
+  "startedAt": "2026-10-27T23:07:17Z",
+  "completedAt": "2026-10-27T23:07:17Z",
+  "inputs": [],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "human-gated-transition",
+      "result": "not-applicable",
+      "detail": "Deferred until canonical ingest or explicit human authorization."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "Candidate-only nightly intake; no acceptance, experiment execution, Genesis advancement or publication.",
+      "No downstream promotion is claimed."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly consultancy intelligence",
+    "method": "Deferred governed pipeline stage; not executed",
+    "inputHashes": []
+  }
+}

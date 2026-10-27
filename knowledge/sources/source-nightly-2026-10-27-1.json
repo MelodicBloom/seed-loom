@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-27-1",
+  "type": "Source",
+  "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+  "publisher": "Google DeepMind",
+  "retrievedAt": "2026-10-27T23:07:17Z",
+  "sourceClass": "primary",
+  "independenceKey": "google-deepmind",
+  "contentHash": null,
+  "title": "Google DeepMind announced Genie 4 with real-time multimodal world simulation and native audio in a limited research preview.",
+  "notes": "Publication date confirmed as 2026-10-26 or 2026-10-27; exact publication time and full-body SHA-256 not independently available."
+}

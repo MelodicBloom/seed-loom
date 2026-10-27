@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-27-3",
+  "observationId": "obs:nightly-2026-10-27-3",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Diamond Light Source published its October 26 research highlight on engineered lead-free piezoelectric ceramic heterostructures.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-27-3"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Diamond Light Source and research authors:researchers,facility supplier undertook the documented action.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-27-3"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "The material is a strong mechanism-study candidate for coupled structure, electric field, strain and optical explanation.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams seeking better evidence-backed decisions in the affected domain.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Conventional specialist workflows, manual review, or existing deterministic tools.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "The report describes a Curie temperature of 824 degrees Celsius for a studied configuration; the cited research DOI is 10.1126/sciadv.aef9861.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-27-3"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Equating an explanatory shader with a physics simulation.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Published measurements do not support the proposed simplified causal mechanism.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Full paper method and datasets; License and visualization attribution review",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "This is primarily an academic materials advance, not an immediately usable production material.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Equating an explanatory shader with a physics simulation.",
+  "falsifier": "Published measurements do not support the proposed simplified causal mechanism.",
+  "missingEvidence": [
+    "Full paper method and datasets",
+    "License and visualization attribution review"
+  ],
+  "alternativeExplanation": "This is primarily an academic materials advance, not an immediately usable production material.",
+  "disposition": "experiment",
+  "confidence": 0.8300000000000001
+}

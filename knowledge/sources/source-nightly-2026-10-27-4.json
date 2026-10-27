@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-27-4",
+  "type": "Source",
+  "url": "https://www.energy.gov/cmei/scep/renew-americas-schools-affordability-strategic-energy-pathways-schools-partnership",
+  "publisher": "U.S. Department of Energy",
+  "retrievedAt": "2026-10-27T23:07:17Z",
+  "sourceClass": "official",
+  "independenceKey": "u-s-department-of-energy",
+  "contentHash": null,
+  "title": "The U.S. Department of Energy announced up to $100 million for regional school energy-planning hubs under A+STEPS.",
+  "notes": "Publication date confirmed as 2026-10-26 or 2026-10-27; exact publication time and full-body SHA-256 not independently available."
+}

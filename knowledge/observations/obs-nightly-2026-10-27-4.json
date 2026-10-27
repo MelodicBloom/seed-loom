@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-27-4",
+  "type": "Observation",
+  "capturedAt": "2026-10-27T23:07:17Z",
+  "claim": "The U.S. Department of Energy announced up to $100 million for regional school energy-planning hubs under A+STEPS.",
+  "verifiedFacts": [
+    "DOE states A+STEPS was announced October 27, 2026, with up to $100 million in project funding for a regional hub network.",
+    "The published schedule anticipates opening in November 2026 and a January 15, 2027 regional hub submission deadline.",
+    "The opportunity targets energy audits, plans, technical assistance and limited early improvements; this is not a direct award to the consultancy."
+  ],
+  "inference": [
+    "There may be future subcontracting demand for accessible evidence dashboards and school-facility decision interfaces.",
+    "Potential client problem: technical energy audits are difficult for school communities to interpret; consultancy concept: decision-ready facilities evidence interface."
+  ],
+  "significance": "A concrete funding pathway creates a watchable buyer-partner map in regenerative and civic infrastructure.",
+  "confidence": 0.93,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "opportunity",
+  "sourceRefs": [
+    "source:nightly-2026-10-27-4"
+  ],
+  "actorRefs": [
+    "DOE:regulator,funder; EnergyWerx:program intermediary; school districts:potential participants,buyers"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "Eligible regional partners may later seek design/data communication support."
+  ],
+  "knownLimitations": [
+    "Opportunity opening is future dated; no contract, award, eligibility or consultancy demand confirmed.",
+    "Political and administrative conditions may change."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

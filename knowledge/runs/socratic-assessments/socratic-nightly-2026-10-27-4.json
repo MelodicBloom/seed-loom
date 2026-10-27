@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-27-4",
+  "observationId": "obs:nightly-2026-10-27-4",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "DOE states A+STEPS was announced October 27, 2026, with up to $100 million in project funding for a regional hub network.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-27-4"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "DOE:regulator,funder; EnergyWerx:program intermediary; school districts:potential participants,buyers undertook the documented action.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-27-4"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "There may be future subcontracting demand for accessible evidence dashboards and school-facility decision interfaces.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams seeking better evidence-backed decisions in the affected domain.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Conventional specialist workflows, manual review, or existing deterministic tools.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "The opportunity targets energy audits, plans, technical assistance and limited early improvements; this is not a direct award to the consultancy.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-27-4"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Mistaking program funding for an available freelance contract.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Eligibility or selected hub scopes exclude visualization and communication services.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Full eligibility documents when released; Selected regional hub procurement scopes",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Most funds may go to engineering and facility upgrades with little design procurement.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Mistaking program funding for an available freelance contract.",
+  "falsifier": "Eligibility or selected hub scopes exclude visualization and communication services.",
+  "missingEvidence": [
+    "Full eligibility documents when released",
+    "Selected regional hub procurement scopes"
+  ],
+  "alternativeExplanation": "Most funds may go to engineering and facility upgrades with little design procurement.",
+  "disposition": "watch",
+  "confidence": 0.8500000000000001
+}

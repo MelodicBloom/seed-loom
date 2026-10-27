@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-27-1",
+  "type": "Observation",
+  "capturedAt": "2026-10-27T23:07:17Z",
+  "claim": "Google DeepMind announced Genie 4 with real-time multimodal world simulation and native audio in a limited research preview.",
+  "verifiedFacts": [
+    "Google DeepMind published the Genie 4 announcement dated October 27, 2026.",
+    "Genie 4 is available to trusted research-preview testers; broader consumer and developer access is prospective.",
+    "Google acknowledges object permanence, spatial accuracy, physical interactions, and longer-session consistency limitations."
+  ],
+  "inference": [
+    "Genie 4 offers a useful contrasting reference for deterministic WebGL and governed scene compilation, not a substitute for physically calibrated materials.",
+    "Potential client problem: rapid immersive previsualization lacks reproducible state and truthfulness checks; consultancy concept: generated-scene evidence audit."
+  ],
+  "significance": "Generative interactive worlds now combine live steering, sound and agent-guided scene progression; controlled reproducibility becomes a differentiated design proof.",
+  "confidence": 0.92,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly-2026-10-27-1"
+  ],
+  "actorRefs": [
+    "Google DeepMind:provider,developer,researcher"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-gallery",
+    "qt314wink/shader-grammar",
+    "qt314wink/aether"
+  ],
+  "assumptions": [
+    "Preview capabilities will be accessible for independent tests later."
+  ],
+  "knownLimitations": [
+    "Preview restricted to trusted testers; provider demos are not independent validation.",
+    "Physics and optical accuracy unproven."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-27-5",
+  "type": "Observation",
+  "capturedAt": "2026-10-27T23:07:17Z",
+  "claim": "NASA published satellite-based tracking of Antarctic iceberg A-81 near South Georgia, illustrating time-dependent geospatial interpretation.",
+  "verifiedFacts": [
+    "NASA Earth Observatory published an October 27 image-of-the-day report about iceberg A-81 near South Georgia.",
+    "The featured MODIS Terra image was acquired October 20, 2026, distinct from its publication date.",
+    "The article reports that the iceberg slowed near South Georgia's underwater shelf; the account cites scientific observers and prior imagery."
+  ],
+  "inference": [
+    "This is a strong low-cost demonstrator for distinguishing observation time, publication time, interpretation and uncertainty.",
+    "Potential client problem: environmental dashboards blur satellite acquisition dates with present conditions; consultancy concept: temporal-provenance geospatial storyboard."
+  ],
+  "significance": "The difference between satellite capture time and reporting time is a concrete lesson in temporal evidence and environmental visualization.",
+  "confidence": 0.95,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly-2026-10-27-5"
+  ],
+  "actorRefs": [
+    "NASA Earth Observatory:research publisher; NASA Terra:observation provider; scientists:analysts"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/project-constellation",
+    "qt314wink/aether"
+  ],
+  "assumptions": [
+    "NASA image reuse and attribution can be reviewed for an educational prototype."
+  ],
+  "knownLimitations": [
+    "Single image does not prove continuous motion or current iceberg location.",
+    "Ecological impacts near South Georgia are not established by this report."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

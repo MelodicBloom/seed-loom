@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-27-collect",
+  "runId": "run:nightly-2026-10-27",
+  "stage": "collect",
+  "status": "passed",
+  "startedAt": "2026-10-27T23:07:17Z",
+  "completedAt": "2026-10-27T23:07:17Z",
+  "inputs": [
+    "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+    "https://www.reuters.com/technology/robinhood-ceos-ai-startup-harmonic-expands-into-software-chip-design-2026-10-27/",
+    "https://www.diamond.ac.uk/Science/Research/Highlights/2026/Diamond-s-advanced-imaging-reveals-new-route-to-high-performance--lead-free-ceramics.html",
+    "https://www.energy.gov/cmei/scep/renew-americas-schools-affordability-strategic-energy-pathways-schools-partnership",
+    "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/"
+  ],
+  "outputs": [
+    "source:nightly-2026-10-27-1",
+    "source:nightly-2026-10-27-2",
+    "source:nightly-2026-10-27-3",
+    "source:nightly-2026-10-27-4",
+    "source:nightly-2026-10-27-5"
+  ],
+  "checks": [
+    {
+      "name": "five-source-capture",
+      "result": "pass",
+      "detail": "Five distinct dated sources collected; no duplicate of Oct 26 signals."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only nightly intake; no acceptance, experiment execution, Genesis advancement or publication.",
+      "Raw full-body source hashes not available."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly consultancy intelligence",
+    "method": "Primary/research/reputable press review with explicit uncertainty",
+    "inputHashes": []
+  }
+}

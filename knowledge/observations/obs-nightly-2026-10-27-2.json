@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-27-2",
+  "type": "Observation",
+  "capturedAt": "2026-10-27T23:07:17Z",
+  "claim": "Harmonic announced an expansion of its Aristotle verification system into software and semiconductor design checks.",
+  "verifiedFacts": [
+    "Reuters reported on October 27 that Harmonic expanded Aristotle beyond mathematical proofs to software and chip-design verification.",
+    "The announcement concerns formal verification, not a guarantee that every generated program is correct."
+  ],
+  "inference": [
+    "Formal verification strengthens the distinction between plausible AI output and verified properties under stated assumptions.",
+    "Potential client problem: AI-generated code outpaces review; consultancy concept: bounded property-verification trial."
+  ],
+  "significance": "A specialist AI supplier is moving from theorem proofs toward engineering-specific assurance workflows.",
+  "confidence": 0.82,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly-2026-10-27-2"
+  ],
+  "actorRefs": [
+    "Harmonic:builder,provider; Reuters:media"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/.github",
+    "qt314wink/shader-grammar"
+  ],
+  "assumptions": [
+    "Formal proof claims apply only to specified properties and models."
+  ],
+  "knownLimitations": [
+    "Primary October 27 announcement was not independently retrieved.",
+    "No portfolio integration or independent performance reproduction."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

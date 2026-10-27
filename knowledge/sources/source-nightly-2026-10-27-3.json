@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-27-3",
+  "type": "Source",
+  "url": "https://www.diamond.ac.uk/Science/Research/Highlights/2026/Diamond-s-advanced-imaging-reveals-new-route-to-high-performance--lead-free-ceramics.html",
+  "publisher": "Diamond Light Source",
+  "retrievedAt": "2026-10-27T23:07:17Z",
+  "sourceClass": "research",
+  "independenceKey": "diamond-light-source",
+  "contentHash": null,
+  "title": "Diamond Light Source reported nanoscale self-organization in lead-free piezoelectric ceramics with improved high-temperature behavior.",
+  "notes": "Publication date confirmed as 2026-10-26 or 2026-10-27; exact publication time and full-body SHA-256 not independently available."
+}
