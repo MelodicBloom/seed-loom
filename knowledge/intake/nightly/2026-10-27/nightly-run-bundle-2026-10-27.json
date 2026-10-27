@@ -1,0 +1,1388 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly-2026-10-27",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-10-25T23:07:17Z",
+      "to": "2026-10-27T23:07:17Z"
+    },
+    "newObservations": [
+      "obs:nightly-2026-10-27-1",
+      "obs:nightly-2026-10-27-2",
+      "obs:nightly-2026-10-27-3",
+      "obs:nightly-2026-10-27-4",
+      "obs:nightly-2026-10-27-5"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [
+      "Verification is moving closer to generative engineering and scene simulation; preserve explicit proof scopes.",
+      "Temporal provenance and accessible decision interfaces may be reusable consultancy capabilities."
+    ],
+    "newRelationships": [
+      "rel:nightly-2026-10-27-1",
+      "rel:nightly-2026-10-27-2",
+      "rel:nightly-2026-10-27-3",
+      "rel:nightly-2026-10-27-4",
+      "rel:nightly-2026-10-27-5"
+    ],
+    "contradictions": [
+      "Generative world-model physical realism claims are not equivalent to measured physics.",
+      "Program funding does not establish direct consultancy demand."
+    ],
+    "opportunities": [
+      "Controlled generated-scene continuity and fallback audit",
+      "Mechanism-grounded materials explanation",
+      "School facilities energy evidence interface",
+      "Environmental temporal-provenance visualization"
+    ],
+    "proposedExperiments": [
+      "Proposal only: one optical/material reference comparison with fixed captures and non-claims.",
+      "Proposal only: one dated NASA environmental timeline with image acquisition/publication separation."
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/shader-gallery",
+        "allowedPaths": [
+          "docs/research/**",
+          "docs/evidence/**"
+        ],
+        "branch": "experiment/genie4-contrast-20261027",
+        "draftPR": true,
+        "approvalGate": "independent browser and material-reference QA"
+      },
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/.github",
+        "allowedPaths": [
+          "tests/**",
+          "scripts/**"
+        ],
+        "branch": "fix/registry-schema-verification",
+        "draftPR": true,
+        "approvalGate": "PR #17 tests, review, CI and user merge approval"
+      }
+    ],
+    "noChangeReceipts": [
+      "No acceptance, promotion, merge, deployment, outreach or external disclosure performed.",
+      "No direct customer purchase or procurement of proposed services verified."
+    ],
+    "collectionFailures": [
+      "Raw full-text source body SHA-256 unavailable; contentHash=null for five source records.",
+      "Harmonic primary announcement not independently retrieved; Reuters October 27 reporting used.",
+      "GitHub search returned 422 for qt314wink/shader-grammar and qt314wink/kozo-dreams; repository canonical owner not independently reconciled.",
+      "GitHub source review did not independently execute all repository builds, accessibility checks or runtime QA."
+    ]
+  },
+  "sources": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-27-1",
+      "type": "Source",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "publisher": "Google DeepMind",
+      "retrievedAt": "2026-10-27T23:07:17Z",
+      "sourceClass": "primary",
+      "independenceKey": "google-deepmind",
+      "contentHash": null,
+      "title": "Google DeepMind announced Genie 4 with real-time multimodal world simulation and native audio in a limited research preview.",
+      "notes": "Publication date confirmed as 2026-10-26 or 2026-10-27; exact publication time and full-body SHA-256 not independently available."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-27-2",
+      "type": "Source",
+      "url": "https://www.reuters.com/technology/robinhood-ceos-ai-startup-harmonic-expands-into-software-chip-design-2026-10-27/",
+      "publisher": "Reuters",
+      "retrievedAt": "2026-10-27T23:07:17Z",
+      "sourceClass": "press",
+      "independenceKey": "reuters",
+      "contentHash": null,
+      "title": "Harmonic announced an expansion of its Aristotle verification system into software and semiconductor design checks.",
+      "notes": "Publication date confirmed as 2026-10-26 or 2026-10-27; exact publication time and full-body SHA-256 not independently available."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-27-3",
+      "type": "Source",
+      "url": "https://www.diamond.ac.uk/Science/Research/Highlights/2026/Diamond-s-advanced-imaging-reveals-new-route-to-high-performance--lead-free-ceramics.html",
+      "publisher": "Diamond Light Source",
+      "retrievedAt": "2026-10-27T23:07:17Z",
+      "sourceClass": "research",
+      "independenceKey": "diamond-light-source",
+      "contentHash": null,
+      "title": "Diamond Light Source reported nanoscale self-organization in lead-free piezoelectric ceramics with improved high-temperature behavior.",
+      "notes": "Publication date confirmed as 2026-10-26 or 2026-10-27; exact publication time and full-body SHA-256 not independently available."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-27-4",
+      "type": "Source",
+      "url": "https://www.energy.gov/cmei/scep/renew-americas-schools-affordability-strategic-energy-pathways-schools-partnership",
+      "publisher": "U.S. Department of Energy",
+      "retrievedAt": "2026-10-27T23:07:17Z",
+      "sourceClass": "official",
+      "independenceKey": "u-s-department-of-energy",
+      "contentHash": null,
+      "title": "The U.S. Department of Energy announced up to $100 million for regional school energy-planning hubs under A+STEPS.",
+      "notes": "Publication date confirmed as 2026-10-26 or 2026-10-27; exact publication time and full-body SHA-256 not independently available."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nightly-2026-10-27-5",
+      "type": "Source",
+      "url": "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/",
+      "publisher": "NASA Earth Observatory",
+      "retrievedAt": "2026-10-27T23:07:17Z",
+      "sourceClass": "primary",
+      "independenceKey": "nasa-earth-observatory",
+      "contentHash": null,
+      "title": "NASA published satellite-based tracking of Antarctic iceberg A-81 near South Georgia, illustrating time-dependent geospatial interpretation.",
+      "notes": "Publication date confirmed as 2026-10-26 or 2026-10-27; exact publication time and full-body SHA-256 not independently available."
+    }
+  ],
+  "observations": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-27-1",
+      "type": "Observation",
+      "capturedAt": "2026-10-27T23:07:17Z",
+      "claim": "Google DeepMind announced Genie 4 with real-time multimodal world simulation and native audio in a limited research preview.",
+      "verifiedFacts": [
+        "Google DeepMind published the Genie 4 announcement dated October 27, 2026.",
+        "Genie 4 is available to trusted research-preview testers; broader consumer and developer access is prospective.",
+        "Google acknowledges object permanence, spatial accuracy, physical interactions, and longer-session consistency limitations."
+      ],
+      "inference": [
+        "Genie 4 offers a useful contrasting reference for deterministic WebGL and governed scene compilation, not a substitute for physically calibrated materials.",
+        "Potential client problem: rapid immersive previsualization lacks reproducible state and truthfulness checks; consultancy concept: generated-scene evidence audit."
+      ],
+      "significance": "Generative interactive worlds now combine live steering, sound and agent-guided scene progression; controlled reproducibility becomes a differentiated design proof.",
+      "confidence": 0.92,
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "default",
+      "sourceRefs": [
+        "source:nightly-2026-10-27-1"
+      ],
+      "actorRefs": [
+        "Google DeepMind:provider,developer,researcher"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/shader-gallery",
+        "qt314wink/shader-grammar",
+        "qt314wink/aether"
+      ],
+      "assumptions": [
+        "Preview capabilities will be accessible for independent tests later."
+      ],
+      "knownLimitations": [
+        "Preview restricted to trusted testers; provider demos are not independent validation.",
+        "Physics and optical accuracy unproven."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-27-2",
+      "type": "Observation",
+      "capturedAt": "2026-10-27T23:07:17Z",
+      "claim": "Harmonic announced an expansion of its Aristotle verification system into software and semiconductor design checks.",
+      "verifiedFacts": [
+        "Reuters reported on October 27 that Harmonic expanded Aristotle beyond mathematical proofs to software and chip-design verification.",
+        "The announcement concerns formal verification, not a guarantee that every generated program is correct."
+      ],
+      "inference": [
+        "Formal verification strengthens the distinction between plausible AI output and verified properties under stated assumptions.",
+        "Potential client problem: AI-generated code outpaces review; consultancy concept: bounded property-verification trial."
+      ],
+      "significance": "A specialist AI supplier is moving from theorem proofs toward engineering-specific assurance workflows.",
+      "confidence": 0.82,
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "default",
+      "sourceRefs": [
+        "source:nightly-2026-10-27-2"
+      ],
+      "actorRefs": [
+        "Harmonic:builder,provider; Reuters:media"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/.github",
+        "qt314wink/shader-grammar"
+      ],
+      "assumptions": [
+        "Formal proof claims apply only to specified properties and models."
+      ],
+      "knownLimitations": [
+        "Primary October 27 announcement was not independently retrieved.",
+        "No portfolio integration or independent performance reproduction."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-27-3",
+      "type": "Observation",
+      "capturedAt": "2026-10-27T23:07:17Z",
+      "claim": "Diamond Light Source reported nanoscale self-organization in lead-free piezoelectric ceramics with improved high-temperature behavior.",
+      "verifiedFacts": [
+        "Diamond Light Source published its October 26 research highlight on engineered lead-free piezoelectric ceramic heterostructures.",
+        "Researchers used electron microscopy and high-energy X-ray diffraction to examine composition, structure and electric-field response.",
+        "The report describes a Curie temperature of 824 degrees Celsius for a studied configuration; the cited research DOI is 10.1126/sciadv.aef9861."
+      ],
+      "inference": [
+        "The material is a strong mechanism-study candidate for coupled structure, electric field, strain and optical explanation.",
+        "Potential client problem: advanced-material visualizations omit measurable field/structure constraints; consultancy concept: evidence-linked material mechanism explainer."
+      ],
+      "significance": "A documented microstructure-to-property relationship offers a better research specimen than an aesthetic-only material imitation.",
+      "confidence": 0.91,
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "peer-reviewed-research",
+      "sourceRefs": [
+        "source:nightly-2026-10-27-3"
+      ],
+      "actorRefs": [
+        "Diamond Light Source and research authors:researchers,facility supplier"
+      ],
+      "affectedRepositories": [
+        "qt314wink/shader-grammar",
+        "MelodicBloom/shader-gallery",
+        "MelodicBloom/omni-loom"
+      ],
+      "assumptions": [
+        "The published experimental result can be translated into a bounded visual teaching specimen."
+      ],
+      "knownLimitations": [
+        "Not a demonstration of commercial actuator reliability or independent reproduction.",
+        "Shader visuals cannot themselves validate piezoelectric response."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-27-4",
+      "type": "Observation",
+      "capturedAt": "2026-10-27T23:07:17Z",
+      "claim": "The U.S. Department of Energy announced up to $100 million for regional school energy-planning hubs under A+STEPS.",
+      "verifiedFacts": [
+        "DOE states A+STEPS was announced October 27, 2026, with up to $100 million in project funding for a regional hub network.",
+        "The published schedule anticipates opening in November 2026 and a January 15, 2027 regional hub submission deadline.",
+        "The opportunity targets energy audits, plans, technical assistance and limited early improvements; this is not a direct award to the consultancy."
+      ],
+      "inference": [
+        "There may be future subcontracting demand for accessible evidence dashboards and school-facility decision interfaces.",
+        "Potential client problem: technical energy audits are difficult for school communities to interpret; consultancy concept: decision-ready facilities evidence interface."
+      ],
+      "significance": "A concrete funding pathway creates a watchable buyer-partner map in regenerative and civic infrastructure.",
+      "confidence": 0.93,
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "opportunity",
+      "sourceRefs": [
+        "source:nightly-2026-10-27-4"
+      ],
+      "actorRefs": [
+        "DOE:regulator,funder; EnergyWerx:program intermediary; school districts:potential participants,buyers"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/project-constellation"
+      ],
+      "assumptions": [
+        "Eligible regional partners may later seek design/data communication support."
+      ],
+      "knownLimitations": [
+        "Opportunity opening is future dated; no contract, award, eligibility or consultancy demand confirmed.",
+        "Political and administrative conditions may change."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-10-27-5",
+      "type": "Observation",
+      "capturedAt": "2026-10-27T23:07:17Z",
+      "claim": "NASA published satellite-based tracking of Antarctic iceberg A-81 near South Georgia, illustrating time-dependent geospatial interpretation.",
+      "verifiedFacts": [
+        "NASA Earth Observatory published an October 27 image-of-the-day report about iceberg A-81 near South Georgia.",
+        "The featured MODIS Terra image was acquired October 20, 2026, distinct from its publication date.",
+        "The article reports that the iceberg slowed near South Georgia's underwater shelf; the account cites scientific observers and prior imagery."
+      ],
+      "inference": [
+        "This is a strong low-cost demonstrator for distinguishing observation time, publication time, interpretation and uncertainty.",
+        "Potential client problem: environmental dashboards blur satellite acquisition dates with present conditions; consultancy concept: temporal-provenance geospatial storyboard."
+      ],
+      "significance": "The difference between satellite capture time and reporting time is a concrete lesson in temporal evidence and environmental visualization.",
+      "confidence": 0.95,
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "default",
+      "sourceRefs": [
+        "source:nightly-2026-10-27-5"
+      ],
+      "actorRefs": [
+        "NASA Earth Observatory:research publisher; NASA Terra:observation provider; scientists:analysts"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/project-constellation",
+        "qt314wink/aether"
+      ],
+      "assumptions": [
+        "NASA image reuse and attribution can be reviewed for an educational prototype."
+      ],
+      "knownLimitations": [
+        "Single image does not prove continuous motion or current iceberg location.",
+        "Ecological impacts near South Georgia are not established by this report."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-27-1",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-27-1",
+      "predicate": "APPLIES_TO",
+      "to": "MelodicBloom/shader-gallery",
+      "confidence": 0.8400000000000001,
+      "evidenceRefs": [
+        "source:nightly-2026-10-27-1"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-27-2",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-27-2",
+      "predicate": "APPLIES_TO",
+      "to": "MelodicBloom/seed-loom",
+      "confidence": 0.74,
+      "evidenceRefs": [
+        "source:nightly-2026-10-27-2"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-27-3",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-27-3",
+      "predicate": "APPLIES_TO",
+      "to": "qt314wink/shader-grammar",
+      "confidence": 0.8300000000000001,
+      "evidenceRefs": [
+        "source:nightly-2026-10-27-3"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-27-4",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-27-4",
+      "predicate": "APPLIES_TO",
+      "to": "MelodicBloom/seed-loom",
+      "confidence": 0.8500000000000001,
+      "evidenceRefs": [
+        "source:nightly-2026-10-27-4"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-10-27-5",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-10-27-5",
+      "predicate": "APPLIES_TO",
+      "to": "MelodicBloom/seed-loom",
+      "confidence": 0.87,
+      "evidenceRefs": [
+        "source:nightly-2026-10-27-5"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-27-collect",
+      "runId": "run:nightly-2026-10-27",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-10-27T23:07:17Z",
+      "completedAt": "2026-10-27T23:07:17Z",
+      "inputs": [
+        "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+        "https://www.reuters.com/technology/robinhood-ceos-ai-startup-harmonic-expands-into-software-chip-design-2026-10-27/",
+        "https://www.diamond.ac.uk/Science/Research/Highlights/2026/Diamond-s-advanced-imaging-reveals-new-route-to-high-performance--lead-free-ceramics.html",
+        "https://www.energy.gov/cmei/scep/renew-americas-schools-affordability-strategic-energy-pathways-schools-partnership",
+        "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/"
+      ],
+      "outputs": [
+        "source:nightly-2026-10-27-1",
+        "source:nightly-2026-10-27-2",
+        "source:nightly-2026-10-27-3",
+        "source:nightly-2026-10-27-4",
+        "source:nightly-2026-10-27-5"
+      ],
+      "checks": [
+        {
+          "name": "five-source-capture",
+          "result": "pass",
+          "detail": "Five distinct dated sources collected; no duplicate of Oct 26 signals."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only nightly intake; no acceptance, experiment execution, Genesis advancement or publication.",
+          "Raw full-body source hashes not available."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Primary/research/reputable press review with explicit uncertainty",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-27-vet",
+      "runId": "run:nightly-2026-10-27",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-10-27T23:07:17Z",
+      "completedAt": "2026-10-27T23:07:17Z",
+      "inputs": [
+        "source:nightly-2026-10-27-1",
+        "source:nightly-2026-10-27-2",
+        "source:nightly-2026-10-27-3",
+        "source:nightly-2026-10-27-4",
+        "source:nightly-2026-10-27-5"
+      ],
+      "outputs": [
+        "obs:nightly-2026-10-27-1",
+        "obs:nightly-2026-10-27-2",
+        "obs:nightly-2026-10-27-3",
+        "obs:nightly-2026-10-27-4",
+        "obs:nightly-2026-10-27-5"
+      ],
+      "checks": [
+        {
+          "name": "distinct-recent-claims",
+          "result": "pass",
+          "detail": "Five distinct dated sources collected; no duplicate of Oct 26 signals."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only nightly intake; no acceptance, experiment execution, Genesis advancement or publication.",
+          "No downstream promotion is claimed."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Primary/research/reputable press review with explicit uncertainty",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-27-normalize",
+      "runId": "run:nightly-2026-10-27",
+      "stage": "normalize",
+      "status": "deferred",
+      "startedAt": "2026-10-27T23:07:17Z",
+      "completedAt": "2026-10-27T23:07:17Z",
+      "inputs": [
+        "obs:nightly-2026-10-27-1",
+        "obs:nightly-2026-10-27-2",
+        "obs:nightly-2026-10-27-3",
+        "obs:nightly-2026-10-27-4",
+        "obs:nightly-2026-10-27-5"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "canonical-normalization-pending",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical ingest or explicit human authorization."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only nightly intake; no acceptance, experiment execution, Genesis advancement or publication.",
+          "No downstream promotion is claimed."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Deferred governed pipeline stage; not executed",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-27-observe",
+      "runId": "run:nightly-2026-10-27",
+      "stage": "observe",
+      "status": "deferred",
+      "startedAt": "2026-10-27T23:07:17Z",
+      "completedAt": "2026-10-27T23:07:17Z",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human-gated-transition",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical ingest or explicit human authorization."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only nightly intake; no acceptance, experiment execution, Genesis advancement or publication.",
+          "No downstream promotion is claimed."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Deferred governed pipeline stage; not executed",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-27-inquire",
+      "runId": "run:nightly-2026-10-27",
+      "stage": "inquire",
+      "status": "deferred",
+      "startedAt": "2026-10-27T23:07:17Z",
+      "completedAt": "2026-10-27T23:07:17Z",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human-gated-transition",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical ingest or explicit human authorization."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only nightly intake; no acceptance, experiment execution, Genesis advancement or publication.",
+          "No downstream promotion is claimed."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Deferred governed pipeline stage; not executed",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-27-interpret",
+      "runId": "run:nightly-2026-10-27",
+      "stage": "interpret",
+      "status": "deferred",
+      "startedAt": "2026-10-27T23:07:17Z",
+      "completedAt": "2026-10-27T23:07:17Z",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human-gated-transition",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical ingest or explicit human authorization."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only nightly intake; no acceptance, experiment execution, Genesis advancement or publication.",
+          "No downstream promotion is claimed."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Deferred governed pipeline stage; not executed",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-27-relate",
+      "runId": "run:nightly-2026-10-27",
+      "stage": "relate",
+      "status": "deferred",
+      "startedAt": "2026-10-27T23:07:17Z",
+      "completedAt": "2026-10-27T23:07:17Z",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human-gated-transition",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical ingest or explicit human authorization."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only nightly intake; no acceptance, experiment execution, Genesis advancement or publication.",
+          "No downstream promotion is claimed."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Deferred governed pipeline stage; not executed",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-27-pattern",
+      "runId": "run:nightly-2026-10-27",
+      "stage": "pattern",
+      "status": "deferred",
+      "startedAt": "2026-10-27T23:07:17Z",
+      "completedAt": "2026-10-27T23:07:17Z",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human-gated-transition",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical ingest or explicit human authorization."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only nightly intake; no acceptance, experiment execution, Genesis advancement or publication.",
+          "No downstream promotion is claimed."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Deferred governed pipeline stage; not executed",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-27-opportunity",
+      "runId": "run:nightly-2026-10-27",
+      "stage": "opportunity",
+      "status": "deferred",
+      "startedAt": "2026-10-27T23:07:17Z",
+      "completedAt": "2026-10-27T23:07:17Z",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human-gated-transition",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical ingest or explicit human authorization."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only nightly intake; no acceptance, experiment execution, Genesis advancement or publication.",
+          "No downstream promotion is claimed."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Deferred governed pipeline stage; not executed",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-27-strategy",
+      "runId": "run:nightly-2026-10-27",
+      "stage": "strategy",
+      "status": "deferred",
+      "startedAt": "2026-10-27T23:07:17Z",
+      "completedAt": "2026-10-27T23:07:17Z",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human-gated-transition",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical ingest or explicit human authorization."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only nightly intake; no acceptance, experiment execution, Genesis advancement or publication.",
+          "No downstream promotion is claimed."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Deferred governed pipeline stage; not executed",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-27-experiment",
+      "runId": "run:nightly-2026-10-27",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-10-27T23:07:17Z",
+      "completedAt": "2026-10-27T23:07:17Z",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human-gated-transition",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical ingest or explicit human authorization."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only nightly intake; no acceptance, experiment execution, Genesis advancement or publication.",
+          "No downstream promotion is claimed."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Deferred governed pipeline stage; not executed",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-27-genesis",
+      "runId": "run:nightly-2026-10-27",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-10-27T23:07:17Z",
+      "completedAt": "2026-10-27T23:07:17Z",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human-gated-transition",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical ingest or explicit human authorization."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only nightly intake; no acceptance, experiment execution, Genesis advancement or publication.",
+          "No downstream promotion is claimed."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Deferred governed pipeline stage; not executed",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-10-27-publish",
+      "runId": "run:nightly-2026-10-27",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-10-27T23:07:17Z",
+      "completedAt": "2026-10-27T23:07:17Z",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "human-gated-transition",
+          "result": "not-applicable",
+          "detail": "Deferred until canonical ingest or explicit human authorization."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only nightly intake; no acceptance, experiment execution, Genesis advancement or publication.",
+          "No downstream promotion is claimed."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Deferred governed pipeline stage; not executed",
+        "inputHashes": []
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:nightly-2026-10-27-1",
+      "observationId": "obs:nightly-2026-10-27-1",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Google DeepMind published the Genie 4 announcement dated October 27, 2026.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-27-1"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Google DeepMind:provider,developer,researcher undertook the documented action.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-27-1"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Genie 4 offers a useful contrasting reference for deterministic WebGL and governed scene compilation, not a substitute for physically calibrated materials.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Teams seeking better evidence-backed decisions in the affected domain.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Conventional specialist workflows, manual review, or existing deterministic tools.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Google acknowledges object permanence, spatial accuracy, physical interactions, and longer-session consistency limitations.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-27-1"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Assuming visual plausibility demonstrates physical accuracy.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent prompt-and-state tests cannot maintain controlled scene continuity.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent interactive session captures; Versioned prompts and repeatable state traces",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "This may be a research preview rather than production-grade interactive simulation.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Assuming visual plausibility demonstrates physical accuracy.",
+      "falsifier": "Independent prompt-and-state tests cannot maintain controlled scene continuity.",
+      "missingEvidence": [
+        "Independent interactive session captures",
+        "Versioned prompts and repeatable state traces"
+      ],
+      "alternativeExplanation": "This may be a research preview rather than production-grade interactive simulation.",
+      "disposition": "experiment",
+      "confidence": 0.8400000000000001
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-27-2",
+      "observationId": "obs:nightly-2026-10-27-2",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Reuters reported on October 27 that Harmonic expanded Aristotle beyond mathematical proofs to software and chip-design verification.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-27-2"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Harmonic:builder,provider; Reuters:media undertook the documented action.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-27-2"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Formal verification strengthens the distinction between plausible AI output and verified properties under stated assumptions.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Teams seeking better evidence-backed decisions in the affected domain.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Conventional specialist workflows, manual review, or existing deterministic tools.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "The announcement concerns formal verification, not a guarantee that every generated program is correct.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-27-2"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Treating property-level proof as end-to-end system correctness.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent test shows proofs do not cover stated relevant properties.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Primary release and technical proof artifacts; Scope of supported languages and failure cases",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Formal verification may remain a narrow specialist tool rather than a broadly accessible engineering platform.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Treating property-level proof as end-to-end system correctness.",
+      "falsifier": "Independent test shows proofs do not cover stated relevant properties.",
+      "missingEvidence": [
+        "Primary release and technical proof artifacts",
+        "Scope of supported languages and failure cases"
+      ],
+      "alternativeExplanation": "Formal verification may remain a narrow specialist tool rather than a broadly accessible engineering platform.",
+      "disposition": "watch",
+      "confidence": 0.74
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-27-3",
+      "observationId": "obs:nightly-2026-10-27-3",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Diamond Light Source published its October 26 research highlight on engineered lead-free piezoelectric ceramic heterostructures.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-27-3"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Diamond Light Source and research authors:researchers,facility supplier undertook the documented action.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-27-3"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "The material is a strong mechanism-study candidate for coupled structure, electric field, strain and optical explanation.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Teams seeking better evidence-backed decisions in the affected domain.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Conventional specialist workflows, manual review, or existing deterministic tools.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "The report describes a Curie temperature of 824 degrees Celsius for a studied configuration; the cited research DOI is 10.1126/sciadv.aef9861.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-27-3"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Equating an explanatory shader with a physics simulation.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Published measurements do not support the proposed simplified causal mechanism.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Full paper method and datasets; License and visualization attribution review",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "This is primarily an academic materials advance, not an immediately usable production material.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Equating an explanatory shader with a physics simulation.",
+      "falsifier": "Published measurements do not support the proposed simplified causal mechanism.",
+      "missingEvidence": [
+        "Full paper method and datasets",
+        "License and visualization attribution review"
+      ],
+      "alternativeExplanation": "This is primarily an academic materials advance, not an immediately usable production material.",
+      "disposition": "experiment",
+      "confidence": 0.8300000000000001
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-27-4",
+      "observationId": "obs:nightly-2026-10-27-4",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "DOE states A+STEPS was announced October 27, 2026, with up to $100 million in project funding for a regional hub network.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-27-4"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "DOE:regulator,funder; EnergyWerx:program intermediary; school districts:potential participants,buyers undertook the documented action.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-27-4"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "There may be future subcontracting demand for accessible evidence dashboards and school-facility decision interfaces.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Teams seeking better evidence-backed decisions in the affected domain.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Conventional specialist workflows, manual review, or existing deterministic tools.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "The opportunity targets energy audits, plans, technical assistance and limited early improvements; this is not a direct award to the consultancy.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-27-4"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Mistaking program funding for an available freelance contract.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Eligibility or selected hub scopes exclude visualization and communication services.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Full eligibility documents when released; Selected regional hub procurement scopes",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Most funds may go to engineering and facility upgrades with little design procurement.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Mistaking program funding for an available freelance contract.",
+      "falsifier": "Eligibility or selected hub scopes exclude visualization and communication services.",
+      "missingEvidence": [
+        "Full eligibility documents when released",
+        "Selected regional hub procurement scopes"
+      ],
+      "alternativeExplanation": "Most funds may go to engineering and facility upgrades with little design procurement.",
+      "disposition": "watch",
+      "confidence": 0.8500000000000001
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-10-27-5",
+      "observationId": "obs:nightly-2026-10-27-5",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "NASA Earth Observatory published an October 27 image-of-the-day report about iceberg A-81 near South Georgia.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-27-5"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "NASA Earth Observatory:research publisher; NASA Terra:observation provider; scientists:analysts undertook the documented action.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-27-5"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "This is a strong low-cost demonstrator for distinguishing observation time, publication time, interpretation and uncertainty.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Teams seeking better evidence-backed decisions in the affected domain.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Conventional specialist workflows, manual review, or existing deterministic tools.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "The article reports that the iceberg slowed near South Georgia's underwater shelf; the account cites scientific observers and prior imagery.",
+          "evidenceRefs": [
+            "source:nightly-2026-10-27-5"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Animating inferred motion as if it were measured telemetry.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Additional observations contradict the inferred trajectory or temporal story.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Time-series imagery with capture metadata; Licensing/attribution and observational uncertainty",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "This may remain a useful teaching case rather than a viable paid service.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Animating inferred motion as if it were measured telemetry.",
+      "falsifier": "Additional observations contradict the inferred trajectory or temporal story.",
+      "missingEvidence": [
+        "Time-series imagery with capture metadata",
+        "Licensing/attribution and observational uncertainty"
+      ],
+      "alternativeExplanation": "This may remain a useful teaching case rather than a viable paid service.",
+      "disposition": "watch",
+      "confidence": 0.87
+    }
+  ],
+  "advisory": {
+    "consultancyImplications": [
+      {
+        "observationId": "obs:nightly-2026-10-27-1",
+        "clientProblem": "Potential client problem: rapid immersive previsualization lacks reproducible state and truthfulness checks; consultancy concept: generated-scene evidence audit.",
+        "service": "Immersive simulation provenance and fallback audit"
+      },
+      {
+        "observationId": "obs:nightly-2026-10-27-2",
+        "clientProblem": "Potential client problem: AI-generated code outpaces review; consultancy concept: bounded property-verification trial.",
+        "service": "AI-assisted software assurance evidence audit"
+      },
+      {
+        "observationId": "obs:nightly-2026-10-27-3",
+        "clientProblem": "Potential client problem: advanced-material visualizations omit measurable field/structure constraints; consultancy concept: evidence-linked material mechanism explainer.",
+        "service": "Mechanism-calibrated material explainer"
+      },
+      {
+        "observationId": "obs:nightly-2026-10-27-4",
+        "clientProblem": "Potential client problem: technical energy audits are difficult for school communities to interpret; consultancy concept: decision-ready facilities evidence interface.",
+        "service": "School energy evidence and accessibility mapping"
+      },
+      {
+        "observationId": "obs:nightly-2026-10-27-5",
+        "clientProblem": "Potential client problem: environmental dashboards blur satellite acquisition dates with present conditions; consultancy concept: temporal-provenance geospatial storyboard.",
+        "service": "Temporal environmental evidence visualization"
+      }
+    ],
+    "projectDispositionImplications": [
+      {
+        "observationId": "obs:nightly-2026-10-27-1",
+        "classification": "PRODUCTIZE",
+        "affectedRepositories": [
+          "MelodicBloom/shader-gallery",
+          "qt314wink/shader-grammar",
+          "qt314wink/aether"
+        ]
+      },
+      {
+        "observationId": "obs:nightly-2026-10-27-2",
+        "classification": "CORE",
+        "affectedRepositories": [
+          "MelodicBloom/seed-loom",
+          "MelodicBloom/.github",
+          "qt314wink/shader-grammar"
+        ]
+      },
+      {
+        "observationId": "obs:nightly-2026-10-27-3",
+        "classification": "INCUBATE",
+        "affectedRepositories": [
+          "qt314wink/shader-grammar",
+          "MelodicBloom/shader-gallery",
+          "MelodicBloom/omni-loom"
+        ]
+      },
+      {
+        "observationId": "obs:nightly-2026-10-27-4",
+        "classification": "INCUBATE",
+        "affectedRepositories": [
+          "MelodicBloom/seed-loom",
+          "MelodicBloom/project-constellation"
+        ]
+      },
+      {
+        "observationId": "obs:nightly-2026-10-27-5",
+        "classification": "REFERENCE-ONLY",
+        "affectedRepositories": [
+          "MelodicBloom/seed-loom",
+          "MelodicBloom/project-constellation",
+          "qt314wink/aether"
+        ]
+      }
+    ],
+    "scope": "Advisory only; live normalizer intentionally drops noncanonical fields; mirrored substance in canonical inference."
+  }
+}
