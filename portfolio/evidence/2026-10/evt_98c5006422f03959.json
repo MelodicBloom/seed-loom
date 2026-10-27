@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_98c5006422f03959",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-10-27T11:15:57.329883Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "agent-runtime-control-center",
+    "commit_sha": "2026-10-08T01:02:48Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1287720758,
+    "github_node_id": "R_kgDOTMEPNg",
+    "language": "TypeScript",
+    "archived": false,
+    "private": false,
+    "fork": false,
+    "description": "Jennipher Agent Studio \u2014 phone-controlled AI agent control center for creative technology workflows: repo audits, build fixes, design-system extraction, Gumroad packaging, daily briefings, and approval-gated cloud execution.",
+    "pushed_at": "2026-10-08T01:02:48Z",
+    "created_at": "2026-07-03T00:30:17Z",
+    "open_issues_count": 1
+  }
+}

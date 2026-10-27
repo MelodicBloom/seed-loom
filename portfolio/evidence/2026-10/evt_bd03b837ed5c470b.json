@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_bd03b837ed5c470b",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-10-27T11:15:57.332501Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "shader-gallery",
+    "commit_sha": "2026-10-27T10:05:09Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1247977168,
+    "github_node_id": "R_kgDOSmKe0A",
+    "language": "JavaScript",
+    "archived": false,
+    "private": false,
+    "fork": false,
+    "description": "A browser gallery of real-time GLSL shaders you can view and tweak live.",
+    "pushed_at": "2026-10-27T10:05:09Z",
+    "created_at": "2026-05-24T03:01:02Z",
+    "open_issues_count": 19
+  }
+}

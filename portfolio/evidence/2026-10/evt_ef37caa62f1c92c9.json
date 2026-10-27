@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_ef37caa62f1c92c9",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-10-27T11:15:57.332347Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "ripple-viscous-fluid-simulator",
+    "commit_sha": "2026-10-26T15:32:18Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1418172650,
+    "github_node_id": "R_kgDOVIeY6g",
+    "language": "JavaScript",
+    "archived": false,
+    "private": false,
+    "fork": false,
+    "description": "Wake: an interactive viscous-fluid simulator \u2014 drag to stir water, oil, soap and chrome-like liquids with ripples, swirls and rebounds.",
+    "pushed_at": "2026-10-26T15:32:18Z",
+    "created_at": "2026-10-14T00:32:42Z",
+    "open_issues_count": 1
+  }
+}

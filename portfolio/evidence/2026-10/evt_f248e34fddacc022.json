@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_f248e34fddacc022",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-10-27T11:15:57.332980Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "woodmorphism",
+    "commit_sha": "2026-10-27T10:04:31Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1213435344,
+    "github_node_id": "R_kgDOSFON0A",
+    "language": null,
+    "archived": false,
+    "private": false,
+    "fork": false,
+    "description": "wood morphic design system!",
+    "pushed_at": "2026-10-27T10:04:31Z",
+    "created_at": "2026-04-17T11:29:20Z",
+    "open_issues_count": 1
+  }
+}

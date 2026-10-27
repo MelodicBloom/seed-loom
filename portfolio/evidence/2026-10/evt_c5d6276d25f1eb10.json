@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_c5d6276d25f1eb10",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-10-27T11:15:57.334302Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "prism-loom",
+    "commit_sha": "2026-10-27T10:06:18Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1346705970,
+    "github_node_id": "R_kgDOUEUaMg",
+    "language": "JavaScript",
+    "archived": false,
+    "private": false,
+    "fork": false,
+    "description": null,
+    "pushed_at": "2026-10-27T10:06:18Z",
+    "created_at": "2026-08-25T23:10:36Z",
+    "open_issues_count": 1
+  }
+}

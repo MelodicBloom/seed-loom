@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_24578975ea6467b4",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-10-27T11:15:58.066852Z",
+  "asset": {
+    "provider": "github",
+    "owner": "MelodicBloom",
+    "repo": "nacre-orchid",
+    "commit_sha": "2026-10-27T10:06:59Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1294620252,
+    "github_node_id": "R_kgDOTSpWXA",
+    "language": null,
+    "archived": false,
+    "private": false,
+    "fork": false,
+    "description": "NACRE//ORCHID \u2014 luxury generative-art and design-system platform. Pearl, orchid, lace, abalone, opal, labradorite, and gold cloisonn\u00e9 as product architecture, motion grammar, and symbolic UX.",
+    "pushed_at": "2026-10-27T10:06:59Z",
+    "created_at": "2026-07-09T04:16:15Z",
+    "open_issues_count": 3
+  }
+}
