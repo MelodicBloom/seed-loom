@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-28-2",
+  "type": "Observation",
+  "capturedAt": "2026-10-28T23:51:52Z",
+  "claim": "Anthropic expanded its AI for Science program with twenty research foundations, institutions and groups and research credits.",
+  "verifiedFacts": [
+    "Anthropic's October 28 announcement highlights twenty scientific foundations, institutions and research groups in an expanded AI for Science program.",
+    "Anthropic says the program provides free Claude credits to qualifying research projects and mentions the Model Hardware Standard in research preview."
+  ],
+  "inference": [
+    "Standards-aware research-agent orchestration could be a useful Seed Loom reference, but partner participation is not measured scientific acceleration.",
+    "Potential client problem: AI-assisted research claims lack reproducible experimental provenance; candidate service: research agent evidence mapping."
+  ],
+  "significance": "Scientific institutions and a model provider are publicly coordinating around access to AI and shared research infrastructure.",
+  "confidence": 0.92,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "opportunity",
+  "sourceRefs": [
+    "source:nightly-2026-10-28-2"
+  ],
+  "actorRefs": [
+    "Anthropic:provider,funder",
+    "Participating scientific institutions:researchers,participants"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/.github"
+  ],
+  "assumptions": [
+    "Open standards and public outputs will materialize from some partnerships."
+  ],
+  "knownLimitations": [
+    "Free credits are not grants to this consultancy or evidence of scientific breakthroughs.",
+    "Research-preview hardware specification is not a production safety certification."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

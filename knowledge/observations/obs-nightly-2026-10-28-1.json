@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-28-1",
+  "type": "Observation",
+  "capturedAt": "2026-10-28T23:51:52Z",
+  "claim": "Cisco open-sourced Project Quarry, a detection language for describing multi-step harmful AI-agent behaviors and inspecting session evidence.",
+  "verifiedFacts": [
+    "Cisco published Project Quarry on October 28, 2026 as an open-source detection language for multi-step AI-agent attacks.",
+    "The tool is intended to match described patterns against agent-session behavior and show evidence behind findings; this is a vendor-reported capability."
+  ],
+  "inference": [
+    "A governed agent audit could compare execution traces to explicit forbidden action sequences without claiming complete prevention.",
+    "Potential client problem: permissioned actions form harmful sequences that single-step monitors miss; candidate service: agent behavioral evidence audit."
+  ],
+  "significance": "Sequence-level agent observability is becoming an inspectable governance boundary for multi-tool workflows.",
+  "confidence": 0.93,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "model-capability",
+  "sourceRefs": [
+    "source:nightly-2026-10-28-1"
+  ],
+  "actorRefs": [
+    "Cisco:builder,provider"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Project Quarry's detection rules can be adapted to independent tool traces."
+  ],
+  "knownLimitations": [
+    "Vendor announcement does not independently establish recall, false-positive rate or cross-agent interoperability.",
+    "Security controls are not a substitute for permissions and human approval."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

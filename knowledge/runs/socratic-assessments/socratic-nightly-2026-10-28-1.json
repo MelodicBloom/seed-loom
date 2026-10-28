@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-28-1",
+  "observationId": "obs:nightly-2026-10-28-1",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Cisco published Project Quarry on October 28, 2026 as an open-source detection language for multi-step AI-agent attacks.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-28-1"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Cisco:builder,provider performed the documented release, publication or partnership action.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-28-1"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "A governed agent audit could compare execution traces to explicit forbidden action sequences without claiming complete prevention.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Security teams operating multi-step agents.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Conventional logs, event rules, sandboxing and manual incident reconstruction.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Cisco documents a detection language that evaluates multi-step sequences and presents evidence.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-28-1"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Assuming published detections cover all harmful behavior.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "A bounded test corpus shows unacceptable false positives or misses.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent detection fixtures and confusion matrix; Integration requirements for Seed Loom tool traces",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "A useful vendor-specific security language may not be a broadly interoperable standard.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Assuming published detections cover all harmful behavior.",
+  "falsifier": "A bounded test corpus shows unacceptable false positives or misses.",
+  "missingEvidence": [
+    "Independent detection fixtures and confusion matrix",
+    "Integration requirements for Seed Loom tool traces"
+  ],
+  "alternativeExplanation": "A useful vendor-specific security language may not be a broadly interoperable standard.",
+  "disposition": "experiment",
+  "confidence": 0.8500000000000001
+}

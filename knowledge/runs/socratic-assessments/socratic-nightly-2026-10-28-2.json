@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-28-2",
+  "observationId": "obs:nightly-2026-10-28-2",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Anthropic's October 28 announcement highlights twenty scientific foundations, institutions and research groups in an expanded AI for Science program.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-28-2"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Anthropic:provider,funder; Participating scientific institutions:researchers,participants performed the documented release, publication or partnership action.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-28-2"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Standards-aware research-agent orchestration could be a useful Seed Loom reference, but partner participation is not measured scientific acceleration.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Researchers receiving credits and institutional tooling support.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing scientific computing, lab automation and manually curated data pipelines.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Research credit allocation, institutional partnerships and a preview instrument-interface specification.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-28-2"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Treating partnership counts as independently measured research outcomes.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Partner outputs remain inaccessible or cannot be reproduced with disclosed methods.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Partner-specific published artifacts; Independent measurements of research quality and reproducibility",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Program expansion could primarily reflect subsidized model adoption.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Treating partnership counts as independently measured research outcomes.",
+  "falsifier": "Partner outputs remain inaccessible or cannot be reproduced with disclosed methods.",
+  "missingEvidence": [
+    "Partner-specific published artifacts",
+    "Independent measurements of research quality and reproducibility"
+  ],
+  "alternativeExplanation": "Program expansion could primarily reflect subsidized model adoption.",
+  "disposition": "watch",
+  "confidence": 0.8400000000000001
+}

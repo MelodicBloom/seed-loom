@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-10-28",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-26T23:51:52Z",
+    "to": "2026-10-28T23:51:52Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-10-28-1",
+    "obs:nightly-2026-10-28-2",
+    "obs:nightly-2026-10-28-3",
+    "obs:nightly-2026-10-28-4",
+    "obs:nightly-2026-10-28-5"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Agent governance is moving toward sequence-level evidence, partner integration and formal operational boundaries; small consultancies should integrate rather than duplicate control planes.",
+    "Environmental and regenerative sensing research offers strong process-visualization opportunities only when calibration, energy accounting and temporal provenance remain explicit."
+  ],
+  "newRelationships": [
+    "rel:nightly-2026-10-28-1",
+    "rel:nightly-2026-10-28-2",
+    "rel:nightly-2026-10-28-3",
+    "rel:nightly-2026-10-28-4",
+    "rel:nightly-2026-10-28-5"
+  ],
+  "contradictions": [
+    "Vendor alliances and research-credit partnerships are not evidence of customer procurement or measured outcomes.",
+    "Prototype PFAS sensing and liter-scale CO2 conversion are not certified field monitoring or commercially viable carbon removal."
+  ],
+  "opportunities": [
+    "Agent Behavioral Evidence & Trace Audit",
+    "Scientific Agent Provenance Sprint",
+    "Enterprise Agent Governance Integration Audit",
+    "Environmental Sensor Evidence Interface",
+    "Regenerative Bioprocess Evidence Map"
+  ],
+  "proposedExperiments": [
+    "Proposal only: 10-case read-only agent tool-trace detection comparison with negative controls, measured misses, and a human-reviewed receipt.",
+    "Proposal only: one textile-electrode PFAS evidence dashboard or CO2-to-itaconate process map with laboratory-only claim boundary; no wet-lab activity authorized."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/seed-loom",
+      "allowedPaths": [
+        "docs/research/**",
+        "knowledge/intake/nightly/**"
+      ],
+      "branch": "experiment/agent-trace-audit-20261028",
+      "draftPR": true,
+      "approvalGate": "explicit human authorization, live schema validation, negative fixtures and no runtime permissions expansion"
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/omni-loom",
+      "allowedPaths": [
+        "docs/research/**",
+        "docs/proofs/**"
+      ],
+      "branch": "experiment/environmental-sensor-evidence-20261028",
+      "draftPR": true,
+      "approvalGate": "human authorization and research/field-calibration nonclaims"
+    }
+  ],
+  "noChangeReceipts": [
+    "No acceptance, Strategy execution, experiment execution, Genesis, publication, merge, deployment, spending or outreach.",
+    "No independently verified consultancy buyer payment, procurement or adoption.",
+    "No archive or kill recommended; design recovery remains documentation-only."
+  ],
+  "collectionFailures": [
+    "Raw full source-body SHA-256 unavailable in browsing runtime; all source contentHash=null.",
+    "OIST underlying paper dated 2026-10-16 and UFZ original publication date unresolved; October 28 reporting does not establish new underlying experiments.",
+    "Vendor product and alliance statements not independently benchmarked; partner procurement not established.",
+    "GitHub combined commit-status endpoints return empty for some PR heads; absence is not proof of passing CI.",
+    "No local GitHub clone possible (DNS unavailable); canonical dry-run and ingestion delegated to verified existing GitHub Actions bridge."
+  ]
+}

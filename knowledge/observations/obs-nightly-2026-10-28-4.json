@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-28-4",
+  "type": "Observation",
+  "capturedAt": "2026-10-28T23:51:52Z",
+  "claim": "OIST reported a low-cost screen-printed fabric-electrode prototype that detects PFOA and PFOS in tested water samples.",
+  "verifiedFacts": [
+    "OIST published a research announcement October 28, 2026 describing molecularly imprinted polymer electrodes for PFAS detection.",
+    "Researchers reported printing 100 disposable electrodes onto repurposed fabric and testing PFOA/PFOS in artificially spiked fresh and drinking water.",
+    "The underlying Biosensors and Bioelectronics article is dated October 16, 2026, not October 28."
+  ],
+  "inference": [
+    "Fabrication plus environmental sensing suggests a bounded textile-to-data evidence demonstration, not a validated field instrument.",
+    "Potential client problem: environmental sample readings lack visible calibration and provenance; candidate service: sensor evidence dashboard prototype."
+  ],
+  "significance": "Accessible environmental monitoring may pair printable substrates, selective chemical sensing and mobile data interfaces.",
+  "confidence": 0.91,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly-2026-10-28-4"
+  ],
+  "actorRefs": [
+    "OIST:researcher",
+    "Environmental regulators:potential buyers, not verified"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/omni-loom",
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/project-constellation"
+  ],
+  "assumptions": [
+    "Bench performance may translate into field-use after validation."
+  ],
+  "knownLimitations": [
+    "Spiked sample testing is not broad real-world field validation or regulatory approval.",
+    "The platform targets PFOA and PFOS; it does not measure the entire PFAS class."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

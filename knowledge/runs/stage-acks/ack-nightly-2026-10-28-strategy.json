@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-28-strategy",
+  "runId": "run:nightly-2026-10-28",
+  "stage": "strategy",
+  "status": "deferred",
+  "startedAt": "2026-10-28T23:51:52Z",
+  "completedAt": "2026-10-28T23:51:52Z",
+  "inputs": [
+    "run:nightly-2026-10-28"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "downstream-transition-gate",
+      "result": "not-applicable",
+      "detail": "Deferred until canonical ingest and independent human approval; no downstream execution."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "Capture-time acknowledgement only; subsequent canonical ingestion recorded separately.",
+      "No Strategy acceptance, experiment execution, Genesis or publish transition permitted.",
+      "Full source-body content hashes unavailable."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly consultancy intelligence",
+    "method": "Live official/research source review, GitHub preflight, candidate-only bounded reasoning",
+    "inputHashes": []
+  }
+}

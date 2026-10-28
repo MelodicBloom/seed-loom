@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-28-2",
+  "type": "Source",
+  "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+  "publisher": "Anthropic",
+  "retrievedAt": "2026-10-28T23:51:52Z",
+  "sourceClass": "primary",
+  "independenceKey": "anthropic",
+  "contentHash": null,
+  "title": "AI for Science expands to foundations and research institutions",
+  "notes": "Primary company announcement dated 2026-10-28. Program credits and partner statements are not independent scientific outcome measurements."
+}

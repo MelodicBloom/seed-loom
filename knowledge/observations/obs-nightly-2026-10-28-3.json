@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-28-3",
+  "type": "Observation",
+  "capturedAt": "2026-10-28T23:51:52Z",
+  "claim": "ServiceNow launched the Control Tower Alliance with major AI and security partners to integrate enterprise agent governance.",
+  "verifiedFacts": [
+    "ServiceNow announced the Control Tower Alliance on October 28, 2026 with named founding partners including Anthropic, AWS, Cisco, NVIDIA, Okta, OpenAI and Stripe.",
+    "The announcement describes curated integrations, agent identity and guardrails, qualification, usage metering and governance-oriented partner workflows."
+  ],
+  "inference": [
+    "A small consultancy should integrate with enterprise control planes rather than build a competing generic control tower.",
+    "Potential client problem: fragmented agent identity, permission, usage and audit surfaces; candidate service: governance integration gap assessment."
+  ],
+  "significance": "A major enterprise workflow provider is organizing suppliers and partners around agent-governance distribution.",
+  "confidence": 0.94,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "provider-terms",
+  "sourceRefs": [
+    "source:nightly-2026-10-28-3"
+  ],
+  "actorRefs": [
+    "ServiceNow:builder,platform-provider",
+    "Founding members:suppliers,participants"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/.github",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Some announced integrations will be available and independently testable."
+  ],
+  "knownLimitations": [
+    "Alliance membership does not prove production integration, customer adoption or independent security effectiveness.",
+    "The commercial model and accessibility for small consultancy partners remain unknown."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

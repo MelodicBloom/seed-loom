@@ -1,0 +1,96 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-28-5",
+  "observationId": "obs:nightly-2026-10-28-5",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "UFZ's research index identifies a 2026 study on integrated electromicrobial itaconic-acid production using Komagataella phaffii.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-28-5",
+        "source:nightly-2026-10-28-6"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "UFZ and BOKU researchers:researchers,builders performed the documented release, publication or partnership action.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-28-5",
+        "source:nightly-2026-10-28-6"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "The experiment provides a bounded regenerative process-map specimen with measured outputs and failure constraints, not proof of industrial carbon-negative production.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Industrial biotech researchers and prospective circular-chemical producers.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Sugar-based microbial fermentation and separate CO2-to-formate processes.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Electrochemical CO2-to-formate conversion supplies a microbial carbon and energy pathway in one reactor.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-28-5",
+        "source:nightly-2026-10-28-6"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Assuming conversion of CO2 automatically produces a net climate benefit.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Lifecycle accounting shows high energy use or poor conversion relative to alternatives.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent lifecycle assessment; Scale-up yields and continuous-operation data",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Sugar-fed fermentation may remain economically and environmentally preferable.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Assuming conversion of CO2 automatically produces a net climate benefit.",
+  "falsifier": "Lifecycle accounting shows high energy use or poor conversion relative to alternatives.",
+  "missingEvidence": [
+    "Independent lifecycle assessment",
+    "Scale-up yields and continuous-operation data"
+  ],
+  "alternativeExplanation": "Sugar-fed fermentation may remain economically and environmentally preferable.",
+  "disposition": "watch",
+  "confidence": 0.8200000000000001
+}

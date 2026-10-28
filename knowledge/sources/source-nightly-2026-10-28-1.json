@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-28-1",
+  "type": "Source",
+  "url": "https://blogs.cisco.com/ai/project-quarry-agent-security-detections",
+  "publisher": "Cisco",
+  "retrievedAt": "2026-10-28T23:51:52Z",
+  "sourceClass": "primary",
+  "independenceKey": "cisco",
+  "contentHash": null,
+  "title": "A Shared Language for Agent Defense: Introducing Project Quarry",
+  "notes": "Cisco engineering blog dated 2026-10-28. Primary vendor announcement; external effectiveness and incident examples not independently reproduced."
+}

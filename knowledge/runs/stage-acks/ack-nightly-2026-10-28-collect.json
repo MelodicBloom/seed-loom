@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-28-collect",
+  "runId": "run:nightly-2026-10-28",
+  "stage": "collect",
+  "status": "passed",
+  "startedAt": "2026-10-28T23:51:52Z",
+  "completedAt": "2026-10-28T23:51:52Z",
+  "inputs": [
+    "https://blogs.cisco.com/ai/project-quarry-agent-security-detections",
+    "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+    "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-launches-Control-Tower-Alliance-to-help-enterprises-adopt-AI-safely-at-scale/default.aspx",
+    "https://www.oist.jp/news-center/news/2026/10/28/portable-device-accurately-and-rapidly-detecting-pfas-water",
+    "https://www.ufz.de/index.php?en=20939&pub_id=33021",
+    "https://phys.org/news/2026-10-yeast-paired-electricity-chemical-biodegradable.html"
+  ],
+  "outputs": [
+    "source:nightly-2026-10-28-1",
+    "source:nightly-2026-10-28-2",
+    "source:nightly-2026-10-28-3",
+    "source:nightly-2026-10-28-4",
+    "source:nightly-2026-10-28-5",
+    "source:nightly-2026-10-28-6"
+  ],
+  "checks": [
+    {
+      "name": "source-collection",
+      "result": "pass",
+      "detail": "Six source records cover five distinct signals; explicit source-lineage caveats."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Capture-time acknowledgement only; subsequent canonical ingestion recorded separately.",
+      "No Strategy acceptance, experiment execution, Genesis or publish transition permitted.",
+      "Full source-body content hashes unavailable."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly consultancy intelligence",
+    "method": "Live official/research source review, GitHub preflight, candidate-only bounded reasoning",
+    "inputHashes": []
+  }
+}

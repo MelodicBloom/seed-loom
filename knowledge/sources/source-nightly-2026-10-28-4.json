@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-28-4",
+  "type": "Source",
+  "url": "https://www.oist.jp/news-center/news/2026/10/28/portable-device-accurately-and-rapidly-detecting-pfas-water",
+  "publisher": "Okinawa Institute of Science and Technology",
+  "retrievedAt": "2026-10-28T23:51:52Z",
+  "sourceClass": "research",
+  "independenceKey": "oist",
+  "contentHash": null,
+  "title": "A portable device for accurately and rapidly detecting PFAS in water",
+  "notes": "University research announcement dated 2026-10-28; underlying Biosensors and Bioelectronics paper dated 2026-10-16, DOI 10.1016/j.bios.2026.119315. Lab-spiked samples are not field validation."
+}

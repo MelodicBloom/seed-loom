@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-10-28-5",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-10-28-5",
+  "predicate": "MAY_ENABLE",
+  "to": "MelodicBloom/omni-loom",
+  "confidence": 0.8,
+  "evidenceRefs": [
+    "source:nightly-2026-10-28-5",
+    "source:nightly-2026-10-28-6"
+  ]
+}

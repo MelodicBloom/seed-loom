@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-28-5",
+  "type": "Observation",
+  "capturedAt": "2026-10-28T23:51:52Z",
+  "claim": "UFZ researchers demonstrated integrated electrochemical and yeast-mediated conversion of CO2 into itaconic acid at liter scale.",
+  "verifiedFacts": [
+    "UFZ's research index identifies a 2026 study on integrated electromicrobial itaconic-acid production using Komagataella phaffii.",
+    "The primary abstract reports average titres of 110.1 mg/L and limitations including product variability, anodic oxidation and energy-efficiency constraints.",
+    "A Helmholtz-supplied report appeared October 28, 2026; the original paper's precise publication date was not verified."
+  ],
+  "inference": [
+    "The experiment provides a bounded regenerative process-map specimen with measured outputs and failure constraints, not proof of industrial carbon-negative production.",
+    "Potential client problem: biofabrication claims omit system boundaries, yields and energy inputs; candidate service: regenerative process evidence map."
+  ],
+  "significance": "Hybrid electrochemical and microbial process design creates opportunities for evidence-based circular-material narratives.",
+  "confidence": 0.9,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly-2026-10-28-5",
+    "source:nightly-2026-10-28-6"
+  ],
+  "actorRefs": [
+    "UFZ and BOKU researchers:researchers,builders"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/omni-loom",
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/shader-gallery"
+  ],
+  "assumptions": [
+    "Future optimization may improve yield and energy economics."
+  ],
+  "knownLimitations": [
+    "Low titres and unresolved energy efficiency prevent industrial feasibility claims.",
+    "A research report dated today does not mean the underlying study was first published today."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

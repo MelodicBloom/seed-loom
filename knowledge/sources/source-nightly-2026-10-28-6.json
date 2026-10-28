@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-28-6",
+  "type": "Source",
+  "url": "https://phys.org/news/2026-10-yeast-paired-electricity-chemical-biodegradable.html",
+  "publisher": "Helmholtz Association via Phys.org",
+  "retrievedAt": "2026-10-28T23:51:52Z",
+  "sourceClass": "press",
+  "independenceKey": "ufz",
+  "contentHash": null,
+  "title": "Yeast paired with electricity can convert CO2 into a chemical used in biodegradable plastics",
+  "notes": "Dated 2026-10-28; institutional press release syndicated by Phys.org. Same research lineage as UFZ source, not independent corroboration."
+}

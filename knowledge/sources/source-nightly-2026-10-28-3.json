@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-28-3",
+  "type": "Source",
+  "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-launches-Control-Tower-Alliance-to-help-enterprises-adopt-AI-safely-at-scale/default.aspx",
+  "publisher": "ServiceNow",
+  "retrievedAt": "2026-10-28T23:51:52Z",
+  "sourceClass": "official",
+  "independenceKey": "servicenow",
+  "contentHash": null,
+  "title": "ServiceNow launches Control Tower Alliance to help enterprises adopt AI safely at scale",
+  "notes": "Official release dated 2026-10-28. Partnership announcements and future integrations must not be interpreted as deployed customer outcomes."
+}

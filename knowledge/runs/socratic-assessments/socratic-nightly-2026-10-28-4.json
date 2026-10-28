@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-28-4",
+  "observationId": "obs:nightly-2026-10-28-4",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "OIST published a research announcement October 28, 2026 describing molecularly imprinted polymer electrodes for PFAS detection.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-28-4"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "OIST:researcher; Environmental regulators:potential buyers, not verified performed the documented release, publication or partnership action.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-28-4"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Fabrication plus environmental sensing suggests a bounded textile-to-data evidence demonstration, not a validated field instrument.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Researchers and potentially local environmental monitors.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Centralized laboratory LC-MS/MS and existing portable screening instruments.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Molecularly imprinted polymer capture produces electrochemical current changes on printed fabric electrodes.",
+      "evidenceRefs": [
+        "source:nightly-2026-10-28-4"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Confusing laboratory accuracy with certified field performance.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent blind field samples diverge substantially from reference laboratory results.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent field comparison against mass spectrometry; Sensor stability, calibration and cost measurements",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Conventional laboratory methods may remain more practical for high-stakes regulatory decisions.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Confusing laboratory accuracy with certified field performance.",
+  "falsifier": "Independent blind field samples diverge substantially from reference laboratory results.",
+  "missingEvidence": [
+    "Independent field comparison against mass spectrometry",
+    "Sensor stability, calibration and cost measurements"
+  ],
+  "alternativeExplanation": "Conventional laboratory methods may remain more practical for high-stakes regulatory decisions.",
+  "disposition": "watch",
+  "confidence": 0.8300000000000001
+}
