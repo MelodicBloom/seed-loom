@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-29-2",
+  "type": "Observation",
+  "capturedAt": "2026-10-29T23:03:50Z",
+  "claim": "Google announced Gemini 4 Carbon on October 28 with a limited initial rollout to cyber defenders through its Fairwind program.",
+  "verifiedFacts": [
+    "Google announced Gemini 4 Carbon on October 28 with a limited initial rollout to cyber defenders through its Fairwind program.",
+    "Google reports benchmark results including SEC-bench Pro 88.2%, ExploitGym 54.8%, CWE-bench 71.0%; broad developer availability is not yet announced as live."
+  ],
+  "inference": [
+    "Client problem: long-running coding-agent outputs need evidence-backed security review, model-access qualification and independent validation.",
+    "A governed model-evaluation fixture for real code review may be useful when access becomes available; do not reconfigure Seed Loom to a restricted model.",
+    "Consultancy implication: Teams cannot independently distinguish model security claims from reliable remediation.",
+    "Project disposition: REFERENCE-ONLY until access and independent evaluation; CORE governance requirements unchanged",
+    "Thesis status: reinforces model-independent evidence gates"
+  ],
+  "significance": "A provider is coupling long-horizon agent capability with explicit limited cybersecurity distribution and evaluation boundaries.",
+  "confidence": 0.91,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "model-capability",
+  "sourceRefs": [
+    "source:nightly-2026-10-29-2"
+  ],
+  "actorRefs": [
+    "Google DeepMind:provider,builder",
+    "Cyber defenders:limited-access participants",
+    "Enterprise security teams:potential buyers"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/shader-gallery"
+  ],
+  "assumptions": [
+    "Benchmark improvements transfer to real repositories and defended workflows."
+  ],
+  "knownLimitations": [
+    "Performance claims originate from the provider; some benchmarks evaluate without guardrails.",
+    "Carbon access is limited, so a reproducible independent local comparison cannot yet be performed."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

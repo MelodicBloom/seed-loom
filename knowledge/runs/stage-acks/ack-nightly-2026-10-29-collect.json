@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-29-collect",
+  "runId": "run:nightly-2026-10-29",
+  "stage": "collect",
+  "status": "passed",
+  "startedAt": "2026-10-29T23:03:50Z",
+  "completedAt": "2026-10-29T23:03:50Z",
+  "inputs": [
+    "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/bettercloud-releases-ai-spend-tracking-and-agent-lifecycle-manage-1242733",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+    "https://www.hdb.gov.sg/hdb-pulse/news/2026/enterprise-singapore-and-hdb-launch-new-initiatives",
+    "https://pubs.acs.org/page/apchd5/vc/nanophotonics-optical-metamaterials",
+    "https://m.booksci.cn/literature_c101_2.htm"
+  ],
+  "outputs": [
+    "source:nightly-2026-10-29-1",
+    "source:nightly-2026-10-29-2",
+    "source:nightly-2026-10-29-3",
+    "source:nightly-2026-10-29-4",
+    "source:nightly-2026-10-29-5",
+    "source:nightly-2026-10-29-6"
+  ],
+  "checks": [
+    {
+      "name": "source-capture",
+      "result": "pass",
+      "detail": "Six source records for five distinct Oct 28-29 signals; ACS source-access failure preserved."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only capture; no accepted knowledge or automatic strategy/experiment/genesis/publish.",
+      "Live schema and scripts were read at main 3f42c4b1; source-body SHA-256 unavailable.",
+      "Any normalized canonical ingest is a separate executable action and receipt."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly consultancy intelligence",
+    "method": "Live web primary-source review plus connected GitHub repository preflight and bounded Socratic assessment",
+    "inputHashes": []
+  }
+}

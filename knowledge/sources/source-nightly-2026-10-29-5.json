@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-29-5",
+  "type": "Source",
+  "url": "https://pubs.acs.org/page/apchd5/vc/nanophotonics-optical-metamaterials",
+  "publisher": "American Chemical Society",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-29T23:03:50Z",
+  "sourceClass": "research",
+  "independenceKey": "acsphotonics-doi-10.1021-acsphotonics.6c01497",
+  "contentHash": null,
+  "title": "ACS Photonics posts 3D meta-holography design research",
+  "notes": "Source body not retained as a hashed byte snapshot; publication day verified where stated; do not treat source as independent replication."
+}

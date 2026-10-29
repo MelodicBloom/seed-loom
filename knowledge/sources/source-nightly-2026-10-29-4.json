@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-29-4",
+  "type": "Source",
+  "url": "https://www.hdb.gov.sg/hdb-pulse/news/2026/enterprise-singapore-and-hdb-launch-new-initiatives",
+  "publisher": "Singapore Housing & Development Board",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-29T23:03:50Z",
+  "sourceClass": "official",
+  "independenceKey": "hdb-enterprisesg-built-env-2026-10-28",
+  "contentHash": null,
+  "title": "Singapore HDB funds built-environment testbeds and urban heat innovation",
+  "notes": "Source body not retained as a hashed byte snapshot; publication day verified where stated; do not treat source as independent replication."
+}

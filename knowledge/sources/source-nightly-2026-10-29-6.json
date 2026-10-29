@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-29-6",
+  "type": "Source",
+  "url": "https://m.booksci.cn/literature_c101_2.htm",
+  "publisher": "Book Academic bibliographic index",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-29T23:03:50Z",
+  "sourceClass": "secondary",
+  "independenceKey": "acsphotonics-doi-10.1021-acsphotonics.6c01497",
+  "contentHash": null,
+  "title": "Bibliographic abstract for 3D meta-holography article",
+  "upstream": {
+    "doi": "10.1021/acsphotonics.6c01497"
+  },
+  "notes": "Same research lineage as ACS article; not independent corroboration; direct DOI full text could not be read."
+}

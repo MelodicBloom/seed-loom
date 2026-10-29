@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-29-4",
+  "observationId": "obs:nightly-2026-10-29-4",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "On October 28 Enterprise Singapore and HDB announced an inaugural Demo Day, a shared Building Research, Innovation & Collaboration Lab, and a Cool Ideas Enterprise call for proposals.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-29-4"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Enterprise Singapore:funder performed the reported release, publication or funding announcement; no buyer adoption is inferred.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-29-4"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "City and building teams lack transparent pilot evidence for heat and material interventions.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Singapore-based innovators, HDB estates, municipal climate adaptation teams",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Conventional consultant reports, environmental sensor dashboards and procurement RFPs",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Funding, shared R&D lab, field pilots and buyer-facing demonstration",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-29-4"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Mistaking a Singapore-specific opportunity for an immediately eligible US grant.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Eligibility checks or customer interviews show no viable partnership path or no demand for pilot dashboards.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Call's detailed award terms and accepted proposal criteria; Comparable local procurement opportunities in NJ/PA",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "This is local industrial policy and not yet a transferable consultancy opportunity.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Mistaking a Singapore-specific opportunity for an immediately eligible US grant.",
+  "falsifier": "Eligibility checks or customer interviews show no viable partnership path or no demand for pilot dashboards.",
+  "missingEvidence": [
+    "Call's detailed award terms and accepted proposal criteria",
+    "Comparable local procurement opportunities in NJ/PA"
+  ],
+  "alternativeExplanation": "This is local industrial policy and not yet a transferable consultancy opportunity.",
+  "disposition": "watch",
+  "confidence": 0.8699999999999999
+}

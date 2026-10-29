@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-29-3",
+  "observationId": "obs:nightly-2026-10-29-3",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Apple announced a MacBook Pro with an integrated touch display on October 29, with preorders beginning October 30 and retail availability planned for November 6.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-29-3"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Apple:manufacturer,provider performed the reported release, publication or funding announcement; no buyer adoption is inferred.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-29-3"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Interactive experiences have untested multi-input and accessibility regressions.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Creative app users and teams shipping touch-capable desktop experiences",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Mouse/trackpad-first designs and mobile touch testing",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Integrated touch display, gesture handling and multimodal input",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-29-3"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Treating hardware launch as proof that existing web UIs work correctly on touch desktops.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Device/browser QA shows no material user demand or all existing interactions already pass.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Actual hardware/browser regression results; User interaction data on touch desktop adoption",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "This is primarily a hardware refresh with limited near-term web-design impact.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Treating hardware launch as proof that existing web UIs work correctly on touch desktops.",
+  "falsifier": "Device/browser QA shows no material user demand or all existing interactions already pass.",
+  "missingEvidence": [
+    "Actual hardware/browser regression results",
+    "User interaction data on touch desktop adoption"
+  ],
+  "alternativeExplanation": "This is primarily a hardware refresh with limited near-term web-design impact.",
+  "disposition": "experiment",
+  "confidence": 0.8899999999999999
+}

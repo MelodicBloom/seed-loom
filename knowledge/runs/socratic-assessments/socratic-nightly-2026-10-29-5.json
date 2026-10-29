@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-29-5",
+  "observationId": "obs:nightly-2026-10-29-5",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "ACS Photonics lists the article 'Fast and Low-Noise 3D Meta-Holography Based on Complex-Amplitude Constraint' by Xinru Li and colleagues with an October 28, 2026 publication date.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-29-5",
+        "source:nightly-2026-10-29-6"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Xinru Li and collaborators:researchers performed the reported release, publication or funding announcement; no buyer adoption is inferred.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-29-5",
+        "source:nightly-2026-10-29-6"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Creative optical demos need clear physical-vs-stylized provenance and limitations.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Optical researchers and technical visual-communication clients",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Conventional Gerchberg-Saxton hologram optimization and artistic shader studies",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Complex-amplitude constraint on a reference plane in 3D meta-holography",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Importing reported efficiency gains into a GPU renderer without implementing comparable mathematics.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Full-paper inspection reveals incompatible geometry, methods or conditions for the proposed comparison.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Accessible primary full text and methods; Reproducible numerical fixtures and fabrication conditions",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "The paper is relevant to physical meta-holography but may have no direct impact on the current browser optical laboratory.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Importing reported efficiency gains into a GPU renderer without implementing comparable mathematics.",
+  "falsifier": "Full-paper inspection reveals incompatible geometry, methods or conditions for the proposed comparison.",
+  "missingEvidence": [
+    "Accessible primary full text and methods",
+    "Reproducible numerical fixtures and fabrication conditions"
+  ],
+  "alternativeExplanation": "The paper is relevant to physical meta-holography but may have no direct impact on the current browser optical laboratory.",
+  "disposition": "watch",
+  "confidence": 0.6699999999999999
+}

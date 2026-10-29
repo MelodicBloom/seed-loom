@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-29-1",
+  "type": "Source",
+  "url": "https://www.accessnewswire.com/newsroom/en/computers-technology-and-internet/bettercloud-releases-ai-spend-tracking-and-agent-lifecycle-manage-1242733",
+  "publisher": "BetterCloud via ACCESS Newswire",
+  "publishedAt": "2026-10-29T13:00:00Z",
+  "retrievedAt": "2026-10-29T23:03:50Z",
+  "sourceClass": "primary",
+  "independenceKey": "bettercloud-2026-10-29-release",
+  "contentHash": null,
+  "title": "BetterCloud agent lifecycle and AI spend controls",
+  "notes": "Source body not retained as a hashed byte snapshot; publication day verified where stated; do not treat source as independent replication."
+}

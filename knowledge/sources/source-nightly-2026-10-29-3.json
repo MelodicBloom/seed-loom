@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-29-3",
+  "type": "Source",
+  "url": "https://www.apple.com/newsroom/2026/10/apple-unveils-groundbreaking-macbook-pro-with-proled-xdr-display/",
+  "publisher": "Apple Newsroom",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-29T23:03:50Z",
+  "sourceClass": "primary",
+  "independenceKey": "apple-macbook-pro-touch-2026-10-29",
+  "contentHash": null,
+  "title": "Apple introduces touch-enabled MacBook Pro and new developer gesture APIs",
+  "notes": "Source body not retained as a hashed byte snapshot; publication day verified where stated; do not treat source as independent replication."
+}

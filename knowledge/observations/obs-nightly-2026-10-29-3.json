@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-29-3",
+  "type": "Observation",
+  "capturedAt": "2026-10-29T23:03:50Z",
+  "claim": "Apple announced a MacBook Pro with an integrated touch display on October 29, with preorders beginning October 30 and retail availability planned for November 6.",
+  "verifiedFacts": [
+    "Apple announced a MacBook Pro with an integrated touch display on October 29, with preorders beginning October 30 and retail availability planned for November 6.",
+    "Apple describes new system gesture APIs and simultaneous touch, keyboard and trackpad interaction; claimed PROLED XDR specifications are manufacturer-reported."
+  ],
+  "inference": [
+    "Client problem: interactive visual web experiences often assume pointer-only or mobile-only touch behavior; propose a multi-input accessibility QA package.",
+    "Shader Gallery, LithoMemphis, Mochi UI and Melodyfire should test pointer, touch, keyboard, focus, gesture conflicts and reduced motion without assuming browser compatibility from the announcement.",
+    "Consultancy implication: Interactive experiences have untested multi-input and accessibility regressions.",
+    "Project disposition: PRODUCTIZE cross-device QA; CONSOLIDATE shared test protocol without merging design identities",
+    "Thesis status: refines creative-interface validation, not a new product thesis"
+  ],
+  "significance": "Desktop touch expands the design and QA surface for creative web software and visual instruments.",
+  "confidence": 0.96,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly-2026-10-29-3"
+  ],
+  "actorRefs": [
+    "Apple:manufacturer,provider",
+    "Creative software developers:builders",
+    "Designers and creative professionals:prospective users"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-gallery",
+    "MelodicBloom/lithomemphis",
+    "MelodicBloom/mochi-ui",
+    "MelodicBloom/melodyfire"
+  ],
+  "assumptions": [
+    "Touch-enabled Mac users will use browser-based visual instruments through touch in meaningful numbers."
+  ],
+  "knownLimitations": [
+    "Hardware is announced, not independently field-tested in the targeted web apps.",
+    "Apple's native gesture API is not evidence that all web browsers expose equivalent behavior."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

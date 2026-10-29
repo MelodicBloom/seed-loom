@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-29-5",
+  "type": "Observation",
+  "capturedAt": "2026-10-29T23:03:50Z",
+  "claim": "ACS Photonics lists the article 'Fast and Low-Noise 3D Meta-Holography Based on Complex-Amplitude Constraint' by Xinru Li and colleagues with an October 28, 2026 publication date.",
+  "verifiedFacts": [
+    "ACS Photonics lists the article 'Fast and Low-Noise 3D Meta-Holography Based on Complex-Amplitude Constraint' by Xinru Li and colleagues with an October 28, 2026 publication date.",
+    "A secondary bibliographic abstract linked to DOI 10.1021/acsphotonics.6c01497 describes a complex-amplitude constraint method and reported noise/computation improvements; full primary paper could not be read in this run."
+  ],
+  "inference": [
+    "Client problem: optical demonstrations often conflate illustrative shaders with experimentally validated metasurface optics.",
+    "Create a cited mechanism card and compare computational holography to existing optical shader studies without claiming physical equivalence or reproducing the published apparatus.",
+    "Consultancy implication: Creative optical demos need clear physical-vs-stylized provenance and limitations.",
+    "Project disposition: REFERENCE-ONLY scientific lineage for Shader Gallery; no migration",
+    "Thesis status: reinforces physical accuracy boundaries"
+  ],
+  "significance": "Recent metasurface research offers a bounded reference for separating holographic reconstruction mathematics from visual-effects approximation.",
+  "confidence": 0.74,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly-2026-10-29-5",
+    "source:nightly-2026-10-29-6"
+  ],
+  "actorRefs": [
+    "Xinru Li and collaborators:researchers",
+    "ACS:publisher",
+    "Optical hardware developers:potential builders"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-gallery",
+    "qt314wink/shader-grammar"
+  ],
+  "assumptions": [
+    "The abstract accurately describes methods and reported performance of the primary paper."
+  ],
+  "knownLimitations": [
+    "Full ACS DOI article access failed; reported performance cannot be independently checked.",
+    "A metasurface fabricated at nanoscale is not equivalent to a WebGL shader simulation."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

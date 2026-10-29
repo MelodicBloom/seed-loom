@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-29-1",
+  "type": "Observation",
+  "capturedAt": "2026-10-29T23:03:50Z",
+  "claim": "On October 29 BetterCloud announced that AI agent lifecycle management and AI spend tracking were available to its customers.",
+  "verifiedFacts": [
+    "On October 29 BetterCloud announced that AI agent lifecycle management and AI spend tracking were available to its customers.",
+    "The vendor describes create, update, retire, authorize and revoke workflows for AI agents; token-spend reporting distinguishes the billing vendor from the model developer."
+  ],
+  "inference": [
+    "Client problem: agents and MCP credentials may lack accountable ownership, spend visibility and offboarding; proposed consultancy: read-only agent inventory and offboarding gap assessment.",
+    "BetterCloud competes with general-purpose agent control planes but may create integration and evidence-audit demand; PRODUCTIZE an adapter audit, not a replacement platform.",
+    "Consultancy implication: Enterprise IT teams cannot trace ownership, privileges and cost of agents across tools.",
+    "Project disposition: CORE Seed Loom; PRODUCTIZE only a bounded governance integration audit",
+    "Thesis status: refines the October 28 ServiceNow governance thesis, not an independent new market"
+  ],
+  "significance": "Agent ownership, spend, and offboarding have become explicit productized enterprise governance functions.",
+  "confidence": 0.92,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "provider-terms",
+  "sourceRefs": [
+    "source:nightly-2026-10-29-1"
+  ],
+  "actorRefs": [
+    "BetterCloud:provider,builder",
+    "Enterprise IT and MSPs:buyers,prospective operators"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Announced customer availability reflects functional integrations across relevant providers."
+  ],
+  "knownLimitations": [
+    "Vendor self-description is not independent evidence of adoption, accuracy, pricing, or operational coverage.",
+    "Some discovery coverage is described as planned; do not assume every provider is supported."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

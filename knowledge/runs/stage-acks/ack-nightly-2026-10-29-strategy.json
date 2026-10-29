@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-29-strategy",
+  "runId": "run:nightly-2026-10-29",
+  "stage": "strategy",
+  "status": "deferred",
+  "startedAt": "2026-10-29T23:03:50Z",
+  "completedAt": "2026-10-29T23:03:50Z",
+  "inputs": [
+    "run:nightly-2026-10-29"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "promotion-gate",
+      "result": "not-applicable",
+      "detail": "Await canonical schema-validated ingest and separate human approval; no downstream promotion."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "Candidate-only capture; no accepted knowledge or automatic strategy/experiment/genesis/publish.",
+      "Live schema and scripts were read at main 3f42c4b1; source-body SHA-256 unavailable.",
+      "Any normalized canonical ingest is a separate executable action and receipt."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly consultancy intelligence",
+    "method": "Live web primary-source review plus connected GitHub repository preflight and bounded Socratic assessment",
+    "inputHashes": [
+      "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+      "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b",
+      "git-blob-sha1:984dae274d7fca05812874e5a1c338e3972c1c23",
+      "git-blob-sha1:4a651b42c7c2a3d927e812e552ec413424287252"
+    ]
+  }
+}

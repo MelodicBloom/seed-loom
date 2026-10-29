@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-29-4",
+  "type": "Observation",
+  "capturedAt": "2026-10-29T23:03:50Z",
+  "claim": "On October 28 Enterprise Singapore and HDB announced an inaugural Demo Day, a shared Building Research, Innovation & Collaboration Lab, and a Cool Ideas Enterprise call for proposals.",
+  "verifiedFacts": [
+    "On October 28 Enterprise Singapore and HDB announced an inaugural Demo Day, a shared Building Research, Innovation & Collaboration Lab, and a Cool Ideas Enterprise call for proposals.",
+    "The announced funding commitment is S$4 million for innovation addressing construction productivity, ageing infrastructure and urban heat resilience; a separate HDB eligibility page requires Singapore registration and physical presence."
+  ],
+  "inference": [
+    "Client problem: built-environment innovators need evidence-rich pilots and clear links from measurements to procurement criteria.",
+    "A consultancy could offer urban-heat pilot evidence dashboards and transparent before/after measurement plans, but this is not a directly eligible US grant lead.",
+    "Consultancy implication: City and building teams lack transparent pilot evidence for heat and material interventions.",
+    "Project disposition: INCUBATE civic heat evidence proof; CORE provenance in Seed Loom; REFERENCE-ONLY foreign funding",
+    "Thesis status: reinforces evidence-led regenerative/civic intelligence"
+  ],
+  "significance": "A public-sector buyer and funder are pairing challenge statements with physical testbeds and an explicit funding commitment.",
+  "confidence": 0.94,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "funding",
+  "sourceRefs": [
+    "source:nightly-2026-10-29-4"
+  ],
+  "actorRefs": [
+    "Enterprise Singapore:funder",
+    "HDB:regulator,public buyer,testbed operator",
+    "Local enterprises:eligible builders",
+    "Developers and contractors:prospective adopters"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/omni-loom",
+    "MelodicBloom/philly-civic-ai"
+  ],
+  "assumptions": [
+    "Comparable US municipal clients have demand for rigorous heat-mitigation evidence interfaces."
+  ],
+  "knownLimitations": [
+    "Funding is not directly accessible to a US-only consultancy absent local eligibility and partners.",
+    "Funding commitment does not prove awards or successful deployments."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}
