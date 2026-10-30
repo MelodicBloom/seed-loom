@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-30-3",
+  "type": "Observation",
+  "capturedAt": "2026-10-30T23:19:08Z",
+  "claim": "An October 29 study tested 16 clay-analogue toolpath configurations.",
+  "verifiedFacts": [
+    "An October 29 study tested 16 clay-analogue toolpath configurations.",
+    "Sinusoidal paths with balanced continuous phase alternation achieved 63% greater print height than its baseline in a single-setup experiment."
+  ],
+  "inference": [
+    "A deterministic nonstructural toolpath demonstrator could clarify process variables.",
+    "Consultancy implication: A deterministic nonstructural toolpath demonstrator could clarify process variables.",
+    "Project disposition: Adelaide University and IAAC:researchers",
+    "Thesis: INCUBATE Omni-Loom deterministic proof; CORE Seed Loom evidence lineage."
+  ],
+  "significance": "Research publication documents a bounded geometry-versus-stability result.",
+  "confidence": 0.95,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly-2026-10-30-3"
+  ],
+  "actorRefs": [
+    "MelodicBloom/omni-loom"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Refines fabrication mechanism thesis, without proving physical scale."
+  ],
+  "knownLimitations": [
+    "Single-run clay results generalize to natural site earth."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

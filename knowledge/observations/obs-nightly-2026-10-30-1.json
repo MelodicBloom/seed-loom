@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-30-1",
+  "type": "Observation",
+  "capturedAt": "2026-10-30T23:19:08Z",
+  "claim": "On October 29 Serval announced a $150M Series C at a $3B valuation.",
+  "verifiedFacts": [
+    "On October 29 Serval announced a $150M Series C at a $3B valuation.",
+    "It announced ProServal and a plan for 100+ Automation Engineer hires among 500+ planned hires."
+  ],
+  "inference": [
+    "Enterprise workflow audit and approval evidence may be a service; hiring is not proof of a suitable open vacancy.",
+    "Consultancy implication: Enterprise workflow audit and approval evidence may be a service; hiring is not proof of a suitable open vacancy.",
+    "Project disposition: Serval:provider,builder,employer",
+    "Thesis: CORE Seed Loom; PRODUCTIZE agent-control evidence adapter."
+  ],
+  "significance": "Funding plus planned professional-services recruitment is inspectable supplier behavior.",
+  "confidence": 0.93,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "funding",
+  "sourceRefs": [
+    "source:nightly-2026-10-30-1"
+  ],
+  "actorRefs": [
+    "MelodicBloom/seed-loom"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "The funding announcement reinforces the previous agent governance thesis, not a new market."
+  ],
+  "knownLimitations": [
+    "An external independent audit is commercially accessible."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

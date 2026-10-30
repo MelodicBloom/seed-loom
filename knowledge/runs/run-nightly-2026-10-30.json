@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-10-30",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-28T23:17:49Z",
+    "to": "2026-10-30T23:17:49Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-10-30-1",
+    "obs:nightly-2026-10-30-2",
+    "obs:nightly-2026-10-30-3",
+    "obs:nightly-2026-10-30-4",
+    "obs:nightly-2026-10-30-5"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [],
+  "newRelationships": [
+    "rel:nightly-2026-10-30-1",
+    "rel:nightly-2026-10-30-2",
+    "rel:nightly-2026-10-30-3",
+    "rel:nightly-2026-10-30-4",
+    "rel:nightly-2026-10-30-5"
+  ],
+  "contradictions": [
+    "Vendor funding and announced hiring do not prove paid client demand.",
+    "Earthen height gain does not generalize to field earth; straw reuse is not measured ecological benefit.",
+    "Coexisting UTe2 phases do not establish topological quantum computing."
+  ],
+  "opportunities": [
+    "Candidate-only agent ownership and automation evidence audit.",
+    "Candidate-only browser memory/WebGL lifecycle QA.",
+    "Candidate-only fabrication geometry and regenerative material lineage visualization."
+  ],
+  "proposedExperiments": [
+    "Proposed, not executed: three-snapshot memory lifecycle matrix for AETHER and Melodyfire.",
+    "Proposed, not executed: nonstructural sinusoidal phase toolpath specimen for Omni-Loom."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/seed-loom",
+      "branch": "proposal/automation-audit",
+      "allowedPaths": [
+        "docs/research/**"
+      ],
+      "description": "Document read-only workflow approval and agent ownership fixtures."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/aether",
+      "branch": "proposal/heap-lifecycle-qa",
+      "allowedPaths": [
+        "docs/**",
+        "tests/**"
+      ],
+      "description": "Plan three-snapshot WebGL and media lifecycle QA."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/omni-loom",
+      "branch": "proposal/toolpath-proof",
+      "allowedPaths": [
+        "docs/**",
+        "experiments/**"
+      ],
+      "description": "Document a nonstructural parametric toolpath reference study."
+    }
+  ],
+  "noChangeReceipts": [
+    "Prior October 29 BetterCloud, Google model, Apple touch, Singapore funding, ACS optics signals not repeated.",
+    "No verified Kozo Dreams completion, AETHER acceptance, Omni-Loom fabrication calibration, or Observation Ad paid engagement.",
+    "Seed Loom main 8bbd333 records provenance events, not Genesis promotion."
+  ],
+  "collectionFailures": [
+    "Local git ls-remote failed DNS; GitHub Actions verified as canonical execution bridge.",
+    "Chrome Developers direct open returned DisabledError; official indexed page available, source bytes not hashed.",
+    "qt314wink/shader-grammar commit search returned KeyError; MelodicBloom/observation-ad-pipeline returned 404."
+  ]
+}

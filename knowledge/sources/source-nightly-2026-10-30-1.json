@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-30-1",
+  "type": "Source",
+  "url": "https://www.serval.com/blog/we-raised-150m-to-make-everyone-a-builder",
+  "publisher": "Serval",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-30T23:19:08Z",
+  "sourceClass": "primary",
+  "independenceKey": "2026-10-30-1-serval",
+  "contentHash": null,
+  "title": "Serval funds automation services",
+  "notes": "Publication day confirmed; exact time and source-body SHA-256 unavailable; no invented source hash."
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-30-5",
+  "type": "Observation",
+  "capturedAt": "2026-10-30T23:19:08Z",
+  "claim": "On October 30 Cornell reported pressure-dependent coexisting superconducting regimes in uranium ditelluride.",
+  "verifiedFacts": [
+    "On October 30 Cornell reported pressure-dependent coexisting superconducting regimes in uranium ditelluride.",
+    "The researchers say this does not prove topological superconductivity or a usable quantum computer."
+  ],
+  "inference": [
+    "A phase-diagram specimen could demonstrate evidence-bounded science visualization.",
+    "Consultancy implication: A phase-diagram specimen could demonstrate evidence-bounded science visualization.",
+    "Project disposition: Cornell quantum materials researchers:researchers",
+    "Thesis: REFERENCE-ONLY Shader Grammar; INCUBATE educational Shader Gallery visual."
+  ],
+  "significance": "Researchers published revised phase measurements and competing-phase interpretation.",
+  "confidence": 0.92,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nightly-2026-10-30-5"
+  ],
+  "actorRefs": [
+    "qt314wink/shader-grammar"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Reinforces scientific uncertainty boundaries, not a commercial quantum thesis."
+  ],
+  "knownLimitations": [
+    "Phase coexistence proves useful topological quantum hardware."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

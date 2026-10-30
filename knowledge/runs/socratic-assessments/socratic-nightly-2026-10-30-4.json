@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-30-4",
+  "observationId": "obs:nightly-2026-10-30-4",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "Most dangerous assumption?",
+    "What would falsify it?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Cornell documented BaleWorks on October 29: a built modular timber and straw installation.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-30-4"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "A built educational structure provides a circular-design case, not net-positive ecological proof.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-30-4"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "A material-flow ledger could track origin, maintenance, reuse and measured soil outcomes.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Potential users of a governed evidence service; buyer adoption unverified.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing manual inspection, vendor tools, and conventional research workflows.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Conversion to a restroom and straw reuse for soil remediation are future plans, not completed outcomes.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-30-4"
+      ]
+    },
+    {
+      "question": "Most dangerous assumption?",
+      "answer": "Reinforces lifecycle evidence rather than a new regenerative performance claim.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify it?",
+      "answer": "Independent controlled evidence contradicts the proposed mechanism or buyer need.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Biobased straw automatically provides ecological benefits.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "No measured soil benefit, lifecycle analysis, or code-compliance proof.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Reinforces lifecycle evidence rather than a new regenerative performance claim.",
+  "falsifier": "Independent controlled evidence contradicts the proposed mechanism or buyer need.",
+  "missingEvidence": [
+    "Biobased straw automatically provides ecological benefits."
+  ],
+  "alternativeExplanation": "No measured soil benefit, lifecycle analysis, or code-compliance proof.",
+  "disposition": "watch",
+  "confidence": 0.94
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-30-vet",
+  "runId": "run:nightly-2026-10-30",
+  "stage": "vet",
+  "status": "passed",
+  "startedAt": "2026-10-30T23:19:08Z",
+  "completedAt": "2026-10-30T23:19:08Z",
+  "inputs": [
+    "source:nightly-2026-10-30-1",
+    "source:nightly-2026-10-30-2",
+    "source:nightly-2026-10-30-3",
+    "source:nightly-2026-10-30-4",
+    "source:nightly-2026-10-30-5"
+  ],
+  "outputs": [
+    "obs:nightly-2026-10-30-1",
+    "obs:nightly-2026-10-30-2",
+    "obs:nightly-2026-10-30-3",
+    "obs:nightly-2026-10-30-4",
+    "obs:nightly-2026-10-30-5"
+  ],
+  "checks": [
+    {
+      "name": "source-vetting",
+      "result": "pass",
+      "detail": "Five dated sources inspected and prior nightly topics deduplicated; no source byte hashes."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "No acceptance, promotion, execution or public claims."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly intake",
+    "method": "Source and repository inspection",
+    "inputHashes": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-30-5",
+  "observationId": "obs:nightly-2026-10-30-5",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "Most dangerous assumption?",
+    "What would falsify it?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "On October 30 Cornell reported pressure-dependent coexisting superconducting regimes in uranium ditelluride.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-30-5"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Researchers published revised phase measurements and competing-phase interpretation.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-30-5"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "A phase-diagram specimen could demonstrate evidence-bounded science visualization.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Potential users of a governed evidence service; buyer adoption unverified.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing manual inspection, vendor tools, and conventional research workflows.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "The researchers say this does not prove topological superconductivity or a usable quantum computer.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-30-5"
+      ]
+    },
+    {
+      "question": "Most dangerous assumption?",
+      "answer": "Reinforces scientific uncertainty boundaries, not a commercial quantum thesis.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify it?",
+      "answer": "Independent controlled evidence contradicts the proposed mechanism or buyer need.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Phase coexistence proves useful topological quantum hardware.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "No independent replication, full numerical data, or device-level signature.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Reinforces scientific uncertainty boundaries, not a commercial quantum thesis.",
+  "falsifier": "Independent controlled evidence contradicts the proposed mechanism or buyer need.",
+  "missingEvidence": [
+    "Phase coexistence proves useful topological quantum hardware."
+  ],
+  "alternativeExplanation": "No independent replication, full numerical data, or device-level signature.",
+  "disposition": "watch",
+  "confidence": 0.92
+}

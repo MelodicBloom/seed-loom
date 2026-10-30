@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-30-5",
+  "type": "Source",
+  "url": "https://news.cornell.edu/stories/2026/10/two-flavors-superconductivity-material-has-right-ingredients-twist",
+  "publisher": "Cornell Chronicle",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-30T23:19:08Z",
+  "sourceClass": "research",
+  "independenceKey": "2026-10-30-5-cornell-chronicle",
+  "contentHash": null,
+  "title": "UTe2 competing superconducting phases",
+  "notes": "Publication day confirmed; exact time and source-body SHA-256 unavailable; no invented source hash."
+}

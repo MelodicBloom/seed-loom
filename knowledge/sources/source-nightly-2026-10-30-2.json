@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nightly-2026-10-30-2",
+  "type": "Source",
+  "url": "https://developer.chrome.com/blog/google-chat-memory-leaks-devtools-for-agents",
+  "publisher": "Google Chrome Developers",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-30T23:19:08Z",
+  "sourceClass": "primary",
+  "independenceKey": "2026-10-30-2-google-chrome-developers",
+  "contentHash": null,
+  "title": "Google Chat memory fixes",
+  "notes": "Publication day confirmed; exact time and source-body SHA-256 unavailable; no invented source hash."
+}

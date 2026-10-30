@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-30-1",
+  "observationId": "obs:nightly-2026-10-30-1",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "Most dangerous assumption?",
+    "What would falsify it?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "On October 29 Serval announced a $150M Series C at a $3B valuation.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-30-1"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Funding plus planned professional-services recruitment is inspectable supplier behavior.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-30-1"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Enterprise workflow audit and approval evidence may be a service; hiring is not proof of a suitable open vacancy.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Potential users of a governed evidence service; buyer adoption unverified.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing manual inspection, vendor tools, and conventional research workflows.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "It announced ProServal and a plan for 100+ Automation Engineer hires among 500+ planned hires.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-30-1"
+      ]
+    },
+    {
+      "question": "Most dangerous assumption?",
+      "answer": "The funding announcement reinforces the previous agent governance thesis, not a new market.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify it?",
+      "answer": "Independent controlled evidence contradicts the proposed mechanism or buyer need.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "An external independent audit is commercially accessible.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "No verified client procurement, current role eligibility, or independently audited migration outcomes.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "The funding announcement reinforces the previous agent governance thesis, not a new market.",
+  "falsifier": "Independent controlled evidence contradicts the proposed mechanism or buyer need.",
+  "missingEvidence": [
+    "An external independent audit is commercially accessible."
+  ],
+  "alternativeExplanation": "No verified client procurement, current role eligibility, or independently audited migration outcomes.",
+  "disposition": "watch",
+  "confidence": 0.93
+}

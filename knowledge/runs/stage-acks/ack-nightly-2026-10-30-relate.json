@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-10-30-relate",
+  "runId": "run:nightly-2026-10-30",
+  "stage": "relate",
+  "status": "deferred",
+  "startedAt": "2026-10-30T23:19:08Z",
+  "completedAt": "2026-10-30T23:19:08Z",
+  "inputs": [
+    "run:nightly-2026-10-30"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "canonical-execution-or-human-approval",
+      "result": "not-applicable",
+      "detail": "Downstream stages remain candidate-only or deferred until canonical ingestion and human review."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "No acceptance, promotion, execution or public claims."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly intake",
+    "method": "Deferred to canonical Seed Loom workflow and human approval",
+    "inputHashes": []
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:nightly-2026-10-30-3",
+  "observationId": "obs:nightly-2026-10-30-3",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "Most dangerous assumption?",
+    "What would falsify it?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "An October 29 study tested 16 clay-analogue toolpath configurations.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-30-3"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Research publication documents a bounded geometry-versus-stability result.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-30-3"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "A deterministic nonstructural toolpath demonstrator could clarify process variables.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Potential users of a governed evidence service; buyer adoption unverified.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing manual inspection, vendor tools, and conventional research workflows.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Sinusoidal paths with balanced continuous phase alternation achieved 63% greater print height than its baseline in a single-setup experiment.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-10-30-3"
+      ]
+    },
+    {
+      "question": "Most dangerous assumption?",
+      "answer": "Refines fabrication mechanism thesis, without proving physical scale.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify it?",
+      "answer": "Independent controlled evidence contradicts the proposed mechanism or buyer need.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Single-run clay results generalize to natural site earth.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Each configuration was printed once; one nozzle and one scale; deposited volume varies.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Refines fabrication mechanism thesis, without proving physical scale.",
+  "falsifier": "Independent controlled evidence contradicts the proposed mechanism or buyer need.",
+  "missingEvidence": [
+    "Single-run clay results generalize to natural site earth."
+  ],
+  "alternativeExplanation": "Each configuration was printed once; one nozzle and one scale; deposited volume varies.",
+  "disposition": "experiment",
+  "confidence": 0.95
+}

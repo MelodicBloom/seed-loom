@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-10-30-4",
+  "type": "Observation",
+  "capturedAt": "2026-10-30T23:19:08Z",
+  "claim": "Cornell documented BaleWorks on October 29: a built modular timber and straw installation.",
+  "verifiedFacts": [
+    "Cornell documented BaleWorks on October 29: a built modular timber and straw installation.",
+    "Conversion to a restroom and straw reuse for soil remediation are future plans, not completed outcomes."
+  ],
+  "inference": [
+    "A material-flow ledger could track origin, maintenance, reuse and measured soil outcomes.",
+    "Consultancy implication: A material-flow ledger could track origin, maintenance, reuse and measured soil outcomes.",
+    "Project disposition: Cornell Regenerative Architecture Lab:researcher,builder",
+    "Thesis: CORE Seed Loom; INCUBATE Omni-Loom and Kozo Dreams separately."
+  ],
+  "significance": "A built educational structure provides a circular-design case, not net-positive ecological proof.",
+  "confidence": 0.94,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "default",
+  "sourceRefs": [
+    "source:nightly-2026-10-30-4"
+  ],
+  "actorRefs": [
+    "MelodicBloom/seed-loom"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Reinforces lifecycle evidence rather than a new regenerative performance claim."
+  ],
+  "knownLimitations": [
+    "Biobased straw automatically provides ecological benefits."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}
