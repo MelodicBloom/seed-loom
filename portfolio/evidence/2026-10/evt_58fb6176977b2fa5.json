@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_58fb6176977b2fa5",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-10-30T11:51:49.709684Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "pompa-iridiscencia",
+    "commit_sha": "2026-10-29T20:53:18Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1433875297,
+    "github_node_id": "R_kgDOVXczYQ",
+    "language": null,
+    "archived": false,
+    "private": false,
+    "fork": true,
+    "description": "Interactive simulation of soap-bubble iridescence based on thin-film interference, implemented with WebGL shaders.",
+    "pushed_at": "2026-10-29T20:53:18Z",
+    "created_at": "2026-10-26T03:52:31Z",
+    "open_issues_count": 1
+  }
+}
