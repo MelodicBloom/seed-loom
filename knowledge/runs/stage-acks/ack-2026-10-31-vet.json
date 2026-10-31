@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:2026-10-31-vet",
+  "runId": "run:nightly-2026-10-31",
+  "stage": "vet",
+  "status": "passed",
+  "startedAt": "2026-10-31T23:35:24Z",
+  "completedAt": "2026-10-31T23:35:24Z",
+  "inputs": [
+    "source:2026-10-31-agent-desktop-v102",
+    "source:2026-10-31-framer-mcp-case-studies",
+    "source:2026-10-31-tbc-mischief1-video",
+    "source:2026-10-31-umd-biobased-wrap",
+    "source:2026-10-31-ai-fundraising-reset",
+    "source:2026-10-31-reuters-ft-funding"
+  ],
+  "outputs": [
+    "obs:2026-10-31-agent-desktop-v102",
+    "obs:2026-10-31-framer-mcp-case-studies",
+    "obs:2026-10-31-tbc-mischief1-video",
+    "obs:2026-10-31-umd-biobased-wrap",
+    "obs:2026-10-31-ai-fundraising-reset"
+  ],
+  "checks": [
+    {
+      "name": "source-provenance-review",
+      "result": "pass",
+      "detail": "Dated sources inspected and claim/inference separation performed; source body hashes unavailable."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate source collection only; no accepted knowledge.",
+      "Source-body SHA-256 unavailable; GitHub authority blob IDs are not source-content hashes."
+    ]
+  },
+  "provenance": {
+    "producer": "nightly-consultancy-intelligence",
+    "method": "direct web-source review and connected GitHub repository inspection",
+    "inputHashes": []
+  }
+}

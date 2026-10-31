@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:2026-10-31-ai-fundraising-reset-source",
+  "type": "Relationship",
+  "from": "obs:2026-10-31-ai-fundraising-reset",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:2026-10-31-ai-fundraising-reset",
+  "confidence": 0.73,
+  "evidenceRefs": [
+    "source:2026-10-31-ai-fundraising-reset"
+  ]
+}

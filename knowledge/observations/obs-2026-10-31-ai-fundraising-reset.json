@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-10-31-ai-fundraising-reset",
+  "type": "Observation",
+  "capturedAt": "2026-10-31T23:35:24Z",
+  "claim": "Financial Times reports OpenAI reduced a planned fundraising target; Reuters corroborates reporting lineage",
+  "verifiedFacts": [
+    "On October 30-31, the Financial Times reported that OpenAI's planned fundraising target was reduced from about $30 billion to about $20 billion, with a lower proposed valuation.",
+    "Reuters relayed the FT reporting and noted that the company and other parties had not provided independent confirmation at publication.",
+    "The reported fundraising target is not evidence that any specific amount has closed or been paid."
+  ],
+  "inference": [
+    "AI infrastructure capital intensity and funding uncertainty make low-capex, measurable consulting offers more defensible than speculative platform spending.",
+    "A consultancy should test buyers' operational value and service procurement before expanding agent infrastructure.",
+    "Advisory client problem: Prospective clients need evidence that AI projects save money or improve operations before committing infrastructure budgets.",
+    "Project disposition recommendation only: MelodicBloom/seed-loom, MelodicBloom/agent-runtime-control-center, MelodicBloom/melodyfire; no implementation executed.",
+    "Thesis movement: refines."
+  ],
+  "significance": "A material reported financing revision is a caution against equating AI investment headlines with durable procurement demand.",
+  "confidence": 0.73,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "funding",
+  "validFrom": "2026-10-31T23:35:24Z",
+  "reviewBy": "2026-11-07T23:35:24Z",
+  "sourceRefs": [
+    "source:2026-10-31-ai-fundraising-reset",
+    "source:2026-10-31-reuters-ft-funding"
+  ],
+  "actorRefs": [
+    "analyst:financial-times"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/agent-runtime-control-center",
+    "MelodicBloom/melodyfire"
+  ],
+  "assumptions": [
+    "The FT's unnamed-source account accurately describes private fundraising negotiations."
+  ],
+  "knownLimitations": [
+    "No issuer filing or signed closing receipt was inspected.",
+    "FT and Reuters coverage share the same underlying report; they are not independent confirmations.",
+    "Reported valuation and target can change without a transaction."
+  ],
+  "counterevidenceRefs": [
+    "source:2026-10-31-reuters-ft-funding"
+  ],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:2026-10-31-tbc-mischief1-video",
+  "observationId": "obs:2026-10-31-tbc-mischief1-video",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "TBC announced the public October 30 launch of mischief 1, an image-to-video model based on Wan 2.2, available through fal and OpenRouter.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-10-31-tbc-mischief1-video"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "builder:the-biological-computing-co published or released the cited item.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-10-31-tbc-mischief1-video"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Creative teams cannot compare new video-model quality, cost and licensing on controlled source assets.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Video creators, production studios, and inference marketplace buyers",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Wan 2.2 base model and competing video generation APIs",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Neuron-study-derived software adaptation of an existing video model",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-10-31-tbc-mischief1-video"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Treating 5x vendor speed claims as established performance",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Matched-seed prompt tests show no reliable quality-adjusted cost advantage",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent matched-output benchmarks; License and data-retention comparison",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Most observed gains may derive from conventional serving or scheduling optimizations.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Treating 5x vendor speed claims as established performance",
+  "falsifier": "Matched-seed prompt tests show no reliable quality-adjusted cost advantage",
+  "missingEvidence": [
+    "Independent matched-output benchmarks",
+    "License and data-retention comparison"
+  ],
+  "alternativeExplanation": "Most observed gains may derive from conventional serving or scheduling optimizations.",
+  "disposition": "experiment",
+  "confidence": 0.85
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:2026-10-31-framer-mcp-case-studies",
+  "type": "Source",
+  "url": "https://www.framer.com/blog/how-we-use-framer-mcp/",
+  "publisher": "Framer",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-31T23:35:24Z",
+  "sourceClass": "primary",
+  "independenceKey": "framer-mcp-usage-2026-10-30",
+  "contentHash": null,
+  "title": "Framer documents production-adjacent MCP design workflows with branch review",
+  "notes": "Primary page or dated report inspected; source-body byte hash unavailable in browser-based collection."
+}

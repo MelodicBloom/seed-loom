@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:2026-10-31-ai-fundraising-reset",
+  "type": "Source",
+  "url": "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f",
+  "publisher": "Financial Times",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-31T23:35:24Z",
+  "sourceClass": "press",
+  "independenceKey": "ft-openai-funding-target-2026-10-30",
+  "contentHash": null,
+  "title": "Financial Times reports OpenAI reduced a planned fundraising target; Reuters corroborates reporting lineage",
+  "notes": "Primary page or dated report inspected; source-body byte hash unavailable in browser-based collection."
+}

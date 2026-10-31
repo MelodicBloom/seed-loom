@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-10-31-tbc-mischief1-video",
+  "type": "Observation",
+  "capturedAt": "2026-10-31T23:35:24Z",
+  "claim": "TBC releases neuron-derived software optimization in public image-to-video model",
+  "verifiedFacts": [
+    "TBC announced the public October 30 launch of mischief 1, an image-to-video model based on Wan 2.2, available through fal and OpenRouter.",
+    "TBC says the optimization was derived from measurements of living neurons but inference runs on ordinary AI hardware; no neurons run user video jobs.",
+    "TBC claims 5x faster generation and comparable quality, but these are company claims without an independent benchmark in the reviewed sources."
+  ],
+  "inference": [
+    "The meaningful consultancy opportunity is controlled cost, quality, and provenance comparisons across creative video models, not repeating neuron-derived marketing.",
+    "Observation Ad Pipeline could test an explicitly bounded video specimen with output quality, latency, price, and license receipts.",
+    "Advisory client problem: Creative teams cannot compare new video-model quality, cost and licensing on controlled source assets.",
+    "Project disposition recommendation only: qt314wink/observation-ad-pipeline, MelodicBloom/shader-gallery, MelodicBloom/seed-loom; no implementation executed.",
+    "Thesis movement: refines."
+  ],
+  "significance": "A commercially accessible model links neuroscience-derived research claims to a creative-production tool, creating a testable comparison target.",
+  "confidence": 0.85,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "model-capability",
+  "validFrom": "2026-10-31T23:35:24Z",
+  "reviewBy": "2026-11-07T23:35:24Z",
+  "sourceRefs": [
+    "source:2026-10-31-tbc-mischief1-video"
+  ],
+  "actorRefs": [
+    "builder:the-biological-computing-co"
+  ],
+  "affectedRepositories": [
+    "qt314wink/observation-ad-pipeline",
+    "MelodicBloom/shader-gallery",
+    "MelodicBloom/seed-loom"
+  ],
+  "assumptions": [
+    "The vendor's public API availability and prices remain current at trial time."
+  ],
+  "knownLimitations": [
+    "No paid API calls, independent performance benchmarks, or model outputs were generated.",
+    "Biological derivation and quality parity were not independently verified."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

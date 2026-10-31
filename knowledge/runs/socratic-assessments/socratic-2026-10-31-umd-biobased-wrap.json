@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:2026-10-31-umd-biobased-wrap",
+  "observationId": "obs:2026-10-31-umd-biobased-wrap",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "The University of Maryland's October 30 report describes an AI- and robotics-assisted formulation workflow for biodegradable produce packaging and links a Science Advances paper.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-10-31-umd-biobased-wrap"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "researcher:umd-chemical-biomolecular-engineering published or released the cited item.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-10-31-umd-biobased-wrap"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Regenerative materials teams need credible links from formulation experiments to performance and disposal claims.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Packaging R&D teams, food supply chains and sustainability auditors",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Conventional polyethylene wraps and manual materials formulation",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Robotic formulation trials plus predictive modeling and shelf-life measurements",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-10-31-umd-biobased-wrap"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Assuming experimental shelf life proves scalable biodegradable packaging or net environmental benefit",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent storage trials or lifecycle analysis negate performance advantage",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Full methods and dataset provenance; Industrial-scale lifecycle and food-safety validation",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "The apparent improvement may depend heavily on controlled storage and formulation conditions.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Assuming experimental shelf life proves scalable biodegradable packaging or net environmental benefit",
+  "falsifier": "Independent storage trials or lifecycle analysis negate performance advantage",
+  "missingEvidence": [
+    "Full methods and dataset provenance",
+    "Industrial-scale lifecycle and food-safety validation"
+  ],
+  "alternativeExplanation": "The apparent improvement may depend heavily on controlled storage and formulation conditions.",
+  "disposition": "watch",
+  "confidence": 0.91
+}

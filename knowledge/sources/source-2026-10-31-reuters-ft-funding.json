@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:2026-10-31-reuters-ft-funding",
+  "type": "Source",
+  "url": "https://www.reuters.com/business/openai-cuts-funding-target-by-10-billion-ft-reports-2026-10-31/",
+  "publisher": "Reuters",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-31T23:35:24Z",
+  "sourceClass": "press",
+  "independenceKey": "ft-openai-funding-target-2026-10-30",
+  "contentHash": null,
+  "title": "OpenAI slashes funding target by $10 billion amid tech rout, FT reports",
+  "syndicatedFrom": "Financial Times",
+  "notes": "Secondary report of the same FT-origin claim; not independent corroboration."
+}

@@ -1,0 +1,60 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-10-31T23:38:27.974Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly-2026-10-31",
+      "bundlePath": "knowledge/intake/nightly/2026-10-31/nightly-run-bundle-2026-10-31.json",
+      "bundleSha256": "cd4bfe5cd22ff30f8407648e5e95a82be4a63d9edb4d8a85ddf42070063a6f99",
+      "normalizedDigest": "fffaa487f0d7c99fad6ae7b00da04207d408f1e093ff476ca4687039e9c052c9",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-2026-10-31-agent-desktop-v102.json",
+        "knowledge/sources/source-2026-10-31-framer-mcp-case-studies.json",
+        "knowledge/sources/source-2026-10-31-tbc-mischief1-video.json",
+        "knowledge/sources/source-2026-10-31-umd-biobased-wrap.json",
+        "knowledge/sources/source-2026-10-31-ai-fundraising-reset.json",
+        "knowledge/sources/source-2026-10-31-reuters-ft-funding.json",
+        "knowledge/observations/obs-2026-10-31-agent-desktop-v102.json",
+        "knowledge/observations/obs-2026-10-31-framer-mcp-case-studies.json",
+        "knowledge/observations/obs-2026-10-31-tbc-mischief1-video.json",
+        "knowledge/observations/obs-2026-10-31-umd-biobased-wrap.json",
+        "knowledge/observations/obs-2026-10-31-ai-fundraising-reset.json",
+        "knowledge/relationships/rel-2026-10-31-agent-desktop-v102-source.json",
+        "knowledge/relationships/rel-2026-10-31-framer-mcp-case-studies-source.json",
+        "knowledge/relationships/rel-2026-10-31-tbc-mischief1-video-source.json",
+        "knowledge/relationships/rel-2026-10-31-umd-biobased-wrap-source.json",
+        "knowledge/relationships/rel-2026-10-31-ai-fundraising-reset-source.json",
+        "knowledge/runs/run-nightly-2026-10-31.json",
+        "knowledge/runs/stage-acks/ack-2026-10-31-collect.json",
+        "knowledge/runs/stage-acks/ack-2026-10-31-vet.json",
+        "knowledge/runs/stage-acks/ack-2026-10-31-normalize.json",
+        "knowledge/runs/stage-acks/ack-2026-10-31-observe.json",
+        "knowledge/runs/stage-acks/ack-2026-10-31-inquire.json",
+        "knowledge/runs/stage-acks/ack-2026-10-31-interpret.json",
+        "knowledge/runs/stage-acks/ack-2026-10-31-relate.json",
+        "knowledge/runs/stage-acks/ack-2026-10-31-pattern.json",
+        "knowledge/runs/stage-acks/ack-2026-10-31-opportunity.json",
+        "knowledge/runs/stage-acks/ack-2026-10-31-strategy.json",
+        "knowledge/runs/stage-acks/ack-2026-10-31-experiment.json",
+        "knowledge/runs/stage-acks/ack-2026-10-31-genesis.json",
+        "knowledge/runs/stage-acks/ack-2026-10-31-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-10-31-agent-desktop-v102.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-10-31-framer-mcp-case-studies.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-10-31-tbc-mischief1-video.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-10-31-umd-biobased-wrap.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-10-31-ai-fundraising-reset.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-10-31-ingest.json",
+      "generatedRecordCount": 35
+    }
+  ]
+}

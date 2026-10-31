@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-10-31",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-29T23:35:24Z",
+    "to": "2026-10-31T23:35:24Z"
+  },
+  "newObservations": [
+    "obs:2026-10-31-agent-desktop-v102",
+    "obs:2026-10-31-framer-mcp-case-studies",
+    "obs:2026-10-31-tbc-mischief1-video",
+    "obs:2026-10-31-umd-biobased-wrap",
+    "obs:2026-10-31-ai-fundraising-reset"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [],
+  "newRelationships": [
+    "rel:2026-10-31-agent-desktop-v102-source",
+    "rel:2026-10-31-framer-mcp-case-studies-source",
+    "rel:2026-10-31-tbc-mischief1-video-source",
+    "rel:2026-10-31-umd-biobased-wrap-source",
+    "rel:2026-10-31-ai-fundraising-reset-source"
+  ],
+  "contradictions": [
+    "Independent vendor benchmarks and buyer procurement evidence remain unavailable.",
+    "FT/Reuters financing coverage is one reporting lineage, not two independent confirmations."
+  ],
+  "opportunities": [
+    "Read-only desktop agent action-trace audit",
+    "Reviewable MCP website repair and accessibility QA",
+    "Creative video model cost-quality-provenance comparison",
+    "Regenerative materials evidence map"
+  ],
+  "proposedExperiments": [
+    "Read-only agent-desktop accessibility snapshot/ref stale-state test with synthetic content only; approval required.",
+    "Controlled five-prompt, no-client-data video-model comparison with quality/cost/license receipts; approval and spend authorization required."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/agent-runtime-control-center",
+      "branch": "experiment/desktop-agent-evidence-20261031",
+      "allowedPaths": [
+        "docs/research/**",
+        "docs/proofs/**"
+      ],
+      "action": "Draft a read-only action-trace test matrix; do not execute desktop automation."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "qt314wink/observation-ad-pipeline",
+      "branch": "experiment/video-model-comparison-20261031",
+      "allowedPaths": [
+        "docs/research/**",
+        "docs/proofs/**"
+      ],
+      "action": "Prepare a controlled model comparison plan; no paid calls or external disclosure."
+    }
+  ],
+  "noChangeReceipts": [
+    "No verified new Omni-Loom deterministic fabrication run, Kozo Dreams completion receipt, or AETHER lifecycle QA acceptance in the inspected open-PR set.",
+    "No new accepted Strategy, Genesis or publication; no archive/kill decision.",
+    "October 30 five-signal intake not repeated; earlier agent governance and material studies treated as existing thesis context."
+  ],
+  "collectionFailures": [
+    "Local Git remote access failed DNS resolution; connected GitHub read succeeded.",
+    "qt314wink/shader-grammar commit search returned connector KeyError and PR search returned HTTP 422; no activity inference made.",
+    "Original source-body SHA-256 hashes unavailable through web textual retrieval; source.contentHash=null.",
+    "The full Science Advances methods and the issuer's private fundraising documents were not independently accessed."
+  ]
+}

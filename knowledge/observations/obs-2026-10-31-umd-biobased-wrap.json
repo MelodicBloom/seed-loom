@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-10-31-umd-biobased-wrap",
+  "type": "Observation",
+  "capturedAt": "2026-10-31T23:35:24Z",
+  "claim": "Maryland reports peer-reviewed AI-and-robotics-designed biodegradable produce wrap",
+  "verifiedFacts": [
+    "The University of Maryland's October 30 report describes an AI- and robotics-assisted formulation workflow for biodegradable produce packaging and links a Science Advances paper.",
+    "In the reported experiments, wrapped Hass avocados remained fresh seven days at room temperature while unwrapped comparison fruit spoiled; cucumbers showed less spoilage at day 15 than a conventional plastic-wrap comparison.",
+    "The team reports releasing its AI materials-design platform to the research community; exact licensing and reproducibility were not inspected."
+  ],
+  "inference": [
+    "Omni-Loom could use this as a reference for parameter-to-fabrication provenance, without claiming its own deterministic manufacturing validation.",
+    "A consultancy materials-process visualization should separate experimental storage conditions, packaging formulation, and lifecycle evidence.",
+    "Advisory client problem: Regenerative materials teams need credible links from formulation experiments to performance and disposal claims.",
+    "Project disposition recommendation only: MelodicBloom/omni-loom, MelodicBloom/seed-loom, MelodicBloom/kozo-dreams; no implementation executed.",
+    "Thesis movement: reinforces."
+  ],
+  "significance": "Combines robotic experimentation, material optimization and measurable waste-prevention outcomes in a concrete regenerative engineering example.",
+  "confidence": 0.91,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "peer-reviewed-research",
+  "validFrom": "2026-10-31T23:35:24Z",
+  "reviewBy": "2026-11-07T23:35:24Z",
+  "sourceRefs": [
+    "source:2026-10-31-umd-biobased-wrap"
+  ],
+  "actorRefs": [
+    "researcher:umd-chemical-biomolecular-engineering"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/omni-loom",
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/kozo-dreams"
+  ],
+  "assumptions": [
+    "Reported experimental conditions are representative enough to motivate a demonstrator, not commercial performance."
+  ],
+  "knownLimitations": [
+    "The full Science Advances methods and independent replications were not evaluated.",
+    "A prior 2025 university media story discussed related results; today's novelty is the reported journal publication and platform availability, not a newly invented formulation."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:2026-10-31-agent-desktop-v102",
+  "type": "Source",
+  "url": "https://github.com/vercel-labs/agent-desktop/releases/tag/v1.0.2",
+  "publisher": "Vercel Labs / GitHub Releases",
+  "publishedAt": "2026-10-30T21:17:31Z",
+  "retrievedAt": "2026-10-31T23:35:24Z",
+  "sourceClass": "repository",
+  "independenceKey": "vercel-labs-agent-desktop-2026-10-30",
+  "contentHash": null,
+  "title": "Vercel Labs agent-desktop v1.0.2 ships cross-platform accessibility-tree computer-use fixes",
+  "notes": "Primary page or dated report inspected; source-body byte hash unavailable in browser-based collection."
+}

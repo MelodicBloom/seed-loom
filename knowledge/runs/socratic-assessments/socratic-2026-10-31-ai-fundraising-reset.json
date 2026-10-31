@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:2026-10-31-ai-fundraising-reset",
+  "observationId": "obs:2026-10-31-ai-fundraising-reset",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "On October 30-31, the Financial Times reported that OpenAI's planned fundraising target was reduced from about $30 billion to about $20 billion, with a lower proposed valuation.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-10-31-ai-fundraising-reset",
+        "source:2026-10-31-reuters-ft-funding"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "analyst:financial-times was reported on; issuer action not independently confirmed.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Prospective clients need evidence that AI projects save money or improve operations before committing infrastructure budgets.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Budget-constrained buyers and consultancy operators",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Capital-intensive proprietary platforms and speculative R&D programs",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Reported financing terms, investor commitments, and cost-of-capital pressure",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Treating a media report as a completed funding event or proof of market collapse",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Verified closing documents show targets unchanged or investor demand remains unaffected",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Issuer-confirmed financing terms; Customer spending and paid-pilot data",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "A tactical fundraising adjustment rather than a structural change in AI demand.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Treating a media report as a completed funding event or proof of market collapse",
+  "falsifier": "Verified closing documents show targets unchanged or investor demand remains unaffected",
+  "missingEvidence": [
+    "Issuer-confirmed financing terms",
+    "Customer spending and paid-pilot data"
+  ],
+  "alternativeExplanation": "A tactical fundraising adjustment rather than a structural change in AI demand.",
+  "disposition": "watch",
+  "confidence": 0.73
+}

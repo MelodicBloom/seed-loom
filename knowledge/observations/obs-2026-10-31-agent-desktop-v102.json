@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-10-31-agent-desktop-v102",
+  "type": "Observation",
+  "capturedAt": "2026-10-31T23:35:24Z",
+  "claim": "Vercel Labs agent-desktop v1.0.2 ships cross-platform accessibility-tree computer-use fixes",
+  "verifiedFacts": [
+    "GitHub's signed v1.0.2 release is dated October 30, 2026, with platform-specific archives and SHA-256 values.",
+    "The changelog documents fixes to macOS accessibility permission guidance and command-host restart, plus a Node launcher performance notice.",
+    "The repository describes OS accessibility-tree snapshots with snapshot-qualified refs and a subsequent verification step; it does not embed an LLM."
+  ],
+  "inference": [
+    "A read-only, accessibility-tree-first desktop automation audit could complement Seed Loom's governed action receipts.",
+    "Independent benchmarks and actual cross-platform QA are necessary before promising token savings or accessibility coverage.",
+    "Advisory client problem: Teams cannot reliably audit whether a desktop agent acted on the intended UI element.",
+    "Project disposition recommendation only: MelodicBloom/seed-loom, MelodicBloom/agent-runtime-control-center, MelodicBloom/aether; no implementation executed.",
+    "Thesis movement: reinforces."
+  ],
+  "significance": "A concrete, inspectable desktop-agent interface and error contract offers a bounded integration specimen without building another agent runtime.",
+  "confidence": 0.92,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "default",
+  "validFrom": "2026-10-31T23:35:24Z",
+  "reviewBy": "2026-11-07T23:35:24Z",
+  "sourceRefs": [
+    "source:2026-10-31-agent-desktop-v102"
+  ],
+  "actorRefs": [
+    "builder:vercel-labs"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/agent-runtime-control-center",
+    "MelodicBloom/aether"
+  ],
+  "assumptions": [
+    "Accessible UI trees cover enough of target desktop apps for useful audit fixtures."
+  ],
+  "knownLimitations": [
+    "Release artifacts were not installed or tested in this run.",
+    "Accessibility snapshots and traces may contain sensitive desktop content; no capture was authorized."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

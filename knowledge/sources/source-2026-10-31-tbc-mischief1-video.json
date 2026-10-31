@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:2026-10-31-tbc-mischief1-video",
+  "type": "Source",
+  "url": "https://www.tbc.co/press-releases/neuron-derived-ai-video-model",
+  "publisher": "The Biological Computing Co.",
+  "publishedAt": null,
+  "retrievedAt": "2026-10-31T23:35:24Z",
+  "sourceClass": "primary",
+  "independenceKey": "tbc-mischief1-2026-10-30",
+  "contentHash": null,
+  "title": "TBC releases neuron-derived software optimization in public image-to-video model",
+  "notes": "Primary page or dated report inspected; source-body byte hash unavailable in browser-based collection."
+}

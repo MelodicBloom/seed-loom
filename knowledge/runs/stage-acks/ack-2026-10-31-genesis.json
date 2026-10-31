@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:2026-10-31-genesis",
+  "runId": "run:nightly-2026-10-31",
+  "stage": "genesis",
+  "status": "deferred",
+  "startedAt": "2026-10-31T23:35:24Z",
+  "completedAt": "2026-10-31T23:35:24Z",
+  "inputs": [
+    "obs:2026-10-31-agent-desktop-v102",
+    "obs:2026-10-31-framer-mcp-case-studies",
+    "obs:2026-10-31-tbc-mischief1-video",
+    "obs:2026-10-31-umd-biobased-wrap",
+    "obs:2026-10-31-ai-fundraising-reset"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "transition-boundary",
+      "result": "not-applicable",
+      "detail": "Canonical ingestion, acceptance, experimentation, Genesis and publication are not executed at capture time."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "Deferred; do not promote candidate records or claim an executed stage.",
+      "Source-body SHA-256 unavailable; GitHub authority blob IDs are not source-content hashes."
+    ]
+  },
+  "provenance": {
+    "producer": "nightly-consultancy-intelligence",
+    "method": "direct web-source review and connected GitHub repository inspection",
+    "inputHashes": []
+  }
+}

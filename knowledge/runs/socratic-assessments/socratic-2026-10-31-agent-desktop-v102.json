@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:2026-10-31-agent-desktop-v102",
+  "observationId": "obs:2026-10-31-agent-desktop-v102",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "GitHub's signed v1.0.2 release is dated October 30, 2026, with platform-specific archives and SHA-256 values.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-10-31-agent-desktop-v102"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "builder:vercel-labs published or released the cited item.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-10-31-agent-desktop-v102"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Teams cannot reliably audit whether a desktop agent acted on the intended UI element.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Enterprise automation builders and QA teams",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Screenshot-driven computer use, platform-specific accessibility scripts",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Snapshot-qualified accessibility refs, explicit error states, observe-act-verify",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-10-31-agent-desktop-v102"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Treating vendor examples as proof of cross-platform reliability",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "A fixed desktop task matrix produces stale-ref false successes or permission leaks",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent task completion and privacy tests; Platform-specific reliability measurements",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "The release is routine maintenance of a tool already available earlier in October.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Treating vendor examples as proof of cross-platform reliability",
+  "falsifier": "A fixed desktop task matrix produces stale-ref false successes or permission leaks",
+  "missingEvidence": [
+    "Independent task completion and privacy tests",
+    "Platform-specific reliability measurements"
+  ],
+  "alternativeExplanation": "The release is routine maintenance of a tool already available earlier in October.",
+  "disposition": "experiment",
+  "confidence": 0.92
+}

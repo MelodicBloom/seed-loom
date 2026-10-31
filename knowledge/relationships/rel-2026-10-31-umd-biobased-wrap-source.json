@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:2026-10-31-umd-biobased-wrap-source",
+  "type": "Relationship",
+  "from": "obs:2026-10-31-umd-biobased-wrap",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:2026-10-31-umd-biobased-wrap",
+  "confidence": 0.91,
+  "evidenceRefs": [
+    "source:2026-10-31-umd-biobased-wrap"
+  ]
+}

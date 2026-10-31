@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:2026-10-31-agent-desktop-v102-source",
+  "type": "Relationship",
+  "from": "obs:2026-10-31-agent-desktop-v102",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:2026-10-31-agent-desktop-v102",
+  "confidence": 0.92,
+  "evidenceRefs": [
+    "source:2026-10-31-agent-desktop-v102"
+  ]
+}

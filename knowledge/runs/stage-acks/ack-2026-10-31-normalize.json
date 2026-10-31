@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:2026-10-31-normalize",
+  "runId": "run:nightly-2026-10-31",
+  "stage": "normalize",
+  "status": "deferred",
+  "startedAt": "2026-10-31T23:35:24Z",
+  "completedAt": "2026-10-31T23:35:24Z",
+  "inputs": [
+    "run:nightly-2026-10-31"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "transition-boundary",
+      "result": "not-applicable",
+      "detail": "Canonical ingestion, acceptance, experimentation, Genesis and publication are not executed at capture time."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Deferred; do not promote candidate records or claim an executed stage.",
+      "Source-body SHA-256 unavailable; GitHub authority blob IDs are not source-content hashes."
+    ]
+  },
+  "provenance": {
+    "producer": "nightly-consultancy-intelligence",
+    "method": "direct web-source review and connected GitHub repository inspection",
+    "inputHashes": [
+      "git-blob-sha1:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+      "git-blob-sha1:ff348cbebf422440e5cf01374089fbbf5ef75f7b"
+    ]
+  }
+}

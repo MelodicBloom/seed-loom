@@ -1,0 +1,93 @@
+{
+  "assessmentId": "socratic:2026-10-31-framer-mcp-case-studies",
+  "observationId": "obs:2026-10-31-framer-mcp-case-studies",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Framer published an October 30 article documenting its team's use of Framer MCP for website edits, migrations, search-informed copy changes, and CMS drafts.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-10-31-framer-mcp-case-studies"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "builder:framer published or released the cited item.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-10-31-framer-mcp-case-studies"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Clients need traceable website changes that preserve editable layers, branding, and approval.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Design teams, website owners and creative service buyers",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Manual CMS edits, Git-based web design, no-code builders without MCP",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Agent edits to editable project layers/CMS followed by branch preview and human approval",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-10-31-framer-mcp-case-studies"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Assuming vendor internal demos generalize to paid client projects",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "A bounded page migration fails fidelity or human approval criteria",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent browser QA and accessibility results; Client pricing and procurement evidence",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Framer is publishing adoption marketing for a feature launched earlier.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Assuming vendor internal demos generalize to paid client projects",
+  "falsifier": "A bounded page migration fails fidelity or human approval criteria",
+  "missingEvidence": [
+    "Independent browser QA and accessibility results",
+    "Client pricing and procurement evidence"
+  ],
+  "alternativeExplanation": "Framer is publishing adoption marketing for a feature launched earlier.",
+  "disposition": "strategy-candidate",
+  "confidence": 0.9
+}

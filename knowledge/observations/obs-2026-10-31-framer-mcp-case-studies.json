@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-10-31-framer-mcp-case-studies",
+  "type": "Observation",
+  "capturedAt": "2026-10-31T23:35:24Z",
+  "claim": "Framer documents production-adjacent MCP design workflows with branch review",
+  "verifiedFacts": [
+    "Framer published an October 30 article documenting its team's use of Framer MCP for website edits, migrations, search-informed copy changes, and CMS drafts.",
+    "Its examples explicitly keep human review and branch previews between agent edits and publication.",
+    "The article describes internal workflows, not independent measurements of commercial customer outcomes."
+  ],
+  "inference": [
+    "An agent-assisted site repair and provenance service can sell reviewable changes and QA evidence rather than generic AI site generation.",
+    "Melodyfire and LithoMemphis should retain distinct design systems while sharing a bounded handoff and review protocol.",
+    "Advisory client problem: Clients need traceable website changes that preserve editable layers, branding, and approval.",
+    "Project disposition recommendation only: MelodicBloom/melodyfire, MelodicBloom/lithomemphis, MelodicBloom/kozo-dreams; no implementation executed.",
+    "Thesis movement: reinforces."
+  ],
+  "significance": "A design-tool provider publicly documents branch-based, human-reviewed agent editing as an operational pattern relevant to consultancy delivery.",
+  "confidence": 0.9,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "default",
+  "validFrom": "2026-10-31T23:35:24Z",
+  "reviewBy": "2026-11-07T23:35:24Z",
+  "sourceRefs": [
+    "source:2026-10-31-framer-mcp-case-studies"
+  ],
+  "actorRefs": [
+    "builder:framer"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/melodyfire",
+    "MelodicBloom/lithomemphis",
+    "MelodicBloom/kozo-dreams"
+  ],
+  "assumptions": [
+    "Framer MCP workflows can be reproduced on client projects with appropriate permissions."
+  ],
+  "knownLimitations": [
+    "Examples are vendor-selected and do not measure defect rates, time savings, or customer demand.",
+    "No Framer project was connected or edited."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}
