@@ -14,6 +14,11 @@ on:
       - 'package-lock.json'
       - '.github/workflows/nightly-intake-proof.yml'
   workflow_dispatch:
+    inputs:
+      bundle:
+        description: "Reviewed NightlyRunBundle repository path"
+        required: true
+        type: string
 
 permissions:
   contents: read
@@ -42,8 +47,36 @@ jobs:
       - name: Install repository dependencies
         run: npm ci --ignore-scripts --no-audit --no-fund
 
+      - name: Validate selected bundle path
+        if: ${{ inputs.bundle != '' }}
+        env:
+          PROOF_BUNDLE: ${{ inputs.bundle }}
+        run: |
+          case "$PROOF_BUNDLE" in
+            knowledge/intake/nightly/*.json) ;;
+            *) echo "::error::bundle must be a JSON file under knowledge/intake/nightly/"; exit 1 ;;
+          esac
+          case "$PROOF_BUNDLE" in
+            *..*|*//*|*' '*) echo "::error::bundle path must be a plain repository path"; exit 1 ;;
+          esac
+          if ! git ls-files --error-unmatch -- "$PROOF_BUNDLE" >/dev/null 2>&1; then
+            echo "::error::bundle is not a tracked file on this ref: $PROOF_BUNDLE"; exit 1
+          fi
+          if [ -L "$PROOF_BUNDLE" ] || [ ! -f "$PROOF_BUNDLE" ]; then
+            echo "::error::bundle must be a regular file"; exit 1
+          fi
+          sha256sum -- "$PROOF_BUNDLE"
+
       - name: Prove one real reviewed NightlyRunBundle twice
-        run: npm run knowledge:prove-nightly -- --out=nightly-intake-proof.json
+        env:
+          PROOF_BUNDLE: ${{ inputs.bundle }}
+        run: |
+          if [ -n "$PROOF_BUNDLE" ]; then
+            node scripts/knowledge/prove-nightly-ingest.mjs \
+              "$PROOF_BUNDLE" --out=nightly-intake-proof.json
+          else
+            npm run knowledge:prove-nightly -- --out=nightly-intake-proof.json
+          fi
 
       - name: Upload machine-readable proof receipt
         if: always()
