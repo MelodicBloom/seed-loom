@@ -1,0 +1,1426 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly-2026-11-01",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-10-31T00:40:01Z",
+      "to": "2026-11-02T00:40:01Z"
+    },
+    "newObservations": [
+      "obs:2026-11-01-archestra-runtime-tiers",
+      "obs:2026-11-01-xai-turbine-court",
+      "obs:2026-11-01-pi-armor-molecular-cage",
+      "obs:2026-11-01-embodied-ai-robotics-economics",
+      "obs:2026-11-01-isomorphic-clinical-translation"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [],
+    "newRelationships": [
+      "rel:2026-11-01-archestra-runtime-tiers-source",
+      "rel:2026-11-01-xai-turbine-court-source",
+      "rel:2026-11-01-pi-armor-molecular-cage-source",
+      "rel:2026-11-01-embodied-ai-robotics-economics-source",
+      "rel:2026-11-01-isomorphic-clinical-translation-source"
+    ],
+    "contradictions": [
+      "Court denial of dismissal is not a finding of Clean Air Act liability.",
+      "October 31 institutional report covers a molecular paper published October 13; not a new October 31 experiment.",
+      "Reuters robotics financing and task-success data are company/researcher reported, not independent verification.",
+      "Isomorphic interview was conducted in September; article is new, clinical milestone is not."
+    ],
+    "opportunities": [
+      "Read-only agent runtime resource and authority audit",
+      "Civic evidence lineage and regulatory status dashboard",
+      "Scientific mechanism illustration with physical-accuracy boundaries"
+    ],
+    "proposedExperiments": [
+      "Synthetic runtime tier/receipt comparison; approval required, no execution.",
+      "Court-docket evidence-state visualization with public/synthetic records; approval required, no publication."
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/seed-loom",
+        "branch": "proposal/civic-evidence-20261101",
+        "allowedPaths": [
+          "docs/research/**",
+          "docs/proofs/**"
+        ],
+        "action": "Draft a docket-to-evidence-state mapping specimen with synthetic records; no external publication."
+      },
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/agent-runtime-control-center",
+        "branch": "proposal/runtime-tier-evidence-20261101",
+        "allowedPaths": [
+          "docs/research/**",
+          "docs/proofs/**"
+        ],
+        "action": "Draft a read-only runtime tier/approval receipt matrix; no deployment."
+      },
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/omni-loom",
+        "branch": "proposal/fabrication-evidence-20261101",
+        "allowedPaths": [
+          "docs/research/**",
+          "docs/proofs/**"
+        ],
+        "action": "Review existing merged deterministic specimen #7 and document boundary against physical robotic deployments; no new fabrication."
+      }
+    ],
+    "noChangeReceipts": [
+      "October 31 observations are not repeated.",
+      "Seed Loom PR #76 remains draft; workflow input change not merged; Issue #24 Oct 30 CI artifact still unverified.",
+      "Omni-Loom deterministic specimen proof was merged in August 2026 (#7); physical fabrication and commercial claims not independently verified.",
+      "No verified new Kozo Dreams completion, AETHER runtime lifecycle acceptance, or paid Observation Ad Pipeline client outcome.",
+      "No Genesis acceptance, publication, archive or kill decision."
+    ],
+    "collectionFailures": [
+      "Local GitHub clone failed DNS resolution; connected GitHub API read succeeded.",
+      "Primary full JACS article and raw experimental datasets were not independently accessed; October 31 research release is a secondary distribution of an institute statement.",
+      "Independent robotics field trial and financing records were not accessed.",
+      "Isomorphic clinical trial registration or new October 31 clinical milestone was not verified.",
+      "Source response-body hashes unavailable from the web reader; contentHash is null."
+    ]
+  },
+  "sources": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-01-archestra-runtime-tiers",
+      "type": "Source",
+      "url": "https://github.com/archestra-ai/archestra/releases/tag/platform-v1.5.0-rc.19",
+      "publisher": "Archestra GitHub Releases",
+      "publishedAt": "2026-11-01T00:08:00Z",
+      "retrievedAt": "2026-11-02T00:40:01Z",
+      "sourceClass": "repository",
+      "independenceKey": "archestra-github-releases-archestra-runtime-tiers",
+      "contentHash": null,
+      "title": "Archestra agent runtime release candidates add named workspace-size tiers",
+      "notes": "Source inspected; original response-body SHA-256 unavailable. Distinguish source publication from earlier underlying action."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-01-xai-turbine-court",
+      "type": "Source",
+      "url": "https://law.justia.com/cases/federal/district-courts/mississippi/msndce/3:2026cv00074/52261/139/",
+      "publisher": "US District Court N.D. Mississippi opinion via Justia",
+      "retrievedAt": "2026-11-02T00:40:01Z",
+      "sourceClass": "regulatory",
+      "independenceKey": "us-district-court-n-d-mississippi-opinion-via-justia-xai-turbine-court",
+      "contentHash": null,
+      "title": "Federal court rejects motion to dismiss NAACP Clean Air Act turbine case",
+      "notes": "Source inspected; original response-body SHA-256 unavailable. Distinguish source publication from earlier underlying action."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-01-pi-armor-molecular-cage",
+      "type": "Source",
+      "url": "https://phys.org/news/2026-10-molecular-armor-planar-molecules.html",
+      "publisher": "National Institutes of Natural Sciences via Phys.org",
+      "retrievedAt": "2026-11-02T00:40:01Z",
+      "sourceClass": "research",
+      "independenceKey": "national-institutes-of-natural-sciences-via-phys-org-pi-armor-molecular-cage",
+      "contentHash": null,
+      "title": "Research institute reports π-Armor shape-selective molecular encapsulation",
+      "notes": "Source inspected; original response-body SHA-256 unavailable. Distinguish source publication from earlier underlying action."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-01-embodied-ai-robotics-economics",
+      "type": "Source",
+      "url": "https://www.reuters.com/world/china/chinas-robot-makers-have-mastered-moves-now-comes-race-brains-2026-11-01/",
+      "publisher": "Reuters",
+      "publishedAt": "2026-11-01T23:08:00Z",
+      "retrievedAt": "2026-11-02T00:40:01Z",
+      "sourceClass": "press",
+      "independenceKey": "reuters-embodied-ai-robotics-economics",
+      "contentHash": null,
+      "title": "Reuters documents shift toward robot intelligence and field-data acquisition",
+      "notes": "Source inspected; original response-body SHA-256 unavailable. Distinguish source publication from earlier underlying action."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-01-isomorphic-clinical-translation",
+      "type": "Source",
+      "url": "https://www.businessinsider.com/isomorphic-labs-discover-cancer-beating-drugs-ai-max-jaderberg-google-2026-10",
+      "publisher": "Business Insider exclusive interview",
+      "publishedAt": "2026-10-31T10:05:01Z",
+      "retrievedAt": "2026-11-02T00:40:01Z",
+      "sourceClass": "press",
+      "independenceKey": "business-insider-exclusive-interview-isomorphic-clinical-translation",
+      "contentHash": null,
+      "title": "Isomorphic Labs outlines preclinical drug-development and clinical hiring boundary",
+      "notes": "Source inspected; original response-body SHA-256 unavailable. Distinguish source publication from earlier underlying action."
+    }
+  ],
+  "observations": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:2026-11-01-archestra-runtime-tiers",
+      "type": "Observation",
+      "capturedAt": "2026-11-02T00:40:01Z",
+      "claim": "Archestra agent runtime release candidates add named workspace-size tiers",
+      "verifiedFacts": [
+        "Archestra published platform v1.5.0-rc.19 on November 1 UTC with named runtime tiers, workspace-volume sizing and scale-up UI changes.",
+        "The release is marked a release candidate; the separate v1.4.15 stable release concerns cross-team resource sharing."
+      ],
+      "inference": [
+        "Explicit runtime tiers make cost, resource quotas, and run receipts candidate controls for agent governance.",
+        "Client problem: operators cannot explain or constrain workspace resource allocation per agent run.",
+        "Thesis movement: refines governed execution without endorsing a new control platform.",
+        "Advisory classification: CORE Seed Loom; INCUBATE Agent Runtime Control Center; audit tiers read-only."
+      ],
+      "significance": "Named runtime sizing is a concrete integration boundary for cost-aware agent evidence, not a validated production feature.",
+      "confidence": 0.89,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "default",
+      "validFrom": "2026-11-02T00:40:01Z",
+      "reviewBy": "2026-11-09T00:40:01Z",
+      "sourceRefs": [
+        "source:2026-11-01-archestra-runtime-tiers"
+      ],
+      "actorRefs": [
+        "builder:archestra"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/agent-runtime-control-center"
+      ],
+      "assumptions": [
+        "Runtime tiers will remain available and stable after the release candidate."
+      ],
+      "knownLimitations": [
+        "No installation, independent benchmark or customer deployment verified."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:2026-11-01-xai-turbine-court",
+      "type": "Observation",
+      "capturedAt": "2026-11-02T00:40:01Z",
+      "claim": "Federal court rejects motion to dismiss NAACP Clean Air Act turbine case",
+      "verifiedFacts": [
+        "The October 30, 2026 opinion and order in NAACP v. X.AI Corp., docket 3:26-cv-74, denied the defendants' motion to dismiss.",
+        "The order allows the plaintiffs' Clean Air Act claims to proceed; it is not a final merits determination of unlawful emissions."
+      ],
+      "inference": [
+        "Civic intelligence dashboards need to separate allegations, permits, judicial rulings, measurements and final liability.",
+        "Client problem: local communities and infrastructure buyers cannot easily trace competing environmental claims to dated primary records.",
+        "Thesis movement: refines governed civic evidence and environmental infrastructure accountability.",
+        "Advisory classification: CORE Seed Loom; REFERENCE-ONLY LithoMemphis; no legal or health assertions."
+      ],
+      "significance": "The court action demonstrates a live contested infrastructure evidence chain that can be mapped without prejudging legal liability.",
+      "confidence": 0.95,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "law-or-policy",
+      "validFrom": "2026-11-02T00:40:01Z",
+      "reviewBy": "2026-11-09T00:40:01Z",
+      "sourceRefs": [
+        "source:2026-11-01-xai-turbine-court"
+      ],
+      "actorRefs": [
+        "regulator:us-district-court"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/lithomemphis"
+      ],
+      "assumptions": [
+        "The accessible court mirror accurately reproduces the signed order."
+      ],
+      "knownLimitations": [
+        "No final judgment, independent emissions measurement, or injunction outcome established; ruling dated Oct 30, coverage Oct 31."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:2026-11-01-pi-armor-molecular-cage",
+      "type": "Observation",
+      "capturedAt": "2026-11-02T00:40:01Z",
+      "claim": "Research institute reports π-Armor shape-selective molecular encapsulation",
+      "verifiedFacts": [
+        "A National Institutes of Natural Sciences report dated October 31 describes a molecular cage formed from curved π-conjugated panels and three bridges.",
+        "Researchers report reversible entry for smaller guests and permanent trapping of larger guests when the cage is assembled around them.",
+        "The underlying JACS paper was published October 13, 2026; the new October 31 item is an institutional research report, not a newly published experiment."
+      ],
+      "inference": [
+        "Shape complementarity and dispersion forces provide a useful rigorous case study for material mechanism diagrams and Shader Grammar explanations.",
+        "Client problem: scientific visualizations often conflate molecular mechanism with artistic shader effects.",
+        "Thesis movement: reinforces physical-mechanism provenance boundaries.",
+        "Advisory classification: REFERENCE-ONLY Shader Grammar and Shader Gallery until methods reviewed."
+      ],
+      "significance": "A precise structure-to-function example for explainable material visualization, not evidence of a commercial material.",
+      "confidence": 0.86,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "peer-reviewed-research",
+      "validFrom": "2026-11-02T00:40:01Z",
+      "reviewBy": "2026-11-09T00:40:01Z",
+      "sourceRefs": [
+        "source:2026-11-01-pi-armor-molecular-cage"
+      ],
+      "actorRefs": [
+        "researcher:ims-nins"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/shader-grammar",
+        "MelodicBloom/shader-gallery"
+      ],
+      "assumptions": [
+        "The institutional report accurately summarizes the peer-reviewed measurements."
+      ],
+      "knownLimitations": [
+        "Primary full article and experimental datasets not independently inspected; no optical device or commercial application demonstrated."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:2026-11-01-embodied-ai-robotics-economics",
+      "type": "Observation",
+      "capturedAt": "2026-11-02T00:40:01Z",
+      "claim": "Reuters documents shift toward robot intelligence and field-data acquisition",
+      "verifiedFacts": [
+        "Reuters published interviews November 1 UTC with robotics founders and analysts describing a shift toward embodied AI software and training data.",
+        "Reuters cites ITjuzi's 93.5 billion yuan across 322 Chinese embodied-AI deals in the first half of 2026; this is a reported dataset, not independently audited here.",
+        "The report documents company-described robot work in battery testing and pharmacy order handling, with human checks in the latter."
+      ],
+      "inference": [
+        "Traceable physical-action evidence and failure-mode receipts matter more than impressive robot motion demonstrations.",
+        "Client problem: buyers cannot compare robotic task success rates across conditions and unfamiliar environments.",
+        "Thesis movement: reinforces governed evidence and expands applicability to physical AI.",
+        "Advisory classification: CORE Seed Loom; INCUBATE Omni-Loom physical action proof; no robot build."
+      ],
+      "significance": "Real task evidence and provenance become a differentiator as hardware makers pursue adaptable intelligence.",
+      "confidence": 0.81,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "default",
+      "validFrom": "2026-11-02T00:40:01Z",
+      "reviewBy": "2026-11-09T00:40:01Z",
+      "sourceRefs": [
+        "source:2026-11-01-embodied-ai-robotics-economics"
+      ],
+      "actorRefs": [
+        "builder:robotics-developers"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/omni-loom"
+      ],
+      "assumptions": [
+        "Company-reported field successes represent actual repeatable deployments."
+      ],
+      "knownLimitations": [
+        "Reported financing and success rates not independently audited; many examples remain pilots."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:2026-11-01-isomorphic-clinical-translation",
+      "type": "Observation",
+      "capturedAt": "2026-11-02T00:40:01Z",
+      "claim": "Isomorphic Labs outlines preclinical drug-development and clinical hiring boundary",
+      "verifiedFacts": [
+        "A Business Insider article published October 31 reports an exclusive September interview with Isomorphic Labs president Max Jaderberg.",
+        "Jaderberg says the firm has pharmaceutical research partnerships and is building a clinical development team in Boston; no human-trial start date was provided.",
+        "The article reports expert caution that model predictions often fail when confronted with biological systems."
+      ],
+      "inference": [
+        "Research-to-validation evidence pipelines are valuable beyond software, but the consultancy should not imply drug discovery competence.",
+        "Client problem: science-facing teams struggle to distinguish model predictions, preclinical tests and clinical evidence.",
+        "Thesis movement: reinforces evidence maturity and explicit acceptance gates.",
+        "Advisory classification: CORE Seed Loom evidence maturity; REFERENCE-ONLY biomedical service expansion."
+      ],
+      "significance": "The contrast between predictive AI and clinical proof is a useful evidence-governance analogy, not a new clinical milestone.",
+      "confidence": 0.75,
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "default",
+      "validFrom": "2026-11-02T00:40:01Z",
+      "reviewBy": "2026-11-09T00:40:01Z",
+      "sourceRefs": [
+        "source:2026-11-01-isomorphic-clinical-translation"
+      ],
+      "actorRefs": [
+        "builder:isomorphic-labs"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom"
+      ],
+      "assumptions": [
+        "Interview statements accurately reflect ongoing internal research activity."
+      ],
+      "knownLimitations": [
+        "The interview took place in September; no new October 31 product launch, drug approval or clinical trial was verified."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:2026-11-01-archestra-runtime-tiers-source",
+      "type": "Relationship",
+      "from": "obs:2026-11-01-archestra-runtime-tiers",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-11-01-archestra-runtime-tiers",
+      "confidence": 0.89,
+      "evidenceRefs": [
+        "source:2026-11-01-archestra-runtime-tiers"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:2026-11-01-xai-turbine-court-source",
+      "type": "Relationship",
+      "from": "obs:2026-11-01-xai-turbine-court",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-11-01-xai-turbine-court",
+      "confidence": 0.95,
+      "evidenceRefs": [
+        "source:2026-11-01-xai-turbine-court"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:2026-11-01-pi-armor-molecular-cage-source",
+      "type": "Relationship",
+      "from": "obs:2026-11-01-pi-armor-molecular-cage",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-11-01-pi-armor-molecular-cage",
+      "confidence": 0.86,
+      "evidenceRefs": [
+        "source:2026-11-01-pi-armor-molecular-cage"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:2026-11-01-embodied-ai-robotics-economics-source",
+      "type": "Relationship",
+      "from": "obs:2026-11-01-embodied-ai-robotics-economics",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-11-01-embodied-ai-robotics-economics",
+      "confidence": 0.81,
+      "evidenceRefs": [
+        "source:2026-11-01-embodied-ai-robotics-economics"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:2026-11-01-isomorphic-clinical-translation-source",
+      "type": "Relationship",
+      "from": "obs:2026-11-01-isomorphic-clinical-translation",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-11-01-isomorphic-clinical-translation",
+      "confidence": 0.75,
+      "evidenceRefs": [
+        "source:2026-11-01-isomorphic-clinical-translation"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-01-collect",
+      "runId": "run:nightly-2026-11-01",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-11-02T00:40:01Z",
+      "completedAt": "2026-11-02T00:40:01Z",
+      "inputs": [
+        "source:2026-11-01-archestra-runtime-tiers",
+        "source:2026-11-01-xai-turbine-court",
+        "source:2026-11-01-pi-armor-molecular-cage",
+        "source:2026-11-01-embodied-ai-robotics-economics",
+        "source:2026-11-01-isomorphic-clinical-translation"
+      ],
+      "outputs": [
+        "source:2026-11-01-archestra-runtime-tiers",
+        "source:2026-11-01-xai-turbine-court",
+        "source:2026-11-01-pi-armor-molecular-cage",
+        "source:2026-11-01-embodied-ai-robotics-economics",
+        "source:2026-11-01-isomorphic-clinical-translation"
+      ],
+      "checks": [
+        {
+          "name": "source-and-claim-boundary",
+          "result": "pass",
+          "detail": "Dated primary or direct reporting inspected, duplicates screened against October 31 bundle; limitations preserved."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No autonomous implementation, acceptance or promotion; stage remains capture-time acknowledgement."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection plus connected GitHub authority preflight; canonical workflow pending",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-01-vet",
+      "runId": "run:nightly-2026-11-01",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-11-02T00:40:01Z",
+      "completedAt": "2026-11-02T00:40:01Z",
+      "inputs": [
+        "source:2026-11-01-archestra-runtime-tiers",
+        "source:2026-11-01-xai-turbine-court",
+        "source:2026-11-01-pi-armor-molecular-cage",
+        "source:2026-11-01-embodied-ai-robotics-economics",
+        "source:2026-11-01-isomorphic-clinical-translation"
+      ],
+      "outputs": [
+        "obs:2026-11-01-archestra-runtime-tiers",
+        "obs:2026-11-01-xai-turbine-court",
+        "obs:2026-11-01-pi-armor-molecular-cage",
+        "obs:2026-11-01-embodied-ai-robotics-economics",
+        "obs:2026-11-01-isomorphic-clinical-translation"
+      ],
+      "checks": [
+        {
+          "name": "source-and-claim-boundary",
+          "result": "pass",
+          "detail": "Dated primary or direct reporting inspected, duplicates screened against October 31 bundle; limitations preserved."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No autonomous implementation, acceptance or promotion; stage remains capture-time acknowledgement."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection plus connected GitHub authority preflight; canonical workflow pending",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-01-normalize",
+      "runId": "run:nightly-2026-11-01",
+      "stage": "normalize",
+      "status": "deferred",
+      "startedAt": "2026-11-02T00:40:01Z",
+      "completedAt": "2026-11-02T00:40:01Z",
+      "inputs": [
+        "obs:2026-11-01-archestra-runtime-tiers",
+        "obs:2026-11-01-xai-turbine-court",
+        "obs:2026-11-01-pi-armor-molecular-cage",
+        "obs:2026-11-01-embodied-ai-robotics-economics",
+        "obs:2026-11-01-isomorphic-clinical-translation"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "transition-gate",
+          "result": "not-applicable",
+          "detail": "Candidate capture only; canonical executable required for schema validation and any record creation."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No autonomous implementation, acceptance or promotion; stage remains capture-time acknowledgement."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection plus connected GitHub authority preflight; canonical workflow pending",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-01-observe",
+      "runId": "run:nightly-2026-11-01",
+      "stage": "observe",
+      "status": "deferred",
+      "startedAt": "2026-11-02T00:40:01Z",
+      "completedAt": "2026-11-02T00:40:01Z",
+      "inputs": [
+        "run:nightly-2026-11-01"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "transition-gate",
+          "result": "not-applicable",
+          "detail": "Candidate capture only; canonical executable required for schema validation and any record creation."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No autonomous implementation, acceptance or promotion; stage remains capture-time acknowledgement."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection plus connected GitHub authority preflight; canonical workflow pending",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-01-inquire",
+      "runId": "run:nightly-2026-11-01",
+      "stage": "inquire",
+      "status": "deferred",
+      "startedAt": "2026-11-02T00:40:01Z",
+      "completedAt": "2026-11-02T00:40:01Z",
+      "inputs": [
+        "run:nightly-2026-11-01"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "transition-gate",
+          "result": "not-applicable",
+          "detail": "Candidate capture only; canonical executable required for schema validation and any record creation."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No autonomous implementation, acceptance or promotion; stage remains capture-time acknowledgement."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection plus connected GitHub authority preflight; canonical workflow pending",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-01-interpret",
+      "runId": "run:nightly-2026-11-01",
+      "stage": "interpret",
+      "status": "deferred",
+      "startedAt": "2026-11-02T00:40:01Z",
+      "completedAt": "2026-11-02T00:40:01Z",
+      "inputs": [
+        "run:nightly-2026-11-01"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "transition-gate",
+          "result": "not-applicable",
+          "detail": "Candidate capture only; canonical executable required for schema validation and any record creation."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No autonomous implementation, acceptance or promotion; stage remains capture-time acknowledgement."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection plus connected GitHub authority preflight; canonical workflow pending",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-01-relate",
+      "runId": "run:nightly-2026-11-01",
+      "stage": "relate",
+      "status": "deferred",
+      "startedAt": "2026-11-02T00:40:01Z",
+      "completedAt": "2026-11-02T00:40:01Z",
+      "inputs": [
+        "rel:2026-11-01-archestra-runtime-tiers-source",
+        "rel:2026-11-01-xai-turbine-court-source",
+        "rel:2026-11-01-pi-armor-molecular-cage-source",
+        "rel:2026-11-01-embodied-ai-robotics-economics-source",
+        "rel:2026-11-01-isomorphic-clinical-translation-source"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "transition-gate",
+          "result": "not-applicable",
+          "detail": "Candidate capture only; canonical executable required for schema validation and any record creation."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No autonomous implementation, acceptance or promotion; stage remains capture-time acknowledgement."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection plus connected GitHub authority preflight; canonical workflow pending",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-01-pattern",
+      "runId": "run:nightly-2026-11-01",
+      "stage": "pattern",
+      "status": "no-change",
+      "startedAt": "2026-11-02T00:40:01Z",
+      "completedAt": "2026-11-02T00:40:01Z",
+      "inputs": [
+        "run:nightly-2026-11-01"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "transition-gate",
+          "result": "not-applicable",
+          "detail": "Candidate capture only; canonical executable required for schema validation and any record creation."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No autonomous implementation, acceptance or promotion; stage remains capture-time acknowledgement."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection plus connected GitHub authority preflight; canonical workflow pending",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-01-opportunity",
+      "runId": "run:nightly-2026-11-01",
+      "stage": "opportunity",
+      "status": "deferred",
+      "startedAt": "2026-11-02T00:40:01Z",
+      "completedAt": "2026-11-02T00:40:01Z",
+      "inputs": [
+        "run:nightly-2026-11-01"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "transition-gate",
+          "result": "not-applicable",
+          "detail": "Candidate capture only; canonical executable required for schema validation and any record creation."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No autonomous implementation, acceptance or promotion; stage remains capture-time acknowledgement."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection plus connected GitHub authority preflight; canonical workflow pending",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-01-strategy",
+      "runId": "run:nightly-2026-11-01",
+      "stage": "strategy",
+      "status": "deferred",
+      "startedAt": "2026-11-02T00:40:01Z",
+      "completedAt": "2026-11-02T00:40:01Z",
+      "inputs": [
+        "run:nightly-2026-11-01"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "transition-gate",
+          "result": "not-applicable",
+          "detail": "Candidate capture only; canonical executable required for schema validation and any record creation."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No autonomous implementation, acceptance or promotion; stage remains capture-time acknowledgement."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection plus connected GitHub authority preflight; canonical workflow pending",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-01-experiment",
+      "runId": "run:nightly-2026-11-01",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-11-02T00:40:01Z",
+      "completedAt": "2026-11-02T00:40:01Z",
+      "inputs": [
+        "run:nightly-2026-11-01"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "transition-gate",
+          "result": "not-applicable",
+          "detail": "Candidate capture only; canonical executable required for schema validation and any record creation."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No autonomous implementation, acceptance or promotion; stage remains capture-time acknowledgement."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection plus connected GitHub authority preflight; canonical workflow pending",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-01-genesis",
+      "runId": "run:nightly-2026-11-01",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-11-02T00:40:01Z",
+      "completedAt": "2026-11-02T00:40:01Z",
+      "inputs": [
+        "run:nightly-2026-11-01"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "transition-gate",
+          "result": "not-applicable",
+          "detail": "Candidate capture only; canonical executable required for schema validation and any record creation."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Genesis is deferred; allowedTransition=false; no acceptance."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection plus connected GitHub authority preflight; canonical workflow pending",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-01-publish",
+      "runId": "run:nightly-2026-11-01",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-11-02T00:40:01Z",
+      "completedAt": "2026-11-02T00:40:01Z",
+      "inputs": [
+        "run:nightly-2026-11-01"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "transition-gate",
+          "result": "not-applicable",
+          "detail": "Candidate capture only; canonical executable required for schema validation and any record creation."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No external publication authorized."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection plus connected GitHub authority preflight; canonical workflow pending",
+        "inputHashes": []
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:2026-11-01-archestra-runtime-tiers",
+      "observationId": "obs:2026-11-01-archestra-runtime-tiers",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Archestra published platform v1.5.0-rc.19 on November 1 UTC with named runtime tiers, workspace-volume sizing and scale-up UI changes.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-01-archestra-runtime-tiers"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "builder:archestra: The release is marked a release candidate; the separate v1.4.15 stable release concerns cross-team resource sharing.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-01-archestra-runtime-tiers"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Opaque runtime resource use and run-level attribution.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Agent platform operators and compliance reviewers.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Fixed runner sizes and manual quota policies.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Explicit named tiers for workspace size and scale-up.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Treating a release candidate as production-ready governance.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Stable release removes the feature or resource isolation fails under load.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent runtime resource and access isolation measurements.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Routine UI packaging of existing runtime sizing.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Treating a release candidate as production-ready governance.",
+      "falsifier": "Stable release removes the feature or resource isolation fails under load.",
+      "missingEvidence": [
+        "Independent runtime resource and access isolation measurements."
+      ],
+      "alternativeExplanation": "Routine UI packaging of existing runtime sizing.",
+      "disposition": "experiment",
+      "confidence": 0.89
+    },
+    {
+      "assessmentId": "socratic:2026-11-01-xai-turbine-court",
+      "observationId": "obs:2026-11-01-xai-turbine-court",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "The October 30, 2026 opinion and order in NAACP v. X.AI Corp., docket 3:26-cv-74, denied the defendants' motion to dismiss.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-01-xai-turbine-court"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "regulator:us-district-court: The order allows the plaintiffs' Clean Air Act claims to proceed; it is not a final merits determination of unlawful emissions.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-01-xai-turbine-court"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Unclear provenance and legal state of environmental claims.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Residents, local planners, independent researchers.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Manual docket monitoring and separate agency permit databases.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Dated court order and claims linked to regulatory records.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Treating denial of dismissal as a finding that xAI violated environmental law.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Subsequent court order reverses or materially narrows the case; measured emissions disprove claimed exposure.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Authenticated court docket updates and independent local emissions measurements.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "This is procedural litigation rather than a change in measured environmental conditions.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Treating denial of dismissal as a finding that xAI violated environmental law.",
+      "falsifier": "Subsequent court order reverses or materially narrows the case; measured emissions disprove claimed exposure.",
+      "missingEvidence": [
+        "Authenticated court docket updates and independent local emissions measurements."
+      ],
+      "alternativeExplanation": "This is procedural litigation rather than a change in measured environmental conditions.",
+      "disposition": "watch",
+      "confidence": 0.95
+    },
+    {
+      "assessmentId": "socratic:2026-11-01-pi-armor-molecular-cage",
+      "observationId": "obs:2026-11-01-pi-armor-molecular-cage",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "A National Institutes of Natural Sciences report dated October 31 describes a molecular cage formed from curved π-conjugated panels and three bridges.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-01-pi-armor-molecular-cage"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "researcher:ims-nins: Researchers report reversible entry for smaller guests and permanent trapping of larger guests when the cage is assembled around them.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-01-pi-armor-molecular-cage"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Poorly explained structure–function relationships in scientific communication.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Chemistry educators and scientific visualization teams.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Conventional host–guest diagrams and existing molecular visualization tools.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Geometric fit and dispersion stabilization in a synthetic molecular cage.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Equating a molecular dispersion mechanism with visible thin-film interference or browser rendering.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Primary article reveals substantial limitations to shape-selective encapsulation beyond the reported guest set.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Full experimental methods and independent replication.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Useful host–guest chemistry advance with no immediate visual-computing application.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Equating a molecular dispersion mechanism with visible thin-film interference or browser rendering.",
+      "falsifier": "Primary article reveals substantial limitations to shape-selective encapsulation beyond the reported guest set.",
+      "missingEvidence": [
+        "Full experimental methods and independent replication."
+      ],
+      "alternativeExplanation": "Useful host–guest chemistry advance with no immediate visual-computing application.",
+      "disposition": "watch",
+      "confidence": 0.86
+    },
+    {
+      "assessmentId": "socratic:2026-11-01-embodied-ai-robotics-economics",
+      "observationId": "obs:2026-11-01-embodied-ai-robotics-economics",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Reuters published interviews November 1 UTC with robotics founders and analysts describing a shift toward embodied AI software and training data.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-01-embodied-ai-robotics-economics"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "builder:robotics-developers: Reuters cites ITjuzi's 93.5 billion yuan across 322 Chinese embodied-AI deals in the first half of 2026; this is a reported dataset, not independently audited here.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-01-embodied-ai-robotics-economics"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Insufficient transfer of robot policies to unfamiliar work.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Manufacturing buyers and robotics QA integrators.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Task-specific automation, human workers, scripted industrial robots.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Real-world demonstrations, simulated training and model-based robot control.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Treating marketing demonstrations as reliable general-purpose robot capability.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent unfamiliar-environment trials show severe performance drop-offs.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Task-level failures, intervention rates, independent deployment receipts.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Investment reflects a temporary speculative financing cycle.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Treating marketing demonstrations as reliable general-purpose robot capability.",
+      "falsifier": "Independent unfamiliar-environment trials show severe performance drop-offs.",
+      "missingEvidence": [
+        "Task-level failures, intervention rates, independent deployment receipts."
+      ],
+      "alternativeExplanation": "Investment reflects a temporary speculative financing cycle.",
+      "disposition": "experiment",
+      "confidence": 0.81
+    },
+    {
+      "assessmentId": "socratic:2026-11-01-isomorphic-clinical-translation",
+      "observationId": "obs:2026-11-01-isomorphic-clinical-translation",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "A Business Insider article published October 31 reports an exclusive September interview with Isomorphic Labs president Max Jaderberg.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-01-isomorphic-clinical-translation"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "builder:isomorphic-labs: Jaderberg says the firm has pharmaceutical research partnerships and is building a clinical development team in Boston; no human-trial start date was provided.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-01-isomorphic-clinical-translation"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Confusion between predicted efficacy and validated clinical benefit.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Scientific evidence managers and research communicators.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing regulatory trial registries and laboratory information systems.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Explicit prediction→preclinical→clinical stage gates.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Interpreting an executive interview as proof of successful AI-designed medicines.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Clinical records contradict preclinical progress or trial-readiness claims.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Registered trials, independent clinical outcomes, primary preclinical study data.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "The story is a visibility and recruitment narrative rather than a new technical development.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Interpreting an executive interview as proof of successful AI-designed medicines.",
+      "falsifier": "Clinical records contradict preclinical progress or trial-readiness claims.",
+      "missingEvidence": [
+        "Registered trials, independent clinical outcomes, primary preclinical study data."
+      ],
+      "alternativeExplanation": "The story is a visibility and recruitment narrative rather than a new technical development.",
+      "disposition": "watch",
+      "confidence": 0.75
+    }
+  ],
+  "advisory": {
+    "consultancyImplications": [
+      {
+        "observationId": "obs:2026-11-01-archestra-runtime-tiers",
+        "clientProblem": "Opaque runtime resource use and run-level attribution.",
+        "implication": "Explicit runtime tiers make cost, resource quotas, and run receipts candidate controls for agent governance.",
+        "sourceClass": "repository",
+        "actorBehavior": "Archestra published platform v1.5.0-rc.19 on November 1 UTC with named runtime tiers, workspace-volume sizing and scale-up UI changes.",
+        "confidence": 0.89,
+        "thesisMovement": "Thesis movement: refines governed execution without endorsing a new control platform."
+      },
+      {
+        "observationId": "obs:2026-11-01-xai-turbine-court",
+        "clientProblem": "Unclear provenance and legal state of environmental claims.",
+        "implication": "Civic intelligence dashboards need to separate allegations, permits, judicial rulings, measurements and final liability.",
+        "sourceClass": "regulatory",
+        "actorBehavior": "The October 30, 2026 opinion and order in NAACP v. X.AI Corp., docket 3:26-cv-74, denied the defendants' motion to dismiss.",
+        "confidence": 0.95,
+        "thesisMovement": "Thesis movement: refines governed civic evidence and environmental infrastructure accountability."
+      },
+      {
+        "observationId": "obs:2026-11-01-pi-armor-molecular-cage",
+        "clientProblem": "Poorly explained structure–function relationships in scientific communication.",
+        "implication": "Shape complementarity and dispersion forces provide a useful rigorous case study for material mechanism diagrams and Shader Grammar explanations.",
+        "sourceClass": "research",
+        "actorBehavior": "A National Institutes of Natural Sciences report dated October 31 describes a molecular cage formed from curved π-conjugated panels and three bridges.",
+        "confidence": 0.86,
+        "thesisMovement": "Thesis movement: reinforces physical-mechanism provenance boundaries."
+      },
+      {
+        "observationId": "obs:2026-11-01-embodied-ai-robotics-economics",
+        "clientProblem": "Insufficient transfer of robot policies to unfamiliar work.",
+        "implication": "Traceable physical-action evidence and failure-mode receipts matter more than impressive robot motion demonstrations.",
+        "sourceClass": "press",
+        "actorBehavior": "Reuters published interviews November 1 UTC with robotics founders and analysts describing a shift toward embodied AI software and training data.",
+        "confidence": 0.81,
+        "thesisMovement": "Thesis movement: reinforces governed evidence and expands applicability to physical AI."
+      },
+      {
+        "observationId": "obs:2026-11-01-isomorphic-clinical-translation",
+        "clientProblem": "Confusion between predicted efficacy and validated clinical benefit.",
+        "implication": "Research-to-validation evidence pipelines are valuable beyond software, but the consultancy should not imply drug discovery competence.",
+        "sourceClass": "press",
+        "actorBehavior": "A Business Insider article published October 31 reports an exclusive September interview with Isomorphic Labs president Max Jaderberg.",
+        "confidence": 0.75,
+        "thesisMovement": "Thesis movement: reinforces evidence maturity and explicit acceptance gates."
+      }
+    ],
+    "projectDispositionImplications": [
+      {
+        "observationId": "obs:2026-11-01-archestra-runtime-tiers",
+        "repositories": [
+          "MelodicBloom/seed-loom",
+          "MelodicBloom/agent-runtime-control-center"
+        ],
+        "classification": "CORE Seed Loom; INCUBATE Agent Runtime Control Center; audit tiers read-only."
+      },
+      {
+        "observationId": "obs:2026-11-01-xai-turbine-court",
+        "repositories": [
+          "MelodicBloom/seed-loom",
+          "MelodicBloom/lithomemphis"
+        ],
+        "classification": "CORE Seed Loom; REFERENCE-ONLY LithoMemphis; no legal or health assertions."
+      },
+      {
+        "observationId": "obs:2026-11-01-pi-armor-molecular-cage",
+        "repositories": [
+          "MelodicBloom/shader-grammar",
+          "MelodicBloom/shader-gallery"
+        ],
+        "classification": "REFERENCE-ONLY Shader Grammar and Shader Gallery until methods reviewed."
+      },
+      {
+        "observationId": "obs:2026-11-01-embodied-ai-robotics-economics",
+        "repositories": [
+          "MelodicBloom/seed-loom",
+          "MelodicBloom/omni-loom"
+        ],
+        "classification": "CORE Seed Loom; INCUBATE Omni-Loom physical action proof; no robot build."
+      },
+      {
+        "observationId": "obs:2026-11-01-isomorphic-clinical-translation",
+        "repositories": [
+          "MelodicBloom/seed-loom"
+        ],
+        "classification": "CORE Seed Loom evidence maturity; REFERENCE-ONLY biomedical service expansion."
+      }
+    ],
+    "repositoryWatch": {
+      "authorityHead": "a91018424c2270606ffd5684f80f89c08556444c",
+      "reviewedAt": "2026-11-02T00:40:01Z",
+      "summary": "PR #76 workflow-only draft; Omni-Loom #7 deterministic specimen merged; no unverified PR promotion."
+    }
+  }
+}
