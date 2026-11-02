@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_86eeffec2f116b8e",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-11-02T14:12:26.704211Z",
+  "asset": {
+    "provider": "github",
+    "owner": "MelodicBloom",
+    "repo": "isa",
+    "commit_sha": "2026-11-02T06:14:44Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1442575806,
+    "github_node_id": "R_kgDOVfv1vg",
+    "language": "JavaScript",
+    "archived": false,
+    "private": false,
+    "fork": false,
+    "description": "ISA Phase 0.3 \u2014 Instruction Semantic Assembly: provenance, LexiconExpand, collision resolution, fixture gates, and fail-closed hash CI.",
+    "pushed_at": "2026-11-02T06:14:44Z",
+    "created_at": "2026-11-02T06:07:40Z",
+    "open_issues_count": 0
+  }
+}
