@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:2026-11-01-pi-armor-molecular-cage",
+  "observationId": "obs:2026-11-01-pi-armor-molecular-cage",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "A National Institutes of Natural Sciences report dated October 31 describes a molecular cage formed from curved π-conjugated panels and three bridges.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-01-pi-armor-molecular-cage"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "researcher:ims-nins: Researchers report reversible entry for smaller guests and permanent trapping of larger guests when the cage is assembled around them.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-01-pi-armor-molecular-cage"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Poorly explained structure–function relationships in scientific communication.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Chemistry educators and scientific visualization teams.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Conventional host–guest diagrams and existing molecular visualization tools.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Geometric fit and dispersion stabilization in a synthetic molecular cage.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Equating a molecular dispersion mechanism with visible thin-film interference or browser rendering.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Primary article reveals substantial limitations to shape-selective encapsulation beyond the reported guest set.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Full experimental methods and independent replication.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Useful host–guest chemistry advance with no immediate visual-computing application.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Equating a molecular dispersion mechanism with visible thin-film interference or browser rendering.",
+  "falsifier": "Primary article reveals substantial limitations to shape-selective encapsulation beyond the reported guest set.",
+  "missingEvidence": [
+    "Full experimental methods and independent replication."
+  ],
+  "alternativeExplanation": "Useful host–guest chemistry advance with no immediate visual-computing application.",
+  "disposition": "watch",
+  "confidence": 0.86
+}

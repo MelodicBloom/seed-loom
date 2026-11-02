@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:2026-11-01-strategy",
+  "runId": "run:nightly-2026-11-01",
+  "stage": "strategy",
+  "status": "deferred",
+  "startedAt": "2026-11-02T00:40:01Z",
+  "completedAt": "2026-11-02T00:40:01Z",
+  "inputs": [
+    "run:nightly-2026-11-01"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "transition-gate",
+      "result": "not-applicable",
+      "detail": "Candidate capture only; canonical executable required for schema validation and any record creation."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "No autonomous implementation, acceptance or promotion; stage remains capture-time acknowledgement."
+    ]
+  },
+  "provenance": {
+    "producer": "nightly-consultancy-intelligence",
+    "method": "source inspection plus connected GitHub authority preflight; canonical workflow pending",
+    "inputHashes": []
+  }
+}

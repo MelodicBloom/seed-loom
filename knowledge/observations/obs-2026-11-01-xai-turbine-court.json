@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-11-01-xai-turbine-court",
+  "type": "Observation",
+  "capturedAt": "2026-11-02T00:40:01Z",
+  "claim": "Federal court rejects motion to dismiss NAACP Clean Air Act turbine case",
+  "verifiedFacts": [
+    "The October 30, 2026 opinion and order in NAACP v. X.AI Corp., docket 3:26-cv-74, denied the defendants' motion to dismiss.",
+    "The order allows the plaintiffs' Clean Air Act claims to proceed; it is not a final merits determination of unlawful emissions."
+  ],
+  "inference": [
+    "Civic intelligence dashboards need to separate allegations, permits, judicial rulings, measurements and final liability.",
+    "Client problem: local communities and infrastructure buyers cannot easily trace competing environmental claims to dated primary records.",
+    "Thesis movement: refines governed civic evidence and environmental infrastructure accountability.",
+    "Advisory classification: CORE Seed Loom; REFERENCE-ONLY LithoMemphis; no legal or health assertions."
+  ],
+  "significance": "The court action demonstrates a live contested infrastructure evidence chain that can be mapped without prejudging legal liability.",
+  "confidence": 0.95,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "law-or-policy",
+  "validFrom": "2026-11-02T00:40:01Z",
+  "reviewBy": "2026-11-09T00:40:01Z",
+  "sourceRefs": [
+    "source:2026-11-01-xai-turbine-court"
+  ],
+  "actorRefs": [
+    "regulator:us-district-court"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/lithomemphis"
+  ],
+  "assumptions": [
+    "The accessible court mirror accurately reproduces the signed order."
+  ],
+  "knownLimitations": [
+    "No final judgment, independent emissions measurement, or injunction outcome established; ruling dated Oct 30, coverage Oct 31."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

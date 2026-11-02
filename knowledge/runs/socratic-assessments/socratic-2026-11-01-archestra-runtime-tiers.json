@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:2026-11-01-archestra-runtime-tiers",
+  "observationId": "obs:2026-11-01-archestra-runtime-tiers",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Archestra published platform v1.5.0-rc.19 on November 1 UTC with named runtime tiers, workspace-volume sizing and scale-up UI changes.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-01-archestra-runtime-tiers"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "builder:archestra: The release is marked a release candidate; the separate v1.4.15 stable release concerns cross-team resource sharing.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-01-archestra-runtime-tiers"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Opaque runtime resource use and run-level attribution.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Agent platform operators and compliance reviewers.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Fixed runner sizes and manual quota policies.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Explicit named tiers for workspace size and scale-up.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Treating a release candidate as production-ready governance.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Stable release removes the feature or resource isolation fails under load.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent runtime resource and access isolation measurements.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Routine UI packaging of existing runtime sizing.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Treating a release candidate as production-ready governance.",
+  "falsifier": "Stable release removes the feature or resource isolation fails under load.",
+  "missingEvidence": [
+    "Independent runtime resource and access isolation measurements."
+  ],
+  "alternativeExplanation": "Routine UI packaging of existing runtime sizing.",
+  "disposition": "experiment",
+  "confidence": 0.89
+}

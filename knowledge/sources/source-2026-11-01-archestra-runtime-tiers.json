@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:2026-11-01-archestra-runtime-tiers",
+  "type": "Source",
+  "url": "https://github.com/archestra-ai/archestra/releases/tag/platform-v1.5.0-rc.19",
+  "publisher": "Archestra GitHub Releases",
+  "publishedAt": "2026-11-01T00:08:00Z",
+  "retrievedAt": "2026-11-02T00:40:01Z",
+  "sourceClass": "repository",
+  "independenceKey": "archestra-github-releases-archestra-runtime-tiers",
+  "contentHash": null,
+  "title": "Archestra agent runtime release candidates add named workspace-size tiers",
+  "notes": "Source inspected; original response-body SHA-256 unavailable. Distinguish source publication from earlier underlying action."
+}

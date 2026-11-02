@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:2026-11-01-embodied-ai-robotics-economics",
+  "type": "Source",
+  "url": "https://www.reuters.com/world/china/chinas-robot-makers-have-mastered-moves-now-comes-race-brains-2026-11-01/",
+  "publisher": "Reuters",
+  "publishedAt": "2026-11-01T23:08:00Z",
+  "retrievedAt": "2026-11-02T00:40:01Z",
+  "sourceClass": "press",
+  "independenceKey": "reuters-embodied-ai-robotics-economics",
+  "contentHash": null,
+  "title": "Reuters documents shift toward robot intelligence and field-data acquisition",
+  "notes": "Source inspected; original response-body SHA-256 unavailable. Distinguish source publication from earlier underlying action."
+}

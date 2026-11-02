@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:2026-11-01-xai-turbine-court",
+  "observationId": "obs:2026-11-01-xai-turbine-court",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "The October 30, 2026 opinion and order in NAACP v. X.AI Corp., docket 3:26-cv-74, denied the defendants' motion to dismiss.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-01-xai-turbine-court"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "regulator:us-district-court: The order allows the plaintiffs' Clean Air Act claims to proceed; it is not a final merits determination of unlawful emissions.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-01-xai-turbine-court"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Unclear provenance and legal state of environmental claims.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Residents, local planners, independent researchers.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Manual docket monitoring and separate agency permit databases.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Dated court order and claims linked to regulatory records.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Treating denial of dismissal as a finding that xAI violated environmental law.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Subsequent court order reverses or materially narrows the case; measured emissions disprove claimed exposure.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Authenticated court docket updates and independent local emissions measurements.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "This is procedural litigation rather than a change in measured environmental conditions.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Treating denial of dismissal as a finding that xAI violated environmental law.",
+  "falsifier": "Subsequent court order reverses or materially narrows the case; measured emissions disprove claimed exposure.",
+  "missingEvidence": [
+    "Authenticated court docket updates and independent local emissions measurements."
+  ],
+  "alternativeExplanation": "This is procedural litigation rather than a change in measured environmental conditions.",
+  "disposition": "watch",
+  "confidence": 0.95
+}

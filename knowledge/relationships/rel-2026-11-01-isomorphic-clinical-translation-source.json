@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:2026-11-01-isomorphic-clinical-translation-source",
+  "type": "Relationship",
+  "from": "obs:2026-11-01-isomorphic-clinical-translation",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:2026-11-01-isomorphic-clinical-translation",
+  "confidence": 0.75,
+  "evidenceRefs": [
+    "source:2026-11-01-isomorphic-clinical-translation"
+  ]
+}

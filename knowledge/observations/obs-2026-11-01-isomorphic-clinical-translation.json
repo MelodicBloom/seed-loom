@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-11-01-isomorphic-clinical-translation",
+  "type": "Observation",
+  "capturedAt": "2026-11-02T00:40:01Z",
+  "claim": "Isomorphic Labs outlines preclinical drug-development and clinical hiring boundary",
+  "verifiedFacts": [
+    "A Business Insider article published October 31 reports an exclusive September interview with Isomorphic Labs president Max Jaderberg.",
+    "Jaderberg says the firm has pharmaceutical research partnerships and is building a clinical development team in Boston; no human-trial start date was provided.",
+    "The article reports expert caution that model predictions often fail when confronted with biological systems."
+  ],
+  "inference": [
+    "Research-to-validation evidence pipelines are valuable beyond software, but the consultancy should not imply drug discovery competence.",
+    "Client problem: science-facing teams struggle to distinguish model predictions, preclinical tests and clinical evidence.",
+    "Thesis movement: reinforces evidence maturity and explicit acceptance gates.",
+    "Advisory classification: CORE Seed Loom evidence maturity; REFERENCE-ONLY biomedical service expansion."
+  ],
+  "significance": "The contrast between predictive AI and clinical proof is a useful evidence-governance analogy, not a new clinical milestone.",
+  "confidence": 0.75,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "default",
+  "validFrom": "2026-11-02T00:40:01Z",
+  "reviewBy": "2026-11-09T00:40:01Z",
+  "sourceRefs": [
+    "source:2026-11-01-isomorphic-clinical-translation"
+  ],
+  "actorRefs": [
+    "builder:isomorphic-labs"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom"
+  ],
+  "assumptions": [
+    "Interview statements accurately reflect ongoing internal research activity."
+  ],
+  "knownLimitations": [
+    "The interview took place in September; no new October 31 product launch, drug approval or clinical trial was verified."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

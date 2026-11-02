@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:2026-11-01-isomorphic-clinical-translation",
+  "observationId": "obs:2026-11-01-isomorphic-clinical-translation",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "A Business Insider article published October 31 reports an exclusive September interview with Isomorphic Labs president Max Jaderberg.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-01-isomorphic-clinical-translation"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "builder:isomorphic-labs: Jaderberg says the firm has pharmaceutical research partnerships and is building a clinical development team in Boston; no human-trial start date was provided.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-01-isomorphic-clinical-translation"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Confusion between predicted efficacy and validated clinical benefit.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Scientific evidence managers and research communicators.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing regulatory trial registries and laboratory information systems.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Explicit prediction→preclinical→clinical stage gates.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Interpreting an executive interview as proof of successful AI-designed medicines.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Clinical records contradict preclinical progress or trial-readiness claims.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Registered trials, independent clinical outcomes, primary preclinical study data.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "The story is a visibility and recruitment narrative rather than a new technical development.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Interpreting an executive interview as proof of successful AI-designed medicines.",
+  "falsifier": "Clinical records contradict preclinical progress or trial-readiness claims.",
+  "missingEvidence": [
+    "Registered trials, independent clinical outcomes, primary preclinical study data."
+  ],
+  "alternativeExplanation": "The story is a visibility and recruitment narrative rather than a new technical development.",
+  "disposition": "watch",
+  "confidence": 0.75
+}

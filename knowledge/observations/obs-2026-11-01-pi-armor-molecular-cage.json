@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-11-01-pi-armor-molecular-cage",
+  "type": "Observation",
+  "capturedAt": "2026-11-02T00:40:01Z",
+  "claim": "Research institute reports π-Armor shape-selective molecular encapsulation",
+  "verifiedFacts": [
+    "A National Institutes of Natural Sciences report dated October 31 describes a molecular cage formed from curved π-conjugated panels and three bridges.",
+    "Researchers report reversible entry for smaller guests and permanent trapping of larger guests when the cage is assembled around them.",
+    "The underlying JACS paper was published October 13, 2026; the new October 31 item is an institutional research report, not a newly published experiment."
+  ],
+  "inference": [
+    "Shape complementarity and dispersion forces provide a useful rigorous case study for material mechanism diagrams and Shader Grammar explanations.",
+    "Client problem: scientific visualizations often conflate molecular mechanism with artistic shader effects.",
+    "Thesis movement: reinforces physical-mechanism provenance boundaries.",
+    "Advisory classification: REFERENCE-ONLY Shader Grammar and Shader Gallery until methods reviewed."
+  ],
+  "significance": "A precise structure-to-function example for explainable material visualization, not evidence of a commercial material.",
+  "confidence": 0.86,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "peer-reviewed-research",
+  "validFrom": "2026-11-02T00:40:01Z",
+  "reviewBy": "2026-11-09T00:40:01Z",
+  "sourceRefs": [
+    "source:2026-11-01-pi-armor-molecular-cage"
+  ],
+  "actorRefs": [
+    "researcher:ims-nins"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-grammar",
+    "MelodicBloom/shader-gallery"
+  ],
+  "assumptions": [
+    "The institutional report accurately summarizes the peer-reviewed measurements."
+  ],
+  "knownLimitations": [
+    "Primary full article and experimental datasets not independently inspected; no optical device or commercial application demonstrated."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

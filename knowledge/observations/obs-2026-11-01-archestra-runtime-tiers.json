@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-11-01-archestra-runtime-tiers",
+  "type": "Observation",
+  "capturedAt": "2026-11-02T00:40:01Z",
+  "claim": "Archestra agent runtime release candidates add named workspace-size tiers",
+  "verifiedFacts": [
+    "Archestra published platform v1.5.0-rc.19 on November 1 UTC with named runtime tiers, workspace-volume sizing and scale-up UI changes.",
+    "The release is marked a release candidate; the separate v1.4.15 stable release concerns cross-team resource sharing."
+  ],
+  "inference": [
+    "Explicit runtime tiers make cost, resource quotas, and run receipts candidate controls for agent governance.",
+    "Client problem: operators cannot explain or constrain workspace resource allocation per agent run.",
+    "Thesis movement: refines governed execution without endorsing a new control platform.",
+    "Advisory classification: CORE Seed Loom; INCUBATE Agent Runtime Control Center; audit tiers read-only."
+  ],
+  "significance": "Named runtime sizing is a concrete integration boundary for cost-aware agent evidence, not a validated production feature.",
+  "confidence": 0.89,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "default",
+  "validFrom": "2026-11-02T00:40:01Z",
+  "reviewBy": "2026-11-09T00:40:01Z",
+  "sourceRefs": [
+    "source:2026-11-01-archestra-runtime-tiers"
+  ],
+  "actorRefs": [
+    "builder:archestra"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Runtime tiers will remain available and stable after the release candidate."
+  ],
+  "knownLimitations": [
+    "No installation, independent benchmark or customer deployment verified."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

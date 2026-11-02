@@ -1,0 +1,59 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-11-02T00:43:31.060Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly-2026-11-01",
+      "bundlePath": "knowledge/intake/nightly/2026-11-01/nightly-run-bundle-2026-11-01.json",
+      "bundleSha256": "3013a989d3b65dab01660741bf94bc8fbb912b3c63bfe05d197dbc2ce45b938a",
+      "normalizedDigest": "43a6909d3ae1ad0c803dfe1a44753c64c34d1adfd810574ceec7a8a729404244",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-2026-11-01-archestra-runtime-tiers.json",
+        "knowledge/sources/source-2026-11-01-xai-turbine-court.json",
+        "knowledge/sources/source-2026-11-01-pi-armor-molecular-cage.json",
+        "knowledge/sources/source-2026-11-01-embodied-ai-robotics-economics.json",
+        "knowledge/sources/source-2026-11-01-isomorphic-clinical-translation.json",
+        "knowledge/observations/obs-2026-11-01-archestra-runtime-tiers.json",
+        "knowledge/observations/obs-2026-11-01-xai-turbine-court.json",
+        "knowledge/observations/obs-2026-11-01-pi-armor-molecular-cage.json",
+        "knowledge/observations/obs-2026-11-01-embodied-ai-robotics-economics.json",
+        "knowledge/observations/obs-2026-11-01-isomorphic-clinical-translation.json",
+        "knowledge/relationships/rel-2026-11-01-archestra-runtime-tiers-source.json",
+        "knowledge/relationships/rel-2026-11-01-xai-turbine-court-source.json",
+        "knowledge/relationships/rel-2026-11-01-pi-armor-molecular-cage-source.json",
+        "knowledge/relationships/rel-2026-11-01-embodied-ai-robotics-economics-source.json",
+        "knowledge/relationships/rel-2026-11-01-isomorphic-clinical-translation-source.json",
+        "knowledge/runs/run-nightly-2026-11-01.json",
+        "knowledge/runs/stage-acks/ack-2026-11-01-collect.json",
+        "knowledge/runs/stage-acks/ack-2026-11-01-vet.json",
+        "knowledge/runs/stage-acks/ack-2026-11-01-normalize.json",
+        "knowledge/runs/stage-acks/ack-2026-11-01-observe.json",
+        "knowledge/runs/stage-acks/ack-2026-11-01-inquire.json",
+        "knowledge/runs/stage-acks/ack-2026-11-01-interpret.json",
+        "knowledge/runs/stage-acks/ack-2026-11-01-relate.json",
+        "knowledge/runs/stage-acks/ack-2026-11-01-pattern.json",
+        "knowledge/runs/stage-acks/ack-2026-11-01-opportunity.json",
+        "knowledge/runs/stage-acks/ack-2026-11-01-strategy.json",
+        "knowledge/runs/stage-acks/ack-2026-11-01-experiment.json",
+        "knowledge/runs/stage-acks/ack-2026-11-01-genesis.json",
+        "knowledge/runs/stage-acks/ack-2026-11-01-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-11-01-archestra-runtime-tiers.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-11-01-xai-turbine-court.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-11-01-pi-armor-molecular-cage.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-11-01-embodied-ai-robotics-economics.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-11-01-isomorphic-clinical-translation.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-11-01-ingest.json",
+      "generatedRecordCount": 34
+    }
+  ]
+}

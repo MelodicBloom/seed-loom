@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:2026-11-01-xai-turbine-court",
+  "type": "Source",
+  "url": "https://law.justia.com/cases/federal/district-courts/mississippi/msndce/3:2026cv00074/52261/139/",
+  "publisher": "US District Court N.D. Mississippi opinion via Justia",
+  "retrievedAt": "2026-11-02T00:40:01Z",
+  "sourceClass": "regulatory",
+  "independenceKey": "us-district-court-n-d-mississippi-opinion-via-justia-xai-turbine-court",
+  "contentHash": null,
+  "title": "Federal court rejects motion to dismiss NAACP Clean Air Act turbine case",
+  "notes": "Source inspected; original response-body SHA-256 unavailable. Distinguish source publication from earlier underlying action."
+}

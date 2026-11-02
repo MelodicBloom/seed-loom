@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:2026-11-01-isomorphic-clinical-translation",
+  "type": "Source",
+  "url": "https://www.businessinsider.com/isomorphic-labs-discover-cancer-beating-drugs-ai-max-jaderberg-google-2026-10",
+  "publisher": "Business Insider exclusive interview",
+  "publishedAt": "2026-10-31T10:05:01Z",
+  "retrievedAt": "2026-11-02T00:40:01Z",
+  "sourceClass": "press",
+  "independenceKey": "business-insider-exclusive-interview-isomorphic-clinical-translation",
+  "contentHash": null,
+  "title": "Isomorphic Labs outlines preclinical drug-development and clinical hiring boundary",
+  "notes": "Source inspected; original response-body SHA-256 unavailable. Distinguish source publication from earlier underlying action."
+}

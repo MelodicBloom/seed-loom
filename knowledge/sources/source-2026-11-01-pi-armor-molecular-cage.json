@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:2026-11-01-pi-armor-molecular-cage",
+  "type": "Source",
+  "url": "https://phys.org/news/2026-10-molecular-armor-planar-molecules.html",
+  "publisher": "National Institutes of Natural Sciences via Phys.org",
+  "retrievedAt": "2026-11-02T00:40:01Z",
+  "sourceClass": "research",
+  "independenceKey": "national-institutes-of-natural-sciences-via-phys-org-pi-armor-molecular-cage",
+  "contentHash": null,
+  "title": "Research institute reports π-Armor shape-selective molecular encapsulation",
+  "notes": "Source inspected; original response-body SHA-256 unavailable. Distinguish source publication from earlier underlying action."
+}

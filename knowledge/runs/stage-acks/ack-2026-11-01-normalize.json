@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:2026-11-01-normalize",
+  "runId": "run:nightly-2026-11-01",
+  "stage": "normalize",
+  "status": "deferred",
+  "startedAt": "2026-11-02T00:40:01Z",
+  "completedAt": "2026-11-02T00:40:01Z",
+  "inputs": [
+    "obs:2026-11-01-archestra-runtime-tiers",
+    "obs:2026-11-01-xai-turbine-court",
+    "obs:2026-11-01-pi-armor-molecular-cage",
+    "obs:2026-11-01-embodied-ai-robotics-economics",
+    "obs:2026-11-01-isomorphic-clinical-translation"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "transition-gate",
+      "result": "not-applicable",
+      "detail": "Candidate capture only; canonical executable required for schema validation and any record creation."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "No autonomous implementation, acceptance or promotion; stage remains capture-time acknowledgement."
+    ]
+  },
+  "provenance": {
+    "producer": "nightly-consultancy-intelligence",
+    "method": "source inspection plus connected GitHub authority preflight; canonical workflow pending",
+    "inputHashes": []
+  }
+}

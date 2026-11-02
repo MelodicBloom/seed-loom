@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:2026-11-01-xai-turbine-court-source",
+  "type": "Relationship",
+  "from": "obs:2026-11-01-xai-turbine-court",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:2026-11-01-xai-turbine-court",
+  "confidence": 0.95,
+  "evidenceRefs": [
+    "source:2026-11-01-xai-turbine-court"
+  ]
+}

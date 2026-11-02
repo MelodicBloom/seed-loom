@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-11-01-embodied-ai-robotics-economics",
+  "type": "Observation",
+  "capturedAt": "2026-11-02T00:40:01Z",
+  "claim": "Reuters documents shift toward robot intelligence and field-data acquisition",
+  "verifiedFacts": [
+    "Reuters published interviews November 1 UTC with robotics founders and analysts describing a shift toward embodied AI software and training data.",
+    "Reuters cites ITjuzi's 93.5 billion yuan across 322 Chinese embodied-AI deals in the first half of 2026; this is a reported dataset, not independently audited here.",
+    "The report documents company-described robot work in battery testing and pharmacy order handling, with human checks in the latter."
+  ],
+  "inference": [
+    "Traceable physical-action evidence and failure-mode receipts matter more than impressive robot motion demonstrations.",
+    "Client problem: buyers cannot compare robotic task success rates across conditions and unfamiliar environments.",
+    "Thesis movement: reinforces governed evidence and expands applicability to physical AI.",
+    "Advisory classification: CORE Seed Loom; INCUBATE Omni-Loom physical action proof; no robot build."
+  ],
+  "significance": "Real task evidence and provenance become a differentiator as hardware makers pursue adaptable intelligence.",
+  "confidence": 0.81,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "default",
+  "validFrom": "2026-11-02T00:40:01Z",
+  "reviewBy": "2026-11-09T00:40:01Z",
+  "sourceRefs": [
+    "source:2026-11-01-embodied-ai-robotics-economics"
+  ],
+  "actorRefs": [
+    "builder:robotics-developers"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/omni-loom"
+  ],
+  "assumptions": [
+    "Company-reported field successes represent actual repeatable deployments."
+  ],
+  "knownLimitations": [
+    "Reported financing and success rates not independently audited; many examples remain pilots."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

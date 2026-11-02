@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:2026-11-01-pi-armor-molecular-cage-source",
+  "type": "Relationship",
+  "from": "obs:2026-11-01-pi-armor-molecular-cage",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:2026-11-01-pi-armor-molecular-cage",
+  "confidence": 0.86,
+  "evidenceRefs": [
+    "source:2026-11-01-pi-armor-molecular-cage"
+  ]
+}

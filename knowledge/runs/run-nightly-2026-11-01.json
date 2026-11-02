@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-11-01",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-10-31T00:40:01Z",
+    "to": "2026-11-02T00:40:01Z"
+  },
+  "newObservations": [
+    "obs:2026-11-01-archestra-runtime-tiers",
+    "obs:2026-11-01-xai-turbine-court",
+    "obs:2026-11-01-pi-armor-molecular-cage",
+    "obs:2026-11-01-embodied-ai-robotics-economics",
+    "obs:2026-11-01-isomorphic-clinical-translation"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [],
+  "newRelationships": [
+    "rel:2026-11-01-archestra-runtime-tiers-source",
+    "rel:2026-11-01-xai-turbine-court-source",
+    "rel:2026-11-01-pi-armor-molecular-cage-source",
+    "rel:2026-11-01-embodied-ai-robotics-economics-source",
+    "rel:2026-11-01-isomorphic-clinical-translation-source"
+  ],
+  "contradictions": [
+    "Court denial of dismissal is not a finding of Clean Air Act liability.",
+    "October 31 institutional report covers a molecular paper published October 13; not a new October 31 experiment.",
+    "Reuters robotics financing and task-success data are company/researcher reported, not independent verification.",
+    "Isomorphic interview was conducted in September; article is new, clinical milestone is not."
+  ],
+  "opportunities": [
+    "Read-only agent runtime resource and authority audit",
+    "Civic evidence lineage and regulatory status dashboard",
+    "Scientific mechanism illustration with physical-accuracy boundaries"
+  ],
+  "proposedExperiments": [
+    "Synthetic runtime tier/receipt comparison; approval required, no execution.",
+    "Court-docket evidence-state visualization with public/synthetic records; approval required, no publication."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/seed-loom",
+      "branch": "proposal/civic-evidence-20261101",
+      "allowedPaths": [
+        "docs/research/**",
+        "docs/proofs/**"
+      ],
+      "action": "Draft a docket-to-evidence-state mapping specimen with synthetic records; no external publication."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/agent-runtime-control-center",
+      "branch": "proposal/runtime-tier-evidence-20261101",
+      "allowedPaths": [
+        "docs/research/**",
+        "docs/proofs/**"
+      ],
+      "action": "Draft a read-only runtime tier/approval receipt matrix; no deployment."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/omni-loom",
+      "branch": "proposal/fabrication-evidence-20261101",
+      "allowedPaths": [
+        "docs/research/**",
+        "docs/proofs/**"
+      ],
+      "action": "Review existing merged deterministic specimen #7 and document boundary against physical robotic deployments; no new fabrication."
+    }
+  ],
+  "noChangeReceipts": [
+    "October 31 observations are not repeated.",
+    "Seed Loom PR #76 remains draft; workflow input change not merged; Issue #24 Oct 30 CI artifact still unverified.",
+    "Omni-Loom deterministic specimen proof was merged in August 2026 (#7); physical fabrication and commercial claims not independently verified.",
+    "No verified new Kozo Dreams completion, AETHER runtime lifecycle acceptance, or paid Observation Ad Pipeline client outcome.",
+    "No Genesis acceptance, publication, archive or kill decision."
+  ],
+  "collectionFailures": [
+    "Local GitHub clone failed DNS resolution; connected GitHub API read succeeded.",
+    "Primary full JACS article and raw experimental datasets were not independently accessed; October 31 research release is a secondary distribution of an institute statement.",
+    "Independent robotics field trial and financing records were not accessed.",
+    "Isomorphic clinical trial registration or new October 31 clinical milestone was not verified.",
+    "Source response-body hashes unavailable from the web reader; contentHash is null."
+  ]
+}

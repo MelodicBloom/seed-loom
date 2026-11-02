@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:2026-11-01-embodied-ai-robotics-economics",
+  "observationId": "obs:2026-11-01-embodied-ai-robotics-economics",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Reuters published interviews November 1 UTC with robotics founders and analysts describing a shift toward embodied AI software and training data.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-01-embodied-ai-robotics-economics"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "builder:robotics-developers: Reuters cites ITjuzi's 93.5 billion yuan across 322 Chinese embodied-AI deals in the first half of 2026; this is a reported dataset, not independently audited here.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-01-embodied-ai-robotics-economics"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Insufficient transfer of robot policies to unfamiliar work.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Manufacturing buyers and robotics QA integrators.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Task-specific automation, human workers, scripted industrial robots.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Real-world demonstrations, simulated training and model-based robot control.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Treating marketing demonstrations as reliable general-purpose robot capability.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent unfamiliar-environment trials show severe performance drop-offs.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Task-level failures, intervention rates, independent deployment receipts.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Investment reflects a temporary speculative financing cycle.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Treating marketing demonstrations as reliable general-purpose robot capability.",
+  "falsifier": "Independent unfamiliar-environment trials show severe performance drop-offs.",
+  "missingEvidence": [
+    "Task-level failures, intervention rates, independent deployment receipts."
+  ],
+  "alternativeExplanation": "Investment reflects a temporary speculative financing cycle.",
+  "disposition": "experiment",
+  "confidence": 0.81
+}
