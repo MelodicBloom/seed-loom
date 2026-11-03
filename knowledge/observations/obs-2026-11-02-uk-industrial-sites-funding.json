@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-11-02-uk-industrial-sites-funding",
+  "type": "Observation",
+  "capturedAt": "2026-11-03T00:52:40Z",
+  "claim": "UK announced a GBP 700 million Strategic Sites Accelerator targeting industrial development bottlenecks.",
+  "verifiedFacts": [
+    "On November 2 the UK government announced about GBP 700 million in blended finance, targeted grants and technical support.",
+    "The initiative aims to unlock six to ten industrial and commercial sites constrained by planning, grid connections and finance.",
+    "Up to GBP 2 billion in private investment and future jobs are aspirations, not completed outcomes."
+  ],
+  "inference": [
+    "Civic infrastructure constraint maps and evidence ledgers could be a future consultancy demonstration.",
+    "No direct grant eligibility or contract opportunity for a US consultancy was verified.",
+    "This reinforces Seed Loom's civic decision provenance use case without changing the core product.",
+    "Advisory disposition: CORE Seed Loom; INCUBATE Omni-Loom."
+  ],
+  "significance": "A public program explicitly names cross-system constraints that can be represented as governed decision dependencies.",
+  "confidence": 0.97,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "funding",
+  "validFrom": "2026-11-03T00:52:40Z",
+  "reviewBy": "2026-11-10T00:52:40Z",
+  "sourceRefs": [
+    "source:2026-11-02-uk-industrial-sites-funding"
+  ],
+  "actorRefs": [
+    "funder:uk-government",
+    "participant:uk-local-authorities"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/omni-loom"
+  ],
+  "assumptions": [
+    "The program will generate demand for independent evidence visualization."
+  ],
+  "knownLimitations": [
+    "No individual site award, external consultancy tender, or US eligibility verified."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

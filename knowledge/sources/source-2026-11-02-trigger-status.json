@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:2026-11-02-trigger-status",
+  "type": "Source",
+  "url": "https://status.trigger.dev/incident/1110434",
+  "publisher": "Trigger.dev Status",
+  "publishedAt": "2026-11-01T22:50:00Z",
+  "retrievedAt": "2026-11-03T00:52:40Z",
+  "sourceClass": "primary",
+  "independenceKey": "trigger-secret-exposure",
+  "contentHash": null,
+  "title": "Trigger.dev November 1 incident status",
+  "notes": "Same provider and event as blog disclosure; not independent corroboration."
+}

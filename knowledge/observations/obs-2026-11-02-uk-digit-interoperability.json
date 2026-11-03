@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-11-02-uk-digit-interoperability",
+  "type": "Observation",
+  "capturedAt": "2026-11-03T00:52:40Z",
+  "claim": "HM Treasury allocated bank roles and announced an approved interoperability link for its digital gilt pilot.",
+  "verifiedFacts": [
+    "On November 2 HM Treasury allocated roles among six banks preparing the DIGIT digitally native gilt pilot.",
+    "Bank of England regulatory approval covers a link between HSBC and LSEG digital securities depositories.",
+    "Pilot issuance is expected by Q1 2027; no completed issuance or settlement was announced."
+  ],
+  "inference": [
+    "Cross-platform actor roles and settlement evidence are a reference model for governed interoperability.",
+    "This does not authorize securities advice or justify a financial product build.",
+    "The development refines Seed Loom's typed approval and traceability thesis.",
+    "Advisory disposition: CORE Seed Loom; REFERENCE-ONLY Agent Runtime Control Center."
+  ],
+  "significance": "An official financial infrastructure milestone separates assigned authority, platform interoperability, and future execution.",
+  "confidence": 0.97,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "law-or-policy",
+  "validFrom": "2026-11-03T00:52:40Z",
+  "reviewBy": "2026-11-10T00:52:40Z",
+  "sourceRefs": [
+    "source:2026-11-02-uk-digit-interoperability"
+  ],
+  "actorRefs": [
+    "regulator:hm-treasury",
+    "regulator:bank-of-england",
+    "builder:hsbc-lseg"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "The future pilot will achieve usable cross-platform settlement."
+  ],
+  "knownLimitations": [
+    "No issuance, production adoption, settlement performance or buyer contract established."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

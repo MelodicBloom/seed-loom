@@ -1,0 +1,39 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:2026-11-02-observe",
+  "runId": "run:nightly-2026-11-02",
+  "stage": "observe",
+  "status": "deferred",
+  "startedAt": "2026-11-03T00:52:40Z",
+  "completedAt": "2026-11-03T00:52:40Z",
+  "inputs": [
+    "run:nightly-2026-11-02",
+    "obs:2026-11-02-trigger-secret-exposure",
+    "obs:2026-11-02-mit-nanoparticle-ligands",
+    "obs:2026-11-02-browsable-accessibility-investment",
+    "obs:2026-11-02-uk-industrial-sites-funding",
+    "obs:2026-11-02-uk-digit-interoperability"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "candidate-only-governance",
+      "result": "not-applicable",
+      "detail": "Canonical execution and human approval are separate from capture-time acknowledgement."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "No acceptance, deployment, implementation or autonomous promotion."
+    ]
+  },
+  "provenance": {
+    "producer": "nightly-consultancy-intelligence",
+    "method": "source inspection and live GitHub preflight; URL-manifest hash is not source-body hash",
+    "inputHashes": [
+      "sha256:source-url-manifest:94c999eade49975fc90155859be9fb0e65ed5e5baf1bb63bba0e6feefe0c7bd2"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-11-03T00:57:37.787Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly-2026-11-02",
+      "bundlePath": "knowledge/intake/nightly/2026-11-02/nightly-run-bundle-2026-11-02.json",
+      "bundleSha256": "6f1e841a335bf6e10636523bf361193f6335f2263bc92d81261c2ddc3637ca79",
+      "normalizedDigest": "e8eccbd0ff2dc31658b4358cb04465dbaba08f4f995886c9a19ae2f8888b1796",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-2026-11-02-trigger-secret-exposure.json",
+        "knowledge/sources/source-2026-11-02-mit-nanoparticle-ligands.json",
+        "knowledge/sources/source-2026-11-02-browsable-accessibility-investment.json",
+        "knowledge/sources/source-2026-11-02-uk-industrial-sites-funding.json",
+        "knowledge/sources/source-2026-11-02-uk-digit-interoperability.json",
+        "knowledge/sources/source-2026-11-02-trigger-status.json",
+        "knowledge/observations/obs-2026-11-02-trigger-secret-exposure.json",
+        "knowledge/observations/obs-2026-11-02-mit-nanoparticle-ligands.json",
+        "knowledge/observations/obs-2026-11-02-browsable-accessibility-investment.json",
+        "knowledge/observations/obs-2026-11-02-uk-industrial-sites-funding.json",
+        "knowledge/observations/obs-2026-11-02-uk-digit-interoperability.json",
+        "knowledge/relationships/rel-2026-11-02-trigger-secret-exposure-source.json",
+        "knowledge/relationships/rel-2026-11-02-mit-nanoparticle-ligands-source.json",
+        "knowledge/relationships/rel-2026-11-02-browsable-accessibility-investment-source.json",
+        "knowledge/relationships/rel-2026-11-02-uk-industrial-sites-funding-source.json",
+        "knowledge/relationships/rel-2026-11-02-uk-digit-interoperability-source.json",
+        "knowledge/runs/run-nightly-2026-11-02.json",
+        "knowledge/runs/stage-acks/ack-2026-11-02-collect.json",
+        "knowledge/runs/stage-acks/ack-2026-11-02-vet.json",
+        "knowledge/runs/stage-acks/ack-2026-11-02-normalize.json",
+        "knowledge/runs/stage-acks/ack-2026-11-02-observe.json",
+        "knowledge/runs/stage-acks/ack-2026-11-02-inquire.json",
+        "knowledge/runs/stage-acks/ack-2026-11-02-interpret.json",
+        "knowledge/runs/stage-acks/ack-2026-11-02-relate.json",
+        "knowledge/runs/stage-acks/ack-2026-11-02-pattern.json",
+        "knowledge/runs/stage-acks/ack-2026-11-02-opportunity.json",
+        "knowledge/runs/stage-acks/ack-2026-11-02-strategy.json",
+        "knowledge/runs/stage-acks/ack-2026-11-02-experiment.json",
+        "knowledge/runs/stage-acks/ack-2026-11-02-genesis.json",
+        "knowledge/runs/stage-acks/ack-2026-11-02-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-11-02-trigger-secret-exposure.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-11-02-mit-nanoparticle-ligands.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-11-02-browsable-accessibility-investment.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-11-02-uk-industrial-sites-funding.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-11-02-uk-digit-interoperability.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-11-02-ingest.json",
+      "generatedRecordCount": 35
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:2026-11-02-uk-digit-interoperability",
+  "type": "Source",
+  "url": "https://www.gov.uk/government/news/uk-moves-closer-to-launching-first-digitally-native-government-bond",
+  "publisher": "HM Treasury",
+  "publishedAt": null,
+  "retrievedAt": "2026-11-03T00:52:40Z",
+  "sourceClass": "regulatory",
+  "independenceKey": "uk-digit-interoperability",
+  "contentHash": null,
+  "title": "HM Treasury allocated bank roles and announced an approved interoperability link for its digital gilt pilot.",
+  "notes": "Date-only source time is null when exact time unavailable. Original source-body hash not captured."
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-11-02-browsable-accessibility-investment",
+  "type": "Observation",
+  "capturedAt": "2026-11-03T00:52:40Z",
+  "claim": "Trade reporting says BrowsAble secured GBP 300,000 for adaptive accessibility tooling.",
+  "verifiedFacts": [
+    "A November 2 report states BrowsAble received a GBP 150,000 Innovate UK grant matched by EHE Group investment.",
+    "The report describes a proposed browser extension and website install script for simplified layouts.",
+    "A 2027 launch is planned; no independent user-outcome or compliance evidence was found."
+  ],
+  "inference": [
+    "Accessible interface audits remain a more defensible service than relying on a third-party overlay.",
+    "A buyer-facing native keyboard, zoom, screen-reader, and reduced-motion QA receipt is a bounded proof.",
+    "The funding report reinforces inclusive design demand but does not establish customer purchases.",
+    "Advisory disposition: PRODUCTIZE Mochi UI and Melodyfire QA; REFERENCE-ONLY FLORÉ."
+  ],
+  "significance": "Reported matched investment provides a market signal for adaptive accessibility, with efficacy still unverified.",
+  "confidence": 0.77,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "funding",
+  "validFrom": "2026-11-03T00:52:40Z",
+  "reviewBy": "2026-11-10T00:52:40Z",
+  "sourceRefs": [
+    "source:2026-11-02-browsable-accessibility-investment"
+  ],
+  "actorRefs": [
+    "builder:browsable",
+    "funder:innovate-uk",
+    "funder:ehe-group"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/mochi-ui",
+    "MelodicBloom/melodyfire",
+    "MelodicBloom/flore-orthography-memphis-ui"
+  ],
+  "assumptions": [
+    "The trade report correctly describes the grant and matching investment."
+  ],
+  "knownLimitations": [
+    "Primary grant award and investment documentation not accessed; no independent usability or WCAG study."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

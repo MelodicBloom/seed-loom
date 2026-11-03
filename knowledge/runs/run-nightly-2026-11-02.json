@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-11-02",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-11-01T00:52:40Z",
+    "to": "2026-11-03T00:52:40Z"
+  },
+  "newObservations": [
+    "obs:2026-11-02-trigger-secret-exposure",
+    "obs:2026-11-02-mit-nanoparticle-ligands",
+    "obs:2026-11-02-browsable-accessibility-investment",
+    "obs:2026-11-02-uk-industrial-sites-funding",
+    "obs:2026-11-02-uk-digit-interoperability"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [],
+  "newRelationships": [
+    "rel:2026-11-02-trigger-secret-exposure-source",
+    "rel:2026-11-02-mit-nanoparticle-ligands-source",
+    "rel:2026-11-02-browsable-accessibility-investment-source",
+    "rel:2026-11-02-uk-industrial-sites-funding-source",
+    "rel:2026-11-02-uk-digit-interoperability-source"
+  ],
+  "contradictions": [
+    "Trigger.dev incident marked resolved does not prove credential rotation.",
+    "BrowsAble grant and investment are trade-reported, not independently audited.",
+    "UK site funding, private investment and jobs include future targets.",
+    "DIGIT pilot approval is not completed issuance.",
+    "MIT laboratory lattice assembly is not industrial photonics validation."
+  ],
+  "opportunities": [
+    "Permissioned agent secrets boundary audit",
+    "Native accessible interface QA",
+    "Evidence-linked materials and civic systems visualization"
+  ],
+  "proposedExperiments": [
+    "Synthetic secret-exposure and credential-rotation receipt comparison; not executed.",
+    "Native accessibility and reduced-motion QA on one existing demo; not executed."
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/seed-loom",
+      "branch": "proposal/secret-boundary-evidence-20261102",
+      "allowedPaths": [
+        "docs/research/**",
+        "docs/proofs/**"
+      ],
+      "action": "Synthetic secrets-exposure and rotation-evidence ledger, no real secrets or deployment."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/mochi-ui",
+      "branch": "proposal/accessibility-qa-20261102",
+      "allowedPaths": [
+        "docs/qa/**",
+        "tests/**"
+      ],
+      "action": "Native keyboard, screen-reader, zoom and reduced-motion acceptance matrix; no overlay claims."
+    },
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/shader-grammar",
+      "branch": "proposal/nanoparticle-reference-20261102",
+      "allowedPaths": [
+        "docs/research/**",
+        "docs/proofs/**"
+      ],
+      "action": "Document flexible-ligand assembly mechanism with source and physical/visual distinction."
+    }
+  ],
+  "noChangeReceipts": [
+    "No November 2 bundle or same-day intake branch on main at preflight.",
+    "November 1 candidate observations not repeated.",
+    "Seed Loom #77 merged and transferred repository identity reconciled; #76 remains draft.",
+    "Melodyfire #11 and Mochi UI #9 merged; independent browser acceptance remains unverified.",
+    "No new paid Observation Ad Pipeline outcome, Kozo Dreams completion, AETHER WebGL acceptance or Omni-Loom physical result verified.",
+    "No archive, kill, Genesis, acceptance, publication, or external action."
+  ],
+  "collectionFailures": [
+    "Local Git clone failed DNS resolution; connected GitHub preflight succeeded.",
+    "Source response-body hashes unavailable; contentHash is null.",
+    "Independent Innovate UK award and EHE financing documents for BrowsAble not accessed.",
+    "Full Nature Materials article and raw nanoparticle datasets not independently audited.",
+    "No US eligibility or open procurement tender for UK announcements verified.",
+    "Cross-repository watch sampled; not an exhaustive audit of all CI jobs and branches."
+  ]
+}

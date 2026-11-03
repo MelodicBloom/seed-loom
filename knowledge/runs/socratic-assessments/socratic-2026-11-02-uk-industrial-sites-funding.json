@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:2026-11-02-uk-industrial-sites-funding",
+  "observationId": "obs:2026-11-02-uk-industrial-sites-funding",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "UK announced a new GBP 700 million site development program.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-02-uk-industrial-sites-funding"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Government and local authorities described funding and delivery roles.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-02-uk-industrial-sites-funding"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Grid, planning and financing can block viable industrial sites.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Developers, investors, local authorities and communities.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing planning portals and project management.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Blended finance and technical assistance address specific constraints.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-02-uk-industrial-sites-funding"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "The announcement creates accessible consultancy procurement.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Awards occur without any external visualization or audit need.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Tender documents, site selection, and realized outcomes.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Conventional industrial development support rather than new digital services.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "The announcement creates accessible consultancy procurement.",
+  "falsifier": "Awards occur without any external visualization or audit need.",
+  "missingEvidence": [
+    "Tender documents, site selection, and realized outcomes."
+  ],
+  "alternativeExplanation": "Conventional industrial development support rather than new digital services.",
+  "disposition": "watch",
+  "confidence": 0.97
+}

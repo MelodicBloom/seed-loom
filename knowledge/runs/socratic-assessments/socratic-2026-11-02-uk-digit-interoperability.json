@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:2026-11-02-uk-digit-interoperability",
+  "observationId": "obs:2026-11-02-uk-digit-interoperability",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Government assigned six bank roles and approved an inter-depository link.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-02-uk-digit-interoperability"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Treasury, central bank and named banks took preparatory actions.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-02-uk-digit-interoperability"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Digital securities platform fragmentation can impede investor access.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Issuers, investors, banks, and regulators.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Conventional bonds and single-platform settlement.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Assigned lead-manager responsibilities plus an approved depository link.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-02-uk-digit-interoperability"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Approval is equivalent to successful pilot issuance.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Live settlement fails or investor access remains fragmented.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Settlement receipts, adoption, and independent interoperability tests.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "A preparatory milestone without demonstrated production impact.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Approval is equivalent to successful pilot issuance.",
+  "falsifier": "Live settlement fails or investor access remains fragmented.",
+  "missingEvidence": [
+    "Settlement receipts, adoption, and independent interoperability tests."
+  ],
+  "alternativeExplanation": "A preparatory milestone without demonstrated production impact.",
+  "disposition": "watch",
+  "confidence": 0.97
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-11-02-mit-nanoparticle-ligands",
+  "type": "Observation",
+  "capturedAt": "2026-11-03T00:52:40Z",
+  "claim": "MIT researchers reported flexible charged ligands controlling nanoparticle lattice connectivity.",
+  "verifiedFacts": [
+    "MIT published a November 2 account of a Nature Materials study on flexible charged ligand-mediated nanoparticle assembly.",
+    "Researchers reported tuning connections by particle size and ligand chain length and producing previously unseen crystal structures.",
+    "The reported findings are laboratory materials research, not industrial photonics deployment."
+  ],
+  "inference": [
+    "Scientific mechanism visualization could explain structural parameters while preserving evidence and attribution boundaries.",
+    "Shader Grammar must not conflate nanoparticle lattice assembly with browser optical appearance.",
+    "The result refines material-mechanism ontology but does not justify a new product.",
+    "Advisory disposition: REFERENCE-ONLY Shader Grammar/Gallery; INCUBATE Omni-Loom."
+  ],
+  "significance": "The study provides a physical example of parameter-dependent self-assembly suitable for carefully bounded visual teaching.",
+  "confidence": 0.94,
+  "evidenceMaturity": "source-backed",
+  "evidenceClass": "peer-reviewed-research",
+  "validFrom": "2026-11-03T00:52:40Z",
+  "reviewBy": "2026-11-10T00:52:40Z",
+  "sourceRefs": [
+    "source:2026-11-02-mit-nanoparticle-ligands"
+  ],
+  "actorRefs": [
+    "researcher:mit-nanoparticle-team"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-grammar",
+    "MelodicBloom/shader-gallery",
+    "MelodicBloom/omni-loom"
+  ],
+  "assumptions": [
+    "The experimental mechanism generalizes beyond the studied conditions."
+  ],
+  "knownLimitations": [
+    "Full Nature Materials methods and raw measurements not independently inspected; scale-up and material performance unknown."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

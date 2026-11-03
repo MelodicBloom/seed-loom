@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:2026-11-02-mit-nanoparticle-ligands",
+  "observationId": "obs:2026-11-02-mit-nanoparticle-ligands",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "A new flexible-ligand nanoparticle assembly paper was reported.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-02-mit-nanoparticle-ligands"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Researchers published laboratory structure-control results.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-02-mit-nanoparticle-ligands"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Rigid or bespoke linkers constrain accessible nanoparticle structures.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Materials researchers and mechanism educators.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Rigid ligands, particle shape and surface functionalization.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Flexible charged linkers reconfigure during particle assembly.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-02-mit-nanoparticle-ligands"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Laboratory structural control guarantees scalable functional materials.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent repeats fail to reproduce tunable connectivity.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent replication, full methods, and performance measurements.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "A narrow material-specific laboratory effect.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Laboratory structural control guarantees scalable functional materials.",
+  "falsifier": "Independent repeats fail to reproduce tunable connectivity.",
+  "missingEvidence": [
+    "Independent replication, full methods, and performance measurements."
+  ],
+  "alternativeExplanation": "A narrow material-specific laboratory effect.",
+  "disposition": "watch",
+  "confidence": 0.94
+}

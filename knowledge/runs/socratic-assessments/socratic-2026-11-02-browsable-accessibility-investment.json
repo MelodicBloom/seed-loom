@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:2026-11-02-browsable-accessibility-investment",
+  "observationId": "obs:2026-11-02-browsable-accessibility-investment",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Funding and product-development plans were reported November 2.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-02-browsable-accessibility-investment"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "A startup and reported funders committed to an accessibility product.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-02-browsable-accessibility-investment"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Website inconsistency can create cognitive and visual access barriers.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Disabled users, operators, and accessibility professionals.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Native accessible design, browser settings, and assistive technology.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Content simplification via extension or website script.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:2026-11-02-browsable-accessibility-investment"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "An overlay automatically produces compliant accessible experiences.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Controlled testing finds no benefit or harms assistive technology.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Primary award records, beta outcomes, and WCAG/user testing.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "An early financing milestone rather than a proven accessible product.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "An overlay automatically produces compliant accessible experiences.",
+  "falsifier": "Controlled testing finds no benefit or harms assistive technology.",
+  "missingEvidence": [
+    "Primary award records, beta outcomes, and WCAG/user testing."
+  ],
+  "alternativeExplanation": "An early financing milestone rather than a proven accessible product.",
+  "disposition": "experiment",
+  "confidence": 0.77
+}
