@@ -6,3 +6,5 @@ The ID and historical name are recorded here rather than as unrecognized fields
 in the version 1 verification profile. Existing schema identifiers, commit URLs,
 and historical receipts retain their original names; this record does not
 rewrite their provenance or establish a deployment authority.
+
+- Follow-up: `.melodicbloom/verification-profile.json` now carries `repository_id: 1295858033` and `former_repository_names: ["qt314wink/seed-loom"]` (schema support added in MelodicBloom/.github#21).
