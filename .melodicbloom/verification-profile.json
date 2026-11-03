@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "repository": "qt314wink/seed-loom",
+  "repository": "MelodicBloom/seed-loom",
   "classification": {
     "archetype": "compiler-system",
     "maturity": "candidate",
