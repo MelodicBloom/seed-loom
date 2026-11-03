@@ -1,0 +1,1585 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly-2026-11-02",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-11-01T00:52:40Z",
+      "to": "2026-11-03T00:52:40Z"
+    },
+    "newObservations": [
+      "obs:2026-11-02-trigger-secret-exposure",
+      "obs:2026-11-02-mit-nanoparticle-ligands",
+      "obs:2026-11-02-browsable-accessibility-investment",
+      "obs:2026-11-02-uk-industrial-sites-funding",
+      "obs:2026-11-02-uk-digit-interoperability"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [],
+    "newRelationships": [
+      "rel:2026-11-02-trigger-secret-exposure-source",
+      "rel:2026-11-02-mit-nanoparticle-ligands-source",
+      "rel:2026-11-02-browsable-accessibility-investment-source",
+      "rel:2026-11-02-uk-industrial-sites-funding-source",
+      "rel:2026-11-02-uk-digit-interoperability-source"
+    ],
+    "contradictions": [
+      "Trigger.dev incident marked resolved does not prove credential rotation.",
+      "BrowsAble grant and investment are trade-reported, not independently audited.",
+      "UK site funding, private investment and jobs include future targets.",
+      "DIGIT pilot approval is not completed issuance.",
+      "MIT laboratory lattice assembly is not industrial photonics validation."
+    ],
+    "opportunities": [
+      "Permissioned agent secrets boundary audit",
+      "Native accessible interface QA",
+      "Evidence-linked materials and civic systems visualization"
+    ],
+    "proposedExperiments": [
+      "Synthetic secret-exposure and credential-rotation receipt comparison; not executed.",
+      "Native accessibility and reduced-motion QA on one existing demo; not executed."
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/seed-loom",
+        "branch": "proposal/secret-boundary-evidence-20261102",
+        "allowedPaths": [
+          "docs/research/**",
+          "docs/proofs/**"
+        ],
+        "action": "Synthetic secrets-exposure and rotation-evidence ledger, no real secrets or deployment."
+      },
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/mochi-ui",
+        "branch": "proposal/accessibility-qa-20261102",
+        "allowedPaths": [
+          "docs/qa/**",
+          "tests/**"
+        ],
+        "action": "Native keyboard, screen-reader, zoom and reduced-motion acceptance matrix; no overlay claims."
+      },
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/shader-grammar",
+        "branch": "proposal/nanoparticle-reference-20261102",
+        "allowedPaths": [
+          "docs/research/**",
+          "docs/proofs/**"
+        ],
+        "action": "Document flexible-ligand assembly mechanism with source and physical/visual distinction."
+      }
+    ],
+    "noChangeReceipts": [
+      "No November 2 bundle or same-day intake branch on main at preflight.",
+      "November 1 candidate observations not repeated.",
+      "Seed Loom #77 merged and transferred repository identity reconciled; #76 remains draft.",
+      "Melodyfire #11 and Mochi UI #9 merged; independent browser acceptance remains unverified.",
+      "No new paid Observation Ad Pipeline outcome, Kozo Dreams completion, AETHER WebGL acceptance or Omni-Loom physical result verified.",
+      "No archive, kill, Genesis, acceptance, publication, or external action."
+    ],
+    "collectionFailures": [
+      "Local Git clone failed DNS resolution; connected GitHub preflight succeeded.",
+      "Source response-body hashes unavailable; contentHash is null.",
+      "Independent Innovate UK award and EHE financing documents for BrowsAble not accessed.",
+      "Full Nature Materials article and raw nanoparticle datasets not independently audited.",
+      "No US eligibility or open procurement tender for UK announcements verified.",
+      "Cross-repository watch sampled; not an exhaustive audit of all CI jobs and branches."
+    ]
+  },
+  "sources": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-02-trigger-secret-exposure",
+      "type": "Source",
+      "url": "https://trigger.dev/blog/security-incident-nov-2026",
+      "publisher": "Trigger.dev",
+      "publishedAt": "2026-11-01T22:50:00Z",
+      "retrievedAt": "2026-11-03T00:52:40Z",
+      "sourceClass": "primary",
+      "independenceKey": "trigger-secret-exposure",
+      "contentHash": null,
+      "title": "Trigger.dev disclosed unauthorized environment-variable access in a subset of customer organizations.",
+      "notes": "Date-only source time is null when exact time unavailable. Original source-body hash not captured."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-02-mit-nanoparticle-ligands",
+      "type": "Source",
+      "url": "https://news.mit.edu/2026/flexible-new-route-designer-materials-from-nanoparticles-1102",
+      "publisher": "MIT News",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-03T00:52:40Z",
+      "sourceClass": "research",
+      "independenceKey": "mit-nanoparticle-ligands",
+      "contentHash": null,
+      "title": "MIT researchers reported flexible charged ligands controlling nanoparticle lattice connectivity.",
+      "notes": "Date-only source time is null when exact time unavailable. Original source-body hash not captured."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-02-browsable-accessibility-investment",
+      "type": "Source",
+      "url": "https://www.businessupnorth.co.uk/300000-funding-boost-for-web-accessibility-start-up-browsable/",
+      "publisher": "Business Up North",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-03T00:52:40Z",
+      "sourceClass": "press",
+      "independenceKey": "browsable-accessibility-investment",
+      "contentHash": null,
+      "title": "Trade reporting says BrowsAble secured GBP 300,000 for adaptive accessibility tooling.",
+      "notes": "Date-only source time is null when exact time unavailable. Original source-body hash not captured."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-02-uk-industrial-sites-funding",
+      "type": "Source",
+      "url": "https://www.gov.uk/government/news/mayors-and-local-leaders-work-with-no10-north-to-drive-search-for-top-10-biggest-strategic-investment-sites-across-country",
+      "publisher": "UK Department for Business",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-03T00:52:40Z",
+      "sourceClass": "official",
+      "independenceKey": "uk-industrial-sites-funding",
+      "contentHash": null,
+      "title": "UK announced a GBP 700 million Strategic Sites Accelerator targeting industrial development bottlenecks.",
+      "notes": "Date-only source time is null when exact time unavailable. Original source-body hash not captured."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-02-uk-digit-interoperability",
+      "type": "Source",
+      "url": "https://www.gov.uk/government/news/uk-moves-closer-to-launching-first-digitally-native-government-bond",
+      "publisher": "HM Treasury",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-03T00:52:40Z",
+      "sourceClass": "regulatory",
+      "independenceKey": "uk-digit-interoperability",
+      "contentHash": null,
+      "title": "HM Treasury allocated bank roles and announced an approved interoperability link for its digital gilt pilot.",
+      "notes": "Date-only source time is null when exact time unavailable. Original source-body hash not captured."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-02-trigger-status",
+      "type": "Source",
+      "url": "https://status.trigger.dev/incident/1110434",
+      "publisher": "Trigger.dev Status",
+      "publishedAt": "2026-11-01T22:50:00Z",
+      "retrievedAt": "2026-11-03T00:52:40Z",
+      "sourceClass": "primary",
+      "independenceKey": "trigger-secret-exposure",
+      "contentHash": null,
+      "title": "Trigger.dev November 1 incident status",
+      "notes": "Same provider and event as blog disclosure; not independent corroboration."
+    }
+  ],
+  "observations": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:2026-11-02-trigger-secret-exposure",
+      "type": "Observation",
+      "capturedAt": "2026-11-03T00:52:40Z",
+      "claim": "Trigger.dev disclosed unauthorized environment-variable access in a subset of customer organizations.",
+      "verifiedFacts": [
+        "On November 1 Trigger.dev reported an incident in which an attacker accessed environment variables for a subset of organizations.",
+        "Trigger.dev says the exploit was blocked and affected account owners were emailed mitigation steps.",
+        "The status incident was posted at 22:50 UTC November 1 and marked resolved."
+      ],
+      "inference": [
+        "A permissioned audit of secrets boundaries and recovery receipts may be valuable to clients running managed agent workflows.",
+        "The incident does not establish that any of the user's repositories were affected.",
+        "This reinforces Seed Loom's governed execution thesis without proving a new consulting market.",
+        "Advisory disposition: CORE Seed Loom; INCUBATE Agent Runtime Control Center."
+      ],
+      "significance": "Direct provider disclosure makes secrets isolation and credential recovery a concrete agent governance concern.",
+      "confidence": 0.96,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "provider-terms",
+      "validFrom": "2026-11-03T00:52:40Z",
+      "reviewBy": "2026-11-10T00:52:40Z",
+      "sourceRefs": [
+        "source:2026-11-02-trigger-secret-exposure",
+        "source:2026-11-02-trigger-status"
+      ],
+      "actorRefs": [
+        "provider:trigger-dev"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/agent-runtime-control-center"
+      ],
+      "assumptions": [
+        "The provider disclosure is accurate within its unspecified scope."
+      ],
+      "knownLimitations": [
+        "No exploit details, affected organization count, independent forensics, or rotation-completion evidence."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:2026-11-02-mit-nanoparticle-ligands",
+      "type": "Observation",
+      "capturedAt": "2026-11-03T00:52:40Z",
+      "claim": "MIT researchers reported flexible charged ligands controlling nanoparticle lattice connectivity.",
+      "verifiedFacts": [
+        "MIT published a November 2 account of a Nature Materials study on flexible charged ligand-mediated nanoparticle assembly.",
+        "Researchers reported tuning connections by particle size and ligand chain length and producing previously unseen crystal structures.",
+        "The reported findings are laboratory materials research, not industrial photonics deployment."
+      ],
+      "inference": [
+        "Scientific mechanism visualization could explain structural parameters while preserving evidence and attribution boundaries.",
+        "Shader Grammar must not conflate nanoparticle lattice assembly with browser optical appearance.",
+        "The result refines material-mechanism ontology but does not justify a new product.",
+        "Advisory disposition: REFERENCE-ONLY Shader Grammar/Gallery; INCUBATE Omni-Loom."
+      ],
+      "significance": "The study provides a physical example of parameter-dependent self-assembly suitable for carefully bounded visual teaching.",
+      "confidence": 0.94,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "peer-reviewed-research",
+      "validFrom": "2026-11-03T00:52:40Z",
+      "reviewBy": "2026-11-10T00:52:40Z",
+      "sourceRefs": [
+        "source:2026-11-02-mit-nanoparticle-ligands"
+      ],
+      "actorRefs": [
+        "researcher:mit-nanoparticle-team"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/shader-grammar",
+        "MelodicBloom/shader-gallery",
+        "MelodicBloom/omni-loom"
+      ],
+      "assumptions": [
+        "The experimental mechanism generalizes beyond the studied conditions."
+      ],
+      "knownLimitations": [
+        "Full Nature Materials methods and raw measurements not independently inspected; scale-up and material performance unknown."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:2026-11-02-browsable-accessibility-investment",
+      "type": "Observation",
+      "capturedAt": "2026-11-03T00:52:40Z",
+      "claim": "Trade reporting says BrowsAble secured GBP 300,000 for adaptive accessibility tooling.",
+      "verifiedFacts": [
+        "A November 2 report states BrowsAble received a GBP 150,000 Innovate UK grant matched by EHE Group investment.",
+        "The report describes a proposed browser extension and website install script for simplified layouts.",
+        "A 2027 launch is planned; no independent user-outcome or compliance evidence was found."
+      ],
+      "inference": [
+        "Accessible interface audits remain a more defensible service than relying on a third-party overlay.",
+        "A buyer-facing native keyboard, zoom, screen-reader, and reduced-motion QA receipt is a bounded proof.",
+        "The funding report reinforces inclusive design demand but does not establish customer purchases.",
+        "Advisory disposition: PRODUCTIZE Mochi UI and Melodyfire QA; REFERENCE-ONLY FLORÉ."
+      ],
+      "significance": "Reported matched investment provides a market signal for adaptive accessibility, with efficacy still unverified.",
+      "confidence": 0.77,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "funding",
+      "validFrom": "2026-11-03T00:52:40Z",
+      "reviewBy": "2026-11-10T00:52:40Z",
+      "sourceRefs": [
+        "source:2026-11-02-browsable-accessibility-investment"
+      ],
+      "actorRefs": [
+        "builder:browsable",
+        "funder:innovate-uk",
+        "funder:ehe-group"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/mochi-ui",
+        "MelodicBloom/melodyfire",
+        "MelodicBloom/flore-orthography-memphis-ui"
+      ],
+      "assumptions": [
+        "The trade report correctly describes the grant and matching investment."
+      ],
+      "knownLimitations": [
+        "Primary grant award and investment documentation not accessed; no independent usability or WCAG study."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:2026-11-02-uk-industrial-sites-funding",
+      "type": "Observation",
+      "capturedAt": "2026-11-03T00:52:40Z",
+      "claim": "UK announced a GBP 700 million Strategic Sites Accelerator targeting industrial development bottlenecks.",
+      "verifiedFacts": [
+        "On November 2 the UK government announced about GBP 700 million in blended finance, targeted grants and technical support.",
+        "The initiative aims to unlock six to ten industrial and commercial sites constrained by planning, grid connections and finance.",
+        "Up to GBP 2 billion in private investment and future jobs are aspirations, not completed outcomes."
+      ],
+      "inference": [
+        "Civic infrastructure constraint maps and evidence ledgers could be a future consultancy demonstration.",
+        "No direct grant eligibility or contract opportunity for a US consultancy was verified.",
+        "This reinforces Seed Loom's civic decision provenance use case without changing the core product.",
+        "Advisory disposition: CORE Seed Loom; INCUBATE Omni-Loom."
+      ],
+      "significance": "A public program explicitly names cross-system constraints that can be represented as governed decision dependencies.",
+      "confidence": 0.97,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "funding",
+      "validFrom": "2026-11-03T00:52:40Z",
+      "reviewBy": "2026-11-10T00:52:40Z",
+      "sourceRefs": [
+        "source:2026-11-02-uk-industrial-sites-funding"
+      ],
+      "actorRefs": [
+        "funder:uk-government",
+        "participant:uk-local-authorities"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/omni-loom"
+      ],
+      "assumptions": [
+        "The program will generate demand for independent evidence visualization."
+      ],
+      "knownLimitations": [
+        "No individual site award, external consultancy tender, or US eligibility verified."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:2026-11-02-uk-digit-interoperability",
+      "type": "Observation",
+      "capturedAt": "2026-11-03T00:52:40Z",
+      "claim": "HM Treasury allocated bank roles and announced an approved interoperability link for its digital gilt pilot.",
+      "verifiedFacts": [
+        "On November 2 HM Treasury allocated roles among six banks preparing the DIGIT digitally native gilt pilot.",
+        "Bank of England regulatory approval covers a link between HSBC and LSEG digital securities depositories.",
+        "Pilot issuance is expected by Q1 2027; no completed issuance or settlement was announced."
+      ],
+      "inference": [
+        "Cross-platform actor roles and settlement evidence are a reference model for governed interoperability.",
+        "This does not authorize securities advice or justify a financial product build.",
+        "The development refines Seed Loom's typed approval and traceability thesis.",
+        "Advisory disposition: CORE Seed Loom; REFERENCE-ONLY Agent Runtime Control Center."
+      ],
+      "significance": "An official financial infrastructure milestone separates assigned authority, platform interoperability, and future execution.",
+      "confidence": 0.97,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "law-or-policy",
+      "validFrom": "2026-11-03T00:52:40Z",
+      "reviewBy": "2026-11-10T00:52:40Z",
+      "sourceRefs": [
+        "source:2026-11-02-uk-digit-interoperability"
+      ],
+      "actorRefs": [
+        "regulator:hm-treasury",
+        "regulator:bank-of-england",
+        "builder:hsbc-lseg"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/agent-runtime-control-center"
+      ],
+      "assumptions": [
+        "The future pilot will achieve usable cross-platform settlement."
+      ],
+      "knownLimitations": [
+        "No issuance, production adoption, settlement performance or buyer contract established."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:2026-11-02-trigger-secret-exposure-source",
+      "type": "Relationship",
+      "from": "obs:2026-11-02-trigger-secret-exposure",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-11-02-trigger-secret-exposure",
+      "confidence": 0.96,
+      "evidenceRefs": [
+        "source:2026-11-02-trigger-secret-exposure"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:2026-11-02-mit-nanoparticle-ligands-source",
+      "type": "Relationship",
+      "from": "obs:2026-11-02-mit-nanoparticle-ligands",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-11-02-mit-nanoparticle-ligands",
+      "confidence": 0.94,
+      "evidenceRefs": [
+        "source:2026-11-02-mit-nanoparticle-ligands"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:2026-11-02-browsable-accessibility-investment-source",
+      "type": "Relationship",
+      "from": "obs:2026-11-02-browsable-accessibility-investment",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-11-02-browsable-accessibility-investment",
+      "confidence": 0.77,
+      "evidenceRefs": [
+        "source:2026-11-02-browsable-accessibility-investment"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:2026-11-02-uk-industrial-sites-funding-source",
+      "type": "Relationship",
+      "from": "obs:2026-11-02-uk-industrial-sites-funding",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-11-02-uk-industrial-sites-funding",
+      "confidence": 0.97,
+      "evidenceRefs": [
+        "source:2026-11-02-uk-industrial-sites-funding"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:2026-11-02-uk-digit-interoperability-source",
+      "type": "Relationship",
+      "from": "obs:2026-11-02-uk-digit-interoperability",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-11-02-uk-digit-interoperability",
+      "confidence": 0.97,
+      "evidenceRefs": [
+        "source:2026-11-02-uk-digit-interoperability"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-02-collect",
+      "runId": "run:nightly-2026-11-02",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-11-03T00:52:40Z",
+      "completedAt": "2026-11-03T00:52:40Z",
+      "inputs": [
+        "source:2026-11-02-trigger-secret-exposure",
+        "source:2026-11-02-mit-nanoparticle-ligands",
+        "source:2026-11-02-browsable-accessibility-investment",
+        "source:2026-11-02-uk-industrial-sites-funding",
+        "source:2026-11-02-uk-digit-interoperability",
+        "source:2026-11-02-trigger-status"
+      ],
+      "outputs": [
+        "source:2026-11-02-trigger-secret-exposure",
+        "source:2026-11-02-mit-nanoparticle-ligands",
+        "source:2026-11-02-browsable-accessibility-investment",
+        "source:2026-11-02-uk-industrial-sites-funding",
+        "source:2026-11-02-uk-digit-interoperability",
+        "source:2026-11-02-trigger-status"
+      ],
+      "checks": [
+        {
+          "name": "source-and-boundary-review",
+          "result": "pass",
+          "detail": "Dated source review with known limitations and duplicate screening."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, deployment, implementation or autonomous promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection and live GitHub preflight; URL-manifest hash is not source-body hash",
+        "inputHashes": [
+          "sha256:source-url-manifest:94c999eade49975fc90155859be9fb0e65ed5e5baf1bb63bba0e6feefe0c7bd2"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-02-vet",
+      "runId": "run:nightly-2026-11-02",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-11-03T00:52:40Z",
+      "completedAt": "2026-11-03T00:52:40Z",
+      "inputs": [
+        "obs:2026-11-02-trigger-secret-exposure",
+        "obs:2026-11-02-mit-nanoparticle-ligands",
+        "obs:2026-11-02-browsable-accessibility-investment",
+        "obs:2026-11-02-uk-industrial-sites-funding",
+        "obs:2026-11-02-uk-digit-interoperability"
+      ],
+      "outputs": [
+        "obs:2026-11-02-trigger-secret-exposure",
+        "obs:2026-11-02-mit-nanoparticle-ligands",
+        "obs:2026-11-02-browsable-accessibility-investment",
+        "obs:2026-11-02-uk-industrial-sites-funding",
+        "obs:2026-11-02-uk-digit-interoperability"
+      ],
+      "checks": [
+        {
+          "name": "source-and-boundary-review",
+          "result": "pass",
+          "detail": "Dated source review with known limitations and duplicate screening."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, deployment, implementation or autonomous promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection and live GitHub preflight; URL-manifest hash is not source-body hash",
+        "inputHashes": [
+          "sha256:source-url-manifest:94c999eade49975fc90155859be9fb0e65ed5e5baf1bb63bba0e6feefe0c7bd2"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-02-normalize",
+      "runId": "run:nightly-2026-11-02",
+      "stage": "normalize",
+      "status": "deferred",
+      "startedAt": "2026-11-03T00:52:40Z",
+      "completedAt": "2026-11-03T00:52:40Z",
+      "inputs": [
+        "run:nightly-2026-11-02",
+        "obs:2026-11-02-trigger-secret-exposure",
+        "obs:2026-11-02-mit-nanoparticle-ligands",
+        "obs:2026-11-02-browsable-accessibility-investment",
+        "obs:2026-11-02-uk-industrial-sites-funding",
+        "obs:2026-11-02-uk-digit-interoperability"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-governance",
+          "result": "not-applicable",
+          "detail": "Canonical execution and human approval are separate from capture-time acknowledgement."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, deployment, implementation or autonomous promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection and live GitHub preflight; URL-manifest hash is not source-body hash",
+        "inputHashes": [
+          "sha256:source-url-manifest:94c999eade49975fc90155859be9fb0e65ed5e5baf1bb63bba0e6feefe0c7bd2"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-02-observe",
+      "runId": "run:nightly-2026-11-02",
+      "stage": "observe",
+      "status": "deferred",
+      "startedAt": "2026-11-03T00:52:40Z",
+      "completedAt": "2026-11-03T00:52:40Z",
+      "inputs": [
+        "run:nightly-2026-11-02",
+        "obs:2026-11-02-trigger-secret-exposure",
+        "obs:2026-11-02-mit-nanoparticle-ligands",
+        "obs:2026-11-02-browsable-accessibility-investment",
+        "obs:2026-11-02-uk-industrial-sites-funding",
+        "obs:2026-11-02-uk-digit-interoperability"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-governance",
+          "result": "not-applicable",
+          "detail": "Canonical execution and human approval are separate from capture-time acknowledgement."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, deployment, implementation or autonomous promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection and live GitHub preflight; URL-manifest hash is not source-body hash",
+        "inputHashes": [
+          "sha256:source-url-manifest:94c999eade49975fc90155859be9fb0e65ed5e5baf1bb63bba0e6feefe0c7bd2"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-02-inquire",
+      "runId": "run:nightly-2026-11-02",
+      "stage": "inquire",
+      "status": "deferred",
+      "startedAt": "2026-11-03T00:52:40Z",
+      "completedAt": "2026-11-03T00:52:40Z",
+      "inputs": [
+        "run:nightly-2026-11-02",
+        "obs:2026-11-02-trigger-secret-exposure",
+        "obs:2026-11-02-mit-nanoparticle-ligands",
+        "obs:2026-11-02-browsable-accessibility-investment",
+        "obs:2026-11-02-uk-industrial-sites-funding",
+        "obs:2026-11-02-uk-digit-interoperability"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-governance",
+          "result": "not-applicable",
+          "detail": "Canonical execution and human approval are separate from capture-time acknowledgement."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, deployment, implementation or autonomous promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection and live GitHub preflight; URL-manifest hash is not source-body hash",
+        "inputHashes": [
+          "sha256:source-url-manifest:94c999eade49975fc90155859be9fb0e65ed5e5baf1bb63bba0e6feefe0c7bd2"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-02-interpret",
+      "runId": "run:nightly-2026-11-02",
+      "stage": "interpret",
+      "status": "deferred",
+      "startedAt": "2026-11-03T00:52:40Z",
+      "completedAt": "2026-11-03T00:52:40Z",
+      "inputs": [
+        "run:nightly-2026-11-02",
+        "obs:2026-11-02-trigger-secret-exposure",
+        "obs:2026-11-02-mit-nanoparticle-ligands",
+        "obs:2026-11-02-browsable-accessibility-investment",
+        "obs:2026-11-02-uk-industrial-sites-funding",
+        "obs:2026-11-02-uk-digit-interoperability"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-governance",
+          "result": "not-applicable",
+          "detail": "Canonical execution and human approval are separate from capture-time acknowledgement."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, deployment, implementation or autonomous promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection and live GitHub preflight; URL-manifest hash is not source-body hash",
+        "inputHashes": [
+          "sha256:source-url-manifest:94c999eade49975fc90155859be9fb0e65ed5e5baf1bb63bba0e6feefe0c7bd2"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-02-relate",
+      "runId": "run:nightly-2026-11-02",
+      "stage": "relate",
+      "status": "deferred",
+      "startedAt": "2026-11-03T00:52:40Z",
+      "completedAt": "2026-11-03T00:52:40Z",
+      "inputs": [
+        "run:nightly-2026-11-02",
+        "obs:2026-11-02-trigger-secret-exposure",
+        "obs:2026-11-02-mit-nanoparticle-ligands",
+        "obs:2026-11-02-browsable-accessibility-investment",
+        "obs:2026-11-02-uk-industrial-sites-funding",
+        "obs:2026-11-02-uk-digit-interoperability"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-governance",
+          "result": "not-applicable",
+          "detail": "Canonical execution and human approval are separate from capture-time acknowledgement."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, deployment, implementation or autonomous promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection and live GitHub preflight; URL-manifest hash is not source-body hash",
+        "inputHashes": [
+          "sha256:source-url-manifest:94c999eade49975fc90155859be9fb0e65ed5e5baf1bb63bba0e6feefe0c7bd2"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-02-pattern",
+      "runId": "run:nightly-2026-11-02",
+      "stage": "pattern",
+      "status": "no-change",
+      "startedAt": "2026-11-03T00:52:40Z",
+      "completedAt": "2026-11-03T00:52:40Z",
+      "inputs": [
+        "run:nightly-2026-11-02",
+        "obs:2026-11-02-trigger-secret-exposure",
+        "obs:2026-11-02-mit-nanoparticle-ligands",
+        "obs:2026-11-02-browsable-accessibility-investment",
+        "obs:2026-11-02-uk-industrial-sites-funding",
+        "obs:2026-11-02-uk-digit-interoperability"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-governance",
+          "result": "not-applicable",
+          "detail": "Canonical execution and human approval are separate from capture-time acknowledgement."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, deployment, implementation or autonomous promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection and live GitHub preflight; URL-manifest hash is not source-body hash",
+        "inputHashes": [
+          "sha256:source-url-manifest:94c999eade49975fc90155859be9fb0e65ed5e5baf1bb63bba0e6feefe0c7bd2"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-02-opportunity",
+      "runId": "run:nightly-2026-11-02",
+      "stage": "opportunity",
+      "status": "deferred",
+      "startedAt": "2026-11-03T00:52:40Z",
+      "completedAt": "2026-11-03T00:52:40Z",
+      "inputs": [
+        "run:nightly-2026-11-02",
+        "obs:2026-11-02-trigger-secret-exposure",
+        "obs:2026-11-02-mit-nanoparticle-ligands",
+        "obs:2026-11-02-browsable-accessibility-investment",
+        "obs:2026-11-02-uk-industrial-sites-funding",
+        "obs:2026-11-02-uk-digit-interoperability"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-governance",
+          "result": "not-applicable",
+          "detail": "Canonical execution and human approval are separate from capture-time acknowledgement."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, deployment, implementation or autonomous promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection and live GitHub preflight; URL-manifest hash is not source-body hash",
+        "inputHashes": [
+          "sha256:source-url-manifest:94c999eade49975fc90155859be9fb0e65ed5e5baf1bb63bba0e6feefe0c7bd2"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-02-strategy",
+      "runId": "run:nightly-2026-11-02",
+      "stage": "strategy",
+      "status": "deferred",
+      "startedAt": "2026-11-03T00:52:40Z",
+      "completedAt": "2026-11-03T00:52:40Z",
+      "inputs": [
+        "run:nightly-2026-11-02",
+        "obs:2026-11-02-trigger-secret-exposure",
+        "obs:2026-11-02-mit-nanoparticle-ligands",
+        "obs:2026-11-02-browsable-accessibility-investment",
+        "obs:2026-11-02-uk-industrial-sites-funding",
+        "obs:2026-11-02-uk-digit-interoperability"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-governance",
+          "result": "not-applicable",
+          "detail": "Canonical execution and human approval are separate from capture-time acknowledgement."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, deployment, implementation or autonomous promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection and live GitHub preflight; URL-manifest hash is not source-body hash",
+        "inputHashes": [
+          "sha256:source-url-manifest:94c999eade49975fc90155859be9fb0e65ed5e5baf1bb63bba0e6feefe0c7bd2"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-02-experiment",
+      "runId": "run:nightly-2026-11-02",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-11-03T00:52:40Z",
+      "completedAt": "2026-11-03T00:52:40Z",
+      "inputs": [
+        "run:nightly-2026-11-02",
+        "obs:2026-11-02-trigger-secret-exposure",
+        "obs:2026-11-02-mit-nanoparticle-ligands",
+        "obs:2026-11-02-browsable-accessibility-investment",
+        "obs:2026-11-02-uk-industrial-sites-funding",
+        "obs:2026-11-02-uk-digit-interoperability"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-governance",
+          "result": "not-applicable",
+          "detail": "Canonical execution and human approval are separate from capture-time acknowledgement."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, deployment, implementation or autonomous promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection and live GitHub preflight; URL-manifest hash is not source-body hash",
+        "inputHashes": [
+          "sha256:source-url-manifest:94c999eade49975fc90155859be9fb0e65ed5e5baf1bb63bba0e6feefe0c7bd2"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-02-genesis",
+      "runId": "run:nightly-2026-11-02",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-11-03T00:52:40Z",
+      "completedAt": "2026-11-03T00:52:40Z",
+      "inputs": [
+        "run:nightly-2026-11-02",
+        "obs:2026-11-02-trigger-secret-exposure",
+        "obs:2026-11-02-mit-nanoparticle-ligands",
+        "obs:2026-11-02-browsable-accessibility-investment",
+        "obs:2026-11-02-uk-industrial-sites-funding",
+        "obs:2026-11-02-uk-digit-interoperability"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-governance",
+          "result": "not-applicable",
+          "detail": "Canonical execution and human approval are separate from capture-time acknowledgement."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Genesis deferred; transition explicitly prohibited."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection and live GitHub preflight; URL-manifest hash is not source-body hash",
+        "inputHashes": [
+          "sha256:source-url-manifest:94c999eade49975fc90155859be9fb0e65ed5e5baf1bb63bba0e6feefe0c7bd2"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-02-publish",
+      "runId": "run:nightly-2026-11-02",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-11-03T00:52:40Z",
+      "completedAt": "2026-11-03T00:52:40Z",
+      "inputs": [
+        "run:nightly-2026-11-02",
+        "obs:2026-11-02-trigger-secret-exposure",
+        "obs:2026-11-02-mit-nanoparticle-ligands",
+        "obs:2026-11-02-browsable-accessibility-investment",
+        "obs:2026-11-02-uk-industrial-sites-funding",
+        "obs:2026-11-02-uk-digit-interoperability"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-governance",
+          "result": "not-applicable",
+          "detail": "Canonical execution and human approval are separate from capture-time acknowledgement."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Publication prohibited."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "source inspection and live GitHub preflight; URL-manifest hash is not source-body hash",
+        "inputHashes": [
+          "sha256:source-url-manifest:94c999eade49975fc90155859be9fb0e65ed5e5baf1bb63bba0e6feefe0c7bd2"
+        ]
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:2026-11-02-trigger-secret-exposure",
+      "observationId": "obs:2026-11-02-trigger-secret-exposure",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Provider disclosed an environment-variable exposure.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-02-trigger-secret-exposure"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Trigger.dev blocked an exploit and notified affected account owners.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-02-trigger-secret-exposure"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Managed workflow secrets may cross unauthorized access boundaries.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Affected organizations, agent operators, and reviewers.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Self-hosted runners and external secrets brokers.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Hosted task environment variables became accessible to an attacker.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-02-trigger-secret-exposure"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "A resolved status means every exposed secret is rotated.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent investigation shows no exploitable customer access.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Forensic scope, credential rotation receipts, and affected-customer evidence.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "A specific provider vulnerability rather than a general agent-platform failure.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "A resolved status means every exposed secret is rotated.",
+      "falsifier": "Independent investigation shows no exploitable customer access.",
+      "missingEvidence": [
+        "Forensic scope, credential rotation receipts, and affected-customer evidence."
+      ],
+      "alternativeExplanation": "A specific provider vulnerability rather than a general agent-platform failure.",
+      "disposition": "experiment",
+      "confidence": 0.96
+    },
+    {
+      "assessmentId": "socratic:2026-11-02-mit-nanoparticle-ligands",
+      "observationId": "obs:2026-11-02-mit-nanoparticle-ligands",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "A new flexible-ligand nanoparticle assembly paper was reported.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-02-mit-nanoparticle-ligands"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Researchers published laboratory structure-control results.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-02-mit-nanoparticle-ligands"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Rigid or bespoke linkers constrain accessible nanoparticle structures.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Materials researchers and mechanism educators.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Rigid ligands, particle shape and surface functionalization.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Flexible charged linkers reconfigure during particle assembly.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-02-mit-nanoparticle-ligands"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Laboratory structural control guarantees scalable functional materials.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent repeats fail to reproduce tunable connectivity.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent replication, full methods, and performance measurements.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "A narrow material-specific laboratory effect.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Laboratory structural control guarantees scalable functional materials.",
+      "falsifier": "Independent repeats fail to reproduce tunable connectivity.",
+      "missingEvidence": [
+        "Independent replication, full methods, and performance measurements."
+      ],
+      "alternativeExplanation": "A narrow material-specific laboratory effect.",
+      "disposition": "watch",
+      "confidence": 0.94
+    },
+    {
+      "assessmentId": "socratic:2026-11-02-browsable-accessibility-investment",
+      "observationId": "obs:2026-11-02-browsable-accessibility-investment",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Funding and product-development plans were reported November 2.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-02-browsable-accessibility-investment"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "A startup and reported funders committed to an accessibility product.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-02-browsable-accessibility-investment"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Website inconsistency can create cognitive and visual access barriers.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Disabled users, operators, and accessibility professionals.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Native accessible design, browser settings, and assistive technology.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Content simplification via extension or website script.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-02-browsable-accessibility-investment"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "An overlay automatically produces compliant accessible experiences.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Controlled testing finds no benefit or harms assistive technology.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Primary award records, beta outcomes, and WCAG/user testing.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "An early financing milestone rather than a proven accessible product.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "An overlay automatically produces compliant accessible experiences.",
+      "falsifier": "Controlled testing finds no benefit or harms assistive technology.",
+      "missingEvidence": [
+        "Primary award records, beta outcomes, and WCAG/user testing."
+      ],
+      "alternativeExplanation": "An early financing milestone rather than a proven accessible product.",
+      "disposition": "experiment",
+      "confidence": 0.77
+    },
+    {
+      "assessmentId": "socratic:2026-11-02-uk-industrial-sites-funding",
+      "observationId": "obs:2026-11-02-uk-industrial-sites-funding",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "UK announced a new GBP 700 million site development program.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-02-uk-industrial-sites-funding"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Government and local authorities described funding and delivery roles.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-02-uk-industrial-sites-funding"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Grid, planning and financing can block viable industrial sites.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Developers, investors, local authorities and communities.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing planning portals and project management.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Blended finance and technical assistance address specific constraints.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-02-uk-industrial-sites-funding"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "The announcement creates accessible consultancy procurement.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Awards occur without any external visualization or audit need.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Tender documents, site selection, and realized outcomes.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Conventional industrial development support rather than new digital services.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "The announcement creates accessible consultancy procurement.",
+      "falsifier": "Awards occur without any external visualization or audit need.",
+      "missingEvidence": [
+        "Tender documents, site selection, and realized outcomes."
+      ],
+      "alternativeExplanation": "Conventional industrial development support rather than new digital services.",
+      "disposition": "watch",
+      "confidence": 0.97
+    },
+    {
+      "assessmentId": "socratic:2026-11-02-uk-digit-interoperability",
+      "observationId": "obs:2026-11-02-uk-digit-interoperability",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Government assigned six bank roles and approved an inter-depository link.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-02-uk-digit-interoperability"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Treasury, central bank and named banks took preparatory actions.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-02-uk-digit-interoperability"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Digital securities platform fragmentation can impede investor access.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Issuers, investors, banks, and regulators.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Conventional bonds and single-platform settlement.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Assigned lead-manager responsibilities plus an approved depository link.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:2026-11-02-uk-digit-interoperability"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Approval is equivalent to successful pilot issuance.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Live settlement fails or investor access remains fragmented.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Settlement receipts, adoption, and independent interoperability tests.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "A preparatory milestone without demonstrated production impact.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Approval is equivalent to successful pilot issuance.",
+      "falsifier": "Live settlement fails or investor access remains fragmented.",
+      "missingEvidence": [
+        "Settlement receipts, adoption, and independent interoperability tests."
+      ],
+      "alternativeExplanation": "A preparatory milestone without demonstrated production impact.",
+      "disposition": "watch",
+      "confidence": 0.97
+    }
+  ],
+  "advisory": {
+    "consultancyImplications": {
+      "obs:2026-11-02-trigger-secret-exposure": {
+        "clientProblem": "Managed workflow secrets may cross unauthorized access boundaries.",
+        "serviceHypothesis": "A permissioned audit of secrets boundaries and recovery receipts may be valuable to clients running managed agent workflows.",
+        "actorBehavior": "On November 1 Trigger.dev reported an incident in which an attacker accessed environment variables for a subset of organizations.",
+        "sourceClass": "primary",
+        "confidence": 0.96,
+        "thesisMovement": "reinforces"
+      },
+      "obs:2026-11-02-mit-nanoparticle-ligands": {
+        "clientProblem": "Rigid or bespoke linkers constrain accessible nanoparticle structures.",
+        "serviceHypothesis": "Scientific mechanism visualization could explain structural parameters while preserving evidence and attribution boundaries.",
+        "actorBehavior": "MIT published a November 2 account of a Nature Materials study on flexible charged ligand-mediated nanoparticle assembly.",
+        "sourceClass": "research",
+        "confidence": 0.94,
+        "thesisMovement": "refines"
+      },
+      "obs:2026-11-02-browsable-accessibility-investment": {
+        "clientProblem": "Website inconsistency can create cognitive and visual access barriers.",
+        "serviceHypothesis": "Accessible interface audits remain a more defensible service than relying on a third-party overlay.",
+        "actorBehavior": "A November 2 report states BrowsAble received a GBP 150,000 Innovate UK grant matched by EHE Group investment.",
+        "sourceClass": "press",
+        "confidence": 0.77,
+        "thesisMovement": "reinforces"
+      },
+      "obs:2026-11-02-uk-industrial-sites-funding": {
+        "clientProblem": "Grid, planning and financing can block viable industrial sites.",
+        "serviceHypothesis": "Civic infrastructure constraint maps and evidence ledgers could be a future consultancy demonstration.",
+        "actorBehavior": "On November 2 the UK government announced about GBP 700 million in blended finance, targeted grants and technical support.",
+        "sourceClass": "official",
+        "confidence": 0.97,
+        "thesisMovement": "reinforces"
+      },
+      "obs:2026-11-02-uk-digit-interoperability": {
+        "clientProblem": "Digital securities platform fragmentation can impede investor access.",
+        "serviceHypothesis": "Cross-platform actor roles and settlement evidence are a reference model for governed interoperability.",
+        "actorBehavior": "On November 2 HM Treasury allocated roles among six banks preparing the DIGIT digitally native gilt pilot.",
+        "sourceClass": "regulatory",
+        "confidence": 0.97,
+        "thesisMovement": "refines"
+      }
+    },
+    "projectDispositionImplications": {
+      "obs:2026-11-02-trigger-secret-exposure": "CORE Seed Loom; INCUBATE Agent Runtime Control Center",
+      "obs:2026-11-02-mit-nanoparticle-ligands": "REFERENCE-ONLY Shader Grammar/Gallery; INCUBATE Omni-Loom",
+      "obs:2026-11-02-browsable-accessibility-investment": "PRODUCTIZE Mochi UI and Melodyfire QA; REFERENCE-ONLY FLORÉ",
+      "obs:2026-11-02-uk-industrial-sites-funding": "CORE Seed Loom; INCUBATE Omni-Loom",
+      "obs:2026-11-02-uk-digit-interoperability": "CORE Seed Loom; REFERENCE-ONLY Agent Runtime Control Center"
+    },
+    "repositoryWatch": [
+      {
+        "repository": "MelodicBloom/seed-loom",
+        "classification": "CORE",
+        "evidence": "PR #77 merged on main; PR #76 draft; nightly ingest bridge inspected.",
+        "next": "Complete Issue #24 clean-ref CI artifact and preserve candidate boundary."
+      },
+      {
+        "repository": "MelodicBloom/shader-gallery",
+        "classification": "PRODUCTIZE",
+        "evidence": "PR #42 and #44 draft plan-only; #40 open.",
+        "next": "Owner-gated reversible SVG/GLSL seam and WebGL visual receipts before implementation/merge."
+      },
+      {
+        "repository": "MelodicBloom/melodyfire",
+        "classification": "PRODUCTIZE",
+        "evidence": "PR #11 merged November 2; #10 remains a separate security boundary.",
+        "next": "Browser touch/keyboard/reduced-motion acceptance and authorized RLS tests."
+      },
+      {
+        "repository": "MelodicBloom/mochi-ui",
+        "classification": "PRODUCTIZE",
+        "evidence": "PR #9 merged November 2.",
+        "next": "Verify published /mochi-ui/ root, CSS/JS, assets and deep links."
+      },
+      {
+        "repository": "MelodicBloom/agent-runtime-control-center",
+        "classification": "INCUBATE",
+        "evidence": "PR #16 draft and read/propose only.",
+        "next": "Phase 0 registry and ledger without Seed Loom authority duplication."
+      },
+      {
+        "repository": "MelodicBloom/shader-grammar",
+        "classification": "CORE",
+        "evidence": "Distinct optical operator ontology.",
+        "next": "Mechanism research note without shader physics overclaim."
+      },
+      {
+        "repository": "MelodicBloom/omni-loom",
+        "classification": "INCUBATE",
+        "evidence": "Existing software deterministic specimen, no new physical validation.",
+        "next": "Repeatable physical evidence gate before production claims."
+      },
+      {
+        "repository": "MelodicBloom/kozo-dreams",
+        "classification": "INCUBATE",
+        "evidence": "No new completion receipt.",
+        "next": "One bounded visual acceptance and onboarding correction."
+      },
+      {
+        "repository": "MelodicBloom/lithomemphis",
+        "classification": "CONSOLIDATE",
+        "evidence": "Static specimen distinct from functioning community.",
+        "next": "Preserve separate identity, reconcile documentation only."
+      },
+      {
+        "repository": "MelodicBloom/aether",
+        "classification": "REFERENCE-ONLY",
+        "evidence": "No new verified WebGL lifecycle result.",
+        "next": "Capture browser lifecycle proof."
+      },
+      {
+        "repository": "qt314wink/observation-ad-pipeline",
+        "classification": "PRODUCTIZE",
+        "evidence": "No verified paid client delivery.",
+        "next": "One rights-cleared before/after specimen with measurable production costs."
+      }
+    ],
+    "strategyRecommendations": [
+      "Package permissioned agent secrets and recovery evidence audit.",
+      "Productize native accessibility and browser QA for existing merged demos.",
+      "Keep civic funding and nanoparticle mechanism work as research until buyer and performance evidence."
+    ],
+    "proposedExperiments": [
+      "Synthetic secret-exposure and credential-rotation receipt comparison; not executed.",
+      "Native accessibility and reduced-motion QA on one existing demo; not executed."
+    ],
+    "archiveCandidates": [],
+    "killCandidates": [],
+    "oneToIgnore": "Do not build a securities tokenization product because of the DIGIT pilot.",
+    "unresolvedTension": "Evidence integrity versus low-friction client delivery.",
+    "missingEvidenceClass": "Independent buyer procurement, paid pilots, measured error reduction.",
+    "humanDecisions": [
+      "Authorize synthetic secrets audit demonstration.",
+      "Choose agent governance versus accessible browser QA as first commercial offer.",
+      "Choose one physical Omni-Loom or visual Shader Gallery proof sprint."
+    ],
+    "keyQuestion": "Which permissioned client or existing specimen can demonstrate a measurable review or reliability improvement within two weeks?"
+  }
+}
