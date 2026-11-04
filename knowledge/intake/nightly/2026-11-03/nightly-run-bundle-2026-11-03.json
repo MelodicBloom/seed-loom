@@ -1,0 +1,1278 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly-2026-11-03",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-11-02T00:12:00Z",
+      "to": "2026-11-04T00:12:00Z"
+    },
+    "newObservations": [
+      "obs:2026-11-03-sovereign-agent-threat",
+      "obs:2026-11-03-eu-sovereign-compute",
+      "obs:2026-11-03-drax-data-centre",
+      "obs:2026-11-03-meta-ai-bonds",
+      "obs:2026-11-03-lhcb-rare-decay"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [
+      "Authorization and evidence boundaries across agent infrastructure and scientific claims"
+    ],
+    "newRelationships": [
+      "rel:2026-11-03-sovereign-agent-threat",
+      "rel:2026-11-03-eu-sovereign-compute",
+      "rel:2026-11-03-drax-data-centre",
+      "rel:2026-11-03-meta-ai-bonds",
+      "rel:2026-11-03-lhcb-rare-decay"
+    ],
+    "contradictions": [
+      "Market announcements do not establish measured outcomes."
+    ],
+    "opportunities": [
+      "Governed agent permission audit",
+      "Energy infrastructure evidence map",
+      "Scientific evidence-state visualization"
+    ],
+    "proposedExperiments": [
+      "Synthetic agent shutdown and authority receipt matrix",
+      "Evidence-versus-confirmation scientific visualization"
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/seed-loom",
+        "path": "docs/strategy-genesis/",
+        "action": "Draft evidence-boundary service one-pager only after owner approval."
+      }
+    ],
+    "noChangeReceipts": [
+      "No verified paid consultancy client or new deployment proof.",
+      "No archive or kill decision warranted."
+    ],
+    "collectionFailures": [
+      "Original source-body hashes unavailable.",
+      "Exact publication hours unverified.",
+      "Independent procurement and physical validation unavailable.",
+      "Repository-wide PR, branch drift and CI checks incomplete."
+    ]
+  },
+  "sources": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-03-sovereign-agent-threat",
+      "type": "Source",
+      "url": "https://www.axios.com/2026/11/03/ai-sovereign-agents-security-threat",
+      "publisher": "Axios",
+      "retrievedAt": "2026-11-04T00:12:00Z",
+      "publishedAt": "2026-11-03T12:00:00Z",
+      "sourceClass": "press",
+      "independenceKey": "axios",
+      "contentHash": null,
+      "title": "sovereign agent threat",
+      "analystNote": "Publication timestamp is date-level; exact publication hour unverified. Source-body digest unavailable."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-03-eu-sovereign-compute",
+      "type": "Source",
+      "url": "https://www.reuters.com/business/retail-consumer/schwarz-digits-bull-partner-up-build-european-ai-computing-services-2026-11-03/",
+      "publisher": "Reuters",
+      "retrievedAt": "2026-11-04T00:12:00Z",
+      "publishedAt": "2026-11-03T12:00:00Z",
+      "sourceClass": "press",
+      "independenceKey": "reuters",
+      "contentHash": null,
+      "title": "eu sovereign compute",
+      "analystNote": "Publication timestamp is date-level; exact publication hour unverified. Source-body digest unavailable."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-03-drax-data-centre",
+      "type": "Source",
+      "url": "https://www.reuters.com/business/uks-drax-signs-data-centre-deal-with-brookfield-radiant-2026-11-03/",
+      "publisher": "Reuters",
+      "retrievedAt": "2026-11-04T00:12:00Z",
+      "publishedAt": "2026-11-03T12:00:00Z",
+      "sourceClass": "press",
+      "independenceKey": "reuters",
+      "contentHash": null,
+      "title": "drax data centre",
+      "analystNote": "Publication timestamp is date-level; exact publication hour unverified. Source-body digest unavailable."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-03-meta-ai-bonds",
+      "type": "Source",
+      "url": "https://www.reuters.com/technology/meta-raises-15-billion-in-five-part-us-bond-sale-2026-11-03/",
+      "publisher": "Reuters",
+      "retrievedAt": "2026-11-04T00:12:00Z",
+      "publishedAt": "2026-11-03T12:00:00Z",
+      "sourceClass": "financial",
+      "independenceKey": "reuters",
+      "contentHash": null,
+      "title": "meta ai bonds",
+      "analystNote": "Publication timestamp is date-level; exact publication hour unverified. Source-body digest unavailable."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:2026-11-03-lhcb-rare-decay",
+      "type": "Source",
+      "url": "https://home.cern/lhcb-finds-evidence-of-one-in-ten-billion-particle-decay/",
+      "publisher": "CERN",
+      "retrievedAt": "2026-11-04T00:12:00Z",
+      "publishedAt": "2026-11-03T12:00:00Z",
+      "sourceClass": "research",
+      "independenceKey": "cern",
+      "contentHash": null,
+      "title": "lhcb rare decay",
+      "analystNote": "Publication timestamp is date-level; exact publication hour unverified. Source-body digest unavailable."
+    }
+  ],
+  "observations": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:2026-11-03-sovereign-agent-threat",
+      "type": "Observation",
+      "capturedAt": "2026-11-04T00:12:00Z",
+      "claim": "November 3 reporting describes a CNAS warning about hypothetical self-sustaining autonomous agents, not demonstrated self-funding independent systems.",
+      "verifiedFacts": [
+        "November 3 reporting describes a CNAS warning about hypothetical self-sustaining autonomous agents, not demonstrated self-funding independent systems.",
+        "Researchers published a risk analysis; current examples are not confirmed sovereign agents."
+      ],
+      "inference": [
+        "Governed agent shutdown, authority and budget receipts are testable consultancy boundaries.",
+        "Consultancy implication is advisory only; no buyer purchase, engagement, or independent deployment outcome established.",
+        "Project disposition is a proposal, not an accepted repository action."
+      ],
+      "significance": "Governed agent shutdown, authority and budget receipts are testable consultancy boundaries.",
+      "confidence": 0.82,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:2026-11-03-sovereign-agent-threat"
+      ],
+      "actorRefs": [
+        "Axios"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/agent-runtime-control-center"
+      ],
+      "assumptions": [
+        "Reported source scope is accurate; business demand not established."
+      ],
+      "knownLimitations": [
+        "Primary underlying evidence may be incomplete.",
+        "Independent buyer behavior and measured outcomes unavailable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:2026-11-03-eu-sovereign-compute",
+      "type": "Observation",
+      "capturedAt": "2026-11-04T00:12:00Z",
+      "claim": "Schwarz Digits and Bull signed a preliminary agreement for European-jurisdiction AI compute services.",
+      "verifiedFacts": [
+        "Schwarz Digits and Bull signed a preliminary agreement for European-jurisdiction AI compute services.",
+        "Two suppliers signed a preliminary partnership, not a verified operational deployment."
+      ],
+      "inference": [
+        "Jurisdiction, data lineage and supplier roles can become evidence-bearing procurement controls.",
+        "Consultancy implication is advisory only; no buyer purchase, engagement, or independent deployment outcome established.",
+        "Project disposition is a proposal, not an accepted repository action."
+      ],
+      "significance": "Jurisdiction, data lineage and supplier roles can become evidence-bearing procurement controls.",
+      "confidence": 0.92,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:2026-11-03-eu-sovereign-compute"
+      ],
+      "actorRefs": [
+        "Reuters"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/agent-runtime-control-center"
+      ],
+      "assumptions": [
+        "Reported source scope is accurate; business demand not established."
+      ],
+      "knownLimitations": [
+        "Primary underlying evidence may be incomplete.",
+        "Independent buyer behavior and measured outcomes unavailable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:2026-11-03-drax-data-centre",
+      "type": "Observation",
+      "capturedAt": "2026-11-04T00:12:00Z",
+      "claim": "Drax, Brookfield and Radiant announced a proposed UK data-centre development potentially exceeding one gigawatt, subject to approvals.",
+      "verifiedFacts": [
+        "Drax, Brookfield and Radiant announced a proposed UK data-centre development potentially exceeding one gigawatt, subject to approvals.",
+        "Infrastructure and financing actors announced a conditional partnership."
+      ],
+      "inference": [
+        "Energy and environmental evidence mapping should separate planned capacity from built infrastructure.",
+        "Consultancy implication is advisory only; no buyer purchase, engagement, or independent deployment outcome established.",
+        "Project disposition is a proposal, not an accepted repository action."
+      ],
+      "significance": "Energy and environmental evidence mapping should separate planned capacity from built infrastructure.",
+      "confidence": 0.9,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:2026-11-03-drax-data-centre"
+      ],
+      "actorRefs": [
+        "Reuters"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/omni-loom"
+      ],
+      "assumptions": [
+        "Reported source scope is accurate; business demand not established."
+      ],
+      "knownLimitations": [
+        "Primary underlying evidence may be incomplete.",
+        "Independent buyer behavior and measured outcomes unavailable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:2026-11-03-meta-ai-bonds",
+      "type": "Observation",
+      "capturedAt": "2026-11-04T00:12:00Z",
+      "claim": "Meta raised or marketed a reported $15 billion five-part bond transaction to finance AI infrastructure; reporting does not establish project-level returns.",
+      "verifiedFacts": [
+        "Meta raised or marketed a reported $15 billion five-part bond transaction to finance AI infrastructure; reporting does not establish project-level returns.",
+        "A corporate buyer used capital markets to finance AI expansion."
+      ],
+      "inference": [
+        "Capital intensity makes measured cost and resource efficiency commercially important, not automatically accessible consulting revenue.",
+        "Consultancy implication is advisory only; no buyer purchase, engagement, or independent deployment outcome established.",
+        "Project disposition is a proposal, not an accepted repository action."
+      ],
+      "significance": "Capital intensity makes measured cost and resource efficiency commercially important, not automatically accessible consulting revenue.",
+      "confidence": 0.89,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:2026-11-03-meta-ai-bonds"
+      ],
+      "actorRefs": [
+        "Reuters"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/agent-runtime-control-center"
+      ],
+      "assumptions": [
+        "Reported source scope is accurate; business demand not established."
+      ],
+      "knownLimitations": [
+        "Primary underlying evidence may be incomplete.",
+        "Independent buyer behavior and measured outcomes unavailable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:2026-11-03-lhcb-rare-decay",
+      "type": "Observation",
+      "capturedAt": "2026-11-04T00:12:00Z",
+      "claim": "CERN reported LHCb single-experiment evidence for the rare B-d meson decay to two muons at 3.2 sigma with combined historical data; discovery-level 5 sigma has not been reached.",
+      "verifiedFacts": [
+        "CERN reported LHCb single-experiment evidence for the rare B-d meson decay to two muons at 3.2 sigma with combined historical data; discovery-level 5 sigma has not been reached.",
+        "Researchers presented new experimental analysis on November 3."
+      ],
+      "inference": [
+        "An excellent example of distinguishing evidence from confirmation in scientific visual explanations.",
+        "Consultancy implication is advisory only; no buyer purchase, engagement, or independent deployment outcome established.",
+        "Project disposition is a proposal, not an accepted repository action."
+      ],
+      "significance": "An excellent example of distinguishing evidence from confirmation in scientific visual explanations.",
+      "confidence": 0.97,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:2026-11-03-lhcb-rare-decay"
+      ],
+      "actorRefs": [
+        "CERN"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/shader-grammar",
+        "MelodicBloom/shader-gallery"
+      ],
+      "assumptions": [
+        "Reported source scope is accurate; business demand not established."
+      ],
+      "knownLimitations": [
+        "Primary underlying evidence may be incomplete.",
+        "Independent buyer behavior and measured outcomes unavailable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:2026-11-03-sovereign-agent-threat",
+      "type": "Relationship",
+      "from": "obs:2026-11-03-sovereign-agent-threat",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-11-03-sovereign-agent-threat",
+      "confidence": 0.82,
+      "evidenceRefs": [
+        "source:2026-11-03-sovereign-agent-threat"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:2026-11-03-eu-sovereign-compute",
+      "type": "Relationship",
+      "from": "obs:2026-11-03-eu-sovereign-compute",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-11-03-eu-sovereign-compute",
+      "confidence": 0.92,
+      "evidenceRefs": [
+        "source:2026-11-03-eu-sovereign-compute"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:2026-11-03-drax-data-centre",
+      "type": "Relationship",
+      "from": "obs:2026-11-03-drax-data-centre",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-11-03-drax-data-centre",
+      "confidence": 0.9,
+      "evidenceRefs": [
+        "source:2026-11-03-drax-data-centre"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:2026-11-03-meta-ai-bonds",
+      "type": "Relationship",
+      "from": "obs:2026-11-03-meta-ai-bonds",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-11-03-meta-ai-bonds",
+      "confidence": 0.89,
+      "evidenceRefs": [
+        "source:2026-11-03-meta-ai-bonds"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:2026-11-03-lhcb-rare-decay",
+      "type": "Relationship",
+      "from": "obs:2026-11-03-lhcb-rare-decay",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:2026-11-03-lhcb-rare-decay",
+      "confidence": 0.97,
+      "evidenceRefs": [
+        "source:2026-11-03-lhcb-rare-decay"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-03-collect",
+      "runId": "run:nightly-2026-11-03",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-11-04T00:12:00Z",
+      "completedAt": "2026-11-04T00:12:00Z",
+      "inputs": [
+        "https://www.axios.com/2026/11/03/ai-sovereign-agents-security-threat",
+        "https://www.reuters.com/business/retail-consumer/schwarz-digits-bull-partner-up-build-european-ai-computing-services-2026-11-03/",
+        "https://www.reuters.com/business/uks-drax-signs-data-centre-deal-with-brookfield-radiant-2026-11-03/",
+        "https://www.reuters.com/technology/meta-raises-15-billion-in-five-part-us-bond-sale-2026-11-03/",
+        "https://home.cern/lhcb-finds-evidence-of-one-in-ten-billion-particle-decay/"
+      ],
+      "outputs": [
+        "obs:2026-11-03-sovereign-agent-threat",
+        "obs:2026-11-03-eu-sovereign-compute",
+        "obs:2026-11-03-drax-data-centre",
+        "obs:2026-11-03-meta-ai-bonds",
+        "obs:2026-11-03-lhcb-rare-decay"
+      ],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "pass",
+          "detail": "Source URLs and candidate claims captured; no independent body hashes."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, publication, experiment execution or Genesis promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "web-source review and candidate classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-03-vet",
+      "runId": "run:nightly-2026-11-03",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-11-04T00:12:00Z",
+      "completedAt": "2026-11-04T00:12:00Z",
+      "inputs": [
+        "run:nightly-2026-11-03"
+      ],
+      "outputs": [
+        "obs:2026-11-03-sovereign-agent-threat",
+        "obs:2026-11-03-eu-sovereign-compute",
+        "obs:2026-11-03-drax-data-centre",
+        "obs:2026-11-03-meta-ai-bonds",
+        "obs:2026-11-03-lhcb-rare-decay"
+      ],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "pass",
+          "detail": "Source URLs and candidate claims captured; no independent body hashes."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No acceptance, publication, experiment execution or Genesis promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "web-source review and candidate classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-03-normalize",
+      "runId": "run:nightly-2026-11-03",
+      "stage": "normalize",
+      "status": "deferred",
+      "startedAt": "2026-11-04T00:12:00Z",
+      "completedAt": "2026-11-04T00:12:00Z",
+      "inputs": [
+        "run:nightly-2026-11-03"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Downstream promotion deferred to canonical ingest and human review."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, publication, experiment execution or Genesis promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "web-source review and candidate classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-03-observe",
+      "runId": "run:nightly-2026-11-03",
+      "stage": "observe",
+      "status": "deferred",
+      "startedAt": "2026-11-04T00:12:00Z",
+      "completedAt": "2026-11-04T00:12:00Z",
+      "inputs": [
+        "run:nightly-2026-11-03"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Downstream promotion deferred to canonical ingest and human review."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, publication, experiment execution or Genesis promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "web-source review and candidate classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-03-inquire",
+      "runId": "run:nightly-2026-11-03",
+      "stage": "inquire",
+      "status": "deferred",
+      "startedAt": "2026-11-04T00:12:00Z",
+      "completedAt": "2026-11-04T00:12:00Z",
+      "inputs": [
+        "run:nightly-2026-11-03"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Downstream promotion deferred to canonical ingest and human review."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, publication, experiment execution or Genesis promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "web-source review and candidate classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-03-interpret",
+      "runId": "run:nightly-2026-11-03",
+      "stage": "interpret",
+      "status": "deferred",
+      "startedAt": "2026-11-04T00:12:00Z",
+      "completedAt": "2026-11-04T00:12:00Z",
+      "inputs": [
+        "run:nightly-2026-11-03"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Downstream promotion deferred to canonical ingest and human review."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, publication, experiment execution or Genesis promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "web-source review and candidate classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-03-relate",
+      "runId": "run:nightly-2026-11-03",
+      "stage": "relate",
+      "status": "deferred",
+      "startedAt": "2026-11-04T00:12:00Z",
+      "completedAt": "2026-11-04T00:12:00Z",
+      "inputs": [
+        "run:nightly-2026-11-03"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Downstream promotion deferred to canonical ingest and human review."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, publication, experiment execution or Genesis promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "web-source review and candidate classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-03-pattern",
+      "runId": "run:nightly-2026-11-03",
+      "stage": "pattern",
+      "status": "no-change",
+      "startedAt": "2026-11-04T00:12:00Z",
+      "completedAt": "2026-11-04T00:12:00Z",
+      "inputs": [
+        "run:nightly-2026-11-03"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Downstream promotion deferred to canonical ingest and human review."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, publication, experiment execution or Genesis promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "web-source review and candidate classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-03-opportunity",
+      "runId": "run:nightly-2026-11-03",
+      "stage": "opportunity",
+      "status": "deferred",
+      "startedAt": "2026-11-04T00:12:00Z",
+      "completedAt": "2026-11-04T00:12:00Z",
+      "inputs": [
+        "run:nightly-2026-11-03"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Downstream promotion deferred to canonical ingest and human review."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, publication, experiment execution or Genesis promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "web-source review and candidate classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-03-strategy",
+      "runId": "run:nightly-2026-11-03",
+      "stage": "strategy",
+      "status": "deferred",
+      "startedAt": "2026-11-04T00:12:00Z",
+      "completedAt": "2026-11-04T00:12:00Z",
+      "inputs": [
+        "run:nightly-2026-11-03"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Downstream promotion deferred to canonical ingest and human review."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, publication, experiment execution or Genesis promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "web-source review and candidate classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-03-experiment",
+      "runId": "run:nightly-2026-11-03",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-11-04T00:12:00Z",
+      "completedAt": "2026-11-04T00:12:00Z",
+      "inputs": [
+        "run:nightly-2026-11-03"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Downstream promotion deferred to canonical ingest and human review."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, publication, experiment execution or Genesis promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "web-source review and candidate classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-03-genesis",
+      "runId": "run:nightly-2026-11-03",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-11-04T00:12:00Z",
+      "completedAt": "2026-11-04T00:12:00Z",
+      "inputs": [
+        "run:nightly-2026-11-03"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Downstream promotion deferred to canonical ingest and human review."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, publication, experiment execution or Genesis promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "web-source review and candidate classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:2026-11-03-publish",
+      "runId": "run:nightly-2026-11-03",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-11-04T00:12:00Z",
+      "completedAt": "2026-11-04T00:12:00Z",
+      "inputs": [
+        "run:nightly-2026-11-03"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Downstream promotion deferred to canonical ingest and human review."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No acceptance, publication, experiment execution or Genesis promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-consultancy-intelligence",
+        "method": "web-source review and candidate classification",
+        "inputHashes": []
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:2026-11-03-sovereign-agent-threat",
+      "observationId": "obs:2026-11-03-sovereign-agent-threat",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "November 3 reporting describes a CNAS warning about hypothetical self-sustaining autonomous agents, not demonstrated self-funding independent systems.",
+          "evidenceRefs": [
+            "source:2026-11-03-sovereign-agent-threat"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Researchers published a risk analysis; current examples are not confirmed sovereign agents.",
+          "evidenceRefs": [
+            "source:2026-11-03-sovereign-agent-threat"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A documented event; commercial demand remains unproven.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential operators, reviewers and affected stakeholders.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing manual research, audit and conventional tooling.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Governed agent shutdown, authority and budget receipts are testable consultancy boundaries.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "That this development translates to demand for the proposed service.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "A measured comparison showing no decision-quality or efficiency gain.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Buyer interviews, independent operational metrics, and source-body hashes.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Normal industry evolution without a distinct consultancy opportunity.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Market interest is not proven by publication or announcement.",
+      "falsifier": "Independent buyer validation or performance comparisons contradict the opportunity hypothesis.",
+      "missingEvidence": [
+        "Buyer procurement and willingness to pay",
+        "Independent deployment or experimental replication"
+      ],
+      "alternativeExplanation": "Ordinary industry development without demand for this consultancy.",
+      "disposition": "watch",
+      "confidence": 0.82
+    },
+    {
+      "assessmentId": "socratic:2026-11-03-eu-sovereign-compute",
+      "observationId": "obs:2026-11-03-eu-sovereign-compute",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Schwarz Digits and Bull signed a preliminary agreement for European-jurisdiction AI compute services.",
+          "evidenceRefs": [
+            "source:2026-11-03-eu-sovereign-compute"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Two suppliers signed a preliminary partnership, not a verified operational deployment.",
+          "evidenceRefs": [
+            "source:2026-11-03-eu-sovereign-compute"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A documented event; commercial demand remains unproven.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential operators, reviewers and affected stakeholders.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing manual research, audit and conventional tooling.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Jurisdiction, data lineage and supplier roles can become evidence-bearing procurement controls.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "That this development translates to demand for the proposed service.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "A measured comparison showing no decision-quality or efficiency gain.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Buyer interviews, independent operational metrics, and source-body hashes.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Normal industry evolution without a distinct consultancy opportunity.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Market interest is not proven by publication or announcement.",
+      "falsifier": "Independent buyer validation or performance comparisons contradict the opportunity hypothesis.",
+      "missingEvidence": [
+        "Buyer procurement and willingness to pay",
+        "Independent deployment or experimental replication"
+      ],
+      "alternativeExplanation": "Ordinary industry development without demand for this consultancy.",
+      "disposition": "watch",
+      "confidence": 0.92
+    },
+    {
+      "assessmentId": "socratic:2026-11-03-drax-data-centre",
+      "observationId": "obs:2026-11-03-drax-data-centre",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Drax, Brookfield and Radiant announced a proposed UK data-centre development potentially exceeding one gigawatt, subject to approvals.",
+          "evidenceRefs": [
+            "source:2026-11-03-drax-data-centre"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Infrastructure and financing actors announced a conditional partnership.",
+          "evidenceRefs": [
+            "source:2026-11-03-drax-data-centre"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A documented event; commercial demand remains unproven.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential operators, reviewers and affected stakeholders.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing manual research, audit and conventional tooling.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Energy and environmental evidence mapping should separate planned capacity from built infrastructure.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "That this development translates to demand for the proposed service.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "A measured comparison showing no decision-quality or efficiency gain.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Buyer interviews, independent operational metrics, and source-body hashes.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Normal industry evolution without a distinct consultancy opportunity.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Market interest is not proven by publication or announcement.",
+      "falsifier": "Independent buyer validation or performance comparisons contradict the opportunity hypothesis.",
+      "missingEvidence": [
+        "Buyer procurement and willingness to pay",
+        "Independent deployment or experimental replication"
+      ],
+      "alternativeExplanation": "Ordinary industry development without demand for this consultancy.",
+      "disposition": "watch",
+      "confidence": 0.9
+    },
+    {
+      "assessmentId": "socratic:2026-11-03-meta-ai-bonds",
+      "observationId": "obs:2026-11-03-meta-ai-bonds",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Meta raised or marketed a reported $15 billion five-part bond transaction to finance AI infrastructure; reporting does not establish project-level returns.",
+          "evidenceRefs": [
+            "source:2026-11-03-meta-ai-bonds"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "A corporate buyer used capital markets to finance AI expansion.",
+          "evidenceRefs": [
+            "source:2026-11-03-meta-ai-bonds"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A documented event; commercial demand remains unproven.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential operators, reviewers and affected stakeholders.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing manual research, audit and conventional tooling.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Capital intensity makes measured cost and resource efficiency commercially important, not automatically accessible consulting revenue.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "That this development translates to demand for the proposed service.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "A measured comparison showing no decision-quality or efficiency gain.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Buyer interviews, independent operational metrics, and source-body hashes.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Normal industry evolution without a distinct consultancy opportunity.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Market interest is not proven by publication or announcement.",
+      "falsifier": "Independent buyer validation or performance comparisons contradict the opportunity hypothesis.",
+      "missingEvidence": [
+        "Buyer procurement and willingness to pay",
+        "Independent deployment or experimental replication"
+      ],
+      "alternativeExplanation": "Ordinary industry development without demand for this consultancy.",
+      "disposition": "watch",
+      "confidence": 0.89
+    },
+    {
+      "assessmentId": "socratic:2026-11-03-lhcb-rare-decay",
+      "observationId": "obs:2026-11-03-lhcb-rare-decay",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "CERN reported LHCb single-experiment evidence for the rare B-d meson decay to two muons at 3.2 sigma with combined historical data; discovery-level 5 sigma has not been reached.",
+          "evidenceRefs": [
+            "source:2026-11-03-lhcb-rare-decay"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Researchers presented new experimental analysis on November 3.",
+          "evidenceRefs": [
+            "source:2026-11-03-lhcb-rare-decay"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A documented event; commercial demand remains unproven.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential operators, reviewers and affected stakeholders.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing manual research, audit and conventional tooling.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "An excellent example of distinguishing evidence from confirmation in scientific visual explanations.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "That this development translates to demand for the proposed service.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "A measured comparison showing no decision-quality or efficiency gain.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Buyer interviews, independent operational metrics, and source-body hashes.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Normal industry evolution without a distinct consultancy opportunity.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Market interest is not proven by publication or announcement.",
+      "falsifier": "Independent buyer validation or performance comparisons contradict the opportunity hypothesis.",
+      "missingEvidence": [
+        "Buyer procurement and willingness to pay",
+        "Independent deployment or experimental replication"
+      ],
+      "alternativeExplanation": "Ordinary industry development without demand for this consultancy.",
+      "disposition": "watch",
+      "confidence": 0.97
+    }
+  ]
+}
