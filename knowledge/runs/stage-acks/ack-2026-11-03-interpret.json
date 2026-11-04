@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:2026-11-03-interpret",
+  "runId": "run:nightly-2026-11-03",
+  "stage": "interpret",
+  "status": "deferred",
+  "startedAt": "2026-11-04T00:12:00Z",
+  "completedAt": "2026-11-04T00:12:00Z",
+  "inputs": [
+    "run:nightly-2026-11-03"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "capture-boundary",
+      "result": "not-applicable",
+      "detail": "Downstream promotion deferred to canonical ingest and human review."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "No acceptance, publication, experiment execution or Genesis promotion."
+    ]
+  },
+  "provenance": {
+    "producer": "nightly-consultancy-intelligence",
+    "method": "web-source review and candidate classification",
+    "inputHashes": []
+  }
+}

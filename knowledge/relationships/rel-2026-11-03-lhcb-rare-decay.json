@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:2026-11-03-lhcb-rare-decay",
+  "type": "Relationship",
+  "from": "obs:2026-11-03-lhcb-rare-decay",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:2026-11-03-lhcb-rare-decay",
+  "confidence": 0.97,
+  "evidenceRefs": [
+    "source:2026-11-03-lhcb-rare-decay"
+  ]
+}

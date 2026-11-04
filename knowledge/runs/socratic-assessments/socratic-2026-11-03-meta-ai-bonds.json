@@ -1,0 +1,91 @@
+{
+  "assessmentId": "socratic:2026-11-03-meta-ai-bonds",
+  "observationId": "obs:2026-11-03-meta-ai-bonds",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Meta raised or marketed a reported $15 billion five-part bond transaction to finance AI infrastructure; reporting does not establish project-level returns.",
+      "evidenceRefs": [
+        "source:2026-11-03-meta-ai-bonds"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "A corporate buyer used capital markets to finance AI expansion.",
+      "evidenceRefs": [
+        "source:2026-11-03-meta-ai-bonds"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "A documented event; commercial demand remains unproven.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Potential operators, reviewers and affected stakeholders.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing manual research, audit and conventional tooling.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Capital intensity makes measured cost and resource efficiency commercially important, not automatically accessible consulting revenue.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "That this development translates to demand for the proposed service.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "A measured comparison showing no decision-quality or efficiency gain.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Buyer interviews, independent operational metrics, and source-body hashes.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Normal industry evolution without a distinct consultancy opportunity.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Market interest is not proven by publication or announcement.",
+  "falsifier": "Independent buyer validation or performance comparisons contradict the opportunity hypothesis.",
+  "missingEvidence": [
+    "Buyer procurement and willingness to pay",
+    "Independent deployment or experimental replication"
+  ],
+  "alternativeExplanation": "Ordinary industry development without demand for this consultancy.",
+  "disposition": "watch",
+  "confidence": 0.89
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:2026-11-03-collect",
+  "runId": "run:nightly-2026-11-03",
+  "stage": "collect",
+  "status": "passed",
+  "startedAt": "2026-11-04T00:12:00Z",
+  "completedAt": "2026-11-04T00:12:00Z",
+  "inputs": [
+    "https://www.axios.com/2026/11/03/ai-sovereign-agents-security-threat",
+    "https://www.reuters.com/business/retail-consumer/schwarz-digits-bull-partner-up-build-european-ai-computing-services-2026-11-03/",
+    "https://www.reuters.com/business/uks-drax-signs-data-centre-deal-with-brookfield-radiant-2026-11-03/",
+    "https://www.reuters.com/technology/meta-raises-15-billion-in-five-part-us-bond-sale-2026-11-03/",
+    "https://home.cern/lhcb-finds-evidence-of-one-in-ten-billion-particle-decay/"
+  ],
+  "outputs": [
+    "obs:2026-11-03-sovereign-agent-threat",
+    "obs:2026-11-03-eu-sovereign-compute",
+    "obs:2026-11-03-drax-data-centre",
+    "obs:2026-11-03-meta-ai-bonds",
+    "obs:2026-11-03-lhcb-rare-decay"
+  ],
+  "checks": [
+    {
+      "name": "capture-boundary",
+      "result": "pass",
+      "detail": "Source URLs and candidate claims captured; no independent body hashes."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "No acceptance, publication, experiment execution or Genesis promotion."
+    ]
+  },
+  "provenance": {
+    "producer": "nightly-consultancy-intelligence",
+    "method": "web-source review and candidate classification",
+    "inputHashes": []
+  }
+}

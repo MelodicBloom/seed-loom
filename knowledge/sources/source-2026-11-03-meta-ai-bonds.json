@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:2026-11-03-meta-ai-bonds",
+  "type": "Source",
+  "url": "https://www.reuters.com/technology/meta-raises-15-billion-in-five-part-us-bond-sale-2026-11-03/",
+  "publisher": "Reuters",
+  "retrievedAt": "2026-11-04T00:12:00Z",
+  "publishedAt": "2026-11-03T12:00:00Z",
+  "sourceClass": "financial",
+  "independenceKey": "reuters",
+  "contentHash": null,
+  "title": "meta ai bonds",
+  "analystNote": "Publication timestamp is date-level; exact publication hour unverified. Source-body digest unavailable."
+}

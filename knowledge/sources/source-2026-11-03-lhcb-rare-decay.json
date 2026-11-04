@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:2026-11-03-lhcb-rare-decay",
+  "type": "Source",
+  "url": "https://home.cern/lhcb-finds-evidence-of-one-in-ten-billion-particle-decay/",
+  "publisher": "CERN",
+  "retrievedAt": "2026-11-04T00:12:00Z",
+  "publishedAt": "2026-11-03T12:00:00Z",
+  "sourceClass": "research",
+  "independenceKey": "cern",
+  "contentHash": null,
+  "title": "lhcb rare decay",
+  "analystNote": "Publication timestamp is date-level; exact publication hour unverified. Source-body digest unavailable."
+}

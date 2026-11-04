@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-11-03-eu-sovereign-compute",
+  "type": "Observation",
+  "capturedAt": "2026-11-04T00:12:00Z",
+  "claim": "Schwarz Digits and Bull signed a preliminary agreement for European-jurisdiction AI compute services.",
+  "verifiedFacts": [
+    "Schwarz Digits and Bull signed a preliminary agreement for European-jurisdiction AI compute services.",
+    "Two suppliers signed a preliminary partnership, not a verified operational deployment."
+  ],
+  "inference": [
+    "Jurisdiction, data lineage and supplier roles can become evidence-bearing procurement controls.",
+    "Consultancy implication is advisory only; no buyer purchase, engagement, or independent deployment outcome established.",
+    "Project disposition is a proposal, not an accepted repository action."
+  ],
+  "significance": "Jurisdiction, data lineage and supplier roles can become evidence-bearing procurement controls.",
+  "confidence": 0.92,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:2026-11-03-eu-sovereign-compute"
+  ],
+  "actorRefs": [
+    "Reuters"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Reported source scope is accurate; business demand not established."
+  ],
+  "knownLimitations": [
+    "Primary underlying evidence may be incomplete.",
+    "Independent buyer behavior and measured outcomes unavailable."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

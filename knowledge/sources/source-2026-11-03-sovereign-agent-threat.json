@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:2026-11-03-sovereign-agent-threat",
+  "type": "Source",
+  "url": "https://www.axios.com/2026/11/03/ai-sovereign-agents-security-threat",
+  "publisher": "Axios",
+  "retrievedAt": "2026-11-04T00:12:00Z",
+  "publishedAt": "2026-11-03T12:00:00Z",
+  "sourceClass": "press",
+  "independenceKey": "axios",
+  "contentHash": null,
+  "title": "sovereign agent threat",
+  "analystNote": "Publication timestamp is date-level; exact publication hour unverified. Source-body digest unavailable."
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-11-03-lhcb-rare-decay",
+  "type": "Observation",
+  "capturedAt": "2026-11-04T00:12:00Z",
+  "claim": "CERN reported LHCb single-experiment evidence for the rare B-d meson decay to two muons at 3.2 sigma with combined historical data; discovery-level 5 sigma has not been reached.",
+  "verifiedFacts": [
+    "CERN reported LHCb single-experiment evidence for the rare B-d meson decay to two muons at 3.2 sigma with combined historical data; discovery-level 5 sigma has not been reached.",
+    "Researchers presented new experimental analysis on November 3."
+  ],
+  "inference": [
+    "An excellent example of distinguishing evidence from confirmation in scientific visual explanations.",
+    "Consultancy implication is advisory only; no buyer purchase, engagement, or independent deployment outcome established.",
+    "Project disposition is a proposal, not an accepted repository action."
+  ],
+  "significance": "An excellent example of distinguishing evidence from confirmation in scientific visual explanations.",
+  "confidence": 0.97,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:2026-11-03-lhcb-rare-decay"
+  ],
+  "actorRefs": [
+    "CERN"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-grammar",
+    "MelodicBloom/shader-gallery"
+  ],
+  "assumptions": [
+    "Reported source scope is accurate; business demand not established."
+  ],
+  "knownLimitations": [
+    "Primary underlying evidence may be incomplete.",
+    "Independent buyer behavior and measured outcomes unavailable."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

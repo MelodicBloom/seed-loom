@@ -1,0 +1,59 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-11-04T00:13:10.705Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly-2026-11-03",
+      "bundlePath": "knowledge/intake/nightly/2026-11-03/nightly-run-bundle-2026-11-03.json",
+      "bundleSha256": "349848dabf69e82739afb213d21c73b7668e2b14f5be988eb6f611f42b967f42",
+      "normalizedDigest": "956737bddb656ce970c825c8194f14e178b0288cb0760d04a98b1e083859977c",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-2026-11-03-sovereign-agent-threat.json",
+        "knowledge/sources/source-2026-11-03-eu-sovereign-compute.json",
+        "knowledge/sources/source-2026-11-03-drax-data-centre.json",
+        "knowledge/sources/source-2026-11-03-meta-ai-bonds.json",
+        "knowledge/sources/source-2026-11-03-lhcb-rare-decay.json",
+        "knowledge/observations/obs-2026-11-03-sovereign-agent-threat.json",
+        "knowledge/observations/obs-2026-11-03-eu-sovereign-compute.json",
+        "knowledge/observations/obs-2026-11-03-drax-data-centre.json",
+        "knowledge/observations/obs-2026-11-03-meta-ai-bonds.json",
+        "knowledge/observations/obs-2026-11-03-lhcb-rare-decay.json",
+        "knowledge/relationships/rel-2026-11-03-sovereign-agent-threat.json",
+        "knowledge/relationships/rel-2026-11-03-eu-sovereign-compute.json",
+        "knowledge/relationships/rel-2026-11-03-drax-data-centre.json",
+        "knowledge/relationships/rel-2026-11-03-meta-ai-bonds.json",
+        "knowledge/relationships/rel-2026-11-03-lhcb-rare-decay.json",
+        "knowledge/runs/run-nightly-2026-11-03.json",
+        "knowledge/runs/stage-acks/ack-2026-11-03-collect.json",
+        "knowledge/runs/stage-acks/ack-2026-11-03-vet.json",
+        "knowledge/runs/stage-acks/ack-2026-11-03-normalize.json",
+        "knowledge/runs/stage-acks/ack-2026-11-03-observe.json",
+        "knowledge/runs/stage-acks/ack-2026-11-03-inquire.json",
+        "knowledge/runs/stage-acks/ack-2026-11-03-interpret.json",
+        "knowledge/runs/stage-acks/ack-2026-11-03-relate.json",
+        "knowledge/runs/stage-acks/ack-2026-11-03-pattern.json",
+        "knowledge/runs/stage-acks/ack-2026-11-03-opportunity.json",
+        "knowledge/runs/stage-acks/ack-2026-11-03-strategy.json",
+        "knowledge/runs/stage-acks/ack-2026-11-03-experiment.json",
+        "knowledge/runs/stage-acks/ack-2026-11-03-genesis.json",
+        "knowledge/runs/stage-acks/ack-2026-11-03-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-11-03-sovereign-agent-threat.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-11-03-eu-sovereign-compute.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-11-03-drax-data-centre.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-11-03-meta-ai-bonds.json",
+        "knowledge/runs/socratic-assessments/socratic-2026-11-03-lhcb-rare-decay.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-11-03-ingest.json",
+      "generatedRecordCount": 34
+    }
+  ]
+}

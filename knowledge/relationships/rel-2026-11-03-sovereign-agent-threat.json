@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:2026-11-03-sovereign-agent-threat",
+  "type": "Relationship",
+  "from": "obs:2026-11-03-sovereign-agent-threat",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:2026-11-03-sovereign-agent-threat",
+  "confidence": 0.82,
+  "evidenceRefs": [
+    "source:2026-11-03-sovereign-agent-threat"
+  ]
+}

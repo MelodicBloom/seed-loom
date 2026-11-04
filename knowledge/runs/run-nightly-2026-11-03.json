@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-11-03",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-11-02T00:12:00Z",
+    "to": "2026-11-04T00:12:00Z"
+  },
+  "newObservations": [
+    "obs:2026-11-03-sovereign-agent-threat",
+    "obs:2026-11-03-eu-sovereign-compute",
+    "obs:2026-11-03-drax-data-centre",
+    "obs:2026-11-03-meta-ai-bonds",
+    "obs:2026-11-03-lhcb-rare-decay"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Authorization and evidence boundaries across agent infrastructure and scientific claims"
+  ],
+  "newRelationships": [
+    "rel:2026-11-03-sovereign-agent-threat",
+    "rel:2026-11-03-eu-sovereign-compute",
+    "rel:2026-11-03-drax-data-centre",
+    "rel:2026-11-03-meta-ai-bonds",
+    "rel:2026-11-03-lhcb-rare-decay"
+  ],
+  "contradictions": [
+    "Market announcements do not establish measured outcomes."
+  ],
+  "opportunities": [
+    "Governed agent permission audit",
+    "Energy infrastructure evidence map",
+    "Scientific evidence-state visualization"
+  ],
+  "proposedExperiments": [
+    "Synthetic agent shutdown and authority receipt matrix",
+    "Evidence-versus-confirmation scientific visualization"
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/seed-loom",
+      "path": "docs/strategy-genesis/",
+      "action": "Draft evidence-boundary service one-pager only after owner approval."
+    }
+  ],
+  "noChangeReceipts": [
+    "No verified paid consultancy client or new deployment proof.",
+    "No archive or kill decision warranted."
+  ],
+  "collectionFailures": [
+    "Original source-body hashes unavailable.",
+    "Exact publication hours unverified.",
+    "Independent procurement and physical validation unavailable.",
+    "Repository-wide PR, branch drift and CI checks incomplete."
+  ]
+}

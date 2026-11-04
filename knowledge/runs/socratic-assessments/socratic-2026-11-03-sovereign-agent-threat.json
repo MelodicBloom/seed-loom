@@ -1,0 +1,91 @@
+{
+  "assessmentId": "socratic:2026-11-03-sovereign-agent-threat",
+  "observationId": "obs:2026-11-03-sovereign-agent-threat",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "November 3 reporting describes a CNAS warning about hypothetical self-sustaining autonomous agents, not demonstrated self-funding independent systems.",
+      "evidenceRefs": [
+        "source:2026-11-03-sovereign-agent-threat"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Researchers published a risk analysis; current examples are not confirmed sovereign agents.",
+      "evidenceRefs": [
+        "source:2026-11-03-sovereign-agent-threat"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "A documented event; commercial demand remains unproven.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Potential operators, reviewers and affected stakeholders.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing manual research, audit and conventional tooling.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Governed agent shutdown, authority and budget receipts are testable consultancy boundaries.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "That this development translates to demand for the proposed service.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "A measured comparison showing no decision-quality or efficiency gain.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Buyer interviews, independent operational metrics, and source-body hashes.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Normal industry evolution without a distinct consultancy opportunity.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Market interest is not proven by publication or announcement.",
+  "falsifier": "Independent buyer validation or performance comparisons contradict the opportunity hypothesis.",
+  "missingEvidence": [
+    "Buyer procurement and willingness to pay",
+    "Independent deployment or experimental replication"
+  ],
+  "alternativeExplanation": "Ordinary industry development without demand for this consultancy.",
+  "disposition": "watch",
+  "confidence": 0.82
+}

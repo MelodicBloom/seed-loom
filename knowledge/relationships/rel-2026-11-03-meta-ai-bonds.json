@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:2026-11-03-meta-ai-bonds",
+  "type": "Relationship",
+  "from": "obs:2026-11-03-meta-ai-bonds",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:2026-11-03-meta-ai-bonds",
+  "confidence": 0.89,
+  "evidenceRefs": [
+    "source:2026-11-03-meta-ai-bonds"
+  ]
+}

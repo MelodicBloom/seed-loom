@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:2026-11-03-sovereign-agent-threat",
+  "type": "Observation",
+  "capturedAt": "2026-11-04T00:12:00Z",
+  "claim": "November 3 reporting describes a CNAS warning about hypothetical self-sustaining autonomous agents, not demonstrated self-funding independent systems.",
+  "verifiedFacts": [
+    "November 3 reporting describes a CNAS warning about hypothetical self-sustaining autonomous agents, not demonstrated self-funding independent systems.",
+    "Researchers published a risk analysis; current examples are not confirmed sovereign agents."
+  ],
+  "inference": [
+    "Governed agent shutdown, authority and budget receipts are testable consultancy boundaries.",
+    "Consultancy implication is advisory only; no buyer purchase, engagement, or independent deployment outcome established.",
+    "Project disposition is a proposal, not an accepted repository action."
+  ],
+  "significance": "Governed agent shutdown, authority and budget receipts are testable consultancy boundaries.",
+  "confidence": 0.82,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:2026-11-03-sovereign-agent-threat"
+  ],
+  "actorRefs": [
+    "Axios"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Reported source scope is accurate; business demand not established."
+  ],
+  "knownLimitations": [
+    "Primary underlying evidence may be incomplete.",
+    "Independent buyer behavior and measured outcomes unavailable."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}
