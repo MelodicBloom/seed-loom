@@ -77,3 +77,13 @@ See:
 - `SPECIFICATION.md`
 - `ROADMAP.md`
 - `schemas/textile-language.schema.json`
+
+## v0.2 reference candidate (not yet promoted)
+
+The [ThreadButton Core reference](reference/thread-button/index.html) consumes
+[generated CSS](generated/textile.css) from one
+[canonical token source](tokens/textile.tokens.json). The same deterministic
+generator produces TypeScript tokens, motion JSON and a Figma variable mapping.
+
+See [v0.2 evidence and acceptance gates](EVIDENCE-v0.2.md) before describing
+this reference as verified or production-ready.
