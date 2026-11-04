@@ -37,5 +37,39 @@ jobs:
       - name: Install schema validator
         run: python -m pip install --disable-pip-version-check jsonschema==4.23.0
 
+      - name: Verify generated adapters are synchronized
+        run: python scripts/generate_textile_adapters.py --check
+
+      - name: Verify one-token mutation affects every adapter
+        run: python scripts/verify_textile_adapter_mutation.py
+
       - name: Validate manifests and Core reference
         run: python scripts/validate_textile_interface.py
+
+  textile-visual-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Chromium verification tools
+        run: |
+          python -m pip install --disable-pip-version-check playwright==1.55.0
+          python -m playwright install --with-deps chromium
+
+      - name: Verify rendered ThreadButton states and capture screenshots
+        run: python scripts/verify_textile_visual.py
+
+      - name: Publish reproducible screenshot and JSON evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: textile-thread-button-visual-evidence
+          path: artifacts/textile-visual/
+          if-no-files-found: warn
+          retention-days: 14
