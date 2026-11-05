@@ -1,0 +1,1267 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly-2026-11-04",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-11-03T00:24:09Z",
+      "to": "2026-11-05T00:24:09Z"
+    },
+    "newObservations": [
+      "obs:nightly-2026-11-04-pierre-git-agent",
+      "obs:nightly-2026-11-04-physical-engineering-ai",
+      "obs:nightly-2026-11-04-nyc-pilot-city",
+      "obs:nightly-2026-11-04-google-guided-learning",
+      "obs:nightly-2026-11-04-emory-diabetes-translation"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [
+      "Evidence receipts connect software agents, physical fabrication, public-sector pilots, learning interfaces and translational research; inference only."
+    ],
+    "newRelationships": [
+      "rel:nightly-2026-11-04-pierre-git-agent",
+      "rel:nightly-2026-11-04-physical-engineering-ai",
+      "rel:nightly-2026-11-04-nyc-pilot-city",
+      "rel:nightly-2026-11-04-google-guided-learning",
+      "rel:nightly-2026-11-04-emory-diabetes-translation"
+    ],
+    "contradictions": [],
+    "opportunities": [
+      "Permissioned agent change-review audit",
+      "Manufacturing tolerance evidence demonstration",
+      "Accessible civic and educational interface QA"
+    ],
+    "proposedExperiments": [
+      "Synthetic agent PR review receipt matrix; proposed, not executed",
+      "Omni-Loom CAD-to-fabrication tolerance trace; proposed, not executed"
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/seed-loom",
+        "description": "Review five candidate observations after CI receipt; no promotion."
+      }
+    ],
+    "noChangeReceipts": [
+      "No new paid buyer evidence established.",
+      "No project archive or kill proposed."
+    ],
+    "collectionFailures": [
+      "Source-body SHA-256 unavailable; only URL and publication metadata captured.",
+      "Full repo-wide CI, branch drift and dependency audits not completed.",
+      "Prior observations compared against November 1-3 summaries; canonical graph-wide semantic deduplication not independently executed."
+    ]
+  },
+  "sources": [
+    {
+      "id": "source:nightly-2026-11-04-pierre-git-agent",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://openai.com/index/openai-to-acquire-pierre/",
+      "publisher": "OpenAI",
+      "publishedAt": "2026-11-04T12:00:00Z",
+      "retrievedAt": "2026-11-05T00:24:09Z",
+      "sourceClass": "primary",
+      "independenceKey": "openai",
+      "contentHash": null,
+      "title": "OpenAI announces proposed acquisition of Pierre Computer",
+      "notes": "Publication time is approximate noon UTC; publication date verified, exact hour not asserted. Source body not independently hashed."
+    },
+    {
+      "id": "source:nightly-2026-11-04-physical-engineering-ai",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+      "publisher": "OpenAI",
+      "publishedAt": "2026-11-03T12:00:00Z",
+      "retrievedAt": "2026-11-05T00:24:09Z",
+      "sourceClass": "primary",
+      "independenceKey": "openai",
+      "contentHash": null,
+      "title": "OpenAI reports AI-assisted physical engineering prototypes",
+      "notes": "Publication time is approximate noon UTC; publication date verified, exact hour not asserted. Source body not independently hashed."
+    },
+    {
+      "id": "source:nightly-2026-11-04-nyc-pilot-city",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://www.nyc.gov/mayors-office/news/2026/11/pilot-city--mayor-mamdani-pairs-city-workers-and-researchers-fro.html",
+      "publisher": "NYC Mayor's Office",
+      "publishedAt": "2026-11-04T12:00:00Z",
+      "retrievedAt": "2026-11-05T00:24:09Z",
+      "sourceClass": "primary",
+      "independenceKey": "nyc-mayor-s-office",
+      "contentHash": null,
+      "title": "NYC announces $2 million for 40+ agency-university pilots",
+      "notes": "Publication time is approximate noon UTC; publication date verified, exact hour not asserted. Source body not independently hashed."
+    },
+    {
+      "id": "source:nightly-2026-11-04-google-guided-learning",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-2026/",
+      "publisher": "Google",
+      "publishedAt": "2026-11-03T12:00:00Z",
+      "retrievedAt": "2026-11-05T00:24:09Z",
+      "sourceClass": "primary",
+      "independenceKey": "google",
+      "contentHash": null,
+      "title": "Google expands Guided Learning and school AI controls",
+      "notes": "Publication time is approximate noon UTC; publication date verified, exact hour not asserted. Source body not independently hashed."
+    },
+    {
+      "id": "source:nightly-2026-11-04-emory-diabetes-translation",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://news.emory.edu/stories/2026/11/emorys-georgia-center-diabetes-translation-research-grant-renewal",
+      "publisher": "Emory University",
+      "publishedAt": "2026-11-04T12:00:00Z",
+      "retrievedAt": "2026-11-05T00:24:09Z",
+      "sourceClass": "primary",
+      "independenceKey": "emory-university",
+      "contentHash": null,
+      "title": "Emory announces $3.3 million diabetes translation grant renewal",
+      "notes": "Publication time is approximate noon UTC; publication date verified, exact hour not asserted. Source body not independently hashed."
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs:nightly-2026-11-04-pierre-git-agent",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-11-05T00:24:09Z",
+      "claim": "OpenAI announced a planned acquisition of Pierre Computer to develop Git workflows for coding agents.",
+      "verifiedFacts": [
+        "OpenAI announced an agreement to acquire Pierre; the closing remains subject to customary conditions and regulatory approval."
+      ],
+      "inference": [
+        "Parallel coding agents need source-control provenance, diff review and explicit human approval, creating a demonstrable governed-review service.",
+        "Advisory consultancyImplications: parallel coding agent changes can overwhelm review; potential service subject to buyer validation.",
+        "Advisory projectDispositionImplications: PRODUCTIZE; no repository mutation approved."
+      ],
+      "significance": "The transaction signals investment in agent-compatible code review, not evidence that autonomous merges are safe.",
+      "confidence": 0.95,
+      "evidenceMaturity": "source-backed",
+      "sourceRefs": [
+        "source:nightly-2026-11-04-pierre-git-agent"
+      ],
+      "actorRefs": [
+        "OpenAI:buyer;Pierre:builder"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/agent-runtime-control-center"
+      ],
+      "assumptions": [
+        "Acquisition will close and change enterprise developer workflows"
+      ],
+      "knownLimitations": [
+        "closed transaction and independent developer workflow results",
+        "No verified buyer procurement or paid consultancy engagement."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-04-physical-engineering-ai",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-11-05T00:24:09Z",
+      "claim": "OpenAI described a small manufactured hardware prototype developed with AI assistance and identified tolerance limitations.",
+      "verifiedFacts": [
+        "OpenAI reports two team members designed a test device in under a week and a manufacturer built prototypes in under a month; manufacturing tolerances required human iteration."
+      ],
+      "inference": [
+        "A fabrication evidence service could track generated CAD, constraints, simulation, shop-floor tolerances and actual manufactured outcomes.",
+        "Advisory consultancyImplications: AI-generated designs miss production constraints; potential service subject to buyer validation.",
+        "Advisory projectDispositionImplications: INCUBATE; no repository mutation approved."
+      ],
+      "significance": "The acknowledged manufacturing gaps are a concrete verification boundary for Omni-Loom's deterministic fabrication work.",
+      "confidence": 0.91,
+      "evidenceMaturity": "source-backed",
+      "sourceRefs": [
+        "source:nightly-2026-11-04-physical-engineering-ai"
+      ],
+      "actorRefs": [
+        "OpenAI:builder;contract-manufacturer:supplier"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/omni-loom",
+        "MelodicBloom/seed-loom"
+      ],
+      "assumptions": [
+        "Prototype speed generalizes beyond this internal case"
+      ],
+      "knownLimitations": [
+        "manufacturing drawings, measured tolerances, independent build logs",
+        "No verified buyer procurement or paid consultancy engagement."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-04-nyc-pilot-city",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-11-05T00:24:09Z",
+      "claim": "New York City announced $2 million supporting more than forty research collaborations between city agencies and universities.",
+      "verifiedFacts": [
+        "The November 4 announcement describes over 40 funded agency-university projects addressing tenants, transit, accessibility and public services."
+      ],
+      "inference": [
+        "Civic data provenance and accessible evidence dashboards are relevant reference service patterns; these grants are not open consultancy tenders.",
+        "Advisory consultancyImplications: fragmented civic data and evaluation methods; potential service subject to buyer validation.",
+        "Advisory projectDispositionImplications: REFERENCE-ONLY; no repository mutation approved."
+      ],
+      "significance": "Documented agency-researcher matching shows actual institutional participation in applied civic intelligence.",
+      "confidence": 0.97,
+      "evidenceMaturity": "source-backed",
+      "sourceRefs": [
+        "source:nightly-2026-11-04-nyc-pilot-city"
+      ],
+      "actorRefs": [
+        "NYC:public-buyer-and-regulator;universities:researchers;philanthropies:funders"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/lithomemphis"
+      ],
+      "assumptions": [
+        "External consulting participation is possible"
+      ],
+      "knownLimitations": [
+        "project contracts, measurable outcomes, procurement eligibility",
+        "No verified buyer procurement or paid consultancy engagement."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-04-google-guided-learning",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-11-05T00:24:09Z",
+      "claim": "Google announced global Guided Learning integration in Classroom and updates to K-12 AI controls.",
+      "verifiedFacts": [
+        "Google announced Guided Learning for Google Classroom globally, capabilities in Search and revised controls for Gemini-related K-12 accounts."
+      ],
+      "inference": [
+        "Accessible, bounded AI teaching interfaces need evidence-backed learning outcomes and transparent permission states.",
+        "Advisory consultancyImplications: student agency and age-appropriate AI learning controls; potential service subject to buyer validation.",
+        "Advisory projectDispositionImplications: PRODUCTIZE; no repository mutation approved."
+      ],
+      "significance": "A concrete platform release supports human-centered adaptive interface QA, but not claims of improved learning without trials.",
+      "confidence": 0.94,
+      "evidenceMaturity": "source-backed",
+      "sourceRefs": [
+        "source:nightly-2026-11-04-google-guided-learning"
+      ],
+      "actorRefs": [
+        "Google:provider;schools:potential-buyers;students:participants"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/mochi-ui",
+        "MelodicBloom/design-standards-2026-2027"
+      ],
+      "assumptions": [
+        "Feature rollout leads to measurable learning gains"
+      ],
+      "knownLimitations": [
+        "independent classroom outcome studies and accessibility audits",
+        "No verified buyer procurement or paid consultancy engagement."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-04-emory-diabetes-translation",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-11-05T00:24:09Z",
+      "claim": "Emory announced approximately $3.3 million over five years for translating diabetes research into prevention and care strategies.",
+      "verifiedFacts": [
+        "Emory reports a five-year renewal of its NIDDK P30 Center grant totaling approximately $3.3 million for the Georgia Center for Diabetes Translation Research."
+      ],
+      "inference": [
+        "The translational research workflow is a useful reference for evidence maturity, not a verified consulting lead or clinical intervention.",
+        "Advisory consultancyImplications: scientific findings do not automatically become effective interventions; potential service subject to buyer validation.",
+        "Advisory projectDispositionImplications: REFERENCE-ONLY; no repository mutation approved."
+      ],
+      "significance": "Funding behavior demonstrates institutional investment in moving research toward measured real-world outcomes.",
+      "confidence": 0.96,
+      "evidenceMaturity": "source-backed",
+      "sourceRefs": [
+        "source:nightly-2026-11-04-emory-diabetes-translation"
+      ],
+      "actorRefs": [
+        "NIDDK:funder;Emory:researcher"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom"
+      ],
+      "assumptions": [
+        "Grant creates external service procurement"
+      ],
+      "knownLimitations": [
+        "grant award document and future intervention outcome data",
+        "No verified buyer procurement or paid consultancy engagement."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel:nightly-2026-11-04-pierre-git-agent",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-11-04-pierre-git-agent",
+      "predicate": "APPLIES_TO",
+      "to": "MelodicBloom/seed-loom",
+      "confidence": 0.95,
+      "evidenceRefs": [
+        "source:nightly-2026-11-04-pierre-git-agent"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-04-physical-engineering-ai",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-11-04-physical-engineering-ai",
+      "predicate": "APPLIES_TO",
+      "to": "MelodicBloom/omni-loom",
+      "confidence": 0.91,
+      "evidenceRefs": [
+        "source:nightly-2026-11-04-physical-engineering-ai"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-04-nyc-pilot-city",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-11-04-nyc-pilot-city",
+      "predicate": "APPLIES_TO",
+      "to": "MelodicBloom/seed-loom",
+      "confidence": 0.97,
+      "evidenceRefs": [
+        "source:nightly-2026-11-04-nyc-pilot-city"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-04-google-guided-learning",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-11-04-google-guided-learning",
+      "predicate": "APPLIES_TO",
+      "to": "MelodicBloom/mochi-ui",
+      "confidence": 0.94,
+      "evidenceRefs": [
+        "source:nightly-2026-11-04-google-guided-learning"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-04-emory-diabetes-translation",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-11-04-emory-diabetes-translation",
+      "predicate": "APPLIES_TO",
+      "to": "MelodicBloom/seed-loom",
+      "confidence": 0.96,
+      "evidenceRefs": [
+        "source:nightly-2026-11-04-emory-diabetes-translation"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "ackId": "ack:nightly-2026-11-04-collect",
+      "runId": "run:nightly-2026-11-04",
+      "stage": "collect",
+      "schemaVersion": "1.1.0",
+      "status": "passed",
+      "startedAt": "2026-11-05T00:24:09Z",
+      "completedAt": "2026-11-05T00:24:09Z",
+      "inputs": [
+        "source:nightly-2026-11-04-pierre-git-agent",
+        "source:nightly-2026-11-04-physical-engineering-ai",
+        "source:nightly-2026-11-04-nyc-pilot-city",
+        "source:nightly-2026-11-04-google-guided-learning",
+        "source:nightly-2026-11-04-emory-diabetes-translation"
+      ],
+      "outputs": [
+        "source:nightly-2026-11-04-pierre-git-agent",
+        "source:nightly-2026-11-04-physical-engineering-ai",
+        "source:nightly-2026-11-04-nyc-pilot-city",
+        "source:nightly-2026-11-04-google-guided-learning",
+        "source:nightly-2026-11-04-emory-diabetes-translation"
+      ],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "pass",
+          "detail": "Source URLs and claim boundaries captured; original body hashes unavailable."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-04-vet",
+      "runId": "run:nightly-2026-11-04",
+      "stage": "vet",
+      "schemaVersion": "1.1.0",
+      "status": "passed",
+      "startedAt": "2026-11-05T00:24:09Z",
+      "completedAt": "2026-11-05T00:24:09Z",
+      "inputs": [
+        "source:nightly-2026-11-04-pierre-git-agent",
+        "source:nightly-2026-11-04-physical-engineering-ai",
+        "source:nightly-2026-11-04-nyc-pilot-city",
+        "source:nightly-2026-11-04-google-guided-learning",
+        "source:nightly-2026-11-04-emory-diabetes-translation"
+      ],
+      "outputs": [
+        "obs:nightly-2026-11-04-pierre-git-agent",
+        "obs:nightly-2026-11-04-physical-engineering-ai",
+        "obs:nightly-2026-11-04-nyc-pilot-city",
+        "obs:nightly-2026-11-04-google-guided-learning",
+        "obs:nightly-2026-11-04-emory-diabetes-translation"
+      ],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "pass",
+          "detail": "Source URLs and claim boundaries captured; original body hashes unavailable."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-04-normalize",
+      "runId": "run:nightly-2026-11-04",
+      "stage": "normalize",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-05T00:24:09Z",
+      "completedAt": "2026-11-05T00:24:09Z",
+      "inputs": [
+        "run:nightly-2026-11-04"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-04-observe",
+      "runId": "run:nightly-2026-11-04",
+      "stage": "observe",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-05T00:24:09Z",
+      "completedAt": "2026-11-05T00:24:09Z",
+      "inputs": [
+        "run:nightly-2026-11-04"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-04-inquire",
+      "runId": "run:nightly-2026-11-04",
+      "stage": "inquire",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-05T00:24:09Z",
+      "completedAt": "2026-11-05T00:24:09Z",
+      "inputs": [
+        "run:nightly-2026-11-04"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-04-interpret",
+      "runId": "run:nightly-2026-11-04",
+      "stage": "interpret",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-05T00:24:09Z",
+      "completedAt": "2026-11-05T00:24:09Z",
+      "inputs": [
+        "run:nightly-2026-11-04"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-04-relate",
+      "runId": "run:nightly-2026-11-04",
+      "stage": "relate",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-05T00:24:09Z",
+      "completedAt": "2026-11-05T00:24:09Z",
+      "inputs": [
+        "run:nightly-2026-11-04"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-04-pattern",
+      "runId": "run:nightly-2026-11-04",
+      "stage": "pattern",
+      "schemaVersion": "1.1.0",
+      "status": "no-change",
+      "startedAt": "2026-11-05T00:24:09Z",
+      "completedAt": "2026-11-05T00:24:09Z",
+      "inputs": [
+        "run:nightly-2026-11-04"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-04-opportunity",
+      "runId": "run:nightly-2026-11-04",
+      "stage": "opportunity",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-05T00:24:09Z",
+      "completedAt": "2026-11-05T00:24:09Z",
+      "inputs": [
+        "run:nightly-2026-11-04"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-04-strategy",
+      "runId": "run:nightly-2026-11-04",
+      "stage": "strategy",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-05T00:24:09Z",
+      "completedAt": "2026-11-05T00:24:09Z",
+      "inputs": [
+        "run:nightly-2026-11-04"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-04-experiment",
+      "runId": "run:nightly-2026-11-04",
+      "stage": "experiment",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-05T00:24:09Z",
+      "completedAt": "2026-11-05T00:24:09Z",
+      "inputs": [
+        "run:nightly-2026-11-04"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-04-genesis",
+      "runId": "run:nightly-2026-11-04",
+      "stage": "genesis",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-05T00:24:09Z",
+      "completedAt": "2026-11-05T00:24:09Z",
+      "inputs": [
+        "run:nightly-2026-11-04"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-04-publish",
+      "runId": "run:nightly-2026-11-04",
+      "stage": "publish",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-05T00:24:09Z",
+      "completedAt": "2026-11-05T00:24:09Z",
+      "inputs": [
+        "run:nightly-2026-11-04"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:nightly-2026-11-04-pierre-git-agent",
+      "observationId": "obs:nightly-2026-11-04-pierre-git-agent",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "OpenAI announced an agreement to acquire Pierre; the closing remains subject to customary conditions and regulatory approval.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-04-pierre-git-agent"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "OpenAI:buyer;Pierre:builder",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-04-pierre-git-agent"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "parallel coding agent changes can overwhelm review",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Operators, reviewers and people affected by the service.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "GitHub pull-request review and existing diff tools",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Git trees, diffs and code history",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Acquisition will close and change enterprise developer workflows",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "No meaningful review or provenance improvement after integration",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "closed transaction and independent developer workflow results",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "An acquisition of existing tools without a distinct market for governance services",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Acquisition will close and change enterprise developer workflows",
+      "falsifier": "No meaningful review or provenance improvement after integration",
+      "missingEvidence": [
+        "closed transaction and independent developer workflow results"
+      ],
+      "alternativeExplanation": "An acquisition of existing tools without a distinct market for governance services",
+      "disposition": "watch",
+      "confidence": 0.95
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-04-physical-engineering-ai",
+      "observationId": "obs:nightly-2026-11-04-physical-engineering-ai",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "OpenAI reports two team members designed a test device in under a week and a manufacturer built prototypes in under a month; manufacturing tolerances required human iteration.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-04-physical-engineering-ai"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "OpenAI:builder;contract-manufacturer:supplier",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-04-physical-engineering-ai"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "AI-generated designs miss production constraints",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Operators, reviewers and people affected by the service.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "human CAD review and conventional manufacturing QA",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "cross-disciplinary CAD, PCB, firmware and tolerance checking",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Prototype speed generalizes beyond this internal case",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent repeat builds fail tolerance and reproducibility requirements",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "manufacturing drawings, measured tolerances, independent build logs",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Expert engineers achieved a one-off prototype with AI as a drafting assistant",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Prototype speed generalizes beyond this internal case",
+      "falsifier": "Independent repeat builds fail tolerance and reproducibility requirements",
+      "missingEvidence": [
+        "manufacturing drawings, measured tolerances, independent build logs"
+      ],
+      "alternativeExplanation": "Expert engineers achieved a one-off prototype with AI as a drafting assistant",
+      "disposition": "watch",
+      "confidence": 0.91
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-04-nyc-pilot-city",
+      "observationId": "obs:nightly-2026-11-04-nyc-pilot-city",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "The November 4 announcement describes over 40 funded agency-university projects addressing tenants, transit, accessibility and public services.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-04-nyc-pilot-city"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "NYC:public-buyer-and-regulator;universities:researchers;philanthropies:funders",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-04-nyc-pilot-city"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "fragmented civic data and evaluation methods",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Operators, reviewers and people affected by the service.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "existing municipal analytics and university research teams",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "agency-university projects with funded research milestones",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "External consulting participation is possible",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "No procurement route or external partner eligibility",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "project contracts, measurable outcomes, procurement eligibility",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "A locally restricted university grant program rather than an open market",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "External consulting participation is possible",
+      "falsifier": "No procurement route or external partner eligibility",
+      "missingEvidence": [
+        "project contracts, measurable outcomes, procurement eligibility"
+      ],
+      "alternativeExplanation": "A locally restricted university grant program rather than an open market",
+      "disposition": "watch",
+      "confidence": 0.97
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-04-google-guided-learning",
+      "observationId": "obs:nightly-2026-11-04-google-guided-learning",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Google announced Guided Learning for Google Classroom globally, capabilities in Search and revised controls for Gemini-related K-12 accounts.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-04-google-guided-learning"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Google:provider;schools:potential-buyers;students:participants",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-04-google-guided-learning"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "student agency and age-appropriate AI learning controls",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Operators, reviewers and people affected by the service.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "teacher-led instruction and conventional educational software",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "guided learning workflows and account controls",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Feature rollout leads to measurable learning gains",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent student studies show no improvement or worse outcomes",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "independent classroom outcome studies and accessibility audits",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Product feature expansion without instructional benefit",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Feature rollout leads to measurable learning gains",
+      "falsifier": "Independent student studies show no improvement or worse outcomes",
+      "missingEvidence": [
+        "independent classroom outcome studies and accessibility audits"
+      ],
+      "alternativeExplanation": "Product feature expansion without instructional benefit",
+      "disposition": "watch",
+      "confidence": 0.94
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-04-emory-diabetes-translation",
+      "observationId": "obs:nightly-2026-11-04-emory-diabetes-translation",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Emory reports a five-year renewal of its NIDDK P30 Center grant totaling approximately $3.3 million for the Georgia Center for Diabetes Translation Research.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-04-emory-diabetes-translation"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "NIDDK:funder;Emory:researcher",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-04-emory-diabetes-translation"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "scientific findings do not automatically become effective interventions",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Operators, reviewers and people affected by the service.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "existing clinical translational research infrastructure",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "funded interdisciplinary research and evaluation",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Grant creates external service procurement",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "No eligible outside procurement or collaboration route",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "grant award document and future intervention outcome data",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Routine renewal of an established research center",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Grant creates external service procurement",
+      "falsifier": "No eligible outside procurement or collaboration route",
+      "missingEvidence": [
+        "grant award document and future intervention outcome data"
+      ],
+      "alternativeExplanation": "Routine renewal of an established research center",
+      "disposition": "watch",
+      "confidence": 0.96
+    }
+  ]
+}
