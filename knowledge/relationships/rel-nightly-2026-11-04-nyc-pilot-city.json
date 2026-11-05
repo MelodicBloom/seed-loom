@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-11-04-nyc-pilot-city",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-11-04-nyc-pilot-city",
+  "predicate": "APPLIES_TO",
+  "to": "MelodicBloom/seed-loom",
+  "confidence": 0.97,
+  "evidenceRefs": [
+    "source:nightly-2026-11-04-nyc-pilot-city"
+  ]
+}

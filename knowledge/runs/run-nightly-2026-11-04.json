@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-11-04",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-11-03T00:24:09Z",
+    "to": "2026-11-05T00:24:09Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-11-04-pierre-git-agent",
+    "obs:nightly-2026-11-04-physical-engineering-ai",
+    "obs:nightly-2026-11-04-nyc-pilot-city",
+    "obs:nightly-2026-11-04-google-guided-learning",
+    "obs:nightly-2026-11-04-emory-diabetes-translation"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Evidence receipts connect software agents, physical fabrication, public-sector pilots, learning interfaces and translational research; inference only."
+  ],
+  "newRelationships": [
+    "rel:nightly-2026-11-04-pierre-git-agent",
+    "rel:nightly-2026-11-04-physical-engineering-ai",
+    "rel:nightly-2026-11-04-nyc-pilot-city",
+    "rel:nightly-2026-11-04-google-guided-learning",
+    "rel:nightly-2026-11-04-emory-diabetes-translation"
+  ],
+  "contradictions": [],
+  "opportunities": [
+    "Permissioned agent change-review audit",
+    "Manufacturing tolerance evidence demonstration",
+    "Accessible civic and educational interface QA"
+  ],
+  "proposedExperiments": [
+    "Synthetic agent PR review receipt matrix; proposed, not executed",
+    "Omni-Loom CAD-to-fabrication tolerance trace; proposed, not executed"
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/seed-loom",
+      "description": "Review five candidate observations after CI receipt; no promotion."
+    }
+  ],
+  "noChangeReceipts": [
+    "No new paid buyer evidence established.",
+    "No project archive or kill proposed."
+  ],
+  "collectionFailures": [
+    "Source-body SHA-256 unavailable; only URL and publication metadata captured.",
+    "Full repo-wide CI, branch drift and dependency audits not completed.",
+    "Prior observations compared against November 1-3 summaries; canonical graph-wide semantic deduplication not independently executed."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-11-05T00:25:24.332Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly-2026-11-04",
+      "bundlePath": "knowledge/intake/nightly/2026-11-04/nightly-run-bundle-2026-11-04.json",
+      "bundleSha256": "cb7c31b9d23cdf2128c966be44eb17e98f7626c78991b422a4e02f6accd4dfd1",
+      "normalizedDigest": "79029c495fe6612e1512566bf9aea05be6093710bc3d337e9689286a9eb5e56a",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-nightly-2026-11-04-pierre-git-agent.json",
+        "knowledge/sources/source-nightly-2026-11-04-physical-engineering-ai.json",
+        "knowledge/sources/source-nightly-2026-11-04-nyc-pilot-city.json",
+        "knowledge/sources/source-nightly-2026-11-04-google-guided-learning.json",
+        "knowledge/sources/source-nightly-2026-11-04-emory-diabetes-translation.json",
+        "knowledge/observations/obs-nightly-2026-11-04-pierre-git-agent.json",
+        "knowledge/observations/obs-nightly-2026-11-04-physical-engineering-ai.json",
+        "knowledge/observations/obs-nightly-2026-11-04-nyc-pilot-city.json",
+        "knowledge/observations/obs-nightly-2026-11-04-google-guided-learning.json",
+        "knowledge/observations/obs-nightly-2026-11-04-emory-diabetes-translation.json",
+        "knowledge/relationships/rel-nightly-2026-11-04-pierre-git-agent.json",
+        "knowledge/relationships/rel-nightly-2026-11-04-physical-engineering-ai.json",
+        "knowledge/relationships/rel-nightly-2026-11-04-nyc-pilot-city.json",
+        "knowledge/relationships/rel-nightly-2026-11-04-google-guided-learning.json",
+        "knowledge/relationships/rel-nightly-2026-11-04-emory-diabetes-translation.json",
+        "knowledge/runs/run-nightly-2026-11-04.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-04-collect.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-04-vet.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-04-normalize.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-04-observe.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-04-inquire.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-04-interpret.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-04-relate.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-04-pattern.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-04-opportunity.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-04-strategy.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-04-experiment.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-04-genesis.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-04-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-04-pierre-git-agent.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-04-physical-engineering-ai.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-04-nyc-pilot-city.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-04-google-guided-learning.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-04-emory-diabetes-translation.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-11-04-ingest.json",
+      "generatedRecordCount": 34
+    }
+  ]
+}

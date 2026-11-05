@@ -1,0 +1,42 @@
+{
+  "ackId": "ack:nightly-2026-11-04-collect",
+  "runId": "run:nightly-2026-11-04",
+  "stage": "collect",
+  "schemaVersion": "1.1.0",
+  "status": "passed",
+  "startedAt": "2026-11-05T00:24:09Z",
+  "completedAt": "2026-11-05T00:24:09Z",
+  "inputs": [
+    "source:nightly-2026-11-04-pierre-git-agent",
+    "source:nightly-2026-11-04-physical-engineering-ai",
+    "source:nightly-2026-11-04-nyc-pilot-city",
+    "source:nightly-2026-11-04-google-guided-learning",
+    "source:nightly-2026-11-04-emory-diabetes-translation"
+  ],
+  "outputs": [
+    "source:nightly-2026-11-04-pierre-git-agent",
+    "source:nightly-2026-11-04-physical-engineering-ai",
+    "source:nightly-2026-11-04-nyc-pilot-city",
+    "source:nightly-2026-11-04-google-guided-learning",
+    "source:nightly-2026-11-04-emory-diabetes-translation"
+  ],
+  "checks": [
+    {
+      "name": "capture-boundary",
+      "result": "pass",
+      "detail": "Source URLs and claim boundaries captured; original body hashes unavailable."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only; no acceptance, execution, Genesis or publication."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly consultancy intelligence automation",
+    "method": "Primary-source retrieval and conservative evidence classification",
+    "inputHashes": []
+  }
+}

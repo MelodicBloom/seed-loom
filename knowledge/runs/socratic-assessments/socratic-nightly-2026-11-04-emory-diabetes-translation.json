@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-04-emory-diabetes-translation",
+  "observationId": "obs:nightly-2026-11-04-emory-diabetes-translation",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Emory reports a five-year renewal of its NIDDK P30 Center grant totaling approximately $3.3 million for the Georgia Center for Diabetes Translation Research.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-04-emory-diabetes-translation"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "NIDDK:funder;Emory:researcher",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-04-emory-diabetes-translation"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "scientific findings do not automatically become effective interventions",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Operators, reviewers and people affected by the service.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "existing clinical translational research infrastructure",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "funded interdisciplinary research and evaluation",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Grant creates external service procurement",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "No eligible outside procurement or collaboration route",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "grant award document and future intervention outcome data",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Routine renewal of an established research center",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Grant creates external service procurement",
+  "falsifier": "No eligible outside procurement or collaboration route",
+  "missingEvidence": [
+    "grant award document and future intervention outcome data"
+  ],
+  "alternativeExplanation": "Routine renewal of an established research center",
+  "disposition": "watch",
+  "confidence": 0.96
+}

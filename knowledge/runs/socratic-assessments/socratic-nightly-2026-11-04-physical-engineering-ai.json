@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-04-physical-engineering-ai",
+  "observationId": "obs:nightly-2026-11-04-physical-engineering-ai",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "OpenAI reports two team members designed a test device in under a week and a manufacturer built prototypes in under a month; manufacturing tolerances required human iteration.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-04-physical-engineering-ai"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "OpenAI:builder;contract-manufacturer:supplier",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-04-physical-engineering-ai"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "AI-generated designs miss production constraints",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Operators, reviewers and people affected by the service.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "human CAD review and conventional manufacturing QA",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "cross-disciplinary CAD, PCB, firmware and tolerance checking",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Prototype speed generalizes beyond this internal case",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent repeat builds fail tolerance and reproducibility requirements",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "manufacturing drawings, measured tolerances, independent build logs",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Expert engineers achieved a one-off prototype with AI as a drafting assistant",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Prototype speed generalizes beyond this internal case",
+  "falsifier": "Independent repeat builds fail tolerance and reproducibility requirements",
+  "missingEvidence": [
+    "manufacturing drawings, measured tolerances, independent build logs"
+  ],
+  "alternativeExplanation": "Expert engineers achieved a one-off prototype with AI as a drafting assistant",
+  "disposition": "watch",
+  "confidence": 0.91
+}

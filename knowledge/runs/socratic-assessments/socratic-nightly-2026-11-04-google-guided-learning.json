@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-04-google-guided-learning",
+  "observationId": "obs:nightly-2026-11-04-google-guided-learning",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Google announced Guided Learning for Google Classroom globally, capabilities in Search and revised controls for Gemini-related K-12 accounts.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-04-google-guided-learning"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Google:provider;schools:potential-buyers;students:participants",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-04-google-guided-learning"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "student agency and age-appropriate AI learning controls",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Operators, reviewers and people affected by the service.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "teacher-led instruction and conventional educational software",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "guided learning workflows and account controls",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Feature rollout leads to measurable learning gains",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent student studies show no improvement or worse outcomes",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "independent classroom outcome studies and accessibility audits",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Product feature expansion without instructional benefit",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Feature rollout leads to measurable learning gains",
+  "falsifier": "Independent student studies show no improvement or worse outcomes",
+  "missingEvidence": [
+    "independent classroom outcome studies and accessibility audits"
+  ],
+  "alternativeExplanation": "Product feature expansion without instructional benefit",
+  "disposition": "watch",
+  "confidence": 0.94
+}

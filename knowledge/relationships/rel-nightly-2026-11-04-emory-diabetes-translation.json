@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-11-04-emory-diabetes-translation",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-11-04-emory-diabetes-translation",
+  "predicate": "APPLIES_TO",
+  "to": "MelodicBloom/seed-loom",
+  "confidence": 0.96,
+  "evidenceRefs": [
+    "source:nightly-2026-11-04-emory-diabetes-translation"
+  ]
+}

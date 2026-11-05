@@ -1,0 +1,37 @@
+{
+  "id": "obs:nightly-2026-11-04-pierre-git-agent",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-05T00:24:09Z",
+  "claim": "OpenAI announced a planned acquisition of Pierre Computer to develop Git workflows for coding agents.",
+  "verifiedFacts": [
+    "OpenAI announced an agreement to acquire Pierre; the closing remains subject to customary conditions and regulatory approval."
+  ],
+  "inference": [
+    "Parallel coding agents need source-control provenance, diff review and explicit human approval, creating a demonstrable governed-review service.",
+    "Advisory consultancyImplications: parallel coding agent changes can overwhelm review; potential service subject to buyer validation.",
+    "Advisory projectDispositionImplications: PRODUCTIZE; no repository mutation approved."
+  ],
+  "significance": "The transaction signals investment in agent-compatible code review, not evidence that autonomous merges are safe.",
+  "confidence": 0.95,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-04-pierre-git-agent"
+  ],
+  "actorRefs": [
+    "OpenAI:buyer;Pierre:builder"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Acquisition will close and change enterprise developer workflows"
+  ],
+  "knownLimitations": [
+    "closed transaction and independent developer workflow results",
+    "No verified buyer procurement or paid consultancy engagement."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

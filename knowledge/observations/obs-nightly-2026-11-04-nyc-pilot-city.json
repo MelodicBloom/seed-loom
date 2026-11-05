@@ -1,0 +1,37 @@
+{
+  "id": "obs:nightly-2026-11-04-nyc-pilot-city",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-05T00:24:09Z",
+  "claim": "New York City announced $2 million supporting more than forty research collaborations between city agencies and universities.",
+  "verifiedFacts": [
+    "The November 4 announcement describes over 40 funded agency-university projects addressing tenants, transit, accessibility and public services."
+  ],
+  "inference": [
+    "Civic data provenance and accessible evidence dashboards are relevant reference service patterns; these grants are not open consultancy tenders.",
+    "Advisory consultancyImplications: fragmented civic data and evaluation methods; potential service subject to buyer validation.",
+    "Advisory projectDispositionImplications: REFERENCE-ONLY; no repository mutation approved."
+  ],
+  "significance": "Documented agency-researcher matching shows actual institutional participation in applied civic intelligence.",
+  "confidence": 0.97,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-04-nyc-pilot-city"
+  ],
+  "actorRefs": [
+    "NYC:public-buyer-and-regulator;universities:researchers;philanthropies:funders"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/lithomemphis"
+  ],
+  "assumptions": [
+    "External consulting participation is possible"
+  ],
+  "knownLimitations": [
+    "project contracts, measurable outcomes, procurement eligibility",
+    "No verified buyer procurement or paid consultancy engagement."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

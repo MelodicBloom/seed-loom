@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-11-04-google-guided-learning",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-11-04-google-guided-learning",
+  "predicate": "APPLIES_TO",
+  "to": "MelodicBloom/mochi-ui",
+  "confidence": 0.94,
+  "evidenceRefs": [
+    "source:nightly-2026-11-04-google-guided-learning"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "obs:nightly-2026-11-04-emory-diabetes-translation",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-05T00:24:09Z",
+  "claim": "Emory announced approximately $3.3 million over five years for translating diabetes research into prevention and care strategies.",
+  "verifiedFacts": [
+    "Emory reports a five-year renewal of its NIDDK P30 Center grant totaling approximately $3.3 million for the Georgia Center for Diabetes Translation Research."
+  ],
+  "inference": [
+    "The translational research workflow is a useful reference for evidence maturity, not a verified consulting lead or clinical intervention.",
+    "Advisory consultancyImplications: scientific findings do not automatically become effective interventions; potential service subject to buyer validation.",
+    "Advisory projectDispositionImplications: REFERENCE-ONLY; no repository mutation approved."
+  ],
+  "significance": "Funding behavior demonstrates institutional investment in moving research toward measured real-world outcomes.",
+  "confidence": 0.96,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-04-emory-diabetes-translation"
+  ],
+  "actorRefs": [
+    "NIDDK:funder;Emory:researcher"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom"
+  ],
+  "assumptions": [
+    "Grant creates external service procurement"
+  ],
+  "knownLimitations": [
+    "grant award document and future intervention outcome data",
+    "No verified buyer procurement or paid consultancy engagement."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-11-04-nyc-pilot-city",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.nyc.gov/mayors-office/news/2026/11/pilot-city--mayor-mamdani-pairs-city-workers-and-researchers-fro.html",
+  "publisher": "NYC Mayor's Office",
+  "publishedAt": "2026-11-04T12:00:00Z",
+  "retrievedAt": "2026-11-05T00:24:09Z",
+  "sourceClass": "primary",
+  "independenceKey": "nyc-mayor-s-office",
+  "contentHash": null,
+  "title": "NYC announces $2 million for 40+ agency-university pilots",
+  "notes": "Publication time is approximate noon UTC; publication date verified, exact hour not asserted. Source body not independently hashed."
+}

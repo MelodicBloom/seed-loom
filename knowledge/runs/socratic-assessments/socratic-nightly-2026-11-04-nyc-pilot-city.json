@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-04-nyc-pilot-city",
+  "observationId": "obs:nightly-2026-11-04-nyc-pilot-city",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "The November 4 announcement describes over 40 funded agency-university projects addressing tenants, transit, accessibility and public services.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-04-nyc-pilot-city"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "NYC:public-buyer-and-regulator;universities:researchers;philanthropies:funders",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-04-nyc-pilot-city"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "fragmented civic data and evaluation methods",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Operators, reviewers and people affected by the service.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "existing municipal analytics and university research teams",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "agency-university projects with funded research milestones",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "External consulting participation is possible",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "No procurement route or external partner eligibility",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "project contracts, measurable outcomes, procurement eligibility",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "A locally restricted university grant program rather than an open market",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "External consulting participation is possible",
+  "falsifier": "No procurement route or external partner eligibility",
+  "missingEvidence": [
+    "project contracts, measurable outcomes, procurement eligibility"
+  ],
+  "alternativeExplanation": "A locally restricted university grant program rather than an open market",
+  "disposition": "watch",
+  "confidence": 0.97
+}

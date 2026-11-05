@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-11-04-google-guided-learning",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-2026/",
+  "publisher": "Google",
+  "publishedAt": "2026-11-03T12:00:00Z",
+  "retrievedAt": "2026-11-05T00:24:09Z",
+  "sourceClass": "primary",
+  "independenceKey": "google",
+  "contentHash": null,
+  "title": "Google expands Guided Learning and school AI controls",
+  "notes": "Publication time is approximate noon UTC; publication date verified, exact hour not asserted. Source body not independently hashed."
+}

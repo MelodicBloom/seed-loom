@@ -1,0 +1,32 @@
+{
+  "ackId": "ack:nightly-2026-11-04-genesis",
+  "runId": "run:nightly-2026-11-04",
+  "stage": "genesis",
+  "schemaVersion": "1.1.0",
+  "status": "deferred",
+  "startedAt": "2026-11-05T00:24:09Z",
+  "completedAt": "2026-11-05T00:24:09Z",
+  "inputs": [
+    "run:nightly-2026-11-04"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "capture-boundary",
+      "result": "not-applicable",
+      "detail": "Canonical ingestion or human approval required."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "Candidate-only; no acceptance, execution, Genesis or publication."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly consultancy intelligence automation",
+    "method": "Primary-source retrieval and conservative evidence classification",
+    "inputHashes": []
+  }
+}

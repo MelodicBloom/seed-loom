@@ -1,0 +1,37 @@
+{
+  "id": "obs:nightly-2026-11-04-google-guided-learning",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-05T00:24:09Z",
+  "claim": "Google announced global Guided Learning integration in Classroom and updates to K-12 AI controls.",
+  "verifiedFacts": [
+    "Google announced Guided Learning for Google Classroom globally, capabilities in Search and revised controls for Gemini-related K-12 accounts."
+  ],
+  "inference": [
+    "Accessible, bounded AI teaching interfaces need evidence-backed learning outcomes and transparent permission states.",
+    "Advisory consultancyImplications: student agency and age-appropriate AI learning controls; potential service subject to buyer validation.",
+    "Advisory projectDispositionImplications: PRODUCTIZE; no repository mutation approved."
+  ],
+  "significance": "A concrete platform release supports human-centered adaptive interface QA, but not claims of improved learning without trials.",
+  "confidence": 0.94,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-04-google-guided-learning"
+  ],
+  "actorRefs": [
+    "Google:provider;schools:potential-buyers;students:participants"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/mochi-ui",
+    "MelodicBloom/design-standards-2026-2027"
+  ],
+  "assumptions": [
+    "Feature rollout leads to measurable learning gains"
+  ],
+  "knownLimitations": [
+    "independent classroom outcome studies and accessibility audits",
+    "No verified buyer procurement or paid consultancy engagement."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}
