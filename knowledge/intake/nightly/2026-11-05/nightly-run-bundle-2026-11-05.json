@@ -1,0 +1,1265 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly-2026-11-05",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-11-04T00:43:26Z",
+      "to": "2026-11-06T00:43:26Z"
+    },
+    "newObservations": [
+      "obs:nightly-2026-11-05-aina-agent-ring",
+      "obs:nightly-2026-11-05-airbnb-ai-travel",
+      "obs:nightly-2026-11-05-rice-arc-foundry",
+      "obs:nightly-2026-11-05-rice-cas9",
+      "obs:nightly-2026-11-05-mars-volcanism"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [
+      "Human approval surfaces and evidence maturity recur across AI services, physical research and scientific inference; candidate inference only."
+    ],
+    "newRelationships": [
+      "rel:nightly-2026-11-05-aina-agent-ring",
+      "rel:nightly-2026-11-05-airbnb-ai-travel",
+      "rel:nightly-2026-11-05-rice-arc-foundry",
+      "rel:nightly-2026-11-05-rice-cas9",
+      "rel:nightly-2026-11-05-mars-volcanism"
+    ],
+    "contradictions": [],
+    "opportunities": [
+      "Human-agent approval UX review",
+      "Research-to-product evidence mapping",
+      "Accessible visual decision interface audit"
+    ],
+    "proposedExperiments": [
+      "Synthetic approval-state accessibility test; proposed only",
+      "Research claim-to-measurement trace; proposed only"
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/seed-loom",
+        "description": "Review candidate evidence after canonical receipt; no promotion or repository changes."
+      }
+    ],
+    "noChangeReceipts": [
+      "No paid buyer engagement established.",
+      "No archive or kill disposition justified."
+    ],
+    "collectionFailures": [
+      "Local Git clone failed DNS resolution; GitHub connector used for authority reads and bounded write.",
+      "Original source-body SHA-256 unavailable; no body hash asserted.",
+      "Graph-wide semantic deduplication and comprehensive cross-repo CI/branch drift review not completed.",
+      "Airbnb shareholder letter content not directly fetched; earnings release and reporting corroborate plan.",
+      "Mars original Science Advances paper not independently inspected; volcanic interpretation remains tentative."
+    ]
+  },
+  "sources": [
+    {
+      "id": "source:nightly-2026-11-05-aina-agent-ring",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://www.aina.com/",
+      "publisher": "Aina",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-06T00:43:26Z",
+      "sourceClass": "primary",
+      "independenceKey": "aina",
+      "contentHash": null,
+      "title": "Aina unveiled a smart ring for approving or rejecting agent actions; preorders opened, with shipping planned for January 2027.",
+      "notes": "Publication date November 4 or 5; exact publication hour unverified; source body hash unavailable."
+    },
+    {
+      "id": "source:nightly-2026-11-05-airbnb-ai-travel",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://investors.airbnb.com/",
+      "publisher": "Airbnb Investor Relations",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-06T00:43:26Z",
+      "sourceClass": "primary",
+      "independenceKey": "airbnb-investor-relations",
+      "contentHash": null,
+      "title": "Airbnb disclosed plans for an AI-native travel planning and booking experience in the first half of 2027.",
+      "notes": "Publication date November 4 or 5; exact publication hour unverified; source body hash unavailable."
+    },
+    {
+      "id": "source:nightly-2026-11-05-rice-arc-foundry",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://news.rice.edu/news/2026/rice-breaks-ground-arc-ion-district-expanding-houstons-innovation-ecosystem",
+      "publisher": "Rice University",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-06T00:43:26Z",
+      "sourceClass": "primary",
+      "independenceKey": "rice-university",
+      "contentHash": null,
+      "title": "Rice University broke ground on the Arc innovation facility, with an AI Foundry planned inside.",
+      "notes": "Publication date November 4 or 5; exact publication hour unverified; source body hash unavailable."
+    },
+    {
+      "id": "source:nightly-2026-11-05-rice-cas9",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://news.rice.edu/news/2026/new-crispr-proteins-expand-editing-access-heart-disease-genes",
+      "publisher": "Rice University",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-06T00:43:26Z",
+      "sourceClass": "research",
+      "independenceKey": "rice-university",
+      "contentHash": null,
+      "title": "Rice researchers reported AI-supported evolution of Cas9 variants that edit previously difficult target sites in cultured cells.",
+      "notes": "Publication date November 4 or 5; exact publication hour unverified; source body hash unavailable."
+    },
+    {
+      "id": "source:nightly-2026-11-05-mars-volcanism",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://www.reuters.com/science/pungent-gas-above-martian-fissures-hints-ongoing-volcanism-2026-11-04/",
+      "publisher": "Reuters",
+      "publishedAt": null,
+      "retrievedAt": "2026-11-06T00:43:26Z",
+      "sourceClass": "media",
+      "independenceKey": "reuters",
+      "contentHash": null,
+      "title": "Researchers reported atmospheric hydrogen chloride above Martian fissures as possible evidence of continuing volcanic activity.",
+      "notes": "Publication date November 4 or 5; exact publication hour unverified; source body hash unavailable."
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs:nightly-2026-11-05-aina-agent-ring",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-11-06T00:43:26Z",
+      "claim": "Aina unveiled a smart ring for approving or rejecting agent actions; preorders opened, with shipping planned for January 2027.",
+      "verifiedFacts": [
+        "Aina publicly unveiled an AI-agent control ring with display, joystick and microphone, and opened preorders."
+      ],
+      "inference": [
+        "Physical confirmation controls could make authorization states easier to inspect, but a wearable is not required for governance.",
+        "Advisory consultancyImplications: Agent approval UX and human override testing; buyer demand unverified.",
+        "Advisory projectDispositionImplications: INCUBATE; no repository mutation approved."
+      ],
+      "significance": "Physical confirmation controls could make authorization states easier to inspect, but a wearable is not required for governance.",
+      "confidence": 0.87,
+      "evidenceMaturity": "source-backed",
+      "sourceRefs": [
+        "source:nightly-2026-11-05-aina-agent-ring"
+      ],
+      "actorRefs": [
+        "Aina:builder;buyers:prospective"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/agent-runtime-control-center"
+      ],
+      "assumptions": [
+        "Hardware controls improve meaningful consent"
+      ],
+      "knownLimitations": [
+        "No measured error reduction or shipped consumer hardware",
+        "No independently verified consultancy procurement."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-05-airbnb-ai-travel",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-11-06T00:43:26Z",
+      "claim": "Airbnb disclosed plans for an AI-native travel planning and booking experience in the first half of 2027.",
+      "verifiedFacts": [
+        "Airbnb released Q3 results and discussed a planned AI travel agent; no launched agent was established."
+      ],
+      "inference": [
+        "Specialized visual controls and booking-state clarity may outperform text-only agent interfaces; no causal benefit verified.",
+        "Advisory consultancyImplications: Visual agent workflow and accessibility audit; buyer demand unverified.",
+        "Advisory projectDispositionImplications: PRODUCTIZE; no repository mutation approved."
+      ],
+      "significance": "Specialized visual controls and booking-state clarity may outperform text-only agent interfaces; no causal benefit verified.",
+      "confidence": 0.86,
+      "evidenceMaturity": "source-backed",
+      "sourceRefs": [
+        "source:nightly-2026-11-05-airbnb-ai-travel"
+      ],
+      "actorRefs": [
+        "Airbnb:provider;travelers:participants"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/mochi-ui"
+      ],
+      "assumptions": [
+        "Planned agent launches on schedule"
+      ],
+      "knownLimitations": [
+        "Independent user studies and launch acceptance",
+        "No independently verified consultancy procurement."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-05-rice-arc-foundry",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-11-06T00:43:26Z",
+      "claim": "Rice University broke ground on the Arc innovation facility, with an AI Foundry planned inside.",
+      "verifiedFacts": [
+        "Rice reported a November 4 groundbreaking for a nearly 200,000-square-foot research and innovation building with its AI Foundry planned as a tenant."
+      ],
+      "inference": [
+        "Cross-disciplinary commercialization infrastructure can create evidence translation needs, but no accessible consultancy tender is shown.",
+        "Advisory consultancyImplications: Research-to-product evidence and partner mapping; buyer demand unverified.",
+        "Advisory projectDispositionImplications: CORE; no repository mutation approved."
+      ],
+      "significance": "Cross-disciplinary commercialization infrastructure can create evidence translation needs, but no accessible consultancy tender is shown.",
+      "confidence": 0.95,
+      "evidenceMaturity": "source-backed",
+      "sourceRefs": [
+        "source:nightly-2026-11-05-rice-arc-foundry"
+      ],
+      "actorRefs": [
+        "Rice:researcher-and-builder;industry:prospective-participants"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom"
+      ],
+      "assumptions": [
+        "Proximity generates measurable commercialization"
+      ],
+      "knownLimitations": [
+        "Procurement and measurable startup outcomes",
+        "No independently verified consultancy procurement."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-05-rice-cas9",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-11-06T00:43:26Z",
+      "claim": "Rice researchers reported AI-supported evolution of Cas9 variants that edit previously difficult target sites in cultured cells.",
+      "verifiedFacts": [
+        "Rice reports Sequence Display-assisted development of compact Cas9 variants and proof-of-concept editing of APOC3 and PCSK9 sites in cultured cells."
+      ],
+      "inference": [
+        "A traceable design-to-experiment workflow is a strong evidence-maturity analogy; cultured-cell editing is not a therapy.",
+        "Advisory consultancyImplications: Scientific mechanism and validation-state visualization; buyer demand unverified.",
+        "Advisory projectDispositionImplications: REFERENCE-ONLY; no repository mutation approved."
+      ],
+      "significance": "A traceable design-to-experiment workflow is a strong evidence-maturity analogy; cultured-cell editing is not a therapy.",
+      "confidence": 0.92,
+      "evidenceMaturity": "source-backed",
+      "sourceRefs": [
+        "source:nightly-2026-11-05-rice-cas9"
+      ],
+      "actorRefs": [
+        "Rice:researcher;NIH:funder"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom"
+      ],
+      "assumptions": [
+        "Cell results imply human treatment efficacy"
+      ],
+      "knownLimitations": [
+        "Independent replication and clinical safety",
+        "No independently verified consultancy procurement."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-05-mars-volcanism",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-11-06T00:43:26Z",
+      "claim": "Researchers reported atmospheric hydrogen chloride above Martian fissures as possible evidence of continuing volcanic activity.",
+      "verifiedFacts": [
+        "A November 4 research report describes hydrogen chloride detections from ExoMars Trace Gas Orbiter above fissures near Alba Mons; active magmatism remains an interpretation."
+      ],
+      "inference": [
+        "Observational uncertainty and competing geophysical explanations provide a bounded scientific evidence-state demo.",
+        "Advisory consultancyImplications: Uncertainty-aware planetary science visualization; buyer demand unverified.",
+        "Advisory projectDispositionImplications: REFERENCE-ONLY; no repository mutation approved."
+      ],
+      "significance": "Observational uncertainty and competing geophysical explanations provide a bounded scientific evidence-state demo.",
+      "confidence": 0.77,
+      "evidenceMaturity": "source-backed",
+      "sourceRefs": [
+        "source:nightly-2026-11-05-mars-volcanism"
+      ],
+      "actorRefs": [
+        "Researchers:researchers;ESA:mission-operator"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/shader-grammar"
+      ],
+      "assumptions": [
+        "Detected gas conclusively proves active volcanism"
+      ],
+      "knownLimitations": [
+        "Independent geochemical and geological confirmation",
+        "No independently verified consultancy procurement."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel:nightly-2026-11-05-aina-agent-ring",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-11-05-aina-agent-ring",
+      "predicate": "APPLIES_TO",
+      "to": "MelodicBloom/agent-runtime-control-center",
+      "confidence": 0.87,
+      "evidenceRefs": [
+        "source:nightly-2026-11-05-aina-agent-ring"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-05-airbnb-ai-travel",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-11-05-airbnb-ai-travel",
+      "predicate": "APPLIES_TO",
+      "to": "MelodicBloom/mochi-ui",
+      "confidence": 0.86,
+      "evidenceRefs": [
+        "source:nightly-2026-11-05-airbnb-ai-travel"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-05-rice-arc-foundry",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-11-05-rice-arc-foundry",
+      "predicate": "APPLIES_TO",
+      "to": "MelodicBloom/seed-loom",
+      "confidence": 0.95,
+      "evidenceRefs": [
+        "source:nightly-2026-11-05-rice-arc-foundry"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-05-rice-cas9",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-11-05-rice-cas9",
+      "predicate": "APPLIES_TO",
+      "to": "MelodicBloom/seed-loom",
+      "confidence": 0.92,
+      "evidenceRefs": [
+        "source:nightly-2026-11-05-rice-cas9"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-05-mars-volcanism",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-11-05-mars-volcanism",
+      "predicate": "APPLIES_TO",
+      "to": "MelodicBloom/shader-grammar",
+      "confidence": 0.77,
+      "evidenceRefs": [
+        "source:nightly-2026-11-05-mars-volcanism"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "ackId": "ack:nightly-2026-11-05-collect",
+      "runId": "run:nightly-2026-11-05",
+      "stage": "collect",
+      "schemaVersion": "1.1.0",
+      "status": "passed",
+      "startedAt": "2026-11-06T00:43:26Z",
+      "completedAt": "2026-11-06T00:43:26Z",
+      "inputs": [
+        "source:nightly-2026-11-05-aina-agent-ring",
+        "source:nightly-2026-11-05-airbnb-ai-travel",
+        "source:nightly-2026-11-05-rice-arc-foundry",
+        "source:nightly-2026-11-05-rice-cas9",
+        "source:nightly-2026-11-05-mars-volcanism"
+      ],
+      "outputs": [
+        "source:nightly-2026-11-05-aina-agent-ring",
+        "source:nightly-2026-11-05-airbnb-ai-travel",
+        "source:nightly-2026-11-05-rice-arc-foundry",
+        "source:nightly-2026-11-05-rice-cas9",
+        "source:nightly-2026-11-05-mars-volcanism"
+      ],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "pass",
+          "detail": "Source URLs and claim boundaries captured; original body hashes unavailable."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-05-vet",
+      "runId": "run:nightly-2026-11-05",
+      "stage": "vet",
+      "schemaVersion": "1.1.0",
+      "status": "passed",
+      "startedAt": "2026-11-06T00:43:26Z",
+      "completedAt": "2026-11-06T00:43:26Z",
+      "inputs": [
+        "source:nightly-2026-11-05-aina-agent-ring",
+        "source:nightly-2026-11-05-airbnb-ai-travel",
+        "source:nightly-2026-11-05-rice-arc-foundry",
+        "source:nightly-2026-11-05-rice-cas9",
+        "source:nightly-2026-11-05-mars-volcanism"
+      ],
+      "outputs": [
+        "obs:nightly-2026-11-05-aina-agent-ring",
+        "obs:nightly-2026-11-05-airbnb-ai-travel",
+        "obs:nightly-2026-11-05-rice-arc-foundry",
+        "obs:nightly-2026-11-05-rice-cas9",
+        "obs:nightly-2026-11-05-mars-volcanism"
+      ],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "pass",
+          "detail": "Source URLs and claim boundaries captured; original body hashes unavailable."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-05-normalize",
+      "runId": "run:nightly-2026-11-05",
+      "stage": "normalize",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-06T00:43:26Z",
+      "completedAt": "2026-11-06T00:43:26Z",
+      "inputs": [
+        "run:nightly-2026-11-05"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-05-observe",
+      "runId": "run:nightly-2026-11-05",
+      "stage": "observe",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-06T00:43:26Z",
+      "completedAt": "2026-11-06T00:43:26Z",
+      "inputs": [
+        "run:nightly-2026-11-05"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-05-inquire",
+      "runId": "run:nightly-2026-11-05",
+      "stage": "inquire",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-06T00:43:26Z",
+      "completedAt": "2026-11-06T00:43:26Z",
+      "inputs": [
+        "run:nightly-2026-11-05"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-05-interpret",
+      "runId": "run:nightly-2026-11-05",
+      "stage": "interpret",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-06T00:43:26Z",
+      "completedAt": "2026-11-06T00:43:26Z",
+      "inputs": [
+        "run:nightly-2026-11-05"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-05-relate",
+      "runId": "run:nightly-2026-11-05",
+      "stage": "relate",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-06T00:43:26Z",
+      "completedAt": "2026-11-06T00:43:26Z",
+      "inputs": [
+        "run:nightly-2026-11-05"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-05-pattern",
+      "runId": "run:nightly-2026-11-05",
+      "stage": "pattern",
+      "schemaVersion": "1.1.0",
+      "status": "no-change",
+      "startedAt": "2026-11-06T00:43:26Z",
+      "completedAt": "2026-11-06T00:43:26Z",
+      "inputs": [
+        "run:nightly-2026-11-05"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-05-opportunity",
+      "runId": "run:nightly-2026-11-05",
+      "stage": "opportunity",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-06T00:43:26Z",
+      "completedAt": "2026-11-06T00:43:26Z",
+      "inputs": [
+        "run:nightly-2026-11-05"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-05-strategy",
+      "runId": "run:nightly-2026-11-05",
+      "stage": "strategy",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-06T00:43:26Z",
+      "completedAt": "2026-11-06T00:43:26Z",
+      "inputs": [
+        "run:nightly-2026-11-05"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-05-experiment",
+      "runId": "run:nightly-2026-11-05",
+      "stage": "experiment",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-06T00:43:26Z",
+      "completedAt": "2026-11-06T00:43:26Z",
+      "inputs": [
+        "run:nightly-2026-11-05"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-05-genesis",
+      "runId": "run:nightly-2026-11-05",
+      "stage": "genesis",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-06T00:43:26Z",
+      "completedAt": "2026-11-06T00:43:26Z",
+      "inputs": [
+        "run:nightly-2026-11-05"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-05-publish",
+      "runId": "run:nightly-2026-11-05",
+      "stage": "publish",
+      "schemaVersion": "1.1.0",
+      "status": "deferred",
+      "startedAt": "2026-11-06T00:43:26Z",
+      "completedAt": "2026-11-06T00:43:26Z",
+      "inputs": [
+        "run:nightly-2026-11-05"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "capture-boundary",
+          "result": "not-applicable",
+          "detail": "Canonical ingestion or human approval required."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance, execution, Genesis or publication."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly consultancy intelligence automation",
+        "method": "Primary-source retrieval and conservative evidence classification",
+        "inputHashes": []
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:nightly-2026-11-05-aina-agent-ring",
+      "observationId": "obs:nightly-2026-11-05-aina-agent-ring",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Aina publicly unveiled an AI-agent control ring with display, joystick and microphone, and opened preorders.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-05-aina-agent-ring"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Aina:builder;buyers:prospective",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-05-aina-agent-ring"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Agent approval UX and human override testing",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Operators, reviewers and affected participants.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Phones, watches and software confirmation dialogs",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Physical confirmation controls could make authorization states easier to inspect, but a wearable is not required for governance.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Hardware controls improve meaningful consent",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "No measurable advantage over Phones, watches and software confirmation dialogs.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "No measured error reduction or shipped consumer hardware",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Ordinary development or research rather than a new consultancy market.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Hardware controls improve meaningful consent",
+      "falsifier": "No measurable advantage over Phones, watches and software confirmation dialogs.",
+      "missingEvidence": [
+        "No measured error reduction or shipped consumer hardware"
+      ],
+      "alternativeExplanation": "Ordinary development or research rather than a new consultancy market.",
+      "disposition": "watch",
+      "confidence": 0.87
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-05-airbnb-ai-travel",
+      "observationId": "obs:nightly-2026-11-05-airbnb-ai-travel",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Airbnb released Q3 results and discussed a planned AI travel agent; no launched agent was established.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-05-airbnb-ai-travel"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Airbnb:provider;travelers:participants",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-05-airbnb-ai-travel"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Visual agent workflow and accessibility audit",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Operators, reviewers and affected participants.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Conventional search, maps, filters and booking interfaces",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Specialized visual controls and booking-state clarity may outperform text-only agent interfaces; no causal benefit verified.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Planned agent launches on schedule",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "No measurable advantage over Conventional search, maps, filters and booking interfaces.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent user studies and launch acceptance",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Ordinary development or research rather than a new consultancy market.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Planned agent launches on schedule",
+      "falsifier": "No measurable advantage over Conventional search, maps, filters and booking interfaces.",
+      "missingEvidence": [
+        "Independent user studies and launch acceptance"
+      ],
+      "alternativeExplanation": "Ordinary development or research rather than a new consultancy market.",
+      "disposition": "watch",
+      "confidence": 0.86
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-05-rice-arc-foundry",
+      "observationId": "obs:nightly-2026-11-05-rice-arc-foundry",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Rice reported a November 4 groundbreaking for a nearly 200,000-square-foot research and innovation building with its AI Foundry planned as a tenant.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-05-rice-arc-foundry"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Rice:researcher-and-builder;industry:prospective-participants",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-05-rice-arc-foundry"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Research-to-product evidence and partner mapping",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Operators, reviewers and affected participants.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing research parks and incubators",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Cross-disciplinary commercialization infrastructure can create evidence translation needs, but no accessible consultancy tender is shown.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Proximity generates measurable commercialization",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "No measurable advantage over Existing research parks and incubators.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Procurement and measurable startup outcomes",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Ordinary development or research rather than a new consultancy market.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Proximity generates measurable commercialization",
+      "falsifier": "No measurable advantage over Existing research parks and incubators.",
+      "missingEvidence": [
+        "Procurement and measurable startup outcomes"
+      ],
+      "alternativeExplanation": "Ordinary development or research rather than a new consultancy market.",
+      "disposition": "watch",
+      "confidence": 0.95
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-05-rice-cas9",
+      "observationId": "obs:nightly-2026-11-05-rice-cas9",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Rice reports Sequence Display-assisted development of compact Cas9 variants and proof-of-concept editing of APOC3 and PCSK9 sites in cultured cells.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-05-rice-cas9"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Rice:researcher;NIH:funder",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-05-rice-cas9"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Scientific mechanism and validation-state visualization",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Operators, reviewers and affected participants.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing Cas9 variants and alternative editing platforms",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "A traceable design-to-experiment workflow is a strong evidence-maturity analogy; cultured-cell editing is not a therapy.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Cell results imply human treatment efficacy",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "No measurable advantage over Existing Cas9 variants and alternative editing platforms.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent replication and clinical safety",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Ordinary development or research rather than a new consultancy market.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Cell results imply human treatment efficacy",
+      "falsifier": "No measurable advantage over Existing Cas9 variants and alternative editing platforms.",
+      "missingEvidence": [
+        "Independent replication and clinical safety"
+      ],
+      "alternativeExplanation": "Ordinary development or research rather than a new consultancy market.",
+      "disposition": "watch",
+      "confidence": 0.92
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-05-mars-volcanism",
+      "observationId": "obs:nightly-2026-11-05-mars-volcanism",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "A November 4 research report describes hydrogen chloride detections from ExoMars Trace Gas Orbiter above fissures near Alba Mons; active magmatism remains an interpretation.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-05-mars-volcanism"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Researchers:researchers;ESA:mission-operator",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-05-mars-volcanism"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Uncertainty-aware planetary science visualization",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Operators, reviewers and affected participants.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Non-volcanic or seasonal release processes",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Observational uncertainty and competing geophysical explanations provide a bounded scientific evidence-state demo.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Detected gas conclusively proves active volcanism",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "No measurable advantage over Non-volcanic or seasonal release processes.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent geochemical and geological confirmation",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Ordinary development or research rather than a new consultancy market.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Detected gas conclusively proves active volcanism",
+      "falsifier": "No measurable advantage over Non-volcanic or seasonal release processes.",
+      "missingEvidence": [
+        "Independent geochemical and geological confirmation"
+      ],
+      "alternativeExplanation": "Ordinary development or research rather than a new consultancy market.",
+      "disposition": "watch",
+      "confidence": 0.77
+    }
+  ]
+}
