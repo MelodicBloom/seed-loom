@@ -121,7 +121,7 @@
       "publisher": "Reuters",
       "publishedAt": null,
       "retrievedAt": "2026-11-06T00:43:26Z",
-      "sourceClass": "media",
+      "sourceClass": "secondary",
       "independenceKey": "reuters",
       "contentHash": null,
       "title": "Researchers reported atmospheric hydrogen chloride above Martian fissures as possible evidence of continuing volcanic activity.",
