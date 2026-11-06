@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-11-05-airbnb-ai-travel",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-11-05-airbnb-ai-travel",
+  "predicate": "APPLIES_TO",
+  "to": "MelodicBloom/mochi-ui",
+  "confidence": 0.86,
+  "evidenceRefs": [
+    "source:nightly-2026-11-05-airbnb-ai-travel"
+  ]
+}

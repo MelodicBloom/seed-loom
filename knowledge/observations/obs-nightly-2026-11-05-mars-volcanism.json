@@ -1,0 +1,36 @@
+{
+  "id": "obs:nightly-2026-11-05-mars-volcanism",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-06T00:43:26Z",
+  "claim": "Researchers reported atmospheric hydrogen chloride above Martian fissures as possible evidence of continuing volcanic activity.",
+  "verifiedFacts": [
+    "A November 4 research report describes hydrogen chloride detections from ExoMars Trace Gas Orbiter above fissures near Alba Mons; active magmatism remains an interpretation."
+  ],
+  "inference": [
+    "Observational uncertainty and competing geophysical explanations provide a bounded scientific evidence-state demo.",
+    "Advisory consultancyImplications: Uncertainty-aware planetary science visualization; buyer demand unverified.",
+    "Advisory projectDispositionImplications: REFERENCE-ONLY; no repository mutation approved."
+  ],
+  "significance": "Observational uncertainty and competing geophysical explanations provide a bounded scientific evidence-state demo.",
+  "confidence": 0.77,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-05-mars-volcanism"
+  ],
+  "actorRefs": [
+    "Researchers:researchers;ESA:mission-operator"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-grammar"
+  ],
+  "assumptions": [
+    "Detected gas conclusively proves active volcanism"
+  ],
+  "knownLimitations": [
+    "Independent geochemical and geological confirmation",
+    "No independently verified consultancy procurement."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

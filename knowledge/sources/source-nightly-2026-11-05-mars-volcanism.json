@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-11-05-mars-volcanism",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.reuters.com/science/pungent-gas-above-martian-fissures-hints-ongoing-volcanism-2026-11-04/",
+  "publisher": "Reuters",
+  "publishedAt": null,
+  "retrievedAt": "2026-11-06T00:43:26Z",
+  "sourceClass": "secondary",
+  "independenceKey": "reuters",
+  "contentHash": null,
+  "title": "Researchers reported atmospheric hydrogen chloride above Martian fissures as possible evidence of continuing volcanic activity.",
+  "notes": "Publication date November 4 or 5; exact publication hour unverified; source body hash unavailable."
+}

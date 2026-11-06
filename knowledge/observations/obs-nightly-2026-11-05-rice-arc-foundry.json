@@ -1,0 +1,36 @@
+{
+  "id": "obs:nightly-2026-11-05-rice-arc-foundry",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-06T00:43:26Z",
+  "claim": "Rice University broke ground on the Arc innovation facility, with an AI Foundry planned inside.",
+  "verifiedFacts": [
+    "Rice reported a November 4 groundbreaking for a nearly 200,000-square-foot research and innovation building with its AI Foundry planned as a tenant."
+  ],
+  "inference": [
+    "Cross-disciplinary commercialization infrastructure can create evidence translation needs, but no accessible consultancy tender is shown.",
+    "Advisory consultancyImplications: Research-to-product evidence and partner mapping; buyer demand unverified.",
+    "Advisory projectDispositionImplications: CORE; no repository mutation approved."
+  ],
+  "significance": "Cross-disciplinary commercialization infrastructure can create evidence translation needs, but no accessible consultancy tender is shown.",
+  "confidence": 0.95,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-05-rice-arc-foundry"
+  ],
+  "actorRefs": [
+    "Rice:researcher-and-builder;industry:prospective-participants"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom"
+  ],
+  "assumptions": [
+    "Proximity generates measurable commercialization"
+  ],
+  "knownLimitations": [
+    "Procurement and measurable startup outcomes",
+    "No independently verified consultancy procurement."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

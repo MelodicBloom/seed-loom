@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-05-airbnb-ai-travel",
+  "observationId": "obs:nightly-2026-11-05-airbnb-ai-travel",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Airbnb released Q3 results and discussed a planned AI travel agent; no launched agent was established.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-05-airbnb-ai-travel"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Airbnb:provider;travelers:participants",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-05-airbnb-ai-travel"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Visual agent workflow and accessibility audit",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Operators, reviewers and affected participants.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Conventional search, maps, filters and booking interfaces",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Specialized visual controls and booking-state clarity may outperform text-only agent interfaces; no causal benefit verified.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Planned agent launches on schedule",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "No measurable advantage over Conventional search, maps, filters and booking interfaces.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent user studies and launch acceptance",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Ordinary development or research rather than a new consultancy market.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Planned agent launches on schedule",
+  "falsifier": "No measurable advantage over Conventional search, maps, filters and booking interfaces.",
+  "missingEvidence": [
+    "Independent user studies and launch acceptance"
+  ],
+  "alternativeExplanation": "Ordinary development or research rather than a new consultancy market.",
+  "disposition": "watch",
+  "confidence": 0.86
+}

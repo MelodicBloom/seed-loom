@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-11-05-rice-cas9",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://news.rice.edu/news/2026/new-crispr-proteins-expand-editing-access-heart-disease-genes",
+  "publisher": "Rice University",
+  "publishedAt": null,
+  "retrievedAt": "2026-11-06T00:43:26Z",
+  "sourceClass": "research",
+  "independenceKey": "rice-university",
+  "contentHash": null,
+  "title": "Rice researchers reported AI-supported evolution of Cas9 variants that edit previously difficult target sites in cultured cells.",
+  "notes": "Publication date November 4 or 5; exact publication hour unverified; source body hash unavailable."
+}

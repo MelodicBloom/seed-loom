@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-05-rice-arc-foundry",
+  "observationId": "obs:nightly-2026-11-05-rice-arc-foundry",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Rice reported a November 4 groundbreaking for a nearly 200,000-square-foot research and innovation building with its AI Foundry planned as a tenant.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-05-rice-arc-foundry"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Rice:researcher-and-builder;industry:prospective-participants",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-05-rice-arc-foundry"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Research-to-product evidence and partner mapping",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Operators, reviewers and affected participants.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing research parks and incubators",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Cross-disciplinary commercialization infrastructure can create evidence translation needs, but no accessible consultancy tender is shown.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Proximity generates measurable commercialization",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "No measurable advantage over Existing research parks and incubators.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Procurement and measurable startup outcomes",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Ordinary development or research rather than a new consultancy market.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Proximity generates measurable commercialization",
+  "falsifier": "No measurable advantage over Existing research parks and incubators.",
+  "missingEvidence": [
+    "Procurement and measurable startup outcomes"
+  ],
+  "alternativeExplanation": "Ordinary development or research rather than a new consultancy market.",
+  "disposition": "watch",
+  "confidence": 0.95
+}

@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-11-05-airbnb-ai-travel",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://investors.airbnb.com/",
+  "publisher": "Airbnb Investor Relations",
+  "publishedAt": null,
+  "retrievedAt": "2026-11-06T00:43:26Z",
+  "sourceClass": "primary",
+  "independenceKey": "airbnb-investor-relations",
+  "contentHash": null,
+  "title": "Airbnb disclosed plans for an AI-native travel planning and booking experience in the first half of 2027.",
+  "notes": "Publication date November 4 or 5; exact publication hour unverified; source body hash unavailable."
+}

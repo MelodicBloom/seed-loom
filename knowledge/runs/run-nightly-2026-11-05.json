@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-11-05",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-11-04T00:43:26Z",
+    "to": "2026-11-06T00:43:26Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-11-05-aina-agent-ring",
+    "obs:nightly-2026-11-05-airbnb-ai-travel",
+    "obs:nightly-2026-11-05-rice-arc-foundry",
+    "obs:nightly-2026-11-05-rice-cas9",
+    "obs:nightly-2026-11-05-mars-volcanism"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Human approval surfaces and evidence maturity recur across AI services, physical research and scientific inference; candidate inference only."
+  ],
+  "newRelationships": [
+    "rel:nightly-2026-11-05-aina-agent-ring",
+    "rel:nightly-2026-11-05-airbnb-ai-travel",
+    "rel:nightly-2026-11-05-rice-arc-foundry",
+    "rel:nightly-2026-11-05-rice-cas9",
+    "rel:nightly-2026-11-05-mars-volcanism"
+  ],
+  "contradictions": [],
+  "opportunities": [
+    "Human-agent approval UX review",
+    "Research-to-product evidence mapping",
+    "Accessible visual decision interface audit"
+  ],
+  "proposedExperiments": [
+    "Synthetic approval-state accessibility test; proposed only",
+    "Research claim-to-measurement trace; proposed only"
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/seed-loom",
+      "description": "Review candidate evidence after canonical receipt; no promotion or repository changes."
+    }
+  ],
+  "noChangeReceipts": [
+    "No paid buyer engagement established.",
+    "No archive or kill disposition justified."
+  ],
+  "collectionFailures": [
+    "Local Git clone failed DNS resolution; GitHub connector used for authority reads and bounded write.",
+    "Original source-body SHA-256 unavailable; no body hash asserted.",
+    "Graph-wide semantic deduplication and comprehensive cross-repo CI/branch drift review not completed.",
+    "Airbnb shareholder letter content not directly fetched; earnings release and reporting corroborate plan.",
+    "Mars original Science Advances paper not independently inspected; volcanic interpretation remains tentative."
+  ]
+}

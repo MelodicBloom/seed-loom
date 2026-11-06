@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-11-05-aina-agent-ring",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.aina.com/",
+  "publisher": "Aina",
+  "publishedAt": null,
+  "retrievedAt": "2026-11-06T00:43:26Z",
+  "sourceClass": "primary",
+  "independenceKey": "aina",
+  "contentHash": null,
+  "title": "Aina unveiled a smart ring for approving or rejecting agent actions; preorders opened, with shipping planned for January 2027.",
+  "notes": "Publication date November 4 or 5; exact publication hour unverified; source body hash unavailable."
+}

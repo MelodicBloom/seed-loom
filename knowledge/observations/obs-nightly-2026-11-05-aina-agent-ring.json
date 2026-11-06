@@ -1,0 +1,36 @@
+{
+  "id": "obs:nightly-2026-11-05-aina-agent-ring",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-06T00:43:26Z",
+  "claim": "Aina unveiled a smart ring for approving or rejecting agent actions; preorders opened, with shipping planned for January 2027.",
+  "verifiedFacts": [
+    "Aina publicly unveiled an AI-agent control ring with display, joystick and microphone, and opened preorders."
+  ],
+  "inference": [
+    "Physical confirmation controls could make authorization states easier to inspect, but a wearable is not required for governance.",
+    "Advisory consultancyImplications: Agent approval UX and human override testing; buyer demand unverified.",
+    "Advisory projectDispositionImplications: INCUBATE; no repository mutation approved."
+  ],
+  "significance": "Physical confirmation controls could make authorization states easier to inspect, but a wearable is not required for governance.",
+  "confidence": 0.87,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-05-aina-agent-ring"
+  ],
+  "actorRefs": [
+    "Aina:builder;buyers:prospective"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/agent-runtime-control-center"
+  ],
+  "assumptions": [
+    "Hardware controls improve meaningful consent"
+  ],
+  "knownLimitations": [
+    "No measured error reduction or shipped consumer hardware",
+    "No independently verified consultancy procurement."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

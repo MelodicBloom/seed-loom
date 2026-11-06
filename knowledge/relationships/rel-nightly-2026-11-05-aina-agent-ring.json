@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-11-05-aina-agent-ring",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-11-05-aina-agent-ring",
+  "predicate": "APPLIES_TO",
+  "to": "MelodicBloom/agent-runtime-control-center",
+  "confidence": 0.87,
+  "evidenceRefs": [
+    "source:nightly-2026-11-05-aina-agent-ring"
+  ]
+}

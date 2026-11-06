@@ -1,0 +1,36 @@
+{
+  "id": "obs:nightly-2026-11-05-airbnb-ai-travel",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-06T00:43:26Z",
+  "claim": "Airbnb disclosed plans for an AI-native travel planning and booking experience in the first half of 2027.",
+  "verifiedFacts": [
+    "Airbnb released Q3 results and discussed a planned AI travel agent; no launched agent was established."
+  ],
+  "inference": [
+    "Specialized visual controls and booking-state clarity may outperform text-only agent interfaces; no causal benefit verified.",
+    "Advisory consultancyImplications: Visual agent workflow and accessibility audit; buyer demand unverified.",
+    "Advisory projectDispositionImplications: PRODUCTIZE; no repository mutation approved."
+  ],
+  "significance": "Specialized visual controls and booking-state clarity may outperform text-only agent interfaces; no causal benefit verified.",
+  "confidence": 0.86,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-05-airbnb-ai-travel"
+  ],
+  "actorRefs": [
+    "Airbnb:provider;travelers:participants"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/mochi-ui"
+  ],
+  "assumptions": [
+    "Planned agent launches on schedule"
+  ],
+  "knownLimitations": [
+    "Independent user studies and launch acceptance",
+    "No independently verified consultancy procurement."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

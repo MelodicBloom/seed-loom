@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-05-mars-volcanism",
+  "observationId": "obs:nightly-2026-11-05-mars-volcanism",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "A November 4 research report describes hydrogen chloride detections from ExoMars Trace Gas Orbiter above fissures near Alba Mons; active magmatism remains an interpretation.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-05-mars-volcanism"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Researchers:researchers;ESA:mission-operator",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-05-mars-volcanism"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Uncertainty-aware planetary science visualization",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Operators, reviewers and affected participants.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Non-volcanic or seasonal release processes",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Observational uncertainty and competing geophysical explanations provide a bounded scientific evidence-state demo.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Detected gas conclusively proves active volcanism",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "No measurable advantage over Non-volcanic or seasonal release processes.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent geochemical and geological confirmation",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Ordinary development or research rather than a new consultancy market.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Detected gas conclusively proves active volcanism",
+  "falsifier": "No measurable advantage over Non-volcanic or seasonal release processes.",
+  "missingEvidence": [
+    "Independent geochemical and geological confirmation"
+  ],
+  "alternativeExplanation": "Ordinary development or research rather than a new consultancy market.",
+  "disposition": "watch",
+  "confidence": 0.77
+}

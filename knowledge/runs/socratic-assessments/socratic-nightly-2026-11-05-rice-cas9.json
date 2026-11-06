@@ -1,0 +1,90 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-05-rice-cas9",
+  "observationId": "obs:nightly-2026-11-05-rice-cas9",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Rice reports Sequence Display-assisted development of compact Cas9 variants and proof-of-concept editing of APOC3 and PCSK9 sites in cultured cells.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-05-rice-cas9"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "Rice:researcher;NIH:funder",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-05-rice-cas9"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Scientific mechanism and validation-state visualization",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Operators, reviewers and affected participants.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing Cas9 variants and alternative editing platforms",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "A traceable design-to-experiment workflow is a strong evidence-maturity analogy; cultured-cell editing is not a therapy.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Cell results imply human treatment efficacy",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "No measurable advantage over Existing Cas9 variants and alternative editing platforms.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent replication and clinical safety",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Ordinary development or research rather than a new consultancy market.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Cell results imply human treatment efficacy",
+  "falsifier": "No measurable advantage over Existing Cas9 variants and alternative editing platforms.",
+  "missingEvidence": [
+    "Independent replication and clinical safety"
+  ],
+  "alternativeExplanation": "Ordinary development or research rather than a new consultancy market.",
+  "disposition": "watch",
+  "confidence": 0.92
+}

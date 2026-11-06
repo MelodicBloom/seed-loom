@@ -1,0 +1,42 @@
+{
+  "ackId": "ack:nightly-2026-11-05-collect",
+  "runId": "run:nightly-2026-11-05",
+  "stage": "collect",
+  "schemaVersion": "1.1.0",
+  "status": "passed",
+  "startedAt": "2026-11-06T00:43:26Z",
+  "completedAt": "2026-11-06T00:43:26Z",
+  "inputs": [
+    "source:nightly-2026-11-05-aina-agent-ring",
+    "source:nightly-2026-11-05-airbnb-ai-travel",
+    "source:nightly-2026-11-05-rice-arc-foundry",
+    "source:nightly-2026-11-05-rice-cas9",
+    "source:nightly-2026-11-05-mars-volcanism"
+  ],
+  "outputs": [
+    "source:nightly-2026-11-05-aina-agent-ring",
+    "source:nightly-2026-11-05-airbnb-ai-travel",
+    "source:nightly-2026-11-05-rice-arc-foundry",
+    "source:nightly-2026-11-05-rice-cas9",
+    "source:nightly-2026-11-05-mars-volcanism"
+  ],
+  "checks": [
+    {
+      "name": "capture-boundary",
+      "result": "pass",
+      "detail": "Source URLs and claim boundaries captured; original body hashes unavailable."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only; no acceptance, execution, Genesis or publication."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly consultancy intelligence automation",
+    "method": "Primary-source retrieval and conservative evidence classification",
+    "inputHashes": []
+  }
+}

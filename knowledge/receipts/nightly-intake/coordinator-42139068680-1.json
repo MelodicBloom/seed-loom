@@ -1,0 +1,59 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-11-06T00:45:05.845Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly-2026-11-05",
+      "bundlePath": "knowledge/intake/nightly/2026-11-05/nightly-run-bundle-2026-11-05.json",
+      "bundleSha256": "32c44b3e6c0cc359904451d237f83d41c7a9b15104f32d025e736b9130b5e254",
+      "normalizedDigest": "65e7068ef704731ed41cc815672054cb4fc84f2e8cf35168fffb6ca82085809e",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-nightly-2026-11-05-aina-agent-ring.json",
+        "knowledge/sources/source-nightly-2026-11-05-airbnb-ai-travel.json",
+        "knowledge/sources/source-nightly-2026-11-05-rice-arc-foundry.json",
+        "knowledge/sources/source-nightly-2026-11-05-rice-cas9.json",
+        "knowledge/sources/source-nightly-2026-11-05-mars-volcanism.json",
+        "knowledge/observations/obs-nightly-2026-11-05-aina-agent-ring.json",
+        "knowledge/observations/obs-nightly-2026-11-05-airbnb-ai-travel.json",
+        "knowledge/observations/obs-nightly-2026-11-05-rice-arc-foundry.json",
+        "knowledge/observations/obs-nightly-2026-11-05-rice-cas9.json",
+        "knowledge/observations/obs-nightly-2026-11-05-mars-volcanism.json",
+        "knowledge/relationships/rel-nightly-2026-11-05-aina-agent-ring.json",
+        "knowledge/relationships/rel-nightly-2026-11-05-airbnb-ai-travel.json",
+        "knowledge/relationships/rel-nightly-2026-11-05-rice-arc-foundry.json",
+        "knowledge/relationships/rel-nightly-2026-11-05-rice-cas9.json",
+        "knowledge/relationships/rel-nightly-2026-11-05-mars-volcanism.json",
+        "knowledge/runs/run-nightly-2026-11-05.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-05-collect.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-05-vet.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-05-normalize.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-05-observe.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-05-inquire.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-05-interpret.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-05-relate.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-05-pattern.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-05-opportunity.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-05-strategy.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-05-experiment.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-05-genesis.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-05-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-05-aina-agent-ring.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-05-airbnb-ai-travel.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-05-rice-arc-foundry.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-05-rice-cas9.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-05-mars-volcanism.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-11-05-ingest.json",
+      "generatedRecordCount": 34
+    }
+  ]
+}

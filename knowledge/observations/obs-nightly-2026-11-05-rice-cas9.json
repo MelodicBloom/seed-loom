@@ -1,0 +1,36 @@
+{
+  "id": "obs:nightly-2026-11-05-rice-cas9",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-06T00:43:26Z",
+  "claim": "Rice researchers reported AI-supported evolution of Cas9 variants that edit previously difficult target sites in cultured cells.",
+  "verifiedFacts": [
+    "Rice reports Sequence Display-assisted development of compact Cas9 variants and proof-of-concept editing of APOC3 and PCSK9 sites in cultured cells."
+  ],
+  "inference": [
+    "A traceable design-to-experiment workflow is a strong evidence-maturity analogy; cultured-cell editing is not a therapy.",
+    "Advisory consultancyImplications: Scientific mechanism and validation-state visualization; buyer demand unverified.",
+    "Advisory projectDispositionImplications: REFERENCE-ONLY; no repository mutation approved."
+  ],
+  "significance": "A traceable design-to-experiment workflow is a strong evidence-maturity analogy; cultured-cell editing is not a therapy.",
+  "confidence": 0.92,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-05-rice-cas9"
+  ],
+  "actorRefs": [
+    "Rice:researcher;NIH:funder"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom"
+  ],
+  "assumptions": [
+    "Cell results imply human treatment efficacy"
+  ],
+  "knownLimitations": [
+    "Independent replication and clinical safety",
+    "No independently verified consultancy procurement."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

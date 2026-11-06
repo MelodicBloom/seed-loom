@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-11-05-mars-volcanism",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-11-05-mars-volcanism",
+  "predicate": "APPLIES_TO",
+  "to": "MelodicBloom/shader-grammar",
+  "confidence": 0.77,
+  "evidenceRefs": [
+    "source:nightly-2026-11-05-mars-volcanism"
+  ]
+}

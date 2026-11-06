@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-11-05-rice-arc-foundry",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-11-05-rice-arc-foundry",
+  "predicate": "APPLIES_TO",
+  "to": "MelodicBloom/seed-loom",
+  "confidence": 0.95,
+  "evidenceRefs": [
+    "source:nightly-2026-11-05-rice-arc-foundry"
+  ]
+}
