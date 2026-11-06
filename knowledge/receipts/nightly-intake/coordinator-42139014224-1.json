@@ -1,0 +1,22 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-11-06T00:44:40.758Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "BLOCKED_WITH_EXPLICIT_REASON": 1
+  },
+  "overallStatus": "PARTIAL_OR_BLOCKED",
+  "results": [
+    {
+      "status": "BLOCKED_WITH_EXPLICIT_REASON",
+      "runId": "run:nightly-2026-11-05",
+      "bundlePath": "knowledge/intake/nightly/2026-11-05/nightly-run-bundle-2026-11-05.json",
+      "bundleSha256": "cc58f4a306577cbc1662f68d8d3ce6c6e76ba0b8e5152cca92889b42524caf1b",
+      "normalizedDigest": "d367658be77f86c9ff77cb94d503566b6bd65a69243c780cf53c7f43c90799da",
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-11-05-ingest.json",
+      "reason": "dry-run knowledge/intake/nightly/2026-11-05/nightly-run-bundle-2026-11-05.json failed: file:///home/runner/work/seed-loom/seed-loom/scripts/knowledge/ingest-nightly-run.mjs:71\n    throw new Error(`${label} schema validation failed: ${JSON.stringify(validator.errors)}`);\n          ^\n\nError: source:nightly-2026-11-05-mars-volcanism schema validation failed: [{\"instancePath\":\"/sourceClass\",\"schemaPath\":\"#/properties/sourceClass/enum\",\"keyword\":\"enum\",\"params\":{\"allowedValues\":[\"primary\",\"official\",\"research\",\"regulatory\",\"financial\",\"trade\",\"press\",\"community\",\"repository\",\"secondary\"]},\"message\":\"must be equal to one of the allowed values\"}]\n    at assertValid (file:///home/runner/work/seed-loom/seed-loom/scripts/knowledge/ingest-nightly-run.mjs:71:11)\n    at file:///home/runner/work/seed-loom/seed-loom/scripts/knowledge/ingest-nightly-run.mjs:76:38\n    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v20.20.2"
+    }
+  ]
+}
