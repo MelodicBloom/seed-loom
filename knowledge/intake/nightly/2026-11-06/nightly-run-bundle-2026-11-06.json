@@ -1,0 +1,1234 @@
+{
+  "run": {
+    "runId": "run:nightly-2026-11-06",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-11-05T00:39:18Z",
+      "to": "2026-11-07T00:39:18Z"
+    },
+    "newObservations": [
+      "obs:nightly-2026-11-06-1",
+      "obs:nightly-2026-11-06-2",
+      "obs:nightly-2026-11-06-3",
+      "obs:nightly-2026-11-06-4",
+      "obs:nightly-2026-11-06-5"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [],
+    "newRelationships": [
+      "rel:nightly-2026-11-06-1",
+      "rel:nightly-2026-11-06-2",
+      "rel:nightly-2026-11-06-3",
+      "rel:nightly-2026-11-06-4",
+      "rel:nightly-2026-11-06-5"
+    ],
+    "contradictions": [],
+    "opportunities": [
+      "Agent authorization evidence audit",
+      "Watershed grant evidence visualization"
+    ],
+    "proposedExperiments": [
+      "Synthetic agent approval-state receipt test",
+      "Watershed project evidence-state visualization"
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/seed-loom",
+        "allowedPaths": [
+          "knowledge/intake/nightly/"
+        ],
+        "description": "Review candidate intake and validate receipts; no merge."
+      }
+    ],
+    "noChangeReceipts": [
+      "No independently confirmed paid consultancy demand",
+      "No physical Omni-Loom proof or Kozo Dreams completion verified"
+    ],
+    "collectionFailures": [
+      "qt314wink/seed-loom authority path unreadable; canonical transferred repository MelodicBloom/seed-loom used after repository ID 1295858033 verified.",
+      "Primary AWS Web Answer announcement not retrieved.",
+      "Original source-body hashes unavailable.",
+      "Full graph-wide semantic deduplication and all repository CI states not verified."
+    ]
+  },
+  "sources": [
+    {
+      "id": "source:nightly-2026-11-06-1",
+      "type": "Source",
+      "url": "Perplexity's provider launch supports a narrowly scoped human-review and agent-state audit; no customer outcomes were verified.",
+      "publisher": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "retrievedAt": "2026-11-07T00:39:18Z",
+      "publishedAt": null,
+      "sourceClass": "The Verge",
+      "independenceKey": "https-www-theverge-com-ai-artificial-intelligence-perplexity-teammates-ai-agents-work",
+      "contentHash": null,
+      "title": "perplexity-teammates",
+      "analystNote": "Publication date or primary-source body not independently verified where stated; content hash unavailable."
+    },
+    {
+      "id": "source:nightly-2026-11-06-2",
+      "type": "Source",
+      "url": "Enterprise governance may be a service opportunity, but supplier announcements are not buyer procurement.",
+      "publisher": "https://timesofindia.indiatimes.com/technology/tech-news/snowflake-launches-ai-agent-innovations-to-power-the-agentic-enterprise-at-expedition-2026/articleshow/135604000.cms",
+      "retrievedAt": "2026-11-07T00:39:18Z",
+      "publishedAt": null,
+      "sourceClass": "Times of India",
+      "independenceKey": "https-timesofindia-indiatimes-com-technology-tech-news-snowflake-launches-ai-agent-innovations-to-power-the-agentic-enterprise-at-expedition-articleshow-cms",
+      "contentHash": null,
+      "title": "snowflake-agents",
+      "analystNote": "Publication date or primary-source body not independently verified where stated; content hash unavailable."
+    },
+    {
+      "id": "source:nightly-2026-11-06-3",
+      "type": "Source",
+      "url": "Public project awards suggest a bounded opportunity for watershed evidence mapping; no open contract or eligibility was verified.",
+      "publisher": "https://www.timesunion.com/hudsonvalley/news/article/state-funding-water-quality-improvement-projects-22514225.php",
+      "retrievedAt": "2026-11-07T00:39:18Z",
+      "publishedAt": null,
+      "sourceClass": "Times Union",
+      "independenceKey": "https-www-timesunion-com-hudsonvalley-news-article-state-funding-water-quality-improvement-projects-php",
+      "contentHash": null,
+      "title": "ny-water-grants",
+      "analystNote": "Publication date or primary-source body not independently verified where stated; content hash unavailable."
+    },
+    {
+      "id": "source:nightly-2026-11-06-4",
+      "type": "Source",
+      "url": "Null-result visualization offers a mechanism-first evidence demonstration, not proof of a new physics discovery.",
+      "publisher": "https://www.livescience.com/physics-mathematics/physicists-sank-a-telescope-1-5-miles-under-the-sea-to-put-einsteins-relativity-to-the-test",
+      "retrievedAt": "2026-11-07T00:39:18Z",
+      "publishedAt": null,
+      "sourceClass": "Live Science",
+      "independenceKey": "https-www-livescience-com-physics-mathematics-physicists-sank-a-telescope-miles-under-the-sea-to-put-einsteins-relativity-to-the-test",
+      "contentHash": null,
+      "title": "orca-neutrino-test",
+      "analystNote": "Publication date or primary-source body not independently verified where stated; content hash unavailable."
+    },
+    {
+      "id": "source:nightly-2026-11-06-5",
+      "type": "Source",
+      "url": "Citation-returning agent tools reinforce source verification needs; do not treat cited answers as verified provenance.",
+      "publisher": "https://iacompa.com/news/archive/2026",
+      "retrievedAt": "2026-11-07T00:39:18Z",
+      "publishedAt": null,
+      "sourceClass": "IA Compa",
+      "independenceKey": "https-iacompa-com-news-archive-",
+      "contentHash": null,
+      "title": "aws-web-answer",
+      "analystNote": "Publication date or primary-source body not independently verified where stated; content hash unavailable."
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs:nightly-2026-11-06-1",
+      "type": "Observation",
+      "capturedAt": "2026-11-07T00:39:18Z",
+      "claim": "Perplexity launched Teammates, persistent collaborative workplace agents, according to November 6 reporting.",
+      "verifiedFacts": [
+        "Perplexity introduced multi-agent workspaces with progress threads and Slack access."
+      ],
+      "inference": [
+        "Perplexity's provider launch supports a narrowly scoped human-review and agent-state audit; no customer outcomes were verified.",
+        "Consultancy implication: test a bounded evidence-oriented client service. Project disposition: INCUBATE. Actor behavior: press has a reported publication, release, or award action, not verified customer adoption."
+      ],
+      "significance": "Candidate intelligence for evidence-led consultancy decisions, not accepted strategy.",
+      "confidence": 0.82,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-11-06-1"
+      ],
+      "actorRefs": [
+        "actor:press"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/agent-runtime-control-center"
+      ],
+      "assumptions": [
+        "Reported event details are accurate; external demand remains unproven."
+      ],
+      "knownLimitations": [
+        "No independently verified paying customer or outcome.",
+        "Source-body SHA-256 unavailable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-06-2",
+      "type": "Observation",
+      "capturedAt": "2026-11-07T00:39:18Z",
+      "claim": "Snowflake announced enterprise agent-governance product expansions at Expedition 2026.",
+      "verifiedFacts": [
+        "Snowflake announced new AI-agent enterprise features; independent production adoption was not established."
+      ],
+      "inference": [
+        "Enterprise governance may be a service opportunity, but supplier announcements are not buyer procurement.",
+        "Consultancy implication: test a bounded evidence-oriented client service. Project disposition: CORE. Actor behavior: press has a reported publication, release, or award action, not verified customer adoption."
+      ],
+      "significance": "Candidate intelligence for evidence-led consultancy decisions, not accepted strategy.",
+      "confidence": 0.72,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-11-06-2"
+      ],
+      "actorRefs": [
+        "actor:press"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom"
+      ],
+      "assumptions": [
+        "Reported event details are accurate; external demand remains unproven."
+      ],
+      "knownLimitations": [
+        "No independently verified paying customer or outcome.",
+        "Source-body SHA-256 unavailable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-06-3",
+      "type": "Observation",
+      "capturedAt": "2026-11-07T00:39:18Z",
+      "claim": "New York awarded $30.4 million for 31 Hudson Valley water-quality projects, according to November 6 reporting.",
+      "verifiedFacts": [
+        "Reporting identifies 31 municipal and nonprofit water projects receiving $30.4 million in grants."
+      ],
+      "inference": [
+        "Public project awards suggest a bounded opportunity for watershed evidence mapping; no open contract or eligibility was verified.",
+        "Consultancy implication: test a bounded evidence-oriented client service. Project disposition: CORE. Actor behavior: press has a reported publication, release, or award action, not verified customer adoption."
+      ],
+      "significance": "Candidate intelligence for evidence-led consultancy decisions, not accepted strategy.",
+      "confidence": 0.82,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-11-06-3"
+      ],
+      "actorRefs": [
+        "actor:press"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom"
+      ],
+      "assumptions": [
+        "Reported event details are accurate; external demand remains unproven."
+      ],
+      "knownLimitations": [
+        "No independently verified paying customer or outcome.",
+        "Source-body SHA-256 unavailable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-06-4",
+      "type": "Observation",
+      "capturedAt": "2026-11-07T00:39:18Z",
+      "claim": "Researchers used 5,828 ORCA neutrino observations to test Lorentz invariance, reported November 6.",
+      "verifiedFacts": [
+        "The ORCA analysis found neutrino behavior consistent with standard physics and constrained possible Lorentz-invariance violations."
+      ],
+      "inference": [
+        "Null-result visualization offers a mechanism-first evidence demonstration, not proof of a new physics discovery.",
+        "Consultancy implication: test a bounded evidence-oriented client service. Project disposition: REFERENCE-ONLY. Actor behavior: press has a reported publication, release, or award action, not verified customer adoption."
+      ],
+      "significance": "Candidate intelligence for evidence-led consultancy decisions, not accepted strategy.",
+      "confidence": 0.8,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-11-06-4"
+      ],
+      "actorRefs": [
+        "actor:press"
+      ],
+      "affectedRepositories": [
+        "qt314wink/shader-grammar"
+      ],
+      "assumptions": [
+        "Reported event details are accurate; external demand remains unproven."
+      ],
+      "knownLimitations": [
+        "No independently verified paying customer or outcome.",
+        "Source-body SHA-256 unavailable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-06-5",
+      "type": "Observation",
+      "capturedAt": "2026-11-07T00:39:18Z",
+      "claim": "A November 5 release roundup reports AWS introduced Bedrock AgentCore Web Answer with cited responses.",
+      "verifiedFacts": [
+        "A release roundup reports an AgentCore web-answer tool priced per thousand calls; primary launch documentation was not retrieved."
+      ],
+      "inference": [
+        "Citation-returning agent tools reinforce source verification needs; do not treat cited answers as verified provenance.",
+        "Consultancy implication: test a bounded evidence-oriented client service. Project disposition: CORE. Actor behavior: secondary has a reported publication, release, or award action, not verified customer adoption."
+      ],
+      "significance": "Candidate intelligence for evidence-led consultancy decisions, not accepted strategy.",
+      "confidence": 0.58,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-11-06-5"
+      ],
+      "actorRefs": [
+        "actor:secondary"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom"
+      ],
+      "assumptions": [
+        "Reported event details are accurate; external demand remains unproven."
+      ],
+      "knownLimitations": [
+        "No independently verified paying customer or outcome.",
+        "Source-body SHA-256 unavailable."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel:nightly-2026-11-06-1",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-11-06-1",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-11-06-1",
+      "confidence": 0.82,
+      "evidenceRefs": [
+        "source:nightly-2026-11-06-1"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-06-2",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-11-06-2",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-11-06-2",
+      "confidence": 0.72,
+      "evidenceRefs": [
+        "source:nightly-2026-11-06-2"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-06-3",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-11-06-3",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-11-06-3",
+      "confidence": 0.82,
+      "evidenceRefs": [
+        "source:nightly-2026-11-06-3"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-06-4",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-11-06-4",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-11-06-4",
+      "confidence": 0.8,
+      "evidenceRefs": [
+        "source:nightly-2026-11-06-4"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-06-5",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-11-06-5",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-11-06-5",
+      "confidence": 0.58,
+      "evidenceRefs": [
+        "source:nightly-2026-11-06-5"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "ackId": "ack:nightly-2026-11-06-collect",
+      "runId": "run:nightly-2026-11-06",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-11-07T00:39:18Z",
+      "completedAt": "2026-11-07T00:39:18Z",
+      "inputs": [],
+      "outputs": [
+        "source:nightly-2026-11-06-1",
+        "source:nightly-2026-11-06-2",
+        "source:nightly-2026-11-06-3",
+        "source:nightly-2026-11-06-4",
+        "source:nightly-2026-11-06-5"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only-boundary",
+          "result": "pass",
+          "detail": "No acceptance, Genesis or publication authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate intake only; source-body hashes absent; promotion blocked."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Web research and repository authority inspection; no source-body hashing",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-06-vet",
+      "runId": "run:nightly-2026-11-06",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-11-07T00:39:18Z",
+      "completedAt": "2026-11-07T00:39:18Z",
+      "inputs": [
+        "source:nightly-2026-11-06-1",
+        "source:nightly-2026-11-06-2",
+        "source:nightly-2026-11-06-3",
+        "source:nightly-2026-11-06-4",
+        "source:nightly-2026-11-06-5"
+      ],
+      "outputs": [
+        "obs:nightly-2026-11-06-1",
+        "obs:nightly-2026-11-06-2",
+        "obs:nightly-2026-11-06-3",
+        "obs:nightly-2026-11-06-4",
+        "obs:nightly-2026-11-06-5"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only-boundary",
+          "result": "pass",
+          "detail": "No acceptance, Genesis or publication authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate intake only; source-body hashes absent; promotion blocked."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Web research and repository authority inspection; no source-body hashing",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-06-normalize",
+      "runId": "run:nightly-2026-11-06",
+      "stage": "normalize",
+      "status": "deferred",
+      "startedAt": "2026-11-07T00:39:18Z",
+      "completedAt": "2026-11-07T00:39:18Z",
+      "inputs": [
+        "run:nightly-2026-11-06"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-boundary",
+          "result": "pass",
+          "detail": "No acceptance, Genesis or publication authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate intake only; source-body hashes absent; promotion blocked."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Web research and repository authority inspection; no source-body hashing",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-06-observe",
+      "runId": "run:nightly-2026-11-06",
+      "stage": "observe",
+      "status": "deferred",
+      "startedAt": "2026-11-07T00:39:18Z",
+      "completedAt": "2026-11-07T00:39:18Z",
+      "inputs": [
+        "run:nightly-2026-11-06"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-boundary",
+          "result": "pass",
+          "detail": "No acceptance, Genesis or publication authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate intake only; source-body hashes absent; promotion blocked."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Web research and repository authority inspection; no source-body hashing",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-06-inquire",
+      "runId": "run:nightly-2026-11-06",
+      "stage": "inquire",
+      "status": "deferred",
+      "startedAt": "2026-11-07T00:39:18Z",
+      "completedAt": "2026-11-07T00:39:18Z",
+      "inputs": [
+        "run:nightly-2026-11-06"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-boundary",
+          "result": "pass",
+          "detail": "No acceptance, Genesis or publication authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate intake only; source-body hashes absent; promotion blocked."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Web research and repository authority inspection; no source-body hashing",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-06-interpret",
+      "runId": "run:nightly-2026-11-06",
+      "stage": "interpret",
+      "status": "deferred",
+      "startedAt": "2026-11-07T00:39:18Z",
+      "completedAt": "2026-11-07T00:39:18Z",
+      "inputs": [
+        "run:nightly-2026-11-06"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-boundary",
+          "result": "pass",
+          "detail": "No acceptance, Genesis or publication authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate intake only; source-body hashes absent; promotion blocked."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Web research and repository authority inspection; no source-body hashing",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-06-relate",
+      "runId": "run:nightly-2026-11-06",
+      "stage": "relate",
+      "status": "deferred",
+      "startedAt": "2026-11-07T00:39:18Z",
+      "completedAt": "2026-11-07T00:39:18Z",
+      "inputs": [
+        "run:nightly-2026-11-06"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-boundary",
+          "result": "pass",
+          "detail": "No acceptance, Genesis or publication authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate intake only; source-body hashes absent; promotion blocked."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Web research and repository authority inspection; no source-body hashing",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-06-pattern",
+      "runId": "run:nightly-2026-11-06",
+      "stage": "pattern",
+      "status": "no-change",
+      "startedAt": "2026-11-07T00:39:18Z",
+      "completedAt": "2026-11-07T00:39:18Z",
+      "inputs": [
+        "run:nightly-2026-11-06"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-boundary",
+          "result": "pass",
+          "detail": "No acceptance, Genesis or publication authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate intake only; source-body hashes absent; promotion blocked."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Web research and repository authority inspection; no source-body hashing",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-06-opportunity",
+      "runId": "run:nightly-2026-11-06",
+      "stage": "opportunity",
+      "status": "deferred",
+      "startedAt": "2026-11-07T00:39:18Z",
+      "completedAt": "2026-11-07T00:39:18Z",
+      "inputs": [
+        "run:nightly-2026-11-06"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-boundary",
+          "result": "pass",
+          "detail": "No acceptance, Genesis or publication authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate intake only; source-body hashes absent; promotion blocked."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Web research and repository authority inspection; no source-body hashing",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-06-strategy",
+      "runId": "run:nightly-2026-11-06",
+      "stage": "strategy",
+      "status": "deferred",
+      "startedAt": "2026-11-07T00:39:18Z",
+      "completedAt": "2026-11-07T00:39:18Z",
+      "inputs": [
+        "run:nightly-2026-11-06"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-boundary",
+          "result": "pass",
+          "detail": "No acceptance, Genesis or publication authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate intake only; source-body hashes absent; promotion blocked."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Web research and repository authority inspection; no source-body hashing",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-06-experiment",
+      "runId": "run:nightly-2026-11-06",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-11-07T00:39:18Z",
+      "completedAt": "2026-11-07T00:39:18Z",
+      "inputs": [
+        "run:nightly-2026-11-06"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-boundary",
+          "result": "pass",
+          "detail": "No acceptance, Genesis or publication authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate intake only; source-body hashes absent; promotion blocked."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Web research and repository authority inspection; no source-body hashing",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-06-genesis",
+      "runId": "run:nightly-2026-11-06",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-11-07T00:39:18Z",
+      "completedAt": "2026-11-07T00:39:18Z",
+      "inputs": [
+        "run:nightly-2026-11-06"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-boundary",
+          "result": "pass",
+          "detail": "No acceptance, Genesis or publication authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate intake only; source-body hashes absent; promotion blocked."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Web research and repository authority inspection; no source-body hashing",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-06-publish",
+      "runId": "run:nightly-2026-11-06",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-11-07T00:39:18Z",
+      "completedAt": "2026-11-07T00:39:18Z",
+      "inputs": [
+        "run:nightly-2026-11-06"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only-boundary",
+          "result": "pass",
+          "detail": "No acceptance, Genesis or publication authorized."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate intake only; source-body hashes absent; promotion blocked."
+        ]
+      },
+      "provenance": {
+        "producer": "ChatGPT nightly consultancy intelligence",
+        "method": "Web research and repository authority inspection; no source-body hashing",
+        "inputHashes": []
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:nightly-2026-11-06-1",
+      "observationId": "obs:nightly-2026-11-06-1",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Perplexity introduced multi-agent workspaces with progress threads and Slack access.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-06-1"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Reported actor: press.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly-2026-11-06-1"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A need for inspectable evidence is inferred, not a measured customer problem.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential beneficiaries are operators and reviewers, inferred.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Manual review and existing analytics remain substitutes.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Source-to-claim provenance and bounded acceptance matter.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Assuming announcement or reporting proves market demand.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent outcomes show no advantage over existing approaches.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Primary documentation, adoption, procurement and independent measurements.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Ordinary research or product announcements without a new service market.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Reported activity demonstrates a paying consultancy market.",
+      "falsifier": "Independent evaluation finds no measurable buyer value.",
+      "missingEvidence": [
+        "Primary source-body hashes",
+        "Independent buyer behavior",
+        "Measured operational outcome"
+      ],
+      "alternativeExplanation": "Normal vendor development or research dissemination.",
+      "disposition": "watch",
+      "confidence": 0.82
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-06-2",
+      "observationId": "obs:nightly-2026-11-06-2",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Snowflake announced new AI-agent enterprise features; independent production adoption was not established.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-06-2"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Reported actor: press.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly-2026-11-06-2"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A need for inspectable evidence is inferred, not a measured customer problem.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential beneficiaries are operators and reviewers, inferred.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Manual review and existing analytics remain substitutes.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Source-to-claim provenance and bounded acceptance matter.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Assuming announcement or reporting proves market demand.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent outcomes show no advantage over existing approaches.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Primary documentation, adoption, procurement and independent measurements.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Ordinary research or product announcements without a new service market.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Reported activity demonstrates a paying consultancy market.",
+      "falsifier": "Independent evaluation finds no measurable buyer value.",
+      "missingEvidence": [
+        "Primary source-body hashes",
+        "Independent buyer behavior",
+        "Measured operational outcome"
+      ],
+      "alternativeExplanation": "Normal vendor development or research dissemination.",
+      "disposition": "watch",
+      "confidence": 0.72
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-06-3",
+      "observationId": "obs:nightly-2026-11-06-3",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Reporting identifies 31 municipal and nonprofit water projects receiving $30.4 million in grants.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-06-3"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Reported actor: press.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly-2026-11-06-3"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A need for inspectable evidence is inferred, not a measured customer problem.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential beneficiaries are operators and reviewers, inferred.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Manual review and existing analytics remain substitutes.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Source-to-claim provenance and bounded acceptance matter.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Assuming announcement or reporting proves market demand.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent outcomes show no advantage over existing approaches.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Primary documentation, adoption, procurement and independent measurements.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Ordinary research or product announcements without a new service market.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Reported activity demonstrates a paying consultancy market.",
+      "falsifier": "Independent evaluation finds no measurable buyer value.",
+      "missingEvidence": [
+        "Primary source-body hashes",
+        "Independent buyer behavior",
+        "Measured operational outcome"
+      ],
+      "alternativeExplanation": "Normal vendor development or research dissemination.",
+      "disposition": "watch",
+      "confidence": 0.82
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-06-4",
+      "observationId": "obs:nightly-2026-11-06-4",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "The ORCA analysis found neutrino behavior consistent with standard physics and constrained possible Lorentz-invariance violations.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-06-4"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Reported actor: press.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly-2026-11-06-4"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A need for inspectable evidence is inferred, not a measured customer problem.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential beneficiaries are operators and reviewers, inferred.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Manual review and existing analytics remain substitutes.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Source-to-claim provenance and bounded acceptance matter.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Assuming announcement or reporting proves market demand.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent outcomes show no advantage over existing approaches.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Primary documentation, adoption, procurement and independent measurements.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Ordinary research or product announcements without a new service market.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Reported activity demonstrates a paying consultancy market.",
+      "falsifier": "Independent evaluation finds no measurable buyer value.",
+      "missingEvidence": [
+        "Primary source-body hashes",
+        "Independent buyer behavior",
+        "Measured operational outcome"
+      ],
+      "alternativeExplanation": "Normal vendor development or research dissemination.",
+      "disposition": "watch",
+      "confidence": 0.8
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-06-5",
+      "observationId": "obs:nightly-2026-11-06-5",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "A release roundup reports an AgentCore web-answer tool priced per thousand calls; primary launch documentation was not retrieved.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nightly-2026-11-06-5"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Reported actor: secondary.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nightly-2026-11-06-5"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "A need for inspectable evidence is inferred, not a measured customer problem.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potential beneficiaries are operators and reviewers, inferred.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Manual review and existing analytics remain substitutes.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Source-to-claim provenance and bounded acceptance matter.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Assuming announcement or reporting proves market demand.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent outcomes show no advantage over existing approaches.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Primary documentation, adoption, procurement and independent measurements.",
+          "answerType": "unknown",
+          "evidenceRefs": []
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Ordinary research or product announcements without a new service market.",
+          "answerType": "inferred",
+          "evidenceRefs": []
+        }
+      ],
+      "dangerousAssumption": "Reported activity demonstrates a paying consultancy market.",
+      "falsifier": "Independent evaluation finds no measurable buyer value.",
+      "missingEvidence": [
+        "Primary source-body hashes",
+        "Independent buyer behavior",
+        "Measured operational outcome"
+      ],
+      "alternativeExplanation": "Normal vendor development or research dissemination.",
+      "disposition": "watch",
+      "confidence": 0.58
+    }
+  ]
+}
