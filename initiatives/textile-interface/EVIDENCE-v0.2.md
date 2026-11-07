@@ -64,3 +64,36 @@ specific test. It is **local rendered evidence, not hosted deployment proof**.
 **Excluded:** certified accessibility, cross-browser parity, hardware/GPU
 validation, production performance budgets, real Figma variable synchronization,
 and field acceptance from independent implementers.
+
+## Workshop integration and evidence hardening
+
+The [workshop suite](workshop/README.md) adds a consumer specification, not a
+material renderer or a promotion of every manifest state. Source research,
+selected values, formulas, graph links, experiments and explicit gaps are linked
+from that guide and from the actual Core reference.
+
+New independent gates:
+
+```bash
+python scripts/generate_textile_workshop.py --check
+python scripts/verify_textile_workshop.py
+python scripts/verify_textile_evidence_failure.py
+```
+
+Every one of the 14 Core tokens is now independently mutated against all four
+offline adapters. The toggle keeps a stable accessible name. Normalized force
+tokens drive bounded CSS affordances with declared formulas. These mappings
+do not establish physical thread tension or fiber geometry.
+
+Browser receipts now require exactly 17 uniquely named checks and seven named
+screenshots, use a fresh run directory, record source/screenshot hashes and
+environment, and explicitly mark interrupted output as failed or incomplete.
+The negative-control gate deliberately interrupts a child run and must observe
+a nonzero exit and a fresh diagnostic receipt. Signal Validation requires the
+contract job before this browser job and errors on absent evidence artifacts.
+
+The local Work runtime could not launch Chromium because process socket creation
+was denied; local browser attempts are diagnostic failures, not passes. Fresh
+GitHub Actions results must be checked on the updated commit before claiming
+that the new 17-check browser gate passed. Historical 13-check results above
+remain tied to their original source revision.

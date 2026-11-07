@@ -2,23 +2,34 @@
 """Verify that Textile token mutation propagates into every generated adapter."""
 import copy
 import json
-from pathlib import Path
-from generate_textile_adapters import SOURCE, ROOT, outputs
+from generate_textile_adapters import SOURCE, outputs
 
-tokens = json.loads(SOURCE.read_text(encoding="utf-8"))
-original = outputs(tokens)
-for path, content in original.items():
-    assert path.is_file(), f"Missing generated adapter: {path}"
-    assert path.read_text(encoding="utf-8") == content, f"Stale generated adapter: {path}"
-assert original == outputs(tokens), "Generator is not deterministic"
+def token_paths(node, prefix=()):
+    """Enumerate token leaves, excluding metadata such as version."""
+    for key,value in node.items():
+        if isinstance(value,dict) and '$value' in value:yield prefix+(key,)
+        elif isinstance(value,dict):yield from token_paths(value,prefix+(key,))
 
-mutated = copy.deepcopy(tokens)
-old_duration = mutated["motion"]["threadButton"]["durationMs"]["$value"]
-mutated["motion"]["threadButton"]["durationMs"]["$value"] = old_duration + 20
-changed = outputs(mutated)
-changed_files = [str(path.relative_to(ROOT)) for path in original if original[path] != changed[path]]
-assert len(changed_files) == 4, f"Expected four adapters to change; got {changed_files}"
-print("PASS: canonical adapter outputs synchronized and deterministic")
-print("PASS: duration token mutation propagates to all four adapters")
-for path in changed_files:
-    print(f"  changed: {path}")
+def main():
+    """Mutate every leaf independently; require all four exports to respond."""
+    original_bytes=SOURCE.read_bytes();tokens=json.loads(original_bytes);original=outputs(tokens)
+    for path,content in original.items():
+        if not path.is_file() or path.read_text()!=content:raise ValueError('Missing/stale adapter '+str(path))
+    if original!=outputs(tokens):raise ValueError('nondeterministic compiler')
+    count=0
+    for keys in token_paths(tokens):
+        mutated=copy.deepcopy(tokens);node=mutated
+        for key in keys:node=node[key]
+        val=node['$value']
+        if isinstance(val,list):node['$value']=[val[0]+.01,*val[1:]]
+        elif isinstance(val,str) and val.startswith('#'):node['$value']='#123456' if val!='#123456' else '#654321'
+        elif isinstance(val,(int,float)):node['$value']=val+.01
+        else:raise ValueError('Unsupported token mutation '+str(keys))
+        changed=outputs(mutated)
+        if sum(original[p]!=changed[p] for p in original)!=4:raise ValueError('/'.join(keys)+' does not reach every adapter')
+        count+=1
+    if SOURCE.read_bytes()!=original_bytes or any(path.read_text()!=content for path,content in original.items()):raise ValueError('mutation changed original files')
+    print(f'PASS: {count} canonical token mutations reach all four adapters; {count*4} propagation checks; originals unchanged.')
+    return 0
+
+if __name__=='__main__':raise SystemExit(main())

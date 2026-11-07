@@ -29,14 +29,20 @@
       font: inherit;
       font-weight: 800;
       cursor: pointer;
+      box-shadow: 0 calc(3px + var(--til-thread-button-tension) * 2px)
+        calc(8px + var(--til-thread-button-elasticity) * 4px) rgb(44 44 44 / 12%);
       transition:
         transform var(--til-thread-button-duration) var(--til-thread-button-easing),
         color var(--til-thread-button-duration) var(--til-thread-button-easing),
         background-color var(--til-thread-button-duration) var(--til-thread-button-easing),
         border-style var(--til-thread-button-duration) var(--til-thread-button-easing);
+      transition-duration: calc(var(--til-thread-button-duration) * (.7 + var(--til-thread-button-recovery) * .3));
     }
     .thread-button:hover { border-style: solid; }
-    .thread-button:active { transform: scale(var(--til-thread-button-press-scale)); }
+    .thread-button:active {
+      transform: translateY(calc(var(--til-thread-button-compression) * 2px))
+        scale(var(--til-thread-button-press-scale));
+    }
     .thread-button:focus-visible { outline: 3px solid var(--til-color-focus); outline-offset: 4px; }
     .thread-button[data-state="committed"] { color: white; background: var(--til-color-indigo); border-style: solid; }
     .evidence { margin-top: 2rem; padding: 1rem; border-left: 4px solid var(--til-color-indigo); background: var(--til-color-surface); }
@@ -59,6 +65,8 @@
     <section class="evidence" aria-label="Generated source evidence">
       <strong>Source chain</strong>
       <p><code>textile.tokens.json → generate_textile_adapters.py → textile.css → ThreadButton</code></p>
+      <p><a class="suite-link" href="../../workshop/README.md">Material prompt suite and implementation map</a></p>
+      <p>Core CSS affordances only. Yarn geometry, fibers, calibrated cloth mechanics, and the workshop scenes remain planned.</p>
     </section>
   </main>
   <script>
@@ -69,7 +77,7 @@
       const next = !committed;
       button.setAttribute('aria-pressed', String(next));
       button.dataset.state = next ? 'committed' : 'loose';
-      button.textContent = next ? 'Unpick commitment' : 'Stitch commitment';
+      // Toggle name remains stable; aria-pressed and status carry the state.
       status.textContent = next ? 'Commitment stitched.' : 'Commitment removed.';
     });
   </script>

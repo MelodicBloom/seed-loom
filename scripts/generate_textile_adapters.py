@@ -14,13 +14,27 @@ GENERATED = BASE / "generated"
 
 
 def value(tokens: dict, *path: str):
+    """Resolve one explicit canonical token value."""
     node = tokens
     for part in path:
         node = node[part]
     return node["$value"]
 
 
+def flat_values(tokens: dict, prefix: str = "") -> dict:
+    """Collect every token for complete adapter coverage, including composites."""
+    result = {}
+    for key, node in tokens.items():
+        path = prefix + "/" + key if prefix else key
+        if isinstance(node, dict) and "$value" in node:
+            result[path] = node["$value"]
+        elif isinstance(node, dict):
+            result.update(flat_values(node, path))
+    return result
+
+
 def outputs(tokens: dict) -> dict[Path, str]:
+    """Build all four adapters; every canonical token affects every export."""
     easing = value(tokens, "motion", "threadButton", "easing")
     duration = value(tokens, "motion", "threadButton", "durationMs")
     radius = value(tokens, "shape", "threadButton", "radiusPx")
@@ -59,6 +73,7 @@ export type TextileTokens = typeof textileTokens;
 """
 
     motion = json.dumps({
+        "canonicalTokens": flat_values(tokens),
         "threadButton": {
             "initial": {"scale": 1},
             "tap": {"scale": press_scale},
@@ -73,18 +88,13 @@ export type TextileTokens = typeof textileTokens;
             "Textile Interface": {
                 "modes": ["Core"],
                 "variables": {
-                    "color/linen": value(tokens, "color", "linen"),
-                    "color/surface": value(tokens, "color", "surface"),
-                    "color/ink": value(tokens, "color", "ink"),
-                    "color/indigo": value(tokens, "color", "indigo"),
-                    "force/threadButton/tension": tension,
-                    "force/threadButton/compression": compression,
-                    "force/threadButton/recovery": recovery,
-                    "motion/threadButton/durationMs": duration,
-                    "shape/threadButton/radiusPx": radius,
+                    key: item for key, item in flat_values(tokens).items()
+                    if not isinstance(item, (dict, list))
                 }
             }
-        }
+        },
+        "compositeTokens": {key: item for key, item in flat_values(tokens).items() if isinstance(item, (dict, list))},
+        "boundary": "Offline mapping only. Composite easing requires explicit platform handling; no Figma synchronization has been executed."
     }, indent=2) + "\n"
 
     return {
@@ -96,6 +106,7 @@ export type TextileTokens = typeof textileTokens;
 
 
 def main() -> int:
+    """Write deterministic exports or fail on any missing/stale export."""
     parser = argparse.ArgumentParser()
     parser.add_argument("--check", action="store_true")
     args = parser.parse_args()

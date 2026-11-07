@@ -46,7 +46,22 @@ jobs:
       - name: Validate manifests and Core reference
         run: python scripts/validate_textile_interface.py
 
+      - name: Check fully resolved workshop prompt adapters
+        run: python scripts/generate_textile_workshop.py --check
+
+      - name: Verify prompt graph, parameter sensitivity, and negative controls
+        run: python scripts/verify_textile_workshop.py
+
+      - name: Publish workshop contract evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: textile-workshop-contract-evidence
+          path: artifacts/textile-workshop/
+          if-no-files-found: error
+          retention-days: 14
+
   textile-visual-evidence:
+    needs: validate-textile-interface
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
@@ -62,6 +77,9 @@ jobs:
           python -m pip install --disable-pip-version-check playwright==1.55.0
           python -m playwright install --with-deps chromium
 
+      - name: Verify interrupted browser evidence cannot pass
+        run: python scripts/verify_textile_evidence_failure.py
+
       - name: Verify rendered ThreadButton states and capture screenshots
         run: python scripts/verify_textile_visual.py
 
@@ -71,5 +89,5 @@ jobs:
         with:
           name: textile-thread-button-visual-evidence
           path: artifacts/textile-visual/
-          if-no-files-found: warn
+          if-no-files-found: error
           retention-days: 14

@@ -10,12 +10,25 @@
         "color/surface": "#faf7f2",
         "color/ink": "#2c2c2c",
         "color/indigo": "#2c3e7e",
+        "color/focus": "#0b62ce",
         "force/threadButton/tension": 0.42,
         "force/threadButton/compression": 0.26,
+        "force/threadButton/elasticity": 0.36,
         "force/threadButton/recovery": 0.66,
         "motion/threadButton/durationMs": 180,
-        "shape/threadButton/radiusPx": 12
+        "motion/threadButton/pressScale": 0.97,
+        "shape/threadButton/radiusPx": 12,
+        "shape/threadButton/borderPx": 2
       }
     }
-  }
+  },
+  "compositeTokens": {
+    "motion/threadButton/easing": [
+      0.2,
+      0.8,
+      0.2,
+      1
+    ]
+  },
+  "boundary": "Offline mapping only. Composite easing requires explicit platform handling; no Figma synchronization has been executed."
 }

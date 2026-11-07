@@ -87,3 +87,16 @@ generator produces TypeScript tokens, motion JSON and a Figma variable mapping.
 
 See [v0.2 evidence and acceptance gates](EVIDENCE-v0.2.md) before describing
 this reference as verified or production-ready.
+
+## Workshop consumer prompts and correction loop
+
+The [workshop research and implementation suite](workshop/README.md) specifies
+144 linked prompts covering surfaces, components, scenes, assets, formulas,
+rules, implementation tasks, experiments and gaps. Its canonical consumer
+registry compiles into resolved prompts, material recipes, a field dictionary
+and a traceability graph. Core tokens remain the runtime authority.
+
+Signal Validation checks the generated suite, graph references, parameter
+sensitivity and negative controls before the Core browser-evidence job. The
+suite distinguishes implemented compiler/Core behavior from planned enhanced
+rendering, unproduced assets, human visual review and deployed-route acceptance.
