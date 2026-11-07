@@ -1,0 +1,5986 @@
+[
+  {
+    "materialId": "M01",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#B7A88B",
+      "roughness": 0.88,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.28,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.12,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 9.2e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain",
+      "yarnDiameterWarpMm": 0.52,
+      "yarnDiameterWeftMm": 0.442,
+      "warpSpacingMm": 0.67,
+      "weftSpacingMm": 0.67,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 1.15,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.5,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 2,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#B7A88B",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32.16,
+        32.16
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M01_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M01_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M01_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M01_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M01_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M01_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M01_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M01_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M02",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#9D835A",
+      "roughness": 0.94,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.22,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.12,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 0.00012,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain",
+      "yarnDiameterWarpMm": 0.95,
+      "yarnDiameterWeftMm": 0.8075,
+      "warpSpacingMm": 1.55,
+      "weftSpacingMm": 1.55,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 1.6,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 1.1,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 3.0,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0.16,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#9D835A",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32.55,
+        32.55
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M02_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M02_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M02_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M02_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M02_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M02_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M02_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M02_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M03",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#D8CFBB",
+      "roughness": 0.86,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.32,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.18,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 5.2000000000000004e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain",
+      "yarnDiameterWarpMm": 0.35,
+      "yarnDiameterWeftMm": 0.2975,
+      "warpSpacingMm": 0.5,
+      "weftSpacingMm": 0.5,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.17,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 0.65,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.3,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 1.3,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#D8CFBB",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32.0,
+        32.0
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M03_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M03_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M03_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M03_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M03_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M03_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M03_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M03_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M04",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#E8DCC3",
+      "roughness": 0.32,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.45,
+      "sheenColor": "#FFF4DA",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.78,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 2.4e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "satin-5",
+      "yarnDiameterWarpMm": 0.16,
+      "yarnDiameterWeftMm": 0.136,
+      "warpSpacingMm": 0.21,
+      "weftSpacingMm": 0.21,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.35,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 0.3,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.3,
+      "fuzzCoverageRatio": 0.008,
+      "frayLengthMm": 0.6,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#E8DCC3",
+      "secondaryColorHex": "#FFF4DA",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        31.5,
+        31.5
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M04_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M04_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M04_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M04_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M04_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M04_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M04_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M04_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M05",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#E5D6BE",
+      "roughness": 0.4,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.36,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.65,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 1.2800000000000001e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0.4,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain",
+      "yarnDiameterWarpMm": 0.09,
+      "yarnDiameterWeftMm": 0.0765,
+      "warpSpacingMm": 0.17,
+      "weftSpacingMm": 0.17,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 0.16,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.04,
+      "fuzzCoverageRatio": 0.005,
+      "frayLengthMm": 0.32,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0.22,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#E5D6BE",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        31.96,
+        31.96
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M05_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M05_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M05_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M05_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M05_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M05_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M05_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M05_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M06",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#65705A",
+      "roughness": 0.9,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.7,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.25,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 0.00012,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain",
+      "yarnDiameterWarpMm": 0.32,
+      "yarnDiameterWeftMm": 0.272,
+      "warpSpacingMm": 0.42,
+      "weftSpacingMm": 0.42,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 1.8,
+      "pileHeightMm": 0.55,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.2,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 2,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 2.8,
+      "ribHeightMm": 0.65,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#65705A",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        30.8,
+        30.8
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M06_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M06_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M06_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M06_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M06_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M06_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M06_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M06_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M07",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#92816F",
+      "roughness": 0.93,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.5,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.15,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 0.00012,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "rib-2x2",
+      "yarnDiameterWarpMm": 0.9,
+      "yarnDiameterWeftMm": 0.765,
+      "warpSpacingMm": 1.25,
+      "weftSpacingMm": 1.25,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 2.4,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.65,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 2,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 4.4,
+      "ribHeightMm": 0.7,
+      "knitLoopWidthMm": 2.2,
+      "knitLoopHeightMm": 3.1,
+      "knitLoopDepthMm": 0.8,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#92816F",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        30.8,
+        30.8
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M07_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M07_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M07_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M07_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M07_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M07_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M07_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M07_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M08",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#EDE3CD",
+      "roughness": 0.83,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.35,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.2,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 2.7999999999999996e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0.45,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "hexagonal floral openwork; 8mm motif repeat",
+      "yarnDiameterWarpMm": 0.18,
+      "yarnDiameterWeftMm": 0.153,
+      "warpSpacingMm": 0.4,
+      "weftSpacingMm": 0.4,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 0.35,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.08,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 0.7,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0.64,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#EDE3CD",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32,
+        32
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M08_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M08_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M08_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M08_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M08_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M08_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M08_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M08_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M09",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#C9C0AD",
+      "roughness": 0.72,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.28,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.35,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 9.6e-06,
+      "displacementBias": 0.0,
+      "alphaTest": 0.4,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain",
+      "yarnDiameterWarpMm": 0.075,
+      "yarnDiameterWeftMm": 0.0638,
+      "warpSpacingMm": 0.13,
+      "weftSpacingMm": 0.13,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 2.2,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 0.12,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.025,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 0.24,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0.3,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#C9C0AD",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        31.98,
+        31.98
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M09_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M09_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M09_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M09_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M09_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M09_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M09_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M09_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M10",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#DDD3BB",
+      "roughness": 0.86,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.3,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.18,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 3.2e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0.45,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain",
+      "yarnDiameterWarpMm": 0.24,
+      "yarnDiameterWeftMm": 0.204,
+      "warpSpacingMm": 0.44,
+      "weftSpacingMm": 0.44,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 0.4,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.25,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 0.8,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0.38,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#DDD3BB",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32.12,
+        32.12
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M10_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M10_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M10_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M10_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M10_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M10_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M10_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M10_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M11",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#2C1825",
+      "roughness": 0.85,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.92,
+      "sheenColor": "#A95779",
+      "sheenRoughness": 0.38,
+      "anisotropy": 0.3,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 0.00012,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain",
+      "yarnDiameterWarpMm": 0.16,
+      "yarnDiameterWeftMm": 0.136,
+      "warpSpacingMm": 0.22,
+      "weftSpacingMm": 0.22,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 1.7,
+      "pileHeightMm": 1.1,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.18,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 2,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#2C1825",
+      "secondaryColorHex": "#A95779",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        31.9,
+        31.9
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M11_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M11_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M11_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M11_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M11_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M11_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M11_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M11_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M12",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#8A8872",
+      "roughness": 0.92,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.68,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.2,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 0.00012,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain",
+      "yarnDiameterWarpMm": 0.8,
+      "yarnDiameterWeftMm": 0.68,
+      "warpSpacingMm": 1.1,
+      "weftSpacingMm": 1.1,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 26,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 3.2,
+      "pileHeightMm": 2.0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 3.5,
+      "fuzzCoverageRatio": 0.16,
+      "frayLengthMm": 2,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#8A8872",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        31.9,
+        31.9
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M12_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M12_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M12_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M12_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M12_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M12_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M12_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M12_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M13",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#AEA08C",
+      "roughness": 0.94,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.62,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.15,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 0.00012,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain",
+      "yarnDiameterWarpMm": 0.65,
+      "yarnDiameterWeftMm": 0.5525,
+      "warpSpacingMm": 0.95,
+      "weftSpacingMm": 0.95,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 22,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 2.7,
+      "pileHeightMm": 1.5,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 2.5,
+      "fuzzCoverageRatio": 0.12,
+      "frayLengthMm": 2,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#AEA08C",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32.3,
+        32.3
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M13_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M13_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M13_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M13_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M13_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M13_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M13_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M13_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M14",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#253B54",
+      "roughness": 0.9,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.24,
+      "sheenColor": "#C4B79D",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.22,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 7.6e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "twill-3x1",
+      "yarnDiameterWarpMm": 0.42,
+      "yarnDiameterWeftMm": 0.357,
+      "warpSpacingMm": 0.54,
+      "weftSpacingMm": 0.54,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 0.95,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.45,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 2.2,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#253B54",
+      "secondaryColorHex": "#C4B79D",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32.4,
+        32.4
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M14_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M14_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M14_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M14_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M14_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M14_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M14_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M14_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M15",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#1D5B54",
+      "roughness": 0.51,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.28,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.55,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 2e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain plus 4mm reinforcing grid",
+      "yarnDiameterWarpMm": 0.15,
+      "yarnDiameterWeftMm": 0.1275,
+      "warpSpacingMm": 0.22,
+      "weftSpacingMm": 0.22,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 0.25,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.025,
+      "fuzzCoverageRatio": 0.004,
+      "frayLengthMm": 0.5,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#1D5B54",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32,
+        32
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M15_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M15_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M15_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M15_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M15_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M15_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M15_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M15_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M16",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#8F947B",
+      "roughness": 0.91,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.25,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.15,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 8.800000000000001e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain",
+      "yarnDiameterWarpMm": 0.5,
+      "yarnDiameterWeftMm": 0.425,
+      "warpSpacingMm": 0.68,
+      "weftSpacingMm": 0.68,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 1.1,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.7,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 2,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#8F947B",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        31.96,
+        31.96
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M16_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M16_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M16_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M16_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M16_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M16_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M16_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M16_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M17",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#536D63",
+      "roughness": 0.62,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.25,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.4,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 4e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0.45,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "hexagonal mesh 1.4mm repeat",
+      "yarnDiameterWarpMm": 0.22,
+      "yarnDiameterWeftMm": 0.187,
+      "warpSpacingMm": 0.7,
+      "weftSpacingMm": 0.7,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 0.5,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.03,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 1.0,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0.55,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#536D63",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32.2,
+        32.2
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M17_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M17_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M17_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M17_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M17_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M17_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M17_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M17_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M18",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#C7B892",
+      "roughness": 0.86,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.3,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.28,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 4.4000000000000006e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain",
+      "yarnDiameterWarpMm": 0.28,
+      "yarnDiameterWeftMm": 0.238,
+      "warpSpacingMm": 0.46,
+      "weftSpacingMm": 0.46,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.22,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 0.55,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.5,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 1.1,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#C7B892",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32.2,
+        32.2
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M18_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M18_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M18_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M18_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M18_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M18_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M18_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M18_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M19",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#987B76",
+      "roughness": 0.9,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.4,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.16,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 0.00012,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain patch panels with diagonal quilt lines",
+      "yarnDiameterWarpMm": 0.3,
+      "yarnDiameterWeftMm": 0.255,
+      "warpSpacingMm": 0.42,
+      "weftSpacingMm": 0.42,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 4.0,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.3,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 2,
+      "edgeType": "cut with bounded fray",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 18,
+      "quiltLoftMm": 3,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#987B76",
+      "secondaryColorHex": "#61736A",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        36,
+        36
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M19_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M19_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M19_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M19_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M19_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M19_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M19_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M19_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M20",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#B99A59",
+      "roughness": 0.36,
+      "metalness": 0.9,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.7,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 2.4e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain",
+      "yarnDiameterWarpMm": 0.28,
+      "yarnDiameterWeftMm": 0.238,
+      "warpSpacingMm": 0.4,
+      "weftSpacingMm": 0.4,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 3,
+      "plyTwistTurnsPerMm": 1.2,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 0.3,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.02,
+      "fuzzCoverageRatio": 0.003,
+      "frayLengthMm": 0.6,
+      "edgeType": "cut ends",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#B99A59",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32.0,
+        32.0
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M20_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M20_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M20_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M20_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M20_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M20_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M20_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M20_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M21",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#704A32",
+      "roughness": 0.68,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.08,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 9.6e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "fine irregular leather grain",
+      "yarnDiameterWarpMm": 0,
+      "yarnDiameterWeftMm": 0.0,
+      "warpSpacingMm": 0,
+      "weftSpacingMm": 0,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 0,
+      "plyTwistTurnsPerMm": 0,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 1.2,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0,
+      "fuzzCoverageRatio": 0,
+      "frayLengthMm": 0,
+      "edgeType": "rounded cut edge",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#704A32",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.08
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32,
+        32
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M21_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M21_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M21_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M21_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M21_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M21_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M21_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M21_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M22",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#805D3E",
+      "roughness": 0.72,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.32,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 8e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "longitudinal wood grain",
+      "yarnDiameterWarpMm": 0,
+      "yarnDiameterWeftMm": 0.0,
+      "warpSpacingMm": 0,
+      "weftSpacingMm": 0,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 0,
+      "plyTwistTurnsPerMm": 0,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 24,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0,
+      "fuzzCoverageRatio": 0,
+      "frayLengthMm": 0,
+      "edgeType": "3mm bevel",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#805D3E",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32,
+        32
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M22_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M22_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M22_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M22_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M22_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M22_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M22_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M22_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M23",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#31594F",
+      "roughness": 0.82,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 0.00012,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "subtle polymer stipple; grid is separate vector decal",
+      "yarnDiameterWarpMm": 0,
+      "yarnDiameterWeftMm": 0.0,
+      "warpSpacingMm": 0,
+      "weftSpacingMm": 0,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 0,
+      "plyTwistTurnsPerMm": 0,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 3,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0,
+      "fuzzCoverageRatio": 0,
+      "frayLengthMm": 0,
+      "edgeType": "1mm bevel",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#31594F",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32,
+        32
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M23_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M23_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M23_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M23_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M23_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M23_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M23_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M23_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M24",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#A77B4C",
+      "roughness": 0.62,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.12,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 0.00012,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "subtle wood grain",
+      "yarnDiameterWarpMm": 0,
+      "yarnDiameterWeftMm": 0.0,
+      "warpSpacingMm": 0,
+      "weftSpacingMm": 0,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 0,
+      "plyTwistTurnsPerMm": 0,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 2.6,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0,
+      "fuzzCoverageRatio": 0,
+      "frayLengthMm": 0,
+      "edgeType": ".7mm rounded rim",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#A77B4C",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32,
+        32
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M24_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M24_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M24_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M24_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M24_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M24_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M24_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M24_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M25",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#42382D",
+      "roughness": 0.38,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.18,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 0.00012,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.12,
+      "clearcoatRoughness": 0.35,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "irregular warm brown striation; no animal-source claim",
+      "yarnDiameterWarpMm": 0,
+      "yarnDiameterWeftMm": 0.0,
+      "warpSpacingMm": 0,
+      "weftSpacingMm": 0,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 0,
+      "plyTwistTurnsPerMm": 0,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 2.4,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0,
+      "fuzzCoverageRatio": 0,
+      "frayLengthMm": 0,
+      "edgeType": ".6mm rounded rim",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#42382D",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32,
+        32
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M25_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M25_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M25_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M25_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M25_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M25_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M25_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M25_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M26",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#D8D8CD",
+      "roughness": 0.26,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.12,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 0.00012,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.45,
+      "iridescenceIOR": 1.35,
+      "iridescenceThicknessMinimum": 220,
+      "iridescenceThicknessMaximum": 460,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "soft irregular pearlescent lamellae; illustrative",
+      "yarnDiameterWarpMm": 0,
+      "yarnDiameterWeftMm": 0.0,
+      "warpSpacingMm": 0,
+      "weftSpacingMm": 0,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 0,
+      "plyTwistTurnsPerMm": 0,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 2.1,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0,
+      "fuzzCoverageRatio": 0,
+      "frayLengthMm": 0,
+      "edgeType": ".5mm rounded rim",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#D8D8CD",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32,
+        32
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M26_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M26_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M26_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M26_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M26_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M26_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M26_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M26_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M27",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#B99A59",
+      "roughness": 0.42,
+      "metalness": 1.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.65,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 0.00012,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "directional brushed metal",
+      "yarnDiameterWarpMm": 0,
+      "yarnDiameterWeftMm": 0.0,
+      "warpSpacingMm": 0,
+      "weftSpacingMm": 0,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 0,
+      "plyTwistTurnsPerMm": 0,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 1.6,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0,
+      "fuzzCoverageRatio": 0,
+      "frayLengthMm": 0,
+      "edgeType": ".3mm bevel",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#B99A59",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32,
+        32
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M27_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M27_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M27_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M27_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M27_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M27_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M27_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M27_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M28",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#D4BB87",
+      "roughness": 0.97,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.5,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.05,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 0.00012,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "nonwoven entangled fibers",
+      "yarnDiameterWarpMm": 0,
+      "yarnDiameterWeftMm": 0.0,
+      "warpSpacingMm": 0,
+      "weftSpacingMm": 0,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 0,
+      "plyTwistTurnsPerMm": 0,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 2.2,
+      "pileHeightMm": 0.4,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.6,
+      "fuzzCoverageRatio": 0.13,
+      "frayLengthMm": 0,
+      "edgeType": "soft cut edge",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#D4BB87",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32,
+        32
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M28_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M28_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M28_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M28_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M28_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M28_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M28_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M28_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M29",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#E1CC93",
+      "roughness": 0.72,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.12,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.1,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 3.2e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "coated plain weave; markings are separate live/vector layer",
+      "yarnDiameterWarpMm": 0.16,
+      "yarnDiameterWeftMm": 0.136,
+      "warpSpacingMm": 0.23,
+      "weftSpacingMm": 0.23,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 0,
+      "plyTwistTurnsPerMm": 0,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 0.4,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.03,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 0,
+      "edgeType": "bound edge",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#E1CC93",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        31.97,
+        31.97
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M29_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M29_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M29_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M29_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M29_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M29_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M29_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M29_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M30",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#9B5A48",
+      "roughness": 0.83,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.35,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.3,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 3.2e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain",
+      "yarnDiameterWarpMm": 0.18,
+      "yarnDiameterWeftMm": 0.153,
+      "warpSpacingMm": 0.25,
+      "weftSpacingMm": 0.25,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 2,
+      "plyTwistTurnsPerMm": 0.9,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 0.4,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.15,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 0.2,
+      "edgeType": "woven selvedge",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#9B5A48",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32.0,
+        32.0
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M30_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M30_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M30_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M30_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M30_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M30_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M30_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M30_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M31",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#D9CDB0",
+      "roughness": 0.86,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.32,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.15,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 2.7999999999999996e-05,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "plain",
+      "yarnDiameterWarpMm": 0.32,
+      "yarnDiameterWeftMm": 0.272,
+      "warpSpacingMm": 0.45,
+      "weftSpacingMm": 0.45,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 3,
+      "plyTwistTurnsPerMm": 1.5,
+      "fiberDiameterMicrometers": 17,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 0.35,
+      "pileHeightMm": 0,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.35,
+      "fuzzCoverageRatio": 0.05,
+      "frayLengthMm": 0.7,
+      "edgeType": "cut ends",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#D9CDB0",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        31.95,
+        31.95
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M31_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M31_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M31_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M31_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M31_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M31_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M31_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M31_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  },
+  {
+    "materialId": "M32",
+    "status": "recipe-not-rendered",
+    "package": "three@0.187.0",
+    "optionsWithoutTextures": {
+      "color": "#E4DBC8",
+      "roughness": 0.98,
+      "metalness": 0.0,
+      "ior": 1.5,
+      "specularIntensity": 1.0,
+      "sheen": 0.35,
+      "sheenColor": "#D6CDB9",
+      "sheenRoughness": 0.6,
+      "anisotropy": 0.03,
+      "anisotropyRotation": 0.0,
+      "normalScale": [
+        0.45,
+        0.45
+      ],
+      "displacementScale": 0.00012,
+      "displacementBias": 0.0,
+      "alphaTest": 0,
+      "transparent": false,
+      "opacity": 1.0,
+      "transmission": 0.0,
+      "clearcoat": 0.0,
+      "clearcoatRoughness": 0.6,
+      "iridescence": 0.0,
+      "iridescenceIOR": 1.3,
+      "iridescenceThicknessMinimum": 100,
+      "iridescenceThicknessMaximum": 400,
+      "side": "DoubleSide"
+    },
+    "textureBindings": {
+      "baseColor": "map; color becomes #FFFFFF when the authored full-color albedo is bound",
+      "normal": "normalMap; Vector2(normalScaleXY)",
+      "orm": "aoMap reads R; roughnessMap G; metalnessMap B; AO UV compatibility must be checked",
+      "height": "displacementMap; numeric normalization matches declared mm amplitude",
+      "sheenColor": "sheenColorMap RGB; sRGB",
+      "sheenRoughness": "sheenRoughnessMap A; NoColorSpace",
+      "anisotropy": "anisotropyMap RG direction B strength; NoColorSpace",
+      "coverage": "alphaMap reads G; white=covered; NoColorSpace"
+    },
+    "construction": {
+      "pattern": "nonwoven loose fiber web",
+      "yarnDiameterWarpMm": 0,
+      "yarnDiameterWeftMm": 0.0,
+      "warpSpacingMm": 0,
+      "weftSpacingMm": 0,
+      "flatteningZ": 0.65,
+      "crossingGapMm": 0.02,
+      "plyCount": 0,
+      "plyTwistTurnsPerMm": 0,
+      "fiberDiameterMicrometers": 18,
+      "yarnDiameterJitterRatio": 0.08,
+      "positionJitterRatio": 0.04,
+      "thicknessMm": 3.0,
+      "pileHeightMm": 0.4,
+      "pileDirectionRad": 0.0,
+      "pileBendMaxRad": 0.3,
+      "fuzzLengthMm": 0.9,
+      "fuzzCoverageRatio": 0.17,
+      "frayLengthMm": 0,
+      "edgeType": "soft compressed edge",
+      "ribPitchMm": 0,
+      "ribHeightMm": 0,
+      "knitLoopWidthMm": 0,
+      "knitLoopHeightMm": 0,
+      "knitLoopDepthMm": 0,
+      "openAreaRatio": 0,
+      "quiltCellMm": 0,
+      "quiltLoftMm": 0,
+      "grainDirectionRad": 0,
+      "primaryColorHex": "#E4DBC8",
+      "secondaryColorHex": "#D6CDB9",
+      "colorVariationRatio": 0.055
+    },
+    "mapContract": {
+      "tileSizeMm": [
+        32,
+        32
+      ],
+      "masterResolutionPx": 2048,
+      "runtimeResolutionT1Px": 1024,
+      "runtimeResolutionT2Px": 2048,
+      "tileSeamToleranceNormalized": 0.025,
+      "uvOrigin": "lower-left",
+      "uvRotationRad": 0.0,
+      "heightOrigin": "lowest represented shading surface",
+      "detailSeparation": "height and normal contain unresolved detail only; modeled yarn relief must not be duplicated",
+      "requiredMaps": {
+        "baseColor": {
+          "filename": "M32_basecolor.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": "authored base color; no baked lighting"
+        },
+        "normal": {
+          "filename": "M32_normal.png",
+          "channels": "RGB",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            128,
+            128,
+            255
+          ]
+        },
+        "orm": {
+          "filename": "M32_orm.png",
+          "channels": "R=AO G=roughness multiplier B=metalness multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "height": {
+          "filename": "M32_height.png",
+          "channels": "R=normalized height; G=B=R",
+          "bitDepth": 16,
+          "colorSpace": "non-color",
+          "neutralValue": 0
+        },
+        "sheenColor": {
+          "filename": "M32_sheen-color.png",
+          "channels": "RGB multiplier",
+          "bitDepth": 8,
+          "colorSpace": "sRGB",
+          "neutralValue": [
+            255,
+            255,
+            255
+          ]
+        },
+        "sheenRoughness": {
+          "filename": "M32_sheen-roughness.png",
+          "channels": "A=roughness multiplier; RGB=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "anisotropy": {
+          "filename": "M32_anisotropy.png",
+          "channels": "R=direction X encoded 0..1 G=direction Y encoded 0..1 B=strength multiplier",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            128,
+            255
+          ]
+        },
+        "coverage": {
+          "filename": "M32_coverage.png",
+          "channels": "R=G=B=coverage; A=255",
+          "bitDepth": 8,
+          "colorSpace": "non-color",
+          "neutralValue": [
+            255,
+            255,
+            255,
+            255
+          ]
+        }
+      },
+      "geometryLod": "modeled yarn crop in inspector; mapped sheet elsewhere",
+      "requiredAttributes": [
+        "POSITION",
+        "NORMAL",
+        "TEXCOORD_0",
+        "TANGENT"
+      ],
+      "runtimeCompression": "KTX2 Basis UASTC, mipmaps; retain uncompressed masters",
+      "compressionQualityPolicy": "reject visible normal block artifacts and lost coverage holes",
+      "looseTextureFlipY": true,
+      "gltfImportPolicy": "GLTFLoader owns flipY and texture transforms; never apply loose-texture overrides to imported glTF textures."
+    }
+  }
+]
