@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-07-2",
+  "type": "Observation",
+  "capturedAt": "2026-11-08T00:55:27Z",
+  "claim": "November 7 retailer reporting describes agent-originated traffic and metadata changes at All Star Elite.",
+  "verifiedFacts": [
+    "The retailer reports approximately one percent of website traffic from agents and is adding machine-readable product metadata."
+  ],
+  "inference": [
+    "An agent-readable commerce metadata audit may offer a bounded service, but buyer value is unproven.",
+    "Consultancy relevance: An agent-readable commerce metadata audit may offer a bounded service, but buyer value is unproven. Project disposition: PRODUCTIZE. Actor: buyer; documented release, publication, reported business action or solicitation, not demonstrated consultancy purchase."
+  ],
+  "significance": "Candidate-only research signal; acceptance and Genesis deferred.",
+  "confidence": 0.81,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-11-07-2"
+  ],
+  "actorRefs": [
+    "actor:buyer"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/observation-ad-pipeline"
+  ],
+  "assumptions": [
+    "This activity creates a measurable unmet client need."
+  ],
+  "knownLimitations": [
+    "Independent buyer demand unverified.",
+    "Original source-body SHA-256 unavailable."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate",
+  "schemaVersion": "1.1.0"
+}

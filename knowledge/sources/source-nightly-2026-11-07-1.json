@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-11-07-1",
+  "type": "Source",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+  "publisher": "The Verge",
+  "retrievedAt": "2026-11-08T00:55:27Z",
+  "publishedAt": null,
+  "sourceClass": "press",
+  "independenceKey": "the-verge",
+  "contentHash": null,
+  "title": "METR Anthropic research acceleration evaluation",
+  "analystNote": "Original source-body SHA-256 not independently available.",
+  "schemaVersion": "1.1.0"
+}

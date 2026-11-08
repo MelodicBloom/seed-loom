@@ -1,0 +1,32 @@
+{
+  "ackId": "ack:nightly-2026-11-07-interpret",
+  "runId": "run:nightly-2026-11-07",
+  "stage": "interpret",
+  "status": "deferred",
+  "startedAt": "2026-11-08T00:55:27Z",
+  "completedAt": "2026-11-08T00:55:27Z",
+  "inputs": [
+    "run:nightly-2026-11-07"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "candidate-only-boundary",
+      "result": "pass",
+      "detail": "No acceptance, Genesis or publication authorized."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "Candidate-only; absent source-body hashes block promotion."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly consultancy intelligence",
+    "method": "Live source and GitHub authority inspection; no original source-body hashing",
+    "inputHashes": []
+  },
+  "schemaVersion": "1.1.0"
+}

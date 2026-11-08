@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-11-07-4",
+  "type": "Source",
+  "url": "https://www.nsf.gov/funding/opportunities/mri-major-research-instrumentation-program/nsf27-500/solicitation",
+  "publisher": "National Science Foundation",
+  "retrievedAt": "2026-11-08T00:55:27Z",
+  "publishedAt": null,
+  "sourceClass": "official",
+  "independenceKey": "national-science-foundation",
+  "contentHash": null,
+  "title": "NSF Major Research Instrumentation 2027 solicitation",
+  "analystNote": "Original source-body SHA-256 not independently available.",
+  "schemaVersion": "1.1.0"
+}

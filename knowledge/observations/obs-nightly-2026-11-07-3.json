@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-07-3",
+  "type": "Observation",
+  "capturedAt": "2026-11-08T00:55:27Z",
+  "claim": "GitHub announced general availability of @GitHub in Slack and Teams on November 6.",
+  "verifiedFacts": [
+    "GitHub announced general availability and conversation attribution for created issues and PRs."
+  ],
+  "inference": [
+    "Cross-platform coding handoffs should preserve source-conversation attribution separately from authorization.",
+    "Consultancy relevance: Cross-platform coding handoffs should preserve source-conversation attribution separately from authorization. Project disposition: CORE. Actor: provider; documented release, publication, reported business action or solicitation, not demonstrated consultancy purchase."
+  ],
+  "significance": "Candidate-only research signal; acceptance and Genesis deferred.",
+  "confidence": 0.96,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-11-07-3"
+  ],
+  "actorRefs": [
+    "actor:provider"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom"
+  ],
+  "assumptions": [
+    "This activity creates a measurable unmet client need."
+  ],
+  "knownLimitations": [
+    "Independent buyer demand unverified.",
+    "Original source-body SHA-256 unavailable."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate",
+  "schemaVersion": "1.1.0"
+}

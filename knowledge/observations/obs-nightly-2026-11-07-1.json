@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-07-1",
+  "type": "Observation",
+  "capturedAt": "2026-11-08T00:55:27Z",
+  "claim": "November 7 reporting describes a METR evaluation of accelerated AI-assisted Anthropic research with redacted evidence.",
+  "verifiedFacts": [
+    "METR evaluated AI contributions during an eleven-week investigation; important evidence was redacted."
+  ],
+  "inference": [
+    "Independent reproducibility and review receipts may become valuable for agent-assisted research.",
+    "Consultancy relevance: Independent reproducibility and review receipts may become valuable for agent-assisted research. Project disposition: CORE. Actor: researchers; documented release, publication, reported business action or solicitation, not demonstrated consultancy purchase."
+  ],
+  "significance": "Candidate-only research signal; acceptance and Genesis deferred.",
+  "confidence": 0.76,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-11-07-1"
+  ],
+  "actorRefs": [
+    "actor:researchers"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom"
+  ],
+  "assumptions": [
+    "This activity creates a measurable unmet client need."
+  ],
+  "knownLimitations": [
+    "Independent buyer demand unverified.",
+    "Original source-body SHA-256 unavailable."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate",
+  "schemaVersion": "1.1.0"
+}

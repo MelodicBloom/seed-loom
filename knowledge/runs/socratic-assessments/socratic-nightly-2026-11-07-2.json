@@ -1,0 +1,92 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-07-2",
+  "observationId": "obs:nightly-2026-11-07-2",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "The retailer reports approximately one percent of website traffic from agents and is adding machine-readable product metadata.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nightly-2026-11-07-2"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "buyer performed the reported action.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nightly-2026-11-07-2"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Evidence governance may be useful but no measured client problem established.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Operators, reviewers, or eligible institutions may benefit.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing software, conventional review, or established vendors.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Inspectable source attribution and acceptance boundaries.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Assuming announcements establish client demand.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent tests find no measurable advantage.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Buyer payment, adoption, and reproducible outcome evidence.",
+      "answerType": "unknown",
+      "evidenceRefs": []
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Normal product development or research activity.",
+      "answerType": "inferred",
+      "evidenceRefs": []
+    }
+  ],
+  "dangerousAssumption": "Reported activity proves independent consultancy demand.",
+  "falsifier": "Measured customer outcomes show no advantage over existing substitutes.",
+  "missingEvidence": [
+    "Buyer procurement",
+    "Independent adoption",
+    "Primary body digest"
+  ],
+  "alternativeExplanation": "Ordinary research, product maintenance, or institutional funding.",
+  "disposition": "watch",
+  "confidence": 0.81
+}

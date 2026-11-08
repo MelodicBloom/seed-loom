@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-07-5",
+  "type": "Observation",
+  "capturedAt": "2026-11-08T00:55:27Z",
+  "claim": "NASA reported on November 6 that Swift reentered the atmosphere on November 4.",
+  "verifiedFacts": [
+    "Swift completed nearly twenty-two years of ultraviolet, X-ray, and gamma-ray observation before reentry."
+  ],
+  "inference": [
+    "Instrument lifecycle evidence can inform a bounded AETHER runtime lifecycle analogy.",
+    "Consultancy relevance: Instrument lifecycle evidence can inform a bounded AETHER runtime lifecycle analogy. Project disposition: REFERENCE-ONLY. Actor: researchers; documented release, publication, reported business action or solicitation, not demonstrated consultancy purchase."
+  ],
+  "significance": "Candidate-only research signal; acceptance and Genesis deferred.",
+  "confidence": 0.97,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-11-07-5"
+  ],
+  "actorRefs": [
+    "actor:researchers"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/aether"
+  ],
+  "assumptions": [
+    "This activity creates a measurable unmet client need."
+  ],
+  "knownLimitations": [
+    "Independent buyer demand unverified.",
+    "Original source-body SHA-256 unavailable."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate",
+  "schemaVersion": "1.1.0"
+}

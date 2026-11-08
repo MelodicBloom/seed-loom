@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-07-4",
+  "type": "Observation",
+  "capturedAt": "2026-11-08T00:55:27Z",
+  "claim": "NSF posted solicitation 27-500 on November 6 for major research instrumentation.",
+  "verifiedFacts": [
+    "The NSF submission window runs January 4 through January 29, 2027 for eligible institutions."
+  ],
+  "inference": [
+    "Research instrumentation creates a possible partner-service lane, not an open consultancy contract.",
+    "Consultancy relevance: Research instrumentation creates a possible partner-service lane, not an open consultancy contract. Project disposition: INCUBATE. Actor: funder; documented release, publication, reported business action or solicitation, not demonstrated consultancy purchase."
+  ],
+  "significance": "Candidate-only research signal; acceptance and Genesis deferred.",
+  "confidence": 0.98,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-11-07-4"
+  ],
+  "actorRefs": [
+    "actor:funder"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/omni-loom"
+  ],
+  "assumptions": [
+    "This activity creates a measurable unmet client need."
+  ],
+  "knownLimitations": [
+    "Independent buyer demand unverified.",
+    "Original source-body SHA-256 unavailable."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate",
+  "schemaVersion": "1.1.0"
+}

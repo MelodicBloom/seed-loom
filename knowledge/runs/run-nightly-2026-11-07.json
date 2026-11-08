@@ -1,0 +1,57 @@
+{
+  "runId": "run:nightly-2026-11-07",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-11-06T00:55:27Z",
+    "to": "2026-11-08T00:55:27Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-11-07-1",
+    "obs:nightly-2026-11-07-2",
+    "obs:nightly-2026-11-07-3",
+    "obs:nightly-2026-11-07-4",
+    "obs:nightly-2026-11-07-5"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [],
+  "newRelationships": [
+    "rel:nightly-2026-11-07-1",
+    "rel:nightly-2026-11-07-2",
+    "rel:nightly-2026-11-07-3",
+    "rel:nightly-2026-11-07-4",
+    "rel:nightly-2026-11-07-5"
+  ],
+  "contradictions": [],
+  "opportunities": [
+    "Agent evaluation and provenance audits",
+    "Agent-readable commerce metadata assessment",
+    "Research instrumentation evidence mapping"
+  ],
+  "proposedExperiments": [
+    "Conversation-to-PR attribution and authorization matrix",
+    "Five-product structured metadata and human-checkout comparison"
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/seed-loom",
+      "allowedPaths": [
+        "knowledge/intake/nightly/"
+      ],
+      "description": "Review candidate intake and validate receipts; no merge."
+    }
+  ],
+  "noChangeReceipts": [
+    "Perplexity, Snowflake, and watershed stories not repeated as new observations.",
+    "No new Omni-Loom physical proof, Kozo Dreams completion, or AETHER acceptance established."
+  ],
+  "collectionFailures": [
+    "Original source-body hashes unavailable; source URLs preserved.",
+    "Graph-wide semantic deduplication and complete repository CI review not performed.",
+    "METR underlying evaluation evidence partly redacted.",
+    "No independent consultancy procurement verified."
+  ],
+  "schemaVersion": "1.1.0"
+}
