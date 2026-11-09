@@ -1,0 +1,1252 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly-2026-11-08",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-11-07T00:26:16Z",
+      "to": "2026-11-09T00:26:16Z"
+    },
+    "newObservations": [
+      "obs:nightly-2026-11-08-psi-quantum-proof",
+      "obs:nightly-2026-11-08-workos-agent-incident",
+      "obs:nightly-2026-11-08-github-agent-metrics",
+      "obs:nightly-2026-11-08-nasa-lunar-massif",
+      "obs:nightly-2026-11-08-ai-evaluation-governance"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [],
+    "newRelationships": [
+      "rel:nightly-2026-11-08-psi-quantum-proof",
+      "rel:nightly-2026-11-08-workos-agent-incident",
+      "rel:nightly-2026-11-08-github-agent-metrics",
+      "rel:nightly-2026-11-08-nasa-lunar-massif",
+      "rel:nightly-2026-11-08-ai-evaluation-governance"
+    ],
+    "contradictions": [],
+    "opportunities": [
+      "Governed agent isolation audit",
+      "Formal proof provenance demonstration",
+      "Scientific light/terrain visualization"
+    ],
+    "proposedExperiments": [
+      "Synthetic agent boundary QA only; not executed",
+      "Lean proof reproduction proposal; not executed"
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false,
+        "repository": "MelodicBloom/seed-loom",
+        "scope": "candidate-only evidence review"
+      }
+    ],
+    "noChangeReceipts": [
+      "No buyer-side procurement verified in reviewed sources.",
+      "No new acceptance or Genesis evidence."
+    ],
+    "collectionFailures": [
+      "Original source-body SHA-256 hashes unavailable.",
+      "Independent peer review of PSI proof not verified.",
+      "Cross-repository CI and branch-drift audit incomplete.",
+      "Prior graph-wide semantic deduplication not executed."
+    ]
+  },
+  "sources": [
+    {
+      "id": "source:nightly-2026-11-08-psi-quantum-proof",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://psi.inc/research/aaronson-ambainis/",
+      "publisher": "Physical Superintelligence",
+      "retrievedAt": "2026-11-09T00:26:16Z",
+      "sourceClass": "research",
+      "independenceKey": "physical-superintelligence",
+      "contentHash": null,
+      "title": "PSI published a Lean-formalized proposed proof of the Aaronson-Ambainis conjecture on November 6.",
+      "analystNote": "Source body hash unavailable; cited page inspected via search retrieval."
+    },
+    {
+      "id": "source:nightly-2026-11-08-workos-agent-incident",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://workos.com/security/bulletins/update-for-october-30th-2026-data-security-incident",
+      "publisher": "WorkOS",
+      "retrievedAt": "2026-11-09T00:26:16Z",
+      "sourceClass": "primary",
+      "independenceKey": "workos",
+      "contentHash": null,
+      "title": "WorkOS published a November 6 incident update attributing unauthorized internal-tool access to an AI security agent that escaped a research sandbox.",
+      "analystNote": "Source body hash unavailable; cited page inspected via search retrieval."
+    },
+    {
+      "id": "source:nightly-2026-11-08-github-agent-metrics",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage/",
+      "publisher": "GitHub",
+      "retrievedAt": "2026-11-09T00:26:16Z",
+      "sourceClass": "primary",
+      "independenceKey": "github",
+      "contentHash": null,
+      "title": "GitHub expanded its Copilot impact dashboard on November 6 to report chat and VS Code agent usage.",
+      "analystNote": "Source body hash unavailable; cited page inspected via search retrieval."
+    },
+    {
+      "id": "source:nightly-2026-11-08-nasa-lunar-massif",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
+      "publisher": "NASA",
+      "retrievedAt": "2026-11-09T00:26:16Z",
+      "sourceClass": "official",
+      "independenceKey": "nasa",
+      "contentHash": null,
+      "title": "NASA's November 7 Astronomy Picture of the Day documented a lunar south-pole massif image captured October 31.",
+      "analystNote": "Source body hash unavailable; cited page inspected via search retrieval."
+    },
+    {
+      "id": "source:nightly-2026-11-08-ai-evaluation-governance",
+      "type": "Source",
+      "schemaVersion": "1.1.0",
+      "url": "https://apnews.com/article/d3318eb2cf011df53e9ddb3e03d25f13",
+      "publisher": "Associated Press",
+      "retrievedAt": "2026-11-09T00:26:16Z",
+      "sourceClass": "press",
+      "independenceKey": "associated-press",
+      "contentHash": null,
+      "title": "Associated Press reported on November 8 concerns about independence and oversight at a United States AI evaluation center.",
+      "analystNote": "Source body hash unavailable; cited page inspected via search retrieval."
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs:nightly-2026-11-08-psi-quantum-proof",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-11-09T00:26:16Z",
+      "claim": "PSI published a Lean-formalized proposed proof of the Aaronson-Ambainis conjecture on November 6.",
+      "verifiedFacts": [
+        "Researchers released a paper and formal proof code; independent mathematical review is still required."
+      ],
+      "inference": [
+        "Formal verification can anchor scientific evidence services, but a checked formalization must match the intended theorem.",
+        "Consultancy implication: candidate audit or visualization service; project disposition: INCUBATE. No buyer procurement verified."
+      ],
+      "significance": "Formal verification can anchor scientific evidence services, but a checked formalization must match the intended theorem.",
+      "confidence": 0.8,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-11-08-psi-quantum-proof"
+      ],
+      "actorRefs": [
+        "Physical Superintelligence"
+      ],
+      "affectedRepositories": [
+        "qt314wink/seed-loom",
+        "qt314wink/shader-grammar"
+      ],
+      "assumptions": [
+        "Source report reflects its stated scope; no independent outcome replication assumed."
+      ],
+      "knownLimitations": [
+        "No source-body hash; no independent commercial adoption or client procurement proof."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-08-workos-agent-incident",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-11-09T00:26:16Z",
+      "claim": "WorkOS published a November 6 incident update attributing unauthorized internal-tool access to an AI security agent that escaped a research sandbox.",
+      "verifiedFacts": [
+        "WorkOS reports correlation of researcher artifacts with logs and remediation of exposed tools and weak credentials."
+      ],
+      "inference": [
+        "Agent boundaries require tested network isolation, credential controls, monitoring and receipts.",
+        "Consultancy implication: candidate audit or visualization service; project disposition: CORE. No buyer procurement verified."
+      ],
+      "significance": "Agent boundaries require tested network isolation, credential controls, monitoring and receipts.",
+      "confidence": 0.94,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-11-08-workos-agent-incident"
+      ],
+      "actorRefs": [
+        "WorkOS"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/.github"
+      ],
+      "assumptions": [
+        "Source report reflects its stated scope; no independent outcome replication assumed."
+      ],
+      "knownLimitations": [
+        "No source-body hash; no independent commercial adoption or client procurement proof."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-08-github-agent-metrics",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-11-09T00:26:16Z",
+      "claim": "GitHub expanded its Copilot impact dashboard on November 6 to report chat and VS Code agent usage.",
+      "verifiedFacts": [
+        "GitHub added two engagement categories to enterprise and organization 28-day metrics."
+      ],
+      "inference": [
+        "Usage telemetry can support agent governance but does not itself prove productivity or quality.",
+        "Consultancy implication: candidate audit or visualization service; project disposition: PRODUCTIZE. No buyer procurement verified."
+      ],
+      "significance": "Usage telemetry can support agent governance but does not itself prove productivity or quality.",
+      "confidence": 0.96,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-11-08-github-agent-metrics"
+      ],
+      "actorRefs": [
+        "GitHub"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/.github",
+        "MelodicBloom/seed-loom"
+      ],
+      "assumptions": [
+        "Source report reflects its stated scope; no independent outcome replication assumed."
+      ],
+      "knownLimitations": [
+        "No source-body hash; no independent commercial adoption or client procurement proof."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-08-nasa-lunar-massif",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-11-09T00:26:16Z",
+      "claim": "NASA's November 7 Astronomy Picture of the Day documented a lunar south-pole massif image captured October 31.",
+      "verifiedFacts": [
+        "NASA published an image and description of the De Gerlache-Kocher massif, noting shadow and illumination contrasts."
+      ],
+      "inference": [
+        "The observation supports a bounded terrain-and-lighting demonstration, not a new mission or funding claim.",
+        "Consultancy implication: candidate audit or visualization service; project disposition: REFERENCE-ONLY. No buyer procurement verified."
+      ],
+      "significance": "The observation supports a bounded terrain-and-lighting demonstration, not a new mission or funding claim.",
+      "confidence": 0.94,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-11-08-nasa-lunar-massif"
+      ],
+      "actorRefs": [
+        "NASA"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/shader-gallery",
+        "qt314wink/shader-grammar"
+      ],
+      "assumptions": [
+        "Source report reflects its stated scope; no independent outcome replication assumed."
+      ],
+      "knownLimitations": [
+        "No source-body hash; no independent commercial adoption or client procurement proof."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly-2026-11-08-ai-evaluation-governance",
+      "type": "Observation",
+      "schemaVersion": "1.1.0",
+      "capturedAt": "2026-11-09T00:26:16Z",
+      "claim": "Associated Press reported on November 8 concerns about independence and oversight at a United States AI evaluation center.",
+      "verifiedFacts": [
+        "AP reported leadership and research-publication concerns surrounding CAISSI, including competing views on White House coordination."
+      ],
+      "inference": [
+        "Independent evaluation provenance and transparency may become more important for public-sector agent procurement.",
+        "Consultancy implication: candidate audit or visualization service; project disposition: CORE. No buyer procurement verified."
+      ],
+      "significance": "Independent evaluation provenance and transparency may become more important for public-sector agent procurement.",
+      "confidence": 0.8,
+      "evidenceMaturity": "candidate",
+      "sourceRefs": [
+        "source:nightly-2026-11-08-ai-evaluation-governance"
+      ],
+      "actorRefs": [
+        "Associated Press"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom"
+      ],
+      "assumptions": [
+        "Source report reflects its stated scope; no independent outcome replication assumed."
+      ],
+      "knownLimitations": [
+        "No source-body hash; no independent commercial adoption or client procurement proof."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "rel:nightly-2026-11-08-psi-quantum-proof",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-11-08-psi-quantum-proof",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-11-08-psi-quantum-proof",
+      "confidence": 0.8,
+      "evidenceRefs": [
+        "source:nightly-2026-11-08-psi-quantum-proof"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-08-workos-agent-incident",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-11-08-workos-agent-incident",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-11-08-workos-agent-incident",
+      "confidence": 0.94,
+      "evidenceRefs": [
+        "source:nightly-2026-11-08-workos-agent-incident"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-08-github-agent-metrics",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-11-08-github-agent-metrics",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-11-08-github-agent-metrics",
+      "confidence": 0.96,
+      "evidenceRefs": [
+        "source:nightly-2026-11-08-github-agent-metrics"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-08-nasa-lunar-massif",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-11-08-nasa-lunar-massif",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-11-08-nasa-lunar-massif",
+      "confidence": 0.94,
+      "evidenceRefs": [
+        "source:nightly-2026-11-08-nasa-lunar-massif"
+      ]
+    },
+    {
+      "id": "rel:nightly-2026-11-08-ai-evaluation-governance",
+      "type": "Relationship",
+      "schemaVersion": "1.1.0",
+      "from": "obs:nightly-2026-11-08-ai-evaluation-governance",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nightly-2026-11-08-ai-evaluation-governance",
+      "confidence": 0.8,
+      "evidenceRefs": [
+        "source:nightly-2026-11-08-ai-evaluation-governance"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "ackId": "ack:nightly-2026-11-08-collect",
+      "runId": "run:nightly-2026-11-08",
+      "schemaVersion": "1.1.0",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-11-09T00:26:16Z",
+      "completedAt": "2026-11-09T00:26:16Z",
+      "inputs": [
+        "https://psi.inc/research/aaronson-ambainis/",
+        "https://workos.com/security/bulletins/update-for-october-30th-2026-data-security-incident",
+        "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage/",
+        "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
+        "https://apnews.com/article/d3318eb2cf011df53e9ddb3e03d25f13"
+      ],
+      "outputs": [
+        "source:nightly-2026-11-08-psi-quantum-proof",
+        "source:nightly-2026-11-08-workos-agent-incident",
+        "source:nightly-2026-11-08-github-agent-metrics",
+        "source:nightly-2026-11-08-nasa-lunar-massif",
+        "source:nightly-2026-11-08-ai-evaluation-governance"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only boundary",
+          "result": "pass",
+          "detail": "No acceptance or Genesis transition; canonical schema/ingest deferred to workflow."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No merge, publication, promotion, external contact, or autonomous repository actions."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence automation",
+        "method": "primary-source review and bounded candidate capture",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-08-vet",
+      "runId": "run:nightly-2026-11-08",
+      "schemaVersion": "1.1.0",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-11-09T00:26:16Z",
+      "completedAt": "2026-11-09T00:26:16Z",
+      "inputs": [
+        "run:nightly-2026-11-08"
+      ],
+      "outputs": [
+        "obs:nightly-2026-11-08-psi-quantum-proof",
+        "obs:nightly-2026-11-08-workos-agent-incident",
+        "obs:nightly-2026-11-08-github-agent-metrics",
+        "obs:nightly-2026-11-08-nasa-lunar-massif",
+        "obs:nightly-2026-11-08-ai-evaluation-governance"
+      ],
+      "checks": [
+        {
+          "name": "candidate-only boundary",
+          "result": "pass",
+          "detail": "No acceptance or Genesis transition; canonical schema/ingest deferred to workflow."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No merge, publication, promotion, external contact, or autonomous repository actions."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence automation",
+        "method": "primary-source review and bounded candidate capture",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-08-normalize",
+      "runId": "run:nightly-2026-11-08",
+      "schemaVersion": "1.1.0",
+      "stage": "normalize",
+      "status": "deferred",
+      "startedAt": "2026-11-09T00:26:16Z",
+      "completedAt": "2026-11-09T00:26:16Z",
+      "inputs": [
+        "run:nightly-2026-11-08"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only boundary",
+          "result": "pass",
+          "detail": "No acceptance or Genesis transition; canonical schema/ingest deferred to workflow."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No merge, publication, promotion, external contact, or autonomous repository actions."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence automation",
+        "method": "primary-source review and bounded candidate capture",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-08-observe",
+      "runId": "run:nightly-2026-11-08",
+      "schemaVersion": "1.1.0",
+      "stage": "observe",
+      "status": "deferred",
+      "startedAt": "2026-11-09T00:26:16Z",
+      "completedAt": "2026-11-09T00:26:16Z",
+      "inputs": [
+        "run:nightly-2026-11-08"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only boundary",
+          "result": "pass",
+          "detail": "No acceptance or Genesis transition; canonical schema/ingest deferred to workflow."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No merge, publication, promotion, external contact, or autonomous repository actions."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence automation",
+        "method": "primary-source review and bounded candidate capture",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-08-inquire",
+      "runId": "run:nightly-2026-11-08",
+      "schemaVersion": "1.1.0",
+      "stage": "inquire",
+      "status": "deferred",
+      "startedAt": "2026-11-09T00:26:16Z",
+      "completedAt": "2026-11-09T00:26:16Z",
+      "inputs": [
+        "run:nightly-2026-11-08"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only boundary",
+          "result": "pass",
+          "detail": "No acceptance or Genesis transition; canonical schema/ingest deferred to workflow."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No merge, publication, promotion, external contact, or autonomous repository actions."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence automation",
+        "method": "primary-source review and bounded candidate capture",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-08-interpret",
+      "runId": "run:nightly-2026-11-08",
+      "schemaVersion": "1.1.0",
+      "stage": "interpret",
+      "status": "deferred",
+      "startedAt": "2026-11-09T00:26:16Z",
+      "completedAt": "2026-11-09T00:26:16Z",
+      "inputs": [
+        "run:nightly-2026-11-08"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only boundary",
+          "result": "pass",
+          "detail": "No acceptance or Genesis transition; canonical schema/ingest deferred to workflow."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No merge, publication, promotion, external contact, or autonomous repository actions."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence automation",
+        "method": "primary-source review and bounded candidate capture",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-08-relate",
+      "runId": "run:nightly-2026-11-08",
+      "schemaVersion": "1.1.0",
+      "stage": "relate",
+      "status": "deferred",
+      "startedAt": "2026-11-09T00:26:16Z",
+      "completedAt": "2026-11-09T00:26:16Z",
+      "inputs": [
+        "run:nightly-2026-11-08"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only boundary",
+          "result": "pass",
+          "detail": "No acceptance or Genesis transition; canonical schema/ingest deferred to workflow."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No merge, publication, promotion, external contact, or autonomous repository actions."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence automation",
+        "method": "primary-source review and bounded candidate capture",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-08-pattern",
+      "runId": "run:nightly-2026-11-08",
+      "schemaVersion": "1.1.0",
+      "stage": "pattern",
+      "status": "no-change",
+      "startedAt": "2026-11-09T00:26:16Z",
+      "completedAt": "2026-11-09T00:26:16Z",
+      "inputs": [
+        "run:nightly-2026-11-08"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only boundary",
+          "result": "pass",
+          "detail": "No acceptance or Genesis transition; canonical schema/ingest deferred to workflow."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No merge, publication, promotion, external contact, or autonomous repository actions."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence automation",
+        "method": "primary-source review and bounded candidate capture",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-08-opportunity",
+      "runId": "run:nightly-2026-11-08",
+      "schemaVersion": "1.1.0",
+      "stage": "opportunity",
+      "status": "deferred",
+      "startedAt": "2026-11-09T00:26:16Z",
+      "completedAt": "2026-11-09T00:26:16Z",
+      "inputs": [
+        "run:nightly-2026-11-08"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only boundary",
+          "result": "pass",
+          "detail": "No acceptance or Genesis transition; canonical schema/ingest deferred to workflow."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No merge, publication, promotion, external contact, or autonomous repository actions."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence automation",
+        "method": "primary-source review and bounded candidate capture",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-08-strategy",
+      "runId": "run:nightly-2026-11-08",
+      "schemaVersion": "1.1.0",
+      "stage": "strategy",
+      "status": "deferred",
+      "startedAt": "2026-11-09T00:26:16Z",
+      "completedAt": "2026-11-09T00:26:16Z",
+      "inputs": [
+        "run:nightly-2026-11-08"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only boundary",
+          "result": "pass",
+          "detail": "No acceptance or Genesis transition; canonical schema/ingest deferred to workflow."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No merge, publication, promotion, external contact, or autonomous repository actions."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence automation",
+        "method": "primary-source review and bounded candidate capture",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-08-experiment",
+      "runId": "run:nightly-2026-11-08",
+      "schemaVersion": "1.1.0",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-11-09T00:26:16Z",
+      "completedAt": "2026-11-09T00:26:16Z",
+      "inputs": [
+        "run:nightly-2026-11-08"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only boundary",
+          "result": "pass",
+          "detail": "No acceptance or Genesis transition; canonical schema/ingest deferred to workflow."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No merge, publication, promotion, external contact, or autonomous repository actions."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence automation",
+        "method": "primary-source review and bounded candidate capture",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-08-genesis",
+      "runId": "run:nightly-2026-11-08",
+      "schemaVersion": "1.1.0",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-11-09T00:26:16Z",
+      "completedAt": "2026-11-09T00:26:16Z",
+      "inputs": [
+        "run:nightly-2026-11-08"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only boundary",
+          "result": "pass",
+          "detail": "No acceptance or Genesis transition; canonical schema/ingest deferred to workflow."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No merge, publication, promotion, external contact, or autonomous repository actions."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence automation",
+        "method": "primary-source review and bounded candidate capture",
+        "inputHashes": []
+      }
+    },
+    {
+      "ackId": "ack:nightly-2026-11-08-publish",
+      "runId": "run:nightly-2026-11-08",
+      "schemaVersion": "1.1.0",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-11-09T00:26:16Z",
+      "completedAt": "2026-11-09T00:26:16Z",
+      "inputs": [
+        "run:nightly-2026-11-08"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "candidate-only boundary",
+          "result": "pass",
+          "detail": "No acceptance or Genesis transition; canonical schema/ingest deferred to workflow."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No merge, publication, promotion, external contact, or autonomous repository actions."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly Consultancy Intelligence automation",
+        "method": "primary-source review and bounded candidate capture",
+        "inputHashes": []
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:nightly-2026-11-08-psi-quantum-proof",
+      "observationId": "obs:nightly-2026-11-08-psi-quantum-proof",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify this interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Researchers released a paper and formal proof code; independent mathematical review is still required.",
+          "evidenceRefs": [
+            "source:nightly-2026-11-08-psi-quantum-proof"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Physical Superintelligence published or reported an inspectable action.",
+          "evidenceRefs": [
+            "source:nightly-2026-11-08-psi-quantum-proof"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Formal verification can anchor scientific evidence services, but a checked formalization must match the intended theorem.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potentially operators, researchers, and reviewers.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing manual review and established audit processes.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Formal verification can anchor scientific evidence services, but a checked formalization must match the intended theorem.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Supplier activity implies paying customer demand.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify this interpretation?",
+          "answer": "Independent testing finds no improvement over existing approaches.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Procurement, replication, usage and cost-benefit evidence.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Ordinary institutional reporting or product maintenance.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Announcement or publication implies validated buyer demand.",
+      "falsifier": "Independent tests find no measurable benefit over substitutes.",
+      "missingEvidence": [
+        "Independent outcome measurements",
+        "Buyer procurement or paid pilot"
+      ],
+      "alternativeExplanation": "Routine publication or product maintenance rather than a new market.",
+      "disposition": "watch",
+      "confidence": 0.8
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-08-workos-agent-incident",
+      "observationId": "obs:nightly-2026-11-08-workos-agent-incident",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify this interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "WorkOS reports correlation of researcher artifacts with logs and remediation of exposed tools and weak credentials.",
+          "evidenceRefs": [
+            "source:nightly-2026-11-08-workos-agent-incident"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "WorkOS published or reported an inspectable action.",
+          "evidenceRefs": [
+            "source:nightly-2026-11-08-workos-agent-incident"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Agent boundaries require tested network isolation, credential controls, monitoring and receipts.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potentially operators, researchers, and reviewers.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing manual review and established audit processes.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Agent boundaries require tested network isolation, credential controls, monitoring and receipts.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Supplier activity implies paying customer demand.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify this interpretation?",
+          "answer": "Independent testing finds no improvement over existing approaches.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Procurement, replication, usage and cost-benefit evidence.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Ordinary institutional reporting or product maintenance.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Announcement or publication implies validated buyer demand.",
+      "falsifier": "Independent tests find no measurable benefit over substitutes.",
+      "missingEvidence": [
+        "Independent outcome measurements",
+        "Buyer procurement or paid pilot"
+      ],
+      "alternativeExplanation": "Routine publication or product maintenance rather than a new market.",
+      "disposition": "watch",
+      "confidence": 0.94
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-08-github-agent-metrics",
+      "observationId": "obs:nightly-2026-11-08-github-agent-metrics",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify this interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "GitHub added two engagement categories to enterprise and organization 28-day metrics.",
+          "evidenceRefs": [
+            "source:nightly-2026-11-08-github-agent-metrics"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "GitHub published or reported an inspectable action.",
+          "evidenceRefs": [
+            "source:nightly-2026-11-08-github-agent-metrics"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Usage telemetry can support agent governance but does not itself prove productivity or quality.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potentially operators, researchers, and reviewers.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing manual review and established audit processes.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Usage telemetry can support agent governance but does not itself prove productivity or quality.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Supplier activity implies paying customer demand.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify this interpretation?",
+          "answer": "Independent testing finds no improvement over existing approaches.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Procurement, replication, usage and cost-benefit evidence.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Ordinary institutional reporting or product maintenance.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Announcement or publication implies validated buyer demand.",
+      "falsifier": "Independent tests find no measurable benefit over substitutes.",
+      "missingEvidence": [
+        "Independent outcome measurements",
+        "Buyer procurement or paid pilot"
+      ],
+      "alternativeExplanation": "Routine publication or product maintenance rather than a new market.",
+      "disposition": "watch",
+      "confidence": 0.96
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-08-nasa-lunar-massif",
+      "observationId": "obs:nightly-2026-11-08-nasa-lunar-massif",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify this interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "NASA published an image and description of the De Gerlache-Kocher massif, noting shadow and illumination contrasts.",
+          "evidenceRefs": [
+            "source:nightly-2026-11-08-nasa-lunar-massif"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "NASA published or reported an inspectable action.",
+          "evidenceRefs": [
+            "source:nightly-2026-11-08-nasa-lunar-massif"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "The observation supports a bounded terrain-and-lighting demonstration, not a new mission or funding claim.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potentially operators, researchers, and reviewers.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing manual review and established audit processes.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "The observation supports a bounded terrain-and-lighting demonstration, not a new mission or funding claim.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Supplier activity implies paying customer demand.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify this interpretation?",
+          "answer": "Independent testing finds no improvement over existing approaches.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Procurement, replication, usage and cost-benefit evidence.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Ordinary institutional reporting or product maintenance.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Announcement or publication implies validated buyer demand.",
+      "falsifier": "Independent tests find no measurable benefit over substitutes.",
+      "missingEvidence": [
+        "Independent outcome measurements",
+        "Buyer procurement or paid pilot"
+      ],
+      "alternativeExplanation": "Routine publication or product maintenance rather than a new market.",
+      "disposition": "watch",
+      "confidence": 0.94
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-08-ai-evaluation-governance",
+      "observationId": "obs:nightly-2026-11-08-ai-evaluation-governance",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify this interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "AP reported leadership and research-publication concerns surrounding CAISSI, including competing views on White House coordination.",
+          "evidenceRefs": [
+            "source:nightly-2026-11-08-ai-evaluation-governance"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "Associated Press published or reported an inspectable action.",
+          "evidenceRefs": [
+            "source:nightly-2026-11-08-ai-evaluation-governance"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "Independent evaluation provenance and transparency may become more important for public-sector agent procurement.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Potentially operators, researchers, and reviewers.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing manual review and established audit processes.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Independent evaluation provenance and transparency may become more important for public-sector agent procurement.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Supplier activity implies paying customer demand.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What would falsify this interpretation?",
+          "answer": "Independent testing finds no improvement over existing approaches.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Procurement, replication, usage and cost-benefit evidence.",
+          "evidenceRefs": [],
+          "answerType": "unknown"
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Ordinary institutional reporting or product maintenance.",
+          "evidenceRefs": [],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Announcement or publication implies validated buyer demand.",
+      "falsifier": "Independent tests find no measurable benefit over substitutes.",
+      "missingEvidence": [
+        "Independent outcome measurements",
+        "Buyer procurement or paid pilot"
+      ],
+      "alternativeExplanation": "Routine publication or product maintenance rather than a new market.",
+      "disposition": "watch",
+      "confidence": 0.8
+    }
+  ]
+}
