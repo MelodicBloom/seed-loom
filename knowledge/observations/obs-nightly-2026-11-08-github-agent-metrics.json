@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-08-github-agent-metrics",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-09T00:26:16Z",
+  "claim": "GitHub expanded its Copilot impact dashboard on November 6 to report chat and VS Code agent usage.",
+  "verifiedFacts": [
+    "GitHub added two engagement categories to enterprise and organization 28-day metrics."
+  ],
+  "inference": [
+    "Usage telemetry can support agent governance but does not itself prove productivity or quality.",
+    "Consultancy implication: candidate audit or visualization service; project disposition: PRODUCTIZE. No buyer procurement verified."
+  ],
+  "significance": "Usage telemetry can support agent governance but does not itself prove productivity or quality.",
+  "confidence": 0.96,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-11-08-github-agent-metrics"
+  ],
+  "actorRefs": [
+    "GitHub"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/.github",
+    "MelodicBloom/seed-loom"
+  ],
+  "assumptions": [
+    "Source report reflects its stated scope; no independent outcome replication assumed."
+  ],
+  "knownLimitations": [
+    "No source-body hash; no independent commercial adoption or client procurement proof."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

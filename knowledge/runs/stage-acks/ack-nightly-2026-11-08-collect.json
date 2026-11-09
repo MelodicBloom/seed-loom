@@ -1,0 +1,42 @@
+{
+  "ackId": "ack:nightly-2026-11-08-collect",
+  "runId": "run:nightly-2026-11-08",
+  "schemaVersion": "1.1.0",
+  "stage": "collect",
+  "status": "passed",
+  "startedAt": "2026-11-09T00:26:16Z",
+  "completedAt": "2026-11-09T00:26:16Z",
+  "inputs": [
+    "https://psi.inc/research/aaronson-ambainis/",
+    "https://workos.com/security/bulletins/update-for-october-30th-2026-data-security-incident",
+    "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage/",
+    "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
+    "https://apnews.com/article/d3318eb2cf011df53e9ddb3e03d25f13"
+  ],
+  "outputs": [
+    "source:nightly-2026-11-08-psi-quantum-proof",
+    "source:nightly-2026-11-08-workos-agent-incident",
+    "source:nightly-2026-11-08-github-agent-metrics",
+    "source:nightly-2026-11-08-nasa-lunar-massif",
+    "source:nightly-2026-11-08-ai-evaluation-governance"
+  ],
+  "checks": [
+    {
+      "name": "candidate-only boundary",
+      "result": "pass",
+      "detail": "No acceptance or Genesis transition; canonical schema/ingest deferred to workflow."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "No merge, publication, promotion, external contact, or autonomous repository actions."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly Consultancy Intelligence automation",
+    "method": "primary-source review and bounded candidate capture",
+    "inputHashes": []
+  }
+}

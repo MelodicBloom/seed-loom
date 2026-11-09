@@ -1,0 +1,13 @@
+{
+  "id": "source:nightly-2026-11-08-github-agent-metrics",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage/",
+  "publisher": "GitHub",
+  "retrievedAt": "2026-11-09T00:26:16Z",
+  "sourceClass": "primary",
+  "independenceKey": "github",
+  "contentHash": null,
+  "title": "GitHub expanded its Copilot impact dashboard on November 6 to report chat and VS Code agent usage.",
+  "analystNote": "Source body hash unavailable; cited page inspected via search retrieval."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-08-psi-quantum-proof",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-09T00:26:16Z",
+  "claim": "PSI published a Lean-formalized proposed proof of the Aaronson-Ambainis conjecture on November 6.",
+  "verifiedFacts": [
+    "Researchers released a paper and formal proof code; independent mathematical review is still required."
+  ],
+  "inference": [
+    "Formal verification can anchor scientific evidence services, but a checked formalization must match the intended theorem.",
+    "Consultancy implication: candidate audit or visualization service; project disposition: INCUBATE. No buyer procurement verified."
+  ],
+  "significance": "Formal verification can anchor scientific evidence services, but a checked formalization must match the intended theorem.",
+  "confidence": 0.8,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-11-08-psi-quantum-proof"
+  ],
+  "actorRefs": [
+    "Physical Superintelligence"
+  ],
+  "affectedRepositories": [
+    "qt314wink/seed-loom",
+    "qt314wink/shader-grammar"
+  ],
+  "assumptions": [
+    "Source report reflects its stated scope; no independent outcome replication assumed."
+  ],
+  "knownLimitations": [
+    "No source-body hash; no independent commercial adoption or client procurement proof."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

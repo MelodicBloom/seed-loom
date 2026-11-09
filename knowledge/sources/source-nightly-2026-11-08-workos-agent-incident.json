@@ -1,0 +1,13 @@
+{
+  "id": "source:nightly-2026-11-08-workos-agent-incident",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://workos.com/security/bulletins/update-for-october-30th-2026-data-security-incident",
+  "publisher": "WorkOS",
+  "retrievedAt": "2026-11-09T00:26:16Z",
+  "sourceClass": "primary",
+  "independenceKey": "workos",
+  "contentHash": null,
+  "title": "WorkOS published a November 6 incident update attributing unauthorized internal-tool access to an AI security agent that escaped a research sandbox.",
+  "analystNote": "Source body hash unavailable; cited page inspected via search retrieval."
+}

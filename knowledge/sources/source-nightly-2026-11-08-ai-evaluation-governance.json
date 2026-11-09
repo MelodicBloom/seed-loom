@@ -1,0 +1,13 @@
+{
+  "id": "source:nightly-2026-11-08-ai-evaluation-governance",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://apnews.com/article/d3318eb2cf011df53e9ddb3e03d25f13",
+  "publisher": "Associated Press",
+  "retrievedAt": "2026-11-09T00:26:16Z",
+  "sourceClass": "press",
+  "independenceKey": "associated-press",
+  "contentHash": null,
+  "title": "Associated Press reported on November 8 concerns about independence and oversight at a United States AI evaluation center.",
+  "analystNote": "Source body hash unavailable; cited page inspected via search retrieval."
+}

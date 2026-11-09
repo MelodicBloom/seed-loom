@@ -1,0 +1,91 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-08-nasa-lunar-massif",
+  "observationId": "obs:nightly-2026-11-08-nasa-lunar-massif",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify this interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "NASA published an image and description of the De Gerlache-Kocher massif, noting shadow and illumination contrasts.",
+      "evidenceRefs": [
+        "source:nightly-2026-11-08-nasa-lunar-massif"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "NASA published or reported an inspectable action.",
+      "evidenceRefs": [
+        "source:nightly-2026-11-08-nasa-lunar-massif"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "The observation supports a bounded terrain-and-lighting demonstration, not a new mission or funding claim.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Potentially operators, researchers, and reviewers.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing manual review and established audit processes.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "The observation supports a bounded terrain-and-lighting demonstration, not a new mission or funding claim.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Supplier activity implies paying customer demand.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify this interpretation?",
+      "answer": "Independent testing finds no improvement over existing approaches.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Procurement, replication, usage and cost-benefit evidence.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Ordinary institutional reporting or product maintenance.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Announcement or publication implies validated buyer demand.",
+  "falsifier": "Independent tests find no measurable benefit over substitutes.",
+  "missingEvidence": [
+    "Independent outcome measurements",
+    "Buyer procurement or paid pilot"
+  ],
+  "alternativeExplanation": "Routine publication or product maintenance rather than a new market.",
+  "disposition": "watch",
+  "confidence": 0.94
+}

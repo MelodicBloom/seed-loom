@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-11-08-psi-quantum-proof",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-11-08-psi-quantum-proof",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly-2026-11-08-psi-quantum-proof",
+  "confidence": 0.8,
+  "evidenceRefs": [
+    "source:nightly-2026-11-08-psi-quantum-proof"
+  ]
+}

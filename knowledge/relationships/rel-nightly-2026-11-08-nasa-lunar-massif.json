@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-11-08-nasa-lunar-massif",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-11-08-nasa-lunar-massif",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly-2026-11-08-nasa-lunar-massif",
+  "confidence": 0.94,
+  "evidenceRefs": [
+    "source:nightly-2026-11-08-nasa-lunar-massif"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-11-08",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-11-07T00:26:16Z",
+    "to": "2026-11-09T00:26:16Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-11-08-psi-quantum-proof",
+    "obs:nightly-2026-11-08-workos-agent-incident",
+    "obs:nightly-2026-11-08-github-agent-metrics",
+    "obs:nightly-2026-11-08-nasa-lunar-massif",
+    "obs:nightly-2026-11-08-ai-evaluation-governance"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [],
+  "newRelationships": [
+    "rel:nightly-2026-11-08-psi-quantum-proof",
+    "rel:nightly-2026-11-08-workos-agent-incident",
+    "rel:nightly-2026-11-08-github-agent-metrics",
+    "rel:nightly-2026-11-08-nasa-lunar-massif",
+    "rel:nightly-2026-11-08-ai-evaluation-governance"
+  ],
+  "contradictions": [],
+  "opportunities": [
+    "Governed agent isolation audit",
+    "Formal proof provenance demonstration",
+    "Scientific light/terrain visualization"
+  ],
+  "proposedExperiments": [
+    "Synthetic agent boundary QA only; not executed",
+    "Lean proof reproduction proposal; not executed"
+  ],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "repository": "MelodicBloom/seed-loom",
+      "scope": "candidate-only evidence review"
+    }
+  ],
+  "noChangeReceipts": [
+    "No buyer-side procurement verified in reviewed sources.",
+    "No new acceptance or Genesis evidence."
+  ],
+  "collectionFailures": [
+    "Original source-body SHA-256 hashes unavailable.",
+    "Independent peer review of PSI proof not verified.",
+    "Cross-repository CI and branch-drift audit incomplete.",
+    "Prior graph-wide semantic deduplication not executed."
+  ]
+}

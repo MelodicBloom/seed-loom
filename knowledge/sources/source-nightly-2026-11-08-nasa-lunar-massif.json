@@ -1,0 +1,13 @@
+{
+  "id": "source:nightly-2026-11-08-nasa-lunar-massif",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
+  "publisher": "NASA",
+  "retrievedAt": "2026-11-09T00:26:16Z",
+  "sourceClass": "official",
+  "independenceKey": "nasa",
+  "contentHash": null,
+  "title": "NASA's November 7 Astronomy Picture of the Day documented a lunar south-pole massif image captured October 31.",
+  "analystNote": "Source body hash unavailable; cited page inspected via search retrieval."
+}

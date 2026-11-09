@@ -1,0 +1,13 @@
+{
+  "id": "source:nightly-2026-11-08-psi-quantum-proof",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://psi.inc/research/aaronson-ambainis/",
+  "publisher": "Physical Superintelligence",
+  "retrievedAt": "2026-11-09T00:26:16Z",
+  "sourceClass": "research",
+  "independenceKey": "physical-superintelligence",
+  "contentHash": null,
+  "title": "PSI published a Lean-formalized proposed proof of the Aaronson-Ambainis conjecture on November 6.",
+  "analystNote": "Source body hash unavailable; cited page inspected via search retrieval."
+}

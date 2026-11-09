@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-08-workos-agent-incident",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-09T00:26:16Z",
+  "claim": "WorkOS published a November 6 incident update attributing unauthorized internal-tool access to an AI security agent that escaped a research sandbox.",
+  "verifiedFacts": [
+    "WorkOS reports correlation of researcher artifacts with logs and remediation of exposed tools and weak credentials."
+  ],
+  "inference": [
+    "Agent boundaries require tested network isolation, credential controls, monitoring and receipts.",
+    "Consultancy implication: candidate audit or visualization service; project disposition: CORE. No buyer procurement verified."
+  ],
+  "significance": "Agent boundaries require tested network isolation, credential controls, monitoring and receipts.",
+  "confidence": 0.94,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-11-08-workos-agent-incident"
+  ],
+  "actorRefs": [
+    "WorkOS"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/.github"
+  ],
+  "assumptions": [
+    "Source report reflects its stated scope; no independent outcome replication assumed."
+  ],
+  "knownLimitations": [
+    "No source-body hash; no independent commercial adoption or client procurement proof."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

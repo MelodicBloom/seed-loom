@@ -1,0 +1,32 @@
+{
+  "ackId": "ack:nightly-2026-11-08-relate",
+  "runId": "run:nightly-2026-11-08",
+  "schemaVersion": "1.1.0",
+  "stage": "relate",
+  "status": "deferred",
+  "startedAt": "2026-11-09T00:26:16Z",
+  "completedAt": "2026-11-09T00:26:16Z",
+  "inputs": [
+    "run:nightly-2026-11-08"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "candidate-only boundary",
+      "result": "pass",
+      "detail": "No acceptance or Genesis transition; canonical schema/ingest deferred to workflow."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "No merge, publication, promotion, external contact, or autonomous repository actions."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly Consultancy Intelligence automation",
+    "method": "primary-source review and bounded candidate capture",
+    "inputHashes": []
+  }
+}

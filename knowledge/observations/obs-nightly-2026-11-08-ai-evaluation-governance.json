@@ -1,0 +1,34 @@
+{
+  "id": "obs:nightly-2026-11-08-ai-evaluation-governance",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-09T00:26:16Z",
+  "claim": "Associated Press reported on November 8 concerns about independence and oversight at a United States AI evaluation center.",
+  "verifiedFacts": [
+    "AP reported leadership and research-publication concerns surrounding CAISSI, including competing views on White House coordination."
+  ],
+  "inference": [
+    "Independent evaluation provenance and transparency may become more important for public-sector agent procurement.",
+    "Consultancy implication: candidate audit or visualization service; project disposition: CORE. No buyer procurement verified."
+  ],
+  "significance": "Independent evaluation provenance and transparency may become more important for public-sector agent procurement.",
+  "confidence": 0.8,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-11-08-ai-evaluation-governance"
+  ],
+  "actorRefs": [
+    "Associated Press"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom"
+  ],
+  "assumptions": [
+    "Source report reflects its stated scope; no independent outcome replication assumed."
+  ],
+  "knownLimitations": [
+    "No source-body hash; no independent commercial adoption or client procurement proof."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

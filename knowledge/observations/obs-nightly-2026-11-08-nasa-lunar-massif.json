@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-08-nasa-lunar-massif",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-09T00:26:16Z",
+  "claim": "NASA's November 7 Astronomy Picture of the Day documented a lunar south-pole massif image captured October 31.",
+  "verifiedFacts": [
+    "NASA published an image and description of the De Gerlache-Kocher massif, noting shadow and illumination contrasts."
+  ],
+  "inference": [
+    "The observation supports a bounded terrain-and-lighting demonstration, not a new mission or funding claim.",
+    "Consultancy implication: candidate audit or visualization service; project disposition: REFERENCE-ONLY. No buyer procurement verified."
+  ],
+  "significance": "The observation supports a bounded terrain-and-lighting demonstration, not a new mission or funding claim.",
+  "confidence": 0.94,
+  "evidenceMaturity": "candidate",
+  "sourceRefs": [
+    "source:nightly-2026-11-08-nasa-lunar-massif"
+  ],
+  "actorRefs": [
+    "NASA"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-gallery",
+    "qt314wink/shader-grammar"
+  ],
+  "assumptions": [
+    "Source report reflects its stated scope; no independent outcome replication assumed."
+  ],
+  "knownLimitations": [
+    "No source-body hash; no independent commercial adoption or client procurement proof."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}
