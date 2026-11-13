@@ -1,0 +1,46 @@
+{
+  "canonicalTokens": {
+    "color/linen": "#f5f0e8",
+    "color/surface": "#faf7f2",
+    "color/ink": "#2c2c2c",
+    "color/indigo": "#2c3e7e",
+    "color/focus": "#0b62ce",
+    "force/threadButton/tension": 0.42,
+    "force/threadButton/compression": 0.26,
+    "force/threadButton/elasticity": 0.36,
+    "force/threadButton/recovery": 0.66,
+    "motion/threadButton/durationMs": 180,
+    "motion/threadButton/easing": [
+      0.2,
+      0.8,
+      0.2,
+      1
+    ],
+    "motion/threadButton/pressScale": 0.97,
+    "shape/threadButton/radiusPx": 12,
+    "shape/threadButton/borderPx": 2
+  },
+  "threadButton": {
+    "initial": {
+      "scale": 1
+    },
+    "tap": {
+      "scale": 0.97
+    },
+    "transition": {
+      "duration": 0.18,
+      "ease": [
+        0.2,
+        0.8,
+        0.2,
+        1
+      ]
+    },
+    "forces": {
+      "tension": 0.42,
+      "compression": 0.26,
+      "elasticity": 0.36,
+      "recovery": 0.66
+    }
+  }
+}

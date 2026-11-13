@@ -1,0 +1,1010 @@
+[
+  {
+    "promptId": "P-M01",
+    "recordId": "M01",
+    "category": "surfaces",
+    "name": "Heavy natural canvas",
+    "anchor": "p-m01-heavy-natural-canvas"
+  },
+  {
+    "promptId": "P-M02",
+    "recordId": "M02",
+    "category": "surfaces",
+    "name": "Coarse burlap",
+    "anchor": "p-m02-coarse-burlap"
+  },
+  {
+    "promptId": "P-M03",
+    "recordId": "M03",
+    "category": "surfaces",
+    "name": "Washed linen",
+    "anchor": "p-m03-washed-linen"
+  },
+  {
+    "promptId": "P-M04",
+    "recordId": "M04",
+    "category": "surfaces",
+    "name": "Cream satin label",
+    "anchor": "p-m04-cream-satin-label"
+  },
+  {
+    "promptId": "P-M05",
+    "recordId": "M05",
+    "category": "surfaces",
+    "name": "Sheer silk",
+    "anchor": "p-m05-sheer-silk"
+  },
+  {
+    "promptId": "P-M06",
+    "recordId": "M06",
+    "category": "surfaces",
+    "name": "Moss corduroy",
+    "anchor": "p-m06-moss-corduroy"
+  },
+  {
+    "promptId": "P-M07",
+    "recordId": "M07",
+    "category": "surfaces",
+    "name": "Ribbed knit",
+    "anchor": "p-m07-ribbed-knit"
+  },
+  {
+    "promptId": "P-M08",
+    "recordId": "M08",
+    "category": "surfaces",
+    "name": "Openwork lace",
+    "anchor": "p-m08-openwork-lace"
+  },
+  {
+    "promptId": "P-M09",
+    "recordId": "M09",
+    "category": "surfaces",
+    "name": "Chiffon",
+    "anchor": "p-m09-chiffon"
+  },
+  {
+    "promptId": "P-M10",
+    "recordId": "M10",
+    "category": "surfaces",
+    "name": "Sheer linen curtain",
+    "anchor": "p-m10-sheer-linen-curtain"
+  },
+  {
+    "promptId": "P-M11",
+    "recordId": "M11",
+    "category": "surfaces",
+    "name": "Wine velvet",
+    "anchor": "p-m11-wine-velvet"
+  },
+  {
+    "promptId": "P-M12",
+    "recordId": "M12",
+    "category": "surfaces",
+    "name": "Mohair inspired pile",
+    "anchor": "p-m12-mohair-inspired-pile"
+  },
+  {
+    "promptId": "P-M13",
+    "recordId": "M13",
+    "category": "surfaces",
+    "name": "Alpaca inspired pile",
+    "anchor": "p-m13-alpaca-inspired-pile"
+  },
+  {
+    "promptId": "P-M14",
+    "recordId": "M14",
+    "category": "surfaces",
+    "name": "Indigo repair denim",
+    "anchor": "p-m14-indigo-repair-denim"
+  },
+  {
+    "promptId": "P-M15",
+    "recordId": "M15",
+    "category": "surfaces",
+    "name": "Teal ripstop nylon",
+    "anchor": "p-m15-teal-ripstop-nylon"
+  },
+  {
+    "promptId": "P-M16",
+    "recordId": "M16",
+    "category": "surfaces",
+    "name": "Reused canvas appearance",
+    "anchor": "p-m16-reused-canvas-appearance"
+  },
+  {
+    "promptId": "P-M17",
+    "recordId": "M17",
+    "category": "surfaces",
+    "name": "Technical mesh",
+    "anchor": "p-m17-technical-mesh"
+  },
+  {
+    "promptId": "P-M18",
+    "recordId": "M18",
+    "category": "surfaces",
+    "name": "Banana fiber inspired cloth",
+    "anchor": "p-m18-banana-fiber-inspired-cloth"
+  },
+  {
+    "promptId": "P-M19",
+    "recordId": "M19",
+    "category": "surfaces",
+    "name": "Quilted patchwork",
+    "anchor": "p-m19-quilted-patchwork"
+  },
+  {
+    "promptId": "P-M20",
+    "recordId": "M20",
+    "category": "surfaces",
+    "name": "Metallic embroidery thread",
+    "anchor": "p-m20-metallic-embroidery-thread"
+  },
+  {
+    "promptId": "P-M21",
+    "recordId": "M21",
+    "category": "surfaces",
+    "name": "Leather label",
+    "anchor": "p-m21-leather-label"
+  },
+  {
+    "promptId": "P-M22",
+    "recordId": "M22",
+    "category": "surfaces",
+    "name": "Weathered teak bench",
+    "anchor": "p-m22-weathered-teak-bench"
+  },
+  {
+    "promptId": "P-M23",
+    "recordId": "M23",
+    "category": "surfaces",
+    "name": "Tailor cutting mat",
+    "anchor": "p-m23-tailor-cutting-mat"
+  },
+  {
+    "promptId": "P-M24",
+    "recordId": "M24",
+    "category": "surfaces",
+    "name": "Four hole maple button",
+    "anchor": "p-m24-four-hole-maple-button"
+  },
+  {
+    "promptId": "P-M25",
+    "recordId": "M25",
+    "category": "surfaces",
+    "name": "Horn inspired button",
+    "anchor": "p-m25-horn-inspired-button"
+  },
+  {
+    "promptId": "P-M26",
+    "recordId": "M26",
+    "category": "surfaces",
+    "name": "Mother of pearl inspired button",
+    "anchor": "p-m26-mother-of-pearl-inspired-button"
+  },
+  {
+    "promptId": "P-M27",
+    "recordId": "M27",
+    "category": "surfaces",
+    "name": "Brushed brass fastener",
+    "anchor": "p-m27-brushed-brass-fastener"
+  },
+  {
+    "promptId": "P-M28",
+    "recordId": "M28",
+    "category": "surfaces",
+    "name": "Embroidered wool felt badge",
+    "anchor": "p-m28-embroidered-wool-felt-badge"
+  },
+  {
+    "promptId": "P-M29",
+    "recordId": "M29",
+    "category": "surfaces",
+    "name": "Flexible measuring tape",
+    "anchor": "p-m29-flexible-measuring-tape"
+  },
+  {
+    "promptId": "P-M30",
+    "recordId": "M30",
+    "category": "surfaces",
+    "name": "Woven cotton ribbon",
+    "anchor": "p-m30-woven-cotton-ribbon"
+  },
+  {
+    "promptId": "P-M31",
+    "recordId": "M31",
+    "category": "surfaces",
+    "name": "Cream sewing cotton",
+    "anchor": "p-m31-cream-sewing-cotton"
+  },
+  {
+    "promptId": "P-M32",
+    "recordId": "M32",
+    "category": "surfaces",
+    "name": "Cotton batting underside",
+    "anchor": "p-m32-cotton-batting-underside"
+  },
+  {
+    "promptId": "P-C01",
+    "recordId": "C01",
+    "category": "components",
+    "name": "Care label navigation",
+    "anchor": "p-c01-care-label-navigation"
+  },
+  {
+    "promptId": "P-C02",
+    "recordId": "C02",
+    "category": "components",
+    "name": "Repair Commons denim swatch",
+    "anchor": "p-c02-repair-commons-denim-swatch"
+  },
+  {
+    "promptId": "P-C03",
+    "recordId": "C03",
+    "category": "components",
+    "name": "Textile Network ripstop swatch",
+    "anchor": "p-c03-textile-network-ripstop-swatch"
+  },
+  {
+    "promptId": "P-C04",
+    "recordId": "C04",
+    "category": "components",
+    "name": "Futures Lab natural fiber swatch",
+    "anchor": "p-c04-futures-lab-natural-fiber-swatch"
+  },
+  {
+    "promptId": "P-C05",
+    "recordId": "C05",
+    "category": "components",
+    "name": "Creative Studio velvet swatch",
+    "anchor": "p-c05-creative-studio-velvet-swatch"
+  },
+  {
+    "promptId": "P-C06",
+    "recordId": "C06",
+    "category": "components",
+    "name": "Sewn wooden call to action",
+    "anchor": "p-c06-sewn-wooden-call-to-action"
+  },
+  {
+    "promptId": "P-C07",
+    "recordId": "C07",
+    "category": "components",
+    "name": "Measuring tape progress",
+    "anchor": "p-c07-measuring-tape-progress"
+  },
+  {
+    "promptId": "P-C08",
+    "recordId": "C08",
+    "category": "components",
+    "name": "Ribbon section divider",
+    "anchor": "p-c08-ribbon-section-divider"
+  },
+  {
+    "promptId": "P-C09",
+    "recordId": "C09",
+    "category": "components",
+    "name": "Zipper progress alternative",
+    "anchor": "p-c09-zipper-progress-alternative"
+  },
+  {
+    "promptId": "P-C10",
+    "recordId": "C10",
+    "category": "components",
+    "name": "Buttonhole sound toggle",
+    "anchor": "p-c10-buttonhole-sound-toggle"
+  },
+  {
+    "promptId": "P-C11",
+    "recordId": "C11",
+    "category": "components",
+    "name": "Curtain detail dialog",
+    "anchor": "p-c11-curtain-detail-dialog"
+  },
+  {
+    "promptId": "P-C12",
+    "recordId": "C12",
+    "category": "components",
+    "name": "Bounded pull tab",
+    "anchor": "p-c12-bounded-pull-tab"
+  },
+  {
+    "promptId": "P-C13",
+    "recordId": "C13",
+    "category": "components",
+    "name": "Macro material inspector",
+    "anchor": "p-c13-macro-material-inspector"
+  },
+  {
+    "promptId": "P-C14",
+    "recordId": "C14",
+    "category": "components",
+    "name": "Repair interest form",
+    "anchor": "p-c14-repair-interest-form"
+  },
+  {
+    "promptId": "P-C15",
+    "recordId": "C15",
+    "category": "components",
+    "name": "Readable input label and error",
+    "anchor": "p-c15-readable-input-label-and-error"
+  },
+  {
+    "promptId": "P-C16",
+    "recordId": "C16",
+    "category": "components",
+    "name": "Embroidered felt status badge",
+    "anchor": "p-c16-embroidered-felt-status-badge"
+  },
+  {
+    "promptId": "P-C17",
+    "recordId": "C17",
+    "category": "components",
+    "name": "Pinned selection marker",
+    "anchor": "p-c17-pinned-selection-marker"
+  },
+  {
+    "promptId": "P-C18",
+    "recordId": "C18",
+    "category": "components",
+    "name": "Material choice chips",
+    "anchor": "p-c18-material-choice-chips"
+  },
+  {
+    "promptId": "P-C19",
+    "recordId": "C19",
+    "category": "components",
+    "name": "Light preset controls",
+    "anchor": "p-c19-light-preset-controls"
+  },
+  {
+    "promptId": "P-C20",
+    "recordId": "C20",
+    "category": "components",
+    "name": "Motion preference control",
+    "anchor": "p-c20-motion-preference-control"
+  },
+  {
+    "promptId": "P-C21",
+    "recordId": "C21",
+    "category": "components",
+    "name": "Mobile navigation disclosure",
+    "anchor": "p-c21-mobile-navigation-disclosure"
+  },
+  {
+    "promptId": "P-C22",
+    "recordId": "C22",
+    "category": "components",
+    "name": "Close and return control",
+    "anchor": "p-c22-close-and-return-control"
+  },
+  {
+    "promptId": "P-C23",
+    "recordId": "C23",
+    "category": "components",
+    "name": "Material loading placeholder",
+    "anchor": "p-c23-material-loading-placeholder"
+  },
+  {
+    "promptId": "P-C24",
+    "recordId": "C24",
+    "category": "components",
+    "name": "Source footer label",
+    "anchor": "p-c24-source-footer-label"
+  },
+  {
+    "promptId": "P-C25",
+    "recordId": "C25",
+    "category": "components",
+    "name": "Core ThreadButton integration anchor",
+    "anchor": "p-c25-core-threadbutton-integration-anchor"
+  },
+  {
+    "promptId": "P-SC01",
+    "recordId": "SC01",
+    "category": "scenes",
+    "name": "Workshop hero",
+    "anchor": "p-sc01-workshop-hero"
+  },
+  {
+    "promptId": "P-SC02",
+    "recordId": "SC02",
+    "category": "scenes",
+    "name": "Four offering overview",
+    "anchor": "p-sc02-four-offering-overview"
+  },
+  {
+    "promptId": "P-SC03",
+    "recordId": "SC03",
+    "category": "scenes",
+    "name": "Repair pilot arrangement",
+    "anchor": "p-sc03-repair-pilot-arrangement"
+  },
+  {
+    "promptId": "P-SC04",
+    "recordId": "SC04",
+    "category": "scenes",
+    "name": "Close material inspection",
+    "anchor": "p-sc04-close-material-inspection"
+  },
+  {
+    "promptId": "P-SC05",
+    "recordId": "SC05",
+    "category": "scenes",
+    "name": "Interest preview",
+    "anchor": "p-sc05-interest-preview"
+  },
+  {
+    "promptId": "P-SC06",
+    "recordId": "SC06",
+    "category": "scenes",
+    "name": "Phone workshop",
+    "anchor": "p-sc06-phone-workshop"
+  },
+  {
+    "promptId": "P-SC07",
+    "recordId": "SC07",
+    "category": "scenes",
+    "name": "Material acceptance fixture",
+    "anchor": "p-sc07-material-acceptance-fixture"
+  },
+  {
+    "promptId": "P-SC08",
+    "recordId": "SC08",
+    "category": "scenes",
+    "name": "Semantic fallback",
+    "anchor": "p-sc08-semantic-fallback"
+  },
+  {
+    "promptId": "P-A01",
+    "recordId": "A01",
+    "category": "assets",
+    "name": "Sewing and stitch geometry",
+    "anchor": "p-a01-sewing-and-stitch-geometry"
+  },
+  {
+    "promptId": "P-A02",
+    "recordId": "A02",
+    "category": "assets",
+    "name": "Four hole maple button",
+    "anchor": "p-a02-four-hole-maple-button"
+  },
+  {
+    "promptId": "P-A03",
+    "recordId": "A03",
+    "category": "assets",
+    "name": "Horn appearance button variant",
+    "anchor": "p-a03-horn-appearance-button-variant"
+  },
+  {
+    "promptId": "P-A04",
+    "recordId": "A04",
+    "category": "assets",
+    "name": "Pearlescent button variant",
+    "anchor": "p-a04-pearlescent-button-variant"
+  },
+  {
+    "promptId": "P-A05",
+    "recordId": "A05",
+    "category": "assets",
+    "name": "Brass snap fastener",
+    "anchor": "p-a05-brass-snap-fastener"
+  },
+  {
+    "promptId": "P-A06",
+    "recordId": "A06",
+    "category": "assets",
+    "name": "Stitched keyhole opening",
+    "anchor": "p-a06-stitched-keyhole-opening"
+  },
+  {
+    "promptId": "P-A07",
+    "recordId": "A07",
+    "category": "assets",
+    "name": "Measuring tape strip",
+    "anchor": "p-a07-measuring-tape-strip"
+  },
+  {
+    "promptId": "P-A08",
+    "recordId": "A08",
+    "category": "assets",
+    "name": "Woven ribbon strip",
+    "anchor": "p-a08-woven-ribbon-strip"
+  },
+  {
+    "promptId": "P-A09",
+    "recordId": "A09",
+    "category": "assets",
+    "name": "Zipper track and puller",
+    "anchor": "p-a09-zipper-track-and-puller"
+  },
+  {
+    "promptId": "P-A10",
+    "recordId": "A10",
+    "category": "assets",
+    "name": "Steel pin with brass head",
+    "anchor": "p-a10-steel-pin-with-brass-head"
+  },
+  {
+    "promptId": "P-A11",
+    "recordId": "A11",
+    "category": "assets",
+    "name": "Cutting mat grid decal",
+    "anchor": "p-a11-cutting-mat-grid-decal"
+  },
+  {
+    "promptId": "P-A12",
+    "recordId": "A12",
+    "category": "assets",
+    "name": "Embroidery motif set",
+    "anchor": "p-a12-embroidery-motif-set"
+  },
+  {
+    "promptId": "P-A13",
+    "recordId": "A13",
+    "category": "assets",
+    "name": "Workshop font subset",
+    "anchor": "p-a13-workshop-font-subset"
+  },
+  {
+    "promptId": "P-A14",
+    "recordId": "A14",
+    "category": "assets",
+    "name": "Wood button tap",
+    "anchor": "p-a14-wood-button-tap"
+  },
+  {
+    "promptId": "P-A15",
+    "recordId": "A15",
+    "category": "assets",
+    "name": "Canvas movement rustle",
+    "anchor": "p-a15-canvas-movement-rustle"
+  },
+  {
+    "promptId": "P-A16",
+    "recordId": "A16",
+    "category": "assets",
+    "name": "Tailor shear accent",
+    "anchor": "p-a16-tailor-shear-accent"
+  },
+  {
+    "promptId": "P-A17",
+    "recordId": "A17",
+    "category": "assets",
+    "name": "Workshop concept image set",
+    "anchor": "p-a17-workshop-concept-image-set"
+  },
+  {
+    "promptId": "P-A18",
+    "recordId": "A18",
+    "category": "assets",
+    "name": "Documented textile reference photographs",
+    "anchor": "p-a18-documented-textile-reference-photographs"
+  },
+  {
+    "promptId": "P-F01",
+    "recordId": "F01",
+    "category": "methods",
+    "name": "Millimeters to runtime meters",
+    "anchor": "p-f01-millimeters-to-runtime-meters"
+  },
+  {
+    "promptId": "P-F02",
+    "recordId": "F02",
+    "category": "methods",
+    "name": "Yarn crossing clearance",
+    "anchor": "p-f02-yarn-crossing-clearance"
+  },
+  {
+    "promptId": "P-F03",
+    "recordId": "F03",
+    "category": "methods",
+    "name": "Weave pattern selection",
+    "anchor": "p-f03-weave-pattern-selection"
+  },
+  {
+    "promptId": "P-F04",
+    "recordId": "F04",
+    "category": "methods",
+    "name": "Twisted ply centerline",
+    "anchor": "p-f04-twisted-ply-centerline"
+  },
+  {
+    "promptId": "P-F05",
+    "recordId": "F05",
+    "category": "methods",
+    "name": "Damped spring response",
+    "anchor": "p-f05-damped-spring-response"
+  },
+  {
+    "promptId": "P-F06",
+    "recordId": "F06",
+    "category": "methods",
+    "name": "XPBD distance constraint",
+    "anchor": "p-f06-xpbd-distance-constraint"
+  },
+  {
+    "promptId": "P-F07",
+    "recordId": "F07",
+    "category": "methods",
+    "name": "Level of detail from projected yarn size",
+    "anchor": "p-f07-level-of-detail-from-projected-yarn-size"
+  },
+  {
+    "promptId": "P-F08",
+    "recordId": "F08",
+    "category": "methods",
+    "name": "Linear color and contrast",
+    "anchor": "p-f08-linear-color-and-contrast"
+  },
+  {
+    "promptId": "P-F09",
+    "recordId": "F09",
+    "category": "methods",
+    "name": "Height-derived tangent normal",
+    "anchor": "p-f09-height-derived-tangent-normal"
+  },
+  {
+    "promptId": "P-R01",
+    "recordId": "R01",
+    "category": "rules",
+    "name": "Units are explicit",
+    "anchor": "p-r01-units-are-explicit"
+  },
+  {
+    "promptId": "P-R02",
+    "recordId": "R02",
+    "category": "rules",
+    "name": "Topology determines construction",
+    "anchor": "p-r02-topology-determines-construction"
+  },
+  {
+    "promptId": "P-R03",
+    "recordId": "R03",
+    "category": "rules",
+    "name": "Material values are design selections",
+    "anchor": "p-r03-material-values-are-design-selections"
+  },
+  {
+    "promptId": "P-R04",
+    "recordId": "R04",
+    "category": "rules",
+    "name": "One lighting model",
+    "anchor": "p-r04-one-lighting-model"
+  },
+  {
+    "promptId": "P-R05",
+    "recordId": "R05",
+    "category": "rules",
+    "name": "No baked illumination in maps",
+    "anchor": "p-r05-no-baked-illumination-in-maps"
+  },
+  {
+    "promptId": "P-R06",
+    "recordId": "R06",
+    "category": "rules",
+    "name": "No relief counted twice",
+    "anchor": "p-r06-no-relief-counted-twice"
+  },
+  {
+    "promptId": "P-R07",
+    "recordId": "R07",
+    "category": "rules",
+    "name": "Accessible actions are invariant",
+    "anchor": "p-r07-accessible-actions-are-invariant"
+  },
+  {
+    "promptId": "P-R08",
+    "recordId": "R08",
+    "category": "rules",
+    "name": "Motion is optional",
+    "anchor": "p-r08-motion-is-optional"
+  },
+  {
+    "promptId": "P-R09",
+    "recordId": "R09",
+    "category": "rules",
+    "name": "Audio is independent",
+    "anchor": "p-r09-audio-is-independent"
+  },
+  {
+    "promptId": "P-R10",
+    "recordId": "R10",
+    "category": "rules",
+    "name": "Effects have bounded work",
+    "anchor": "p-r10-effects-have-bounded-work"
+  },
+  {
+    "promptId": "P-R11",
+    "recordId": "R11",
+    "category": "rules",
+    "name": "Evidence is run scoped",
+    "anchor": "p-r11-evidence-is-run-scoped"
+  },
+  {
+    "promptId": "P-R12",
+    "recordId": "R12",
+    "category": "rules",
+    "name": "No synthetic physical provenance",
+    "anchor": "p-r12-no-synthetic-physical-provenance"
+  },
+  {
+    "promptId": "P-R13",
+    "recordId": "R13",
+    "category": "rules",
+    "name": "Single canonical source per boundary",
+    "anchor": "p-r13-single-canonical-source-per-boundary"
+  },
+  {
+    "promptId": "P-R14",
+    "recordId": "R14",
+    "category": "rules",
+    "name": "No orphan capability",
+    "anchor": "p-r14-no-orphan-capability"
+  },
+  {
+    "promptId": "P-R15",
+    "recordId": "R15",
+    "category": "rules",
+    "name": "Stable toggle naming",
+    "anchor": "p-r15-stable-toggle-naming"
+  },
+  {
+    "promptId": "P-R16",
+    "recordId": "R16",
+    "category": "rules",
+    "name": "No physical unit metaphor leakage",
+    "anchor": "p-r16-no-physical-unit-metaphor-leakage"
+  },
+  {
+    "promptId": "P-I01",
+    "recordId": "I01",
+    "category": "implementations",
+    "name": "Canonical registry and compilation",
+    "anchor": "p-i01-canonical-registry-and-compilation"
+  },
+  {
+    "promptId": "P-I02",
+    "recordId": "I02",
+    "category": "implementations",
+    "name": "Woven geometry",
+    "anchor": "p-i02-woven-geometry"
+  },
+  {
+    "promptId": "P-I03",
+    "recordId": "I03",
+    "category": "implementations",
+    "name": "Knit topology",
+    "anchor": "p-i03-knit-topology"
+  },
+  {
+    "promptId": "P-I04",
+    "recordId": "I04",
+    "category": "implementations",
+    "name": "Pile and fuzz",
+    "anchor": "p-i04-pile-and-fuzz"
+  },
+  {
+    "promptId": "P-I05",
+    "recordId": "I05",
+    "category": "implementations",
+    "name": "Stitch attachment and tension",
+    "anchor": "p-i05-stitch-attachment-and-tension"
+  },
+  {
+    "promptId": "P-I06",
+    "recordId": "I06",
+    "category": "implementations",
+    "name": "Lighting and color pipeline",
+    "anchor": "p-i06-lighting-and-color-pipeline"
+  },
+  {
+    "promptId": "P-I07",
+    "recordId": "I07",
+    "category": "implementations",
+    "name": "Material texture importer",
+    "anchor": "p-i07-material-texture-importer"
+  },
+  {
+    "promptId": "P-I08",
+    "recordId": "I08",
+    "category": "implementations",
+    "name": "Bounded direct manipulation",
+    "anchor": "p-i08-bounded-direct-manipulation"
+  },
+  {
+    "promptId": "P-I09",
+    "recordId": "I09",
+    "category": "implementations",
+    "name": "Optional curtain drape",
+    "anchor": "p-i09-optional-curtain-drape"
+  },
+  {
+    "promptId": "P-I10",
+    "recordId": "I10",
+    "category": "implementations",
+    "name": "Operation and interaction state",
+    "anchor": "p-i10-operation-and-interaction-state"
+  },
+  {
+    "promptId": "P-I11",
+    "recordId": "I11",
+    "category": "implementations",
+    "name": "Form preview integration",
+    "anchor": "p-i11-form-preview-integration"
+  },
+  {
+    "promptId": "P-I12",
+    "recordId": "I12",
+    "category": "implementations",
+    "name": "Optional foley",
+    "anchor": "p-i12-optional-foley"
+  },
+  {
+    "promptId": "P-I13",
+    "recordId": "I13",
+    "category": "implementations",
+    "name": "Asset production and receipts",
+    "anchor": "p-i13-asset-production-and-receipts"
+  },
+  {
+    "promptId": "P-I14",
+    "recordId": "I14",
+    "category": "implementations",
+    "name": "Capability and failure tiers",
+    "anchor": "p-i14-capability-and-failure-tiers"
+  },
+  {
+    "promptId": "P-I15",
+    "recordId": "I15",
+    "category": "implementations",
+    "name": "Responsive layout and typography",
+    "anchor": "p-i15-responsive-layout-and-typography"
+  },
+  {
+    "promptId": "P-I16",
+    "recordId": "I16",
+    "category": "implementations",
+    "name": "Visual and numerical validation",
+    "anchor": "p-i16-visual-and-numerical-validation"
+  },
+  {
+    "promptId": "P-I17",
+    "recordId": "I17",
+    "category": "implementations",
+    "name": "Core reference fixes",
+    "anchor": "p-i17-core-reference-fixes"
+  },
+  {
+    "promptId": "P-I18",
+    "recordId": "I18",
+    "category": "implementations",
+    "name": "CI and evidence integration",
+    "anchor": "p-i18-ci-and-evidence-integration"
+  },
+  {
+    "promptId": "P-E01",
+    "recordId": "E01",
+    "category": "experiments",
+    "name": "Visible fiber contribution",
+    "anchor": "p-e01-visible-fiber-contribution"
+  },
+  {
+    "promptId": "P-E02",
+    "recordId": "E02",
+    "category": "experiments",
+    "name": "Lighting robustness",
+    "anchor": "p-e02-lighting-robustness"
+  },
+  {
+    "promptId": "P-E03",
+    "recordId": "E03",
+    "category": "experiments",
+    "name": "Detail level transition",
+    "anchor": "p-e03-detail-level-transition"
+  },
+  {
+    "promptId": "P-E04",
+    "recordId": "E04",
+    "category": "experiments",
+    "name": "Task completion across tiers",
+    "anchor": "p-e04-task-completion-across-tiers"
+  },
+  {
+    "promptId": "P-E05",
+    "recordId": "E05",
+    "category": "experiments",
+    "name": "Drag alternatives",
+    "anchor": "p-e05-drag-alternatives"
+  },
+  {
+    "promptId": "P-E06",
+    "recordId": "E06",
+    "category": "experiments",
+    "name": "Parameter sensitivity",
+    "anchor": "p-e06-parameter-sensitivity"
+  },
+  {
+    "promptId": "P-E07",
+    "recordId": "E07",
+    "category": "experiments",
+    "name": "Motion preference invariance",
+    "anchor": "p-e07-motion-preference-invariance"
+  },
+  {
+    "promptId": "P-E08",
+    "recordId": "E08",
+    "category": "experiments",
+    "name": "Evidence interruption",
+    "anchor": "p-e08-evidence-interruption"
+  },
+  {
+    "promptId": "P-G01",
+    "recordId": "G01",
+    "category": "gaps",
+    "name": "Material realism not established",
+    "anchor": "p-g01-material-realism-not-established"
+  },
+  {
+    "promptId": "P-G02",
+    "recordId": "G02",
+    "category": "gaps",
+    "name": "Enhanced renderer absent",
+    "anchor": "p-g02-enhanced-renderer-absent"
+  },
+  {
+    "promptId": "P-G03",
+    "recordId": "G03",
+    "category": "gaps",
+    "name": "Hosted route acceptance remains separate",
+    "anchor": "p-g03-hosted-route-acceptance-remains-separate"
+  },
+  {
+    "promptId": "P-G04",
+    "recordId": "G04",
+    "category": "gaps",
+    "name": "Loading success and error state coverage incomplete",
+    "anchor": "p-g04-loading-success-and-error-state-coverage-incomplete"
+  },
+  {
+    "promptId": "P-G05",
+    "recordId": "G05",
+    "category": "gaps",
+    "name": "Fonts audio and physical assets not produced",
+    "anchor": "p-g05-fonts-audio-and-physical-assets-not-produced"
+  },
+  {
+    "promptId": "P-G06",
+    "recordId": "G06",
+    "category": "gaps",
+    "name": "Hardware performance unmeasured",
+    "anchor": "p-g06-hardware-performance-unmeasured"
+  },
+  {
+    "promptId": "P-G07",
+    "recordId": "G07",
+    "category": "gaps",
+    "name": "Core accessible toggle naming",
+    "anchor": "p-g07-core-accessible-toggle-naming"
+  },
+  {
+    "promptId": "P-G08",
+    "recordId": "G08",
+    "category": "gaps",
+    "name": "Interrupted evidence and stale screenshots",
+    "anchor": "p-g08-interrupted-evidence-and-stale-screenshots"
+  },
+  {
+    "promptId": "P-G09",
+    "recordId": "G09",
+    "category": "gaps",
+    "name": "Current normalized forces are not calibrated mechanics",
+    "anchor": "p-g09-current-normalized-forces-are-not-calibrated-mechanics"
+  },
+  {
+    "promptId": "P-G10",
+    "recordId": "G10",
+    "category": "gaps",
+    "name": "No whole-language conformance",
+    "anchor": "p-g10-no-whole-language-conformance"
+  }
+]
