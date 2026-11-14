@@ -1,0 +1,13 @@
+{
+  "id": "source:nightly-2026-11-13-uw-graphene-strain",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.washington.edu/news/2026/11/12/magic-angle-graphene-strain/",
+  "publisher": "University of Washington",
+  "retrievedAt": "2026-11-14T00:17:58Z",
+  "sourceClass": "research",
+  "independenceKey": "university-of-washington",
+  "title": "University of Washington demonstrates strain control of moire graphene",
+  "contentHash": null,
+  "notes": "Source URL and dated excerpt inspected; complete source-body digest not available."
+}

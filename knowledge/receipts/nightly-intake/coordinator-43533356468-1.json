@@ -1,0 +1,59 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-11-14T00:19:09.732Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly-2026-11-13",
+      "bundlePath": "knowledge/intake/nightly/2026-11-13/nightly-run-bundle-2026-11-13.json",
+      "bundleSha256": "19bb3edf2caad7829bf261e3923ba9efc4d21ad10415e80a314275b04a03ca56",
+      "normalizedDigest": "fd23baf5ee5e6057653b9d2095cd336d9c55ac45d8a5f4145ac6b057761e9e00",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-nightly-2026-11-13-langchain-agent-evaluation-funding.json",
+        "knowledge/sources/source-nightly-2026-11-13-github-ai-scan-api.json",
+        "knowledge/sources/source-nightly-2026-11-13-climate-finance-uk-norway-canada.json",
+        "knowledge/sources/source-nightly-2026-11-13-uw-graphene-strain.json",
+        "knowledge/sources/source-nightly-2026-11-13-github-arm32-runner-retirement.json",
+        "knowledge/observations/obs-nightly-2026-11-13-langchain-agent-evaluation-funding.json",
+        "knowledge/observations/obs-nightly-2026-11-13-github-ai-scan-api.json",
+        "knowledge/observations/obs-nightly-2026-11-13-climate-finance-uk-norway-canada.json",
+        "knowledge/observations/obs-nightly-2026-11-13-uw-graphene-strain.json",
+        "knowledge/observations/obs-nightly-2026-11-13-github-arm32-runner-retirement.json",
+        "knowledge/relationships/rel-nightly-2026-11-13-langchain-agent-evaluation-funding.json",
+        "knowledge/relationships/rel-nightly-2026-11-13-github-ai-scan-api.json",
+        "knowledge/relationships/rel-nightly-2026-11-13-climate-finance-uk-norway-canada.json",
+        "knowledge/relationships/rel-nightly-2026-11-13-uw-graphene-strain.json",
+        "knowledge/relationships/rel-nightly-2026-11-13-github-arm32-runner-retirement.json",
+        "knowledge/runs/run-nightly-2026-11-13.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-13-collect.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-13-vet.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-13-normalize.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-13-observe.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-13-inquire.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-13-interpret.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-13-relate.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-13-pattern.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-13-opportunity.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-13-strategy.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-13-experiment.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-13-genesis.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-13-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-13-langchain-agent-evaluation-funding.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-13-github-ai-scan-api.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-13-climate-finance-uk-norway-canada.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-13-uw-graphene-strain.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-13-github-arm32-runner-retirement.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-11-13-ingest.json",
+      "generatedRecordCount": 34
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-11-13-github-arm32-runner-retirement",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-11-13-github-arm32-runner-retirement",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly-2026-11-13-github-arm32-runner-retirement",
+  "confidence": 0.95,
+  "evidenceRefs": [
+    "source:nightly-2026-11-13-github-arm32-runner-retirement"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "obs:nightly-2026-11-13-github-arm32-runner-retirement",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-14T00:17:58Z",
+  "claim": "GitHub announces ARM32 hosted-runner retirement: GitHub announced November 12 that hosted ARM32 Windows and Linux Actions job execution will end December 8, 2026.",
+  "verifiedFacts": [
+    "GitHub announced November 12 that hosted ARM32 Windows and Linux Actions job execution will end December 8, 2026."
+  ],
+  "inference": [
+    "Cross-repository CI should inventory architecture assumptions before a runtime deprecation causes failures.",
+    "Consultancy implication: Preventing avoidable CI disruption. Project disposition: CORE for the primary affected research/workflow line."
+  ],
+  "significance": "A bounded workflow audit is warranted; no claim that any project currently uses ARM32 hosted runners.",
+  "confidence": 0.95,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-13-github-arm32-runner-retirement"
+  ],
+  "actorRefs": [
+    "actor:github"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/.github",
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/shader-gallery"
+  ],
+  "assumptions": [
+    "Client demand and comparative benefit remain unverified."
+  ],
+  "knownLimitations": [
+    "No affected workflow was independently identified; ARM64 and local Termux are not equivalent to hosted ARM32."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

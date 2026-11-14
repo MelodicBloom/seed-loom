@@ -1,0 +1,13 @@
+{
+  "id": "source:nightly-2026-11-13-github-ai-scan-api",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api/",
+  "publisher": "GitHub",
+  "retrievedAt": "2026-11-14T00:17:58Z",
+  "sourceClass": "official",
+  "independenceKey": "github",
+  "title": "GitHub introduces repository-level AI Scan API controls",
+  "contentHash": null,
+  "notes": "Source URL and dated excerpt inspected; complete source-body digest not available."
+}

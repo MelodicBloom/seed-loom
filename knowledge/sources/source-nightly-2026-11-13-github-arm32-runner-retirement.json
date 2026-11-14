@@ -1,0 +1,13 @@
+{
+  "id": "source:nightly-2026-11-13-github-arm32-runner-retirement",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://github.blog/changelog/month/11-2026/",
+  "publisher": "GitHub",
+  "retrievedAt": "2026-11-14T00:17:58Z",
+  "sourceClass": "official",
+  "independenceKey": "github",
+  "title": "GitHub announces ARM32 hosted-runner retirement",
+  "contentHash": null,
+  "notes": "Source URL and dated excerpt inspected; complete source-body digest not available."
+}

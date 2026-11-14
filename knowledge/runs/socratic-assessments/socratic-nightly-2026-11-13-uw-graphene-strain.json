@@ -1,0 +1,91 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-13-uw-graphene-strain",
+  "observationId": "obs:nightly-2026-11-13-uw-graphene-strain",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "University of Washington researchers reported a November 12 Science paper showing that stretching and compressing twisted graphene layers causes substantial changes in electrical resistance.",
+      "evidenceRefs": [
+        "source:nightly-2026-11-13-uw-graphene-strain"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "uw-researchers acted through the reported release, funding, initiative, or publication.",
+      "evidenceRefs": [
+        "source:nightly-2026-11-13-uw-graphene-strain"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Explaining complex material-response mechanisms",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams with this operational problem may benefit.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Conventional scientific plots and simulations",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Mechanism-led interactive scientific visualization could explain coupled strain, lattice geometry, and electrical response.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "A published event is assumed to establish client demand.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Comparable existing solutions meet the need at lower cost.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Paid pilots, independent comparative measurements, and client procurement.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Existing plots and scientific simulations may communicate the finding sufficiently.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Public announcements establish consultancy demand.",
+  "falsifier": "Independent comparisons show no material advantage over established alternatives.",
+  "missingEvidence": [
+    "Client procurement",
+    "Independent measured outcomes"
+  ],
+  "alternativeExplanation": "Existing plots and scientific simulations may communicate the finding sufficiently.",
+  "disposition": "watch",
+  "confidence": 0.94
+}

@@ -1,0 +1,13 @@
+{
+  "id": "source:nightly-2026-11-13-climate-finance-uk-norway-canada",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.reuters.com/sustainability/cop/uk-norway-canada-launch-10-billion-climate-finance-initiative-2026-11-13/",
+  "publisher": "Reuters",
+  "retrievedAt": "2026-11-14T00:17:58Z",
+  "sourceClass": "press",
+  "independenceKey": "reuters",
+  "title": "UK Norway and Canada announce climate finance initiative",
+  "contentHash": null,
+  "notes": "Source URL and dated excerpt inspected; complete source-body digest not available."
+}

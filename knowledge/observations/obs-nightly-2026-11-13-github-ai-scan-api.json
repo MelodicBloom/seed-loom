@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-13-github-ai-scan-api",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-14T00:17:58Z",
+  "claim": "GitHub introduces repository-level AI Scan API controls: GitHub announced on November 13 that administrators can manage repository AI Scan enablement via REST API in public preview; running scans remains separate and consumes security credits.",
+  "verifiedFacts": [
+    "GitHub announced on November 13 that administrators can manage repository AI Scan enablement via REST API in public preview; running scans remains separate and consumes security credits."
+  ],
+  "inference": [
+    "Organization policy-as-code and explicit scan authorization can reduce security configuration drift.",
+    "Consultancy implication: Consistent security coverage across repositories. Project disposition: CORE for the primary affected research/workflow line."
+  ],
+  "significance": "Apply as a read-only audit recommendation; no paid scan or settings change is authorized.",
+  "confidence": 0.97,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-13-github-ai-scan-api"
+  ],
+  "actorRefs": [
+    "actor:github"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/.github",
+    "MelodicBloom/seed-loom"
+  ],
+  "assumptions": [
+    "Client demand and comparative benefit remain unverified."
+  ],
+  "knownLimitations": [
+    "Public preview, entitlement restrictions, and credit costs; no scan executed."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

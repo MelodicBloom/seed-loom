@@ -1,0 +1,91 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-13-github-ai-scan-api",
+  "observationId": "obs:nightly-2026-11-13-github-ai-scan-api",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "GitHub announced on November 13 that administrators can manage repository AI Scan enablement via REST API in public preview; running scans remains separate and consumes security credits.",
+      "evidenceRefs": [
+        "source:nightly-2026-11-13-github-ai-scan-api"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "github acted through the reported release, funding, initiative, or publication.",
+      "evidenceRefs": [
+        "source:nightly-2026-11-13-github-ai-scan-api"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Consistent security coverage across repositories",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams with this operational problem may benefit.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing code scanning and manual settings",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Organization policy-as-code and explicit scan authorization can reduce security configuration drift.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "A published event is assumed to establish client demand.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Comparable existing solutions meet the need at lower cost.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Paid pilots, independent comparative measurements, and client procurement.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Existing security scanning may already cover the relevant threat model.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Public announcements establish consultancy demand.",
+  "falsifier": "Independent comparisons show no material advantage over established alternatives.",
+  "missingEvidence": [
+    "Client procurement",
+    "Independent measured outcomes"
+  ],
+  "alternativeExplanation": "Existing security scanning may already cover the relevant threat model.",
+  "disposition": "watch",
+  "confidence": 0.97
+}

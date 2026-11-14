@@ -1,0 +1,91 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-13-github-arm32-runner-retirement",
+  "observationId": "obs:nightly-2026-11-13-github-arm32-runner-retirement",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "GitHub announced November 12 that hosted ARM32 Windows and Linux Actions job execution will end December 8, 2026.",
+      "evidenceRefs": [
+        "source:nightly-2026-11-13-github-arm32-runner-retirement"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "github acted through the reported release, funding, initiative, or publication.",
+      "evidenceRefs": [
+        "source:nightly-2026-11-13-github-arm32-runner-retirement"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Preventing avoidable CI disruption",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams with this operational problem may benefit.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing workflow inventory and platform migration",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Cross-repository CI should inventory architecture assumptions before a runtime deprecation causes failures.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "A published event is assumed to establish client demand.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Comparable existing solutions meet the need at lower cost.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Paid pilots, independent comparative measurements, and client procurement.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "No action is necessary if the repositories do not depend on ARM32 hosted jobs.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Public announcements establish consultancy demand.",
+  "falsifier": "Independent comparisons show no material advantage over established alternatives.",
+  "missingEvidence": [
+    "Client procurement",
+    "Independent measured outcomes"
+  ],
+  "alternativeExplanation": "No action is necessary if the repositories do not depend on ARM32 hosted jobs.",
+  "disposition": "watch",
+  "confidence": 0.95
+}

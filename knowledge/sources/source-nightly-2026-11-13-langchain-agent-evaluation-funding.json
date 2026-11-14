@@ -1,0 +1,13 @@
+{
+  "id": "source:nightly-2026-11-13-langchain-agent-evaluation-funding",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://www.wsj.com/cio-journal/ai-startup-langchain-more-than-doubles-its-valuation-to-3-billion-f83377ad",
+  "publisher": "Wall Street Journal",
+  "retrievedAt": "2026-11-14T00:17:58Z",
+  "sourceClass": "financial",
+  "independenceKey": "wall-street-journal",
+  "title": "LangChain financing for agent evaluation infrastructure",
+  "contentHash": null,
+  "notes": "Source URL and dated excerpt inspected; complete source-body digest not available."
+}

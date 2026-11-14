@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-11-13",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-11-12T00:17:58Z",
+    "to": "2026-11-14T00:17:58Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-11-13-langchain-agent-evaluation-funding",
+    "obs:nightly-2026-11-13-github-ai-scan-api",
+    "obs:nightly-2026-11-13-climate-finance-uk-norway-canada",
+    "obs:nightly-2026-11-13-uw-graphene-strain",
+    "obs:nightly-2026-11-13-github-arm32-runner-retirement"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [],
+  "newRelationships": [
+    "rel:nightly-2026-11-13-langchain-agent-evaluation-funding",
+    "rel:nightly-2026-11-13-github-ai-scan-api",
+    "rel:nightly-2026-11-13-climate-finance-uk-norway-canada",
+    "rel:nightly-2026-11-13-uw-graphene-strain",
+    "rel:nightly-2026-11-13-github-arm32-runner-retirement"
+  ],
+  "contradictions": [],
+  "opportunities": [],
+  "proposedExperiments": [],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "description": "Read-only cross-repository workflow architecture inventory"
+    }
+  ],
+  "noChangeReceipts": [
+    "No observed evidence of paying consultancy clients; no acceptance or publication.",
+    "Prior reported Amazon product graph and GitHub Cloudflare token scanning excluded as already covered."
+  ],
+  "collectionFailures": [
+    "Full graph-wide deduplication not established; only prior conversation candidate summaries compared.",
+    "Source-body SHA-256 unavailable; source URLs and publication dates preserved."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-13-langchain-agent-evaluation-funding",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-14T00:17:58Z",
+  "claim": "LangChain financing for agent evaluation infrastructure: The Wall Street Journal reported on November 12 that LangChain raised $300 million at a $3 billion valuation and plans to expand LangSmith agent monitoring and evaluation.",
+  "verifiedFacts": [
+    "The Wall Street Journal reported on November 12 that LangChain raised $300 million at a $3 billion valuation and plans to expand LangSmith agent monitoring and evaluation."
+  ],
+  "inference": [
+    "Agent evaluation and observability may support a narrowly scoped implementation and assurance service, but financing is not proof of client budgets.",
+    "Consultancy implication: Auditing multi-step AI agent actions. Project disposition: CORE for the primary affected research/workflow line."
+  ],
+  "significance": "Seed Loom can demonstrate bounded agent-action receipts without replicating an enterprise agent platform.",
+  "confidence": 0.82,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-13-langchain-agent-evaluation-funding"
+  ],
+  "actorRefs": [
+    "actor:langchain"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/.github"
+  ],
+  "assumptions": [
+    "Client demand and comparative benefit remain unverified."
+  ],
+  "knownLimitations": [
+    "Independent customer outcomes and procurement budgets were not established."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

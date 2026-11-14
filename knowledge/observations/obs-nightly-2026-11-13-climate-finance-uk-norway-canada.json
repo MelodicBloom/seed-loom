@@ -1,0 +1,34 @@
+{
+  "id": "obs:nightly-2026-11-13-climate-finance-uk-norway-canada",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-14T00:17:58Z",
+  "claim": "UK Norway and Canada announce climate finance initiative: Reuters reported on November 13 that development finance institutions from the UK, Norway, and Canada launched a joint initiative targeting $10 billion for climate projects in emerging markets by 2030.",
+  "verifiedFacts": [
+    "Reuters reported on November 13 that development finance institutions from the UK, Norway, and Canada launched a joint initiative targeting $10 billion for climate projects in emerging markets by 2030."
+  ],
+  "inference": [
+    "Multi-funder climate initiatives may require evidence lineage, impact reporting, and project-dependency mapping.",
+    "Consultancy implication: Cross-institutional climate impact traceability. Project disposition: INCUBATE for the primary affected research/workflow line."
+  ],
+  "significance": "A potential future civic-intelligence advisory lane, not an available grant or contract.",
+  "confidence": 0.9,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-13-climate-finance-uk-norway-canada"
+  ],
+  "actorRefs": [
+    "actor:climate-dfis"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom"
+  ],
+  "assumptions": [
+    "Client demand and comparative benefit remain unverified."
+  ],
+  "knownLimitations": [
+    "Targeted future finance is not disbursed funding or procurement; no eligibility confirmed."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

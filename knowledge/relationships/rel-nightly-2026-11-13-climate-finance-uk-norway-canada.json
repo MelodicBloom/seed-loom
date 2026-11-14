@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-11-13-climate-finance-uk-norway-canada",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-11-13-climate-finance-uk-norway-canada",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly-2026-11-13-climate-finance-uk-norway-canada",
+  "confidence": 0.9,
+  "evidenceRefs": [
+    "source:nightly-2026-11-13-climate-finance-uk-norway-canada"
+  ]
+}

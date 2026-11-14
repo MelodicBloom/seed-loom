@@ -1,0 +1,32 @@
+{
+  "ackId": "ack:nightly-2026-11-13-genesis",
+  "runId": "run:nightly-2026-11-13",
+  "stage": "genesis",
+  "schemaVersion": "1.1.0",
+  "status": "deferred",
+  "startedAt": "2026-11-14T00:17:58Z",
+  "completedAt": "2026-11-14T00:17:58Z",
+  "inputs": [
+    "run:nightly-2026-11-13"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "candidate-only evidence boundary",
+      "result": "not-applicable",
+      "detail": "Human review and independent evidence required"
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "No accepted knowledge, executed repository actions, strategy promotion, Genesis advancement, or publication."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly research intake",
+    "method": "Dated source inspection and live repository contract review; hashes unavailable for remote source bodies",
+    "inputHashes": []
+  }
+}

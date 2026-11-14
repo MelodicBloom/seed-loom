@@ -1,0 +1,38 @@
+{
+  "ackId": "ack:nightly-2026-11-13-collect",
+  "runId": "run:nightly-2026-11-13",
+  "stage": "collect",
+  "schemaVersion": "1.1.0",
+  "status": "passed",
+  "startedAt": "2026-11-14T00:17:58Z",
+  "completedAt": "2026-11-14T00:17:58Z",
+  "inputs": [
+    "https://www.wsj.com/cio-journal/ai-startup-langchain-more-than-doubles-its-valuation-to-3-billion-f83377ad",
+    "https://github.blog/changelog/2026-11-13-manage-ai-scan-for-repositories-using-the-rest-api/",
+    "https://www.reuters.com/sustainability/cop/uk-norway-canada-launch-10-billion-climate-finance-initiative-2026-11-13/",
+    "https://www.washington.edu/news/2026/11/12/magic-angle-graphene-strain/",
+    "https://github.blog/changelog/month/11-2026/"
+  ],
+  "outputs": [
+    "collect:candidate-only"
+  ],
+  "checks": [
+    {
+      "name": "candidate-only evidence boundary",
+      "result": "pass",
+      "detail": "Captured source-backed candidates; no promotion"
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "No accepted knowledge, executed repository actions, strategy promotion, Genesis advancement, or publication."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly research intake",
+    "method": "Dated source inspection and live repository contract review; hashes unavailable for remote source bodies",
+    "inputHashes": []
+  }
+}

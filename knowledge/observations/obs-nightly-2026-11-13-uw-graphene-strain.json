@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-13-uw-graphene-strain",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-14T00:17:58Z",
+  "claim": "University of Washington demonstrates strain control of moire graphene: University of Washington researchers reported a November 12 Science paper showing that stretching and compressing twisted graphene layers causes substantial changes in electrical resistance.",
+  "verifiedFacts": [
+    "University of Washington researchers reported a November 12 Science paper showing that stretching and compressing twisted graphene layers causes substantial changes in electrical resistance."
+  ],
+  "inference": [
+    "Mechanism-led interactive scientific visualization could explain coupled strain, lattice geometry, and electrical response.",
+    "Consultancy implication: Explaining complex material-response mechanisms. Project disposition: REFERENCE-ONLY for the primary affected research/workflow line."
+  ],
+  "significance": "Research reference for Shader Grammar and AETHER, not a claim of commercial device performance.",
+  "confidence": 0.94,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-13-uw-graphene-strain"
+  ],
+  "actorRefs": [
+    "actor:uw-researchers"
+  ],
+  "affectedRepositories": [
+    "qt314wink/shader-grammar",
+    "MelodicBloom/shader-gallery"
+  ],
+  "assumptions": [
+    "Client demand and comparative benefit remain unverified."
+  ],
+  "knownLimitations": [
+    "Laboratory material finding does not establish scalable device manufacturing or production-grade performance."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}
