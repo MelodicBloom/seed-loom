@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Seed Loom evidence to token to code flow</title>
+  <desc id="desc">A deterministic documentation diagram showing Evidence, Interpretation, Tokens, Code, and Verification as connected stages.</desc>
+  <rect width="1200" height="620" rx="32" fill="#111827"/>
+  <text x="72" y="82" fill="#F9FAFB" font-family="system-ui,sans-serif" font-size="42" font-weight="700">Seed Loom</text>
+  <text x="72" y="122" fill="#A7F3D0" font-family="system-ui,sans-serif" font-size="20">Signal → system → artifact → verification</text>
+  <g font-family="system-ui,sans-serif">
+    <g transform="translate(60 190)">
+      <rect width="190" height="190" rx="24" fill="#183A37" stroke="#5EEAD4" stroke-width="2"/>
+      <text x="28" y="58" fill="#99F6E4" font-size="18" font-weight="700">01 · EVIDENCE</text>
+      <text x="28" y="98" fill="#F9FAFB" font-size="22" font-weight="600">Observe</text>
+      <text x="28" y="132" fill="#CBD5E1" font-size="16">Signals, notes,</text>
+      <text x="28" y="156" fill="#CBD5E1" font-size="16">source context.</text>
+    </g>
+    <g transform="translate(280 190)">
+      <rect width="190" height="190" rx="24" fill="#2A2445" stroke="#C4B5FD" stroke-width="2"/>
+      <text x="28" y="58" fill="#DDD6FE" font-size="18" font-weight="700">02 · INTERPRET</text>
+      <text x="28" y="98" fill="#F9FAFB" font-size="22" font-weight="600">Name</text>
+      <text x="28" y="132" fill="#CBD5E1" font-size="16">Patterns become</text>
+      <text x="28" y="156" fill="#CBD5E1" font-size="16">explicit decisions.</text>
+    </g>
+    <g transform="translate(500 190)">
+      <rect width="190" height="190" rx="24" fill="#3D2E1A" stroke="#FCD34D" stroke-width="2"/>
+      <text x="28" y="58" fill="#FDE68A" font-size="18" font-weight="700">03 · TOKENS</text>
+      <text x="28" y="98" fill="#F9FAFB" font-size="22" font-weight="600">Structure</text>
+      <text x="28" y="132" fill="#CBD5E1" font-size="16">Values, semantics,</text>
+      <text x="28" y="156" fill="#CBD5E1" font-size="16">confidence + trace.</text>
+    </g>
+    <g transform="translate(720 190)">
+      <rect width="190" height="190" rx="24" fill="#172B4D" stroke="#93C5FD" stroke-width="2"/>
+      <text x="28" y="58" fill="#BFDBFE" font-size="18" font-weight="700">04 · CODE</text>
+      <text x="28" y="98" fill="#F9FAFB" font-size="22" font-weight="600">Translate</text>
+      <text x="28" y="132" fill="#CBD5E1" font-size="16">Examples, specs,</text>
+      <text x="28" y="156" fill="#CBD5E1" font-size="16">implementation.</text>
+    </g>
+    <g transform="translate(940 190)">
+      <rect width="190" height="190" rx="24" fill="#3B2136" stroke="#F9A8D4" stroke-width="2"/>
+      <text x="28" y="58" fill="#FBCFE8" font-size="18" font-weight="700">05 · VERIFY</text>
+      <text x="28" y="98" fill="#F9FAFB" font-size="22" font-weight="600">Check</text>
+      <text x="28" y="132" fill="#CBD5E1" font-size="16">Receipts, tests,</text>
+      <text x="28" y="156" fill="#CBD5E1" font-size="16">review boundaries.</text>
+    </g>
+  </g>
+  <g stroke="#94A3B8" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M250 285h30"/><path d="M470 285h30"/><path d="M690 285h30"/><path d="M910 285h30"/>
+  </g>
+  <text x="72" y="470" fill="#CBD5E1" font-family="system-ui,sans-serif" font-size="18">Documentation visual — deterministic repository diagram, not a live-demo capture.</text>
+  <text x="72" y="508" fill="#94A3B8" font-family="system-ui,sans-serif" font-size="16">Use the live demo link above for current deployed behavior; use the repository tests for revision-bound evidence.</text>
+</svg>
