@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-11-14-github-enterprise-copilot-access",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app/",
+  "publisher": "GitHub",
+  "publishedAt": "2026-11-13T00:00:00Z",
+  "retrievedAt": "2026-11-15T00:20:34Z",
+  "sourceClass": "official",
+  "independenceKey": "github",
+  "title": "GitHub Copilot app adds general-availability Enterprise Server integration",
+  "contentHash": null,
+  "notes": "Dated official/research page inspected; full source-body digest unavailable; publishedAt uses date-only midnight placeholder, not asserted release time."
+}

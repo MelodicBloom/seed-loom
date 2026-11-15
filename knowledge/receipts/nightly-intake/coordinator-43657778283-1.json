@@ -1,0 +1,59 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-11-15T00:21:50.790Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "INGESTED_WITH_RECEIPT": 1
+  },
+  "overallStatus": "COMPLETE",
+  "results": [
+    {
+      "status": "INGESTED_WITH_RECEIPT",
+      "runId": "run:nightly-2026-11-14",
+      "bundlePath": "knowledge/intake/nightly/2026-11-14/nightly-run-bundle-2026-11-14.json",
+      "bundleSha256": "c60578cab2beb6d9b36eedb5600f4e30190f48ae8ac819568f09e3660737b998",
+      "normalizedDigest": "06471e86a70a3e9669a033f15c640c7fce4c2179530ea3bd83d946775dcb3036",
+      "dryRunResult": "validated",
+      "plannedFiles": [
+        "knowledge/sources/source-nightly-2026-11-14-mit-human-in-loop-structural-design.json",
+        "knowledge/sources/source-nightly-2026-11-14-github-enterprise-copilot-access.json",
+        "knowledge/sources/source-nightly-2026-11-14-cop31-climate-culture-salon.json",
+        "knowledge/sources/source-nightly-2026-11-14-mit-sleep-csf-aging.json",
+        "knowledge/sources/source-nightly-2026-11-14-github-gemini-hydrogen.json",
+        "knowledge/observations/obs-nightly-2026-11-14-mit-human-in-loop-structural-design.json",
+        "knowledge/observations/obs-nightly-2026-11-14-github-enterprise-copilot-access.json",
+        "knowledge/observations/obs-nightly-2026-11-14-cop31-climate-culture-salon.json",
+        "knowledge/observations/obs-nightly-2026-11-14-mit-sleep-csf-aging.json",
+        "knowledge/observations/obs-nightly-2026-11-14-github-gemini-hydrogen.json",
+        "knowledge/relationships/rel-nightly-2026-11-14-mit-human-in-loop-structural-design.json",
+        "knowledge/relationships/rel-nightly-2026-11-14-github-enterprise-copilot-access.json",
+        "knowledge/relationships/rel-nightly-2026-11-14-cop31-climate-culture-salon.json",
+        "knowledge/relationships/rel-nightly-2026-11-14-mit-sleep-csf-aging.json",
+        "knowledge/relationships/rel-nightly-2026-11-14-github-gemini-hydrogen.json",
+        "knowledge/runs/run-nightly-2026-11-14.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-14-collect.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-14-vet.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-14-normalize.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-14-observe.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-14-inquire.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-14-interpret.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-14-relate.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-14-pattern.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-14-opportunity.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-14-strategy.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-14-experiment.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-14-genesis.json",
+        "knowledge/runs/stage-acks/ack-nightly-2026-11-14-publish.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-14-mit-human-in-loop-structural-design.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-14-github-enterprise-copilot-access.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-14-cop31-climate-culture-salon.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-14-mit-sleep-csf-aging.json",
+        "knowledge/runs/socratic-assessments/socratic-nightly-2026-11-14-github-gemini-hydrogen.json"
+      ],
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-11-14-ingest.json",
+      "generatedRecordCount": 34
+    }
+  ]
+}

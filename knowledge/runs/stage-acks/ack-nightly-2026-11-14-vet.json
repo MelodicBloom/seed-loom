@@ -1,0 +1,32 @@
+{
+  "ackId": "ack:nightly-2026-11-14-vet",
+  "runId": "run:nightly-2026-11-14",
+  "stage": "vet",
+  "schemaVersion": "1.1.0",
+  "status": "passed",
+  "startedAt": "2026-11-15T00:20:34Z",
+  "completedAt": "2026-11-15T00:20:34Z",
+  "inputs": [
+    "run:nightly-2026-11-14"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "live contract and candidate-only boundary",
+      "result": "not-applicable",
+      "detail": "Await canonical dry-run/ingest; no downstream promotion"
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only; no accepted strategy, executed action, Genesis advancement or publication."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly research intake",
+    "method": "Official/research source inspection and live repository authority review; canonical execution pending",
+    "inputHashes": []
+  }
+}

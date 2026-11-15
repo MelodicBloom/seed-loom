@@ -1,0 +1,91 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-14-github-enterprise-copilot-access",
+  "observationId": "obs:nightly-2026-11-14-github-enterprise-copilot-access",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "GitHub released generally available GHES account integration in Copilot app 1.2.0+, covering repository, issue and PR access; cloud sessions are unavailable for GHES.",
+      "evidenceRefs": [
+        "source:nightly-2026-11-14-github-enterprise-copilot-access"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "github released, published or organized the documented event.",
+      "evidenceRefs": [
+        "source:nightly-2026-11-14-github-enterprise-copilot-access"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Disconnected enterprise development and agent context",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams or researchers addressing the documented problem may benefit.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Local IDE workflows and existing GitHub Enterprise tools",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Agent handoffs should specify execution locality and permissions rather than assume cloud agents can access enterprise repositories.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Assuming a documented announcement implies buyer demand or production readiness.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent replication or buyer comparisons find no material advantage.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Procurement evidence, independent tests, and longitudinal outcomes.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Existing methods may be sufficient without new consultancy infrastructure.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Assuming a documented announcement implies buyer demand or production readiness.",
+  "falsifier": "Independent replication or buyer comparisons find no material advantage.",
+  "missingEvidence": [
+    "Client procurement",
+    "Independent replication or comparative outcomes"
+  ],
+  "alternativeExplanation": "Existing methods may be sufficient without new consultancy infrastructure.",
+  "disposition": "watch",
+  "confidence": 0.94
+}

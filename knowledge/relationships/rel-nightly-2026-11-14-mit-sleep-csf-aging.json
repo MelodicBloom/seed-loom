@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-11-14-mit-sleep-csf-aging",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-11-14-mit-sleep-csf-aging",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly-2026-11-14-mit-sleep-csf-aging",
+  "confidence": 0.91,
+  "evidenceRefs": [
+    "source:nightly-2026-11-14-mit-sleep-csf-aging"
+  ]
+}

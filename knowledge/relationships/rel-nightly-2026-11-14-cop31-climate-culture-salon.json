@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-11-14-cop31-climate-culture-salon",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-11-14-cop31-climate-culture-salon",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly-2026-11-14-cop31-climate-culture-salon",
+  "confidence": 0.91,
+  "evidenceRefs": [
+    "source:nightly-2026-11-14-cop31-climate-culture-salon"
+  ]
+}

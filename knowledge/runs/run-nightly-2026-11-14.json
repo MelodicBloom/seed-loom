@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-11-14",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-11-13T00:20:34Z",
+    "to": "2026-11-15T00:20:34Z"
+  },
+  "newObservations": [
+    "obs:nightly-2026-11-14-mit-human-in-loop-structural-design",
+    "obs:nightly-2026-11-14-github-enterprise-copilot-access",
+    "obs:nightly-2026-11-14-cop31-climate-culture-salon",
+    "obs:nightly-2026-11-14-mit-sleep-csf-aging",
+    "obs:nightly-2026-11-14-github-gemini-hydrogen"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [],
+  "newRelationships": [
+    "rel:nightly-2026-11-14-mit-human-in-loop-structural-design",
+    "rel:nightly-2026-11-14-github-enterprise-copilot-access",
+    "rel:nightly-2026-11-14-cop31-climate-culture-salon",
+    "rel:nightly-2026-11-14-mit-sleep-csf-aging",
+    "rel:nightly-2026-11-14-github-gemini-hydrogen"
+  ],
+  "contradictions": [],
+  "opportunities": [],
+  "proposedExperiments": [],
+  "repositoryActions": [
+    {
+      "status": "proposed",
+      "executed": false,
+      "description": "Read-only inspect merged Shader Gallery optical studies and GPU QA gates; draft branch-only fix after approval"
+    }
+  ],
+  "noChangeReceipts": [
+    "No evidence of paid consultancy procurement or approved Genesis.",
+    "Previous November 13 AI Scan and ARM32 retirement observations excluded as duplicates."
+  ],
+  "collectionFailures": [
+    "Full graph-wide semantic deduplication not established; previous nightly bundle and recent summaries inspected.",
+    "Source-body SHA-256 unavailable; official/research URLs and publication dates preserved.",
+    "Exact-source publication time within 48-hour window unavailable for November 13 sources.",
+    "GitHub search for qt314wink/shader-grammar and lithomemphis returned errors; Melodyfire repository lookup returned 404."
+  ]
+}

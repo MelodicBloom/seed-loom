@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-14-github-gemini-hydrogen",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-15T00:20:34Z",
+  "claim": "GitHub adds Gemini 4 Hydrogen to Copilot coding agents: GitHub announced general availability of Gemini 4 Hydrogen across Copilot coding surfaces, with gradual rollout and usage-based provider-list pricing.",
+  "verifiedFacts": [
+    "GitHub announced general availability of Gemini 4 Hydrogen across Copilot coding surfaces, with gradual rollout and usage-based provider-list pricing."
+  ],
+  "inference": [
+    "Agent workflows should pin model availability, cost, and acceptance tests instead of relying on a permanently available model label.",
+    "Consultancy implication: Reproducible multi-agent execution under changing model availability and pricing. Project disposition: CORE; no repository action executed."
+  ],
+  "significance": "Agent workflows should pin model availability, cost, and acceptance tests instead of relying on a permanently available model label.",
+  "confidence": 0.93,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-14-github-gemini-hydrogen"
+  ],
+  "actorRefs": [
+    "actor:github"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/shader-gallery"
+  ],
+  "assumptions": [
+    "Client procurement and independent comparative advantage unverified."
+  ],
+  "knownLimitations": [
+    "Vendor-reported capability claims have no independent comparison in this intake."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

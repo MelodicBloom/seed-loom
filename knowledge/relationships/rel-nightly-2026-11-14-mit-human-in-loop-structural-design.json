@@ -1,0 +1,12 @@
+{
+  "id": "rel:nightly-2026-11-14-mit-human-in-loop-structural-design",
+  "type": "Relationship",
+  "schemaVersion": "1.1.0",
+  "from": "obs:nightly-2026-11-14-mit-human-in-loop-structural-design",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nightly-2026-11-14-mit-human-in-loop-structural-design",
+  "confidence": 0.9,
+  "evidenceRefs": [
+    "source:nightly-2026-11-14-mit-human-in-loop-structural-design"
+  ]
+}

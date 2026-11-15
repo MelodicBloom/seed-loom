@@ -1,0 +1,38 @@
+{
+  "ackId": "ack:nightly-2026-11-14-collect",
+  "runId": "run:nightly-2026-11-14",
+  "stage": "collect",
+  "schemaVersion": "1.1.0",
+  "status": "passed",
+  "startedAt": "2026-11-15T00:20:34Z",
+  "completedAt": "2026-11-15T00:20:34Z",
+  "inputs": [
+    "https://news.mit.edu/index.php/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
+    "https://github.blog/changelog/2026-11-13-github-enterprise-server-support-in-the-github-copilot-app/",
+    "https://unfccc.int/cop31",
+    "https://news.mit.edu/index.php/2026/waste-clearing-waves-in-brain-during-sleep-are-impaired-in-older-adults-1113",
+    "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot/"
+  ],
+  "outputs": [
+    "five:source-backed-candidates"
+  ],
+  "checks": [
+    {
+      "name": "live contract and candidate-only boundary",
+      "result": "pass",
+      "detail": "Five dated sources inspected; no canonical ingest executed"
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Candidate-only; no accepted strategy, executed action, Genesis advancement or publication."
+    ]
+  },
+  "provenance": {
+    "producer": "ChatGPT nightly research intake",
+    "method": "Official/research source inspection and live repository authority review; canonical execution pending",
+    "inputHashes": []
+  }
+}

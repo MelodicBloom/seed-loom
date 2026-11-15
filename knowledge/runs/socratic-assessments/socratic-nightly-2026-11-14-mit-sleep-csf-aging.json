@@ -1,0 +1,91 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-14-mit-sleep-csf-aging",
+  "observationId": "obs:nightly-2026-11-14-mit-sleep-csf-aging",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "MIT researchers reported smaller sleep-related cerebrospinal-fluid waves in older adults alongside altered slow brain waves and vascular responses, published in Nature Aging.",
+      "evidenceRefs": [
+        "source:nightly-2026-11-14-mit-sleep-csf-aging"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "mit-sleep-researchers released, published or organized the documented event.",
+      "evidenceRefs": [
+        "source:nightly-2026-11-14-mit-sleep-csf-aging"
+      ],
+      "answerType": "verified"
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "Understanding age-related changes in physiological oscillations",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Teams or researchers addressing the documented problem may benefit.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Conventional peer-reviewed neuroscience explainers",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "An educational visualization of measured sleep/CSF coupling may be useful; therapeutic or commercial health claims are unsupported.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Assuming a documented announcement implies buyer demand or production readiness.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent replication or buyer comparisons find no material advantage.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Procurement evidence, independent tests, and longitudinal outcomes.",
+      "evidenceRefs": [],
+      "answerType": "unknown"
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Existing methods may be sufficient without new consultancy infrastructure.",
+      "evidenceRefs": [],
+      "answerType": "inferred"
+    }
+  ],
+  "dangerousAssumption": "Assuming a documented announcement implies buyer demand or production readiness.",
+  "falsifier": "Independent replication or buyer comparisons find no material advantage.",
+  "missingEvidence": [
+    "Client procurement",
+    "Independent replication or comparative outcomes"
+  ],
+  "alternativeExplanation": "Existing methods may be sufficient without new consultancy infrastructure.",
+  "disposition": "watch",
+  "confidence": 0.91
+}

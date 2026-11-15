@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-11-14-mit-human-in-loop-structural-design",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://news.mit.edu/index.php/2026/new-ai-copilot-helps-engineers-design-better-structures-1113",
+  "publisher": "MIT News",
+  "publishedAt": "2026-11-13T00:00:00Z",
+  "retrievedAt": "2026-11-15T00:20:34Z",
+  "sourceClass": "research",
+  "independenceKey": "mit-news",
+  "title": "MIT human-guided topology optimization improves structural manufacturability",
+  "contentHash": null,
+  "notes": "Dated official/research page inspected; full source-body digest unavailable; publishedAt uses date-only midnight placeholder, not asserted release time."
+}

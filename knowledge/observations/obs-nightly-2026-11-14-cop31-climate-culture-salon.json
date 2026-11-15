@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-14-cop31-climate-culture-salon",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-15T00:20:34Z",
+  "claim": "UNFCCC COP31 hosts climate adaptation storytelling salon: UN Climate Change listed a November 14 COP31 Entertainment and Culture for Climate Action salon featuring the FLOW Project, music and documentary material about water, health and climate justice.",
+  "verifiedFacts": [
+    "UN Climate Change listed a November 14 COP31 Entertainment and Culture for Climate Action salon featuring the FLOW Project, music and documentary material about water, health and climate justice."
+  ],
+  "inference": [
+    "Evidence-governed audiovisual storytelling could serve climate adaptation organizations, but no commissioning opportunity is established.",
+    "Consultancy implication: Communicating local adaptation needs without distorting affected communities' experiences. Project disposition: PRODUCTIZE; no repository action executed."
+  ],
+  "significance": "Evidence-governed audiovisual storytelling could serve climate adaptation organizations, but no commissioning opportunity is established.",
+  "confidence": 0.91,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-14-cop31-climate-culture-salon"
+  ],
+  "actorRefs": [
+    "actor:unfccc"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "Melodyfire/melodyfire"
+  ],
+  "assumptions": [
+    "Client procurement and independent comparative advantage unverified."
+  ],
+  "knownLimitations": [
+    "Event participation is not evidence of funding, procurement, or audience impact."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

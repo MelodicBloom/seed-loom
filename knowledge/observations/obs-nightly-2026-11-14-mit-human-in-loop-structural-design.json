@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-14-mit-human-in-loop-structural-design",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-15T00:20:34Z",
+  "claim": "MIT human-guided topology optimization improves structural manufacturability: MIT researchers reported a human-in-the-loop topology optimization study with 39% improvement in manufacturability and linear buckling load in demonstrations, adding about 15 seconds of design time.",
+  "verifiedFacts": [
+    "MIT researchers reported a human-in-the-loop topology optimization study with 39% improvement in manufacturability and linear buckling load in demonstrations, adding about 15 seconds of design time."
+  ],
+  "inference": [
+    "Human-editable, measured intermediate design decisions may be a stronger fabrication service differentiator than fully autonomous generation.",
+    "Consultancy implication: Opaque computational designs that are difficult to fabricate. Project disposition: INCUBATE; no repository action executed."
+  ],
+  "significance": "Human-editable, measured intermediate design decisions may be a stronger fabrication service differentiator than fully autonomous generation.",
+  "confidence": 0.9,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-14-mit-human-in-loop-structural-design"
+  ],
+  "actorRefs": [
+    "actor:mit-researchers"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "qt314wink/omni-loom"
+  ],
+  "assumptions": [
+    "Client procurement and independent comparative advantage unverified."
+  ],
+  "knownLimitations": [
+    "Research demonstration, not validated production construction or garment manufacture."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

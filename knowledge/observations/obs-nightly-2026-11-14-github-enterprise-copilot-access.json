@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-14-github-enterprise-copilot-access",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-15T00:20:34Z",
+  "claim": "GitHub Copilot app adds general-availability Enterprise Server integration: GitHub released generally available GHES account integration in Copilot app 1.2.0+, covering repository, issue and PR access; cloud sessions are unavailable for GHES.",
+  "verifiedFacts": [
+    "GitHub released generally available GHES account integration in Copilot app 1.2.0+, covering repository, issue and PR access; cloud sessions are unavailable for GHES."
+  ],
+  "inference": [
+    "Agent handoffs should specify execution locality and permissions rather than assume cloud agents can access enterprise repositories.",
+    "Consultancy implication: Disconnected enterprise development and agent context. Project disposition: CORE; no repository action executed."
+  ],
+  "significance": "Agent handoffs should specify execution locality and permissions rather than assume cloud agents can access enterprise repositories.",
+  "confidence": 0.94,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-14-github-enterprise-copilot-access"
+  ],
+  "actorRefs": [
+    "actor:github"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "MelodicBloom/.github"
+  ],
+  "assumptions": [
+    "Client procurement and independent comparative advantage unverified."
+  ],
+  "knownLimitations": [
+    "Release does not demonstrate uptake or external consulting demand."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

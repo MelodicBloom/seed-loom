@@ -1,0 +1,35 @@
+{
+  "id": "obs:nightly-2026-11-14-mit-sleep-csf-aging",
+  "type": "Observation",
+  "schemaVersion": "1.1.0",
+  "capturedAt": "2026-11-15T00:20:34Z",
+  "claim": "MIT finds reduced cerebrospinal-fluid waves during sleep in older adults: MIT researchers reported smaller sleep-related cerebrospinal-fluid waves in older adults alongside altered slow brain waves and vascular responses, published in Nature Aging.",
+  "verifiedFacts": [
+    "MIT researchers reported smaller sleep-related cerebrospinal-fluid waves in older adults alongside altered slow brain waves and vascular responses, published in Nature Aging."
+  ],
+  "inference": [
+    "An educational visualization of measured sleep/CSF coupling may be useful; therapeutic or commercial health claims are unsupported.",
+    "Consultancy implication: Understanding age-related changes in physiological oscillations. Project disposition: REFERENCE-ONLY; no repository action executed."
+  ],
+  "significance": "An educational visualization of measured sleep/CSF coupling may be useful; therapeutic or commercial health claims are unsupported.",
+  "confidence": 0.91,
+  "evidenceMaturity": "source-backed",
+  "sourceRefs": [
+    "source:nightly-2026-11-14-mit-sleep-csf-aging"
+  ],
+  "actorRefs": [
+    "actor:mit-sleep-researchers"
+  ],
+  "affectedRepositories": [
+    "qt314wink/shader-grammar",
+    "MelodicBloom/seed-loom"
+  ],
+  "assumptions": [
+    "Client procurement and independent comparative advantage unverified."
+  ],
+  "knownLimitations": [
+    "Observational findings do not establish a treatment, disease prediction, or efficacy of sound intervention in older adults."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

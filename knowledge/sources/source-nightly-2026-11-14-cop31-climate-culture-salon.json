@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-11-14-cop31-climate-culture-salon",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://unfccc.int/cop31",
+  "publisher": "UN Climate Change",
+  "publishedAt": "2026-11-14T00:00:00Z",
+  "retrievedAt": "2026-11-15T00:20:34Z",
+  "sourceClass": "official",
+  "independenceKey": "un-climate-change",
+  "title": "UNFCCC COP31 hosts climate adaptation storytelling salon",
+  "contentHash": null,
+  "notes": "Dated official/research page inspected; full source-body digest unavailable; publishedAt uses date-only midnight placeholder, not asserted release time."
+}

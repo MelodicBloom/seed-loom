@@ -1,0 +1,14 @@
+{
+  "id": "source:nightly-2026-11-14-mit-sleep-csf-aging",
+  "type": "Source",
+  "schemaVersion": "1.1.0",
+  "url": "https://news.mit.edu/index.php/2026/waste-clearing-waves-in-brain-during-sleep-are-impaired-in-older-adults-1113",
+  "publisher": "MIT News",
+  "publishedAt": "2026-11-13T00:00:00Z",
+  "retrievedAt": "2026-11-15T00:20:34Z",
+  "sourceClass": "research",
+  "independenceKey": "mit-news",
+  "title": "MIT finds reduced cerebrospinal-fluid waves during sleep in older adults",
+  "contentHash": null,
+  "notes": "Dated official/research page inspected; full source-body digest unavailable; publishedAt uses date-only midnight placeholder, not asserted release time."
+}
