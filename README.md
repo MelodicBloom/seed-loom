@@ -8,11 +8,11 @@
 
 **Current scope:** The walkthrough’s content and badges are illustrative. A separate image-intake path uses file metadata and human observations ([implementation](src/intake-entry.ts)).
 
-![Seed Loom Code-stage example showing a CSS variable, a motion value, a symbol attribute, and a token-to-translation trace.](tests/visual.spec.ts-snapshots/stage-code-desktop-linux.png)
+![Seed Loom evidence to token to code flow](docs/visual/seed-loom-flow.svg)
 
-*Code-stage screenshot reused from the repository’s visual-test baseline; not a fresh live-demo capture.*
+*Repository-owned deterministic documentation visual. It illustrates the workflow and is not presented as a fresh live-demo capture.*
 
-**Browser checked — October 28, 2026:** Homepage, Evidence → Tokens → Code switching, and opening image intake. File selection, token compilation, exports, live model analysis, and the other stage interactions were not checked in this pass.
+**Browser evidence — October 28, 2026:** Homepage, Evidence → Tokens → Code switching, and opening image intake were observed. File selection, token compilation, exports, live model analysis, and the other stage interactions were not checked in that pass. A November 6 desktop check also observed the live Tokens panel change; the deployed source revision was not established.
 
 **Seed Loom** is a lightweight repository for turning creative signals into structured systems: briefs, design-language extractions, essay engines, art-product pipelines, implementation specs, validation gates, and agent handoff instructions.
 
