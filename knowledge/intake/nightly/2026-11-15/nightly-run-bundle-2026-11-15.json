@@ -1,0 +1,1748 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly-2026-11-15",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-11-13T19:16:35-05:00",
+      "to": "2026-11-15T19:16:35-05:00"
+    },
+    "newObservations": [
+      "obs:nightly-2026-11-15-philippines-ai-council",
+      "obs:nightly-2026-11-15-oats-physical-agent-personas",
+      "obs:nightly-2026-11-15-canada-tfff-contribution",
+      "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+      "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [
+      "Human-supervised AI governance is becoming explicit at policy and product levels; accountability must remain separate from anthropomorphic persona design.",
+      "Ambient interfaces turn sensor readings into human-facing state cues; provenance, accessibility and trust calibration are core design constraints.",
+      "Recent materials research links non-equilibrium assembly and biomass-derived optical sensing; scientific visualization must distinguish measured data, model and artistic rendering."
+    ],
+    "newRelationships": [
+      "rel:nightly-2026-11-15-philippines-supported-by",
+      "rel:nightly-2026-11-15-philippines-applies-seed-loom",
+      "rel:nightly-2026-11-15-oats-supported-by",
+      "rel:nightly-2026-11-15-oats-may-enable-kozo",
+      "rel:nightly-2026-11-15-tfff-supported-by",
+      "rel:nightly-2026-11-15-tfff-may-enable-obsad",
+      "rel:nightly-2026-11-15-liquid-lens-supported-by",
+      "rel:nightly-2026-11-15-liquid-lens-applies-shader-grammar",
+      "rel:nightly-2026-11-15-goldenberry-supported-by",
+      "rel:nightly-2026-11-15-goldenberry-applies-obsad"
+    ],
+    "contradictions": [],
+    "opportunities": [
+      "Candidate service: jurisdiction-aware AI governance evidence mapping for government-facing suppliers and SMEs; legal interpretation excluded.",
+      "Candidate demo: one bounded ambient-object interface for plant care or workshop status, with deterministic sensor-to-state mapping, consent and uncertainty.",
+      "Candidate service: evidence-led scientific and regenerative-material storytelling that preserves microscopy, model parameters, optical measurements and lifecycle limitations."
+    ],
+    "proposedExperiments": [
+      "Ambient object-agent prototype: one object, one sensor, three deterministic states, opt-out and a seven-day comprehension/trust test comparing neutral labels with restrained avatar cues; no autonomous action.",
+      "Liquid-lens material visualization: attributed parameterized explainer of the published morphology sequence; distinguish measured observations from inferred interpolation; no claim of validated physical simulation."
+    ],
+    "repositoryActions": [
+      {
+        "actionId": "action:shader-gallery-crystal-tunnel-seam-qa",
+        "repository": "MelodicBloom/shader-gallery",
+        "status": "proposed",
+        "executed": false,
+        "allowedPaths": [
+          "crystal-tunnel/shaders/**",
+          "crystal-tunnel/tools/**",
+          "crystal-tunnel/HANDOFF.md",
+          "README.md"
+        ],
+        "description": "Resolve Crystal Tunnel v2 seam gap before merge: issue #54 reports wrap_step_ratio_to_mean 1.4249 against <=1.15; produce specified 1080p60 render and real-GPU evidence.",
+        "acceptanceCriteria": [
+          "2400 frames at 60 fps and 40.000 seconds",
+          "seam ratio <=1.15 and seam-check clip inspected",
+          "WebGL2 demo tested on real GPU with measured fps",
+          "human visual approval not claimed until reviewed"
+        ],
+        "stopConditions": [
+          "Do not merge PR #55",
+          "Do not alter unrelated shader studies",
+          "Stop if references or GPU runtime unavailable"
+        ]
+      },
+      {
+        "actionId": "action:obsad-evidence-to-client-artifact-v0",
+        "repository": "qt314wink/observation-ad-pipeline",
+        "status": "proposed",
+        "executed": false,
+        "allowedPaths": [
+          "src/obsad/**",
+          "tests/**",
+          "docs/handoffs/**"
+        ],
+        "description": "Use approved issue #6 as a bounded outward-facing demo compiling one governed evidence corpus into client brief, case-study page, presentation and optional motion artifact without a second source of truth.",
+        "acceptanceCriteria": [
+          "Every substantive claim traces to Seed Loom provenance",
+          "Unsupported claims are zero or explicitly disclosed",
+          "Editable parameters and reviewer corrections preserved",
+          "No new campaign architecture or provider contract without failing test"
+        ],
+        "stopConditions": [
+          "No provider execution or spend",
+          "Do not change task/master-contract authority",
+          "Stop if source authority or reviewer rubric missing"
+        ]
+      }
+    ],
+    "noChangeReceipts": [
+      "Seed Loom main before intake: e1044f60490a634d4ec8bddc43b4d6f9bc071547; nightly writes isolated to this branch.",
+      "Kozo Dreams main latest returned commit 52a5afd7001f485ae0d70d9c2255c6d1f65679a4 (1 Aug); PR #4 remains draft design-intent recovery.",
+      "Omni-Loom main latest returned commit 0bbd92798b3d24285dfa046cfaa020f458d6f362 (4 Aug); merged PR #7 proves deterministic simulated specimen output, not physical fabrication.",
+      "qt314wink/aether main latest returned commit 6a1998b43ad96d7e338c535c432e8f88bc49acaf (7 Jul); no open PRs/issues returned; AETHER observatory QA in shader-grammar remains distinct.",
+      "Design Standards main latest returned commit 1279b0c38cc1183d1c764d5ed7dbc2f91e6660b2 (12 Sep); no recent change identified."
+    ],
+    "collectionFailures": [
+      "Nature Communications full-text retrieval blocked by publisher identity provider; official metadata and abstract/search extract only.",
+      "Raw web source-body hashes unavailable; source contentHash null, no hash fabricated.",
+      "Owner-wide user:qt314wink PR/issue search returned no results; direct repository-scoped searches used for known repositories, so no complete owner-wide absence claim.",
+      "Combined commit-status endpoints returned no entries for Shader Gallery PR #55/#53 or Mochi UI PR #15; CI state remains unknown."
+    ]
+  },
+  "sources": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:ph-ai-eo131-pna-2026-11-14",
+      "type": "Source",
+      "url": "https://www.pna.gov.ph/article/pbbm-creates-national-council-to-oversee-ai-development-governance",
+      "publisher": "Philippine News Agency",
+      "publishedAt": "2026-11-14T08:39:00Z",
+      "retrievedAt": "2026-11-15T19:16:35-05:00",
+      "sourceClass": "press",
+      "independenceKey": "pna.gov.ph:article:2026-11-14:eo131",
+      "contentHash": null,
+      "title": "PBBM creates national council to oversee AI development, governance",
+      "lead": "PNA reports that President Marcos signed EO 131 on 12 November, establishing a National AI Council and national AI governance framework.",
+      "analystNote": "Source-body bytes were not available for hashing; contentHash intentionally null.",
+      "upstream": {},
+      "cites": [],
+      "citedBy": [
+        "obs:nightly-2026-11-15-philippines-ai-council"
+      ],
+      "notes": "Published 14 Nov 2026 at 16:39 GMT+8 (08:39 UTC), within the retrieval window; government newswire summary, not full EO text."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:oats-wired-2026-11-15",
+      "type": "Source",
+      "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+      "publisher": "WIRED",
+      "publishedAt": "2026-11-15T11:00:00Z",
+      "retrievedAt": "2026-11-15T19:16:35-05:00",
+      "sourceClass": "press",
+      "independenceKey": "wired.com:2026-11-15:oats",
+      "contentHash": null,
+      "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+      "lead": "WIRED describes OATs, a Carnegie Mellon research prototype mapping sensor states to E Ink object-agent avatars.",
+      "analystNote": "Source-body bytes were not available for hashing; contentHash intentionally null.",
+      "upstream": {},
+      "cites": [],
+      "citedBy": [
+        "obs:nightly-2026-11-15-oats-physical-agent-personas"
+      ],
+      "notes": "Published 15 Nov 2026 at 06:00 US Eastern (11:00 UTC); UIST presentation occurred in early November; not a commercial launch."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:canada-tfff-pmo-2026-11-15",
+      "type": "Source",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/15/prime-minister-carney-announces-canadas-landmark-contribution-protect",
+      "publisher": "Office of the Prime Minister of Canada",
+      "publishedAt": "",
+      "retrievedAt": "2026-11-15T19:16:35-05:00",
+      "sourceClass": "official",
+      "independenceKey": "pm.gc.ca:news-release:2026-11-15:tfff",
+      "contentHash": null,
+      "title": "Prime Minister Carney announces Canada’s landmark contribution to protect the world’s tropical forests",
+      "lead": "Canada announced up to C$560 million over four years for the Brazil- and Norway-co-led Tropical Forest Forever Facility.",
+      "analystNote": "Source-body bytes were not available for hashing; contentHash intentionally null.",
+      "upstream": {},
+      "cites": [],
+      "citedBy": [
+        "obs:nightly-2026-11-15-canada-tfff-contribution"
+      ],
+      "notes": "Official release dated 15 Nov 2026; exact time not stated."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:canada-tfff-backgrounder-2026-11-14",
+      "type": "Source",
+      "url": "https://www.international.gc.ca/news-nouvelles/2026/2026-11-14-tfff-fcft.aspx?lang=eng",
+      "publisher": "Global Affairs Canada",
+      "publishedAt": "",
+      "retrievedAt": "2026-11-15T19:16:35-05:00",
+      "sourceClass": "official",
+      "independenceKey": "international.gc.ca:backgrounder:2026-11-14:tfff",
+      "contentHash": null,
+      "title": "Backgrounder - Prime Minister Carney announces Canada’s landmark contribution to protect the world’s tropical forests",
+      "lead": "The contribution is a loan financed from Canada's existing international climate-finance envelope, intended for launch and initial capitalization.",
+      "analystNote": "Source-body bytes were not available for hashing; contentHash intentionally null.",
+      "upstream": {},
+      "cites": [],
+      "citedBy": [
+        "obs:nightly-2026-11-15-canada-tfff-contribution"
+      ],
+      "notes": "Date modified 14 Nov 2026; exact time not stated; clarifies this is not a new grant appropriation."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:nature-liquid-lens-2026-11-14",
+      "type": "Source",
+      "url": "https://www.nature.com/articles/s41467-026-79569-4",
+      "publisher": "Nature Communications",
+      "publishedAt": "",
+      "retrievedAt": "2026-11-15T19:16:35-05:00",
+      "sourceClass": "research",
+      "independenceKey": "nature.com:ncomms:doi:10.1038/s41467-026-79569-4",
+      "contentHash": null,
+      "title": "Emergent mesoscale nanoparticle patterns from a non-equilibrium liquid lens",
+      "lead": "A peer-reviewed article reports evaporation-driven nanoparticle assembly at a fluid-fluid interface and a sequence of tunable film morphologies.",
+      "analystNote": "Source-body bytes were not available for hashing; contentHash intentionally null.",
+      "upstream": {
+        "doi": "10.1038/s41467-026-79569-4"
+      },
+      "doi": "10.1038/s41467-026-79569-4",
+      "cites": [],
+      "citedBy": [
+        "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly"
+      ],
+      "notes": "Published 14 Nov 2026; exact time not stated; full-text open failed at publisher identity provider; official metadata and abstract extract reviewed."
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "source:goldenberry-cqd-scirep-2026-11-15",
+      "type": "Source",
+      "url": "https://www.nature.com/articles/s41598-026-73163-w",
+      "publisher": "Scientific Reports",
+      "publishedAt": "",
+      "retrievedAt": "2026-11-15T19:16:35-05:00",
+      "sourceClass": "research",
+      "independenceKey": "nature.com:scirep:doi:10.1038/s41598-026-73163-w",
+      "contentHash": null,
+      "title": "From waste to worth: Green valorization of food waste into a sustainable fluorimetric nanoprobe for chemical and bioanalytical sensing",
+      "lead": "Researchers report two-minute microwave conversion of overripe goldenberry waste into fluorescent carbon quantum dots for flunixin detection.",
+      "analystNote": "Source-body bytes were not available for hashing; contentHash intentionally null.",
+      "upstream": {
+        "doi": "10.1038/s41598-026-73163-w"
+      },
+      "doi": "10.1038/s41598-026-73163-w",
+      "cites": [],
+      "citedBy": [
+        "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots"
+      ],
+      "notes": "Published 15 Nov 2026; exact time not stated; full article text accessible; sustainability claims remain author-reported."
+    }
+  ],
+  "observations": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-11-15-philippines-ai-council",
+      "type": "Observation",
+      "capturedAt": "2026-11-15T19:16:35-05:00",
+      "claim": "The Philippines adopted a national AI governance framework and created a National Artificial Intelligence Council through Executive Order 131.",
+      "verifiedFacts": [
+        "PNA reported on 14 Nov 2026 at 16:39 GMT+8 that President Ferdinand R. Marcos Jr. signed EO 131 on 12 Nov.",
+        "The order establishes a National AI Council and adopts a national AI governance framework.",
+        "The Palace Press Officer described the aim as unified direction and responsible, safe and ethical AI development and use."
+      ],
+      "inference": [
+        "A national coordination point may make future government AI procurement, capability-building and assurance expectations easier to track; this report does not establish new private-sector licensing or penalties.",
+        "Consultancy implication: a jurisdiction-aware AI-governance evidence map could help government-facing suppliers and SMEs translate policy into traceable controls, without offering legal advice.",
+        "Project disposition: Seed Loom remains CORE as the provenance and governance spine; no new product or compliance claim is justified."
+      ],
+      "significance": "A concrete national governance instrument moves AI oversight from strategy language toward an accountable coordination structure, while implementation details remain to be verified.",
+      "confidence": 0.9,
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "law-or-policy",
+      "sourceRefs": [
+        "source:ph-ai-eo131-pna-2026-11-14"
+      ],
+      "actorRefs": [
+        "actor:president-ferdinand-marcos-jr",
+        "actor:philippines-palace-press-office",
+        "actor:philippines-national-ai-council"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "qt314wink/observation-ad-pipeline"
+      ],
+      "assumptions": [
+        "The Council and framework will be operationalized beyond signing and announcement.",
+        "Government agencies will publish implementing details that can be monitored."
+      ],
+      "knownLimitations": [
+        "PNA is a government newswire summary, not the full executive-order text.",
+        "Council membership, working-group plans, budget, monitoring platform and procurement guidance were not verified from the retrieved source.",
+        "No direct new private-sector obligation or penalty was established."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-11-15-oats-physical-agent-personas",
+      "type": "Observation",
+      "capturedAt": "2026-11-15T19:16:35-05:00",
+      "claim": "OATs demonstrates a physical-object agent persona prototype that maps sensor states to constrained E Ink avatar expressions.",
+      "verifiedFacts": [
+        "WIRED published a report on 15 Nov describing OATs (Object Agent Twins), created by Carnegie Mellon PhD student Daehwa Kim.",
+        "The prototype pairs E Ink displays with sensors for moisture, temperature, humidity, light, occupancy and motion; a web portal configures object identity and sensor selection.",
+        "WIRED reports a main hardware module cost around US$20, battery life of roughly three to four days (about one day with a sound sensor), and use cases including object-use awareness, equipment warnings and personal habit prompts.",
+        "The creator had not decided whether to commercialize kits; the project was presented at UIST in early November."
+      ],
+      "inference": [
+        "Ambient physical personas may make sensor states more legible than a phone dashboard, but behavioral efficacy and trust calibration remain unproven.",
+        "Consultancy implication: prototype one small ambient interface for plant/material care or workshop status, with sensor provenance, neutral-state alternatives, opt-out and no coercive emotional framing.",
+        "Project disposition: Kozo Dreams may INCUBATE one tactile/ambient interaction study; Omni-Loom remains a separate fabrication proof; do not merge identities or claim a product."
+      ],
+      "significance": "AI persona design is moving beyond chat surfaces into persistent physical objects, creating an interaction-design opportunity and a measurable anthropomorphism risk.",
+      "confidence": 0.88,
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "model-capability",
+      "sourceRefs": [
+        "source:oats-wired-2026-11-15"
+      ],
+      "actorRefs": [
+        "actor:daehwa-kim",
+        "actor:carnegie-mellon-future-interfaces-group",
+        "actor:wired"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/kozo-dreams",
+        "MelodicBloom/omni-loom",
+        "qt314wink/observation-ad-pipeline"
+      ],
+      "assumptions": [
+        "Users can understand sensor-derived states without over-attributing intent or emotion.",
+        "A low-cost single-object demonstrator could be built without creating a new platform."
+      ],
+      "knownLimitations": [
+        "Research prototype, not released product or commercial adoption signal.",
+        "Short reported battery life; no long-term behavior study, privacy assessment, accessibility audit or independent efficacy result.",
+        "Anthropomorphic expressions may increase attachment or trust beyond actual system capability."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-11-15-canada-tfff-contribution",
+      "type": "Observation",
+      "capturedAt": "2026-11-15T19:16:35-05:00",
+      "claim": "Canada announced an initial contribution of up to C$560 million over four years to help launch the Tropical Forest Forever Facility.",
+      "verifiedFacts": [
+        "The Prime Minister of Canada announced on 15 Nov an initial contribution of up to C$560 million over four years to the Brazil- and Norway-co-led TFFF.",
+        "Global Affairs Canada specifies that the contribution is a loan financed from Canada's existing international climate-finance envelope, intended for launch and initial capitalization.",
+        "The facility is designed for long-term performance-based conservation payments tied to verified forest results; at least 20% of those payments are intended for Indigenous Peoples and local communities.",
+        "The Canadian release states a target of US$35 billion in sponsor contributions to attract up to US$140 billion in additional private investment; these are targets, not achieved capitalization."
+      ],
+      "inference": [
+        "The new sovereign commitment strengthens the financing pathway but does not prove funds have been disbursed or conservation payments have begun.",
+        "Potential client problem: funders and forest-country partners need defensible monitoring, eligibility, community-allocation governance, project pipelines and transparent reporting.",
+        "Consultancy implication: evidence-to-client-artifact services could translate conservation-finance rules into traceable briefs and monitoring narratives; buyer demand remains unverified.",
+        "Project disposition: Seed Loom CORE; Observation Ad Pipeline PRODUCTIZE as a governed evidence-to-artifact workflow; Kozo Dreams CONSOLIDATE rather than build a separate climate platform."
+      ],
+      "significance": "A quantified sovereign contribution advances a results-based tropical-forest finance mechanism and increases the value of auditable environmental evidence and community-allocation reporting.",
+      "confidence": 0.93,
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "funding",
+      "sourceRefs": [
+        "source:canada-tfff-pmo-2026-11-15",
+        "source:canada-tfff-backgrounder-2026-11-14"
+      ],
+      "actorRefs": [
+        "actor:government-of-canada",
+        "actor:prime-minister-mark-carney",
+        "actor:government-of-brazil",
+        "actor:government-of-norway",
+        "actor:tropical-forest-forever-facility",
+        "actor:global-affairs-canada"
+      ],
+      "affectedRepositories": [
+        "The facility will complete its governance, capitalization and operating requirements.",
+        "Verified forest results and community allocations will be transparently measurable."
+      ],
+      "assumptions": [
+        "The C$560 million is an up-to contribution structured as a loan from existing climate-finance resources, not a grant or immediate transfer.",
+        "The 20% minimum applies to conservation payments, not 20% of Canada's contribution.",
+        "Operating launch, disbursements, forest outcomes and community-level payments are not established by the announcement."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+      "type": "Observation",
+      "capturedAt": "2026-11-15T19:16:35-05:00",
+      "claim": "A 14 November Nature Communications study reports controllable nanoparticle film morphologies emerging from evaporation of a liquid lens at a fluid interface.",
+      "verifiedFacts": [
+        "Nature Communications lists the open-access article as published on 14 Nov 2026.",
+        "The authors report a sequence of continuous monolayers, perforated films, ribbon networks and isolated tiles during evaporation of a lens-shaped colloidal suspension at a fluid-fluid interface.",
+        "The study combines in situ confocal microscopy, ex situ electron microscopy and coupled cross-scale simulations linking macroscopic transport, nanoscale rearrangement and mesoscale phase separation.",
+        "The authors report concentration and solvent volatility can tune the system's trajectory through the observed morphologies."
+      ],
+      "inference": [
+        "This is a useful reference for parameterized material-pattern visualization, but a shader or motion study must not claim to reproduce colloid physics without a validated model.",
+        "Consultancy implication: materials teams may need traceable multi-scale visualization that distinguishes measured morphology, simulation and artistic rendering.",
+        "Project disposition: Shader Grammar REFERENCE-ONLY for the mechanism until validated data/model access; Shader Gallery may PRODUCTIZE only an explicitly attributed explainer."
+      ],
+      "significance": "The paper presents a cross-scale mechanism for non-equilibrium material formation, relevant to materials design and scientific visualization.",
+      "confidence": 0.9,
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "peer-reviewed-research",
+      "sourceRefs": [
+        "source:nature-liquid-lens-2026-11-14"
+      ],
+      "actorRefs": [
+        "actor:nature-communications-authors",
+        "actor:cornell-university"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/shader-grammar",
+        "MelodicBloom/shader-gallery",
+        "MelodicBloom/seed-loom"
+      ],
+      "assumptions": [
+        "The morphology sequence is robust across the parameter ranges studied.",
+        "Published images and parameters can be represented without implying an unvalidated simulation."
+      ],
+      "knownLimitations": [
+        "Full-text opening was blocked by publisher identity provider; official metadata and abstract/search extract only.",
+        "No independent replication, industrial scale-up, target material property or device performance was verified.",
+        "Generalization beyond this colloidal system and interface conditions is unestablished."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots",
+      "type": "Observation",
+      "capturedAt": "2026-11-15T19:16:35-05:00",
+      "claim": "A 15 November Scientific Reports study converts overripe goldenberry waste into fluorescent carbon quantum dots for a flunixin assay.",
+      "verifiedFacts": [
+        "Scientific Reports published the open-access study on 15 Nov 2026.",
+        "The authors used overripe goldenberry fruit as a renewable carbon source and report a one-pot microwave-assisted preparation lasting two minutes.",
+        "The resulting multi-doped carbon quantum dots show blue fluorescence with reported excitation/emission wavelengths of 340/420 nm.",
+        "The authors tested fluorescence-quenching detection of veterinary NSAID flunixin in veterinary formulations, food samples and environmental-water matrices."
+      ],
+      "inference": [
+        "This is a concrete biomass-to-functional-material example, but it does not establish an industrially scalable circular-economy process.",
+        "Consultancy implication: evidence-led materials storytelling could explain feedstock, synthesis, optical response and assay boundaries without overstating sustainability.",
+        "Project disposition: Shader Grammar and Shader Gallery REFERENCE-ONLY for this chemistry; Observation Ad Pipeline PRODUCTIZE the evidence-to-artifact method, not a sensor product."
+      ],
+      "significance": "A new peer-reviewed example connects agricultural waste valorization, optical materials and analytical sensing in a laboratory workflow.",
+      "confidence": 0.89,
+      "evidenceMaturity": "candidate",
+      "evidenceClass": "peer-reviewed-research",
+      "sourceRefs": [
+        "source:goldenberry-cqd-scirep-2026-11-15"
+      ],
+      "actorRefs": [
+        "actor:maha-mohammad-abdel-monem",
+        "actor:manal-eid",
+        "actor:fatma-ahmed-aly",
+        "actor:nora-a-abdallah",
+        "actor:scientific-reports"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/shader-grammar",
+        "MelodicBloom/shader-gallery",
+        "qt314wink/observation-ad-pipeline",
+        "MelodicBloom/seed-loom"
+      ],
+      "assumptions": [
+        "Assay performance can be reproduced across feedstock batches and laboratories.",
+        "Reported sustainability metrics capture relevant upstream and downstream environmental costs."
+      ],
+      "knownLimitations": [
+        "Single laboratory study; industrial-scale economics, feedstock variability, independent replication and regulatory adoption not established.",
+        "Authors' green characterization is not equivalent to an independently verified lifecycle assessment.",
+        "No clinical or human diagnostic use is claimed."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-11-15-philippines-supported-by",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-11-15-philippines-ai-council",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:ph-ai-eo131-pna-2026-11-14",
+      "confidence": 0.96,
+      "evidenceRefs": [
+        "source:ph-ai-eo131-pna-2026-11-14"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-11-15-philippines-applies-seed-loom",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-11-15-philippines-ai-council",
+      "predicate": "APPLIES_TO",
+      "to": "repo:MelodicBloom/seed-loom",
+      "confidence": 0.78,
+      "evidenceRefs": [
+        "source:ph-ai-eo131-pna-2026-11-14"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-11-15-oats-supported-by",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-11-15-oats-physical-agent-personas",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:oats-wired-2026-11-15",
+      "confidence": 0.94,
+      "evidenceRefs": [
+        "source:oats-wired-2026-11-15"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-11-15-oats-may-enable-kozo",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-11-15-oats-physical-agent-personas",
+      "predicate": "MAY_ENABLE",
+      "to": "repo:MelodicBloom/kozo-dreams",
+      "confidence": 0.68,
+      "evidenceRefs": [
+        "source:oats-wired-2026-11-15"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-11-15-tfff-supported-by",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-11-15-canada-tfff-contribution",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:canada-tfff-pmo-2026-11-15",
+      "confidence": 0.97,
+      "evidenceRefs": [
+        "source:canada-tfff-pmo-2026-11-15",
+        "source:canada-tfff-backgrounder-2026-11-14"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-11-15-tfff-may-enable-obsad",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-11-15-canada-tfff-contribution",
+      "predicate": "MAY_ENABLE",
+      "to": "repo:qt314wink/observation-ad-pipeline",
+      "confidence": 0.72,
+      "evidenceRefs": [
+        "source:canada-tfff-pmo-2026-11-15",
+        "source:canada-tfff-backgrounder-2026-11-14"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-11-15-liquid-lens-supported-by",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:nature-liquid-lens-2026-11-14",
+      "confidence": 0.95,
+      "evidenceRefs": [
+        "source:nature-liquid-lens-2026-11-14"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-11-15-liquid-lens-applies-shader-grammar",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+      "predicate": "APPLIES_TO",
+      "to": "repo:MelodicBloom/shader-grammar",
+      "confidence": 0.75,
+      "evidenceRefs": [
+        "source:nature-liquid-lens-2026-11-14"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-11-15-goldenberry-supported-by",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:goldenberry-cqd-scirep-2026-11-15",
+      "confidence": 0.96,
+      "evidenceRefs": [
+        "source:goldenberry-cqd-scirep-2026-11-15"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly-2026-11-15-goldenberry-applies-obsad",
+      "type": "Relationship",
+      "from": "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots",
+      "predicate": "APPLIES_TO",
+      "to": "repo:qt314wink/observation-ad-pipeline",
+      "confidence": 0.73,
+      "evidenceRefs": [
+        "source:goldenberry-cqd-scirep-2026-11-15"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-11-15-collect",
+      "runId": "run:nightly-2026-11-15",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-11-15T19:16:35-05:00",
+      "completedAt": "2026-11-15T19:16:35-05:00",
+      "inputs": [
+        "48-hour retrieval window"
+      ],
+      "outputs": [
+        "source:ph-ai-eo131-pna-2026-11-14",
+        "source:oats-wired-2026-11-15",
+        "source:canada-tfff-pmo-2026-11-15",
+        "source:canada-tfff-backgrounder-2026-11-14",
+        "source:nature-liquid-lens-2026-11-14",
+        "source:goldenberry-cqd-scirep-2026-11-15"
+      ],
+      "checks": [
+        {
+          "name": "five distinct candidates",
+          "result": "pass",
+          "detail": "Selected five claims and deduplicated against 13 and 14 Nov bundles."
+        },
+        {
+          "name": "publication dates",
+          "result": "pass",
+          "detail": "PNA and WIRED timestamps explicit; three publishers provide date only."
+        },
+        {
+          "name": "raw source hashes",
+          "result": "not-applicable",
+          "detail": "Raw web bytes unavailable; contentHash remains null."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Missing source-body hashes block acceptance and promotion, not candidate capture."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly research and repository sensing run",
+        "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-11-15-vet",
+      "runId": "run:nightly-2026-11-15",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-11-15T19:16:35-05:00",
+      "completedAt": "2026-11-15T19:16:35-05:00",
+      "inputs": [
+        "source:ph-ai-eo131-pna-2026-11-14",
+        "source:oats-wired-2026-11-15",
+        "source:canada-tfff-pmo-2026-11-15",
+        "source:canada-tfff-backgrounder-2026-11-14",
+        "source:nature-liquid-lens-2026-11-14",
+        "source:goldenberry-cqd-scirep-2026-11-15"
+      ],
+      "outputs": [
+        "obs:nightly-2026-11-15-philippines-ai-council",
+        "obs:nightly-2026-11-15-oats-physical-agent-personas",
+        "obs:nightly-2026-11-15-canada-tfff-contribution",
+        "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+        "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots"
+      ],
+      "checks": [
+        {
+          "name": "source class",
+          "result": "pass",
+          "detail": "Official, research and press sources classified."
+        },
+        {
+          "name": "deduplication",
+          "result": "pass",
+          "detail": "No repeated observation claim found in the two previous delivered bundles."
+        },
+        {
+          "name": "actor behavior and limitations",
+          "result": "pass",
+          "detail": "Policy signature, prototype testing, financing pledge and research publication distinguished."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Nature Communications full-text retrieval blocked; abstract and official metadata only.",
+          "No buyer, procurement or commercial adoption inferred."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly research and repository sensing run",
+        "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-11-15-normalize",
+      "runId": "run:nightly-2026-11-15",
+      "stage": "normalize",
+      "status": "passed",
+      "startedAt": "2026-11-15T19:16:35-05:00",
+      "completedAt": "2026-11-15T19:16:35-05:00",
+      "inputs": [
+        "Live Seed Loom schemas and scripts at main HEAD e1044f60490a634d4ec8bddc43b4d6f9bc071547"
+      ],
+      "outputs": [
+        "1.1.0 schema-shaped bundle",
+        "closed observation objects",
+        "13 stage acknowledgements",
+        "5 Socratic assessments"
+      ],
+      "checks": [
+        {
+          "name": "live schema fields",
+          "result": "pass",
+          "detail": "Run, source, observation, relationship, stage-ack and Socratic contracts read from current main."
+        },
+        {
+          "name": "closed observation object",
+          "result": "pass",
+          "detail": "Advisory fields are outside canonical observations and mirrored into inference."
+        },
+        {
+          "name": "five observations and 13 stages",
+          "result": "pass",
+          "detail": "Exact counts constructed."
+        },
+        {
+          "name": "canonical AJV dry-run",
+          "result": "not-applicable",
+          "detail": "Authoritative dry-run runs in the push-triggered GitHub Actions bridge before durable writes."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Manual live-schema mapping; canonical AJV dry-run is still required in GitHub Actions."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly research and repository sensing run",
+        "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+        "inputHashes": [
+          "git-blob-sha1:run.schema.json:984dae274d7fca05812874e5a1c338e3972c1c23",
+          "git-blob-sha1:source.schema.json:149024f2390b0e7c0be43926ad97ad35e272d7da",
+          "git-blob-sha1:observation.schema.json:4a651b42c7c2a3d927e812e552ec413424287252",
+          "git-blob-sha1:relationship.schema.json:638ef7b4276a07f252f60ac24b634b0a2022d14d",
+          "git-blob-sha1:stage-ack.schema.json:794b7ec9413d8d7b9c8aa394ab76d3449ecd4418",
+          "git-blob-sha1:socratic-assessment.schema.json:20d58193d6277a783f60c469efbbdf8ea862e172",
+          "git-blob-sha1:ingest-nightly-run.mjs:aa57bc785339d88b00288271ad035d6c2fd3eb4f",
+          "git-blob-sha1:ingest-nightly-intake.mjs:41a908b3faa243cf6ba8968d31bda04251bfaa22",
+          "git-blob-sha1:nightly-knowledge-ingest.yml:a6efe297d521437b0a4cfdbf33122b457723302a"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-11-15-observe",
+      "runId": "run:nightly-2026-11-15",
+      "stage": "observe",
+      "status": "passed",
+      "startedAt": "2026-11-15T19:16:35-05:00",
+      "completedAt": "2026-11-15T19:16:35-05:00",
+      "inputs": [
+        "Five vetted source records"
+      ],
+      "outputs": [
+        "obs:nightly-2026-11-15-philippines-ai-council",
+        "obs:nightly-2026-11-15-oats-physical-agent-personas",
+        "obs:nightly-2026-11-15-canada-tfff-contribution",
+        "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+        "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots"
+      ],
+      "checks": [
+        {
+          "name": "candidate observations",
+          "result": "pass",
+          "detail": "All five include facts, inference, significance, confidence, maturity, refs, assumptions, limitations and candidate state."
+        },
+        {
+          "name": "advisory sidecar",
+          "result": "pass",
+          "detail": "Consultancy and disposition implications preserved at bundle top level and mirrored into inference."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No observation accepted, implemented or measured."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly research and repository sensing run",
+        "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-11-15-inquire",
+      "runId": "run:nightly-2026-11-15",
+      "stage": "inquire",
+      "status": "passed",
+      "startedAt": "2026-11-15T19:16:35-05:00",
+      "completedAt": "2026-11-15T19:16:35-05:00",
+      "inputs": [
+        "obs:nightly-2026-11-15-philippines-ai-council",
+        "obs:nightly-2026-11-15-oats-physical-agent-personas",
+        "obs:nightly-2026-11-15-canada-tfff-contribution",
+        "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+        "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots"
+      ],
+      "outputs": [
+        "socratic:nightly-2026-11-15-philippines-ai-council",
+        "socratic:nightly-2026-11-15-oats-physical-persona",
+        "socratic:nightly-2026-11-15-canada-tfff",
+        "socratic:nightly-2026-11-15-liquid-lens",
+        "socratic:nightly-2026-11-15-goldenberry-cqd"
+      ],
+      "checks": [
+        {
+          "name": "ten Socratic questions per signal",
+          "result": "pass",
+          "detail": "All five have ten typed answers."
+        },
+        {
+          "name": "falsifier and unknowns",
+          "result": "pass",
+          "detail": "Dangerous assumptions, falsifiers, missing evidence and alternatives recorded."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Assessments are candidate reasoning aids, not independent peer review."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly research and repository sensing run",
+        "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-11-15-interpret",
+      "runId": "run:nightly-2026-11-15",
+      "stage": "interpret",
+      "status": "passed",
+      "startedAt": "2026-11-15T19:16:35-05:00",
+      "completedAt": "2026-11-15T19:16:35-05:00",
+      "inputs": [
+        "obs:nightly-2026-11-15-philippines-ai-council",
+        "obs:nightly-2026-11-15-oats-physical-agent-personas",
+        "obs:nightly-2026-11-15-canada-tfff-contribution",
+        "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+        "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots"
+      ],
+      "outputs": [
+        "verified facts separated from inference"
+      ],
+      "checks": [
+        {
+          "name": "fact/inference separation",
+          "result": "pass",
+          "detail": "Commercial and technical transfer remains explicitly inferred."
+        },
+        {
+          "name": "confidence calibration",
+          "result": "pass",
+          "detail": "Confidence applies to source-backed claims, not market demand or product success."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No legal, medical, investment or environmental impact certification."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly research and repository sensing run",
+        "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-11-15-relate",
+      "runId": "run:nightly-2026-11-15",
+      "stage": "relate",
+      "status": "passed",
+      "startedAt": "2026-11-15T19:16:35-05:00",
+      "completedAt": "2026-11-15T19:16:35-05:00",
+      "inputs": [
+        "obs:nightly-2026-11-15-philippines-ai-council",
+        "obs:nightly-2026-11-15-oats-physical-agent-personas",
+        "obs:nightly-2026-11-15-canada-tfff-contribution",
+        "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+        "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots"
+      ],
+      "outputs": [
+        "rel:nightly-2026-11-15-philippines-supported-by",
+        "rel:nightly-2026-11-15-philippines-applies-seed-loom",
+        "rel:nightly-2026-11-15-oats-supported-by",
+        "rel:nightly-2026-11-15-oats-may-enable-kozo",
+        "rel:nightly-2026-11-15-tfff-supported-by",
+        "rel:nightly-2026-11-15-tfff-may-enable-obsad",
+        "rel:nightly-2026-11-15-liquid-lens-supported-by",
+        "rel:nightly-2026-11-15-liquid-lens-applies-shader-grammar",
+        "rel:nightly-2026-11-15-goldenberry-supported-by",
+        "rel:nightly-2026-11-15-goldenberry-applies-obsad"
+      ],
+      "checks": [
+        {
+          "name": "relationship manifest",
+          "result": "pass",
+          "detail": "Ten relationship IDs match run.newRelationships."
+        },
+        {
+          "name": "evidence references",
+          "result": "pass",
+          "detail": "Each relationship has one or more source IDs."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Project links are advisory, not repository mutation authorization."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly research and repository sensing run",
+        "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-11-15-pattern",
+      "runId": "run:nightly-2026-11-15",
+      "stage": "pattern",
+      "status": "no-change",
+      "startedAt": "2026-11-15T19:16:35-05:00",
+      "completedAt": "2026-11-15T19:16:35-05:00",
+      "inputs": [
+        "obs:nightly-2026-11-15-philippines-ai-council",
+        "obs:nightly-2026-11-15-oats-physical-agent-personas",
+        "obs:nightly-2026-11-15-canada-tfff-contribution",
+        "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+        "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots"
+      ],
+      "outputs": [
+        "candidatePatterns retained in run"
+      ],
+      "checks": [
+        {
+          "name": "thesis change",
+          "result": "not-applicable",
+          "detail": "Existing human-control, provenance and cross-scale evidence thesis reinforced; no accepted pattern promoted."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate patterns remain provisional."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly research and repository sensing run",
+        "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-11-15-opportunity",
+      "runId": "run:nightly-2026-11-15",
+      "stage": "opportunity",
+      "status": "passed",
+      "startedAt": "2026-11-15T19:16:35-05:00",
+      "completedAt": "2026-11-15T19:16:35-05:00",
+      "inputs": [
+        "Candidate observations",
+        "candidatePatterns"
+      ],
+      "outputs": [
+        "three candidate consultancy opportunities"
+      ],
+      "checks": [
+        {
+          "name": "buyer evidence",
+          "result": "not-applicable",
+          "detail": "No direct buyer procurement or paid engagement verified."
+        },
+        {
+          "name": "bounded opportunities",
+          "result": "pass",
+          "detail": "Opportunities include explicit client problem and evidence limits."
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "No pricing, demand forecast or revenue claim."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly research and repository sensing run",
+        "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-11-15-strategy",
+      "runId": "run:nightly-2026-11-15",
+      "stage": "strategy",
+      "status": "deferred",
+      "startedAt": "2026-11-15T19:16:35-05:00",
+      "completedAt": "2026-11-15T19:16:35-05:00",
+      "inputs": [
+        "Candidate opportunities"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "strategy acceptance",
+          "result": "not-applicable",
+          "detail": "No strategy promoted without human approval and buyer evidence."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Jennipher approval required; no canonical Strategy record created."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly research and repository sensing run",
+        "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-11-15-experiment",
+      "runId": "run:nightly-2026-11-15",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-11-15T19:16:35-05:00",
+      "completedAt": "2026-11-15T19:16:35-05:00",
+      "inputs": [
+        "Two proposed experiments"
+      ],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "experiment execution",
+          "result": "not-applicable",
+          "detail": "No experiment executed, purchased or scheduled."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Approval required for execution, runtime access, costs or outside participation."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly research and repository sensing run",
+        "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-11-15-genesis",
+      "runId": "run:nightly-2026-11-15",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-11-15T19:16:35-05:00",
+      "completedAt": "2026-11-15T19:16:35-05:00",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "genesis transition",
+          "result": "not-applicable",
+          "detail": "Genesis explicitly deferred; allowedTransition false."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "No Genesis advancement, acceptance or promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly research and repository sensing run",
+        "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+        "inputHashes": []
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly-2026-11-15-publish",
+      "runId": "run:nightly-2026-11-15",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-11-15T19:16:35-05:00",
+      "completedAt": "2026-11-15T19:16:35-05:00",
+      "inputs": [],
+      "outputs": [],
+      "checks": [
+        {
+          "name": "external publication",
+          "result": "not-applicable",
+          "detail": "No public release, disclosure or deployment."
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Delivered bundle is a private candidate intake artifact only."
+        ]
+      },
+      "provenance": {
+        "producer": "Nightly research and repository sensing run",
+        "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+        "inputHashes": []
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:nightly-2026-11-15-philippines-ai-council",
+      "observationId": "obs:nightly-2026-11-15-philippines-ai-council",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "EO 131 was signed on 12 Nov and PNA reported the National AI Council on 14 Nov.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:ph-ai-eo131-pna-2026-11-14"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "The President signed an executive order establishing a national coordination body; the Palace Press Officer announced it.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:ph-ai-eo131-pna-2026-11-14"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "The stated objective is unified direction and responsible, safe and ethical AI use; actual coordination failures are not quantified.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:ph-ai-eo131-pna-2026-11-14"
+          ]
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Workers, businesses, communities and the public are named as intended beneficiaries; realized benefits are unknown.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:ph-ai-eo131-pna-2026-11-14"
+          ]
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Existing agency-by-agency coordination and the country's earlier AI strategy are plausible substitutes, but their performance is not established here.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:ph-ai-eo131-pna-2026-11-14"
+          ]
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "A national framework and inter-agency Council provide an administrative coordination mechanism.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:ph-ai-eo131-pna-2026-11-14"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Assuming the order automatically creates new private-sector licensing, penalties or compliance duties without reading the full order and implementing instruments.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:ph-ai-eo131-pna-2026-11-14"
+          ]
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Failure to operationalize the Council or produce observable cross-agency coordination would weaken the claim of implementation change.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:ph-ai-eo131-pna-2026-11-14"
+          ]
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Full order text, detailed membership, working-group plans, budget, monitoring platform, procurement guidance and implementation milestones.",
+          "answerType": "unknown",
+          "evidenceRefs": [
+            "source:ph-ai-eo131-pna-2026-11-14"
+          ]
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "The order may primarily formalize executive coordination rather than impose a new substantive regulatory regime on companies.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:ph-ai-eo131-pna-2026-11-14"
+          ]
+        }
+      ],
+      "dangerousAssumption": "Do not assume direct private-sector obligations or enforcement powers from the announcement.",
+      "falsifier": "Failure to operationalize the Council or produce implementation outputs would weaken the interpretation.",
+      "missingEvidence": [
+        "Full EO text",
+        "Implementing guidelines",
+        "Council membership and budget",
+        "Working-group deliverables and monitoring platform"
+      ],
+      "alternativeExplanation": "Administrative coordination of existing policy may explain the announcement better than a new commercial compliance regime.",
+      "disposition": "watch",
+      "confidence": 0.9
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-15-oats-physical-persona",
+      "observationId": "obs:nightly-2026-11-15-oats-physical-agent-personas",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "WIRED published a 15 Nov report describing OATs, a sensor-linked E Ink object-agent prototype; the project was presented at UIST earlier in November.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:oats-wired-2026-11-15"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "The researcher built and distributed prototypes, gathered user feedback and demonstrated them at a symposium; commercial release is undecided.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:oats-wired-2026-11-15"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "The project targets legibility of object state and ambient prompts for care, equipment awareness and habits; efficacy is not proven.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:oats-wired-2026-11-15"
+          ]
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "People who need low-attention feedback about plants, equipment or habits could benefit if cues are understandable and non-coercive.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:oats-wired-2026-11-15"
+          ]
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Phone notifications, timers, smart-home dashboards, indicator lights and sensor alarms can provide similar signals.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:oats-wired-2026-11-15"
+          ]
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Sensor readings map to constrained avatar states on a small E Ink screen configured through a web portal.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:oats-wired-2026-11-15"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Anthropomorphic cues improve behavior without increasing misplaced trust, guilt, privacy exposure or dependence.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:oats-wired-2026-11-15"
+          ]
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Longitudinal tests showing no sustained behavior change, poor comprehension or increased over-trust would undermine the opportunity.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:oats-wired-2026-11-15"
+          ]
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Study sample size and duration, privacy model, accessibility, battery improvement, long-term outcomes and independent replication.",
+          "answerType": "unknown",
+          "evidenceRefs": [
+            "source:oats-wired-2026-11-15"
+          ]
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "Novelty and cuteness may explain short-term engagement better than agent intelligence or durable behavior change.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:oats-wired-2026-11-15"
+          ]
+        }
+      ],
+      "dangerousAssumption": "Anthropomorphic expression improves behavior without manipulation, over-trust or privacy cost.",
+      "falsifier": "Longitudinal tests show only novelty effects, poor comprehension or harmful trust calibration.",
+      "missingEvidence": [
+        "Longitudinal study",
+        "Privacy and accessibility review",
+        "Sustained behavior outcomes",
+        "Battery and maintenance data"
+      ],
+      "alternativeExplanation": "Novelty and cuteness may explain attention without agentic autonomy.",
+      "disposition": "experiment",
+      "confidence": 0.88
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-15-canada-tfff",
+      "observationId": "obs:nightly-2026-11-15-canada-tfff-contribution",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Canada announced up to C$560 million over four years for the TFFF on 15 Nov.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:canada-tfff-pmo-2026-11-15",
+            "source:canada-tfff-backgrounder-2026-11-14"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "The Canadian government made a new sovereign financing commitment after a meeting between Prime Ministers Carney and Lula.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:canada-tfff-pmo-2026-11-15"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "The facility is designed to mobilize long-term finance for verified tropical-forest conservation and community benefits; the funding gap is not quantified here.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:canada-tfff-pmo-2026-11-15",
+            "source:canada-tfff-backgrounder-2026-11-14"
+          ]
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Eligible tropical-forest countries and Indigenous/local communities are intended beneficiaries; at least 20% of conservation payments are directed to the latter.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:canada-tfff-pmo-2026-11-15",
+            "source:canada-tfff-backgrounder-2026-11-14"
+          ]
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Project grants, bilateral aid, REDD+ and other climate/nature finance mechanisms can fund conservation, though their structures differ.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:canada-tfff-backgrounder-2026-11-14"
+          ]
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Canada's contribution is a loan from its existing climate-finance envelope; investment returns are intended to fund performance-based conservation payments.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:canada-tfff-backgrounder-2026-11-14"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "Treating the headline as a grant already disbursed or as proof that forest protection and community payments have occurred.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:canada-tfff-pmo-2026-11-15",
+            "source:canada-tfff-backgrounder-2026-11-14"
+          ]
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Failure to reach capitalization and operating requirements, or inability to verify forest outcomes and community allocations, would weaken the mechanism.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:canada-tfff-pmo-2026-11-15",
+            "source:canada-tfff-backgrounder-2026-11-14"
+          ]
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Loan terms and disbursement schedule, final capitalization, operating rules, eligibility, independent forest monitoring and community payment records.",
+          "answerType": "unknown",
+          "evidenceRefs": [
+            "source:canada-tfff-pmo-2026-11-15",
+            "source:canada-tfff-backgrounder-2026-11-14"
+          ]
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "The announcement may be a financing commitment within an existing climate envelope rather than additional grant money or demonstrated impact.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:canada-tfff-backgrounder-2026-11-14"
+          ]
+        }
+      ],
+      "dangerousAssumption": "The contribution is new grant money already available for local projects and immediately producing forest outcomes.",
+      "falsifier": "The pledge is not disbursed, the facility cannot mobilize private capital, or conservation payments and community allocations are not verified.",
+      "missingEvidence": [
+        "Loan terms and disbursement",
+        "Capitalization and operating rules",
+        "Eligibility and forest verification",
+        "Community-level payment records"
+      ],
+      "alternativeExplanation": "This may be an existing climate-finance loan routed into a new facility rather than additional grant funding.",
+      "disposition": "strategy-candidate",
+      "confidence": 0.93
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-15-liquid-lens",
+      "observationId": "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Nature Communications published a 14 Nov study describing a controllable sequence of nanoparticle film morphologies from an evaporating liquid lens.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nature-liquid-lens-2026-11-14"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "The research team used in situ and ex situ microscopy plus coupled simulations to explain and tune the sequence.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nature-liquid-lens-2026-11-14"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "The paper addresses difficulty predicting complex non-equilibrium nanoparticle assembly, often treated as irreproducible.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nature-liquid-lens-2026-11-14"
+          ]
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Materials researchers and engineers seeking controlled assembly or explanatory models may benefit; buyers are unknown.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nature-liquid-lens-2026-11-14"
+          ]
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "Equilibrium self-assembly, templating and other deposition or coating processes can be alternatives depending on target material.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nature-liquid-lens-2026-11-14"
+          ]
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Evaporation-driven transport, particle rearrangement and kinetic arrest interact across scales; concentration and solvent volatility tune the sequence.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:nature-liquid-lens-2026-11-14"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "The observed patterns generalize to industrial production or produce useful optical/electrical properties without further measurement.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nature-liquid-lens-2026-11-14"
+          ]
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent replication fails to reproduce regimes or sensitivity prevents practical control.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nature-liquid-lens-2026-11-14"
+          ]
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent replication, scale-up yield, defect tolerance, long-term stability and measured device/material performance.",
+          "answerType": "unknown",
+          "evidenceRefs": [
+            "source:nature-liquid-lens-2026-11-14"
+          ]
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "The results may be specific to the chosen colloid, interface and evaporation conditions rather than a general self-assembly recipe.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:nature-liquid-lens-2026-11-14"
+          ]
+        }
+      ],
+      "dangerousAssumption": "A controllable laboratory morphology sequence transfers directly to production-scale functional materials.",
+      "falsifier": "Independent teams cannot reproduce the regimes or no target material property can be controlled at useful scale.",
+      "missingEvidence": [
+        "Full-text methods and raw image data",
+        "Parameter ranges",
+        "Replication",
+        "Scale-up and device performance"
+      ],
+      "alternativeExplanation": "The result may be a system-specific colloidal phenomenon with limited transfer beyond the studied conditions.",
+      "disposition": "experiment",
+      "confidence": 0.9
+    },
+    {
+      "assessmentId": "socratic:nightly-2026-11-15-goldenberry-cqd",
+      "observationId": "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots",
+      "questions": [
+        "What changed?",
+        "Whose behavior changed?",
+        "What problem is demonstrated?",
+        "Who benefits?",
+        "What substitute exists?",
+        "What mechanism matters?",
+        "What is the most dangerous assumption?",
+        "What would falsify the interpretation?",
+        "What evidence is missing?",
+        "What simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "What changed?",
+          "answer": "Scientific Reports published a 15 Nov study using overripe goldenberry waste to synthesize fluorescent carbon quantum dots for a flunixin assay.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:goldenberry-cqd-scirep-2026-11-15"
+          ]
+        },
+        {
+          "question": "Whose behavior changed?",
+          "answer": "The research team synthesized, characterized and tested the material in veterinary, food and environmental-water matrices.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:goldenberry-cqd-scirep-2026-11-15"
+          ]
+        },
+        {
+          "question": "What problem is demonstrated?",
+          "answer": "The study targets value recovery from perishable plant waste and simpler analytical detection of a veterinary drug residue.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:goldenberry-cqd-scirep-2026-11-15"
+          ]
+        },
+        {
+          "question": "Who benefits?",
+          "answer": "Food-quality, veterinary and environmental-monitoring labs may benefit if the assay proves robust and economical.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:goldenberry-cqd-scirep-2026-11-15"
+          ]
+        },
+        {
+          "question": "What substitute exists?",
+          "answer": "HPLC, spectrophotometry and capillary electrophoresis are established alternatives discussed by the authors.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:goldenberry-cqd-scirep-2026-11-15"
+          ]
+        },
+        {
+          "question": "What mechanism matters?",
+          "answer": "Microwave carbonization creates multi-doped carbon quantum dots; flunixin quenches fluorescence at 340 nm excitation and 420 nm emission.",
+          "answerType": "verified",
+          "evidenceRefs": [
+            "source:goldenberry-cqd-scirep-2026-11-15"
+          ]
+        },
+        {
+          "question": "What is the most dangerous assumption?",
+          "answer": "The authors' green characterization implies a lower lifecycle footprint or feedstock variability will not affect performance.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:goldenberry-cqd-scirep-2026-11-15"
+          ]
+        },
+        {
+          "question": "What would falsify the interpretation?",
+          "answer": "Independent batches show inconsistent optical response, poor selectivity or higher total process impacts.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:goldenberry-cqd-scirep-2026-11-15"
+          ]
+        },
+        {
+          "question": "What evidence is missing?",
+          "answer": "Independent replication, feedstock variability, full energy/water/material accounting, lifecycle assessment, field validation and regulatory acceptance.",
+          "answerType": "unknown",
+          "evidenceRefs": [
+            "source:goldenberry-cqd-scirep-2026-11-15"
+          ]
+        },
+        {
+          "question": "What simpler explanation competes?",
+          "answer": "This may be a promising single-analyte laboratory assay rather than a general waste-valorization platform.",
+          "answerType": "inferred",
+          "evidenceRefs": [
+            "source:goldenberry-cqd-scirep-2026-11-15"
+          ]
+        }
+      ],
+      "dangerousAssumption": "Two-minute synthesis and author-reported sustainability metrics establish a scalable, environmentally superior platform.",
+      "falsifier": "Batch variability, lifecycle accounting or independent replication show no net environmental or analytical advantage.",
+      "missingEvidence": [
+        "Independent replication",
+        "Feedstock characterization",
+        "Lifecycle assessment",
+        "Production yield and field validation"
+      ],
+      "alternativeExplanation": "A narrow laboratory assay for one veterinary compound may explain the results without implying a broad circular-materials platform.",
+      "disposition": "watch",
+      "confidence": 0.89
+    }
+  ],
+  "advisoryImplications": {
+    "obs:nightly-2026-11-15-philippines-ai-council": {
+      "consultancyImplications": [
+        "Jurisdiction-aware AI governance evidence map for public-sector suppliers and SMEs; do not infer private-sector duties without full text and implementing rules."
+      ],
+      "projectDispositionImplications": [
+        "Seed Loom CORE; Observation Ad Pipeline PRODUCTIZE only the source-to-client-artifact method."
+      ]
+    },
+    "obs:nightly-2026-11-15-oats-physical-agent-personas": {
+      "consultancyImplications": [
+        "Bounded ambient-interface prototyping with deterministic sensor mapping, human-readable states, accessibility and trust-calibration tests."
+      ],
+      "projectDispositionImplications": [
+        "Kozo Dreams INCUBATE one tactile/ambient interaction specimen; Omni-Loom remains a separate fabrication proof."
+      ]
+    },
+    "obs:nightly-2026-11-15-canada-tfff-contribution": {
+      "consultancyImplications": [
+        "Explore evidence-backed conservation-finance reporting only if a real buyer and data access are identified."
+      ],
+      "projectDispositionImplications": [
+        "Seed Loom CORE; Observation Ad Pipeline PRODUCTIZE evidence-to-artifact workflow; Kozo Dreams CONSOLIDATE."
+      ]
+    },
+    "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly": {
+      "consultancyImplications": [
+        "Attributed scientific visualization separating measured imagery, model outputs and artistic interpretation."
+      ],
+      "projectDispositionImplications": [
+        "Shader Grammar REFERENCE-ONLY for physical mechanism; Shader Gallery PRODUCTIZE only after source/model validation."
+      ]
+    },
+    "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots": {
+      "consultancyImplications": [
+        "Evidence-led biomaterial storytelling; require independent reproducibility and lifecycle accounting before sustainability claims."
+      ],
+      "projectDispositionImplications": [
+        "Shader Grammar and Shader Gallery REFERENCE-ONLY for chemistry; Observation Ad Pipeline PRODUCTIZE the evidence-to-artifact method, not a sensor product."
+      ]
+    }
+  }
+}
