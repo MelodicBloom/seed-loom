@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:oats-wired-2026-11-15",
+  "type": "Source",
+  "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+  "publisher": "WIRED",
+  "publishedAt": "2026-11-15T11:00:00Z",
+  "retrievedAt": "2026-11-15T19:16:35-05:00",
+  "sourceClass": "press",
+  "independenceKey": "wired.com:2026-11-15:oats",
+  "contentHash": null,
+  "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+  "lead": "WIRED describes OATs, a Carnegie Mellon research prototype mapping sensor states to E Ink object-agent avatars.",
+  "analystNote": "Source-body bytes were not available for hashing; contentHash intentionally null.",
+  "upstream": {},
+  "cites": [],
+  "citedBy": [
+    "obs:nightly-2026-11-15-oats-physical-agent-personas"
+  ],
+  "notes": "Published 15 Nov 2026 at 06:00 US Eastern (11:00 UTC); UIST presentation occurred in early November; not a commercial launch."
+}

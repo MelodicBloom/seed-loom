@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-11-15-tfff-supported-by",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-11-15-canada-tfff-contribution",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:canada-tfff-pmo-2026-11-15",
+  "confidence": 0.97,
+  "evidenceRefs": [
+    "source:canada-tfff-pmo-2026-11-15",
+    "source:canada-tfff-backgrounder-2026-11-14"
+  ]
+}

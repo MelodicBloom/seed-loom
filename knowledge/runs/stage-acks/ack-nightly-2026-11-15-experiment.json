@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-11-15-experiment",
+  "runId": "run:nightly-2026-11-15",
+  "stage": "experiment",
+  "status": "deferred",
+  "startedAt": "2026-11-15T19:16:35-05:00",
+  "completedAt": "2026-11-15T19:16:35-05:00",
+  "inputs": [
+    "Two proposed experiments"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "experiment execution",
+      "result": "not-applicable",
+      "detail": "No experiment executed, purchased or scheduled."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "Approval required for execution, runtime access, costs or outside participation."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly research and repository sensing run",
+    "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+    "inputHashes": []
+  }
+}

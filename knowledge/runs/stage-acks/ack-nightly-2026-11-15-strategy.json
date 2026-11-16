@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-11-15-strategy",
+  "runId": "run:nightly-2026-11-15",
+  "stage": "strategy",
+  "status": "deferred",
+  "startedAt": "2026-11-15T19:16:35-05:00",
+  "completedAt": "2026-11-15T19:16:35-05:00",
+  "inputs": [
+    "Candidate opportunities"
+  ],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "strategy acceptance",
+      "result": "not-applicable",
+      "detail": "No strategy promoted without human approval and buyer evidence."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "Jennipher approval required; no canonical Strategy record created."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly research and repository sensing run",
+    "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+    "inputHashes": []
+  }
+}

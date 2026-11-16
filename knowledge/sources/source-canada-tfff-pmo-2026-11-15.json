@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:canada-tfff-pmo-2026-11-15",
+  "type": "Source",
+  "url": "https://www.pm.gc.ca/en/news/news-releases/2026/11/15/prime-minister-carney-announces-canadas-landmark-contribution-protect",
+  "publisher": "Office of the Prime Minister of Canada",
+  "publishedAt": null,
+  "retrievedAt": "2026-11-15T19:16:35-05:00",
+  "sourceClass": "official",
+  "independenceKey": "pm.gc.ca:news-release:2026-11-15:tfff",
+  "contentHash": null,
+  "title": "Prime Minister Carney announces Canada’s landmark contribution to protect the world’s tropical forests",
+  "lead": "Canada announced up to C$560 million over four years for the Brazil- and Norway-co-led Tropical Forest Forever Facility.",
+  "analystNote": "Source-body bytes were not available for hashing; contentHash intentionally null.",
+  "upstream": {},
+  "cites": [],
+  "citedBy": [
+    "obs:nightly-2026-11-15-canada-tfff-contribution"
+  ],
+  "notes": "Official release dated 15 Nov 2026; exact time not stated."
+}

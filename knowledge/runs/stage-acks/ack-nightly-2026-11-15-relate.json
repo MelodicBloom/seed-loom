@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-11-15-relate",
+  "runId": "run:nightly-2026-11-15",
+  "stage": "relate",
+  "status": "passed",
+  "startedAt": "2026-11-15T19:16:35-05:00",
+  "completedAt": "2026-11-15T19:16:35-05:00",
+  "inputs": [
+    "obs:nightly-2026-11-15-philippines-ai-council",
+    "obs:nightly-2026-11-15-oats-physical-agent-personas",
+    "obs:nightly-2026-11-15-canada-tfff-contribution",
+    "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+    "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots"
+  ],
+  "outputs": [
+    "rel:nightly-2026-11-15-philippines-supported-by",
+    "rel:nightly-2026-11-15-philippines-applies-seed-loom",
+    "rel:nightly-2026-11-15-oats-supported-by",
+    "rel:nightly-2026-11-15-oats-may-enable-kozo",
+    "rel:nightly-2026-11-15-tfff-supported-by",
+    "rel:nightly-2026-11-15-tfff-may-enable-obsad",
+    "rel:nightly-2026-11-15-liquid-lens-supported-by",
+    "rel:nightly-2026-11-15-liquid-lens-applies-shader-grammar",
+    "rel:nightly-2026-11-15-goldenberry-supported-by",
+    "rel:nightly-2026-11-15-goldenberry-applies-obsad"
+  ],
+  "checks": [
+    {
+      "name": "relationship manifest",
+      "result": "pass",
+      "detail": "Ten relationship IDs match run.newRelationships."
+    },
+    {
+      "name": "evidence references",
+      "result": "pass",
+      "detail": "Each relationship has one or more source IDs."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Project links are advisory, not repository mutation authorization."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly research and repository sensing run",
+    "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+    "inputHashes": []
+  }
+}

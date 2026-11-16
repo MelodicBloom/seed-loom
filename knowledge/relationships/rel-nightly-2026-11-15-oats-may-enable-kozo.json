@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-11-15-oats-may-enable-kozo",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-11-15-oats-physical-agent-personas",
+  "predicate": "MAY_ENABLE",
+  "to": "repo:MelodicBloom/kozo-dreams",
+  "confidence": 0.68,
+  "evidenceRefs": [
+    "source:oats-wired-2026-11-15"
+  ]
+}

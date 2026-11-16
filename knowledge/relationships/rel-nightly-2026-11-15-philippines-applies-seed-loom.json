@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-11-15-philippines-applies-seed-loom",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-11-15-philippines-ai-council",
+  "predicate": "APPLIES_TO",
+  "to": "repo:MelodicBloom/seed-loom",
+  "confidence": 0.78,
+  "evidenceRefs": [
+    "source:ph-ai-eo131-pna-2026-11-14"
+  ]
+}

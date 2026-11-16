@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-11-15-liquid-lens-supported-by",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:nature-liquid-lens-2026-11-14",
+  "confidence": 0.95,
+  "evidenceRefs": [
+    "source:nature-liquid-lens-2026-11-14"
+  ]
+}

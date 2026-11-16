@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:goldenberry-cqd-scirep-2026-11-15",
+  "type": "Source",
+  "url": "https://www.nature.com/articles/s41598-026-73163-w",
+  "publisher": "Scientific Reports",
+  "publishedAt": null,
+  "retrievedAt": "2026-11-15T19:16:35-05:00",
+  "sourceClass": "research",
+  "independenceKey": "nature.com:scirep:doi:10.1038/s41598-026-73163-w",
+  "contentHash": null,
+  "title": "From waste to worth: Green valorization of food waste into a sustainable fluorimetric nanoprobe for chemical and bioanalytical sensing",
+  "lead": "Researchers report two-minute microwave conversion of overripe goldenberry waste into fluorescent carbon quantum dots for flunixin detection.",
+  "analystNote": "Source-body bytes were not available for hashing; contentHash intentionally null.",
+  "upstream": {
+    "doi": "10.1038/s41598-026-73163-w"
+  },
+  "doi": "10.1038/s41598-026-73163-w",
+  "cites": [],
+  "citedBy": [
+    "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots"
+  ],
+  "notes": "Published 15 Nov 2026; exact time not stated; full article text accessible; sustainability claims remain author-reported."
+}

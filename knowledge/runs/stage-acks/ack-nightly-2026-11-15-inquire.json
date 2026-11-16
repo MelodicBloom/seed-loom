@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-11-15-inquire",
+  "runId": "run:nightly-2026-11-15",
+  "stage": "inquire",
+  "status": "passed",
+  "startedAt": "2026-11-15T19:16:35-05:00",
+  "completedAt": "2026-11-15T19:16:35-05:00",
+  "inputs": [
+    "obs:nightly-2026-11-15-philippines-ai-council",
+    "obs:nightly-2026-11-15-oats-physical-agent-personas",
+    "obs:nightly-2026-11-15-canada-tfff-contribution",
+    "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+    "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots"
+  ],
+  "outputs": [
+    "socratic:nightly-2026-11-15-philippines-ai-council",
+    "socratic:nightly-2026-11-15-oats-physical-persona",
+    "socratic:nightly-2026-11-15-canada-tfff",
+    "socratic:nightly-2026-11-15-liquid-lens",
+    "socratic:nightly-2026-11-15-goldenberry-cqd"
+  ],
+  "checks": [
+    {
+      "name": "ten Socratic questions per signal",
+      "result": "pass",
+      "detail": "All five have ten typed answers."
+    },
+    {
+      "name": "falsifier and unknowns",
+      "result": "pass",
+      "detail": "Dangerous assumptions, falsifiers, missing evidence and alternatives recorded."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Assessments are candidate reasoning aids, not independent peer review."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly research and repository sensing run",
+    "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+    "inputHashes": []
+  }
+}

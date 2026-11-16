@@ -1,0 +1,109 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-15-oats-physical-persona",
+  "observationId": "obs:nightly-2026-11-15-oats-physical-agent-personas",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "WIRED published a 15 Nov report describing OATs, a sensor-linked E Ink object-agent prototype; the project was presented at UIST earlier in November.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:oats-wired-2026-11-15"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "The researcher built and distributed prototypes, gathered user feedback and demonstrated them at a symposium; commercial release is undecided.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:oats-wired-2026-11-15"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "The project targets legibility of object state and ambient prompts for care, equipment awareness and habits; efficacy is not proven.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:oats-wired-2026-11-15"
+      ]
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "People who need low-attention feedback about plants, equipment or habits could benefit if cues are understandable and non-coercive.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:oats-wired-2026-11-15"
+      ]
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Phone notifications, timers, smart-home dashboards, indicator lights and sensor alarms can provide similar signals.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:oats-wired-2026-11-15"
+      ]
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Sensor readings map to constrained avatar states on a small E Ink screen configured through a web portal.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:oats-wired-2026-11-15"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Anthropomorphic cues improve behavior without increasing misplaced trust, guilt, privacy exposure or dependence.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:oats-wired-2026-11-15"
+      ]
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Longitudinal tests showing no sustained behavior change, poor comprehension or increased over-trust would undermine the opportunity.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:oats-wired-2026-11-15"
+      ]
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Study sample size and duration, privacy model, accessibility, battery improvement, long-term outcomes and independent replication.",
+      "answerType": "unknown",
+      "evidenceRefs": [
+        "source:oats-wired-2026-11-15"
+      ]
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "Novelty and cuteness may explain short-term engagement better than agent intelligence or durable behavior change.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:oats-wired-2026-11-15"
+      ]
+    }
+  ],
+  "dangerousAssumption": "Anthropomorphic expression improves behavior without manipulation, over-trust or privacy cost.",
+  "falsifier": "Longitudinal tests show only novelty effects, poor comprehension or harmful trust calibration.",
+  "missingEvidence": [
+    "Longitudinal study",
+    "Privacy and accessibility review",
+    "Sustained behavior outcomes",
+    "Battery and maintenance data"
+  ],
+  "alternativeExplanation": "Novelty and cuteness may explain attention without agentic autonomy.",
+  "disposition": "experiment",
+  "confidence": 0.88
+}

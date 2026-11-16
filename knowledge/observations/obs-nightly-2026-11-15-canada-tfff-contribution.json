@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-11-15-canada-tfff-contribution",
+  "type": "Observation",
+  "capturedAt": "2026-11-15T19:16:35-05:00",
+  "claim": "Canada announced an initial contribution of up to C$560 million over four years to help launch the Tropical Forest Forever Facility.",
+  "verifiedFacts": [
+    "The Prime Minister of Canada announced on 15 Nov an initial contribution of up to C$560 million over four years to the Brazil- and Norway-co-led TFFF.",
+    "Global Affairs Canada specifies that the contribution is a loan financed from Canada's existing international climate-finance envelope, intended for launch and initial capitalization.",
+    "The facility is designed for long-term performance-based conservation payments tied to verified forest results; at least 20% of those payments are intended for Indigenous Peoples and local communities.",
+    "The Canadian release states a target of US$35 billion in sponsor contributions to attract up to US$140 billion in additional private investment; these are targets, not achieved capitalization."
+  ],
+  "inference": [
+    "The new sovereign commitment strengthens the financing pathway but does not prove funds have been disbursed or conservation payments have begun.",
+    "Potential client problem: funders and forest-country partners need defensible monitoring, eligibility, community-allocation governance, project pipelines and transparent reporting.",
+    "Consultancy implication: evidence-to-client-artifact services could translate conservation-finance rules into traceable briefs and monitoring narratives; buyer demand remains unverified.",
+    "Project disposition: Seed Loom CORE; Observation Ad Pipeline PRODUCTIZE as a governed evidence-to-artifact workflow; Kozo Dreams CONSOLIDATE rather than build a separate climate platform."
+  ],
+  "significance": "A quantified sovereign contribution advances a results-based tropical-forest finance mechanism and increases the value of auditable environmental evidence and community-allocation reporting.",
+  "confidence": 0.93,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "funding",
+  "sourceRefs": [
+    "source:canada-tfff-pmo-2026-11-15",
+    "source:canada-tfff-backgrounder-2026-11-14"
+  ],
+  "actorRefs": [
+    "actor:government-of-canada",
+    "actor:prime-minister-mark-carney",
+    "actor:government-of-brazil",
+    "actor:government-of-norway",
+    "actor:tropical-forest-forever-facility",
+    "actor:global-affairs-canada"
+  ],
+  "affectedRepositories": [
+    "The facility will complete its governance, capitalization and operating requirements.",
+    "Verified forest results and community allocations will be transparently measurable."
+  ],
+  "assumptions": [
+    "The C$560 million is an up-to contribution structured as a loan from existing climate-finance resources, not a grant or immediate transfer.",
+    "The 20% minimum applies to conservation payments, not 20% of Canada's contribution.",
+    "Operating launch, disbursements, forest outcomes and community-level payments are not established by the announcement."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

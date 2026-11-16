@@ -1,0 +1,109 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-15-philippines-ai-council",
+  "observationId": "obs:nightly-2026-11-15-philippines-ai-council",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "EO 131 was signed on 12 Nov and PNA reported the National AI Council on 14 Nov.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:ph-ai-eo131-pna-2026-11-14"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "The President signed an executive order establishing a national coordination body; the Palace Press Officer announced it.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:ph-ai-eo131-pna-2026-11-14"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "The stated objective is unified direction and responsible, safe and ethical AI use; actual coordination failures are not quantified.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:ph-ai-eo131-pna-2026-11-14"
+      ]
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Workers, businesses, communities and the public are named as intended beneficiaries; realized benefits are unknown.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:ph-ai-eo131-pna-2026-11-14"
+      ]
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Existing agency-by-agency coordination and the country's earlier AI strategy are plausible substitutes, but their performance is not established here.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:ph-ai-eo131-pna-2026-11-14"
+      ]
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "A national framework and inter-agency Council provide an administrative coordination mechanism.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:ph-ai-eo131-pna-2026-11-14"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Assuming the order automatically creates new private-sector licensing, penalties or compliance duties without reading the full order and implementing instruments.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:ph-ai-eo131-pna-2026-11-14"
+      ]
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Failure to operationalize the Council or produce observable cross-agency coordination would weaken the claim of implementation change.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:ph-ai-eo131-pna-2026-11-14"
+      ]
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Full order text, detailed membership, working-group plans, budget, monitoring platform, procurement guidance and implementation milestones.",
+      "answerType": "unknown",
+      "evidenceRefs": [
+        "source:ph-ai-eo131-pna-2026-11-14"
+      ]
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "The order may primarily formalize executive coordination rather than impose a new substantive regulatory regime on companies.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:ph-ai-eo131-pna-2026-11-14"
+      ]
+    }
+  ],
+  "dangerousAssumption": "Do not assume direct private-sector obligations or enforcement powers from the announcement.",
+  "falsifier": "Failure to operationalize the Council or produce implementation outputs would weaken the interpretation.",
+  "missingEvidence": [
+    "Full EO text",
+    "Implementing guidelines",
+    "Council membership and budget",
+    "Working-group deliverables and monitoring platform"
+  ],
+  "alternativeExplanation": "Administrative coordination of existing policy may explain the announcement better than a new commercial compliance regime.",
+  "disposition": "watch",
+  "confidence": 0.9
+}

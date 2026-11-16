@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-11-15-philippines-ai-council",
+  "type": "Observation",
+  "capturedAt": "2026-11-15T19:16:35-05:00",
+  "claim": "The Philippines adopted a national AI governance framework and created a National Artificial Intelligence Council through Executive Order 131.",
+  "verifiedFacts": [
+    "PNA reported on 14 Nov 2026 at 16:39 GMT+8 that President Ferdinand R. Marcos Jr. signed EO 131 on 12 Nov.",
+    "The order establishes a National AI Council and adopts a national AI governance framework.",
+    "The Palace Press Officer described the aim as unified direction and responsible, safe and ethical AI development and use."
+  ],
+  "inference": [
+    "A national coordination point may make future government AI procurement, capability-building and assurance expectations easier to track; this report does not establish new private-sector licensing or penalties.",
+    "Consultancy implication: a jurisdiction-aware AI-governance evidence map could help government-facing suppliers and SMEs translate policy into traceable controls, without offering legal advice.",
+    "Project disposition: Seed Loom remains CORE as the provenance and governance spine; no new product or compliance claim is justified."
+  ],
+  "significance": "A concrete national governance instrument moves AI oversight from strategy language toward an accountable coordination structure, while implementation details remain to be verified.",
+  "confidence": 0.9,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "law-or-policy",
+  "sourceRefs": [
+    "source:ph-ai-eo131-pna-2026-11-14"
+  ],
+  "actorRefs": [
+    "actor:president-ferdinand-marcos-jr",
+    "actor:philippines-palace-press-office",
+    "actor:philippines-national-ai-council"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/seed-loom",
+    "qt314wink/observation-ad-pipeline"
+  ],
+  "assumptions": [
+    "The Council and framework will be operationalized beyond signing and announcement.",
+    "Government agencies will publish implementing details that can be monitored."
+  ],
+  "knownLimitations": [
+    "PNA is a government newswire summary, not the full executive-order text.",
+    "Council membership, working-group plans, budget, monitoring platform and procurement guidance were not verified from the retrieved source.",
+    "No direct new private-sector obligation or penalty was established."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

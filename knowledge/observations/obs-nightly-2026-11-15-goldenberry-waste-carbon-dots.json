@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots",
+  "type": "Observation",
+  "capturedAt": "2026-11-15T19:16:35-05:00",
+  "claim": "A 15 November Scientific Reports study converts overripe goldenberry waste into fluorescent carbon quantum dots for a flunixin assay.",
+  "verifiedFacts": [
+    "Scientific Reports published the open-access study on 15 Nov 2026.",
+    "The authors used overripe goldenberry fruit as a renewable carbon source and report a one-pot microwave-assisted preparation lasting two minutes.",
+    "The resulting multi-doped carbon quantum dots show blue fluorescence with reported excitation/emission wavelengths of 340/420 nm.",
+    "The authors tested fluorescence-quenching detection of veterinary NSAID flunixin in veterinary formulations, food samples and environmental-water matrices."
+  ],
+  "inference": [
+    "This is a concrete biomass-to-functional-material example, but it does not establish an industrially scalable circular-economy process.",
+    "Consultancy implication: evidence-led materials storytelling could explain feedstock, synthesis, optical response and assay boundaries without overstating sustainability.",
+    "Project disposition: Shader Grammar and Shader Gallery REFERENCE-ONLY for this chemistry; Observation Ad Pipeline PRODUCTIZE the evidence-to-artifact method, not a sensor product."
+  ],
+  "significance": "A new peer-reviewed example connects agricultural waste valorization, optical materials and analytical sensing in a laboratory workflow.",
+  "confidence": 0.89,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:goldenberry-cqd-scirep-2026-11-15"
+  ],
+  "actorRefs": [
+    "actor:maha-mohammad-abdel-monem",
+    "actor:manal-eid",
+    "actor:fatma-ahmed-aly",
+    "actor:nora-a-abdallah",
+    "actor:scientific-reports"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-grammar",
+    "MelodicBloom/shader-gallery",
+    "qt314wink/observation-ad-pipeline",
+    "MelodicBloom/seed-loom"
+  ],
+  "assumptions": [
+    "Assay performance can be reproduced across feedstock batches and laboratories.",
+    "Reported sustainability metrics capture relevant upstream and downstream environmental costs."
+  ],
+  "knownLimitations": [
+    "Single laboratory study; industrial-scale economics, feedstock variability, independent replication and regulatory adoption not established.",
+    "Authors' green characterization is not equivalent to an independently verified lifecycle assessment.",
+    "No clinical or human diagnostic use is claimed."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

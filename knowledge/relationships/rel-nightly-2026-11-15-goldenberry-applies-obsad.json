@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-11-15-goldenberry-applies-obsad",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots",
+  "predicate": "APPLIES_TO",
+  "to": "repo:qt314wink/observation-ad-pipeline",
+  "confidence": 0.73,
+  "evidenceRefs": [
+    "source:goldenberry-cqd-scirep-2026-11-15"
+  ]
+}

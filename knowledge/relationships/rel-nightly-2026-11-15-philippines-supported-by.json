@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-11-15-philippines-supported-by",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-11-15-philippines-ai-council",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:ph-ai-eo131-pna-2026-11-14",
+  "confidence": 0.96,
+  "evidenceRefs": [
+    "source:ph-ai-eo131-pna-2026-11-14"
+  ]
+}

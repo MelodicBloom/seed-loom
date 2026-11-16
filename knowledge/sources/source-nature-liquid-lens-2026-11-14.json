@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:nature-liquid-lens-2026-11-14",
+  "type": "Source",
+  "url": "https://www.nature.com/articles/s41467-026-79569-4",
+  "publisher": "Nature Communications",
+  "publishedAt": null,
+  "retrievedAt": "2026-11-15T19:16:35-05:00",
+  "sourceClass": "research",
+  "independenceKey": "nature.com:ncomms:doi:10.1038/s41467-026-79569-4",
+  "contentHash": null,
+  "title": "Emergent mesoscale nanoparticle patterns from a non-equilibrium liquid lens",
+  "lead": "A peer-reviewed article reports evaporation-driven nanoparticle assembly at a fluid-fluid interface and a sequence of tunable film morphologies.",
+  "analystNote": "Source-body bytes were not available for hashing; contentHash intentionally null.",
+  "upstream": {
+    "doi": "10.1038/s41467-026-79569-4"
+  },
+  "doi": "10.1038/s41467-026-79569-4",
+  "cites": [],
+  "citedBy": [
+    "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly"
+  ],
+  "notes": "Published 14 Nov 2026; exact time not stated; full-text open failed at publisher identity provider; official metadata and abstract extract reviewed."
+}

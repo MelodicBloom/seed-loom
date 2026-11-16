@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+  "type": "Observation",
+  "capturedAt": "2026-11-15T19:16:35-05:00",
+  "claim": "A 14 November Nature Communications study reports controllable nanoparticle film morphologies emerging from evaporation of a liquid lens at a fluid interface.",
+  "verifiedFacts": [
+    "Nature Communications lists the open-access article as published on 14 Nov 2026.",
+    "The authors report a sequence of continuous monolayers, perforated films, ribbon networks and isolated tiles during evaporation of a lens-shaped colloidal suspension at a fluid-fluid interface.",
+    "The study combines in situ confocal microscopy, ex situ electron microscopy and coupled cross-scale simulations linking macroscopic transport, nanoscale rearrangement and mesoscale phase separation.",
+    "The authors report concentration and solvent volatility can tune the system's trajectory through the observed morphologies."
+  ],
+  "inference": [
+    "This is a useful reference for parameterized material-pattern visualization, but a shader or motion study must not claim to reproduce colloid physics without a validated model.",
+    "Consultancy implication: materials teams may need traceable multi-scale visualization that distinguishes measured morphology, simulation and artistic rendering.",
+    "Project disposition: Shader Grammar REFERENCE-ONLY for the mechanism until validated data/model access; Shader Gallery may PRODUCTIZE only an explicitly attributed explainer."
+  ],
+  "significance": "The paper presents a cross-scale mechanism for non-equilibrium material formation, relevant to materials design and scientific visualization.",
+  "confidence": 0.9,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "peer-reviewed-research",
+  "sourceRefs": [
+    "source:nature-liquid-lens-2026-11-14"
+  ],
+  "actorRefs": [
+    "actor:nature-communications-authors",
+    "actor:cornell-university"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/shader-grammar",
+    "MelodicBloom/shader-gallery",
+    "MelodicBloom/seed-loom"
+  ],
+  "assumptions": [
+    "The morphology sequence is robust across the parameter ranges studied.",
+    "Published images and parameters can be represented without implying an unvalidated simulation."
+  ],
+  "knownLimitations": [
+    "Full-text opening was blocked by publisher identity provider; official metadata and abstract/search extract only.",
+    "No independent replication, industrial scale-up, target material property or device performance was verified.",
+    "Generalization beyond this colloidal system and interface conditions is unestablished."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

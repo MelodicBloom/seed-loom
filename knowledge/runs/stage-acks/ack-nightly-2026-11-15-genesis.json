@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-11-15-genesis",
+  "runId": "run:nightly-2026-11-15",
+  "stage": "genesis",
+  "status": "deferred",
+  "startedAt": "2026-11-15T19:16:35-05:00",
+  "completedAt": "2026-11-15T19:16:35-05:00",
+  "inputs": [],
+  "outputs": [],
+  "checks": [
+    {
+      "name": "genesis transition",
+      "result": "not-applicable",
+      "detail": "Genesis explicitly deferred; allowedTransition false."
+    }
+  ],
+  "governance": {
+    "allowedTransition": false,
+    "approvalRequired": true,
+    "boundaryNotes": [
+      "No Genesis advancement, acceptance or promotion."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly research and repository sensing run",
+    "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+    "inputHashes": []
+  }
+}

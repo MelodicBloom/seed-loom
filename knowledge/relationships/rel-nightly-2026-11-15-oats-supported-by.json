@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-11-15-oats-supported-by",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-11-15-oats-physical-agent-personas",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:oats-wired-2026-11-15",
+  "confidence": 0.94,
+  "evidenceRefs": [
+    "source:oats-wired-2026-11-15"
+  ]
+}

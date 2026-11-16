@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-11-15-collect",
+  "runId": "run:nightly-2026-11-15",
+  "stage": "collect",
+  "status": "passed",
+  "startedAt": "2026-11-15T19:16:35-05:00",
+  "completedAt": "2026-11-15T19:16:35-05:00",
+  "inputs": [
+    "48-hour retrieval window"
+  ],
+  "outputs": [
+    "source:ph-ai-eo131-pna-2026-11-14",
+    "source:oats-wired-2026-11-15",
+    "source:canada-tfff-pmo-2026-11-15",
+    "source:canada-tfff-backgrounder-2026-11-14",
+    "source:nature-liquid-lens-2026-11-14",
+    "source:goldenberry-cqd-scirep-2026-11-15"
+  ],
+  "checks": [
+    {
+      "name": "five distinct candidates",
+      "result": "pass",
+      "detail": "Selected five claims and deduplicated against 13 and 14 Nov bundles."
+    },
+    {
+      "name": "publication dates",
+      "result": "pass",
+      "detail": "PNA and WIRED timestamps explicit; three publishers provide date only."
+    },
+    {
+      "name": "raw source hashes",
+      "result": "not-applicable",
+      "detail": "Raw web bytes unavailable; contentHash remains null."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "Missing source-body hashes block acceptance and promotion, not candidate capture."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly research and repository sensing run",
+    "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+    "inputHashes": []
+  }
+}

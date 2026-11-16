@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.1.0",
+  "ackId": "ack:nightly-2026-11-15-observe",
+  "runId": "run:nightly-2026-11-15",
+  "stage": "observe",
+  "status": "passed",
+  "startedAt": "2026-11-15T19:16:35-05:00",
+  "completedAt": "2026-11-15T19:16:35-05:00",
+  "inputs": [
+    "Five vetted source records"
+  ],
+  "outputs": [
+    "obs:nightly-2026-11-15-philippines-ai-council",
+    "obs:nightly-2026-11-15-oats-physical-agent-personas",
+    "obs:nightly-2026-11-15-canada-tfff-contribution",
+    "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+    "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots"
+  ],
+  "checks": [
+    {
+      "name": "candidate observations",
+      "result": "pass",
+      "detail": "All five include facts, inference, significance, confidence, maturity, refs, assumptions, limitations and candidate state."
+    },
+    {
+      "name": "advisory sidecar",
+      "result": "pass",
+      "detail": "Consultancy and disposition implications preserved at bundle top level and mirrored into inference."
+    }
+  ],
+  "governance": {
+    "allowedTransition": true,
+    "approvalRequired": false,
+    "boundaryNotes": [
+      "No observation accepted, implemented or measured."
+    ]
+  },
+  "provenance": {
+    "producer": "Nightly research and repository sensing run",
+    "method": "Direct source review, repository API inspection, live-schema mapping and bounded synthesis; source-body hashes unavailable unless explicitly recorded.",
+    "inputHashes": []
+  }
+}

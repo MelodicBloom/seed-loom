@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "source:ph-ai-eo131-pna-2026-11-14",
+  "type": "Source",
+  "url": "https://www.pna.gov.ph/article/pbbm-creates-national-council-to-oversee-ai-development-governance",
+  "publisher": "Philippine News Agency",
+  "publishedAt": "2026-11-14T08:39:00Z",
+  "retrievedAt": "2026-11-15T19:16:35-05:00",
+  "sourceClass": "press",
+  "independenceKey": "pna.gov.ph:article:2026-11-14:eo131",
+  "contentHash": null,
+  "title": "PBBM creates national council to oversee AI development, governance",
+  "lead": "PNA reports that President Marcos signed EO 131 on 12 November, establishing a National AI Council and national AI governance framework.",
+  "analystNote": "Source-body bytes were not available for hashing; contentHash intentionally null.",
+  "upstream": {},
+  "cites": [],
+  "citedBy": [
+    "obs:nightly-2026-11-15-philippines-ai-council"
+  ],
+  "notes": "Published 14 Nov 2026 at 16:39 GMT+8 (08:39 UTC), within the retrieval window; government newswire summary, not full EO text."
+}

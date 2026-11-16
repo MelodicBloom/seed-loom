@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-11-15-liquid-lens-applies-shader-grammar",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+  "predicate": "APPLIES_TO",
+  "to": "repo:MelodicBloom/shader-grammar",
+  "confidence": 0.75,
+  "evidenceRefs": [
+    "source:nature-liquid-lens-2026-11-14"
+  ]
+}

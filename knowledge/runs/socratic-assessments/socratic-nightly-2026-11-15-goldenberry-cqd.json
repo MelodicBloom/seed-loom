@@ -1,0 +1,109 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-15-goldenberry-cqd",
+  "observationId": "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Scientific Reports published a 15 Nov study using overripe goldenberry waste to synthesize fluorescent carbon quantum dots for a flunixin assay.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:goldenberry-cqd-scirep-2026-11-15"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "The research team synthesized, characterized and tested the material in veterinary, food and environmental-water matrices.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:goldenberry-cqd-scirep-2026-11-15"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "The study targets value recovery from perishable plant waste and simpler analytical detection of a veterinary drug residue.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:goldenberry-cqd-scirep-2026-11-15"
+      ]
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Food-quality, veterinary and environmental-monitoring labs may benefit if the assay proves robust and economical.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:goldenberry-cqd-scirep-2026-11-15"
+      ]
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "HPLC, spectrophotometry and capillary electrophoresis are established alternatives discussed by the authors.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:goldenberry-cqd-scirep-2026-11-15"
+      ]
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Microwave carbonization creates multi-doped carbon quantum dots; flunixin quenches fluorescence at 340 nm excitation and 420 nm emission.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:goldenberry-cqd-scirep-2026-11-15"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "The authors' green characterization implies a lower lifecycle footprint or feedstock variability will not affect performance.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:goldenberry-cqd-scirep-2026-11-15"
+      ]
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent batches show inconsistent optical response, poor selectivity or higher total process impacts.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:goldenberry-cqd-scirep-2026-11-15"
+      ]
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent replication, feedstock variability, full energy/water/material accounting, lifecycle assessment, field validation and regulatory acceptance.",
+      "answerType": "unknown",
+      "evidenceRefs": [
+        "source:goldenberry-cqd-scirep-2026-11-15"
+      ]
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "This may be a promising single-analyte laboratory assay rather than a general waste-valorization platform.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:goldenberry-cqd-scirep-2026-11-15"
+      ]
+    }
+  ],
+  "dangerousAssumption": "Two-minute synthesis and author-reported sustainability metrics establish a scalable, environmentally superior platform.",
+  "falsifier": "Batch variability, lifecycle accounting or independent replication show no net environmental or analytical advantage.",
+  "missingEvidence": [
+    "Independent replication",
+    "Feedstock characterization",
+    "Lifecycle assessment",
+    "Production yield and field validation"
+  ],
+  "alternativeExplanation": "A narrow laboratory assay for one veterinary compound may explain the results without implying a broad circular-materials platform.",
+  "disposition": "watch",
+  "confidence": 0.89
+}

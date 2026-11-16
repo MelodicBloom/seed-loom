@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-11-15-tfff-may-enable-obsad",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-11-15-canada-tfff-contribution",
+  "predicate": "MAY_ENABLE",
+  "to": "repo:qt314wink/observation-ad-pipeline",
+  "confidence": 0.72,
+  "evidenceRefs": [
+    "source:canada-tfff-pmo-2026-11-15",
+    "source:canada-tfff-backgrounder-2026-11-14"
+  ]
+}

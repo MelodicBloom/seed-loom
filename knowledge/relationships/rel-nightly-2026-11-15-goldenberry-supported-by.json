@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "rel:nightly-2026-11-15-goldenberry-supported-by",
+  "type": "Relationship",
+  "from": "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots",
+  "predicate": "SUPPORTED_BY",
+  "to": "source:goldenberry-cqd-scirep-2026-11-15",
+  "confidence": 0.96,
+  "evidenceRefs": [
+    "source:goldenberry-cqd-scirep-2026-11-15"
+  ]
+}

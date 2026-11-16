@@ -1,0 +1,109 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-15-liquid-lens",
+  "observationId": "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Nature Communications published a 14 Nov study describing a controllable sequence of nanoparticle film morphologies from an evaporating liquid lens.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nature-liquid-lens-2026-11-14"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "The research team used in situ and ex situ microscopy plus coupled simulations to explain and tune the sequence.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nature-liquid-lens-2026-11-14"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "The paper addresses difficulty predicting complex non-equilibrium nanoparticle assembly, often treated as irreproducible.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nature-liquid-lens-2026-11-14"
+      ]
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Materials researchers and engineers seeking controlled assembly or explanatory models may benefit; buyers are unknown.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nature-liquid-lens-2026-11-14"
+      ]
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Equilibrium self-assembly, templating and other deposition or coating processes can be alternatives depending on target material.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nature-liquid-lens-2026-11-14"
+      ]
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Evaporation-driven transport, particle rearrangement and kinetic arrest interact across scales; concentration and solvent volatility tune the sequence.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:nature-liquid-lens-2026-11-14"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "The observed patterns generalize to industrial production or produce useful optical/electrical properties without further measurement.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nature-liquid-lens-2026-11-14"
+      ]
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Independent replication fails to reproduce regimes or sensitivity prevents practical control.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nature-liquid-lens-2026-11-14"
+      ]
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Independent replication, scale-up yield, defect tolerance, long-term stability and measured device/material performance.",
+      "answerType": "unknown",
+      "evidenceRefs": [
+        "source:nature-liquid-lens-2026-11-14"
+      ]
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "The results may be specific to the chosen colloid, interface and evaporation conditions rather than a general self-assembly recipe.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:nature-liquid-lens-2026-11-14"
+      ]
+    }
+  ],
+  "dangerousAssumption": "A controllable laboratory morphology sequence transfers directly to production-scale functional materials.",
+  "falsifier": "Independent teams cannot reproduce the regimes or no target material property can be controlled at useful scale.",
+  "missingEvidence": [
+    "Full-text methods and raw image data",
+    "Parameter ranges",
+    "Replication",
+    "Scale-up and device performance"
+  ],
+  "alternativeExplanation": "The result may be a system-specific colloidal phenomenon with limited transfer beyond the studied conditions.",
+  "disposition": "experiment",
+  "confidence": 0.9
+}

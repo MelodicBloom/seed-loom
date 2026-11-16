@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.1.0",
+  "id": "obs:nightly-2026-11-15-oats-physical-agent-personas",
+  "type": "Observation",
+  "capturedAt": "2026-11-15T19:16:35-05:00",
+  "claim": "OATs demonstrates a physical-object agent persona prototype that maps sensor states to constrained E Ink avatar expressions.",
+  "verifiedFacts": [
+    "WIRED published a report on 15 Nov describing OATs (Object Agent Twins), created by Carnegie Mellon PhD student Daehwa Kim.",
+    "The prototype pairs E Ink displays with sensors for moisture, temperature, humidity, light, occupancy and motion; a web portal configures object identity and sensor selection.",
+    "WIRED reports a main hardware module cost around US$20, battery life of roughly three to four days (about one day with a sound sensor), and use cases including object-use awareness, equipment warnings and personal habit prompts.",
+    "The creator had not decided whether to commercialize kits; the project was presented at UIST in early November."
+  ],
+  "inference": [
+    "Ambient physical personas may make sensor states more legible than a phone dashboard, but behavioral efficacy and trust calibration remain unproven.",
+    "Consultancy implication: prototype one small ambient interface for plant/material care or workshop status, with sensor provenance, neutral-state alternatives, opt-out and no coercive emotional framing.",
+    "Project disposition: Kozo Dreams may INCUBATE one tactile/ambient interaction study; Omni-Loom remains a separate fabrication proof; do not merge identities or claim a product."
+  ],
+  "significance": "AI persona design is moving beyond chat surfaces into persistent physical objects, creating an interaction-design opportunity and a measurable anthropomorphism risk.",
+  "confidence": 0.88,
+  "evidenceMaturity": "candidate",
+  "evidenceClass": "model-capability",
+  "sourceRefs": [
+    "source:oats-wired-2026-11-15"
+  ],
+  "actorRefs": [
+    "actor:daehwa-kim",
+    "actor:carnegie-mellon-future-interfaces-group",
+    "actor:wired"
+  ],
+  "affectedRepositories": [
+    "MelodicBloom/kozo-dreams",
+    "MelodicBloom/omni-loom",
+    "qt314wink/observation-ad-pipeline"
+  ],
+  "assumptions": [
+    "Users can understand sensor-derived states without over-attributing intent or emotion.",
+    "A low-cost single-object demonstrator could be built without creating a new platform."
+  ],
+  "knownLimitations": [
+    "Research prototype, not released product or commercial adoption signal.",
+    "Short reported battery life; no long-term behavior study, privacy assessment, accessibility audit or independent efficacy result.",
+    "Anthropomorphic expressions may increase attachment or trust beyond actual system capability."
+  ],
+  "counterevidenceRefs": [],
+  "approvalState": "candidate"
+}

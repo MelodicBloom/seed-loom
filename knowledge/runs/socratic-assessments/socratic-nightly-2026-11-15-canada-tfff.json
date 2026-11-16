@@ -1,0 +1,115 @@
+{
+  "assessmentId": "socratic:nightly-2026-11-15-canada-tfff",
+  "observationId": "obs:nightly-2026-11-15-canada-tfff-contribution",
+  "questions": [
+    "What changed?",
+    "Whose behavior changed?",
+    "What problem is demonstrated?",
+    "Who benefits?",
+    "What substitute exists?",
+    "What mechanism matters?",
+    "What is the most dangerous assumption?",
+    "What would falsify the interpretation?",
+    "What evidence is missing?",
+    "What simpler explanation competes?"
+  ],
+  "answers": [
+    {
+      "question": "What changed?",
+      "answer": "Canada announced up to C$560 million over four years for the TFFF on 15 Nov.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:canada-tfff-pmo-2026-11-15",
+        "source:canada-tfff-backgrounder-2026-11-14"
+      ]
+    },
+    {
+      "question": "Whose behavior changed?",
+      "answer": "The Canadian government made a new sovereign financing commitment after a meeting between Prime Ministers Carney and Lula.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:canada-tfff-pmo-2026-11-15"
+      ]
+    },
+    {
+      "question": "What problem is demonstrated?",
+      "answer": "The facility is designed to mobilize long-term finance for verified tropical-forest conservation and community benefits; the funding gap is not quantified here.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:canada-tfff-pmo-2026-11-15",
+        "source:canada-tfff-backgrounder-2026-11-14"
+      ]
+    },
+    {
+      "question": "Who benefits?",
+      "answer": "Eligible tropical-forest countries and Indigenous/local communities are intended beneficiaries; at least 20% of conservation payments are directed to the latter.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:canada-tfff-pmo-2026-11-15",
+        "source:canada-tfff-backgrounder-2026-11-14"
+      ]
+    },
+    {
+      "question": "What substitute exists?",
+      "answer": "Project grants, bilateral aid, REDD+ and other climate/nature finance mechanisms can fund conservation, though their structures differ.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:canada-tfff-backgrounder-2026-11-14"
+      ]
+    },
+    {
+      "question": "What mechanism matters?",
+      "answer": "Canada's contribution is a loan from its existing climate-finance envelope; investment returns are intended to fund performance-based conservation payments.",
+      "answerType": "verified",
+      "evidenceRefs": [
+        "source:canada-tfff-backgrounder-2026-11-14"
+      ]
+    },
+    {
+      "question": "What is the most dangerous assumption?",
+      "answer": "Treating the headline as a grant already disbursed or as proof that forest protection and community payments have occurred.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:canada-tfff-pmo-2026-11-15",
+        "source:canada-tfff-backgrounder-2026-11-14"
+      ]
+    },
+    {
+      "question": "What would falsify the interpretation?",
+      "answer": "Failure to reach capitalization and operating requirements, or inability to verify forest outcomes and community allocations, would weaken the mechanism.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:canada-tfff-pmo-2026-11-15",
+        "source:canada-tfff-backgrounder-2026-11-14"
+      ]
+    },
+    {
+      "question": "What evidence is missing?",
+      "answer": "Loan terms and disbursement schedule, final capitalization, operating rules, eligibility, independent forest monitoring and community payment records.",
+      "answerType": "unknown",
+      "evidenceRefs": [
+        "source:canada-tfff-pmo-2026-11-15",
+        "source:canada-tfff-backgrounder-2026-11-14"
+      ]
+    },
+    {
+      "question": "What simpler explanation competes?",
+      "answer": "The announcement may be a financing commitment within an existing climate envelope rather than additional grant money or demonstrated impact.",
+      "answerType": "inferred",
+      "evidenceRefs": [
+        "source:canada-tfff-backgrounder-2026-11-14"
+      ]
+    }
+  ],
+  "dangerousAssumption": "The contribution is new grant money already available for local projects and immediately producing forest outcomes.",
+  "falsifier": "The pledge is not disbursed, the facility cannot mobilize private capital, or conservation payments and community allocations are not verified.",
+  "missingEvidence": [
+    "Loan terms and disbursement",
+    "Capitalization and operating rules",
+    "Eligibility and forest verification",
+    "Community-level payment records"
+  ],
+  "alternativeExplanation": "This may be an existing climate-finance loan routed into a new facility rather than additional grant funding.",
+  "disposition": "strategy-candidate",
+  "confidence": 0.93
+}

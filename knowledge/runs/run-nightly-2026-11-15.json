@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1.1.0",
+  "runId": "run:nightly-2026-11-15",
+  "type": "ResearchRun",
+  "ingestionMode": "delivered",
+  "retrievalWindow": {
+    "from": "2026-11-13T19:16:35-05:00",
+    "to": "2026-11-15T19:16:35-05:00"
+  },
+  "newObservations": [
+    "obs:nightly-2026-11-15-philippines-ai-council",
+    "obs:nightly-2026-11-15-oats-physical-agent-personas",
+    "obs:nightly-2026-11-15-canada-tfff-contribution",
+    "obs:nightly-2026-11-15-liquid-lens-nanoparticle-assembly",
+    "obs:nightly-2026-11-15-goldenberry-waste-carbon-dots"
+  ],
+  "updatedObservations": [],
+  "candidatePatterns": [
+    "Human-supervised AI governance is becoming explicit at policy and product levels; accountability must remain separate from anthropomorphic persona design.",
+    "Ambient interfaces turn sensor readings into human-facing state cues; provenance, accessibility and trust calibration are core design constraints.",
+    "Recent materials research links non-equilibrium assembly and biomass-derived optical sensing; scientific visualization must distinguish measured data, model and artistic rendering."
+  ],
+  "newRelationships": [
+    "rel:nightly-2026-11-15-philippines-supported-by",
+    "rel:nightly-2026-11-15-philippines-applies-seed-loom",
+    "rel:nightly-2026-11-15-oats-supported-by",
+    "rel:nightly-2026-11-15-oats-may-enable-kozo",
+    "rel:nightly-2026-11-15-tfff-supported-by",
+    "rel:nightly-2026-11-15-tfff-may-enable-obsad",
+    "rel:nightly-2026-11-15-liquid-lens-supported-by",
+    "rel:nightly-2026-11-15-liquid-lens-applies-shader-grammar",
+    "rel:nightly-2026-11-15-goldenberry-supported-by",
+    "rel:nightly-2026-11-15-goldenberry-applies-obsad"
+  ],
+  "contradictions": [],
+  "opportunities": [
+    "Candidate service: jurisdiction-aware AI governance evidence mapping for government-facing suppliers and SMEs; legal interpretation excluded.",
+    "Candidate demo: one bounded ambient-object interface for plant care or workshop status, with deterministic sensor-to-state mapping, consent and uncertainty.",
+    "Candidate service: evidence-led scientific and regenerative-material storytelling that preserves microscopy, model parameters, optical measurements and lifecycle limitations."
+  ],
+  "proposedExperiments": [
+    "Ambient object-agent prototype: one object, one sensor, three deterministic states, opt-out and a seven-day comprehension/trust test comparing neutral labels with restrained avatar cues; no autonomous action.",
+    "Liquid-lens material visualization: attributed parameterized explainer of the published morphology sequence; distinguish measured observations from inferred interpolation; no claim of validated physical simulation."
+  ],
+  "repositoryActions": [
+    {
+      "actionId": "action:shader-gallery-crystal-tunnel-seam-qa",
+      "repository": "MelodicBloom/shader-gallery",
+      "status": "proposed",
+      "executed": false,
+      "allowedPaths": [
+        "crystal-tunnel/shaders/**",
+        "crystal-tunnel/tools/**",
+        "crystal-tunnel/HANDOFF.md",
+        "README.md"
+      ],
+      "description": "Resolve Crystal Tunnel v2 seam gap before merge: issue #54 reports wrap_step_ratio_to_mean 1.4249 against <=1.15; produce specified 1080p60 render and real-GPU evidence.",
+      "acceptanceCriteria": [
+        "2400 frames at 60 fps and 40.000 seconds",
+        "seam ratio <=1.15 and seam-check clip inspected",
+        "WebGL2 demo tested on real GPU with measured fps",
+        "human visual approval not claimed until reviewed"
+      ],
+      "stopConditions": [
+        "Do not merge PR #55",
+        "Do not alter unrelated shader studies",
+        "Stop if references or GPU runtime unavailable"
+      ]
+    },
+    {
+      "actionId": "action:obsad-evidence-to-client-artifact-v0",
+      "repository": "qt314wink/observation-ad-pipeline",
+      "status": "proposed",
+      "executed": false,
+      "allowedPaths": [
+        "src/obsad/**",
+        "tests/**",
+        "docs/handoffs/**"
+      ],
+      "description": "Use approved issue #6 as a bounded outward-facing demo compiling one governed evidence corpus into client brief, case-study page, presentation and optional motion artifact without a second source of truth.",
+      "acceptanceCriteria": [
+        "Every substantive claim traces to Seed Loom provenance",
+        "Unsupported claims are zero or explicitly disclosed",
+        "Editable parameters and reviewer corrections preserved",
+        "No new campaign architecture or provider contract without failing test"
+      ],
+      "stopConditions": [
+        "No provider execution or spend",
+        "Do not change task/master-contract authority",
+        "Stop if source authority or reviewer rubric missing"
+      ]
+    }
+  ],
+  "noChangeReceipts": [
+    "Seed Loom main before intake: e1044f60490a634d4ec8bddc43b4d6f9bc071547; nightly writes isolated to this branch.",
+    "Kozo Dreams main latest returned commit 52a5afd7001f485ae0d70d9c2255c6d1f65679a4 (1 Aug); PR #4 remains draft design-intent recovery.",
+    "Omni-Loom main latest returned commit 0bbd92798b3d24285dfa046cfaa020f458d6f362 (4 Aug); merged PR #7 proves deterministic simulated specimen output, not physical fabrication.",
+    "qt314wink/aether main latest returned commit 6a1998b43ad96d7e338c535c432e8f88bc49acaf (7 Jul); no open PRs/issues returned; AETHER observatory QA in shader-grammar remains distinct.",
+    "Design Standards main latest returned commit 1279b0c38cc1183d1c764d5ed7dbc2f91e6660b2 (12 Sep); no recent change identified."
+  ],
+  "collectionFailures": [
+    "Nature Communications full-text retrieval blocked by publisher identity provider; official metadata and abstract/search extract only.",
+    "Raw web source-body hashes unavailable; source contentHash null, no hash fabricated.",
+    "Owner-wide user:qt314wink PR/issue search returned no results; direct repository-scoped searches used for known repositories, so no complete owner-wide absence claim.",
+    "Combined commit-status endpoints returned no entries for Shader Gallery PR #55/#53 or Mochi UI PR #15; CI state remains unknown."
+  ]
+}
