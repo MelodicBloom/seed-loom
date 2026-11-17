@@ -1,0 +1,22 @@
+{
+  "type": "NightlyIntakeCoordinatorReceipt",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-11-17T00:53:52.856Z",
+  "mode": "selected",
+  "selectedBundleCount": 1,
+  "statusCounts": {
+    "BLOCKED_WITH_EXPLICIT_REASON": 1
+  },
+  "overallStatus": "PARTIAL_OR_BLOCKED",
+  "results": [
+    {
+      "status": "BLOCKED_WITH_EXPLICIT_REASON",
+      "runId": "run:nightly:2026-11-16",
+      "bundlePath": "knowledge/intake/nightly/2026-11-16/nightly-run-bundle-2026-11-16.json",
+      "bundleSha256": "c139c90bba0b13239d2d2a5f3fd66133c6c8978a43432221d58b6ed8e8d05406",
+      "normalizedDigest": "8929959bbea1544db6e3fde5f48d77e8b2110e29c5aeb97434aba1932b7812f1",
+      "ingestReceiptPath": "knowledge/receipts/run-nightly-2026-11-16-ingest.json",
+      "reason": "dry-run knowledge/intake/nightly/2026-11-16/nightly-run-bundle-2026-11-16.json failed: file:///home/runner/work/seed-loom/seed-loom/scripts/knowledge/ingest-nightly-run.mjs:71\n    throw new Error(`${label} schema validation failed: ${JSON.stringify(validator.errors)}`);\n          ^\n\nError: obs:nightly:2026-11-16:github-ai-scan schema validation failed: [{\"instancePath\":\"\",\"schemaPath\":\"#/additionalProperties\",\"keyword\":\"additionalProperties\",\"params\":{\"additionalProperty\":\"conf\"},\"message\":\"must NOT have additional properties\"}]\n    at assertValid (file:///home/runner/work/seed-loom/seed-loom/scripts/knowledge/ingest-nightly-run.mjs:71:11)\n    at file:///home/runner/work/seed-loom/seed-loom/scripts/knowledge/ingest-nightly-run.mjs:77:48\n    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v20.20.2"
+    }
+  ]
+}
