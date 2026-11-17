@@ -1,0 +1,1397 @@
+{
+  "run": {
+    "schemaVersion": "1.1.0",
+    "runId": "run:nightly:2026-11-16",
+    "type": "ResearchRun",
+    "ingestionMode": "delivered",
+    "retrievalWindow": {
+      "from": "2026-11-15T00:49:37Z",
+      "to": "2026-11-17T00:49:37Z"
+    },
+    "newObservations": [
+      "obs:nightly:2026-11-16:github-ai-scan",
+      "obs:nightly:2026-11-16:anthropic-capital-demand",
+      "obs:nightly:2026-11-16:nato-cloud-ai-accreditation",
+      "obs:nightly:2026-11-16:regenerative-adoption-barrier",
+      "obs:nightly:2026-11-16:supramolecular-neural-materials"
+    ],
+    "updatedObservations": [],
+    "candidatePatterns": [],
+    "newRelationships": [
+      "rel:nightly:2026-11-16:github-ai-scan",
+      "rel:nightly:2026-11-16:anthropic-capital-demand",
+      "rel:nightly:2026-11-16:nato-cloud-ai-accreditation",
+      "rel:nightly:2026-11-16:regenerative-adoption-barrier",
+      "rel:nightly:2026-11-16:supramolecular-neural-materials"
+    ],
+    "contradictions": [],
+    "opportunities": [
+      "opportunity:governed-agent-evidence-controls",
+      "opportunity:secure-ai-accreditation-evidence",
+      "opportunity:regenerative-adoption-evidence",
+      "opportunity:material-aware-visual-systems"
+    ],
+    "proposedExperiments": [
+      "experiment:ai-scan-baseline",
+      "experiment:regenerative-proof-ledger"
+    ],
+    "repositoryActions": [
+      {
+        "status": "proposed",
+        "executed": false
+      }
+    ],
+    "noChangeReceipts": [
+      "No merge, promotion, deployment, publication, issue closure, or unrelated mutation."
+    ],
+    "collectionFailures": [
+      "Repository watch sampled relevant active portfolio repositories rather than exhaustively diffing every owner repository.",
+      "No live AI Scan result was run on the portfolio."
+    ]
+  },
+  "sources": [
+    {
+      "id": "source:github:ai-scan:2026-11-16",
+      "url": "https://github.blog/changelog/2026-11-16-bulk-start-ai-scan-for-repositories/",
+      "publisher": "GitHub",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "sourceClass": "official",
+      "title": "Bulk start AI Scan for repositories",
+      "independenceKey": "github-ai-scan-20261116",
+      "type": "Source",
+      "retrievedAt": "2026-11-17T00:49:37Z",
+      "contentHash": null
+    },
+    {
+      "id": "source:elpais:anthropic-ipo-demand:2026-11-16",
+      "url": "https://elpais.com/economia/2026-11-16/anthropic-recibe-una-demanda-de-acciones-casi-siete-veces-mayor-a-su-oferta-para-salir-a-Bolsa.html",
+      "publisher": "El País",
+      "publishedAt": "2026-11-16T11:39:00Z",
+      "sourceClass": "press",
+      "title": "Anthropic IPO demand nearly seven times supply",
+      "independenceKey": "elpais-anthropic-demand-20261116",
+      "type": "Source",
+      "retrievedAt": "2026-11-17T00:49:37Z",
+      "contentHash": null
+    },
+    {
+      "id": "source:anthropic:prospectus:2026-11-10",
+      "url": "https://ipo.anthropic.com/documents/us/prospectus.pdf",
+      "publisher": "Anthropic, PBC",
+      "publishedAt": "2026-11-10T00:00:00Z",
+      "sourceClass": "primary",
+      "title": "Anthropic preliminary prospectus",
+      "independenceKey": "anthropic-prospectus-20261110",
+      "type": "Source",
+      "retrievedAt": "2026-11-17T00:49:37Z",
+      "contentHash": null
+    },
+    {
+      "id": "source:microsoft:nato-restricted:2026-11-16",
+      "url": "https://news.microsoft.com/source/emea/features/microsoft-approved-to-support-nato-restricted-workloads-across-cloud-and-ai-infrastructure-and-productivity-services/",
+      "publisher": "Microsoft",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "sourceClass": "official",
+      "title": "Microsoft approved for NATO RESTRICTED workloads",
+      "independenceKey": "microsoft-nato-restricted-20261116",
+      "type": "Source",
+      "retrievedAt": "2026-11-17T00:49:37Z",
+      "contentHash": null
+    },
+    {
+      "id": "source:purina:regenerative-farm-leaders:2026-11-16",
+      "url": "https://newscenter.purina.com/2026-11-16-Purina-and-Farm-Journal-Intelligence-Release-Insights-from-Future-American-Farm-Leaders-on-Regenerative-Agriculture-Perceptions-Key-Adoption-Barriers",
+      "publisher": "Nestlé Purina / Farm Journal Intelligence",
+      "publishedAt": "2026-11-16T13:04:00Z",
+      "sourceClass": "official",
+      "title": "Future farm leaders and regenerative agriculture adoption barriers",
+      "independenceKey": "purina-regenerative-20261116",
+      "type": "Source",
+      "retrievedAt": "2026-11-17T00:49:37Z",
+      "contentHash": null
+    },
+    {
+      "id": "source:northwestern:supramolecular-neurons:2026-11-16",
+      "url": "https://news.feinberg.northwestern.edu/2026/11/16/scientists-unlock-new-level-of-precision-in-supramolecular-materials/",
+      "publisher": "Northwestern University",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "sourceClass": "research",
+      "title": "Precision supramolecular materials and neuronal growth",
+      "independenceKey": "northwestern-supramolecular-neurons-20261116",
+      "type": "Source",
+      "retrievedAt": "2026-11-17T00:49:37Z",
+      "contentHash": null
+    }
+  ],
+  "observations": [
+    {
+      "id": "obs:nightly:2026-11-16:github-ai-scan",
+      "claim": "GitHub expanded repository-wide AI security scanning into a multi-repository control while changing Copilot model availability.",
+      "conf": 0.97,
+      "type": "Observation",
+      "capturedAt": "2026-11-17T00:49:37Z",
+      "verifiedFacts": [
+        "Bulk AI Scan can start across up to 20 repositories.",
+        "AI Scan covers default-branch vulnerabilities and complements CodeQL.",
+        "GitHub deprecated a set of Copilot models on Nov. 16."
+      ],
+      "inference": [
+        "Agent workflows now need security and model-lifecycle controls together.",
+        "Seed Loom’s provenance/receipt boundary is strategically aligned."
+      ],
+      "significance": "Supports a governed agent-workflow service with auditable security and lifecycle controls.",
+      "confidence": 0.97,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "provider-terms",
+      "sourceRefs": [
+        "source:github:ai-scan:2026-11-16"
+      ],
+      "actorRefs": [
+        "actor:github",
+        "actor:security-teams",
+        "actor:agent-builders"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/shader-gallery",
+        "MelodicBloom/melodyfire",
+        "MelodicBloom/mochi-ui"
+      ],
+      "assumptions": [
+        "Portfolio eligibility is not yet verified."
+      ],
+      "knownLimitations": [
+        "No portfolio AI Scan was run; this is a capability signal."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly:2026-11-16:anthropic-capital-demand",
+      "claim": "Reported investor demand for Anthropic’s proposed IPO reached nearly seven times offered shares ahead of pricing.",
+      "conf": 0.9,
+      "type": "Observation",
+      "capturedAt": "2026-11-17T00:49:37Z",
+      "verifiedFacts": [
+        "El País reported nearly 7x demand, up from 6x Friday, citing Bloomberg.",
+        "Anthropic’s prospectus shows 825M shares and a $70–$78 indicative range.",
+        "The structure includes a public-benefit corporation and strategic private placement."
+      ],
+      "inference": [
+        "Capital markets remain willing to fund frontier-AI scale narratives.",
+        "Clients may increasingly demand economically governable AI workflows."
+      ],
+      "significance": "Fresh capital-market evidence for AI demand, vendor scale, and governance pressure.",
+      "confidence": 0.9,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "funding",
+      "sourceRefs": [
+        "source:elpais:anthropic-ipo-demand:2026-11-16",
+        "source:anthropic:prospectus:2026-11-10"
+      ],
+      "actorRefs": [
+        "actor:anthropic",
+        "actor:public-market-investors",
+        "actor:ai-infrastructure-funders"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/melodyfire"
+      ],
+      "assumptions": [
+        "Order-book demand is not realized long-term value."
+      ],
+      "knownLimitations": [
+        "Demand is secondary reporting; final pricing and trading are unknown."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly:2026-11-16:nato-cloud-ai-accreditation",
+      "claim": "Microsoft received approval to support NATO RESTRICTED workloads across cloud, AI infrastructure, and productivity services with mapped evidence and accreditation support.",
+      "conf": 0.96,
+      "type": "Observation",
+      "capturedAt": "2026-11-17T00:49:37Z",
+      "verifiedFacts": [
+        "Microsoft announced NATO RESTRICTED approval on Nov. 16.",
+        "Approval followed security audits against national requirements and NATO D32.",
+        "Microsoft offers reference architecture, mapped evidence, and compliance monitoring."
+      ],
+      "inference": [
+        "High-assurance AI adoption is increasingly an evidence/accreditation problem.",
+        "Evidence architecture is a transferable consultancy capability."
+      ],
+      "significance": "Strong procurement signal for secure AI systems and evidence-driven delivery.",
+      "confidence": 0.96,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "procurement",
+      "sourceRefs": [
+        "source:microsoft:nato-restricted:2026-11-16"
+      ],
+      "actorRefs": [
+        "actor:microsoft",
+        "actor:nato-ncia",
+        "actor:public-sector-buyers",
+        "actor:accreditation-authorities"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/design-standards-2026-2027"
+      ],
+      "assumptions": [
+        "The pattern transfers beyond defense buyers."
+      ],
+      "knownLimitations": [
+        "Vendor announcement; deployment outcomes and ROI are unknown."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly:2026-11-16:regenerative-adoption-barrier",
+      "claim": "New Purina/Farm Journal research finds strong regenerative-agriculture interest among future farm leaders but a persistent business-case and operational-adoption gap.",
+      "conf": 0.93,
+      "type": "Observation",
+      "capturedAt": "2026-11-17T00:49:37Z",
+      "verifiedFacts": [
+        "The survey covered 510 U.S. farmers with at least 250 acres.",
+        "Under-45 enrollment was 46% versus 54% for older farmers.",
+        "Farmers emphasized comparable-farm results, time, economics, and test acreage."
+      ],
+      "inference": [
+        "Regenerative adoption is an evidence-and-decision-design problem, not simply an awareness problem.",
+        "Practical proof, peer evidence, and local economics are likely better service primitives than generic sustainability messaging."
+      ],
+      "significance": "Directly strengthens regenerative evidence/decision-support positioning.",
+      "confidence": 0.93,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "opportunity",
+      "sourceRefs": [
+        "source:purina:regenerative-farm-leaders:2026-11-16"
+      ],
+      "actorRefs": [
+        "actor:purina",
+        "actor:farm-journal-intelligence",
+        "actor:future-farm-leaders",
+        "actor:regenerative-program-providers"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/omni-loom-case-study",
+        "MelodicBloom/adriens-farm"
+      ],
+      "assumptions": [
+        "Sponsored research may reflect program-design interests."
+      ],
+      "knownLimitations": [
+        "Survey is proprietary and not causal field evidence."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    },
+    {
+      "id": "obs:nightly:2026-11-16:supramolecular-neural-materials",
+      "claim": "Northwestern researchers reported precisely patterned supramolecular polymers that enhanced neuronal growth in cell culture.",
+      "conf": 0.94,
+      "type": "Observation",
+      "capturedAt": "2026-11-17T00:49:37Z",
+      "verifiedFacts": [
+        "The Science-published work created long, patterned molecular threads.",
+        "The structures enhanced neuronal growth and synapse formation in cell culture.",
+        "The material uses segmented charge interactions to organize biological interfaces."
+      ],
+      "inference": [
+        "Material topology and dynamic interaction can be co-designed as one system.",
+        "This is useful as a bio-inspired systems-design research motif, not a consciousness or clinical claim."
+      ],
+      "significance": "A credible cross-domain bridge between materials, fabrication, visualization, and systems engineering.",
+      "confidence": 0.94,
+      "evidenceMaturity": "source-backed",
+      "evidenceClass": "peer-reviewed-research",
+      "sourceRefs": [
+        "source:northwestern:supramolecular-neurons:2026-11-16"
+      ],
+      "actorRefs": [
+        "actor:northwestern-researchers",
+        "actor:materials-researchers",
+        "actor:biomedical-engineers"
+      ],
+      "affectedRepositories": [
+        "MelodicBloom/seed-loom",
+        "MelodicBloom/shader-gallery",
+        "MelodicBloom/omni-loom-case-study"
+      ],
+      "assumptions": [
+        "Cell-culture findings do not imply clinical or consciousness effects."
+      ],
+      "knownLimitations": [
+        "Manufacturing, in-vivo performance, and full mechanism remain open."
+      ],
+      "counterevidenceRefs": [],
+      "approvalState": "candidate"
+    }
+  ],
+  "relationships": [
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-11-16:github-ai-scan",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-11-16:github-ai-scan",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:github:ai-scan:2026-11-16",
+      "confidence": 0.97,
+      "evidenceRefs": [
+        "source:github:ai-scan:2026-11-16"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-11-16:anthropic-capital-demand",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-11-16:anthropic-capital-demand",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:elpais:anthropic-ipo-demand:2026-11-16",
+      "confidence": 0.9,
+      "evidenceRefs": [
+        "source:elpais:anthropic-ipo-demand:2026-11-16",
+        "source:anthropic:prospectus:2026-11-10"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-11-16:nato-cloud-ai-accreditation",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-11-16:nato-cloud-ai-accreditation",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:microsoft:nato-restricted:2026-11-16",
+      "confidence": 0.96,
+      "evidenceRefs": [
+        "source:microsoft:nato-restricted:2026-11-16"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-11-16:regenerative-adoption-barrier",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-11-16:regenerative-adoption-barrier",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:purina:regenerative-farm-leaders:2026-11-16",
+      "confidence": 0.93,
+      "evidenceRefs": [
+        "source:purina:regenerative-farm-leaders:2026-11-16"
+      ]
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "id": "rel:nightly:2026-11-16:supramolecular-neural-materials",
+      "type": "Relationship",
+      "from": "obs:nightly:2026-11-16:supramolecular-neural-materials",
+      "predicate": "SUPPORTED_BY",
+      "to": "source:northwestern:supramolecular-neurons:2026-11-16",
+      "confidence": 0.94,
+      "evidenceRefs": [
+        "source:northwestern:supramolecular-neurons:2026-11-16"
+      ]
+    }
+  ],
+  "stageAcks": [
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-11-16:collect",
+      "runId": "run:nightly:2026-11-16",
+      "stage": "collect",
+      "status": "passed",
+      "startedAt": "2026-11-17T00:49:37Z",
+      "completedAt": "2026-11-17T00:49:37Z",
+      "inputs": [
+        "run:nightly:2026-11-16"
+      ],
+      "outputs": [
+        "collect:candidate-only"
+      ],
+      "checks": [
+        {
+          "name": "provenance",
+          "result": "pass"
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance or promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-intelligence-automation",
+        "method": "collect stage",
+        "inputHashes": [
+          "5246517bc2db0b66ad3cbc293f29b5afd67f1699"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-11-16:vet",
+      "runId": "run:nightly:2026-11-16",
+      "stage": "vet",
+      "status": "passed",
+      "startedAt": "2026-11-17T00:49:37Z",
+      "completedAt": "2026-11-17T00:49:37Z",
+      "inputs": [
+        "run:nightly:2026-11-16"
+      ],
+      "outputs": [
+        "vet:candidate-only"
+      ],
+      "checks": [
+        {
+          "name": "provenance",
+          "result": "pass"
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance or promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-intelligence-automation",
+        "method": "vet stage",
+        "inputHashes": [
+          "5246517bc2db0b66ad3cbc293f29b5afd67f1699"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-11-16:normalize",
+      "runId": "run:nightly:2026-11-16",
+      "stage": "normalize",
+      "status": "passed",
+      "startedAt": "2026-11-17T00:49:37Z",
+      "completedAt": "2026-11-17T00:49:37Z",
+      "inputs": [
+        "run:nightly:2026-11-16"
+      ],
+      "outputs": [
+        "normalize:candidate-only"
+      ],
+      "checks": [
+        {
+          "name": "provenance",
+          "result": "pass"
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance or promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-intelligence-automation",
+        "method": "normalize stage",
+        "inputHashes": [
+          "5246517bc2db0b66ad3cbc293f29b5afd67f1699"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-11-16:observe",
+      "runId": "run:nightly:2026-11-16",
+      "stage": "observe",
+      "status": "passed",
+      "startedAt": "2026-11-17T00:49:37Z",
+      "completedAt": "2026-11-17T00:49:37Z",
+      "inputs": [
+        "run:nightly:2026-11-16"
+      ],
+      "outputs": [
+        "observe:candidate-only"
+      ],
+      "checks": [
+        {
+          "name": "provenance",
+          "result": "pass"
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance or promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-intelligence-automation",
+        "method": "observe stage",
+        "inputHashes": [
+          "5246517bc2db0b66ad3cbc293f29b5afd67f1699"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-11-16:inquire",
+      "runId": "run:nightly:2026-11-16",
+      "stage": "inquire",
+      "status": "passed",
+      "startedAt": "2026-11-17T00:49:37Z",
+      "completedAt": "2026-11-17T00:49:37Z",
+      "inputs": [
+        "run:nightly:2026-11-16"
+      ],
+      "outputs": [
+        "inquire:candidate-only"
+      ],
+      "checks": [
+        {
+          "name": "provenance",
+          "result": "pass"
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance or promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-intelligence-automation",
+        "method": "inquire stage",
+        "inputHashes": [
+          "5246517bc2db0b66ad3cbc293f29b5afd67f1699"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-11-16:interpret",
+      "runId": "run:nightly:2026-11-16",
+      "stage": "interpret",
+      "status": "passed",
+      "startedAt": "2026-11-17T00:49:37Z",
+      "completedAt": "2026-11-17T00:49:37Z",
+      "inputs": [
+        "run:nightly:2026-11-16"
+      ],
+      "outputs": [
+        "interpret:candidate-only"
+      ],
+      "checks": [
+        {
+          "name": "provenance",
+          "result": "pass"
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance or promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-intelligence-automation",
+        "method": "interpret stage",
+        "inputHashes": [
+          "5246517bc2db0b66ad3cbc293f29b5afd67f1699"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-11-16:relate",
+      "runId": "run:nightly:2026-11-16",
+      "stage": "relate",
+      "status": "passed",
+      "startedAt": "2026-11-17T00:49:37Z",
+      "completedAt": "2026-11-17T00:49:37Z",
+      "inputs": [
+        "run:nightly:2026-11-16"
+      ],
+      "outputs": [
+        "relate:candidate-only"
+      ],
+      "checks": [
+        {
+          "name": "provenance",
+          "result": "pass"
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance or promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-intelligence-automation",
+        "method": "relate stage",
+        "inputHashes": [
+          "5246517bc2db0b66ad3cbc293f29b5afd67f1699"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-11-16:pattern",
+      "runId": "run:nightly:2026-11-16",
+      "stage": "pattern",
+      "status": "passed",
+      "startedAt": "2026-11-17T00:49:37Z",
+      "completedAt": "2026-11-17T00:49:37Z",
+      "inputs": [
+        "run:nightly:2026-11-16"
+      ],
+      "outputs": [
+        "pattern:candidate-only"
+      ],
+      "checks": [
+        {
+          "name": "provenance",
+          "result": "pass"
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance or promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-intelligence-automation",
+        "method": "pattern stage",
+        "inputHashes": [
+          "5246517bc2db0b66ad3cbc293f29b5afd67f1699"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-11-16:opportunity",
+      "runId": "run:nightly:2026-11-16",
+      "stage": "opportunity",
+      "status": "passed",
+      "startedAt": "2026-11-17T00:49:37Z",
+      "completedAt": "2026-11-17T00:49:37Z",
+      "inputs": [
+        "run:nightly:2026-11-16"
+      ],
+      "outputs": [
+        "opportunity:candidate-only"
+      ],
+      "checks": [
+        {
+          "name": "provenance",
+          "result": "pass"
+        }
+      ],
+      "governance": {
+        "allowedTransition": true,
+        "approvalRequired": false,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance or promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-intelligence-automation",
+        "method": "opportunity stage",
+        "inputHashes": [
+          "5246517bc2db0b66ad3cbc293f29b5afd67f1699"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-11-16:strategy",
+      "runId": "run:nightly:2026-11-16",
+      "stage": "strategy",
+      "status": "passed",
+      "startedAt": "2026-11-17T00:49:37Z",
+      "completedAt": "2026-11-17T00:49:37Z",
+      "inputs": [
+        "run:nightly:2026-11-16"
+      ],
+      "outputs": [
+        "strategy:candidate-only"
+      ],
+      "checks": [
+        {
+          "name": "provenance",
+          "result": "pass"
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance or promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-intelligence-automation",
+        "method": "strategy stage",
+        "inputHashes": [
+          "5246517bc2db0b66ad3cbc293f29b5afd67f1699"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-11-16:experiment",
+      "runId": "run:nightly:2026-11-16",
+      "stage": "experiment",
+      "status": "deferred",
+      "startedAt": "2026-11-17T00:49:37Z",
+      "completedAt": "2026-11-17T00:49:37Z",
+      "inputs": [
+        "run:nightly:2026-11-16"
+      ],
+      "outputs": [
+        "experiment:candidate-only"
+      ],
+      "checks": [
+        {
+          "name": "provenance",
+          "result": "pass"
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance or promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-intelligence-automation",
+        "method": "experiment stage",
+        "inputHashes": [
+          "5246517bc2db0b66ad3cbc293f29b5afd67f1699"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-11-16:genesis",
+      "runId": "run:nightly:2026-11-16",
+      "stage": "genesis",
+      "status": "deferred",
+      "startedAt": "2026-11-17T00:49:37Z",
+      "completedAt": "2026-11-17T00:49:37Z",
+      "inputs": [
+        "run:nightly:2026-11-16"
+      ],
+      "outputs": [
+        "genesis:candidate-only"
+      ],
+      "checks": [
+        {
+          "name": "provenance",
+          "result": "pass"
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance or promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-intelligence-automation",
+        "method": "genesis stage",
+        "inputHashes": [
+          "5246517bc2db0b66ad3cbc293f29b5afd67f1699"
+        ]
+      }
+    },
+    {
+      "schemaVersion": "1.1.0",
+      "ackId": "ack:nightly:2026-11-16:publish",
+      "runId": "run:nightly:2026-11-16",
+      "stage": "publish",
+      "status": "deferred",
+      "startedAt": "2026-11-17T00:49:37Z",
+      "completedAt": "2026-11-17T00:49:37Z",
+      "inputs": [
+        "run:nightly:2026-11-16"
+      ],
+      "outputs": [
+        "publish:candidate-only"
+      ],
+      "checks": [
+        {
+          "name": "provenance",
+          "result": "pass"
+        }
+      ],
+      "governance": {
+        "allowedTransition": false,
+        "approvalRequired": true,
+        "boundaryNotes": [
+          "Candidate-only; no acceptance or promotion."
+        ]
+      },
+      "provenance": {
+        "producer": "nightly-intelligence-automation",
+        "method": "publish stage",
+        "inputHashes": [
+          "5246517bc2db0b66ad3cbc293f29b5afd67f1699"
+        ]
+      }
+    }
+  ],
+  "socraticAssessments": [
+    {
+      "assessmentId": "socratic:nightly:2026-11-16:github-ai-scan",
+      "observationId": "obs:nightly:2026-11-16:github-ai-scan",
+      "questions": [
+        "what changed?",
+        "whose behavior changed?",
+        "what problem is demonstrated?",
+        "who benefits?",
+        "what substitute exists?",
+        "what mechanism matters?",
+        "what is the most dangerous assumption?",
+        "what would falsify the interpretation?",
+        "what evidence is missing?",
+        "what simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "what changed?",
+          "answer": "Fresh provider/research action occurred.",
+          "evidenceRefs": [
+            "source:github:ai-scan:2026-11-16"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "whose behavior changed?",
+          "answer": "The named actor released, funded, approved, or published.",
+          "evidenceRefs": [
+            "source:github:ai-scan:2026-11-16"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "what problem is demonstrated?",
+          "answer": "A concrete operational or research gap is visible.",
+          "evidenceRefs": [
+            "source:github:ai-scan:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "who benefits?",
+          "answer": "Direct users, buyers, researchers, or participants benefit.",
+          "evidenceRefs": [
+            "source:github:ai-scan:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what substitute exists?",
+          "answer": "Existing manual, technical, or capital substitutes remain.",
+          "evidenceRefs": [
+            "source:github:ai-scan:2026-11-16"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "what mechanism matters?",
+          "answer": "The observed mechanism connects action to outcome.",
+          "evidenceRefs": [
+            "source:github:ai-scan:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what is the most dangerous assumption?",
+          "answer": "AI scanning replaces review.",
+          "evidenceRefs": [
+            "source:github:ai-scan:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what would falsify the interpretation?",
+          "answer": "Contrary measured outcomes or failed replication.",
+          "evidenceRefs": [
+            "source:github:ai-scan:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what evidence is missing?",
+          "answer": "Independent outcome, adoption, or replication evidence.",
+          "evidenceRefs": [
+            "source:github:ai-scan:2026-11-16"
+          ],
+          "answerType": "unknown"
+        },
+        {
+          "question": "what simpler explanation competes?",
+          "answer": "Ordinary product, market, program, or research dynamics.",
+          "evidenceRefs": [
+            "source:github:ai-scan:2026-11-16"
+          ],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "AI scanning replaces review.",
+      "falsifier": "Contrary measured outcomes or failed replication.",
+      "missingEvidence": [
+        "Independent outcome, adoption, or replication evidence."
+      ],
+      "alternativeExplanation": "Ordinary product, market, program, or research dynamics.",
+      "disposition": "watch",
+      "confidence": 0.97
+    },
+    {
+      "assessmentId": "socratic:nightly:2026-11-16:anthropic-capital-demand",
+      "observationId": "obs:nightly:2026-11-16:anthropic-capital-demand",
+      "questions": [
+        "what changed?",
+        "whose behavior changed?",
+        "what problem is demonstrated?",
+        "who benefits?",
+        "what substitute exists?",
+        "what mechanism matters?",
+        "what is the most dangerous assumption?",
+        "what would falsify the interpretation?",
+        "what evidence is missing?",
+        "what simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "what changed?",
+          "answer": "Fresh provider/research action occurred.",
+          "evidenceRefs": [
+            "source:elpais:anthropic-ipo-demand:2026-11-16",
+            "source:anthropic:prospectus:2026-11-10"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "whose behavior changed?",
+          "answer": "The named actor released, funded, approved, or published.",
+          "evidenceRefs": [
+            "source:elpais:anthropic-ipo-demand:2026-11-16",
+            "source:anthropic:prospectus:2026-11-10"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "what problem is demonstrated?",
+          "answer": "A concrete operational or research gap is visible.",
+          "evidenceRefs": [
+            "source:elpais:anthropic-ipo-demand:2026-11-16",
+            "source:anthropic:prospectus:2026-11-10"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "who benefits?",
+          "answer": "Direct users, buyers, researchers, or participants benefit.",
+          "evidenceRefs": [
+            "source:elpais:anthropic-ipo-demand:2026-11-16",
+            "source:anthropic:prospectus:2026-11-10"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what substitute exists?",
+          "answer": "Existing manual, technical, or capital substitutes remain.",
+          "evidenceRefs": [
+            "source:elpais:anthropic-ipo-demand:2026-11-16",
+            "source:anthropic:prospectus:2026-11-10"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "what mechanism matters?",
+          "answer": "The observed mechanism connects action to outcome.",
+          "evidenceRefs": [
+            "source:elpais:anthropic-ipo-demand:2026-11-16",
+            "source:anthropic:prospectus:2026-11-10"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what is the most dangerous assumption?",
+          "answer": "Demand equals durable economics.",
+          "evidenceRefs": [
+            "source:elpais:anthropic-ipo-demand:2026-11-16",
+            "source:anthropic:prospectus:2026-11-10"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what would falsify the interpretation?",
+          "answer": "Contrary measured outcomes or failed replication.",
+          "evidenceRefs": [
+            "source:elpais:anthropic-ipo-demand:2026-11-16",
+            "source:anthropic:prospectus:2026-11-10"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what evidence is missing?",
+          "answer": "Independent outcome, adoption, or replication evidence.",
+          "evidenceRefs": [
+            "source:elpais:anthropic-ipo-demand:2026-11-16",
+            "source:anthropic:prospectus:2026-11-10"
+          ],
+          "answerType": "unknown"
+        },
+        {
+          "question": "what simpler explanation competes?",
+          "answer": "Ordinary product, market, program, or research dynamics.",
+          "evidenceRefs": [
+            "source:elpais:anthropic-ipo-demand:2026-11-16",
+            "source:anthropic:prospectus:2026-11-10"
+          ],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Demand equals durable economics.",
+      "falsifier": "Contrary measured outcomes or failed replication.",
+      "missingEvidence": [
+        "Independent outcome, adoption, or replication evidence."
+      ],
+      "alternativeExplanation": "Ordinary product, market, program, or research dynamics.",
+      "disposition": "watch",
+      "confidence": 0.9
+    },
+    {
+      "assessmentId": "socratic:nightly:2026-11-16:nato-cloud-ai-accreditation",
+      "observationId": "obs:nightly:2026-11-16:nato-cloud-ai-accreditation",
+      "questions": [
+        "what changed?",
+        "whose behavior changed?",
+        "what problem is demonstrated?",
+        "who benefits?",
+        "what substitute exists?",
+        "what mechanism matters?",
+        "what is the most dangerous assumption?",
+        "what would falsify the interpretation?",
+        "what evidence is missing?",
+        "what simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "what changed?",
+          "answer": "Fresh provider/research action occurred.",
+          "evidenceRefs": [
+            "source:microsoft:nato-restricted:2026-11-16"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "whose behavior changed?",
+          "answer": "The named actor released, funded, approved, or published.",
+          "evidenceRefs": [
+            "source:microsoft:nato-restricted:2026-11-16"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "what problem is demonstrated?",
+          "answer": "A concrete operational or research gap is visible.",
+          "evidenceRefs": [
+            "source:microsoft:nato-restricted:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "who benefits?",
+          "answer": "Direct users, buyers, researchers, or participants benefit.",
+          "evidenceRefs": [
+            "source:microsoft:nato-restricted:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what substitute exists?",
+          "answer": "Existing manual, technical, or capital substitutes remain.",
+          "evidenceRefs": [
+            "source:microsoft:nato-restricted:2026-11-16"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "what mechanism matters?",
+          "answer": "The observed mechanism connects action to outcome.",
+          "evidenceRefs": [
+            "source:microsoft:nato-restricted:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what is the most dangerous assumption?",
+          "answer": "Evidence guarantees accreditation.",
+          "evidenceRefs": [
+            "source:microsoft:nato-restricted:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what would falsify the interpretation?",
+          "answer": "Contrary measured outcomes or failed replication.",
+          "evidenceRefs": [
+            "source:microsoft:nato-restricted:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what evidence is missing?",
+          "answer": "Independent outcome, adoption, or replication evidence.",
+          "evidenceRefs": [
+            "source:microsoft:nato-restricted:2026-11-16"
+          ],
+          "answerType": "unknown"
+        },
+        {
+          "question": "what simpler explanation competes?",
+          "answer": "Ordinary product, market, program, or research dynamics.",
+          "evidenceRefs": [
+            "source:microsoft:nato-restricted:2026-11-16"
+          ],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Evidence guarantees accreditation.",
+      "falsifier": "Contrary measured outcomes or failed replication.",
+      "missingEvidence": [
+        "Independent outcome, adoption, or replication evidence."
+      ],
+      "alternativeExplanation": "Ordinary product, market, program, or research dynamics.",
+      "disposition": "watch",
+      "confidence": 0.96
+    },
+    {
+      "assessmentId": "socratic:nightly:2026-11-16:regenerative-adoption-barrier",
+      "observationId": "obs:nightly:2026-11-16:regenerative-adoption-barrier",
+      "questions": [
+        "what changed?",
+        "whose behavior changed?",
+        "what problem is demonstrated?",
+        "who benefits?",
+        "what substitute exists?",
+        "what mechanism matters?",
+        "what is the most dangerous assumption?",
+        "what would falsify the interpretation?",
+        "what evidence is missing?",
+        "what simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "what changed?",
+          "answer": "Fresh provider/research action occurred.",
+          "evidenceRefs": [
+            "source:purina:regenerative-farm-leaders:2026-11-16"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "whose behavior changed?",
+          "answer": "The named actor released, funded, approved, or published.",
+          "evidenceRefs": [
+            "source:purina:regenerative-farm-leaders:2026-11-16"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "what problem is demonstrated?",
+          "answer": "A concrete operational or research gap is visible.",
+          "evidenceRefs": [
+            "source:purina:regenerative-farm-leaders:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "who benefits?",
+          "answer": "Direct users, buyers, researchers, or participants benefit.",
+          "evidenceRefs": [
+            "source:purina:regenerative-farm-leaders:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what substitute exists?",
+          "answer": "Existing manual, technical, or capital substitutes remain.",
+          "evidenceRefs": [
+            "source:purina:regenerative-farm-leaders:2026-11-16"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "what mechanism matters?",
+          "answer": "The observed mechanism connects action to outcome.",
+          "evidenceRefs": [
+            "source:purina:regenerative-farm-leaders:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what is the most dangerous assumption?",
+          "answer": "Interest converts with information.",
+          "evidenceRefs": [
+            "source:purina:regenerative-farm-leaders:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what would falsify the interpretation?",
+          "answer": "Contrary measured outcomes or failed replication.",
+          "evidenceRefs": [
+            "source:purina:regenerative-farm-leaders:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what evidence is missing?",
+          "answer": "Independent outcome, adoption, or replication evidence.",
+          "evidenceRefs": [
+            "source:purina:regenerative-farm-leaders:2026-11-16"
+          ],
+          "answerType": "unknown"
+        },
+        {
+          "question": "what simpler explanation competes?",
+          "answer": "Ordinary product, market, program, or research dynamics.",
+          "evidenceRefs": [
+            "source:purina:regenerative-farm-leaders:2026-11-16"
+          ],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Interest converts with information.",
+      "falsifier": "Contrary measured outcomes or failed replication.",
+      "missingEvidence": [
+        "Independent outcome, adoption, or replication evidence."
+      ],
+      "alternativeExplanation": "Ordinary product, market, program, or research dynamics.",
+      "disposition": "watch",
+      "confidence": 0.93
+    },
+    {
+      "assessmentId": "socratic:nightly:2026-11-16:supramolecular-neural-materials",
+      "observationId": "obs:nightly:2026-11-16:supramolecular-neural-materials",
+      "questions": [
+        "what changed?",
+        "whose behavior changed?",
+        "what problem is demonstrated?",
+        "who benefits?",
+        "what substitute exists?",
+        "what mechanism matters?",
+        "what is the most dangerous assumption?",
+        "what would falsify the interpretation?",
+        "what evidence is missing?",
+        "what simpler explanation competes?"
+      ],
+      "answers": [
+        {
+          "question": "what changed?",
+          "answer": "Fresh provider/research action occurred.",
+          "evidenceRefs": [
+            "source:northwestern:supramolecular-neurons:2026-11-16"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "whose behavior changed?",
+          "answer": "The named actor released, funded, approved, or published.",
+          "evidenceRefs": [
+            "source:northwestern:supramolecular-neurons:2026-11-16"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "what problem is demonstrated?",
+          "answer": "A concrete operational or research gap is visible.",
+          "evidenceRefs": [
+            "source:northwestern:supramolecular-neurons:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "who benefits?",
+          "answer": "Direct users, buyers, researchers, or participants benefit.",
+          "evidenceRefs": [
+            "source:northwestern:supramolecular-neurons:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what substitute exists?",
+          "answer": "Existing manual, technical, or capital substitutes remain.",
+          "evidenceRefs": [
+            "source:northwestern:supramolecular-neurons:2026-11-16"
+          ],
+          "answerType": "verified"
+        },
+        {
+          "question": "what mechanism matters?",
+          "answer": "The observed mechanism connects action to outcome.",
+          "evidenceRefs": [
+            "source:northwestern:supramolecular-neurons:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what is the most dangerous assumption?",
+          "answer": "Cell effects imply broad biological outcomes.",
+          "evidenceRefs": [
+            "source:northwestern:supramolecular-neurons:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what would falsify the interpretation?",
+          "answer": "Contrary measured outcomes or failed replication.",
+          "evidenceRefs": [
+            "source:northwestern:supramolecular-neurons:2026-11-16"
+          ],
+          "answerType": "inferred"
+        },
+        {
+          "question": "what evidence is missing?",
+          "answer": "Independent outcome, adoption, or replication evidence.",
+          "evidenceRefs": [
+            "source:northwestern:supramolecular-neurons:2026-11-16"
+          ],
+          "answerType": "unknown"
+        },
+        {
+          "question": "what simpler explanation competes?",
+          "answer": "Ordinary product, market, program, or research dynamics.",
+          "evidenceRefs": [
+            "source:northwestern:supramolecular-neurons:2026-11-16"
+          ],
+          "answerType": "inferred"
+        }
+      ],
+      "dangerousAssumption": "Cell effects imply broad biological outcomes.",
+      "falsifier": "Contrary measured outcomes or failed replication.",
+      "missingEvidence": [
+        "Independent outcome, adoption, or replication evidence."
+      ],
+      "alternativeExplanation": "Ordinary product, market, program, or research dynamics.",
+      "disposition": "watch",
+      "confidence": 0.94
+    }
+  ]
+}
