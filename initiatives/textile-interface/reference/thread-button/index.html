@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Textile Interface — Core ThreadButton</title>
+  <link rel="stylesheet" href="../../generated/textile.css" />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 2rem;
+      color: var(--til-color-ink);
+      background: var(--til-color-linen);
+      font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    }
+    main { width: min(100%, 42rem); }
+    h1 { margin: 0 0 1rem; font: 700 clamp(2.5rem, 8vw, 5rem)/.95 Georgia, serif; }
+    .thread-button {
+      min-height: 3rem;
+      padding: .75rem 1.1rem;
+      border: var(--til-thread-button-border) dashed var(--til-color-indigo);
+      border-radius: var(--til-thread-button-radius);
+      color: var(--til-color-indigo);
+      background: var(--til-color-surface);
+      font: inherit;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 calc(3px + var(--til-thread-button-tension) * 2px)
+        calc(8px + var(--til-thread-button-elasticity) * 4px) rgb(44 44 44 / 12%);
+      transition:
+        transform var(--til-thread-button-duration) var(--til-thread-button-easing),
+        color var(--til-thread-button-duration) var(--til-thread-button-easing),
+        background-color var(--til-thread-button-duration) var(--til-thread-button-easing),
+        border-style var(--til-thread-button-duration) var(--til-thread-button-easing);
+      transition-duration: calc(var(--til-thread-button-duration) * (.7 + var(--til-thread-button-recovery) * .3));
+    }
+    .thread-button:hover { border-style: solid; }
+    .thread-button:active {
+      transform: translateY(calc(var(--til-thread-button-compression) * 2px))
+        scale(var(--til-thread-button-press-scale));
+    }
+    .thread-button:focus-visible { outline: 3px solid var(--til-color-focus); outline-offset: 4px; }
+    .thread-button[data-state="committed"] { color: white; background: var(--til-color-indigo); border-style: solid; }
+    .evidence { margin-top: 2rem; padding: 1rem; border-left: 4px solid var(--til-color-indigo); background: var(--til-color-surface); }
+    @media (prefers-reduced-motion: reduce) {
+      .thread-button { transition: none; }
+      .thread-button:active { transform: none; }
+    }
+    @media (forced-colors: active) {
+      .thread-button { border-style: solid; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p><strong>TIL-COMP-THREAD-BUTTON-001</strong> · Core fidelity · generated values only</p>
+    <h1>ThreadButton</h1>
+    <p>The commit action is expressed as a stitch: readiness tightens the boundary; activation settles into a persistent state.</p>
+    <button class="thread-button" type="button" data-state="loose" aria-pressed="false">Stitch commitment</button>
+    <p id="button-status" aria-live="polite">Not committed.</p>
+    <section class="evidence" aria-label="Generated source evidence">
+      <strong>Source chain</strong>
+      <p><code>textile.tokens.json → generate_textile_adapters.py → textile.css → ThreadButton</code></p>
+      <p><a class="suite-link" href="../../workshop/README.md">Material prompt suite and implementation map</a></p>
+      <p>Core CSS affordances only. Yarn geometry, fibers, calibrated cloth mechanics, and the workshop scenes remain planned.</p>
+    </section>
+  </main>
+  <script>
+    const button = document.querySelector('.thread-button');
+    const status = document.getElementById('button-status');
+    button.addEventListener('click', () => {
+      const committed = button.getAttribute('aria-pressed') === 'true';
+      const next = !committed;
+      button.setAttribute('aria-pressed', String(next));
+      button.dataset.state = next ? 'committed' : 'loose';
+      // Toggle name remains stable; aria-pressed and status carry the state.
+      status.textContent = next ? 'Commitment stitched.' : 'Commitment removed.';
+    });
+  </script>
+</body>
+</html>
