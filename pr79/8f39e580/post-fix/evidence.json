@@ -1,0 +1,144 @@
+{
+  "kind": "local browser evidence, not hosted production verification",
+  "timestamp_utc": "2026-11-22T22:03:11.138571+00:00",
+  "github_sha": "uncommitted-local-run",
+  "status": "complete",
+  "diagnostic_only": false,
+  "error": null,
+  "expected_check_count": 17,
+  "completed_check_count": 17,
+  "run_id": "20261122T220309218597",
+  "environment": {
+    "python": "3.13.5",
+    "playwright": "1.55.0",
+    "chromiumExecutableOverride": "none; Playwright bundled browser",
+    "browserVersion": "140.0.7339.16"
+  },
+  "screenshots_sha256": {
+    "desktop-committed.png": "998e00d8b6d69d972e19564c7a3ff096c3ca5d715149038690769a18701462d2",
+    "desktop-default.png": "0f65ffd98bd396ac60333b65b2b6f5a3e8d56f8c735946e7d74f6f26042480ae",
+    "desktop-forced-colors.png": "068e24c8cfe4a72873aed9aaf9cff24391d09a814233e8de28ddaeb9a1b49f7a",
+    "desktop-keyboard-focus.png": "a70a504c9192734de2667bcccc27de6fff4d6894fe5af49c9aecfc7da0b02b2c",
+    "desktop-reduced-motion.png": "0f65ffd98bd396ac60333b65b2b6f5a3e8d56f8c735946e7d74f6f26042480ae",
+    "mobile-committed.png": "e77300a22c67b16bcd62ff7f76aec98197136888b33292c25d0940e6ea93cd74",
+    "mobile-default.png": "66f6fecab273ccc6803b4c530bedc482af234cfc08a4190209ed10c10129fbee"
+  },
+  "source_sha256": {
+    "initiatives/textile-interface/reference/thread-button/index.html": "95b4c5b7d91e9afea2ee7ba6029aa38e21fe63ea5bbadf0f4b10a66f0bc56242",
+    "initiatives/textile-interface/generated/textile.css": "97b568c2c4db3215da90314e7385cc140357268791da0390ef672e1251ff5c0c",
+    "initiatives/textile-interface/tokens/textile.tokens.json": "4d0f2a1f2e20f623116d517c7f1f304a408f380153573b91d1029019a627ff66",
+    "initiatives/textile-interface/workshop/registry.json": "93aec643f1c49014da76d309b0688abdb111d946c0111936b476a573122733e2",
+    "scripts/verify_textile_visual.py": "d7366e416e61b905af74b05fb4bb896a826e5abb049f0c6fee562db1a59db4cb"
+  },
+  "checks": [
+    {
+      "name": "generated stylesheet is loaded",
+      "passed": true,
+      "observation": {
+        "tension": "0.42",
+        "radius": "12px",
+        "border": "2px"
+      }
+    },
+    {
+      "name": "default button semantics",
+      "passed": true,
+      "observation": "false"
+    },
+    {
+      "name": "suite is linked from the Core workflow",
+      "passed": true,
+      "observation": "Core reference -> workshop suite"
+    },
+    {
+      "name": "normalized force mappings affect CSS",
+      "passed": true,
+      "observation": {
+        "shadow": "rgba(44, 44, 44, 0.12) 0px 3.84px 9.44px 0px",
+        "duration": "0.16164s"
+      }
+    },
+    {
+      "name": "compression and press scale reach active geometry",
+      "passed": true,
+      "observation": "matrix(0.97, 0, 0, 0.97, 0, 0.52)"
+    },
+    {
+      "name": "pointer activation",
+      "passed": true,
+      "observation": "Commitment stitched."
+    },
+    {
+      "name": "toggle accessible name remains stable",
+      "passed": true,
+      "observation": "Stitch commitment"
+    },
+    {
+      "name": "reversible activation",
+      "passed": true,
+      "observation": "false"
+    },
+    {
+      "name": "no page script errors",
+      "passed": true,
+      "observation": []
+    },
+    {
+      "name": "keyboard visible focus",
+      "passed": true,
+      "observation": {
+        "active": true,
+        "outline": "3px"
+      }
+    },
+    {
+      "name": "Enter activates",
+      "passed": true,
+      "observation": "true"
+    },
+    {
+      "name": "Space reverses",
+      "passed": true,
+      "observation": "false"
+    },
+    {
+      "name": "reduced motion disables transition",
+      "passed": true,
+      "observation": "0s"
+    },
+    {
+      "name": "forced-colors border stays visible",
+      "passed": true,
+      "observation": "solid"
+    },
+    {
+      "name": "375px layout does not overflow",
+      "passed": true,
+      "observation": {
+        "viewport": 375,
+        "document": 375,
+        "buttonWidth": 190,
+        "buttonHeight": 48
+      }
+    },
+    {
+      "name": "touch target >= 48px",
+      "passed": true,
+      "observation": {
+        "viewport": 375,
+        "document": 375,
+        "buttonWidth": 190,
+        "buttonHeight": 48
+      }
+    },
+    {
+      "name": "touch activation",
+      "passed": true,
+      "observation": "true"
+    }
+  ],
+  "summary": {
+    "passed": 17,
+    "failed": 0
+  }
+}
