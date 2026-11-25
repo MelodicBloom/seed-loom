@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_a087748a4ff68517",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-11-25T16:27:38.097788Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "Kaleidoscope",
+    "commit_sha": "2026-11-24T18:20:01Z",
+    "ref": "master"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1433871557,
+    "github_node_id": "R_kgDOVXckxQ",
+    "language": "JavaScript",
+    "archived": false,
+    "private": false,
+    "fork": true,
+    "description": "Audio Kaleidoscope thing made with AI help",
+    "pushed_at": "2026-11-24T18:20:01Z",
+    "created_at": "2026-10-26T03:47:47Z",
+    "open_issues_count": 0
+  }
+}

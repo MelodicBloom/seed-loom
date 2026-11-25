@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_991f64546433125d",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-11-25T16:27:38.098186Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "OpenPBR-viewer",
+    "commit_sha": "2026-11-25T02:55:13Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1433899777,
+    "github_node_id": "R_kgDOVXeTAQ",
+    "language": "Wolfram Language",
+    "archived": false,
+    "private": false,
+    "fork": true,
+    "description": "An example implementation of OpenPBR in a WebGL pathtracer",
+    "pushed_at": "2026-11-25T02:55:13Z",
+    "created_at": "2026-10-26T04:26:50Z",
+    "open_issues_count": 2
+  }
+}
