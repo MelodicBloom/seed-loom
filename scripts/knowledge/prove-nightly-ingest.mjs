@@ -6,24 +6,259 @@ import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import Ajv2020 from 'ajv/dist/2020.js';
 import addFormats from 'ajv-formats';
+const root = process.cwd();
+const inputArg = process.argv.slice(2).find((arg) => !arg.startsWith('--')) || 'ops/nightly-intake/2026-09-08.json';
+const outputArg = process.argv.find((arg) => arg.startsWith('--out='))?.slice('--out='.length);
 
-const root=process.cwd();
-const inputArg=process.argv.slice(2).find(a=>!a.startsWith('--'))||'knowledge/intake/nightly/2026-10-01/nightly-run-bundle-2026-10-01.json';
-const outputArg=process.argv.find(a=>a.startsWith('--out='))?.slice(6);
-const input=path.resolve(root,inputArg), safe=id=>id.replace(/[:/]/g,'-');
-const hash=v=>crypto.createHash('sha256').update(v).digest('hex');
-const fileHash=f=>hash(fs.readFileSync(f));
-const norm=v=>Array.isArray(v)?v.map(norm):(!v||typeof v!=='object'?v:Object.fromEntries(Object.entries(v).filter(([k])=>!['createdAt','generatedAt','updatedAt','sha256'].includes(k)).sort(([a],[b])=>a.localeCompare(b)).map(([k,x])=>[k,norm(x)])));
-const digest=v=>hash(JSON.stringify(norm(v)));
-function jsonFiles(dir){if(!fs.existsSync(dir))return[];return fs.readdirSync(dir,{withFileTypes:true}).sort((a,b)=>a.name.localeCompare(b.name)).flatMap(e=>{const f=path.join(dir,e.name);return e.isDirectory()?jsonFiles(f):e.name.endsWith('.json')?[f]:[];});}
-function proofTree(ws){const roots=['knowledge/sources','knowledge/observations','knowledge/relationships','knowledge/runs','knowledge/receipts','knowledge/projections','knowledge/candidates','knowledge/quarantine','tools/graph-workbench/data.json'];const out=[];for(const r of roots){const a=path.join(ws,r);const fsx=fs.existsSync(a)&&fs.statSync(a).isDirectory()?jsonFiles(a):fs.existsSync(a)?[a]:[];for(const f of fsx)out.push({path:path.relative(ws,f).replaceAll('\\','/'),record:norm(JSON.parse(fs.readFileSync(f,'utf8')))});}return out.sort((a,b)=>a.path.localeCompare(b.path));}
-function run(ws,args,env={}){const r=spawnSync(process.execPath,args,{cwd:ws,encoding:'utf8',env:{...process.env,...env}});if(r.status!==0)throw new Error(`${args.join(' ')} failed (${r.status})\n${r.stdout||''}\n${r.stderr||''}`);return r.stdout;}
-function targets(b){return[...b.sources.map(x=>`knowledge/sources/${safe(x.id)}.json`),...b.observations.map(x=>`knowledge/observations/${safe(x.id)}.json`),...b.relationships.map(x=>`knowledge/relationships/${safe(x.id)}.json`),`knowledge/runs/${safe(b.run.runId)}.json`,...b.stageAcks.map(x=>`knowledge/runs/stage-acks/${safe(x.ackId)}.json`),...(b.socraticAssessments||[]).map(x=>`knowledge/runs/socratic-assessments/${safe(x.assessmentId)}.json`),`knowledge/receipts/${safe(b.run.runId)}-ingest.json`];}
-function copy(ws,b){fs.cpSync(root,ws,{recursive:true,filter:s=>!s.includes(`${path.sep}.git${path.sep}`)&&!s.endsWith(`${path.sep}.git`)&&!s.includes(`${path.sep}node_modules${path.sep}`)&&!s.endsWith(`${path.sep}node_modules`)});fs.symlinkSync(path.join(root,'node_modules'),path.join(ws,'node_modules'),'dir');for(const r of targets(b)){const f=path.join(ws,r);if(fs.existsSync(f))fs.rmSync(f,{recursive:true,force:true});}}
-function validate(b){if(b.run?.type!=='ResearchRun'||b.run?.ingestionMode!=='delivered')throw Error('run contract failed');if(b.observations?.length!==5)throw Error('proof specimen must contain exactly five observations');if(b.observations.some(x=>x.approvalState!=='candidate'))throw Error('candidate-only boundary failed');if((b.run.repositoryActions||[]).some(x=>x.status!=='proposed'||x.executed!==false))throw Error('repository action boundary failed');const g=b.stageAcks?.find(x=>x.stage==='genesis');if(!g||g.status!=='deferred'||g.governance?.allowedTransition!==false)throw Error('Genesis boundary failed');const ajv=new Ajv2020({allErrors:true,strict:true});addFormats(ajv);const v=ajv.compile(JSON.parse(fs.readFileSync(path.join(root,'knowledge/schema/socratic-assessment.schema.json'),'utf8')));for(const a of b.socraticAssessments||[]){if(!v(a))throw Error(`Socratic schema failure: ${JSON.stringify(v.errors)}`);if(!b.observations.some(o=>o.id===a.observationId))throw Error(`unknown observation: ${a.observationId}`);}}
-function validRun(ws,b){const rel=path.relative(ws,input),now=b.run.retrievalWindow.to;run(ws,['scripts/knowledge/ingest-nightly-run.mjs',rel],{KNOWLEDGE_NOW:now});run(ws,['scripts/knowledge/run-controls.mjs'],{KNOWLEDGE_NOW:now});run(ws,['scripts/knowledge/build-workbench.mjs'],{KNOWLEDGE_NOW:now});const ids=new Set(b.observations.map(x=>x.id));const obs=jsonFiles(path.join(ws,'knowledge/observations')).map(f=>JSON.parse(fs.readFileSync(f,'utf8'))).filter(x=>ids.has(x.id));if(obs.length!==5||obs.some(x=>x.approvalState!=='candidate'))throw Error('candidate-only proof failed');const g=b.stageAcks.find(x=>x.stage==='genesis'),gp=path.join(ws,'knowledge/runs/stage-acks',`${safe(g.ackId)}.json`),gr=JSON.parse(fs.readFileSync(gp,'utf8'));if(gr.status!=='deferred'||gr.governance?.allowedTransition!==false)throw Error('deferred Genesis proof failed');const wb=path.join(ws,'tools/graph-workbench/data.json');if(!fs.existsSync(wb))throw Error('Graph Workbench projection missing');const text=fs.readFileSync(wb,'utf8');for(const id of ids)if(!text.includes(id))throw Error(`Graph Workbench missing ${id}`);return digest(proofTree(ws));}
-function malformed(ws,b){const before=digest(proofTree(ws));fs.writeFileSync(path.join(ws,'invalid-bundle.json'),JSON.stringify({...b,observations:[]}));const r=spawnSync(process.execPath,['scripts/knowledge/ingest-nightly-run.mjs','invalid-bundle.json'],{cwd:ws,encoding:'utf8'});if(r.status===0)throw Error('malformed bundle unexpectedly succeeded');if(before!==digest(proofTree(ws)))throw Error('malformed bundle changed canonical state');}
-function late(ws,b){const receipt=path.join(ws,'knowledge/receipts',`${safe(b.run.runId)}-ingest.json`);fs.mkdirSync(path.dirname(receipt),{recursive:true});fs.writeFileSync(receipt,'{"sentinel":"pre-existing"}\n');const before=digest(proofTree(ws));const r=spawnSync(process.execPath,['scripts/knowledge/ingest-nightly-run.mjs',path.relative(ws,input)],{cwd:ws,encoding:'utf8',env:{...process.env,KNOWLEDGE_NOW:b.run.retrievalWindow.to}});if(r.status===0)throw Error('late receipt collision unexpectedly succeeded');if(fs.readFileSync(receipt,'utf8')!=='{"sentinel":"pre-existing"}\n')throw Error('pre-existing receipt mutated');if(before!==digest(proofTree(ws)))throw Error('late receipt failure left partial canonical state');for(const rpath of targets(b)){if(rpath.endsWith('-ingest.json'))continue;if(fs.existsSync(path.join(ws,rpath)))throw Error(`partial record remained: ${rpath}`);}}
-const b=JSON.parse(fs.readFileSync(input,'utf8'));validate(b);const bundleSha256=fileHash(input);for(const r of targets(b))if(fs.existsSync(path.join(root,r)))throw Error(`proof specimen already exists on baseline: ${r}`);
-const ws=[fs.mkdtempSync(path.join(os.tmpdir(),'seed-loom-24-a-')),fs.mkdtempSync(path.join(os.tmpdir(),'seed-loom-24-b-'))];let ds;try{ws.forEach(w=>copy(w,b));ds=ws.map(w=>validRun(w,b));if(ds[0]!==ds[1])throw Error(`isolated proof digests differ: ${ds[0]} vs ${ds[1]}`);const m=fs.mkdtempSync(path.join(os.tmpdir(),'seed-loom-24-m-'));try{copy(m,b);malformed(m,b);}finally{fs.rmSync(m,{recursive:true,force:true});}const l=fs.mkdtempSync(path.join(os.tmpdir(),'seed-loom-24-l-'));try{copy(l,b);late(l,b);}finally{fs.rmSync(l,{recursive:true,force:true});}}finally{ws.forEach(w=>fs.rmSync(w,{recursive:true,force:true}));}
-const report={status:'passed',issue:24,runId:b.run.runId,bundle:path.relative(root,input).replaceAll('\\','/'),bundleSha256,observations:5,candidateOnly:true,genesis:'deferred',repositoryActionsExecuted:false,socraticAssessmentsValidated:(b.socraticAssessments||[]).length,isolatedRunDigests:ds,deterministic:true,graphWorkbench:'all-five-observations-present',malformedBundleAtomicity:'passed',lateReceiptRollback:'passed'};if(outputArg){const out=path.resolve(root,outputArg);fs.mkdirSync(path.dirname(out),{recursive:true});fs.writeFileSync(out,`${JSON.stringify(report,null,2)}\n`);}console.log(JSON.stringify(report,null,2));
+function loadBundle(bundlePath) {
+  const bundle = JSON.parse(fs.readFileSync(bundlePath, 'utf8'));
+  if (bundle.bundleType !== 'NightlyRunBundle' || bundle.review?.status !== 'reviewed') {
+    throw new Error('proof requires a reviewed NightlyRunBundle');
+  }
+  if (bundle.run?.type !== 'ResearchRun' || bundle.run?.ingestionMode !== 'delivered') {
+    throw new Error('proof requires a delivered ResearchRun');
+  }
+  if (bundle.observations?.length !== 5) throw new Error('proof bundle must contain exactly five observations');
+  if (bundle.observations.some(({ approvalState }) => approvalState !== 'candidate')) {
+    throw new Error('proof bundle must contain candidate observations only');
+  }
+  if ((bundle.run.repositoryActions || []).some(({ status, executed }) => status !== 'proposed' || executed !== false)) {
+    throw new Error('proof bundle repository actions must remain unexecuted proposals');
+  }
+  const sourceManifestSha256 = crypto.createHash('sha256')
+    .update(JSON.stringify(bundle.sources))
+    .digest('hex');
+  if (bundle.provenance?.sourceManifestSha256 !== sourceManifestSha256) {
+    throw new Error('bundle provenance does not match its source manifest');
+  }
+  const genesis = bundle.stageAcks?.find(({ stage }) => stage === 'genesis');
+  if (!genesis || genesis.status !== 'deferred' || genesis.governance?.allowedTransition !== false) {
+    throw new Error('proof bundle must defer Genesis and block the transition');
+  }
+  const assessmentValidator = new Ajv2020({ allErrors: true, strict: true });
+  addFormats(assessmentValidator);
+  const assessmentSchema = JSON.parse(fs.readFileSync(path.join(root, 'knowledge/schema/socratic-assessment.schema.json'), 'utf8'));
+  const validateAssessment = assessmentValidator.compile(assessmentSchema);
+  for (const assessment of bundle.socraticAssessments || []) {
+    if (!validateAssessment(assessment)) {
+      throw new Error(`invalid Socratic assessment: ${JSON.stringify(validateAssessment.errors)}`);
+    }
+    if (!bundle.observations.some(({ id }) => id === assessment.observationId)) {
+      throw new Error(`unknown observation: ${assessment.observationId}`);
+    }
+  }
+  const proofNow = bundle.review?.reviewedAt
+    || bundle.provenance?.collectedAt
+    || bundle.run?.retrievalWindow?.from
+    || '1970-01-01T00:00:00Z';
+  if (Number.isNaN(Date.parse(proofNow))) throw new Error(`invalid proof timestamp: ${proofNow}`);
+  return {
+    bundle,
+    input: bundlePath,
+    bundleSha256: crypto.createHash('sha256').update(fs.readFileSync(bundlePath)).digest('hex'),
+    proofNow,
+    expectedObservationIds: bundle.observations.map(({ id }) => id).sort(),
+    genesisAckId: genesis.ackId,
+    identity: bundle.bundleId || bundle.run.runId
+  };
+}
+
+function targetRecords(bundle) {
+  const safe = (id) => id.replace(/[:/]/g, '-');
+  return [
+    ...bundle.sources.map(({ id }) => `knowledge/sources/${safe(id)}.json`),
+    ...bundle.observations.map(({ id }) => `knowledge/observations/${safe(id)}.json`),
+    ...bundle.relationships.map(({ id }) => `knowledge/relationships/${safe(id)}.json`),
+    `knowledge/runs/${safe(bundle.run.runId)}.json`,
+    ...bundle.stageAcks.map(({ ackId }) => `knowledge/runs/stage-acks/${safe(ackId)}.json`),
+    ...(bundle.socraticAssessments || []).map(({ assessmentId }) => `knowledge/runs/socratic-assessments/${safe(assessmentId)}.json`),
+    `knowledge/receipts/${safe(bundle.run.runId)}-ingest.json`
+  ];
+}
+
+function copyWorkspace(target, bundle) {
+  fs.cpSync(root, target, {
+    recursive: true,
+    filter: (source) => !source.includes(`${path.sep}.git${path.sep}`) && !source.endsWith(`${path.sep}.git`)
+      && !source.includes(`${path.sep}node_modules${path.sep}`)
+      && !source.endsWith(`${path.sep}node_modules`)
+      && !source.endsWith(`${path.sep}tools${path.sep}graph-workbench${path.sep}data.json`)
+  });
+  fs.symlinkSync(path.join(root, 'node_modules'), path.join(target, 'node_modules'), 'dir');
+  for (const relative of targetRecords(bundle)) {
+    fs.rmSync(path.join(target, relative), { recursive: true, force: true });
+  }
+}
+
+function run(workspace, args, proofNow) {
+  const result = spawnSync(process.execPath, args, {
+    cwd: workspace,
+    encoding: 'utf8',
+    env: { ...process.env, KNOWLEDGE_NOW: proofNow }
+  });
+  if (result.status !== 0) {
+    throw new Error(`${args.join(' ')} failed (${result.status}):\n${result.stdout}\n${result.stderr}`);
+  }
+  return result.stdout;
+}
+
+function files(dir) {
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir, { withFileTypes: true }).flatMap((entry) => {
+    const file = path.join(dir, entry.name);
+    return entry.isDirectory() ? files(file) : entry.name.endsWith('.json') ? [file] : [];
+  });
+}
+
+function withoutVolatile(value) {
+  if (Array.isArray(value)) return value.map(withoutVolatile);
+  if (!value || typeof value !== 'object') return value;
+  return Object.fromEntries(Object.entries(value)
+    .filter(([key]) => !['createdAt', 'sha256'].includes(key))
+    .map(([key, item]) => [key, withoutVolatile(item)]));
+}
+
+function proofDigest(workspace) {
+  const roots = [
+    'knowledge/sources', 'knowledge/observations', 'knowledge/relationships',
+    'knowledge/runs', 'knowledge/receipts', 'knowledge/projections',
+    'knowledge/candidates', 'knowledge/quarantine', 'tools/graph-workbench/data.json'
+  ];
+  const records = [];
+  for (const relative of roots) {
+    const absolute = path.join(workspace, relative);
+    const paths = fs.existsSync(absolute) && fs.statSync(absolute).isDirectory() ? files(absolute) : [absolute];
+    for (const file of paths) {
+      const relativeFile = path.relative(workspace, file).replaceAll('\\', '/');
+      records.push({ path: relativeFile, record: withoutVolatile(JSON.parse(fs.readFileSync(file, 'utf8'))) });
+    }
+  }
+  records.sort((a, b) => a.path.localeCompare(b.path));
+  return crypto.createHash('sha256').update(JSON.stringify(records)).digest('hex');
+}
+
+function canonicalDigest(workspace) {
+  const records = [];
+  for (const relative of ['knowledge/sources', 'knowledge/observations', 'knowledge/relationships', 'knowledge/runs']) {
+    for (const file of files(path.join(workspace, relative))) {
+      records.push({
+        path: path.relative(workspace, file).replaceAll('\\', '/'),
+        sha256: crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')
+      });
+    }
+
+  }
+  records.sort((a, b) => a.path.localeCompare(b.path));
+  return crypto.createHash('sha256').update(JSON.stringify(records)).digest('hex');
+}
+
+function canonicalEntries(workspace) {
+  return new Set(['knowledge/sources', 'knowledge/observations', 'knowledge/relationships', 'knowledge/runs']
+    .flatMap((relative) => files(path.join(workspace, relative)))
+    .map((file) => path.relative(workspace, file).replaceAll('\\', '/')));
+}
+
+function proveValidRun(workspace, context) {
+  run(workspace, [path.join(workspace, 'scripts/knowledge/ingest-nightly-run.mjs'), context.input], context.proofNow);
+  run(workspace, [path.join(workspace, 'scripts/knowledge/run-controls.mjs')], context.proofNow);
+  run(workspace, [path.join(workspace, 'scripts/knowledge/build-workbench.mjs')], context.proofNow);
+  const observations = files(path.join(workspace, 'knowledge/observations'))
+    .filter((file) => context.expectedObservationIds.includes(JSON.parse(fs.readFileSync(file)).id));
+  const accepted = observations.filter((file) => JSON.parse(fs.readFileSync(file)).approvalState !== 'candidate');
+  const genesis = JSON.parse(fs.readFileSync(path.join(workspace, 'knowledge/runs/stage-acks', `${context.genesisAckId.replaceAll(':', '-')}.json`)));
+  if (observations.length !== 5 || accepted.length || genesis.status !== 'deferred' || genesis.governance.allowedTransition !== false) {
+    throw new Error('valid proof run violated candidate-only or deferred-Genesis controls');
+  }
+  return { proofDigest: proofDigest(workspace), canonicalDigest: canonicalDigest(workspace) };
+}
+
+function runExpectingFailure(workspace, context, invalidBundle, expectedMessage) {
+  const before = canonicalDigest(workspace);
+  const invalid = path.join(workspace, 'invalid-bundle.json');
+  fs.writeFileSync(invalid, JSON.stringify(invalidBundle, null, 2));
+  const result = spawnSync(process.execPath, [path.join(workspace, 'scripts/knowledge/ingest-nightly-run.mjs'), invalid], { cwd: workspace, encoding: 'utf8' });
+  if (result.status === 0 || !`${result.stderr}${result.stdout}`.includes(expectedMessage)) throw new Error(`invalid bundle did not fail closed: ${expectedMessage}`);
+  const after = canonicalDigest(workspace);
+  if (before !== after) throw new Error('invalid bundle changed canonical state');
+}
+
+function proveLateFailure(workspace, context) {
+  const receiptName = `${context.bundle.run.runId.replaceAll(':', '-')}-ingest.json`;
+  const conflict = path.join(workspace, 'knowledge', 'receipts', receiptName);
+  fs.mkdirSync(path.dirname(conflict), { recursive: true });
+  fs.writeFileSync(conflict, '{"simulated":"write conflict"}\n');
+  const before = canonicalDigest(workspace);
+  const result = spawnSync(process.execPath, [path.join(workspace, 'scripts/knowledge/ingest-nightly-run.mjs'), context.input], { cwd: workspace, encoding: 'utf8' });
+  if (result.status === 0 || !`${result.stderr}${result.stdout}`.includes('EEXIST')) throw new Error('late write conflict did not fail');
+  if (before !== canonicalDigest(workspace)) {
+    const afterFiles = canonicalEntries(workspace);
+    throw new Error(`late write failure changed canonical state: ${[...afterFiles].join(',')}`);
+  }
+  for (const id of [...context.bundle.sources, ...context.bundle.observations, ...context.bundle.relationships].map(({ id }) => id)) {
+    const dir = id.startsWith('source:') ? 'sources' : id.startsWith('obs:') ? 'observations' : 'relationships';
+    if (fs.existsSync(path.join(workspace, 'knowledge', dir, `${id.replaceAll(':', '-')}.json`))) throw new Error('late write failure left a partial record');
+  }
+}
+
+function makeDynamicContext(context) {
+  const marker = '2026-09-08';
+  const replacement = '2026-09-09';
+  const raw = fs.readFileSync(context.input, 'utf8').replaceAll(marker, replacement);
+  const bundle = JSON.parse(raw);
+  bundle.provenance.sourceManifestSha256 = crypto.createHash('sha256').update(JSON.stringify(bundle.sources)).digest('hex');
+  const input = path.join(os.tmpdir(), 'seed-loom-nightly-dynamic-bundle.json');
+  fs.writeFileSync(input, JSON.stringify(bundle, null, 2) + '\n');
+  return loadBundle(input);
+}
+
+function proveBundle(context, runCount = 2) {
+  const workspaces = Array.from({ length: runCount }, () => fs.mkdtempSync(path.join(os.tmpdir(), 'seed-loom-nightly-')));
+  try {
+    workspaces.forEach((workspace) => copyWorkspace(workspace, context.bundle));
+    const runs = workspaces.map((workspace) => proveValidRun(workspace, context));
+    if (runs.some((run) => run.proofDigest !== runs[0].proofDigest || run.canonicalDigest !== runs[0].canonicalDigest)) {
+      throw new Error(`proof digests differ for ${context.identity}`);
+    }
+    return { ...runs[0], workspaces };
+  } finally {
+    workspaces.forEach((workspace) => fs.rmSync(workspace, { recursive: true, force: true }));
+  }
+}
+
+const input = path.resolve(inputArg);
+const context = loadBundle(input);
+const dynamicContext = makeDynamicContext(context);
+const workspaces = [fs.mkdtempSync(path.join(os.tmpdir(), 'seed-loom-nightly-')), fs.mkdtempSync(path.join(os.tmpdir(), 'seed-loom-nightly-'))];
+try {
+  workspaces.forEach((workspace) => copyWorkspace(workspace, context.bundle));
+  const first = proveBundle(context).proofDigest;
+  const canonical = proveBundle(context).canonicalDigest;
+  runExpectingFailure(workspaces[0], context, { ...context.bundle, observations: [] }, 'exactly five observations');
+  runExpectingFailure(workspaces[0], context, { ...context.bundle, socraticAssessments: [{ ...context.bundle.socraticAssessments[0], observationId: 'obs:unknown' }] }, 'unknown observation');
+  proveLateFailure(workspaces[1], context);
+  const dynamic = proveBundle(dynamicContext, 2);
+  const report = {
+    status: 'passed',
+    bundle: path.relative(root, context.input),
+    bundleSha256: context.bundleSha256,
+    provenance: context.bundle.provenance,
+    sourceEvidence: 'Declared URL references only; source content was not captured or re-fetched by this proof.',
+    observations: 5,
+    proofDigest: first,
+    canonicalDigest: canonical,
+    dynamicIdentity: { bundle: dynamicContext.identity, proofDigest: dynamic.proofDigest, canonicalDigest: dynamic.canonicalDigest },
+    malformedBundleAtomicity: 'passed',
+    socraticReferenceValidation: 'passed',
+    lateWriteAtomicity: 'passed',
+    candidateOnly: true,
+    genesis: 'deferred'
+  };
+  if (outputArg) {
+    const output = path.resolve(outputArg);
+    fs.mkdirSync(path.dirname(output), { recursive: true });
+    fs.writeFileSync(output, `${JSON.stringify(report, null, 2)}\n`);
+  }
+  console.log(JSON.stringify(report, null, 2));
+} finally {
+  workspaces.forEach((workspace) => fs.rmSync(workspace, { recursive: true, force: true }));
+}

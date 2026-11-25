@@ -42,6 +42,7 @@
     "schemas:check": "node scripts/reproducibility/check-schemas.mjs",
     "artifact:check": "node scripts/reproducibility/check-artifact.mjs",
     "verify:root": "npm ci && npx playwright install chromium && npm run contract:check && npm run typecheck && npm run build && npm run test:visual && npm run schemas:check && npm run artifact:check",
+    "knowledge:prove-nightly": "node scripts/knowledge/prove-nightly-ingest.mjs",
     "knowledge:test:hardening": "node scripts/knowledge/test-post-merge-hardening.mjs"
   },
   "devDependencies": {
