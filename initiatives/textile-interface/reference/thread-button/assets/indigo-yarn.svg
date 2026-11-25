@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+<title>Original indigo warp-weft yarn tile for tactile committed state</title>
+<defs><pattern id="y" width="9" height="9" patternUnits="userSpaceOnUse">
+<path d="M1.2 0v9M5.7 0v9" stroke="#6087bd" stroke-width="2.6" opacity=".45"/>
+<path d="M2.4 0v9M6.9 0v9" stroke="#0c2858" stroke-width="1.1" opacity=".84"/>
+<path d="M0 1.2h9M0 5.7h9" stroke="#527bb5" stroke-width="2.4" opacity=".59"/>
+<path d="M0 2.5h9M0 7h9" stroke="#071b3e" stroke-width=".8" opacity=".75"/>
+<path d="M1 1h3M5.5 5.5h3" stroke="#a2b7d8" stroke-width=".7" opacity=".32"/>
+</pattern><filter id="lint"><feTurbulence type="fractalNoise" baseFrequency=".46 .72" numOctaves="3" seed="28" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".13"/></feComponentTransfer></filter></defs>
+<rect width="192" height="192" fill="#18396e"/><rect width="192" height="192" fill="url(#y)"/><rect width="192" height="192" filter="url(#lint)"/>
+</svg>
