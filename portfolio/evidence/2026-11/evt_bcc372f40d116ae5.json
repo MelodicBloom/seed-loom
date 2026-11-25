@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_bcc372f40d116ae5",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-11-24T16:42:41.002443Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "clinical-beauty-visualizer",
+    "commit_sha": "2026-11-24T06:51:18Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1469766457,
+    "github_node_id": "R_kgDOV5rbOQ",
+    "language": "TypeScript",
+    "archived": false,
+    "private": false,
+    "fork": false,
+    "description": null,
+    "pushed_at": "2026-11-24T06:51:18Z",
+    "created_at": "2026-11-24T06:50:08Z",
+    "open_issues_count": 0
+  }
+}

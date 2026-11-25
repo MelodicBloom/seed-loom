@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_bfcf378051fb7cbf",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-11-23T16:51:08.323166Z",
+  "asset": {
+    "provider": "github",
+    "owner": "MelodicBloom",
+    "repo": "shytech-spectral",
+    "commit_sha": "2026-11-23T09:21:16Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1468541736,
+    "github_node_id": "R_kgDOV4grKA",
+    "language": "JavaScript",
+    "archived": false,
+    "private": false,
+    "fork": false,
+    "description": "Audio-reactive multi-band visualizer: R3F + GLSL, AudioWorklet YIN pitch, beat PLL, SharedArrayBuffer telemetry",
+    "pushed_at": "2026-11-23T09:21:16Z",
+    "created_at": "2026-11-23T09:21:06Z",
+    "open_issues_count": 0
+  }
+}

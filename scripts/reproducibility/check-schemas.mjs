@@ -2,9 +2,17 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import Ajv2020 from 'ajv/dist/2020.js';
+import addFormats from 'ajv-formats';
 
 const roots = ['schemas', 'packages', 'knowledge', 'initiatives'];
 const ajv = new Ajv2020({ strict: false, validateSchema: true });
+addFormats(ajv);
+
+// Do not silently treat date-time as an unknown annotation.
+const validateDateTime = ajv.compile({ type: 'string', format: 'date-time' });
+if (!validateDateTime('2026-01-01T00:00:00Z') || validateDateTime('not-a-date')) {
+  throw new Error('date-time format validation is not active');
+}
 
 async function findSchemas(directory) {
   const entries = await readdir(directory, { withFileTypes: true });

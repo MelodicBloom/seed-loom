@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_aa23726f15d60c45",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-11-15T13:09:39.943797Z",
+  "asset": {
+    "provider": "github",
+    "owner": "MelodicBloom",
+    "repo": "lithomemphis",
+    "commit_sha": "2026-11-14T17:51:14Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1434583512,
+    "github_node_id": "R_kgDOVYIB2A",
+    "language": "TypeScript",
+    "archived": false,
+    "private": false,
+    "fork": false,
+    "description": "Lithomemphis: paper/lithographic UI, WebGL1/GLSL studies and JSON\u2192CSS token parity tooling. Fictional/static demo; no accounts or live metrics.",
+    "pushed_at": "2026-11-14T17:51:14Z",
+    "created_at": "2026-10-26T15:39:03Z",
+    "open_issues_count": 4
+  }
+}

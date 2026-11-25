@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_d6bb0b6ad4402114",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-10-27T11:15:57.334465Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "qt314wink",
+    "commit_sha": "2026-06-01T21:51:34Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1234397989,
+    "github_node_id": "R_kgDOSZNrJQ",
+    "language": "HTML",
+    "archived": false,
+    "private": false,
+    "fork": false,
+    "description": null,
+    "pushed_at": "2026-06-01T21:51:34Z",
+    "created_at": "2026-05-10T06:04:53Z",
+    "open_issues_count": 0
+  }
+}
