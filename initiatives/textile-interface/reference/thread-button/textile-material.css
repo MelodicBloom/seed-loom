@@ -47,7 +47,7 @@ body.textile-workshop{display:block;margin:0;padding:clamp(12px,2.7vw,38px);min-
 .tactile-button:after{content:"";position:absolute;inset:-4px;z-index:-1;border-radius:calc(var(--til-thread-button-radius) + 4px);
  border:3px solid #f9f0df;box-shadow:0 3px 4px #67492850,inset 0 2px 3px #9c774b70;pointer-events:none}
 .tactile-button[data-state="committed"],.tactile-button.is-committed{color:#fffaf0;
- background-image:linear-gradient(145deg,#4e73b02d,#06153f77),url("./assets/linen-weave.svg");
+ background-image:linear-gradient(145deg,#4e73b02d,#06153f77),url("./assets/indigo-yarn.svg");
  background-color:#1d4384;text-shadow:0 1px 1px #06152c;
  box-shadow:0 calc(3px + var(--til-thread-button-tension) * 2px) calc(8px + var(--til-thread-button-elasticity) * 4px) rgb(44 44 44 / 12%),
  inset 0 2px 7px #9cb4e052,inset 0 -3px 9px #081734;
