@@ -2,9 +2,17 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import Ajv2020 from 'ajv/dist/2020.js';
+import addFormats from 'ajv-formats';
 
-const roots = ['schemas', 'packages'];
+const roots = ['schemas', 'packages', 'knowledge', 'initiatives'];
 const ajv = new Ajv2020({ strict: false, validateSchema: true });
+addFormats(ajv);
+
+// Do not silently treat date-time as an unknown annotation.
+const validateDateTime = ajv.compile({ type: 'string', format: 'date-time' });
+if (!validateDateTime('2026-01-01T00:00:00Z') || validateDateTime('not-a-date')) {
+  throw new Error('date-time format validation is not active');
+}
 
 async function findSchemas(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
@@ -22,9 +30,20 @@ async function findSchemas(directory) {
 }
 
 const paths = (await Promise.all(roots.map(findSchemas))).flat().sort();
-for (const path of paths) {
-  const schema = JSON.parse(await readFile(path, 'utf8'));
+const schemas = await Promise.all(paths.map(async (path) => [path, JSON.parse(await readFile(path, 'utf8'))]));
+for (const [path, schema] of schemas) {
   if (!ajv.validateSchema(schema)) throw new Error(`${path}: ${ajv.errorsText(ajv.errors)}`);
+  ajv.addSchema(schema, schema.$id || path);
+}
+for (const [path, schema] of schemas) {
+  try {
+    const validate = ajv.getSchema(schema.$id || path);
+    if (typeof validate !== 'function') {
+      throw new Error('schema did not compile to a validate function');
+    }
+  } catch (error) {
+    throw new Error(`${path}: ${error.message}`, { cause: error });
+  }
 }
 if (paths.length === 0) throw new Error('No JSON schemas were found.');
 console.log(`Validated ${paths.length} JSON schemas.`);

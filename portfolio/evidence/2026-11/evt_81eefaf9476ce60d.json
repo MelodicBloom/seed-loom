@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_81eefaf9476ce60d",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-11-08T12:27:11.553005Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "seed-loom",
+    "commit_sha": "2026-11-08T00:56:42Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1295858033,
+    "github_node_id": "R_kgDOTT05cQ",
+    "language": "JavaScript",
+    "archived": false,
+    "private": false,
+    "fork": false,
+    "description": "Evidence-led visual research tooling: interpretation, tokens, code, schemas and provenance with human-review gates. Public specimen shell, not every pipeline outcome.",
+    "pushed_at": "2026-11-08T00:56:42Z",
+    "created_at": "2026-07-09T23:18:08Z",
+    "open_issues_count": 32
+  }
+}

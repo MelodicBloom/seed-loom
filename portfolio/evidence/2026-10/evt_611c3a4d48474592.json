@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_611c3a4d48474592",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-10-27T11:15:57.332891Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "wildfire-iridescent",
+    "commit_sha": "2026-10-27T10:05:01Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1276780322,
+    "github_node_id": "R_kgDOTBofIg",
+    "language": "TypeScript",
+    "archived": false,
+    "private": false,
+    "fork": false,
+    "description": "High-fidelity WebGL shader UI system \u2014 iridescent thin-film effects, React Three Fiber, Framer Motion, Storybook, Next.js",
+    "pushed_at": "2026-10-27T10:05:01Z",
+    "created_at": "2026-06-22T09:32:48Z",
+    "open_issues_count": 3
+  }
+}

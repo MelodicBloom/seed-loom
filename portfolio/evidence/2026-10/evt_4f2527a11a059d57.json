@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_4f2527a11a059d57",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-10-26T11:52:12.727671Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "RainbowKaleidoscope",
+    "commit_sha": "2023-01-16T23:34:33Z",
+    "ref": "main"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1433871787,
+    "github_node_id": "R_kgDOVXclqw",
+    "language": null,
+    "archived": false,
+    "private": false,
+    "fork": true,
+    "description": "Threejs rainbow kaleidoscope using a custom webgl fragment shader",
+    "pushed_at": "2023-01-16T23:34:33Z",
+    "created_at": "2026-10-26T03:48:04Z",
+    "open_issues_count": 0
+  }
+}

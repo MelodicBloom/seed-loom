@@ -4,7 +4,8 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
-
+import Ajv2020 from 'ajv/dist/2020.js';
+import addFormats from 'ajv-formats';
 const root = process.cwd();
 const inputArg = process.argv.slice(2).find((arg) => !arg.startsWith('--')) || 'ops/nightly-intake/2026-09-08.json';
 const outputArg = process.argv.find((arg) => arg.startsWith('--out='))?.slice('--out='.length);
@@ -14,7 +15,16 @@ function loadBundle(bundlePath) {
   if (bundle.bundleType !== 'NightlyRunBundle' || bundle.review?.status !== 'reviewed') {
     throw new Error('proof requires a reviewed NightlyRunBundle');
   }
+  if (bundle.run?.type !== 'ResearchRun' || bundle.run?.ingestionMode !== 'delivered') {
+    throw new Error('proof requires a delivered ResearchRun');
+  }
   if (bundle.observations?.length !== 5) throw new Error('proof bundle must contain exactly five observations');
+  if (bundle.observations.some(({ approvalState }) => approvalState !== 'candidate')) {
+    throw new Error('proof bundle must contain candidate observations only');
+  }
+  if ((bundle.run.repositoryActions || []).some(({ status, executed }) => status !== 'proposed' || executed !== false)) {
+    throw new Error('proof bundle repository actions must remain unexecuted proposals');
+  }
   const sourceManifestSha256 = crypto.createHash('sha256')
     .update(JSON.stringify(bundle.sources))
     .digest('hex');
@@ -22,7 +32,21 @@ function loadBundle(bundlePath) {
     throw new Error('bundle provenance does not match its source manifest');
   }
   const genesis = bundle.stageAcks?.find(({ stage }) => stage === 'genesis');
-  if (!genesis) throw new Error('proof bundle must contain a genesis acknowledgement');
+  if (!genesis || genesis.status !== 'deferred' || genesis.governance?.allowedTransition !== false) {
+    throw new Error('proof bundle must defer Genesis and block the transition');
+  }
+  const assessmentValidator = new Ajv2020({ allErrors: true, strict: true });
+  addFormats(assessmentValidator);
+  const assessmentSchema = JSON.parse(fs.readFileSync(path.join(root, 'knowledge/schema/socratic-assessment.schema.json'), 'utf8'));
+  const validateAssessment = assessmentValidator.compile(assessmentSchema);
+  for (const assessment of bundle.socraticAssessments || []) {
+    if (!validateAssessment(assessment)) {
+      throw new Error(`invalid Socratic assessment: ${JSON.stringify(validateAssessment.errors)}`);
+    }
+    if (!bundle.observations.some(({ id }) => id === assessment.observationId)) {
+      throw new Error(`unknown observation: ${assessment.observationId}`);
+    }
+  }
   const proofNow = bundle.review?.reviewedAt
     || bundle.provenance?.collectedAt
     || bundle.run?.retrievalWindow?.from
@@ -39,7 +63,20 @@ function loadBundle(bundlePath) {
   };
 }
 
-function copyWorkspace(target) {
+function targetRecords(bundle) {
+  const safe = (id) => id.replace(/[:/]/g, '-');
+  return [
+    ...bundle.sources.map(({ id }) => `knowledge/sources/${safe(id)}.json`),
+    ...bundle.observations.map(({ id }) => `knowledge/observations/${safe(id)}.json`),
+    ...bundle.relationships.map(({ id }) => `knowledge/relationships/${safe(id)}.json`),
+    `knowledge/runs/${safe(bundle.run.runId)}.json`,
+    ...bundle.stageAcks.map(({ ackId }) => `knowledge/runs/stage-acks/${safe(ackId)}.json`),
+    ...(bundle.socraticAssessments || []).map(({ assessmentId }) => `knowledge/runs/socratic-assessments/${safe(assessmentId)}.json`),
+    `knowledge/receipts/${safe(bundle.run.runId)}-ingest.json`
+  ];
+}
+
+function copyWorkspace(target, bundle) {
   fs.cpSync(root, target, {
     recursive: true,
     filter: (source) => !source.includes(`${path.sep}.git${path.sep}`) && !source.endsWith(`${path.sep}.git`)
@@ -48,6 +85,9 @@ function copyWorkspace(target) {
       && !source.endsWith(`${path.sep}tools${path.sep}graph-workbench${path.sep}data.json`)
   });
   fs.symlinkSync(path.join(root, 'node_modules'), path.join(target, 'node_modules'), 'dir');
+  for (const relative of targetRecords(bundle)) {
+    fs.rmSync(path.join(target, relative), { recursive: true, force: true });
+  }
 }
 
 function run(workspace, args, proofNow) {
@@ -174,7 +214,7 @@ function makeDynamicContext(context) {
 function proveBundle(context, runCount = 2) {
   const workspaces = Array.from({ length: runCount }, () => fs.mkdtempSync(path.join(os.tmpdir(), 'seed-loom-nightly-')));
   try {
-    workspaces.forEach(copyWorkspace);
+    workspaces.forEach((workspace) => copyWorkspace(workspace, context.bundle));
     const runs = workspaces.map((workspace) => proveValidRun(workspace, context));
     if (runs.some((run) => run.proofDigest !== runs[0].proofDigest || run.canonicalDigest !== runs[0].canonicalDigest)) {
       throw new Error(`proof digests differ for ${context.identity}`);
@@ -190,7 +230,7 @@ const context = loadBundle(input);
 const dynamicContext = makeDynamicContext(context);
 const workspaces = [fs.mkdtempSync(path.join(os.tmpdir(), 'seed-loom-nightly-')), fs.mkdtempSync(path.join(os.tmpdir(), 'seed-loom-nightly-'))];
 try {
-  workspaces.forEach(copyWorkspace);
+  workspaces.forEach((workspace) => copyWorkspace(workspace, context.bundle));
   const first = proveBundle(context).proofDigest;
   const canonical = proveBundle(context).canonicalDigest;
   runExpectingFailure(workspaces[0], context, { ...context.bundle, observations: [] }, 'exactly five observations');
