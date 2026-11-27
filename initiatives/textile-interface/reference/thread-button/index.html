@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Textile Interface — Tactile ThreadButton Material Study</title>
+  <link rel="stylesheet" href="../../generated/textile.css" />
+  <link rel="stylesheet" href="./textile-material.css" />
+  <style>
+    /* Component behavior remains derived from canonical --til tokens.
+       Decorated static specimens are not accessibility-interactive controls. */
+    .thread-button {
+      border: var(--til-thread-button-border) solid var(--til-color-indigo);
+      border-radius: var(--til-thread-button-radius);
+      font: inherit;
+      font-weight: 850;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      box-shadow: 0 calc(3px + var(--til-thread-button-tension) * 2px)
+        calc(8px + var(--til-thread-button-elasticity) * 4px) rgb(44 44 44 / 12%);
+      transition:
+        transform var(--til-thread-button-duration) var(--til-thread-button-easing),
+        color var(--til-thread-button-duration) var(--til-thread-button-easing),
+        background-color var(--til-thread-button-duration) var(--til-thread-button-easing),
+        border-style var(--til-thread-button-duration) var(--til-thread-button-easing);
+      transition-duration: calc(var(--til-thread-button-duration) * (.7 + var(--til-thread-button-recovery) * .3));
+    }
+    .thread-button:hover { border-style: solid; }
+    .thread-button:active {
+      transform: translateY(calc(var(--til-thread-button-compression) * 2px))
+        scale(var(--til-thread-button-press-scale));
+    }
+    .thread-button:focus-visible {
+      outline: 3px solid var(--til-color-focus);
+      outline-offset: 4px;
+    }
+    .thread-button[data-state="committed"] { border-style: solid; }
+    @media (prefers-reduced-motion: reduce) {
+      .thread-button { transition: none; }
+      .thread-button:active { transform: none; }
+    }
+    @media (forced-colors: active) {
+      .thread-button { border-style: solid; }
+    }
+  </style>
+</head>
+<body class="textile-workshop">
+  <main class="fabric-board" aria-labelledby="page-title">
+    <header>
+      <div class="workshop-kicker">Textile Interface Language / v0.2 · material study</div>
+      <h1 id="page-title">ThreadButton · Woven State</h1>
+      <p class="workshop-meta"><span>PR #79 visual target</span><span>Core fidelity</span><span>Procedural fiber rendering</span><span>Not a calibrated cloth simulation</span></p>
+      <div class="thread-rule" aria-hidden="true"></div>
+    </header>
+    <div class="specimen-grid">
+      <section class="specimen-panel" aria-labelledby="live-title">
+        <div class="panel-kicker">01 / Interactive • Desktop</div>
+        <p class="specimen-meta"><strong>TIL-COMP-THREAD-BUTTON-001</strong> · Generated tokens + authored material layer</p>
+        <h2 id="live-title">ThreadButton</h2>
+        <p class="specimen-description">The commit action is expressed as a stitch: readiness tightens the boundary; activation settles into a persistent state.</p>
+        <button class="thread-button tactile-button" type="button" data-state="loose" aria-pressed="false">Stitch commitment</button>
+        <p class="state-message" id="button-status" aria-live="polite">Not committed.</p>
+        <section class="source-chain evidence" aria-label="Generated source evidence">
+          <strong>Source chain</strong>
+          <code>textile.tokens.json → generate_textile_adapters.py → textile.css → ThreadButton</code>
+          <p><a class="suite-link" href="../../workshop/README.md">Material prompt suite and implementation map</a></p>
+          <p><a href="./VISUAL-TARGET.md">Original tactile reference preview and visual acceptance checklist</a></p>
+        </section>
+      </section>
+      <section class="specimen-panel" aria-label="Static committed visual specimen">
+        <div class="panel-kicker">02 / Committed • Material specimen</div>
+        <p class="specimen-meta">Indigo upholstery · padded seam · dense yarn</p>
+        <h2>ThreadButton</h2>
+        <p class="specimen-description">Close-view of the stitched commitment state: indigo fill, doubled thread edge, and raised material depth.</p>
+        <span class="tactile-button is-committed static-specimen" aria-label="Visual specimen only">Stitch commitment</span>
+        <p class="state-message">Commitment stitched. <small>(visual specimen)</small></p>
+        <div class="source-chain"><strong>Material recipe</strong><code>warp/weft → yarn breakup → seam → stitch → state</code></div>
+      </section>
+      <section class="specimen-panel specimen-panel--mobile" aria-label="Static mobile default specimen">
+        <div class="panel-kicker">03 / Mobile • Loose</div>
+        <p class="specimen-meta">375px layout reference</p>
+        <h2>ThreadButton</h2>
+        <p class="specimen-description">Tactile linen surface and loose stitched boundary.</p>
+        <span class="tactile-button static-specimen" aria-label="Visual specimen only">Stitch commitment</span>
+        <p class="state-message">Not committed.</p>
+      </section>
+      <section class="specimen-panel specimen-panel--mobile" aria-label="Static mobile committed specimen">
+        <div class="panel-kicker">04 / Mobile • Committed</div>
+        <p class="specimen-meta">375px layout reference</p>
+        <h2>ThreadButton</h2>
+        <p class="specimen-description">Deep indigo woven thread, compressed material memory.</p>
+        <span class="tactile-button is-committed static-specimen" aria-label="Visual specimen only">Stitch commitment</span>
+        <p class="state-message">Commitment stitched.</p>
+      </section>
+      <section class="specimen-panel specimen-panel--focus" aria-label="Static keyboard focus specimen">
+        <div class="panel-kicker">05 / Focus • Boundary stitch</div>
+        <p class="specimen-meta">Visible keyboard focus sample</p>
+        <h2>ThreadButton</h2>
+        <p class="specimen-description">Double stitched boundary plus clearly distinct accessible focus ring.</p>
+        <span class="tactile-button focus-sample static-specimen" aria-label="Visual specimen only">Stitch commitment</span>
+        <p class="state-message">The interactive button remains first in tab order.</p>
+      </section>
+      <section class="specimen-panel proof-summary" aria-labelledby="summary-title">
+        <div class="panel-kicker" id="summary-title">Material implementation receipt</div>
+        <p><b>BUILD</b> Single live native toggle + static state comparisons</p>
+        <p><b>FIBER</b> Local, reproducible woven SVG + CSS seam layering</p>
+        <p><b>STATE</b> aria-pressed + stable accessible name + live status</p>
+        <p><b>FALLBACK</b> Reduced motion and forced-colors are preserved</p>
+        <p class="boundary"><b>GATE</b> Reference-photo fidelity and deployed browser acceptance remain open.</p>
+      </section>
+    </div>
+    <p class="workshop-footer">The static specimens are visual studies, not independent controls or recorded browser screenshots. CI evidence is generated separately from this live reference.</p>
+  </main>
+  <script>
+    const button = document.querySelector('.thread-button');
+    const status = document.getElementById('button-status');
+    button.addEventListener('click', () => {
+      const next = button.getAttribute('aria-pressed') !== 'true';
+      button.setAttribute('aria-pressed', String(next));
+      button.dataset.state = next ? 'committed' : 'loose';
+      // Stable accessible name: aria-pressed and the live region carry the state.
+      status.textContent = next ? 'Commitment stitched.' : 'Commitment removed.';
+    });
+  </script>
+</body>
+</html>

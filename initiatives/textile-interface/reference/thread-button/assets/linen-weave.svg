@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+<title>Procedural close-weave linen surface, original Seed Loom material tile</title>
+<defs>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency=".7 .38" numOctaves="3" seed="12" stitchTiles="stitch" result="noise"/>
+    <feColorMatrix in="noise" type="saturate" values="0"/>
+    <feComponentTransfer><feFuncA type="linear" slope=".17"/></feComponentTransfer>
+  </filter>
+  <pattern id="warp" width="8" height="8" patternUnits="userSpaceOnUse">
+    <path d="M1 0V8M5 0V8" stroke="#fff8e9" stroke-width="1.6" opacity=".78"/>
+    <path d="M2.2 0V8M6.2 0V8" stroke="#9f8b70" stroke-width=".75" opacity=".35"/>
+    <path d="M0 1.1H8M0 5.1H8" stroke="#fff7e5" stroke-width="1.5" opacity=".72"/>
+    <path d="M0 2.3H8M0 6.3H8" stroke="#8f7b63" stroke-width=".8" opacity=".34"/>
+    <path d="M.8 1.1h2.7m1.4 4h2.6" stroke="#fffef7" stroke-width="1.4" opacity=".8"/>
+  </pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation=".35"/></filter>
+</defs>
+<rect width="256" height="256" fill="#eadfcd"/>
+<rect width="256" height="256" fill="url(#warp)"/>
+<rect width="256" height="256" filter="url(#grain)" opacity=".75"/>
+<g stroke="#fff9e9" stroke-width=".6" opacity=".43" filter="url(#soft)">
+ <path d="M13 30l3-5m43 91l6 1m66 76l-3 6m63-152l4-3m31 153l-4-4m-192 33l4 2m78-172l-3-4m99 116l7 1m-174-82l-3 5m103 120l3-5"/>
+</g>
+</svg>
