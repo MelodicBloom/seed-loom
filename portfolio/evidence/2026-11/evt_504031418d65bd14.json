@@ -1,0 +1,30 @@
+{
+  "event_id": "evt_504031418d65bd14",
+  "schema_version": "v1",
+  "event_type": "asset.discovered",
+  "occurred_at": "2026-11-26T16:01:08.294943Z",
+  "asset": {
+    "provider": "github",
+    "owner": "qt314wink",
+    "repo": "melodyfire",
+    "commit_sha": "2026-11-25T20:54:22Z",
+    "ref": "master"
+  },
+  "actor": {
+    "type": "workflow",
+    "id": "collect_repo_provenance"
+  },
+  "confidence": "supported",
+  "claims": {
+    "github_repo_id": 1243978938,
+    "github_node_id": "R_kgDOSiWcug",
+    "language": "TypeScript",
+    "archived": false,
+    "private": false,
+    "fork": false,
+    "description": "Jennipher Troup's creative portfolio and generative-art project hub, part of a regenerative design-engineering practice.",
+    "pushed_at": "2026-11-25T20:54:22Z",
+    "created_at": "2026-05-19T21:13:20Z",
+    "open_issues_count": 10
+  }
+}
