@@ -17,8 +17,14 @@ from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = ROOT / "initiatives" / "textile-interface"
-HTML = BASE / "reference" / "thread-button" / "index.html"
+REFERENCE = BASE / "reference" / "thread-button"
+HTML = REFERENCE / "index.html"
 CSS = BASE / "generated" / "textile.css"
+MATERIAL_SOURCES = (
+    REFERENCE / "textile-material.css",
+    REFERENCE / "assets" / "linen-weave.svg",
+    REFERENCE / "assets" / "indigo-yarn.svg",
+)
 RUN_ID = datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%S%f')
 EVIDENCE = ROOT / "artifacts" / "textile-visual" / RUN_ID
 EVIDENCE.mkdir(parents=True, exist_ok=True)
@@ -84,8 +90,11 @@ def verify():
             bounds = button.bounding_box()
             page.mouse.move(bounds['x']+bounds['width']/2,bounds['y']+bounds['height']/2)
             page.mouse.down()
-            page.wait_for_timeout(220)
-            transform = button.evaluate('e => getComputedStyle(e).transform')
+            transform = button.evaluate("""async e => {
+              getComputedStyle(e).transform;
+              await Promise.all(e.getAnimations().map(animation => animation.finished));
+              return getComputedStyle(e).transform;
+            }""")
             values = [float(n) for n in re.findall(r'-?\d+(?:\.\d+)?', transform)]
             check("compression and press scale reach active geometry", len(values)==6 and abs(values[0]-token('motion','threadButton','pressScale'))<.001 and abs(values[5]-2*token('force','threadButton','compression'))<.01, transform)
             page.mouse.up()
@@ -153,7 +162,7 @@ def verify():
 if __name__ == "__main__":
     error = None
     try:
-        for required in (HTML,CSS,BASE/'tokens/textile.tokens.json',BASE/'workshop/registry.json'):
+        for required in (HTML,CSS,*MATERIAL_SOURCES,BASE/'tokens/textile.tokens.json',BASE/'workshop/registry.json'):
             if not required.is_file():raise FileNotFoundError(str(required))
         verify()
         if len(checks) != EXPECTED_CHECK_COUNT or {c['name'] for c in checks} != EXPECTED_CHECK_NAMES:
@@ -164,7 +173,7 @@ if __name__ == "__main__":
         error = f'{type(exc).__name__}: {exc}'
     finally:
         sources = {}
-        for path in (HTML, CSS, BASE / "tokens" / "textile.tokens.json", BASE / 'workshop/registry.json', Path(__file__)):
+        for path in (HTML, CSS, *MATERIAL_SOURCES, BASE / "tokens" / "textile.tokens.json", BASE / 'workshop/registry.json', Path(__file__)):
             sources[str(path.relative_to(ROOT))] = hashlib.sha256(path.read_bytes()).hexdigest() if path.is_file() else 'missing'
         complete = error is None and len(checks) == EXPECTED_CHECK_COUNT and all(c['passed'] for c in checks)
         manifest = {
