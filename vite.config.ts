@@ -4,17 +4,25 @@ import { defineConfig, type Plugin } from 'vite';
 
 // Publishes the Textile Interface ThreadButton reference at /lab/thread-button/.
 // The root entry (index.html) and its bundle are untouched: this plugin only
-// emits two extra static assets under dist/lab/thread-button/.
+// emits the reference and its static dependencies under dist/lab/thread-button/.
 const ROOT = fileURLToPath(new URL('.', import.meta.url));
-const REFERENCE = 'initiatives/textile-interface/reference/thread-button/index.html';
-const STYLESHEET = 'initiatives/textile-interface/generated/textile.css';
+const TEXTILE = 'initiatives/textile-interface';
+const REFERENCE_DIR = `${TEXTILE}/reference/thread-button`;
+const REFERENCE = `${REFERENCE_DIR}/index.html`;
 const ROUTE = 'lab/thread-button';
+// These source links also work on preview builds before #79 reaches main.
+const REVIEWED_SOURCE = 'https://github.com/MelodicBloom/seed-loom/blob/e753b5a6c434bcbf426673b25e86a954ca7af24d';
 const REWRITES: Array<[string, string]> = [
   ['href="../../generated/textile.css"', `href="/${ROUTE}/textile.css"`],
-  [
-    'href="../../workshop/README.md"',
-    'href="https://github.com/MelodicBloom/seed-loom/blob/main/initiatives/textile-interface/workshop/README.md"'
-  ]
+  ['href="./textile-material.css"', `href="/${ROUTE}/textile-material.css"`],
+  ['href="../../workshop/README.md"', `href="${REVIEWED_SOURCE}/${TEXTILE}/workshop/README.md"`],
+  ['href="./VISUAL-TARGET.md"', `href="${REVIEWED_SOURCE}/${REFERENCE_DIR}/VISUAL-TARGET.md"`]
+];
+const ASSETS = [
+  [`${TEXTILE}/generated/textile.css`, 'textile.css'],
+  [`${REFERENCE_DIR}/textile-material.css`, 'textile-material.css'],
+  [`${REFERENCE_DIR}/assets/linen-weave.svg`, 'assets/linen-weave.svg'],
+  [`${REFERENCE_DIR}/assets/indigo-yarn.svg`, 'assets/indigo-yarn.svg']
 ];
 
 function labThreadButton(): Plugin {
@@ -30,7 +38,9 @@ function labThreadButton(): Plugin {
         html = html.replace(from, to);
       }
       this.emitFile({ type: 'asset', fileName: `${ROUTE}/index.html`, source: html });
-      this.emitFile({ type: 'asset', fileName: `${ROUTE}/textile.css`, source: readFileSync(ROOT + STYLESHEET) });
+      for (const [source, destination] of ASSETS) {
+        this.emitFile({ type: 'asset', fileName: `${ROUTE}/${destination}`, source: readFileSync(ROOT + source) });
+      }
     }
   };
 }
