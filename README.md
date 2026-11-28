@@ -1,5 +1,19 @@
 # Seed Loom
 
+[**Live demo**](https://seed-loom.vercel.app/)
+
+**What it shows:** A visual walkthrough of how observations become named design values (tokens) and code examples, with trace labels connecting the stages.
+
+**How it works:** Select Evidence, Interpretation, Tokens, Code, or Verification on the cactus or stage controls to explore the preset example.
+
+**Current scope:** The walkthrough’s content and badges are illustrative. A separate image-intake path uses file metadata and human observations ([implementation](src/intake-entry.ts)).
+
+![Seed Loom evidence to token to code flow](docs/visual/seed-loom-flow.svg)
+
+*Repository-owned deterministic documentation visual. It illustrates the workflow and is not presented as a fresh live-demo capture.*
+
+**Browser evidence — October 28, 2026:** Homepage, Evidence → Tokens → Code switching, and opening image intake were observed. File selection, token compilation, exports, live model analysis, and the other stage interactions were not checked in that pass. A November 6 desktop check also observed the live Tokens panel change; the deployed source revision was not established.
+
 **Seed Loom** is a lightweight repository for turning creative signals into structured systems: briefs, design-language extractions, essay engines, art-product pipelines, implementation specs, validation gates, and agent handoff instructions.
 
 This repo currently hosts the **Signal-to-System Pipeline** as an executable workflow scaffold.
